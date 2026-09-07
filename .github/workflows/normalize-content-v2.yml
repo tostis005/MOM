@@ -11,6 +11,7 @@ on:
       - 'platform/normalize-mom-v2.py'
       - 'platform/refine-topic-taxonomy.py'
       - 'platform/validate-content.py'
+      - '.github/workflows/normalize-content-v2.yml'
 
 permissions:
   contents: write

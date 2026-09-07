@@ -36,4 +36,4 @@ jobs:
           git rebase origin/main
           git push origin HEAD:main
 
-# This audit intentionally runs after corpus-level editorial recovery as well as normal article updates.
+# Final editorial QA is recalculated after structural recovery and priority deep rewrites.

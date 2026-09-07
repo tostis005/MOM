@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""Refine MOM's broad topic taxonomy without touching editorial content.
+"""Refine MOM's broad topic taxonomy and enforce published article status.
 
 The generic normalizer guarantees valid canonical taxonomy IDs. This pass makes
 sure each article has exactly one broad navigation topic, inferred from the
 approved inventory intent rather than incidental audience/stage words. ES is
 canonical for each translation group and the same topic assignment is copied to
-EN.
+EN. MOM is publish-by-default, so every normalized article is also written with
+`status: "publish"`; this keeps current and future JSON synchronized with
+production as published posts.
 """
 from __future__ import annotations
 
@@ -119,11 +121,12 @@ def main() -> int:
             before = copy.deepcopy(data)
             taxonomy = data.setdefault("taxonomy", {})
             taxonomy["topic"] = copy.deepcopy(canonical)
+            data["status"] = "publish"
             if data != before:
                 save(path, data)
                 changed += 1
 
-    print(f"Refined broad topic taxonomy for {changed} article JSON file(s).")
+    print(f"Refined topic taxonomy and enforced publish status for {changed} article JSON file(s).")
     return 0
 
 

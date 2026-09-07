@@ -9,10 +9,10 @@ $current_flag     = 'en' === $current_language ? '🇺🇸' : '🇪🇸';
 $home_url         = mom_language_home_url();
 $site_name        = get_bloginfo( 'name' ) ? get_bloginfo( 'name' ) : 'MOM';
 $nav_items        = array(
-	array( 'anchor' => 'temas', 'label' => mom_t( 'Temas', 'Topics' ) ),
-	array( 'anchor' => 'etapas', 'label' => mom_t( 'Etapas', 'Stages' ) ),
-	array( 'anchor' => 'para-ti', 'label' => mom_t( 'Para quién', 'For whom' ) ),
-	array( 'anchor' => 'ultimos-articulos', 'label' => mom_t( 'Últimos artículos', 'Latest articles' ) ),
+	array( 'hub' => 'topics', 'label' => mom_t( 'Temas', 'Topics' ) ),
+	array( 'hub' => 'stages', 'label' => mom_t( 'Etapas', 'Stages' ) ),
+	array( 'hub' => 'audience', 'label' => mom_t( 'Para quién', 'For whom' ) ),
+	array( 'hub' => 'latest', 'label' => mom_t( 'Últimos artículos', 'Latest articles' ) ),
 );
 ?><!doctype html>
 <html <?php language_attributes(); ?>>
@@ -29,7 +29,6 @@ $nav_items        = array(
 			.header-main{grid-template-columns:minmax(170px,auto) 1fr auto;gap:18px}
 			.primary-nav{display:none}
 			.site-brand small{display:none}
-			.header-cta{padding-inline:15px}
 		}
 		@media (max-width:700px){
 			.header-main{min-height:66px}
@@ -50,7 +49,7 @@ $nav_items        = array(
 		<nav class="primary-nav" aria-label="<?php echo esc_attr( mom_t( 'Navegación principal', 'Primary navigation' ) ); ?>">
 			<ul>
 				<?php foreach ( $nav_items as $item ) : ?>
-					<li><a href="<?php echo esc_url( $home_url . '#' . $item['anchor'] ); ?>"><?php echo esc_html( $item['label'] ); ?></a></li>
+					<li><a href="<?php echo esc_url( mom_discovery_url( $item['hub'], $current_language ) ); ?>"><?php echo esc_html( $item['label'] ); ?></a></li>
 				<?php endforeach; ?>
 			</ul>
 		</nav>
@@ -62,7 +61,6 @@ $nav_items        = array(
 			<a class="header-search" href="<?php echo esc_url( add_query_arg( 's', '', $home_url ) ); ?>" aria-label="<?php echo esc_attr( mom_t( 'Buscar', 'Search' ) ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5 21 21"></path></svg>
 			</a>
-			<a class="header-cta" href="<?php echo esc_url( $home_url . '#comunidad' ); ?>"><?php echo esc_html( mom_t( 'Únete a la comunidad', 'Join the community' ) ); ?></a>
 			<button class="menu-trigger" type="button" data-open-overlay="mom-mobile-menu" aria-label="<?php echo esc_attr( mom_t( 'Abrir menú', 'Open menu' ) ); ?>" aria-haspopup="dialog">
 				<span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
 			</button>
@@ -82,12 +80,12 @@ $nav_items        = array(
 				<h2 id="mom-language-title"><?php echo esc_html( mom_t( 'Elige tu idioma', 'Choose your language' ) ); ?></h2>
 			</header>
 			<div class="language-options">
-				<a class="language-option <?php echo 'es' === $current_language ? 'is-current' : ''; ?>" href="<?php echo esc_url( mom_language_switch_url( 'es' ) ); ?>" hreflang="es-ES" lang="es">
+				<a class="language-option <?php echo 'es' === $current_language ? 'is-current' : ''; ?>" href="<?php echo esc_url( mom_context_language_switch_url( 'es' ) ); ?>" hreflang="es-ES" lang="es">
 					<span class="language-option-flag" aria-hidden="true">🇪🇸</span>
 					<span class="language-option-copy"><strong>Español</strong><small>España</small></span>
 					<span class="language-option-status" aria-hidden="true"><?php echo 'es' === $current_language ? '✓' : '→'; ?></span>
 				</a>
-				<a class="language-option <?php echo 'en' === $current_language ? 'is-current' : ''; ?>" href="<?php echo esc_url( mom_language_switch_url( 'en' ) ); ?>" hreflang="en-US" lang="en">
+				<a class="language-option <?php echo 'en' === $current_language ? 'is-current' : ''; ?>" href="<?php echo esc_url( mom_context_language_switch_url( 'en' ) ); ?>" hreflang="en-US" lang="en">
 					<span class="language-option-flag" aria-hidden="true">🇺🇸</span>
 					<span class="language-option-copy"><strong>English</strong><small>United States</small></span>
 					<span class="language-option-status" aria-hidden="true"><?php echo 'en' === $current_language ? '✓' : '→'; ?></span>
@@ -107,7 +105,7 @@ $nav_items        = array(
 			<nav class="mobile-menu-nav" aria-label="<?php echo esc_attr( mom_t( 'Menú móvil', 'Mobile menu' ) ); ?>">
 				<ul>
 					<?php foreach ( $nav_items as $item ) : ?>
-						<li><a href="<?php echo esc_url( $home_url . '#' . $item['anchor'] ); ?>"><?php echo esc_html( $item['label'] ); ?></a></li>
+						<li><a href="<?php echo esc_url( mom_discovery_url( $item['hub'], $current_language ) ); ?>"><?php echo esc_html( $item['label'] ); ?></a></li>
 					<?php endforeach; ?>
 				</ul>
 			</nav>
@@ -116,7 +114,6 @@ $nav_items        = array(
 					<span class="language-flag" aria-hidden="true"><?php echo esc_html( $current_flag ); ?></span>
 					<span><?php echo esc_html( mom_t( 'Cambiar idioma', 'Change language' ) ); ?></span>
 				</button>
-				<a class="mobile-menu-cta" href="<?php echo esc_url( $home_url . '#comunidad' ); ?>"><?php echo esc_html( mom_t( 'Únete a la comunidad', 'Join the community' ) ); ?></a>
 			</div>
 		</div>
 	</div>

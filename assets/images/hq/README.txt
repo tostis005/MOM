@@ -1,34 +1,21 @@
-MOM — REVISIÓN 3 COMPLETA
+MOM — REVISIÓN 4 · CAST CONSISTENTE
 
-Ruta:
+Ruta exacta:
 assets/images/hq/
 
-Sube TODOS los JPG y sobrescribe los existentes cuando GitHub lo pida.
-No cambies los nombres.
+Sube TODOS los JPG de este ZIP y sobrescribe los existentes.
 
-Este paquete contiene:
-- 1 hero
-- 15 imágenes de Temas
-- 10 imágenes de Etapas
-- 5 imágenes de Para ti
+OBJETIVOS DE ESTA REVISIÓN
+- 31 imágenes JPG diferentes entre sí: ninguna es un archivo duplicado.
+- Misma mujer recurrente en las escenas de maternidad.
+- Mismo hombre recurrente en las escenas donde aparece el padre/pareja.
+- Embarazo y preparación + posparto/recién nacido mantienen continuidad visual
+  de habitación, luz, mobiliario y paleta.
+- Hero preparado a 2400x1350.
+- Tarjetas preparadas a 1448x1086.
+- No cambies ningún nombre.
 
-Nuevas imágenes de Etapas:
-stage-pregnancy.jpg
-stage-preparing-for-baby.jpg
-stage-postpartum.jpg
-stage-newborn.jpg
-stage-baby.jpg
-stage-toddler.jpg
-stage-preschool.jpg
-stage-school-age.jpg
-stage-second-child-siblings.jpg
-stage-parenthood-general.jpg
-
-Nuevas imágenes de Para ti:
-audience-parents.jpg
-audience-mothers.jpg
-audience-fathers.jpg
-audience-couples.jpg
-audience-family-caregivers.jpg
-
-Todas las nuevas tarjetas están preparadas a 1448x1086 (4:3).
+DESPUÉS DE SUBIRLAS
+Vuelve al chat y di "ya están". Entonces ajustaré el hero en el código para que
+sea 100% integrado: imagen a sangre, sin marco, con el texto dentro de la misma
+composición mediante un degradado editorial, y revisaré el deploy.

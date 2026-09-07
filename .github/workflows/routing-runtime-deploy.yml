@@ -1,0 +1,136 @@
+name: Deploy MOM routing runtime
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'platform/mom-routing-runtime.php'
+      - '.github/workflows/routing-runtime-deploy.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: mom-routing-runtime-deploy
+  cancel-in-progress: true
+
+jobs:
+  routing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate routing runtime
+        run: php -l platform/mom-routing-runtime.php
+
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/mom_routing_key
+          chmod 600 ~/.ssh/mom_routing_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Upload routing runtime
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          scp -i ~/.ssh/mom_routing_key platform/mom-routing-runtime.php \
+            "$VPS_USER@$VPS_HOST:/tmp/mom-routing-runtime.php"
+
+      - name: Install runtime, flush routes and smoke-test URLs
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/mom_routing_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+
+          if docker inspect mom-wp >/dev/null 2>&1; then
+            DOCKER=(docker)
+          elif sudo -n docker inspect mom-wp >/dev/null 2>&1; then
+            DOCKER=(sudo -n docker)
+          else
+            echo 'ERROR: cannot access mom-wp container.' >&2
+            exit 1
+          fi
+
+          "${DOCKER[@]}" exec mom-wp sh -lc 'mkdir -p /var/www/html/wp-content/mu-plugins'
+          "${DOCKER[@]}" cp /tmp/mom-routing-runtime.php mom-wp:/var/www/html/wp-content/mu-plugins/mom-routing-runtime.php
+          "${DOCKER[@]}" exec mom-wp sh -lc 'chown www-data:www-data /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php && chmod 644 /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php'
+          "${DOCKER[@]}" exec mom-wp php -l /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php
+
+          ROUTE_INFO="$("${DOCKER[@]}" exec mom-wp php -r '
+            require "/var/www/html/wp-load.php";
+            flush_rewrite_rules(false);
+            $home = rtrim(home_url("/"), "/");
+            echo "HOME={$home}\n";
+            foreach (["es", "en"] as $lang) {
+                $ids = get_posts([
+                    "post_type" => "post",
+                    "post_status" => "publish",
+                    "posts_per_page" => 1,
+                    "fields" => "ids",
+                    "suppress_filters" => true,
+                    "ignore_sticky_posts" => true,
+                    "meta_query" => [["key" => "_content_language", "value" => $lang]],
+                ]);
+                $slug = $ids ? get_post_field("post_name", (int) $ids[0]) : "";
+                echo strtoupper($lang) . "_ARTICLE_SLUG={$slug}\n";
+            }
+            $tax_count = 0;
+            if (function_exists("content_platform_taxonomies")) {
+                foreach (content_platform_taxonomies() as $definition) {
+                    $tax_count += !empty($definition["terms"]) && is_array($definition["terms"]) ? count($definition["terms"]) : 0;
+                }
+            }
+            echo "TAXONOMY_TERMS={$tax_count}\n";
+          ')"
+
+          printf '%s\n' "$ROUTE_INFO"
+          HOME_URL="$(printf '%s\n' "$ROUTE_INFO" | sed -n 's/^HOME=//p' | tail -n1)"
+          ES_ARTICLE_SLUG="$(printf '%s\n' "$ROUTE_INFO" | sed -n 's/^ES_ARTICLE_SLUG=//p' | tail -n1)"
+          EN_ARTICLE_SLUG="$(printf '%s\n' "$ROUTE_INFO" | sed -n 's/^EN_ARTICLE_SLUG=//p' | tail -n1)"
+
+          test -n "$HOME_URL"
+
+          check_url() {
+            url="$1"
+            if command -v curl >/dev/null 2>&1; then
+              code="$(curl -L --max-redirs 5 --connect-timeout 10 --max-time 30 -sS -o /dev/null -w '%{http_code}' "$url")"
+            elif command -v wget >/dev/null 2>&1; then
+              code="$(wget -q --server-response --max-redirect=5 -O /dev/null "$url" 2>&1 | awk '/^  HTTP\// {code=$2} END {print code}')"
+            else
+              echo 'ERROR: neither curl nor wget is available on the VPS.' >&2
+              exit 1
+            fi
+            printf 'ROUTE_CHECK %s %s\n' "$code" "$url"
+            case "$code" in
+              2??) ;;
+              *) echo "ERROR: route failed: $url -> HTTP $code" >&2; exit 1 ;;
+            esac
+          }
+
+          check_url "$HOME_URL/"
+          check_url "$HOME_URL/en/"
+          check_url "$HOME_URL/temas/sueno/"
+          check_url "$HOME_URL/en/topics/sleep/"
+          check_url "$HOME_URL/etapas/bebe/"
+          check_url "$HOME_URL/en/stages/baby/"
+
+          if [ -n "$ES_ARTICLE_SLUG" ]; then
+            check_url "$HOME_URL/$ES_ARTICLE_SLUG/"
+          fi
+          if [ -n "$EN_ARTICLE_SLUG" ]; then
+            check_url "$HOME_URL/en/$EN_ARTICLE_SLUG/"
+          fi
+
+          echo 'MOM localized routing smoke tests passed.'
+          REMOTE

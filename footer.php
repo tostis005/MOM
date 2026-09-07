@@ -4,30 +4,13 @@
  *
  * @package MOM
  */
-$footer_home = mom_language_home_url();
 ?>
 </main>
 <footer class="site-footer">
 	<div class="container footer-main">
-		<div>
+		<div style="grid-column: 1 / -1;">
 			<div class="footer-brand"><?php echo esc_html( get_bloginfo( 'name' ) ? get_bloginfo( 'name' ) : 'MOM' ); ?></div>
 			<p class="footer-copy"><?php echo esc_html( mom_t( 'Información práctica para entender mejor la crianza, la maternidad y la vida familiar sin convertir cada día en un examen.', 'Practical information to understand parenting, motherhood and family life without turning every day into a test.' ) ); ?></p>
-		</div>
-		<div class="footer-links">
-			<h3><?php echo esc_html( mom_t( 'Explorar', 'Explore' ) ); ?></h3>
-			<ul>
-				<li><a href="<?php echo esc_url( $footer_home . '#temas' ); ?>"><?php echo esc_html( mom_t( 'Por tema', 'By topic' ) ); ?></a></li>
-				<li><a href="<?php echo esc_url( $footer_home . '#etapas' ); ?>"><?php echo esc_html( mom_t( 'Por etapa', 'By stage' ) ); ?></a></li>
-				<li><a href="<?php echo esc_url( $footer_home . '#para-ti' ); ?>"><?php echo esc_html( mom_t( 'Para quién', 'For whom' ) ); ?></a></li>
-			</ul>
-		</div>
-		<div class="footer-links">
-			<h3>MOM</h3>
-			<ul>
-				<li><a href="<?php echo esc_url( $footer_home ); ?>"><?php echo esc_html( mom_t( 'Inicio', 'Home' ) ); ?></a></li>
-				<li><a href="<?php echo esc_url( $footer_home . '#ultimos-articulos' ); ?>"><?php echo esc_html( mom_t( 'Últimos artículos', 'Latest articles' ) ); ?></a></li>
-				<li><a href="<?php echo esc_url( $footer_home . '#comunidad' ); ?>"><?php echo esc_html( mom_t( 'Comunidad', 'Community' ) ); ?></a></li>
-			</ul>
 		</div>
 	</div>
 	<div class="container footer-bottom">© <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo esc_html( get_bloginfo( 'name' ) ? get_bloginfo( 'name' ) : 'MOM' ); ?></div>

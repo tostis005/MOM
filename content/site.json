@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "site_id": "mom",
+  "content_contract_version": 2,
+  "post_type": "post",
+  "languages": {
+    "es": {
+      "locale": "es-ES"
+    },
+    "en": {
+      "locale": "en-US"
+    }
+  },
+  "content": {
+    "render_sources_in_body": true,
+    "strict_taxonomy_terms": true
+  },
+  "navigation": {
+    "home_axes": [
+      "topic",
+      "stage",
+      "audience"
+    ]
+  },
+  "taxonomies": [
+    "content/taxonomies/topic.json",
+    "content/taxonomies/stage.json",
+    "content/taxonomies/audience.json",
+    "content/taxonomies/article-type.json"
+  ],
+  "legacy_v1": {
+    "enabled": true,
+    "taxonomy_fields": {
+      "food_family": {
+        "dimension": "topic",
+        "mode": "primary"
+      },
+      "food_subcategories": {
+        "dimension": "topic",
+        "mode": "terms"
+      },
+      "article_types": {
+        "dimension": "article_type",
+        "mode": "terms"
+      },
+      "primary_article_type": {
+        "dimension": "article_type",
+        "mode": "primary"
+      }
+    }
+  },
+  "default_language": "es"
+}

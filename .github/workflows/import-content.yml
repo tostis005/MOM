@@ -9,7 +9,7 @@ on:
     paths:
       - 'platform/import-content.php'
       - 'platform/content-platform.php'
-      - '.github/workflows/reusable-content-import.yml'
+      - '.github/workflows/reusable-mom-content-import.yml'
   workflow_dispatch:
     inputs:
       language:
@@ -80,7 +80,7 @@ jobs:
   import:
     needs: preflight
     if: needs.preflight.outputs.ready == 'true'
-    uses: ./.github/workflows/reusable-content-import.yml
+    uses: ./.github/workflows/reusable-mom-content-import.yml
     with:
       language: ${{ inputs.language || 'all' }}
       from: ${{ inputs.from || '1' }}

@@ -32,6 +32,14 @@ $footer_home = mom_language_home_url();
 	</div>
 	<div class="container footer-bottom">© <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo esc_html( get_bloginfo( 'name' ) ? get_bloginfo( 'name' ) : 'MOM' ); ?></div>
 </footer>
-<?php wp_footer(); ?>
+<?php
+$pagination_script = get_template_directory() . '/assets/js/responsive-pagination.js';
+if ( file_exists( $pagination_script ) ) :
+	?>
+	<script src="<?php echo esc_url( get_template_directory_uri() . '/assets/js/responsive-pagination.js' ); ?>?ver=<?php echo esc_attr( (string) filemtime( $pagination_script ) ); ?>" defer></script>
+	<?php
+endif;
+wp_footer();
+?>
 </body>
 </html>

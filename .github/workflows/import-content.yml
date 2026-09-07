@@ -1,13 +1,14 @@
 name: Import MOM content
 
 on:
+  workflow_run:
+    workflows: ["Normalize content v2"]
+    types: [completed]
   push:
     branches: [main]
     paths:
-      - 'content/articles/*/*.json'
-      - 'content/site.json'
-      - 'content/taxonomies/*.json'
-      - 'platform/**'
+      - 'platform/import-content.php'
+      - 'platform/content-platform.php'
       - '.github/workflows/reusable-content-import.yml'
   workflow_dispatch:
     inputs:
@@ -42,12 +43,15 @@ permissions:
 
 jobs:
   preflight:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     outputs:
       ready: ${{ steps.contract.outputs.ready }}
     steps:
-      - name: Checkout triggering revision
+      - name: Checkout normalized main
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Require Content Contract v2 before importing
         id: contract

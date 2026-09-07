@@ -144,6 +144,50 @@ function content_platform_home_terms( $dimension, $language = '' ) {
     );
 }
 
+function content_platform_dimension_terms( $dimension, $parent = null, $language = '' ) {
+    $config = content_platform_dimension_config( $dimension );
+    if ( empty( $config['terms'] ) || ! is_array( $config['terms'] ) ) {
+        return array();
+    }
+
+    $terms = array_filter(
+        $config['terms'],
+        static function ( $term ) use ( $parent ) {
+            if ( ! is_array( $term ) || empty( $term['id'] ) ) {
+                return false;
+            }
+            if ( null === $parent ) {
+                return true;
+            }
+            $term_parent = isset( $term['parent'] ) && null !== $term['parent'] ? (string) $term['parent'] : '';
+            return (string) $parent === $term_parent;
+        }
+    );
+
+    usort(
+        $terms,
+        static function ( $a, $b ) {
+            return (int) ( $a['order'] ?? $a['home_order'] ?? 9999 ) <=> (int) ( $b['order'] ?? $b['home_order'] ?? 9999 );
+        }
+    );
+
+    return array_map(
+        static function ( $term ) use ( $dimension, $language ) {
+            return array(
+                'id'     => (string) $term['id'],
+                'parent' => isset( $term['parent'] ) && null !== $term['parent'] ? (string) $term['parent'] : '',
+                'label'  => content_platform_term_label( $dimension, $term['id'], $language ),
+                'slug'   => content_platform_localized_value( $term['slug'] ?? $term['id'], $language ),
+            );
+        },
+        $terms
+    );
+}
+
+function content_platform_child_terms( $dimension, $parent_id, $language = '' ) {
+    return content_platform_dimension_terms( $dimension, (string) $parent_id, $language );
+}
+
 function content_platform_register_taxonomies() {
     $site      = content_platform_site_config();
     $post_type = ! empty( $site['post_type'] ) ? (string) $site['post_type'] : 'post';

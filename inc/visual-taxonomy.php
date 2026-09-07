@@ -1,6 +1,6 @@
 <?php
 /**
- * Lightweight editorial SVG artwork for MOM taxonomy cards.
+ * Lightweight editorial artwork for MOM taxonomy cards.
  *
  * @package MOM
  */
@@ -10,6 +10,33 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function mom_topic_art_svg( $id ) {
+	/* Prefer the canonical HQ category photo everywhere a post/card needs a fallback. */
+	$photos = array(
+		'sleep'                       => 'topic-sleep.jpg',
+		'parenting-behavior'          => 'topic-parenting-behavior.jpg',
+		'child-feeding'               => 'topic-child-feeding.jpg',
+		'potty-hygiene-autonomy'      => 'topic-potty-hygiene-autonomy.jpg',
+		'routines-family-life'        => 'topic-routines-family-life.jpg',
+		'play-learning-autonomy'      => 'topic-play-learning-autonomy.jpg',
+		'childcare-school-social'     => 'topic-childcare-school-social.jpg',
+		'pregnancy-preparation'       => 'topic-pregnancy-preparation.jpg',
+		'postpartum-newborn'          => 'topic-postpartum-newborn.jpg',
+		'breastfeeding-baby-feeding'  => 'topic-breastfeeding-baby-feeding.jpg',
+		'couple-coparenting'          => 'topic-couple-coparenting.jpg',
+		'motherhood-identity'         => 'topic-motherhood-identity.jpg',
+		'family-siblings-boundaries'  => 'topic-family-siblings-boundaries.jpg',
+		'work-balance-life'           => 'topic-work-balance-life.jpg',
+		'travel-outings-celebrations' => 'topic-travel-outings-celebrations.jpg',
+	);
+
+	if ( ! empty( $photos[ $id ] ) ) {
+		$file = trailingslashit( get_template_directory() ) . 'assets/images/hq/' . $photos[ $id ];
+		if ( file_exists( $file ) ) {
+			$url = trailingslashit( get_template_directory_uri() ) . 'assets/images/hq/' . $photos[ $id ];
+			return '<img class="mom-topic-fallback-image" src="' . esc_url( $url ) . '" width="1448" height="1086" alt="" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block">';
+		}
+	}
+
 	$paths = array(
 		'sleep' => '<path d="M43 12c-4 2-7 7-7 12 0 10 8 18 18 18 2 0 4 0 6-1-4 8-12 13-22 13-13 0-24-10-24-23S24 8 37 8c2 0 4 0 6 1Z"/><path d="m17 15 2 4 4 2-4 2-2 4-2-4-4-2 4-2 2-4Zm36-2 1.5 3 3.5 1.5-3.5 1.5-1.5 3-1.5-3-3.5-1.5 3.5-1.5 1.5-3Z"/>',
 		'parenting-behavior' => '<circle cx="22" cy="20" r="7"/><circle cx="44" cy="25" r="5"/><path d="M9 53c1-13 6-21 14-21 9 0 13 7 14 21M35 53c1-10 4-16 10-16 6 0 9 6 10 16"/><path d="M29 35c5 3 9 6 12 10M31 43c5-1 8-4 10-8"/>',

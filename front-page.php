@@ -39,16 +39,16 @@ $topic_images = array(
 );
 
 $stage_images = array(
-	'pregnancy'             => 'stage-pregnancy.jpg',
-	'preparing-for-baby'    => 'stage-preparing-for-baby.jpg',
-	'postpartum'             => 'stage-postpartum.jpg',
-	'newborn'                => 'stage-newborn.jpg',
-	'baby'                   => 'stage-baby.jpg',
-	'toddler'                => 'stage-toddler.jpg',
-	'preschool'              => 'stage-preschool.jpg',
-	'school-age'             => 'stage-school-age.jpg',
-	'second-child-siblings'  => 'stage-second-child-siblings.jpg',
-	'parenthood-general'     => 'stage-parenthood-general.jpg',
+	'pregnancy'            => 'stage-pregnancy.jpg',
+	'preparing-for-baby'   => 'stage-preparing-for-baby.jpg',
+	'postpartum'            => 'stage-postpartum.jpg',
+	'newborn'               => 'stage-newborn.jpg',
+	'baby'                  => 'stage-baby.jpg',
+	'toddler'               => 'stage-toddler.jpg',
+	'preschool'             => 'stage-preschool.jpg',
+	'school-age'            => 'stage-school-age.jpg',
+	'second-child-siblings' => 'stage-second-child-siblings.jpg',
+	'parenthood-general'    => 'stage-parenthood-general.jpg',
 );
 
 $audience_images = array(
@@ -63,18 +63,23 @@ $hero_image = $asset_url( 'hero-mother-baby.jpg' );
 ?>
 
 <style>
-.home-hero{padding:22px 0 28px}.hero-shell{min-height:520px;grid-template-columns:minmax(0,1.04fr) minmax(430px,.96fr);align-items:stretch;border-radius:28px;overflow:hidden}.hero-copy{padding:clamp(42px,5vw,72px) clamp(34px,4.8vw,70px);justify-content:center}.hero-copy h1{max-width:10.5ch;margin:14px 0 18px;font-size:clamp(50px,5.25vw,72px);line-height:.99;letter-spacing:-.048em}.hero-copy>p:not(.hero-signature){max-width:51ch;font-size:clamp(16px,1.35vw,18px);line-height:1.55}.hero-media{min-height:520px;position:relative;overflow:hidden;background:#e4d3c7}.mom-hq-hero{width:100%;height:100%;object-fit:cover;object-position:center 43%;display:block}.hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(50,35,30,.06),transparent 28%,rgba(42,30,27,.03));pointer-events:none}.hero-quote{right:24px;top:auto;bottom:24px;max-width:184px;padding:14px 16px;border:1px solid rgba(124,73,68,.14);border-radius:15px;background:rgba(255,253,251,.9);backdrop-filter:blur(10px);color:#5d4540;text-shadow:none;box-shadow:0 12px 30px rgba(66,45,39,.08)}.hero-quote span{font-size:18px;line-height:1.22}.hero-quote strong{margin-top:9px;color:#7c4944}.hero-search-premium{display:flex;align-items:center;gap:8px;max-width:590px;margin-top:27px;padding:7px 7px 7px 18px;border:1px solid #e1d3ca;border-radius:999px;background:#fff;box-shadow:0 10px 30px rgba(63,44,39,.055)}.hero-search-premium span{font-size:18px;color:#927c73}.hero-search-premium input{min-width:0;flex:1;border:0;outline:0;background:transparent;padding:9px 5px;color:var(--mom-ink);font-size:13px}.hero-search-premium button{border:0;border-radius:999px;background:var(--mom-rose);color:#fff;min-height:40px;padding:0 21px;font-size:12px;font-weight:800;cursor:pointer}.hero-trust{display:flex;flex-wrap:wrap;gap:9px 20px;margin-top:20px;color:#776c67;font-size:10.5px}.hero-trust span{display:flex;align-items:center;gap:7px}.hero-trust i{width:22px;height:22px;display:grid;place-items:center;border:1px solid #dbc5bb;border-radius:50%;color:#9b625a;font-style:normal;font-size:10px;background:rgba(255,255,255,.45)}
+.home-hero{padding:0;margin:0 0 18px}.home-hero>.container{width:100%;max-width:none;padding:0}.hero-shell{position:relative;isolation:isolate;display:flex;align-items:center;min-height:clamp(590px,48vw,720px);overflow:hidden;border:0;border-radius:0;background:#e8d8ce}.hero-shell::after{content:"";position:absolute;z-index:1;inset:0;background:linear-gradient(90deg,rgba(250,246,242,.99) 0%,rgba(250,246,242,.95) 26%,rgba(250,246,242,.72) 45%,rgba(250,246,242,.24) 62%,rgba(250,246,242,0) 78%);pointer-events:none}.mom-hq-hero{position:absolute;z-index:0;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 43%;display:block}.hero-copy{position:relative;z-index:2;width:min(100%,1240px);margin:0 auto;padding:clamp(62px,6vw,92px) clamp(28px,5vw,76px);display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.hero-copy .eyebrow{color:#995b57;letter-spacing:.16em}.hero-copy h1{max-width:9.6ch;margin:14px 0 18px;font-size:clamp(54px,5.8vw,82px);line-height:.95;letter-spacing:-.052em;color:#2e292a;text-wrap:balance}.hero-copy>p:not(.hero-signature){max-width:48ch;margin:0;color:#5d5350;font-size:clamp(16px,1.35vw,19px);line-height:1.55}.hero-search-premium{display:flex;align-items:center;gap:8px;width:min(100%,590px);margin-top:28px;padding:7px 7px 7px 18px;border:1px solid rgba(150,112,101,.22);border-radius:999px;background:rgba(255,255,255,.94);box-shadow:0 12px 30px rgba(63,44,39,.07);backdrop-filter:blur(10px)}.hero-search-premium span{font-size:18px;color:#927c73}.hero-search-premium input{min-width:0;flex:1;border:0;outline:0;background:transparent;padding:9px 5px;color:var(--mom-ink);font-size:13px}.hero-search-premium button{border:0;border-radius:999px;background:var(--mom-rose);color:#fff;min-height:40px;padding:0 22px;font-size:12px;font-weight:800;cursor:pointer}.hero-trust{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:21px;color:#6d625e;font-size:11px}.hero-trust span{display:flex;align-items:center;gap:7px}.hero-trust i{width:23px;height:23px;display:grid;place-items:center;border:1px solid rgba(155,95,96,.26);border-radius:50%;color:#945b56;font-style:normal;font-size:10px;background:rgba(255,255,255,.5)}.hero-quote{position:absolute;z-index:2;right:clamp(28px,5vw,76px);bottom:34px;max-width:220px;padding:0;border:0;background:transparent;box-shadow:none;color:#fff;text-align:right;text-shadow:0 2px 16px rgba(42,29,25,.28)}.hero-quote span{display:block;font:italic 500 21px/1.28 Georgia,serif}.hero-quote strong{display:block;margin-top:6px;color:#fff;font:700 12px/1 sans-serif;letter-spacing:.18em}
 .discovery-section{padding:48px 0}.discovery-section+.discovery-section{border-top:1px solid rgba(233,223,215,.72)}.discovery-head{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:24px}.discovery-head h2{margin:0;font:500 clamp(30px,3vw,42px)/1.04 Georgia,serif;letter-spacing:-.04em}.discovery-head p{max-width:580px;margin:7px 0 0;color:var(--mom-muted);font-size:13px}.taxonomy-photo-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px 16px}.taxonomy-photo-card{min-width:0;text-decoration:none}.taxonomy-photo-media{position:relative;overflow:hidden;aspect-ratio:4/3;border-radius:18px;background:linear-gradient(145deg,#f2e5df,#ead7cd);box-shadow:0 10px 28px rgba(61,43,38,.055)}.taxonomy-photo-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .28s ease}.taxonomy-photo-card:hover .taxonomy-photo-media img{transform:scale(1.025)}.taxonomy-photo-fallback{width:100%;height:100%;display:grid;place-items:center;color:var(--topic-accent,#9b5f60)}.taxonomy-photo-fallback svg{width:34%;height:34%}.taxonomy-photo-copy{padding:11px 4px 0;text-align:center}.taxonomy-photo-copy strong{display:block;font:500 16px/1.2 Georgia,serif}.taxonomy-photo-copy small{display:block;margin-top:5px;color:var(--mom-muted);font-size:10.5px;line-height:1.32}.stage-photo-grid .taxonomy-photo-copy strong{font-size:14px}.audience-section-grid{background:linear-gradient(180deg,#faf5f1 0%,#fffdfb 100%)}.audience-photo-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.audience-photo-grid .taxonomy-photo-media{aspect-ratio:5/4}.audience-photo-grid .taxonomy-photo-copy strong{font-size:17px}
 .stories-section{padding:52px 0 44px}.story-grid{gap:18px}.story-card{border-radius:16px;box-shadow:0 10px 28px rgba(61,43,38,.035)}.story-card>a{display:block;min-height:0}.story-media{min-height:0;aspect-ratio:16/10;background:#f1e3dc;overflow:hidden}.story-media img,.story-media .story-fallback img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}.story-fallback{width:100%;height:100%;display:grid;place-items:center;background:linear-gradient(145deg,#f2e5df,#ead7cd);overflow:hidden}.story-fallback svg{width:34%;height:34%}.story-body{min-height:176px;padding:18px 18px 16px}.story-body h3{font-size:20px;line-height:1.12;margin:9px 0 8px}.story-body p{font-size:11.5px;line-height:1.42}.story-meta{font-size:10px;padding-top:12px}
-@media(max-width:1180px){.taxonomy-photo-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.audience-photo-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.hero-shell{grid-template-columns:minmax(0,1fr) minmax(380px,.9fr)}}
-@media(max-width:900px){.hero-shell{grid-template-columns:minmax(0,1fr) minmax(330px,.82fr)}.hero-copy{padding:40px 32px}.hero-copy h1{font-size:clamp(46px,6vw,60px)}.taxonomy-photo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.audience-photo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.story-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:700px){.hero-shell{grid-template-columns:1fr;min-height:0}.hero-copy{padding:38px 24px 30px}.hero-copy h1{font-size:clamp(43px,12vw,58px);max-width:11ch}.hero-media{min-height:390px}.hero-quote{right:18px;bottom:18px}.hero-search-premium{margin-top:22px}.hero-trust{gap:8px 13px}.discovery-section{padding:36px 0}.discovery-head{align-items:flex-start}.taxonomy-photo-grid,.audience-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px}.taxonomy-photo-copy strong{font-size:14px}.taxonomy-photo-copy small{display:none}.story-grid{grid-template-columns:1fr;gap:14px}.story-body{min-height:0}}
+@media(max-width:1180px){.taxonomy-photo-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.audience-photo-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.hero-shell::after{background:linear-gradient(90deg,rgba(250,246,242,.99) 0%,rgba(250,246,242,.93) 34%,rgba(250,246,242,.55) 58%,rgba(250,246,242,0) 82%)}}
+@media(max-width:900px){.hero-shell{min-height:610px}.hero-copy{padding:54px 32px}.hero-copy h1{font-size:clamp(48px,7vw,64px)}.hero-shell::after{background:linear-gradient(90deg,rgba(250,246,242,.98) 0%,rgba(250,246,242,.91) 48%,rgba(250,246,242,.34) 74%,rgba(250,246,242,.08) 100%)}.hero-quote{right:28px;bottom:26px}.taxonomy-photo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.audience-photo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.story-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.hero-shell{min-height:650px;align-items:flex-end}.mom-hq-hero{object-position:63% center}.hero-shell::after{background:linear-gradient(180deg,rgba(250,246,242,.18) 0%,rgba(250,246,242,.42) 32%,rgba(250,246,242,.94) 63%,rgba(250,246,242,.99) 100%)}.hero-copy{justify-content:flex-end;padding:250px 24px 34px}.hero-copy h1{font-size:clamp(43px,12vw,58px);max-width:10.5ch}.hero-copy>p:not(.hero-signature){font-size:15px}.hero-search-premium{margin-top:22px}.hero-trust{gap:8px 13px}.hero-quote{display:none}.discovery-section{padding:36px 0}.discovery-head{align-items:flex-start}.taxonomy-photo-grid,.audience-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px}.taxonomy-photo-copy strong{font-size:14px}.taxonomy-photo-copy small{display:none}.story-grid{grid-template-columns:1fr;gap:14px}.story-body{min-height:0}}
 @media(max-width:480px){.hero-search-premium button{padding:0 15px}.hero-trust span:nth-child(3){display:none}.taxonomy-photo-grid,.audience-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.taxonomy-photo-media{border-radius:14px}}
 </style>
 
 <section class="home-hero">
 	<div class="container">
 		<div class="hero-shell">
+			<?php if ( $hero_image ) : ?>
+				<img class="mom-hq-hero" src="<?php echo esc_url( $hero_image ); ?>" width="2400" height="1350" sizes="100vw" alt="<?php echo esc_attr( mom_t( 'Madre abrazando a su bebé en casa', 'Mother holding her baby at home' ) ); ?>" loading="eager" fetchpriority="high" decoding="async">
+			<?php else : ?>
+				<div class="hero-art-fallback"><?php echo mom_hero_art_svg(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+			<?php endif; ?>
 			<div class="hero-copy">
 				<span class="eyebrow"><?php echo esc_html( mom_t( 'Maternidad con sentido', 'Motherhood with meaning' ) ); ?></span>
 				<h1><?php echo esc_html( mom_t( 'Acompañándote en cada etapa', 'With you through every stage' ) ); ?></h1>
@@ -90,14 +95,7 @@ $hero_image = $asset_url( 'hero-mother-baby.jpg' );
 					<span><i aria-hidden="true">○</i><?php echo esc_html( mom_t( 'Para la vida real', 'For real life' ) ); ?></span>
 				</div>
 			</div>
-			<div class="hero-media">
-				<?php if ( $hero_image ) : ?>
-					<img class="mom-hq-hero" src="<?php echo esc_url( $hero_image ); ?>" width="2400" height="1350" sizes="(max-width:700px) 100vw, 48vw" alt="<?php echo esc_attr( mom_t( 'Madre abrazando a su bebé en casa', 'Mother holding her baby at home' ) ); ?>" loading="eager" fetchpriority="high" decoding="async">
-				<?php else : ?>
-					<div class="hero-art-fallback"><?php echo mom_hero_art_svg(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
-				<?php endif; ?>
-				<div class="hero-quote"><span><?php echo esc_html( mom_t( '“Aquí también importas tú.”', '“You matter here, too.”' ) ); ?></span><strong>MOM.</strong></div>
-			</div>
+			<div class="hero-quote"><span><?php echo esc_html( mom_t( 'Pequeños momentos, grandes historias.', 'Small moments, big stories.' ) ); ?></span><strong>MOM.</strong></div>
 		</div>
 	</div>
 </section>

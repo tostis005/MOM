@@ -31,7 +31,9 @@ jobs:
           set -euo pipefail
           test -f style.css
           test -f functions.php
+          test -f platform/mom-routing-runtime.php
           find . -type f -name '*.php' -not -path './content/*' -not -path './docs/*' -not -path './platform/*' -print0 | xargs -0 -r -n1 php -l
+          php -l platform/mom-routing-runtime.php
 
       - name: Configure SSH
         env:
@@ -76,13 +78,14 @@ jobs:
             --exclude='./README.md' \
             -czf /tmp/mom-theme.tar.gz .
 
-      - name: Upload theme package
+      - name: Upload theme package and routing runtime
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
         run: |
           set -euo pipefail
           scp -i ~/.ssh/mom_deploy_key /tmp/mom-theme.tar.gz "$VPS_USER@$VPS_HOST:/tmp/mom-theme-${GITHUB_RUN_ID}.tar.gz"
+          scp -i ~/.ssh/mom_deploy_key platform/mom-routing-runtime.php "$VPS_USER@$VPS_HOST:/tmp/mom-routing-runtime-${GITHUB_RUN_ID}.php"
 
       - name: Deploy into mom-wp container
         env:
@@ -94,11 +97,12 @@ jobs:
           set -euo pipefail
 
           ARCHIVE="/tmp/mom-theme-${GITHUB_RUN_ID}.tar.gz"
+          ROUTING="/tmp/mom-routing-runtime-${GITHUB_RUN_ID}.php"
           STAGE="/tmp/mom-theme-${GITHUB_RUN_ID}"
           TARGET="/var/www/html/wp-content/themes/mom"
 
           cleanup() {
-            rm -rf "$ARCHIVE" "$STAGE"
+            rm -rf "$ARCHIVE" "$ROUTING" "$STAGE"
           }
           trap cleanup EXIT
 
@@ -119,6 +123,24 @@ jobs:
           "${DOCKER[@]}" cp "$STAGE/." "mom-wp:$TARGET/"
           "${DOCKER[@]}" exec mom-wp sh -lc "chown -R www-data:www-data '$TARGET' && find '$TARGET' -type d -exec chmod 755 {} + && find '$TARGET' -type f -exec chmod 644 {} +"
           "${DOCKER[@]}" exec mom-wp sh -lc "test -f '$TARGET/style.css' && test -f '$TARGET/functions.php'"
+
+          "${DOCKER[@]}" exec mom-wp sh -lc 'mkdir -p /var/www/html/wp-content/mu-plugins'
+          "${DOCKER[@]}" cp "$ROUTING" mom-wp:/var/www/html/wp-content/mu-plugins/mom-routing-runtime.php
+          "${DOCKER[@]}" exec mom-wp sh -lc 'chown www-data:www-data /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php && chmod 644 /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php'
+          "${DOCKER[@]}" exec mom-wp php -l /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php
+
+          "${DOCKER[@]}" exec mom-wp sh -lc 'printf "%s\n" "# BEGIN WordPress" "<IfModule mod_rewrite.c>" "RewriteEngine On" "RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]" "RewriteBase /" "RewriteRule ^index\\.php$ - [L]" "RewriteCond %{REQUEST_FILENAME} !-f" "RewriteCond %{REQUEST_FILENAME} !-d" "RewriteRule . /index.php [L]" "</IfModule>" "# END WordPress" > /var/www/html/.htaccess && chown www-data:www-data /var/www/html/.htaccess && chmod 644 /var/www/html/.htaccess'
+
+          HOME_URL="$("${DOCKER[@]}" exec mom-wp php -r 'require "/var/www/html/wp-load.php"; if ("/%postname%/" !== get_option("permalink_structure")) { update_option("permalink_structure", "/%postname%/"); } flush_rewrite_rules(true); echo rtrim(home_url("/"), "/");')"
+          test -n "$HOME_URL"
+
+          if command -v curl >/dev/null 2>&1; then
+            for route in / /en/ /temas/sueno/ /en/topics/sleep/; do
+              code="$(curl -L --max-redirs 5 --connect-timeout 10 --max-time 30 -sS -o /dev/null -w '%{http_code}' "$HOME_URL$route")"
+              echo "ROUTE_CHECK $code $HOME_URL$route"
+              case "$code" in 2??) ;; *) exit 1 ;; esac
+            done
+          fi
 
           echo "MOM desplegado correctamente en mom-wp:$TARGET"
           REMOTE

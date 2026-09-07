@@ -15,10 +15,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 function mom_static_image_profiles() {
 	return array(
-		'thumb'     => array( 'width' => 480, 'quality' => 72 ),
-		'card'      => array( 'width' => 760, 'quality' => 76 ),
-		'hero'      => array( 'width' => 1200, 'quality' => 80 ),
-		'home-hero' => array( 'width' => 1600, 'quality' => 80 ),
+		'thumb'            => array( 'width' => 480, 'quality' => 72 ),
+		'card'             => array( 'width' => 760, 'quality' => 76 ),
+		'hero-mobile'      => array( 'width' => 720, 'quality' => 78 ),
+		'hero'             => array( 'width' => 1200, 'quality' => 80 ),
+		'home-hero-mobile' => array( 'width' => 900, 'quality' => 78 ),
+		'home-hero'        => array( 'width' => 1600, 'quality' => 80 ),
 	);
 }
 
@@ -146,14 +148,20 @@ function mom_optimize_static_theme_images_html( $html ) {
 	return preg_replace_callback(
 		"#<img\\b[^>]*\\bsrc=(\"|')([^\"']*/assets/images/hq/([^\"']+\\.jpg))\\1[^>]*>#i",
 		static function ( $matches ) {
-			$tag      = $matches[0];
-			$filename = rawurldecode( wp_basename( $matches[3] ) );
-			$profile  = 'thumb';
+			$tag            = $matches[0];
+			$filename       = rawurldecode( wp_basename( $matches[3] ) );
+			$profile        = 'thumb';
+			$mobile_profile = '';
+			$sizes          = '';
 
 			if ( false !== stripos( $tag, 'mom-hq-hero' ) ) {
-				$profile = 'home-hero';
+				$profile        = 'home-hero';
+				$mobile_profile = 'home-hero-mobile';
+				$sizes          = '100vw';
 			} elseif ( false !== stripos( $tag, 'fetchpriority="high"' ) || false !== stripos( $tag, "fetchpriority='high'" ) || false !== stripos( $tag, 'article-banner-image' ) ) {
-				$profile = 'hero';
+				$profile        = 'hero';
+				$mobile_profile = 'hero-mobile';
+				$sizes          = '(max-width: 720px) 100vw, 60vw';
 			} elseif ( false !== stripos( $tag, 'mom-topic-fallback-image' ) ) {
 				$profile = 'card';
 			}
@@ -170,6 +178,18 @@ function mom_optimize_static_theme_images_html( $html ) {
 			if ( ! empty( $image['height'] ) ) {
 				$tag = preg_replace( "#\\bheight=(\"|')[^\"']*\\1#i", 'height="' . (int) $image['height'] . '"', $tag, 1 );
 			}
+
+			if ( $mobile_profile ) {
+				$mobile = mom_static_image_variant( $filename, $mobile_profile );
+				if ( ! empty( $mobile['url'] ) && ! empty( $mobile['width'] ) && ! empty( $image['width'] ) ) {
+					$tag = preg_replace( "#\\s+srcset=(\"|')[^\"']*\\1#i", '', $tag );
+					$tag = preg_replace( "#\\s+sizes=(\"|')[^\"']*\\1#i", '', $tag );
+					$srcset = esc_url( $mobile['url'] ) . ' ' . (int) $mobile['width'] . 'w, ' . esc_url( $image['url'] ) . ' ' . (int) $image['width'] . 'w';
+					$extra  = ' srcset="' . esc_attr( $srcset ) . '" sizes="' . esc_attr( $sizes ) . '"';
+					$tag    = preg_replace( '#>$#', $extra . '>', $tag, 1 );
+				}
+			}
+
 			return $tag;
 		},
 		$html

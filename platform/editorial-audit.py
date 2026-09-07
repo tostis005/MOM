@@ -11,6 +11,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLES = ROOT / "content" / "articles"
 OUT = ROOT / "editorial-audit-report.json"
+RANKING = ROOT / "editorial-audit-ranking.tsv"
+GROUPS = ROOT / "editorial-audit-groups.tsv"
 
 TAG_RE = re.compile(r"<[^>]+>")
 P_RE = re.compile(r"<p>(.*?)</p>", re.I | re.S)
@@ -56,7 +58,6 @@ def article_record(path: Path) -> dict:
     body_plain = plain(body)
     toks = words(body_plain)
     para_wc = [len(words(p)) for p in paras]
-    sentences = [s.strip() for s in SENT_SPLIT_RE.split(body_plain) if s.strip()]
     question_paras = sum(1 for p in paras if "?" in p or "¿" in p)
     short_paras = sum(1 for n in para_wc if 0 < n <= 12)
     very_short_paras = sum(1 for n in para_wc if 0 < n <= 6)
@@ -226,7 +227,48 @@ def main() -> int:
         "common_ngrams": common_ngrams[:100],
     }
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {OUT} for {len(records)} articles")
+
+    header = ["lang","article_number","risk","words","h2","h2_density","short_ratio","short_run","paragraphs","title","reasons","path"]
+    ranking_lines = ["\t".join(header)]
+    for r in ranked:
+        ranking_lines.append("\t".join([
+            str(r["language"]), str(r["article_number"]), str(r["risk_score"]), str(r["words"]),
+            str(r["h2_count"]), str(r["h2_density_per_1000_words"]), str(r["short_paragraph_ratio"]),
+            str(r["consecutive_short_max"]), str(r["paragraphs"]), str(r["title"]).replace("\t", " "),
+            ",".join(r["risk_reasons"]), str(r["path"]),
+        ]))
+    RANKING.write_text("\n".join(ranking_lines) + "\n", encoding="utf-8")
+
+    by_group: dict[str, dict[str, dict]] = collections.defaultdict(dict)
+    for r in records:
+        by_group[str(r["translation_group"])][str(r["language"])] = r
+    group_header = ["article_number","translation_group","max_risk","es_risk","en_risk","es_words","en_words","es_h2","en_h2","es_short_ratio","en_short_ratio","title_es","title_en"]
+    group_lines = ["\t".join(group_header)]
+    group_rows = []
+    for group, langs in by_group.items():
+        es = langs.get("es", {})
+        en = langs.get("en", {})
+        n = es.get("article_number", en.get("article_number", 0))
+        row = {
+            "n": n,
+            "group": group,
+            "max": max(es.get("risk_score", 0), en.get("risk_score", 0)),
+            "es": es,
+            "en": en,
+        }
+        group_rows.append(row)
+    group_rows.sort(key=lambda x: (-x["max"], x["n"]))
+    for x in group_rows:
+        es, en = x["es"], x["en"]
+        group_lines.append("\t".join([
+            str(x["n"]), x["group"], str(x["max"]), str(es.get("risk_score", "")), str(en.get("risk_score", "")),
+            str(es.get("words", "")), str(en.get("words", "")), str(es.get("h2_count", "")), str(en.get("h2_count", "")),
+            str(es.get("short_paragraph_ratio", "")), str(en.get("short_paragraph_ratio", "")),
+            str(es.get("title", "")).replace("\t", " "), str(en.get("title", "")).replace("\t", " "),
+        ]))
+    GROUPS.write_text("\n".join(group_lines) + "\n", encoding="utf-8")
+
+    print(f"Wrote audit outputs for {len(records)} articles")
     return 0
 
 

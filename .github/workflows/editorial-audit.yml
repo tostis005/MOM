@@ -1,0 +1,34 @@
+name: Editorial audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'platform/editorial-audit.py'
+      - '.github/workflows/editorial-audit.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build editorial audit report
+        run: python3 platform/editorial-audit.py
+      - name: Commit report
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- editorial-audit-report.json; then
+            echo 'Audit report unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add editorial-audit-report.json
+          git commit -m 'Update editorial audit report'
+          git push origin HEAD:main

@@ -102,7 +102,7 @@ if ( $term instanceof WP_Term && is_taxonomy_hierarchical( $term->taxonomy ) ) {
 	}
 }
 
-$post_count = $term instanceof WP_Term ? (int) $term->count : 0;
+$post_count = $term instanceof WP_Term && function_exists( 'mom_term_language_count' ) ? mom_term_language_count( $term ) : 0;
 ?>
 <main class="taxonomy-premium">
 	<header class="taxonomy-premium-hero">

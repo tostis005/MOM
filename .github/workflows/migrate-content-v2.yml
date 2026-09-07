@@ -38,6 +38,34 @@ jobs:
           php -l platform/import-content.php
           php -l platform/content-platform.php
 
+      - name: Verify editorial fields are byte-for-byte equivalent as JSON values
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          BASE="$(git merge-base origin/main HEAD)"
+          BASE="$BASE" python3 - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+          base=os.environ['BASE']
+          protected_failures=[]
+          checked=0
+          for path in sorted(Path('content/articles').glob('*/*.json')):
+              rel=path.as_posix()
+              old_raw=subprocess.run(['git','show',f'{base}:{rel}'],capture_output=True,text=True)
+              if old_raw.returncode != 0:
+                  continue
+              old=json.loads(old_raw.stdout)
+              new=json.loads(path.read_text(encoding='utf-8'))
+              old.pop('schema_version',None); old.pop('taxonomy',None)
+              new.pop('schema_version',None); new.pop('taxonomy',None)
+              checked += 1
+              if old != new:
+                  protected_failures.append(rel)
+          if protected_failures:
+              raise SystemExit('Editorial/data fields changed unexpectedly:\n'+'\n'.join(protected_failures))
+          print(f'Editorial preservation verified for {checked} pre-existing article JSON files.')
+          PY
+
       - name: Commit migrated inventory
         run: |
           set -euo pipefail

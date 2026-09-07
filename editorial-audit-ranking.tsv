@@ -42,6 +42,16 @@ en	76	5	554	4	7.22	0.0	0	14	Potty training without pressure: practical signs it 
 en	78	5	562	4	7.12	0.0	0	14	Potty training away from home: how to stay calm	body_under_800_words,high_h2_density	content/articles/en/078-potty-training-away-from-home.json
 en	79	5	555	4	7.21	0.0	0	14	Potty training and daycare: how to coordinate expectations with caregivers	body_under_800_words,high_h2_density	content/articles/en/079-potty-training-daycare-coordinate-expectations.json
 en	80	5	529	4	7.56	0.0	0	14	Refusing to sit on the potty: how to avoid a power struggle	body_under_800_words,high_h2_density	content/articles/en/080-potty-refusal-avoid-power-struggle.json
+en	81	5	359	4	11.14	0.0	0	10	How to move from the potty to the toilet with a gradual transition	body_under_800_words,high_h2_density	content/articles/en/081-potty-to-toilet-gradual-transition.json
+en	82	5	315	4	12.7	0.0	0	10	Bath time: how to turn a daily routine into a more cooperative moment	body_under_800_words,high_h2_density	content/articles/en/082-bath-time-cooperation-routine.json
+en	83	5	345	4	11.59	0.0	0	10	Kids who refuse to get dressed: how to reduce the morning battles	body_under_800_words,high_h2_density	content/articles/en/083-kids-refuse-getting-dressed-reduce-battles.json
+en	84	5	347	4	11.53	0.0	0	10	How to teach small responsibilities without constant rewards	body_under_800_words,high_h2_density	content/articles/en/084-small-responsibilities-without-constant-rewards.json
+en	85	5	345	4	11.59	0.0	0	10	Household chores for kids: how to make them part of family life	body_under_800_words,high_h2_density	content/articles/en/085-kids-household-chores-part-of-family-life.json
+en	86	5	347	4	11.53	0.0	0	10	How to choose a family routine that actually works	body_under_800_words,high_h2_density	content/articles/en/086-choose-family-routine-that-actually-works.json
+en	87	5	369	4	10.84	0.0	0	10	Daycare drop-off: how to support hard separations with security and connection	body_under_800_words,high_h2_density	content/articles/en/087-daycare-dropoff-difficult-separations.json
+en	88	5	355	4	11.27	0.0	0	10	How to make adjusting to a new daycare or preschool easier	body_under_800_words,high_h2_density	content/articles/en/088-adjusting-to-new-daycare-preschool.json
+en	89	5	344	4	11.63	0.1	1	10	Daycare vs nanny: which style of care may fit your family better	body_under_800_words,high_h2_density	content/articles/en/089-daycare-vs-nanny-family-fit.json
+en	90	5	356	4	11.24	0.0	0	10	Preschool: what to look for beyond worksheets, letters, and academics	body_under_800_words,high_h2_density	content/articles/en/090-preschool-what-to-look-for-beyond-academics.json
 en	1016	5	794	6	7.56	0.077	1	26	How to Feel Like Yourself Again After Becoming a Mom	body_under_800_words,high_h2_density	content/articles/en/1016-feel-like-yourself-again-after-motherhood.json
 en	1017	5	768	6	7.81	0.038	1	26	When Your Life Revolves Around Your Kids and You Don’t Know What You Like Anymore	body_under_800_words,high_h2_density	content/articles/en/1017-life-revolves-around-kids-dont-know-what-you-like.json
 en	1018	5	768	6	7.81	0.04	1	25	How to Get Back to Your Hobbies After Years Focused on Parenting	body_under_800_words,high_h2_density	content/articles/en/1018-recover-personal-interests-after-parenting-years.json
@@ -95,6 +105,16 @@ en	1077	5	523	4	7.65	0.0	0	14	When resting feels impossible because you keep rem
 en	1078	5	498	4	8.03	0.0	0	14	How to mentally disconnect from family responsibilities for a while	body_under_800_words,high_h2_density	content/articles/en/1078-mentally-disconnect-from-family-responsibilities.json
 en	1079	5	523	4	7.65	0.0	0	14	When even your free time is full of things you need to remember	body_under_800_words,high_h2_density	content/articles/en/1079-free-time-full-of-things-to-remember.json
 en	1080	5	529	4	7.56	0.071	1	14	What mental rest actually means when you are a mom	body_under_800_words,high_h2_density	content/articles/en/1080-what-mental-rest-means-for-moms.json
+en	1081	5	339	4	11.8	0.0	0	10	Maternal perfectionism: why it never feels like you do enough	body_under_800_words,high_h2_density	content/articles/en/1081-maternal-perfectionism-never-enough.json
+en	1082	5	319	4	12.54	0.0	0	10	How to stop measuring your motherhood by how much you get done	body_under_800_words,high_h2_density	content/articles/en/1082-stop-measuring-motherhood-by-output.json
+en	1083	5	323	4	12.38	0.0	0	10	Feeling like any small mistake proves you are a bad mom	body_under_800_words,high_h2_density	content/articles/en/1083-small-mistake-means-bad-mom.json
+en	1084	5	326	4	12.27	0.1	1	10	Thinking at night about everything you did wrong as a mom that day	body_under_800_words,high_h2_density	content/articles/en/1084-nightly-motherhood-rumination.json
+en	1085	5	290	4	13.79	0.1	1	10	Why you remember your parenting mistakes and forget everything you did well	body_under_800_words,high_h2_density	content/articles/en/1085-remember-parenting-mistakes-forget-good.json
+en	1086	5	330	4	12.12	0.0	0	10	How to end a hard day without turning it into a judgment of your motherhood	body_under_800_words,high_h2_density	content/articles/en/1086-end-hard-day-without-judging-motherhood.json
+en	1087	5	316	4	12.66	0.0	0	10	Promising yourself every night that tomorrow you will be a more patient mom	body_under_800_words,high_h2_density	content/articles/en/1087-promise-tomorrow-more-patient-mom.json
+en	1088	5	328	4	12.2	0.0	0	10	Feeling like you need to start over from zero every morning with your kids	body_under_800_words,high_h2_density	content/articles/en/1088-need-to-start-over-every-morning-with-kids.json
+en	1089	5	302	4	13.25	0.0	0	10	How to accept a bad week without deciding your family is doing badly	body_under_800_words,high_h2_density	content/articles/en/1089-accept-bad-week-without-thinking-family-is-bad.json
+en	1090	5	338	4	11.83	0.0	0	10	Good enough motherhood: what it means to stop chasing perfection	body_under_800_words,high_h2_density	content/articles/en/1090-good-enough-motherhood.json
 es	21	5	671	5	7.45	0.043	1	23	Siestas del bebé: cómo crear una rutina flexible sin vivir pendiente del reloj	body_under_800_words,high_h2_density	content/articles/es/021-siestas-bebe-rutina-flexible.json
 es	22	5	716	6	8.38	0.154	1	26	Cómo acompañar a un niño que pega sin etiquetarlo como agresivo	body_under_800_words,high_h2_density	content/articles/es/022-nino-pega-sin-etiquetarlo-agresivo.json
 es	23	5	652	5	7.67	0.087	1	23	Cómo acompañar a un niño que muerde sin castigos ni vergüenza	body_under_800_words,high_h2_density	content/articles/es/023-nino-muerde-sin-castigos-verguenza.json
@@ -125,6 +145,16 @@ es	76	5	526	4	7.6	0.0	0	14	Dejar el pañal sin presión: señales prácticas de 
 es	78	5	550	4	7.27	0.0	0	14	Potty training fuera de casa: cómo mantener la calma	body_under_800_words,high_h2_density	content/articles/es/078-potty-training-fuera-casa-mantener-calma.json
 es	79	5	546	4	7.33	0.0	0	14	Dejar el pañal y daycare: cómo coordinar expectativas con los cuidadores	body_under_800_words,high_h2_density	content/articles/es/079-dejar-panal-daycare-coordinar-expectativas.json
 es	80	5	541	4	7.39	0.0	0	14	Resistencia a sentarse en el orinal: cómo evitar convertirlo en una lucha de poder	body_under_800_words,high_h2_density	content/articles/es/080-resistencia-sentarse-orinal-sin-lucha-poder.json
+es	81	5	444	4	9.01	0.0	0	10	Cómo pasar del orinal al inodoro con una transición gradual	body_under_800_words,high_h2_density	content/articles/es/081-transicion-orinal-inodoro-gradual.json
+es	82	5	312	4	12.82	0.0	0	10	Hora del baño: cómo convertir una rutina diaria en un momento de cooperación	body_under_800_words,high_h2_density	content/articles/es/082-hora-bano-cooperacion-rutina.json
+es	83	5	339	4	11.8	0.0	0	10	Niños que no quieren vestirse: cómo reducir las peleas de cada mañana	body_under_800_words,high_h2_density	content/articles/es/083-ninos-no-quieren-vestirse-reducir-peleas.json
+es	84	5	361	4	11.08	0.0	0	10	Cómo enseñar pequeñas responsabilidades sin premios constantes	body_under_800_words,high_h2_density	content/articles/es/084-pequenas-responsabilidades-sin-premios-constantes.json
+es	85	5	339	4	11.8	0.0	0	10	Tareas del hogar para niños: cómo introducirlas como parte de la vida familiar	body_under_800_words,high_h2_density	content/articles/es/085-tareas-hogar-ninos-parte-vida-familiar.json
+es	86	5	353	4	11.33	0.0	0	10	Cómo elegir una rutina familiar que funcione de verdad	body_under_800_words,high_h2_density	content/articles/es/086-elegir-rutina-familiar-que-funcione.json
+es	87	5	385	4	10.39	0.0	0	10	Daycare drop-off: cómo acompañar separaciones difíciles con seguridad y conexión	body_under_800_words,high_h2_density	content/articles/es/087-daycare-drop-off-separaciones-dificiles.json
+es	88	5	341	4	11.73	0.0	0	10	Cómo facilitar la adaptación a una nueva guardería o escuela infantil	body_under_800_words,high_h2_density	content/articles/es/088-adaptacion-nueva-guarderia-escuela-infantil.json
+es	89	5	357	4	11.2	0.1	1	10	Daycare vs nanny: qué estilo de cuidado puede encajar mejor con vuestra familia	body_under_800_words,high_h2_density	content/articles/es/089-daycare-vs-nanny-que-encaja-familia.json
+es	90	5	343	4	11.66	0.1	1	10	Preschool: qué mirar más allá de fichas, letras y actividades académicas	body_under_800_words,high_h2_density	content/articles/es/090-preschool-que-mirar-mas-alla-academico.json
 es	1017	5	787	6	7.62	0.042	1	24	Cuando toda tu vida gira alrededor de tus hijos y no sabes qué te gusta a ti	body_under_800_words,high_h2_density	content/articles/es/1017-toda-vida-gira-hijos-no-sabes-que-te-gusta.json
 es	1021	5	685	6	8.76	0.045	1	22	¿Es normal echar de menos tu vida antes de tener hijos aunque adores ser madre?	body_under_800_words,high_h2_density	content/articles/es/1021-es-normal-echar-menos-vida-antes-hijos.json
 es	1022	5	687	6	8.73	0.045	1	22	Querer a tus hijos y echar de menos la libertad de antes al mismo tiempo	body_under_800_words,high_h2_density	content/articles/es/1022-querer-hijos-echar-menos-libertad.json
@@ -176,6 +206,16 @@ es	1077	5	494	4	8.1	0.0	0	14	Cuando descansar parece imposible porque siempre re
 es	1078	5	478	4	8.37	0.0	0	14	Cómo desconectar mentalmente de las responsabilidades familiares durante un rato	body_under_800_words,high_h2_density	content/articles/es/1078-desconectar-mentalmente-responsabilidades-familiares.json
 es	1079	5	514	4	7.78	0.071	1	14	Cuando incluso tu tiempo libre está lleno de cosas que tienes que recordar	body_under_800_words,high_h2_density	content/articles/es/1079-tiempo-libre-lleno-cosas-recordar.json
 es	1080	5	509	4	7.86	0.071	1	14	Qué significa tener descanso mental cuando eres madre	body_under_800_words,high_h2_density	content/articles/es/1080-que-significa-descanso-mental-madre.json
+es	1081	5	374	4	10.7	0.0	0	10	Perfeccionismo materno: por qué nunca sientes que haces suficiente	body_under_800_words,high_h2_density	content/articles/es/1081-perfeccionismo-materno-nunca-suficiente.json
+es	1082	5	303	4	13.2	0.0	0	10	Cómo dejar de medir tu maternidad por la cantidad de cosas que haces	body_under_800_words,high_h2_density	content/articles/es/1082-dejar-medir-maternidad-cantidad-cosas.json
+es	1083	5	301	4	13.29	0.0	0	10	Sentir que cualquier error pequeño demuestra que eres mala madre	body_under_800_words,high_h2_density	content/articles/es/1083-error-pequeno-mala-madre.json
+es	1084	5	353	4	11.33	0.0	0	10	Pensar por la noche en todo lo que hiciste mal como madre durante el día	body_under_800_words,high_h2_density	content/articles/es/1084-pensar-noche-todo-hiciste-mal-madre.json
+es	1085	5	296	4	13.51	0.1	1	10	Por qué recuerdas tus errores de crianza y olvidas todo lo que hiciste bien	body_under_800_words,high_h2_density	content/articles/es/1085-recuerdas-errores-olvidas-lo-bueno.json
+es	1086	5	320	4	12.5	0.0	0	10	Cómo terminar un día difícil sin convertirlo en un juicio sobre tu maternidad	body_under_800_words,high_h2_density	content/articles/es/1086-terminar-dia-dificil-sin-juzgar-maternidad.json
+es	1087	5	334	4	11.98	0.0	0	10	Prometerte cada noche que mañana serás una madre más paciente	body_under_800_words,high_h2_density	content/articles/es/1087-prometertelo-cada-noche-mas-paciente.json
+es	1088	5	307	4	13.03	0.0	0	10	Sentir que necesitas empezar de cero cada mañana con tus hijos	body_under_800_words,high_h2_density	content/articles/es/1088-necesitar-empezar-cero-cada-manana-hijos.json
+es	1089	5	298	4	13.42	0.0	0	10	Cómo aceptar una semana mala sin pensar que vuestra familia está mal	body_under_800_words,high_h2_density	content/articles/es/1089-aceptar-semana-mala-sin-pensar-familia-mal.json
+es	1090	5	342	4	11.7	0.0	0	10	Maternidad suficientemente buena: qué significa dejar de perseguir la perfección	body_under_800_words,high_h2_density	content/articles/es/1090-maternidad-suficientemente-buena.json
 en	62	4	684	4	5.85	0.0	0	15	Breastfeeding and partners: practical ways to support without taking over	body_under_800_words,elevated_h2_density	content/articles/en/062-breastfeeding-partner-support-without-taking-over.json
 en	64	4	665	4	6.02	0.0	0	15	Returning to work while breastfeeding: organize the logistics without creating a second job	body_under_800_words,elevated_h2_density	content/articles/en/064-return-to-work-breastfeeding-logistics.json
 en	65	4	675	4	5.93	0.0	0	15	Respectful weaning: how to make changes with connection and clear boundaries	body_under_800_words,elevated_h2_density	content/articles/en/065-respectful-weaning-connection-boundaries.json

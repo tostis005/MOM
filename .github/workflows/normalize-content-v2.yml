@@ -47,4 +47,8 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add content/articles content/site.json content/taxonomies/topic.json
           git commit -m 'Normalize MOM content to v2'
+          git fetch origin main
+          git rebase origin/main
           git push origin HEAD:main
+
+# Maintenance trigger: editorial recovery validated on the full bilingual corpus.

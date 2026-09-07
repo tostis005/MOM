@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "dimension": "audience",
+  "wp_taxonomy": "content_audience",
+  "hierarchical": false,
+  "public": true,
+  "navigation": { "home": true, "order": 30 },
+  "labels": { "es": "Para quién", "en": "For whom" },
+  "terms": [
+    { "id": "parents", "home_order": 10, "label": { "es": "Para madres y padres", "en": "For parents" }, "slug": { "es": "madres-padres", "en": "parents" } },
+    { "id": "mothers", "home_order": 20, "label": { "es": "Para mamás", "en": "For moms" }, "slug": { "es": "mamas", "en": "moms" } },
+    { "id": "fathers", "home_order": 30, "label": { "es": "Para papás", "en": "For dads" }, "slug": { "es": "papas", "en": "dads" } },
+    { "id": "couples", "home_order": 40, "label": { "es": "Para la pareja", "en": "For couples" }, "slug": { "es": "pareja", "en": "couples" } },
+    { "id": "family-caregivers", "home_order": 50, "label": { "es": "Familia y cuidadores", "en": "Family & caregivers" }, "slug": { "es": "familia-cuidadores", "en": "family-caregivers" } }
+  ]
+}

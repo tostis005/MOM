@@ -1,0 +1,36 @@
+name: Deep editorial rewrite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'platform/editorial-deep-rewrite-1047-1050.py'
+      - '.github/workflows/editorial-deep-rewrite.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rewrite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Rewrite priority articles
+        run: python3 platform/editorial-deep-rewrite-1047-1050.py
+      - name: Commit rewrites
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain -- content/articles)" ]; then
+            echo 'No article changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/articles
+          git commit -m 'Deep rewrite editorially weak articles 1047-1050'
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

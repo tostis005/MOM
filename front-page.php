@@ -10,24 +10,48 @@ $topics    = mom_home_terms( 'topic' );
 $stages    = mom_home_terms( 'stage' );
 $audiences = mom_home_terms( 'audience' );
 $home_url  = mom_language_home_url();
+$ai_assets = trailingslashit( get_template_directory_uri() ) . 'assets/images/';
 
-$hero_query = new WP_Query(
-	array(
-		'post_type'           => 'post',
-		'post_status'         => 'publish',
-		'posts_per_page'      => 1,
-		'ignore_sticky_posts' => false,
-		'meta_query'          => array(
-			array(
-				'key'     => '_thumbnail_id',
-				'compare' => 'EXISTS',
-			),
-		),
-	)
+$topic_visual_map = array(
+	'sleep'                       => 0,
+	'child-feeding'               => 1,
+	'pregnancy-preparation'       => 2,
+	'postpartum-newborn'          => 3,
+	'parenting-behavior'          => 4,
+	'potty-hygiene-autonomy'      => 4,
+	'play-learning-autonomy'      => 4,
+	'motherhood-identity'         => 5,
+	'work-balance-life'           => 5,
+	'couple-coparenting'          => 6,
+	'routines-family-life'        => 6,
+	'childcare-school-social'     => 6,
+	'family-siblings-boundaries'  => 6,
+	'travel-outings-celebrations' => 7,
+	'breastfeeding-baby-feeding'  => 3,
 );
-$hero_post_id = $hero_query->have_posts() ? (int) $hero_query->posts[0]->ID : 0;
-wp_reset_postdata();
+
+$topic_sprite_style = static function ( $topic_id ) use ( $topic_visual_map, $ai_assets ) {
+	$index      = $topic_visual_map[ $topic_id ] ?? 4;
+	$x_values   = array( '0', '33.333', '66.667', '100' );
+	$x          = $x_values[ $index % 4 ];
+	$y          = $index >= 4 ? '100' : '0';
+	$sprite_url = $ai_assets . 'topics-ai.svg';
+
+	return sprintf(
+		"background-image:url('%s');background-size:400%% 200%%;background-position:%s%% %s%%;background-repeat:no-repeat;",
+		esc_url( $sprite_url ),
+		$x,
+		$y
+	);
+};
 ?>
+
+<style>
+.mom-ai-hero{width:100%;height:100%;min-height:100%;object-fit:cover;display:block}
+.premium-topic-art.mom-ai-topic{background-color:#eadfd8;box-shadow:inset 0 0 0 1px rgba(69,47,44,.06);transition:transform .25s ease,filter .25s ease}
+.premium-topic-card:hover .premium-topic-art.mom-ai-topic{transform:scale(1.025);filter:saturate(.96) contrast(1.02)}
+.story-fallback.mom-ai-story{background-color:#eadfd8;background-size:400% 200%;background-repeat:no-repeat}
+</style>
 
 <section class="home-hero">
 	<div class="container">
@@ -44,11 +68,7 @@ wp_reset_postdata();
 			</div>
 
 			<div class="hero-media">
-				<?php if ( $hero_post_id && has_post_thumbnail( $hero_post_id ) ) : ?>
-					<?php echo get_the_post_thumbnail( $hero_post_id, 'mom-hero', array( 'loading' => 'eager', 'fetchpriority' => 'high' ) ); ?>
-				<?php else : ?>
-					<div class="hero-art-fallback" aria-hidden="true"><?php echo mom_hero_art_svg(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
-				<?php endif; ?>
+				<img class="mom-ai-hero" src="<?php echo esc_url( $ai_assets . 'hero-mother-baby.svg' ); ?>" alt="<?php echo esc_attr( mom_t( 'Madre abrazando a su bebé', 'Mother holding her baby' ) ); ?>" loading="eager" fetchpriority="high">
 				<div class="hero-quote">
 					<span><?php echo esc_html( mom_t( '“Aquí también importas tú.”', '“You matter here, too.”' ) ); ?></span>
 					<strong>MOM.</strong>
@@ -71,7 +91,7 @@ wp_reset_postdata();
 		<div class="topic-rail" aria-label="<?php echo esc_attr( mom_t( 'Temas', 'Topics' ) ); ?>">
 			<?php foreach ( $topics as $topic ) : ?>
 				<a class="premium-topic-card" style="--topic-accent:<?php echo esc_attr( mom_topic_accent( $topic['id'] ) ); ?>" href="<?php echo esc_url( mom_term_url( 'topic', $topic['id'], $topic['label'] ) ); ?>">
-					<span class="premium-topic-art" aria-hidden="true"><?php echo mom_topic_art_svg( $topic['id'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></span>
+					<span class="premium-topic-art mom-ai-topic" style="<?php echo esc_attr( $topic_sprite_style( $topic['id'] ) ); ?>" aria-hidden="true"></span>
 					<span class="premium-topic-copy">
 						<strong><?php echo esc_html( $topic['label'] ); ?></strong>
 						<small><?php echo esc_html( wp_trim_words( mom_topic_description( $topic['id'] ), 10 ) ); ?></small>
@@ -152,7 +172,7 @@ wp_reset_postdata();
 								<?php if ( has_post_thumbnail( $post_id ) ) : ?>
 									<?php echo get_the_post_thumbnail( $post_id, 'mom-card', array( 'loading' => 'lazy' ) ); ?>
 								<?php else : ?>
-									<div class="story-fallback" style="color:<?php echo esc_attr( mom_topic_accent( $topic_id ) ); ?>"><?php echo mom_topic_art_svg( $topic_id ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+									<div class="story-fallback mom-ai-story" style="<?php echo esc_attr( $topic_sprite_style( $topic_id ) ); ?>" aria-hidden="true"></div>
 								<?php endif; ?>
 							</div>
 							<div class="story-body">

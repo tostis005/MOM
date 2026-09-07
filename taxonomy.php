@@ -99,6 +99,15 @@ if ( $term instanceof WP_Term && is_taxonomy_hierarchical( $term->taxonomy ) ) {
 	);
 	if ( is_wp_error( $children ) ) {
 		$children = array();
+	} elseif ( function_exists( 'mom_term_language_count' ) ) {
+		$children = array_values(
+			array_filter(
+				$children,
+				static function ( $child ) {
+					return $child instanceof WP_Term && mom_term_language_count( $child ) > 0;
+				}
+			)
+		);
 	}
 }
 

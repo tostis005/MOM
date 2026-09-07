@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "dimension": "article_type",
+  "wp_taxonomy": "content_article_type",
+  "hierarchical": false,
+  "public": true,
+  "navigation": { "home": false, "order": 40 },
+  "labels": { "es": "Tipo de ayuda", "en": "Content type" },
+  "terms": [
+    { "id": "how-to", "label": { "es": "Guía práctica", "en": "How-to" }, "slug": { "es": "guia-practica", "en": "how-to" } },
+    { "id": "routine-organization", "label": { "es": "Rutina y organización", "en": "Routine & organization" }, "slug": { "es": "rutina-organizacion", "en": "routine-organization" } },
+    { "id": "everyday-problem", "label": { "es": "Problema cotidiano", "en": "Everyday problem" }, "slug": { "es": "problema-cotidiano", "en": "everyday-problem" } },
+    { "id": "decision-comparison", "label": { "es": "Decisión y comparativa", "en": "Decision & comparison" }, "slug": { "es": "decision-comparativa", "en": "decision-comparison" } },
+    { "id": "checklist-preparation", "label": { "es": "Checklist y preparación", "en": "Checklist & preparation" }, "slug": { "es": "checklist-preparacion", "en": "checklist-preparation" } },
+    { "id": "ideas-activities", "label": { "es": "Ideas y actividades", "en": "Ideas & activities" }, "slug": { "es": "ideas-actividades", "en": "ideas-activities" } },
+    { "id": "communication-boundaries", "label": { "es": "Comunicación y límites", "en": "Communication & boundaries" }, "slug": { "es": "comunicacion-limites", "en": "communication-boundaries" } },
+    { "id": "transition-change", "label": { "es": "Transición o cambio", "en": "Transition & change" }, "slug": { "es": "transicion-cambio", "en": "transition-change" } },
+    { "id": "understanding", "label": { "es": "Entender qué pasa", "en": "Understanding" }, "slug": { "es": "entender-que-pasa", "en": "understanding" } },
+    { "id": "emotions-identity", "label": { "es": "Emociones e identidad", "en": "Emotions & identity" }, "slug": { "es": "emociones-identidad", "en": "emotions-identity" } },
+    { "id": "relationships", "label": { "es": "Relaciones y convivencia", "en": "Relationships" }, "slug": { "es": "relaciones-convivencia", "en": "relationships" } }
+  ]
+}

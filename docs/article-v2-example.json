@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "content_type": "article",
+  "id": "es-002-rutina-sueno-bebe",
+  "article_number": 2,
+  "translation_group": "002-baby-bedtime-routine",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "Audiencia hispanohablante; organización familiar y sueño infantil desde un enfoque cotidiano no clínico.",
+  "title": "Rutina de sueño del bebé: cómo crear noches más predecibles sin rigidez",
+  "slug": "rutina-sueno-bebe",
+  "seo": {
+    "title": "Rutina de sueño del bebé: cómo crearla sin rigidez",
+    "meta_description": "Cómo crear una rutina de sueño sencilla y flexible para tu bebé.",
+    "search_intent": "Ayudar a padres a crear una rutina de sueño flexible y sostenible."
+  },
+  "excerpt": "Una rutina de sueño puede aportar señales reconocibles sin convertir la noche en un horario rígido.",
+  "taxonomy": {
+    "topic": { "primary": "sleep", "terms": ["sleep"] },
+    "stage": { "terms": ["baby"] },
+    "audience": { "terms": ["parents"] },
+    "article_type": { "primary": "how-to", "terms": ["how-to", "routine-organization"] }
+  },
+  "content_html": "<p>...</p>",
+  "faq": [],
+  "sources": [],
+  "image": {
+    "concept": "Escena cotidiana de rutina nocturna con un bebé.",
+    "alt": "Progenitor realizando la rutina nocturna con su bebé"
+  },
+  "status": "draft"
+}

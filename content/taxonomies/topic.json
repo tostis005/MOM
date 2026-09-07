@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "dimension": "topic",
+  "wp_taxonomy": "content_topic",
+  "hierarchical": true,
+  "public": true,
+  "navigation": { "home": true, "order": 10 },
+  "labels": { "es": "Temas", "en": "Topics" },
+  "terms": [
+    { "id": "sleep", "parent": null, "home_order": 10, "label": { "es": "Sueño", "en": "Sleep" }, "slug": { "es": "sueno", "en": "sleep" } },
+    { "id": "parenting-behavior", "parent": null, "home_order": 20, "label": { "es": "Crianza y comportamiento", "en": "Parenting & behavior" }, "slug": { "es": "crianza-comportamiento", "en": "parenting-behavior" } },
+    { "id": "child-feeding", "parent": null, "home_order": 30, "label": { "es": "Alimentación infantil", "en": "Child feeding" }, "slug": { "es": "alimentacion-infantil", "en": "child-feeding" } },
+    { "id": "potty-hygiene-autonomy", "parent": null, "home_order": 40, "label": { "es": "Pañal, higiene y autonomía", "en": "Potty, hygiene & autonomy" }, "slug": { "es": "panal-higiene-autonomia", "en": "potty-hygiene-autonomy" } },
+    { "id": "routines-family-life", "parent": null, "home_order": 50, "label": { "es": "Rutinas y vida familiar", "en": "Routines & family life" }, "slug": { "es": "rutinas-vida-familiar", "en": "routines-family-life" } },
+    { "id": "play-learning-autonomy", "parent": null, "home_order": 60, "label": { "es": "Juego, aprendizaje y autonomía", "en": "Play, learning & autonomy" }, "slug": { "es": "juego-aprendizaje-autonomia", "en": "play-learning-autonomy" } },
+    { "id": "childcare-school-social", "parent": null, "home_order": 70, "label": { "es": "Guardería, colegio y vida social", "en": "Childcare, school & social life" }, "slug": { "es": "guarderia-colegio-vida-social", "en": "childcare-school-social" } },
+    { "id": "pregnancy-preparation", "parent": null, "home_order": 80, "label": { "es": "Embarazo y preparación", "en": "Pregnancy & preparation" }, "slug": { "es": "embarazo-preparacion", "en": "pregnancy-preparation" } },
+    { "id": "postpartum-newborn", "parent": null, "home_order": 90, "label": { "es": "Posparto y recién nacido", "en": "Postpartum & newborn" }, "slug": { "es": "posparto-recien-nacido", "en": "postpartum-newborn" } },
+    { "id": "breastfeeding-baby-feeding", "parent": null, "home_order": 100, "label": { "es": "Lactancia y alimentación del bebé", "en": "Breastfeeding & baby feeding" }, "slug": { "es": "lactancia-alimentacion-bebe", "en": "breastfeeding-baby-feeding" } },
+    { "id": "couple-coparenting", "parent": null, "home_order": 110, "label": { "es": "Pareja y coparentalidad", "en": "Couple & coparenting" }, "slug": { "es": "pareja-coparentalidad", "en": "couple-coparenting" } },
+    { "id": "motherhood-identity", "parent": null, "home_order": 120, "label": { "es": "Maternidad, identidad y bienestar", "en": "Motherhood, identity & wellbeing" }, "slug": { "es": "maternidad-identidad-bienestar", "en": "motherhood-identity-wellbeing" } },
+    { "id": "family-siblings-boundaries", "parent": null, "home_order": 130, "label": { "es": "Familia, hermanos y límites", "en": "Family, siblings & boundaries" }, "slug": { "es": "familia-hermanos-limites", "en": "family-siblings-boundaries" } },
+    { "id": "work-balance-life", "parent": null, "home_order": 140, "label": { "es": "Trabajo, conciliación y vida propia", "en": "Work, balance & own life" }, "slug": { "es": "trabajo-conciliacion-vida", "en": "work-balance-life" } },
+    { "id": "travel-outings-celebrations", "parent": null, "home_order": 150, "label": { "es": "Viajes, salidas y celebraciones", "en": "Travel, outings & celebrations" }, "slug": { "es": "viajes-salidas-celebraciones", "en": "travel-outings-celebrations" } }
+  ]
+}

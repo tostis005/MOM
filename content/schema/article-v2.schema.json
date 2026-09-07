@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://content-platform.local/schema/article-v2.schema.json",
+  "title": "Universal article content contract v2",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "id",
+    "article_number",
+    "translation_group",
+    "language",
+    "title",
+    "slug",
+    "seo",
+    "excerpt",
+    "taxonomy",
+    "content_html",
+    "faq",
+    "sources",
+    "image",
+    "status"
+  ],
+  "properties": {
+    "schema_version": { "const": 2 },
+    "content_type": { "type": "string", "default": "article" },
+    "id": { "type": "string", "minLength": 1 },
+    "article_number": { "type": "integer", "minimum": 1 },
+    "translation_group": { "type": "string", "minLength": 1 },
+    "language": { "type": "string", "minLength": 2 },
+    "locale": { "type": "string" },
+    "market_context": { "type": "string" },
+    "title": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "minLength": 1 },
+    "seo": {
+      "type": "object",
+      "required": ["title", "meta_description", "search_intent"],
+      "properties": {
+        "title": { "type": "string" },
+        "meta_description": { "type": "string" },
+        "search_intent": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "excerpt": { "type": "string" },
+    "taxonomy": {
+      "type": "object",
+      "description": "Arbitrary site-defined dimensions. The importer is dimension-agnostic.",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["terms"],
+        "properties": {
+          "primary": { "type": ["string", "null"] },
+          "terms": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "uniqueItems": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "content_html": { "type": "string" },
+    "faq": { "type": "array" },
+    "sources": { "type": "array" },
+    "image": { "type": "object" },
+    "status": { "enum": ["publish", "draft", "review"] }
+  }
+}

@@ -1,0 +1,323 @@
+name: Reusable content import
+
+on:
+  workflow_call:
+    inputs:
+      language:
+        required: false
+        type: string
+        default: all
+      from:
+        required: false
+        type: string
+        default: '1'
+      to:
+        required: false
+        type: string
+        default: '999999'
+      status:
+        required: false
+        type: string
+        default: json
+      force:
+        required: false
+        type: boolean
+        default: false
+    secrets:
+      VPS_HOST:
+        required: true
+      VPS_USER:
+        required: true
+      VPS_SSH_KEY:
+        required: true
+      WP_ROOT:
+        required: false
+  workflow_dispatch:
+    inputs:
+      language:
+        description: Language to import
+        required: true
+        type: choice
+        options: [es, en, all]
+        default: all
+      from:
+        description: First article number
+        required: true
+        default: '1'
+      to:
+        description: Last article number
+        required: true
+        default: '999999'
+      status:
+        description: WordPress status override
+        required: true
+        type: choice
+        options: [publish, draft, review, json]
+        default: json
+      force:
+        description: Force rewrite when source hash is unchanged
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: content-platform-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    env:
+      IMPORT_LANGUAGE: ${{ inputs.language || 'all' }}
+      IMPORT_FROM: ${{ inputs.from || '1' }}
+      IMPORT_TO: ${{ inputs.to || '999999' }}
+      IMPORT_STATUS: ${{ inputs.status || 'json' }}
+      IMPORT_FORCE: ${{ inputs.force || false }}
+
+    steps:
+      - name: Checkout site repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: site
+
+      - name: Checkout shared content engine
+        uses: actions/checkout@v4
+        with:
+          repository: tostis005/MOM
+          ref: main
+          path: engine
+          sparse-checkout: |
+            platform
+
+      - name: Validate platform and article JSON
+        run: |
+          set -euo pipefail
+          php -l engine/platform/import-content.php
+          php -l engine/platform/content-platform.php
+          python3 engine/platform/validate-content.py site
+
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/content_platform_key
+          chmod 600 ~/.ssh/content_platform_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Resolve WordPress root
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          CONFIGURED_WP_ROOT: ${{ secrets.WP_ROOT }}
+        run: |
+          set -euo pipefail
+          if [ -n "${CONFIGURED_WP_ROOT:-}" ]; then
+            ssh -i ~/.ssh/content_platform_key "$VPS_USER@$VPS_HOST" \
+              "test -f '$CONFIGURED_WP_ROOT/wp-config.php'"
+            echo "WP_ROOT=$CONFIGURED_WP_ROOT" >> "$GITHUB_ENV"
+            exit 0
+          fi
+
+          WP_CONFIGS="$(ssh -i ~/.ssh/content_platform_key "$VPS_USER@$VPS_HOST" '
+            for base in /var/www /home /srv/www /usr/share/nginx/html; do
+              [ -d "$base" ] && find "$base" -maxdepth 7 -type f -name wp-config.php 2>/dev/null
+            done
+          ' | sort -u)"
+          COUNT="$(printf '%s\n' "$WP_CONFIGS" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [ "$COUNT" -ne 1 ]; then
+            echo "ERROR: set repository secret WP_ROOT when the host has zero or multiple WordPress installs."
+            printf '%s\n' "$WP_CONFIGS"
+            exit 1
+          fi
+          WP_ROOT="${WP_CONFIGS%/wp-config.php}"
+          echo "WP_ROOT=$WP_ROOT" >> "$GITHUB_ENV"
+
+      - name: Copy shared engine to VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          scp -i ~/.ssh/content_platform_key engine/platform/import-content.php \
+            "$VPS_USER@$VPS_HOST:/tmp/content-platform-import.php"
+          scp -i ~/.ssh/content_platform_key engine/platform/content-platform.php \
+            "$VPS_USER@$VPS_HOST:/tmp/content-platform-runtime.php"
+
+      - name: Read last successful import SHA
+        id: import_state
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          STATE_OUTPUT="$(ssh -i ~/.ssh/content_platform_key "$VPS_USER@$VPS_HOST" \
+            "WP_ROOT='$WP_ROOT' bash -s" <<'REMOTE'
+          set -euo pipefail
+          if command -v php >/dev/null 2>&1; then
+            php /tmp/content-platform-import.php "$WP_ROOT" /tmp --state=read
+            exit 0
+          fi
+          if ! command -v docker >/dev/null 2>&1 || ! docker ps >/dev/null 2>&1; then
+            echo 'ERROR: neither host PHP nor Docker is available.' >&2
+            exit 1
+          fi
+          CANDIDATES=''
+          while read -r CID; do
+            [ -z "$CID" ] && continue
+            CROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                [ -f "$p/wp-load.php" ] && echo "$p" && exit 0
+              done
+            ' 2>/dev/null || true)"
+            if [ -n "$CROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              CANDIDATES="${CANDIDATES}${CID}|${CROOT}\n"
+            fi
+          done < <(docker ps -q)
+          COUNT="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | wc -l | tr -d ' ')"
+          [ "$COUNT" -eq 1 ] || { echo "ERROR: expected one WordPress PHP container, found $COUNT." >&2; exit 1; }
+          CANDIDATE="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | head -n1)"
+          CID="${CANDIDATE%%|*}"
+          CROOT="${CANDIDATE#*|}"
+          docker cp /tmp/content-platform-import.php "$CID:/tmp/content-platform-import.php"
+          docker exec "$CID" php /tmp/content-platform-import.php "$CROOT" /tmp --state=read
+          REMOTE
+          )"
+          printf '%s\n' "$STATE_OUTPUT"
+          LAST_SHA="$(printf '%s\n' "$STATE_OUTPUT" | sed -n 's/^IMPORT_STATE_SHA=//p' | tail -n1 | tr -d '\r\n')"
+          echo "sha=$LAST_SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Select and package content
+        id: package
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_BEFORE: ${{ github.event.before }}
+          LAST_SUCCESSFUL_SHA: ${{ steps.import_state.outputs.sha }}
+        run: |
+          set -euo pipefail
+          cd site
+          TARGET_SHA="$(git rev-parse HEAD)"
+          rm -rf /tmp/content-package
+          mkdir -p /tmp/content-package/content/articles
+          cp content/site.json /tmp/content-package/content/site.json
+          mkdir -p /tmp/content-package/content/taxonomies
+          cp content/taxonomies/*.json /tmp/content-package/content/taxonomies/
+          : > /tmp/content-selected.txt
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            python3 - <<'PY' > /tmp/content-selected.txt
+          import json, os
+          from pathlib import Path
+          language = os.environ['IMPORT_LANGUAGE']
+          first = int(os.environ['IMPORT_FROM'])
+          last = int(os.environ['IMPORT_TO'])
+          languages = None if language == 'all' else {language}
+          for path in sorted(Path('content/articles').glob('*/*.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              if languages is not None and data.get('language') not in languages:
+                  continue
+              number = int(data.get('article_number', 0))
+              if first <= number <= last:
+                  print(path.as_posix())
+          PY
+            SUCCESSFUL_SHA=''
+          else
+            BASE_SHA="$LAST_SUCCESSFUL_SHA"
+            if [ -z "$BASE_SHA" ] || ! git cat-file -e "${BASE_SHA}^{commit}" 2>/dev/null || ! git merge-base --is-ancestor "$BASE_SHA" "$TARGET_SHA"; then
+              BASE_SHA="$EVENT_BEFORE"
+            fi
+            if [ -z "$BASE_SHA" ] || printf '%s' "$BASE_SHA" | grep -Eq '^0+$' || ! git cat-file -e "${BASE_SHA}^{commit}" 2>/dev/null; then
+              BASE_SHA="$(git rev-parse "${TARGET_SHA}^" 2>/dev/null || true)"
+            fi
+
+            CONFIG_CHANGED=false
+            if [ -n "$BASE_SHA" ] && git diff --name-only "$BASE_SHA" "$TARGET_SHA" -- content/site.json content/taxonomies/ | grep -q .; then
+              CONFIG_CHANGED=true
+            fi
+
+            if [ "$CONFIG_CHANGED" = true ] || [ -z "$BASE_SHA" ]; then
+              find content/articles -mindepth 2 -maxdepth 2 -type f -name '*.json' | sort > /tmp/content-selected.txt
+            else
+              git diff --name-only --diff-filter=AMR "$BASE_SHA" "$TARGET_SHA" -- ':(glob)content/articles/*/*.json' \
+                | while IFS= read -r file; do [ -f "$file" ] && printf '%s\n' "$file"; done \
+                > /tmp/content-selected.txt
+            fi
+            SUCCESSFUL_SHA="$TARGET_SHA"
+          fi
+
+          sort -u /tmp/content-selected.txt -o /tmp/content-selected.txt
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            mkdir -p "/tmp/content-package/$(dirname "$file")"
+            cp "$file" "/tmp/content-package/$file"
+          done < /tmp/content-selected.txt
+          COUNT="$(sed '/^$/d' /tmp/content-selected.txt | wc -l | tr -d ' ')"
+          tar -C /tmp/content-package -czf /tmp/content-package.tgz content
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "successful_sha=$SUCCESSFUL_SHA" >> "$GITHUB_OUTPUT"
+          echo "Selected $COUNT article(s)."
+
+      - name: Copy package to VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          scp -i ~/.ssh/content_platform_key /tmp/content-package.tgz \
+            "$VPS_USER@$VPS_HOST:/tmp/content-platform-package.tgz"
+
+      - name: Install runtime and import
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          SUCCESSFUL_SHA: ${{ steps.package.outputs.successful_sha }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/content_platform_key "$VPS_USER@$VPS_HOST" \
+            "WP_ROOT='$WP_ROOT' IMPORT_LANGUAGE='$IMPORT_LANGUAGE' IMPORT_FROM='$IMPORT_FROM' IMPORT_TO='$IMPORT_TO' IMPORT_STATUS='$IMPORT_STATUS' IMPORT_FORCE='$IMPORT_FORCE' SUCCESSFUL_SHA='$SUCCESSFUL_SHA' bash -s" <<'REMOTE'
+          set -euo pipefail
+          rm -rf /tmp/content-platform-package
+          mkdir -p /tmp/content-platform-package
+          tar -C /tmp/content-platform-package -xzf /tmp/content-platform-package.tgz
+          SHA_ARG=''
+          [ -n "$SUCCESSFUL_SHA" ] && SHA_ARG="--successful-sha=$SUCCESSFUL_SHA"
+
+          if command -v php >/dev/null 2>&1; then
+            mkdir -p "$WP_ROOT/wp-content/mu-plugins"
+            cp /tmp/content-platform-runtime.php "$WP_ROOT/wp-content/mu-plugins/content-platform.php"
+            php /tmp/content-platform-import.php "$WP_ROOT" /tmp/content-platform-package \
+              "--language=$IMPORT_LANGUAGE" "--from=$IMPORT_FROM" "--to=$IMPORT_TO" \
+              "--status=$IMPORT_STATUS" "--force=$IMPORT_FORCE" $SHA_ARG
+            exit 0
+          fi
+
+          CANDIDATES=''
+          while read -r CID; do
+            [ -z "$CID" ] && continue
+            CROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                [ -f "$p/wp-load.php" ] && echo "$p" && exit 0
+              done
+            ' 2>/dev/null || true)"
+            if [ -n "$CROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              CANDIDATES="${CANDIDATES}${CID}|${CROOT}\n"
+            fi
+          done < <(docker ps -q)
+          COUNT="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | wc -l | tr -d ' ')"
+          [ "$COUNT" -eq 1 ] || { echo "ERROR: expected one WordPress PHP container, found $COUNT." >&2; exit 1; }
+          CANDIDATE="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | head -n1)"
+          CID="${CANDIDATE%%|*}"
+          CROOT="${CANDIDATE#*|}"
+          docker cp /tmp/content-platform-import.php "$CID:/tmp/content-platform-import.php"
+          docker cp /tmp/content-platform-runtime.php "$CID:/tmp/content-platform-runtime.php"
+          docker cp /tmp/content-platform-package "$CID:/tmp/content-platform-package"
+          docker exec "$CID" sh -lc "mkdir -p '$CROOT/wp-content/mu-plugins' && cp /tmp/content-platform-runtime.php '$CROOT/wp-content/mu-plugins/content-platform.php'"
+          docker exec "$CID" php /tmp/content-platform-import.php "$CROOT" /tmp/content-platform-package \
+            "--language=$IMPORT_LANGUAGE" "--from=$IMPORT_FROM" "--to=$IMPORT_TO" \
+            "--status=$IMPORT_STATUS" "--force=$IMPORT_FORCE" $SHA_ARG
+          REMOTE

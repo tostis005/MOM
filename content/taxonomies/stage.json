@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "dimension": "stage",
+  "wp_taxonomy": "content_stage",
+  "hierarchical": false,
+  "public": true,
+  "navigation": { "home": true, "order": 20 },
+  "labels": { "es": "Etapas", "en": "Stages" },
+  "terms": [
+    { "id": "pregnancy", "home_order": 10, "label": { "es": "Embarazo", "en": "Pregnancy" }, "slug": { "es": "embarazo", "en": "pregnancy" } },
+    { "id": "preparing-for-baby", "home_order": 20, "label": { "es": "Preparación para el bebé", "en": "Preparing for baby" }, "slug": { "es": "preparacion-bebe", "en": "preparing-for-baby" } },
+    { "id": "postpartum", "home_order": 30, "label": { "es": "Posparto", "en": "Postpartum" }, "slug": { "es": "posparto", "en": "postpartum" } },
+    { "id": "newborn", "home_order": 40, "label": { "es": "Recién nacido", "en": "Newborn" }, "slug": { "es": "recien-nacido", "en": "newborn" } },
+    { "id": "baby", "home_order": 50, "label": { "es": "Bebé", "en": "Baby" }, "slug": { "es": "bebe", "en": "baby" } },
+    { "id": "toddler", "home_order": 60, "label": { "es": "Toddler", "en": "Toddler" }, "slug": { "es": "toddler", "en": "toddler" } },
+    { "id": "preschool", "home_order": 70, "label": { "es": "Preschool / infantil", "en": "Preschool" }, "slug": { "es": "preschool-infantil", "en": "preschool" } },
+    { "id": "school-age", "home_order": 80, "label": { "es": "Edad escolar", "en": "School age" }, "slug": { "es": "edad-escolar", "en": "school-age" } },
+    { "id": "second-child-siblings", "home_order": 90, "label": { "es": "Segundo hijo y hermanos", "en": "Second child & siblings" }, "slug": { "es": "segundo-hijo-hermanos", "en": "second-child-siblings" } },
+    { "id": "parenthood-general", "home_order": 100, "label": { "es": "Maternidad y paternidad", "en": "Parenthood" }, "slug": { "es": "maternidad-paternidad", "en": "parenthood" } }
+  ]
+}

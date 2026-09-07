@@ -44,7 +44,7 @@ jobs:
           scp -i ~/.ssh/mom_routing_key platform/mom-routing-runtime.php \
             "$VPS_USER@$VPS_HOST:/tmp/mom-routing-runtime.php"
 
-      - name: Install runtime, flush routes and smoke-test URLs
+      - name: Install runtime, repair permalinks and smoke-test URLs
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -67,11 +67,35 @@ jobs:
           "${DOCKER[@]}" exec mom-wp sh -lc 'chown www-data:www-data /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php && chmod 644 /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php'
           "${DOCKER[@]}" exec mom-wp php -l /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php
 
+          # Pretty permalinks are required for /en/, localized taxonomies and article slugs.
+          # Keep a standard WordPress front-controller .htaccess in place even if a prior
+          # soft rewrite flush left the container without one.
+          "${DOCKER[@]}" exec mom-wp sh -lc 'cat > /var/www/html/.htaccess <<"HTACCESS"
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+HTACCESS
+chown www-data:www-data /var/www/html/.htaccess
+chmod 644 /var/www/html/.htaccess'
+
           ROUTE_INFO="$("${DOCKER[@]}" exec mom-wp php -r '
             require "/var/www/html/wp-load.php";
-            flush_rewrite_rules(false);
+            if ("/%postname%/" !== get_option("permalink_structure")) {
+                update_option("permalink_structure", "/%postname%/");
+            }
+            flush_rewrite_rules(true);
             $home = rtrim(home_url("/"), "/");
             echo "HOME={$home}\n";
+            echo "PERMALINK_STRUCTURE=" . get_option("permalink_structure") . "\n";
+            echo "RUNTIME_LOADED=" . (function_exists("mom_runtime_parse_request") ? "yes" : "no") . "\n";
             foreach (["es", "en"] as $lang) {
                 $ids = get_posts([
                     "post_type" => "post",
@@ -95,16 +119,18 @@ jobs:
           ')"
 
           printf '%s\n' "$ROUTE_INFO"
+          "${DOCKER[@]}" exec mom-wp sh -lc 'printf "HTACCESS_PRESENT="; test -s /var/www/html/.htaccess && echo yes || echo no; if command -v apache2ctl >/dev/null 2>&1; then apache2ctl -M 2>/dev/null | grep -q rewrite_module && echo MOD_REWRITE=yes || echo MOD_REWRITE=no; fi'
+
           HOME_URL="$(printf '%s\n' "$ROUTE_INFO" | sed -n 's/^HOME=//p' | tail -n1)"
           ES_ARTICLE_SLUG="$(printf '%s\n' "$ROUTE_INFO" | sed -n 's/^ES_ARTICLE_SLUG=//p' | tail -n1)"
           EN_ARTICLE_SLUG="$(printf '%s\n' "$ROUTE_INFO" | sed -n 's/^EN_ARTICLE_SLUG=//p' | tail -n1)"
-
           test -n "$HOME_URL"
 
+          FAILURES=0
           check_url() {
             url="$1"
             if command -v curl >/dev/null 2>&1; then
-              code="$(curl -L --max-redirs 5 --connect-timeout 10 --max-time 30 -sS -o /dev/null -w '%{http_code}' "$url")"
+              code="$(curl -L --max-redirs 5 --connect-timeout 10 --max-time 30 -sS -o /dev/null -w '%{http_code}' "$url" || true)"
             elif command -v wget >/dev/null 2>&1; then
               code="$(wget -q --server-response --max-redirect=5 -O /dev/null "$url" 2>&1 | awk '/^  HTTP\// {code=$2} END {print code}')"
             else
@@ -114,7 +140,7 @@ jobs:
             printf 'ROUTE_CHECK %s %s\n' "$code" "$url"
             case "$code" in
               2??) ;;
-              *) echo "ERROR: route failed: $url -> HTTP $code" >&2; exit 1 ;;
+              *) FAILURES=$((FAILURES + 1)) ;;
             esac
           }
 
@@ -130,6 +156,11 @@ jobs:
           fi
           if [ -n "$EN_ARTICLE_SLUG" ]; then
             check_url "$HOME_URL/en/$EN_ARTICLE_SLUG/"
+          fi
+
+          if [ "$FAILURES" -ne 0 ]; then
+            echo "ERROR: $FAILURES localized route smoke test(s) failed." >&2
+            exit 1
           fi
 
           echo 'MOM localized routing smoke tests passed.'

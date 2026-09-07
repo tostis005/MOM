@@ -1,0 +1,266 @@
+name: Reusable MOM content import
+
+on:
+  workflow_call:
+    inputs:
+      language:
+        required: false
+        type: string
+        default: all
+      from:
+        required: false
+        type: string
+        default: '1'
+      to:
+        required: false
+        type: string
+        default: '999999'
+      status:
+        required: false
+        type: string
+        default: json
+      force:
+        required: false
+        type: boolean
+        default: false
+    secrets:
+      VPS_HOST:
+        required: false
+      VPS_USER:
+        required: false
+      VPS_SSH_KEY:
+        required: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mom-content-import-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    env:
+      IMPORT_LANGUAGE: ${{ inputs.language || 'all' }}
+      IMPORT_FROM: ${{ inputs.from || '1' }}
+      IMPORT_TO: ${{ inputs.to || '999999' }}
+      IMPORT_STATUS: ${{ inputs.status || 'json' }}
+      IMPORT_FORCE: ${{ inputs.force || false }}
+
+    steps:
+      - name: Checkout normalized MOM content
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          path: site
+
+      - name: Validate platform and article JSON
+        run: |
+          set -euo pipefail
+          php -l site/platform/import-content.php
+          php -l site/platform/content-platform.php
+          python3 site/platform/validate-content.py site
+
+      - name: Detect remote deployment configuration
+        id: remote
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -n "${VPS_HOST:-}" ] && [ -n "${VPS_USER:-}" ] && [ -n "${VPS_SSH_KEY:-}" ]; then
+            echo 'ready=true' >> "$GITHUB_OUTPUT"
+            echo 'MOM remote WordPress deployment is configured.'
+          else
+            echo 'ready=false' >> "$GITHUB_OUTPUT"
+            echo '::notice::Content validated; remote import skipped because SSH deployment secrets are incomplete.'
+          fi
+
+      - name: Configure SSH
+        if: steps.remote.outputs.ready == 'true'
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/mom_content_import_key
+          chmod 600 ~/.ssh/mom_content_import_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Verify MOM WordPress container
+        if: steps.remote.outputs.ready == 'true'
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/mom_content_import_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+          if docker inspect mom-wp >/dev/null 2>&1; then
+            DOCKER=(docker)
+          elif sudo -n docker inspect mom-wp >/dev/null 2>&1; then
+            DOCKER=(sudo -n docker)
+          else
+            echo 'ERROR: cannot access the mom-wp container with docker or sudo docker.' >&2
+            exit 1
+          fi
+          "${DOCKER[@]}" exec mom-wp sh -lc 'test -f /var/www/html/wp-load.php && command -v php >/dev/null 2>&1'
+          REMOTE
+
+      - name: Upload importer engine
+        if: steps.remote.outputs.ready == 'true'
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          scp -i ~/.ssh/mom_content_import_key site/platform/import-content.php \
+            "$VPS_USER@$VPS_HOST:/tmp/mom-content-import.php"
+          scp -i ~/.ssh/mom_content_import_key site/platform/content-platform.php \
+            "$VPS_USER@$VPS_HOST:/tmp/mom-content-runtime.php"
+
+      - name: Read last successful import SHA
+        if: steps.remote.outputs.ready == 'true'
+        id: import_state
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          STATE_OUTPUT="$(ssh -i ~/.ssh/mom_content_import_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+          if docker inspect mom-wp >/dev/null 2>&1; then
+            DOCKER=(docker)
+          else
+            DOCKER=(sudo -n docker)
+          fi
+          "${DOCKER[@]}" cp /tmp/mom-content-import.php mom-wp:/tmp/mom-content-import.php
+          "${DOCKER[@]}" exec mom-wp php /tmp/mom-content-import.php /var/www/html /tmp --state=read
+          REMOTE
+          )"
+          printf '%s\n' "$STATE_OUTPUT"
+          LAST_SHA="$(printf '%s\n' "$STATE_OUTPUT" | sed -n 's/^IMPORT_STATE_SHA=//p' | tail -n1 | tr -d '\r\n')"
+          echo "sha=$LAST_SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Select and package content
+        id: package
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          LAST_SUCCESSFUL_SHA: ${{ steps.import_state.outputs.sha }}
+        run: |
+          set -euo pipefail
+          cd site
+          TARGET_SHA="$(git rev-parse HEAD)"
+          rm -rf /tmp/mom-content-package
+          mkdir -p /tmp/mom-content-package/content/articles
+          cp content/site.json /tmp/mom-content-package/content/site.json
+          mkdir -p /tmp/mom-content-package/content/taxonomies
+          cp content/taxonomies/*.json /tmp/mom-content-package/content/taxonomies/
+          : > /tmp/mom-content-selected.txt
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            python3 - <<'PY' > /tmp/mom-content-selected.txt
+          import json, os
+          from pathlib import Path
+          language = os.environ['IMPORT_LANGUAGE']
+          first = int(os.environ['IMPORT_FROM'])
+          last = int(os.environ['IMPORT_TO'])
+          languages = None if language == 'all' else {language}
+          for path in sorted(Path('content/articles').glob('*/*.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              if languages is not None and data.get('language') not in languages:
+                  continue
+              number = int(data.get('article_number', 0))
+              if first <= number <= last:
+                  print(path.as_posix())
+          PY
+            SUCCESSFUL_SHA=''
+          else
+            BASE_SHA="$LAST_SUCCESSFUL_SHA"
+            if [ -z "$BASE_SHA" ] || ! git cat-file -e "${BASE_SHA}^{commit}" 2>/dev/null || ! git merge-base --is-ancestor "$BASE_SHA" "$TARGET_SHA"; then
+              BASE_SHA="$(git rev-parse "${TARGET_SHA}^" 2>/dev/null || true)"
+            fi
+
+            CONFIG_CHANGED=false
+            if [ -n "$BASE_SHA" ] && git diff --name-only "$BASE_SHA" "$TARGET_SHA" -- content/site.json content/taxonomies/ | grep -q .; then
+              CONFIG_CHANGED=true
+            fi
+
+            if [ "$CONFIG_CHANGED" = true ] || [ -z "$BASE_SHA" ]; then
+              find content/articles -mindepth 2 -maxdepth 2 -type f -name '*.json' | sort > /tmp/mom-content-selected.txt
+            else
+              git diff --name-only --diff-filter=AMR "$BASE_SHA" "$TARGET_SHA" -- ':(glob)content/articles/*/*.json' \
+                | while IFS= read -r file; do [ -f "$file" ] && printf '%s\n' "$file"; done \
+                > /tmp/mom-content-selected.txt
+            fi
+            SUCCESSFUL_SHA="$TARGET_SHA"
+          fi
+
+          sort -u /tmp/mom-content-selected.txt -o /tmp/mom-content-selected.txt
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            mkdir -p "/tmp/mom-content-package/$(dirname "$file")"
+            cp "$file" "/tmp/mom-content-package/$file"
+          done < /tmp/mom-content-selected.txt
+          COUNT="$(sed '/^$/d' /tmp/mom-content-selected.txt | wc -l | tr -d ' ')"
+          tar -C /tmp/mom-content-package -czf /tmp/mom-content-package.tgz content
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "successful_sha=$SUCCESSFUL_SHA" >> "$GITHUB_OUTPUT"
+          echo "Selected $COUNT article(s)."
+
+      - name: Copy content package to VPS
+        if: steps.remote.outputs.ready == 'true'
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          scp -i ~/.ssh/mom_content_import_key /tmp/mom-content-package.tgz \
+            "$VPS_USER@$VPS_HOST:/tmp/mom-content-package.tgz"
+
+      - name: Import into MOM WordPress container
+        if: steps.remote.outputs.ready == 'true'
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          SUCCESSFUL_SHA: ${{ steps.package.outputs.successful_sha }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/mom_content_import_key "$VPS_USER@$VPS_HOST" \
+            "IMPORT_LANGUAGE='$IMPORT_LANGUAGE' IMPORT_FROM='$IMPORT_FROM' IMPORT_TO='$IMPORT_TO' IMPORT_STATUS='$IMPORT_STATUS' IMPORT_FORCE='$IMPORT_FORCE' SUCCESSFUL_SHA='$SUCCESSFUL_SHA' bash -s" <<'REMOTE'
+          set -euo pipefail
+          if docker inspect mom-wp >/dev/null 2>&1; then
+            DOCKER=(docker)
+          elif sudo -n docker inspect mom-wp >/dev/null 2>&1; then
+            DOCKER=(sudo -n docker)
+          else
+            echo 'ERROR: cannot access mom-wp.' >&2
+            exit 1
+          fi
+
+          rm -rf /tmp/mom-content-package
+          mkdir -p /tmp/mom-content-package
+          tar -C /tmp/mom-content-package -xzf /tmp/mom-content-package.tgz
+
+          "${DOCKER[@]}" cp /tmp/mom-content-import.php mom-wp:/tmp/mom-content-import.php
+          "${DOCKER[@]}" cp /tmp/mom-content-runtime.php mom-wp:/tmp/mom-content-runtime.php
+          "${DOCKER[@]}" exec mom-wp sh -lc 'rm -rf /tmp/mom-content-package && mkdir -p /tmp/mom-content-package'
+          "${DOCKER[@]}" cp /tmp/mom-content-package/. mom-wp:/tmp/mom-content-package/
+          "${DOCKER[@]}" exec mom-wp sh -lc 'mkdir -p /var/www/html/wp-content/mu-plugins && cp /tmp/mom-content-runtime.php /var/www/html/wp-content/mu-plugins/content-platform.php'
+
+          SHA_ARG=''
+          [ -n "$SUCCESSFUL_SHA" ] && SHA_ARG="--successful-sha=$SUCCESSFUL_SHA"
+          "${DOCKER[@]}" exec mom-wp php /tmp/mom-content-import.php /var/www/html /tmp/mom-content-package \
+            "--language=$IMPORT_LANGUAGE" "--from=$IMPORT_FROM" "--to=$IMPORT_TO" \
+            "--status=$IMPORT_STATUS" "--force=$IMPORT_FORCE" $SHA_ARG
+          REMOTE
+
+      - name: Report validation-only mode
+        if: steps.remote.outputs.ready != 'true'
+        run: |
+          echo 'MOM content validation succeeded.'
+          echo 'Remote WordPress import was not attempted because deployment credentials are incomplete.'

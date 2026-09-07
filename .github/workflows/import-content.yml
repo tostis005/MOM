@@ -7,6 +7,8 @@ on:
       - 'content/articles/*/*.json'
       - 'content/site.json'
       - 'content/taxonomies/*.json'
+      - 'platform/**'
+      - '.github/workflows/reusable-content-import.yml'
   workflow_dispatch:
     inputs:
       language:

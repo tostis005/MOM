@@ -10,107 +10,160 @@ $topics    = mom_home_terms( 'topic' );
 $stages    = mom_home_terms( 'stage' );
 $audiences = mom_home_terms( 'audience' );
 $home_url  = mom_language_home_url();
+
+$hero_query = new WP_Query(
+	array(
+		'post_type'           => 'post',
+		'post_status'         => 'publish',
+		'posts_per_page'      => 1,
+		'ignore_sticky_posts' => false,
+		'meta_query'          => array(
+			array(
+				'key'     => '_thumbnail_id',
+				'compare' => 'EXISTS',
+			),
+		),
+	)
+);
+$hero_post_id = $hero_query->have_posts() ? (int) $hero_query->posts[0]->ID : 0;
+wp_reset_postdata();
 ?>
 
 <section class="home-hero">
-	<div class="container hero-grid">
-		<div class="hero-copy">
-			<span class="eyebrow"><?php echo esc_html( mom_t( 'Maternidad y vida familiar', 'Motherhood & family life' ) ); ?></span>
-			<h1><?php echo esc_html( mom_t( 'Criar tiene muchas preguntas. Aquí caben todas.', 'Parenting comes with questions. There is room for all of them here.' ) ); ?></h1>
-			<p><?php echo esc_html( mom_t( 'MOM reúne respuestas prácticas, contexto y acompañamiento editorial para el embarazo, los primeros años y todo lo que cambia en una familia por el camino.', 'MOM brings together practical answers, context and thoughtful guidance for pregnancy, the early years and everything that changes in a family along the way.' ) ); ?></p>
-			<form class="hero-search" role="search" method="get" action="<?php echo esc_url( $home_url ); ?>">
-				<label class="screen-reader-text" for="mom-search"><?php echo esc_html( mom_t( 'Buscar', 'Search' ) ); ?></label>
-				<input id="mom-search" type="search" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" placeholder="<?php echo esc_attr( mom_t( 'Sueño, rabietas, lactancia, vuelta al trabajo…', 'Sleep, tantrums, feeding, returning to work…' ) ); ?>">
-				<button type="submit"><?php echo esc_html( mom_t( 'Buscar', 'Search' ) ); ?></button>
-			</form>
-			<div class="hero-shortcuts">
-				<span><?php echo esc_html( mom_t( 'Empieza por', 'Start with' ) ); ?></span>
-				<a href="#temas"><?php echo esc_html( mom_t( 'un tema', 'a topic' ) ); ?></a>
-				<a href="#etapas"><?php echo esc_html( mom_t( 'una etapa', 'a stage' ) ); ?></a>
-				<a href="#para-ti"><?php echo esc_html( mom_t( 'tu situación', 'your situation' ) ); ?></a>
+	<div class="container">
+		<div class="hero-shell">
+			<div class="hero-copy">
+				<span class="eyebrow"><?php echo esc_html( mom_t( 'Una maternidad más consciente', 'A more conscious motherhood' ) ); ?></span>
+				<h1><?php echo esc_html( mom_t( 'Acompañar la maternidad con calma, criterio y belleza', 'Motherhood, accompanied with calm, perspective and beauty' ) ); ?></h1>
+				<p><?php echo esc_html( mom_t( 'Información confiable, inspiración real y herramientas prácticas para cada etapa. Un espacio para mujeres y familias que crían, cuidan y también se cuidan.', 'Reliable information, real inspiration and practical tools for every stage. A space for women and families who raise, care and care for themselves too.' ) ); ?></p>
+				<div class="hero-actions">
+					<a class="button button-primary" href="#ultimos-articulos"><?php echo esc_html( mom_t( 'Explora artículos', 'Explore articles' ) ); ?> <span aria-hidden="true">→</span></a>
+					<a class="button button-secondary" href="#comunidad"><?php echo esc_html( mom_t( 'Conoce MOM', 'Discover MOM' ) ); ?></a>
+				</div>
+				<p class="hero-signature"><?php echo esc_html( mom_t( 'Maternar también es una forma de volver a ti.', 'Mothering can also be a way back to yourself.' ) ); ?></p>
 			</div>
-		</div>
-		<div class="hero-art">
-			<?php echo mom_hero_art_svg(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-			<div class="hero-note">
-				<strong><?php echo esc_html( mom_t( 'Menos ruido. Más contexto para decidir.', 'Less noise. More context for your decisions.' ) ); ?></strong>
-				<span><?php echo esc_html( mom_t( 'Contenido pensado para la vida real, no para la familia perfecta.', 'Content designed for real life, not the perfect family.' ) ); ?></span>
+
+			<div class="hero-media">
+				<?php if ( $hero_post_id && has_post_thumbnail( $hero_post_id ) ) : ?>
+					<?php echo get_the_post_thumbnail( $hero_post_id, 'mom-hero', array( 'loading' => 'eager', 'fetchpriority' => 'high' ) ); ?>
+				<?php else : ?>
+					<div class="hero-art-fallback" aria-hidden="true"><?php echo mom_hero_art_svg(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+				<?php endif; ?>
+				<div class="hero-quote">
+					<span><?php echo esc_html( mom_t( '“Aquí también importas tú.”', '“You matter here, too.”' ) ); ?></span>
+					<strong>MOM.</strong>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="section" id="temas">
+<section class="home-section topic-section" id="temas">
 	<div class="container">
-		<header class="section-intro">
-			<div><span class="section-label"><?php echo esc_html( mom_t( 'Temas', 'Topics' ) ); ?></span><h2><?php echo esc_html( mom_t( 'Encuentra justo lo que te preocupa hoy', 'Find what is on your mind today' ) ); ?></h2></div>
-			<p><?php echo esc_html( mom_t( 'La misma familia cambia de pregunta muchas veces al día. Explora por el tema que tienes delante ahora mismo.', 'Family questions change many times in a single day. Explore the topic that is in front of you right now.' ) ); ?></p>
+		<header class="home-section-head">
+			<div>
+				<h2><?php echo esc_html( mom_t( 'Explora por tema', 'Explore by topic' ) ); ?></h2>
+				<p><?php echo esc_html( mom_t( 'Todo lo que necesitas, en un solo lugar.', 'Everything you need, in one place.' ) ); ?></p>
+			</div>
+			<span class="section-hint"><?php echo esc_html( mom_t( 'Desliza para ver todos', 'Scroll to see all' ) ); ?> <span aria-hidden="true">→</span></span>
 		</header>
-		<div class="topic-grid">
+
+		<div class="topic-rail" aria-label="<?php echo esc_attr( mom_t( 'Temas', 'Topics' ) ); ?>">
 			<?php foreach ( $topics as $topic ) : ?>
-				<a class="topic-card" style="--topic-accent:<?php echo esc_attr( mom_topic_accent( $topic['id'] ) ); ?>" href="<?php echo esc_url( mom_term_url( 'topic', $topic['id'], $topic['label'] ) ); ?>">
-					<span class="topic-art" aria-hidden="true"><?php echo mom_topic_art_svg( $topic['id'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></span>
-					<span class="topic-copy"><strong><?php echo esc_html( $topic['label'] ); ?></strong><small><?php echo esc_html( mom_topic_description( $topic['id'] ) ); ?></small></span>
-					<span class="topic-arrow" aria-hidden="true">↗</span>
+				<a class="premium-topic-card" style="--topic-accent:<?php echo esc_attr( mom_topic_accent( $topic['id'] ) ); ?>" href="<?php echo esc_url( mom_term_url( 'topic', $topic['id'], $topic['label'] ) ); ?>">
+					<span class="premium-topic-art" aria-hidden="true"><?php echo mom_topic_art_svg( $topic['id'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></span>
+					<span class="premium-topic-copy">
+						<strong><?php echo esc_html( $topic['label'] ); ?></strong>
+						<small><?php echo esc_html( wp_trim_words( mom_topic_description( $topic['id'] ), 10 ) ); ?></small>
+					</span>
 				</a>
 			<?php endforeach; ?>
 		</div>
 	</div>
 </section>
 
-<section class="section stage-section" id="etapas">
+<section class="home-section stage-section" id="etapas">
 	<div class="container">
-		<header class="compact-intro">
-			<span class="section-label"><?php echo esc_html( mom_t( 'Por etapa', 'By stage' ) ); ?></span>
-			<h2><?php echo esc_html( mom_t( 'Porque no necesitas lo mismo en cada momento', 'Because every stage asks for something different' ) ); ?></h2>
-			<p><?php echo esc_html( mom_t( 'Del embarazo a la edad escolar, entra directamente en la etapa que estás viviendo.', 'From pregnancy to school age, jump directly into the stage you are living now.' ) ); ?></p>
+		<header class="home-section-head">
+			<div>
+				<h2><?php echo esc_html( mom_t( 'Explora por etapa', 'Explore by stage' ) ); ?></h2>
+				<p><?php echo esc_html( mom_t( 'Cada etapa tiene preguntas distintas. Aquí tienes recursos pensados para el momento en el que estás.', 'Every stage brings different questions. Find resources for the moment you are in.' ) ); ?></p>
+			</div>
 		</header>
-		<div class="stage-grid">
+
+		<div class="stage-rail">
 			<?php foreach ( $stages as $index => $stage ) : ?>
-				<a class="stage-card" href="<?php echo esc_url( mom_term_url( 'stage', $stage['id'], $stage['label'] ) ); ?>">
-					<span class="stage-number"><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
-					<strong><?php echo esc_html( $stage['label'] ); ?></strong>
+				<a class="premium-stage-card" href="<?php echo esc_url( mom_term_url( 'stage', $stage['id'], $stage['label'] ) ); ?>">
+					<span class="stage-icon" aria-hidden="true"><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
+					<span class="stage-copy"><strong><?php echo esc_html( $stage['label'] ); ?></strong><small><?php echo esc_html( mom_t( 'Recursos para esta etapa', 'Resources for this stage' ) ); ?></small></span>
+					<span class="stage-arrow" aria-hidden="true">›</span>
 				</a>
 			<?php endforeach; ?>
 		</div>
 	</div>
 </section>
 
-<section class="section" id="para-ti">
-	<div class="container">
-		<header class="section-intro">
-			<div><span class="section-label"><?php echo esc_html( mom_t( 'Para quién', 'For whom' ) ); ?></span><h2><?php echo esc_html( mom_t( 'La crianza no la vive una sola persona', 'Parenting is never lived by just one person' ) ); ?></h2></div>
-			<p><?php echo esc_html( mom_t( 'También puedes filtrar la lectura según quién necesita la respuesta: madres, padres, pareja o familia que acompaña.', 'You can also filter by who needs the answer: moms, dads, partners or the wider family supporting them.' ) ); ?></p>
-		</header>
-		<div class="audience-grid">
-			<?php $symbols = array( '○', '◡', '◇', '∞', '⌂' ); foreach ( $audiences as $index => $audience ) : ?>
-				<a class="audience-card" href="<?php echo esc_url( mom_term_url( 'audience', $audience['id'], $audience['label'] ) ); ?>">
+<section class="home-section audience-section" id="para-ti">
+	<div class="container audience-shell">
+		<div class="audience-intro">
+			<span class="eyebrow"><?php echo esc_html( mom_t( 'Para quién', 'For whom' ) ); ?></span>
+			<h2><?php echo esc_html( mom_t( 'La maternidad también se vive en plural.', 'Motherhood is lived together.' ) ); ?></h2>
+			<p><?php echo esc_html( mom_t( 'Encuentra contenido pensado para quien está viviendo la pregunta: madres, padres, pareja y la red que acompaña.', 'Find content for the person living the question: moms, dads, partners and the wider support network.' ) ); ?></p>
+		</div>
+		<div class="audience-list">
+			<?php $symbols = array( '♡', '○', '◇', '∞', '⌂' ); foreach ( $audiences as $index => $audience ) : ?>
+				<a class="premium-audience-card" href="<?php echo esc_url( mom_term_url( 'audience', $audience['id'], $audience['label'] ) ); ?>">
 					<span class="audience-symbol" aria-hidden="true"><?php echo esc_html( $symbols[ $index ] ?? '○' ); ?></span>
-					<span><strong><?php echo esc_html( $audience['label'] ); ?></strong><small><?php echo esc_html( mom_t( 'Ver artículos seleccionados para esta perspectiva.', 'See articles selected for this perspective.' ) ); ?></small></span>
+					<strong><?php echo esc_html( $audience['label'] ); ?></strong>
 				</a>
 			<?php endforeach; ?>
 		</div>
 	</div>
 </section>
 
-<section class="section" id="ultimos-articulos">
+<section class="home-section stories-section" id="ultimos-articulos">
 	<div class="container">
-		<header class="latest-head">
-			<div><span class="section-label"><?php echo esc_html( mom_t( 'Nuevas lecturas', 'New reads' ) ); ?></span><h2><?php echo esc_html( mom_t( 'Últimos artículos', 'Latest articles' ) ); ?></h2></div>
+		<header class="home-section-head stories-head">
+			<div>
+				<h2><?php echo esc_html( mom_t( 'Artículos destacados', 'Featured stories' ) ); ?></h2>
+				<p><?php echo esc_html( mom_t( 'Historias, guías y reflexiones para una maternidad más real.', 'Stories, guides and perspective for a more real motherhood.' ) ); ?></p>
+			</div>
 		</header>
-		<div class="card-grid">
+
+		<div class="story-grid">
 			<?php
-			$latest = new WP_Query(
+			$featured = new WP_Query(
 				array(
 					'post_type'           => 'post',
 					'post_status'         => 'publish',
-					'posts_per_page'      => 6,
+					'posts_per_page'      => 4,
 					'ignore_sticky_posts' => false,
 				)
 			);
-			if ( $latest->have_posts() ) :
-				while ( $latest->have_posts() ) : $latest->the_post();
-					mom_render_post_card( get_the_ID() );
+			if ( $featured->have_posts() ) :
+				while ( $featured->have_posts() ) :
+					$featured->the_post();
+					$post_id  = get_the_ID();
+					$topic_id = mom_primary_topic_id( $post_id );
+					?>
+					<article class="story-card">
+						<a href="<?php the_permalink(); ?>">
+							<div class="story-media">
+								<?php if ( has_post_thumbnail( $post_id ) ) : ?>
+									<?php echo get_the_post_thumbnail( $post_id, 'mom-card', array( 'loading' => 'lazy' ) ); ?>
+								<?php else : ?>
+									<div class="story-fallback" style="color:<?php echo esc_attr( mom_topic_accent( $topic_id ) ); ?>"><?php echo mom_topic_art_svg( $topic_id ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+								<?php endif; ?>
+							</div>
+							<div class="story-body">
+								<span class="story-kicker"><?php echo esc_html( mom_topic_label( $topic_id ) ); ?></span>
+								<h3><?php the_title(); ?></h3>
+								<p><?php echo esc_html( wp_trim_words( get_the_excerpt(), 16 ) ); ?></p>
+								<span class="story-meta"><?php echo esc_html( mom_reading_time( $post_id ) ); ?></span>
+							</div>
+						</a>
+					</article>
+					<?php
 				endwhile;
 				wp_reset_postdata();
 			endif;
@@ -119,11 +172,16 @@ $home_url  = mom_language_home_url();
 	</div>
 </section>
 
-<section class="home-manifesto">
+<section class="community-section" id="comunidad">
 	<div class="container">
-		<div class="manifesto-card">
-			<div><span class="section-label"><?php echo esc_html( mom_t( 'Nuestra idea', 'Our approach' ) ); ?></span><h2><?php echo esc_html( mom_t( 'Información que ayuda, no que añade presión.', 'Information that helps instead of adding pressure.' ) ); ?></h2></div>
-			<p><?php echo esc_html( mom_t( 'Queremos que cada artículo responda una pregunta real, explique los matices que importan y te deje con algo útil que puedas aplicar o decidir. Sin convertir la maternidad ni la crianza en una lista infinita de cosas que hacer bien.', 'Every article should answer a real question, explain the nuances that matter and leave you with something useful you can apply or decide. Without turning motherhood or parenting into an endless checklist of things to get right.' ) ); ?></p>
+		<div class="community-card">
+			<div class="community-kicker"><?php echo esc_html( mom_t( 'Una comunidad que te acompaña', 'A community beside you' ) ); ?></div>
+			<div class="community-copy">
+				<h2><?php echo esc_html( mom_t( 'MOM. para la vida real.', 'MOM. for real life.' ) ); ?></h2>
+				<p><?php echo esc_html( mom_t( 'Contenido para decidir con más contexto, vivir cada etapa con menos ruido y recordar que tú también importas.', 'Content to decide with more context, live each stage with less noise and remember that you matter too.' ) ); ?></p>
+			</div>
+			<a class="button button-primary" href="#temas"><?php echo esc_html( mom_t( 'Empieza a explorar', 'Start exploring' ) ); ?> <span aria-hidden="true">→</span></a>
+			<div class="community-signature"><?php echo esc_html( mom_t( 'Mujeres más acompañadas. Familias más tranquilas.', 'More supported women. Calmer families.' ) ); ?></div>
 		</div>
 	</div>
 </section>

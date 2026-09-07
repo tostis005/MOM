@@ -1,26 +1,26 @@
 {
   "summary": {
-    "total": 400,
+    "total": 440,
     "by_language": {
       "es": {
-        "count": 200,
-        "avg_words": 682.5,
-        "median_words": 653,
-        "avg_h2": 5.05,
-        "avg_short_para_ratio": 0.037,
+        "count": 220,
+        "avg_words": 655.1,
+        "median_words": 631,
+        "avg_h2": 4.95,
+        "avg_short_para_ratio": 0.035,
         "risk_7_plus": 0,
-        "risk_5_6": 123,
+        "risk_5_6": 143,
         "risk_3_4": 48,
         "risk_0_2": 29
       },
       "en": {
-        "count": 200,
-        "avg_words": 652.5,
-        "median_words": 615,
-        "avg_h2": 4.92,
-        "avg_short_para_ratio": 0.04,
+        "count": 220,
+        "avg_words": 625.8,
+        "median_words": 594,
+        "avg_h2": 4.84,
+        "avg_short_para_ratio": 0.038,
         "risk_7_plus": 0,
-        "risk_5_6": 134,
+        "risk_5_6": 154,
         "risk_3_4": 41,
         "risk_0_2": 25
       }
@@ -28,7 +28,7 @@
     "exact_repeated_paragraphs": 0,
     "repeated_h2_patterns": 0,
     "repeated_opening_patterns": 0,
-    "common_6grams_6plus_articles": 7
+    "common_6grams_6plus_articles": 10
   },
   "highest_risk": [
     {
@@ -7025,6 +7025,436 @@
       ]
     },
     {
+      "path": "content/articles/en/101-move-from-sleeping-in-arms-to-other-support.json",
+      "article_number": 101,
+      "translation_group": "101-move-from-sleeping-in-arms-to-other-support",
+      "language": "en",
+      "title": "How to move from sleeping in arms to other kinds of support without changing everything at once",
+      "words": 414,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 9.66,
+      "h2s": [
+        "Change one variable instead of the whole routine",
+        "Keep a bridge between the old and new versions",
+        "Decide what counts as “enough for tonight”",
+        "Measure progress by flexibility"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 35.1,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 6,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Being held to sleep can solve a very real problem: your baby settles, you know what works, and the evening moves forward. The tension starts when that same solution becomes physically exhausting, impossible to share, or so specific that one adult feels responsible for every sleep.",
+      "opening_14_words": "Being held to sleep can solve a very real problem your baby settles you",
+      "intro_3_paragraphs": "Being held to sleep can solve a very real problem: your baby settles, you know what works, and the evening moves forward. The tension starts when that same solution becomes physically exhausting, impossible to share, or so specific that one adult feels responsible for every sleep. A gentler transition begins by asking what you can keep familiar while changing one part of the pattern. You do not have to remove comfort in order to create more options. If sleep currently involves being held, walking, a certain song, dim lights and a specific position, pick one piece to soften. You might sit instead of pace, reduce movement near the end, or keep holding while introducing a more stationary final step.",
+      "last_h2": "Measure progress by flexibility",
+      "ending_3_paragraphs": "For a while, some sleeps may still happen in arms and others may not. One parent may find a different approach sooner than the other. That unevenness can be part of learning rather than evidence that the plan is failing. Each additional workable path reduces dependence on one exact sequence. That flexibility is meaningful progress even before the old pattern disappears. You can keep warmth and connection while changing how sleep is supported. A gradual transition is allowed to look mixed for a while.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/102-contact-naps-without-feeling-problem.json",
+      "article_number": 102,
+      "translation_group": "102-contact-naps-without-feeling-problem",
+      "language": "en",
+      "title": "Contact naps: how to enjoy them without feeling like you are creating a problem",
+      "words": 445,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 8.99,
+      "h2s": [
+        "Notice the difference between a preference and a trap",
+        "Do not turn a possible future problem into a present emergency",
+        "Build options instead of banning one method",
+        "Count the adult's rest too"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 37.5,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Contact naps often come with a second invisible task: evaluating them. While your baby sleeps on you, you may wonder whether you should move them, whether this will become impossible to change, or whether you are supposed to savor every minute because the stage is temporary.",
+      "opening_14_words": "Contact naps often come with a second invisible task evaluating them While your baby",
+      "intro_3_paragraphs": "Contact naps often come with a second invisible task: evaluating them. While your baby sleeps on you, you may wonder whether you should move them, whether this will become impossible to change, or whether you are supposed to savor every minute because the stage is temporary. A contact nap does not need to be defended or eliminated on principle. It needs to fit reasonably well with the bodies, time and needs of the people living with it. If you genuinely like sitting down while your baby sleeps, a contact nap may give you closeness and a natural pause. If you cannot eat, use the bathroom, work, care for another child or ever hand the job to someone else, the same routine can start to feel confining.",
+      "last_h2": "Count the adult's rest too",
+      "ending_3_paragraphs": "A sleeping baby on a still adult can look restful from the outside. It may not feel restful if you are uncomfortable, hungry, trapped under a dead phone battery or mentally on duty the entire time. If contact naps are staying for now, make them easier on the adult too: water nearby, a comfortable position and another person taking over when possible. Enjoying closeness does not require enjoying every minute of immobility. Contact naps are not a test of whether you are creating good or bad habits. They are one sleep arrangement that can stay, mix with others or change when it stops serving your family.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/103-lengthen-too-short-bedtime-routine.json",
+      "article_number": 103,
+      "translation_group": "103-lengthen-too-short-bedtime-routine",
+      "language": "en",
+      "title": "How to lengthen a bedtime routine that feels too short",
+      "words": 387,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.34,
+      "h2s": [
+        "Find the sharpest change of pace",
+        "Add steps with a clear job",
+        "Start with a small extension",
+        "Create a full version and a minimum version"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 32.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 3,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "A bedtime routine is not automatically better because it is longer. If pajamas, one book and bed work smoothly, there is nothing missing. But some routines are so compressed that they act like a switch: the house is active one minute and everyone is expected to be quiet the next.",
+      "opening_14_words": "A bedtime routine is not automatically better because it is longer If pajamas one",
+      "intro_3_paragraphs": "A bedtime routine is not automatically better because it is longer. If pajamas, one book and bed work smoothly, there is nothing missing. But some routines are so compressed that they act like a switch: the house is active one minute and everyone is expected to be quiet the next. If you want to make the routine longer, add the transition that is missing rather than extra tasks for the sake of filling time. Look at the twenty or thirty minutes before bed. The difficult moment may not be the last book; it may be the leap from play, screens, siblings or a busy kitchen straight into the bedroom.",
+      "last_h2": "Create a full version and a minimum version",
+      "ending_3_paragraphs": "Decide which steps are the core and which are optional. A basic sequence might be bathroom, pajamas, connection and a final cue. On relaxed nights there may be extra reading; on late nights the core remains. That flexibility makes the routine stronger, not weaker. Your child can recognize the same structure even when the evening is shorter. A longer routine is useful only when it creates a clearer transition. Add what the evening is missing and keep the structure simple enough to live with.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/104-bedtime-resistance-negotiation.json",
+      "article_number": 104,
+      "translation_group": "104-bedtime-resistance-negotiation",
+      "language": "en",
+      "title": "Bedtime resistance: why it turns into negotiation and how to respond",
+      "words": 366,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.93,
+      "h2s": [
+        "Move choices earlier",
+        "Use a recognizable final cue",
+        "Help with genuine needs without restarting",
+        "Analyze the pattern during the day"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 31.5,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.182,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 4,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "When bedtime stretches out, adults naturally handle requests one at a time. Many of them are perfectly reasonable. Water is not ridiculous; an extra hug is not a problem by itself. But answering each request as a fresh decision can leave a bigger question unresolved: are we still choosing what happens next, or has bedtime already ended?",
+      "opening_14_words": "When bedtime stretches out adults naturally handle requests one at a time Many of",
+      "intro_3_paragraphs": "When bedtime stretches out, adults naturally handle requests one at a time. Many of them are perfectly reasonable. Water is not ridiculous; an extra hug is not a problem by itself. But answering each request as a fresh decision can leave a bigger question unresolved: are we still choosing what happens next, or has bedtime already ended? Resistance becomes negotiation when every step feels like a chance to reopen the agreement that came before it. Choosing pajamas, books, a cup of water or a stuffed animal can support autonomy when it happens before the final stretch. The same choices become much harder to manage when they appear one at a time after the lights are nearly out.",
+      "last_h2": "Analyze the pattern during the day",
+      "ending_3_paragraphs": "If every night follows the same script, look at it when nobody is exhausted. Are there too many late choices? Does the boundary change depending on which adult is tired? Is bedtime the only reliable one-on-one connection your child gets? The best fixes often happen before the conflict: connection earlier, water prepared, a known number of books and a shared response between caregivers. You do not need to win a bedtime argument. You need the sequence to stop feeling open for renegotiation every few minutes.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/105-early-wakings-review-family-routine.json",
+      "article_number": 105,
+      "translation_group": "105-early-wakings-review-family-routine",
+      "language": "en",
+      "title": "Early wake-ups: review the family routine before trying to change the child",
+      "words": 400,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.0,
+      "h2s": [
+        "Decide what “too early” means in your family",
+        "Look for cues that announce morning",
+        "Do not create a new schedule every two days",
+        "Make early mornings survivable even if they stay early"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 33.5,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Early wake-ups land at the point when adults have the least patience for uncertainty. At 5:30 a.m., every idea feels urgent: move bedtime, change naps, start breakfast, keep the house dark, try a different response tomorrow.",
+      "opening_14_words": "Early wake ups land at the point when adults have the least patience for",
+      "intro_3_paragraphs": "Early wake-ups land at the point when adults have the least patience for uncertainty. At 5:30 a.m., every idea feels urgent: move bedtime, change naps, start breakfast, keep the house dark, try a different response tomorrow. Before chasing a specific wake-up time, separate what you cannot directly control from the parts of the household routine you can actually examine. Six o'clock may be unworkable in a household with late work shifts and perfectly manageable in one that starts early. A concrete target helps you design a consistent response instead of reacting to a vague sense that morning arrived too soon.",
+      "last_h2": "Make early mornings survivable even if they stay early",
+      "ending_3_paragraphs": "Stress often drops when the family has a plan for the outcome nobody wants. That might mean a quiet activity basket, breakfast partly prepared, alternating adult coverage or clear weekend shifts. This is not giving up on change. It is refusing to make the family's well-being depend entirely on achieving a wake-up time nobody can guarantee. Reviewing the family routine will not solve every early wake-up, but it gives you useful places to act: household cues, adult responses, realistic schedules and protection for adult rest.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/106-bedtime-endless-requests-limits-connection.json",
+      "article_number": 106,
+      "translation_group": "106-bedtime-endless-requests-limits-connection",
+      "language": "en",
+      "title": "Kids who ask for a hundred things at bedtime: set limits without losing connection",
+      "words": 367,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.9,
+      "h2s": [
+        "Handle predictable needs before the final cue",
+        "Use a response you can repeat when tired",
+        "Meet important needs without making them a full reset",
+        "Move some connection earlier"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 30.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 5,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "At the end of the day, every new request buys a little more adult presence while the adult gets more tired and more tempted to say yes to “just one more thing” so bedtime will finally end. That combination can create a very long chain nobody deliberately designed.",
+      "opening_14_words": "At the end of the day every new request buys a little more adult",
+      "intro_3_paragraphs": "At the end of the day, every new request buys a little more adult presence while the adult gets more tired and more tempted to say yes to “just one more thing” so bedtime will finally end. That combination can create a very long chain nobody deliberately designed. A useful boundary does not say “you are not allowed to need me.” It says “I will still help you, and the bedtime routine is not starting over.” Do a simple check before lights out: bathroom, water, stuffed animal, temperature, final hug. The point is not to interrogate your child. It is to resolve the obvious needs before the ending becomes emotionally loaded.",
+      "last_h2": "Move some connection earlier",
+      "ending_3_paragraphs": "For some children, bedtime is the first reliable one-on-one attention they have had all day. If every request creates private conversation, it makes sense that they try to extend it. A few minutes of deliberate connection before the final steps will not magically prevent every request, but it can keep the entire day's closeness from being concentrated after the last book. You can say no to another request and still be a safe, connected presence. A predictable ending is part of security too.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/107-recognizable-sleep-cues-when-days-vary.json",
+      "article_number": 107,
+      "translation_group": "107-recognizable-sleep-cues-when-days-vary",
+      "language": "en",
+      "title": "How to create recognizable sleep cues when every day looks different",
+      "words": 311,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.86,
+      "h2s": [
+        "Choose a core routine that can travel",
+        "Keep the order even when the time moves",
+        "Use words as portable cues",
+        "Create a five-minute version on purpose"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 25.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 6,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Shift work, siblings, activities, commutes and weekends make identical evenings unrealistic for many families. When bath time moves or disappears, it can feel as though there is no routine at all.",
+      "opening_14_words": "Shift work siblings activities commutes and weekends make identical evenings unrealistic for many families",
+      "intro_3_paragraphs": "Shift work, siblings, activities, commutes and weekends make identical evenings unrealistic for many families. When bath time moves or disappears, it can feel as though there is no routine at all. Predictability can live in sequence and cues, not just in the clock. A few elements that survive changing circumstances may be more useful than a long routine that works only on perfect nights. Think about what you could repeat at home, at a grandparent's house or in a hotel: pajamas, one song, a short book, dimmer light or a familiar phrase. The core should fit both ordinary evenings and difficult ones.",
+      "last_h2": "Create a five-minute version on purpose",
+      "ending_3_paragraphs": "Routines become fragile when only the full version counts. Design a minimum version for travel, late arrivals and chaotic evenings. Keep the same order and core cues while cutting the extras. A short version does not break the routine. It reveals what the routine actually is. When every day is different, you do not need identical evenings. You need a small set of cues that keep coming back.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/108-sleep-routine-parents-different-schedules.json",
+      "article_number": 108,
+      "translation_group": "108-sleep-routine-parents-different-schedules",
+      "language": "en",
+      "title": "How to keep a bedtime routine when parents have different schedules",
+      "words": 323,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.38,
+      "h2s": [
+        "Agree on the core, not every detail",
+        "Plan what happens when someone arrives halfway through",
+        "Share only the information that changes the night",
+        "Allow different styles"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 27.0,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 4,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "In some homes one parent handles most bedtimes. In others, shift work means constant alternation. In still others, someone walks in halfway through the routine and the child wants to restart everything so that parent can participate.",
+      "opening_14_words": "In some homes one parent handles most bedtimes In others shift work means constant",
+      "intro_3_paragraphs": "In some homes one parent handles most bedtimes. In others, shift work means constant alternation. In still others, someone walks in halfway through the routine and the child wants to restart everything so that parent can participate. Continuity does not require two adults to perform bedtime like copies of each other. It requires a few predictable parts that survive changes in voice, style and availability. Choose the structural pieces: bathroom, pajamas, book, lights, closing phrase, for example. Then let each parent have a different reading voice, song or way of giving the final hug.",
+      "last_h2": "Allow different styles",
+      "ending_3_paragraphs": "One parent may move faster; another may talk more. If the same core and boundaries remain, those differences can actually build flexibility. If a real problem appears, discuss it outside the bedroom. Correcting each other during bedtime makes the routine about adult tension instead of helping the child know what comes next. A shared routine does not require parents to behave identically. A recognizable core and clear handoffs can create stability across very different schedules.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/109-hard-nights-without-changing-strategy-daily.json",
+      "article_number": 109,
+      "translation_group": "109-hard-nights-without-changing-strategy-daily",
+      "language": "en",
+      "title": "How to handle hard nights without changing your sleep strategy every day",
+      "words": 364,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.99,
+      "h2s": [
+        "Have an emergency plan that is not trying to teach anything",
+        "Keep a few anchors even when the night is messy",
+        "Wait for a pattern before redesigning",
+        "Change one variable when possible"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 30.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "At 3 a.m., a brand-new strategy can feel completely reasonable. The next day you search for another explanation, shift the routine and decide that last night's disaster proves the old plan never worked. Sleep loss makes every problem feel urgent.",
+      "opening_14_words": "At 3 a m a brand new strategy can feel completely reasonable The next",
+      "intro_3_paragraphs": "At 3 a.m., a brand-new strategy can feel completely reasonable. The next day you search for another explanation, shift the routine and decide that last night's disaster proves the old plan never worked. Sleep loss makes every problem feel urgent. A hard night needs a response for that night first. It does not always need a new sleep philosophy. Separating crisis management from daytime review keeps you from rebuilding the whole system before you know whether there is a pattern. Decide what happens when everyone is depleted: who takes over, what forms of support are acceptable and when you stop experimenting. The goal is to get the family through the night with a reasonable amount of strain.",
+      "last_h2": "Change one variable when possible",
+      "ending_3_paragraphs": "If you do adjust something, make it observable: the routine order, the adult handoff or the final cue. Changing time, place, caregiver and response all at once creates lots of motion and very little information. Agree on what would count as enough improvement to keep the change. Useful does not have to mean perfect. A difficult night does not automatically invalidate your routine. Survive the crisis, preserve a few anchors and save major decisions for a pattern you can actually examine.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/110-when-sleep-routine-stops-working.json",
+      "article_number": 110,
+      "translation_group": "110-when-sleep-routine-stops-working",
+      "language": "en",
+      "title": "What to do when a bedtime routine stops working",
+      "words": 330,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.12,
+      "h2s": [
+        "Describe the problem precisely",
+        "Remove before you add",
+        "Keep cues that still mean something",
+        "Treat the new version as a test, not a permanent declaration"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 27.7,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 4,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Routines have a misleading reputation: if you designed them well, they should keep working until you choose to change them. Real families do not stay still. Ages, schedules, rooms, siblings, work demands and energy levels all change.",
+      "opening_14_words": "Routines have a misleading reputation if you designed them well they should keep working",
+      "intro_3_paragraphs": "Routines have a misleading reputation: if you designed them well, they should keep working until you choose to change them. Real families do not stay still. Ages, schedules, rooms, siblings, work demands and energy levels all change. When a routine stops working, you do not have to choose between enforcing the exact old version and throwing everything away. First identify which part lost its purpose. “Bedtime no longer works” might mean it takes an hour, bath time creates conflict, the child asks for five books, one parent can no longer participate or the sequence simply feels too long for this stage.",
+      "last_h2": "Treat the new version as a test, not a permanent declaration",
+      "ending_3_paragraphs": "Build a simpler version and use it long enough to see where it flows and where it gets stuck. You do not need to announce that this is now the final routine forever. If one piece needs another adjustment, change that piece. Thinking in versions makes routine change less dramatic and more responsive to the family you have now. A routine that stops working does not erase earlier progress. Often it simply needs a new version with fewer steps, familiar cues and a structure that fits the current stage.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
       "path": "content/articles/en/1001-mom-guilt.json",
       "article_number": 1001,
       "translation_group": "1001-mom-guilt",
@@ -11397,6 +11827,436 @@
       "intro_3_paragraphs": "It is easy to imagine maternal confidence as a future state: one day you will know how to respond to tantrums, stay organized, stop second-guessing yourself, and become unaffected by other people’s opinions. Then you will finally feel like you know how to be a mother. Real confidence usually develops before certainty. It is the experience of being able to act with enough information and still adjust when reality teaches you something new. For one decision, define what you actually need to know, what values matter, and which options are reasonable. Then choose. Reading five more opinions can keep you busy without producing a better answer.",
       "last_h2": "Keep evidence of your own capability",
       "ending_3_paragraphs": "Memory highlights decisions that went badly while treating the hundreds that quietly hold the day together as ordinary. Make a few of those visible: a difficult conversation you handled better, a routine you adjusted, a need you noticed, a boundary you held respectfully. Confidence grows when your image of yourself includes not only what you still question but also what you already know how to do and learn. You do not have to feel like a confident mother before acting like one. Every time you decide, observe, repair, and try again, you build evidence that you can trust yourself without requiring perfection.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1101-not-happy-all-the-time-pregnancy.json",
+      "article_number": 1101,
+      "translation_group": "1101-not-happy-all-the-time-pregnancy",
+      "language": "en",
+      "title": "Is it normal not to feel happy all the time during pregnancy?",
+      "words": 394,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.15,
+      "h2s": [
+        "Stop using each feeling as evidence about what you wanted",
+        "Make room for emotionally ordinary days",
+        "Find people who do not require a positive ending",
+        "Ask for help when distress becomes too large to carry alone"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 32.5,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "A wanted pregnancy is often described as if it comes with a permanent emotional soundtrack: excitement at every appointment, gratitude through every body change, joy whenever someone asks about the baby. Real life is usually much less tidy. There can be boredom, fear, frustration, ordinary workdays and long stretches when you do not feel especially pregnant at all.",
+      "opening_14_words": "A wanted pregnancy is often described as if it comes with a permanent emotional",
+      "intro_3_paragraphs": "A wanted pregnancy is often described as if it comes with a permanent emotional soundtrack: excitement at every appointment, gratitude through every body change, joy whenever someone asks about the baby. Real life is usually much less tidy. There can be boredom, fear, frustration, ordinary workdays and long stretches when you do not feel especially pregnant at all. Wanting a baby and feeling happy every day are different things. Pregnancy is a life stage, not a required mood. A hard day does not rewrite the decision that brought you here. You can be grateful and exhausted, excited and nervous, happy about the future and very done with the present. Emotions do not have to agree with one another.",
+      "last_h2": "Ask for help when distress becomes too large to carry alone",
+      "ending_3_paragraphs": "Normalizing emotional variation does not mean you have to tolerate intense or persistent distress by yourself. If how you are feeling worries you or is interfering significantly with daily life, talk with a health care or mental health professional. Seeking support does not make the pregnancy less wanted. Your emotional well-being deserves attention too. You do not need to prove you wanted this pregnancy by feeling happy every day. A changing mix of emotions can coexist with deeply wanting the baby who is coming.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1102-wanted-pregnancy-without-expected-excitement.json",
+      "article_number": 1102,
+      "translation_group": "1102-wanted-pregnancy-without-expected-excitement",
+      "language": "en",
+      "title": "A wanted pregnancy without the excitement you expected to feel",
+      "words": 373,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.72,
+      "h2s": [
+        "Separate imagined joy from the experience you are having now",
+        "Do not perform excitement to reassure other people",
+        "Let connection have its own timing",
+        "Get support if the lack of excitement comes with distress that worries you"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 30.5,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.091,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 4,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Before pregnancy, excitement often exists as an idea: baby names, a future due date, the way you might tell someone, the life you hope will come next. Once the pregnancy is real, that imagined moment gets mixed with appointments, body changes, uncertainty, work and the fact that your life is actually going to change.",
+      "opening_14_words": "Before pregnancy excitement often exists as an idea baby names a future due date",
+      "intro_3_paragraphs": "Before pregnancy, excitement often exists as an idea: baby names, a future due date, the way you might tell someone, the life you hope will come next. Once the pregnancy is real, that imagined moment gets mixed with appointments, body changes, uncertainty, work and the fact that your life is actually going to change. Quieter emotion does not make the pregnancy less wanted. Sometimes reality takes time to catch up with a story you have carried in your head for years. You may have expected tears and instead stared at the test in silence. You may have imagined talking about the baby constantly and then found yourself absorbed in work and ordinary life.",
+      "last_h2": "Get support if the lack of excitement comes with distress that worries you",
+      "ending_3_paragraphs": "A quieter experience may simply be different from what you expected. If you are also experiencing intense or persistent distress, you do not have to interpret it alone. A health care or mental health professional can give you space to talk without requiring gratitude or excitement as the correct answer. A wanted pregnancy does not have to feel like the scene you imagined before living it. It can begin with silence, ambivalence or very gentle excitement and still be deeply wanted.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1103-love-baby-and-feel-afraid-pregnancy.json",
+      "article_number": 1103,
+      "translation_group": "1103-love-baby-and-feel-afraid-pregnancy",
+      "language": "en",
+      "title": "Loving the baby and feeling afraid at the same time during pregnancy",
+      "words": 330,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.12,
+      "h2s": [
+        "Name the fear instead of treating it as one giant feeling",
+        "Do not use gratitude to silence uncertainty",
+        "Know when preparation becomes an attempt to control the future",
+        "Share the fear before it becomes a private test"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 26.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 9,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Caring about someone creates stakes. Pregnancy can suddenly introduce new responsibilities, decisions and a future you cannot fully control. Fear often appears beside desire because the situation matters so much, not because the desire was fake.",
+      "opening_14_words": "Caring about someone creates stakes Pregnancy can suddenly introduce new responsibilities decisions and a",
+      "intro_3_paragraphs": "Caring about someone creates stakes. Pregnancy can suddenly introduce new responsibilities, decisions and a future you cannot fully control. Fear often appears beside desire because the situation matters so much, not because the desire was fake. Fear is not the opposite of love. It can grow right next to love because there is more to protect and more change you have not lived through yet. “I'm scared” might mean birth, identity changes, money, work, your relationship, caring for a newborn, losing freedom or simply not recognizing your future life.",
+      "last_h2": "Share the fear before it becomes a private test",
+      "ending_3_paragraphs": "Saying “I love this baby and I am scared” can feel relieving with someone who does not force you to choose one side. The sentence is coherent because both feelings can be true. If fear is intense, persistent or significantly interfering with daily life, seek support from a health care or mental health professional. You can deeply want the baby and still be afraid of everything that is changing. Both feelings can come from the same fact: this matters enormously.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1104-guilt-complaining-about-wanted-pregnancy.json",
+      "article_number": 1104,
+      "translation_group": "1104-guilt-complaining-about-wanted-pregnancy",
+      "language": "en",
+      "title": "Feeling guilty for complaining about pregnancy when you wanted to be a mother",
+      "words": 349,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.46,
+      "h2s": [
+        "Separate the baby from the experience of being pregnant",
+        "Notice who you are trying to prove gratitude to",
+        "Find places where you do not have to correct every complaint",
+        "Take serious discomfort seriously without turning it into guilt"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.3,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Many wanted things include difficult parts. A chosen career can have terrible days; a long-awaited trip can include an exhausting flight. Motherhood is often treated differently: if you truly wanted the outcome, you are expected to be grateful for every part of the process.",
+      "opening_14_words": "Many wanted things include difficult parts A chosen career can have terrible days a",
+      "intro_3_paragraphs": "Many wanted things include difficult parts. A chosen career can have terrible days; a long-awaited trip can include an exhausting flight. Motherhood is often treated differently: if you truly wanted the outcome, you are expected to be grateful for every part of the process. Complaining about pregnancy is not the same as regretting the baby. You can dislike part of the experience without rejecting where it is leading. You can be eager to meet your child and dislike body changes, restrictions, constant attention or uncertainty. Those are different layers of the same season.",
+      "last_h2": "Take serious discomfort seriously without turning it into guilt",
+      "ending_3_paragraphs": "Normalizing complaints does not mean ignoring physical or emotional distress that worries you. If something feels significant or is affecting you strongly, reach out to an appropriate professional. Getting help is compatible with having wanted the pregnancy. You do not have to prove gratitude by enduring everything silently. Wanting to be a mother does not obligate you to enjoy the entire road to birth. You can value the baby and speak honestly about what pregnancy costs you.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1105-not-enjoy-pregnancy-even-wanted.json",
+      "article_number": 1105,
+      "translation_group": "1105-not-enjoy-pregnancy-even-wanted",
+      "language": "en",
+      "title": "Not enjoying pregnancy even though it was deeply wanted",
+      "words": 348,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.49,
+      "h2s": [
+        "Get specific about what you do not enjoy",
+        "Do not create future nostalgia as a present obligation",
+        "Protect parts of your identity that are not about pregnancy",
+        "Accept support without making enjoyment the goal"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.5,
+      "short_paragraph_ratio": 0.091,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 3,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 2,
+        "clave": 0
+      },
+      "opening": "“Enjoy it, it goes so fast” can sound kind and still create an impossible assignment. Along with living through pregnancy, you are suddenly responsible for appreciating it properly. If you do not, it can feel as though you are wasting an experience someone else would cherish.",
+      "opening_14_words": "Enjoy it it goes so fast can sound kind and still create an impossible",
+      "intro_3_paragraphs": "“Enjoy it, it goes so fast” can sound kind and still create an impossible assignment. Along with living through pregnancy, you are suddenly responsible for appreciating it properly. If you do not, it can feel as though you are wasting an experience someone else would cherish. A pregnancy can be deeply wanted without being a life stage you enjoy. Wanting the destination does not require loving the process. Maybe you dislike body changes, public attention, uncertainty, restrictions or feeling as though your identity has been reduced to pregnancy. Maybe nothing is dramatically wrong and you simply do not find the experience pleasant.",
+      "last_h2": "Accept support without making enjoyment the goal",
+      "ending_3_paragraphs": "You do not need to reach a point where you love pregnancy in order to be doing it “well.” The goal can simply be to make the remaining time more sustainable and get help with what is difficult. If emotional distress is intense, persistent or worrying to you, a health care or mental health professional can offer support without asking you to turn the experience into a positive story. You do not need happy memories of every stage to have deeply wanted your child. Pregnancy can be important, wanted and still not be something you enjoy.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1106-want-pregnancy-to-end-feel-guilty.json",
+      "article_number": 1106,
+      "translation_group": "1106-want-pregnancy-to-end-feel-guilty",
+      "language": "en",
+      "title": "Wanting pregnancy to be over and feeling guilty for not enjoying it",
+      "words": 329,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.16,
+      "h2s": [
+        "Separate impatience from rejection",
+        "Stop making every week an emotional countdown",
+        "Make the present more livable rather than trying to love it",
+        "Say the guilt out loud if it is becoming heavy"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 27.0,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 6,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Important life stages can feel long even when you know they cannot be rushed. Late in pregnancy especially, it can feel as though the previous version of life has already changed while the next one has not started yet.",
+      "opening_14_words": "Important life stages can feel long even when you know they cannot be rushed",
+      "intro_3_paragraphs": "Important life stages can feel long even when you know they cannot be rushed. Late in pregnancy especially, it can feel as though the previous version of life has already changed while the next one has not started yet. Wanting a stage to end does not mean you fail to value what it contains. Sometimes it simply means you are tired of living in transition. “I want this to be over” may refer to waiting, discomfort, uncertainty or being the focus of constant pregnancy attention. It does not automatically translate to “I don't want this baby.”",
+      "last_h2": "Say the guilt out loud if it is becoming heavy",
+      "ending_3_paragraphs": "“I want pregnancy to be over, and then I feel awful for thinking that” is often much less frightening once it can be said to someone safe. If emotional distress is intense, persistent or worrying to you, seek professional support. You do not need to wait for pregnancy to end before getting help. You can want pregnancy to be over because you are ready for the next stage, not because you want the baby any less.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1107-not-feel-connected-to-baby-during-pregnancy.json",
+      "article_number": 1107,
+      "translation_group": "1107-not-feel-connected-to-baby-during-pregnancy",
+      "language": "en",
+      "title": "Not feeling connected to the baby during pregnancy",
+      "words": 344,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.63,
+      "h2s": [
+        "Recognize how abstract pregnancy can feel",
+        "Do not turn bonding rituals into tests",
+        "Do not compare your private experience with someone else's story",
+        "Get support if the disconnection is part of distress that worries you"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.1,
+      "short_paragraph_ratio": 0.091,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Pregnancy stories often describe connection as automatic: a positive test, an ultrasound, a movement, and suddenly there is a deep emotional relationship. If that moment does not happen for you, it is easy to start monitoring yourself for what is missing.",
+      "opening_14_words": "Pregnancy stories often describe connection as automatic a positive test an ultrasound a movement",
+      "intro_3_paragraphs": "Pregnancy stories often describe connection as automatic: a positive test, an ultrasound, a movement, and suddenly there is a deep emotional relationship. If that moment does not happen for you, it is easy to start monitoring yourself for what is missing. Connection is not an exam you have to pass before birth. A relationship with a child can begin in different ways and keep developing for a long time. Before birth, many of the experiences that build an everyday relationship have not happened yet: eye contact, responses, routines, learning preferences, comforting, laughing together. For some people, without that interaction the baby feels more like a future person than a current relationship.",
+      "last_h2": "Get support if the disconnection is part of distress that worries you",
+      "ending_3_paragraphs": "Not feeling prenatal connection by itself does not predict what kind of parent you will be. If the experience causes intense or persistent distress, or sits alongside other emotional changes that concern you, talk with a health care or mental health professional. You can ask for support without first proving that you should feel differently. You do not need to fall in love with an abstract idea on a schedule. You can get to know your child gradually, before or after birth, through a relationship that becomes real over time.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1108-no-instant-love-before-birth.json",
+      "article_number": 1108,
+      "translation_group": "1108-no-instant-love-before-birth",
+      "language": "en",
+      "title": "Not feeling instant love for the baby before birth",
+      "words": 324,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.35,
+      "h2s": [
+        "Do not force one word onto something still forming",
+        "Remember how little you know about this person",
+        "Stop turning every milestone into a self-test",
+        "Leave room for support without pathologizing every difference"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 26.5,
+      "short_paragraph_ratio": 0.182,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.091,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 2,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 4,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Prenatal love is often told as a revelation: from the first moment, you knew you would do anything for this baby. That is real for some people. Others feel responsibility, curiosity, protectiveness, strangeness or simply an awareness that something enormous is happening.",
+      "opening_14_words": "Prenatal love is often told as a revelation from the first moment you knew",
+      "intro_3_paragraphs": "Prenatal love is often told as a revelation: from the first moment, you knew you would do anything for this baby. That is real for some people. Others feel responsibility, curiosity, protectiveness, strangeness or simply an awareness that something enormous is happening. Love does not have to arrive as an instant emotional event in order to become real. Human relationships can begin with gradual knowing. You may care what happens to the baby, make decisions with them in mind and imagine life after birth without experiencing an emotion you would label love. You do not need to change the label to meet an expectation.",
+      "last_h2": "Leave room for support without pathologizing every difference",
+      "ending_3_paragraphs": "Not feeling instant love is not, by itself, a diagnosis. At the same time, if your broader emotional state is intense, persistent or worrying to you, it deserves professional attention. Both ideas can be true: there is no mandatory prenatal emotion, and your emotional well-being still matters. You do not need to recognize love before you meet the baby for your relationship to grow. It can begin with responsibility, curiosity or feelings you do not yet know how to name.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1109-not-want-to-talk-to-bump.json",
+      "article_number": 1109,
+      "translation_group": "1109-not-want-to-talk-to-bump",
+      "language": "en",
+      "title": "Not wanting to talk to your bump during pregnancy",
+      "words": 342,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.7,
+      "h2s": [
+        "Separate a suggestion from an emotional requirement",
+        "Use forms of connection that fit your personality",
+        "Set boundaries around comments that make you feel watched",
+        "Let the real relationship create its own language"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.2,
+      "short_paragraph_ratio": 0.091,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Some prenatal rituals are presented as natural milestones of motherhood: rubbing your belly, playing music, reading books out loud or talking to the baby before bed. They can be lovely when they fit the person doing them. When they do not, they can feel like performing a role in an empty room.",
+      "opening_14_words": "Some prenatal rituals are presented as natural milestones of motherhood rubbing your belly playing",
+      "intro_3_paragraphs": "Some prenatal rituals are presented as natural milestones of motherhood: rubbing your belly, playing music, reading books out loud or talking to the baby before bed. They can be lovely when they fit the person doing them. When they do not, they can feel like performing a role in an empty room. You do not need to prove connection by doing rituals that do not feel like you. Bonding is not measured by how many conversations you have with your bump. An activity can be meaningful for some people without being necessary for everyone. You can try talking to the baby, realize it feels unnatural and move on without searching for a deeper problem.",
+      "last_h2": "Let the real relationship create its own language",
+      "ending_3_paragraphs": "You may never enjoy prenatal talking and then find yourself narrating everything to your newborn. Or you may remain less verbal in the way you connect. Deep relationships do not all need the same opening ritual. If talking to your bump feels natural, enjoy it. If it does not, leave it alone. Your relationship with your child will have far more opportunities to grow than this one prenatal practice.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1110-feel-different-from-more-excited-pregnant-women.json",
+      "article_number": 1110,
+      "translation_group": "1110-feel-different-from-more-excited-pregnant-women",
+      "language": "en",
+      "title": "Feeling different from other pregnant women who seem more excited",
+      "words": 342,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.7,
+      "h2s": [
+        "Identify what you are actually comparing",
+        "Remember that visible excitement is not the same as love",
+        "Reduce comparisons that give you no useful information",
+        "Use language that belongs to your actual pregnancy"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 3,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Visible emotion is easy to compare: weekly photos, baby purchases, announcements and constant conversation. What you do not see are the neutral hours, private fears, exhaustion or doubts that may exist outside that frame.",
+      "opening_14_words": "Visible emotion is easy to compare weekly photos baby purchases announcements and constant conversation",
+      "intro_3_paragraphs": "Visible emotion is easy to compare: weekly photos, baby purchases, announcements and constant conversation. What you do not see are the neutral hours, private fears, exhaustion or doubts that may exist outside that frame. When you compare your entire internal experience with the most shareable part of someone else's pregnancy, yours will almost always look messier. You may not envy her pregnancy at all. You may envy how easily she shows emotion, the energy she has for preparation or the confidence with which she talks about the future.",
+      "last_h2": "Use language that belongs to your actual pregnancy",
+      "ending_3_paragraphs": "Your honest description might be: “I'm still taking it in,” “I'm happy and nervous,” “I'm not much of a ritual person,” or “most days I feel pretty normal.” A less dramatic story can be more accurate. You do not need to become the most excited pregnant person in the room to have a valid pregnancy. You are not doing pregnancy worse because someone else expresses more excitement. Your experience can be quieter, more mixed or more private and still contain desire, care and room for a relationship that is just beginning.",
       "risk_score": 5,
       "risk_reasons": [
         "body_under_800_words",
@@ -15789,6 +16649,436 @@
       ]
     },
     {
+      "path": "content/articles/es/101-pasar-dormir-brazos-otras-formas-acompanamiento.json",
+      "article_number": 101,
+      "translation_group": "101-move-from-sleeping-in-arms-to-other-support",
+      "language": "es",
+      "title": "Cómo pasar de dormir en brazos a otras formas de acompañamiento sin hacerlo de golpe",
+      "words": 481,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 8.32,
+      "h2s": [
+        "Cambia una sola pieza del patrón",
+        "Construye un puente reconocible entre una forma y otra",
+        "Decide de antemano qué harás si esa noche no sale",
+        "Mide el cambio por flexibilidad, no por perfección"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 40.7,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.091,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Hay etapas en las que dormir en brazos resuelve un problema real: el bebé se calma, el adulto sabe qué hacer y la noche avanza. El conflicto aparece cuando esa solución empieza a costar demasiado físicamente, impide turnarse o convierte cada despertar en una operación que solo una persona puede sostener.",
+      "opening_14_words": "Hay etapas en las que dormir en brazos resuelve un problema real el bebé",
+      "intro_3_paragraphs": "Hay etapas en las que dormir en brazos resuelve un problema real: el bebé se calma, el adulto sabe qué hacer y la noche avanza. El conflicto aparece cuando esa solución empieza a costar demasiado físicamente, impide turnarse o convierte cada despertar en una operación que solo una persona puede sostener. Una transición suele ser más llevadera cuando no preguntas «¿cómo quito los brazos?», sino «¿qué parte del acompañamiento puedo conservar mientras cambio el lugar o la intensidad?». Si ahora el proceso incluye brazos, movimiento, una postura concreta, oscuridad y una canción, no hace falta eliminarlo todo. Puedes mantener varias señales y modificar solo una: sentarte en vez de caminar, reducir el movimiento antes de dormir del todo o terminar una parte del acompañamiento en otro lugar.",
+      "last_h2": "Mide el cambio por flexibilidad, no por perfección",
+      "ending_3_paragraphs": "Quizá durante un tiempo siga habiendo noches en brazos y otras no. Tal vez un progenitor pueda usar una forma distinta y el otro conserve la anterior. Esa variabilidad puede ser parte de la transición, no una señal de incoherencia. Cuando aparecen más caminos posibles, disminuye la sensación de que todo depende de una única secuencia. Esa es una ganancia real incluso antes de que dormir en brazos deje de ser habitual. No necesitas retirar de golpe una forma de consuelo que ha servido. Puedes conservar conexión, introducir pequeñas diferencias y dejar que la nueva manera se vuelva familiar antes de pedirle que sustituya por completo a la anterior.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/102-siestas-contacto-sin-sentir-problema.json",
+      "article_number": 102,
+      "translation_group": "102-contact-naps-without-feeling-problem",
+      "language": "es",
+      "title": "Siestas de contacto: cómo vivirlas sin sentir que estás creando un problema",
+      "words": 425,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 9.41,
+      "h2s": [
+        "Distingue una preferencia de una trampa",
+        "No conviertas el futuro en una emergencia presente",
+        "Si quieres más flexibilidad, practica alternativas pequeñas",
+        "Protege también el descanso del adulto"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 36.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 8,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Las siestas de contacto suelen venir acompañadas de una segunda actividad invisible: analizarlas. Mientras el bebé duerme encima de ti, quizá pienses si deberías moverlo, si luego será imposible cambiar, si estás aprovechando una etapa bonita o si te estás metiendo en un problema futuro.",
+      "opening_14_words": "Las siestas de contacto suelen venir acompañadas de una segunda actividad invisible analizarlas Mientras",
+      "intro_3_paragraphs": "Las siestas de contacto suelen venir acompañadas de una segunda actividad invisible: analizarlas. Mientras el bebé duerme encima de ti, quizá pienses si deberías moverlo, si luego será imposible cambiar, si estás aprovechando una etapa bonita o si te estás metiendo en un problema futuro. Una siesta de contacto no necesita ser defendida ni eliminada por principio; necesita encajar razonablemente en el cuerpo, el tiempo y las necesidades de vuestra familia. Hay una diferencia entre elegir contacto porque funciona y sentir que no existe ninguna otra posibilidad. Si te apetece sentarte, descansar o leer mientras el bebé duerme, puede ser una parte agradable del día. Si necesitas ir al baño, comer o atender a otro hijo y sientes que nunca puedes moverte, el mismo patrón puede necesitar ajustes.",
+      "last_h2": "Protege también el descanso del adulto",
+      "ending_3_paragraphs": "Una siesta de contacto puede parecer descanso desde fuera mientras el adulto permanece inmóvil, con hambre, incómodo o mentalmente de guardia. Si va a formar parte de vuestra rutina, prepara agua, una posición cómoda y relevos cuando sea posible. Disfrutar del contacto no obliga a disfrutar cada minuto. Puedes querer esa cercanía y también necesitar movimiento, espacio o una tarde distinta. Las siestas de contacto no son una prueba de si estás creando buenos o malos hábitos. Son una forma de dormir que puede quedarse, mezclarse con otras o cambiar cuando deje de servir.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/103-alargar-rutina-sueno-demasiado-corta.json",
+      "article_number": 103,
+      "translation_group": "103-lengthen-too-short-bedtime-routine",
+      "language": "es",
+      "title": "Cómo alargar una rutina de sueño demasiado corta",
+      "words": 420,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 9.52,
+      "h2s": [
+        "Identifica dónde ocurre el salto brusco",
+        "Añade pasos que hagan un trabajo concreto",
+        "Amplía primero un poco",
+        "Define una versión completa y una mínima"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 36.0,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 4,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "“Rutina de sueño” no significa que cuanto más larga, mejor. Si vuestro hijo pasa de pijama a cuento y cama con calma, no hay nada que arreglar. Pero algunas rutinas son tan breves que funcionan como un interruptor: cinco minutos antes había juego, pantallas, hermanos o conversación, y de repente se espera quietud total.",
+      "opening_14_words": "Rutina de sueño no significa que cuanto más larga mejor Si vuestro hijo pasa",
+      "intro_3_paragraphs": "“Rutina de sueño” no significa que cuanto más larga, mejor. Si vuestro hijo pasa de pijama a cuento y cama con calma, no hay nada que arreglar. Pero algunas rutinas son tan breves que funcionan como un interruptor: cinco minutos antes había juego, pantallas, hermanos o conversación, y de repente se espera quietud total. Cuando necesitas alargarla, la pregunta no es qué actividad añadir para rellenar tiempo, sino qué transición falta. Una buena ampliación reduce velocidad, decisiones o estímulos; no crea otra lista de cosas que completar. Observa los veinte o treinta minutos anteriores a la cama. Quizá el problema no esté entre el cuento y dormir, sino entre una casa todavía activa y el inicio de la rutina. Si el niño entra al dormitorio corriendo y protesta justo entonces, puede necesitar un tramo previo más lento.",
+      "last_h2": "Define una versión completa y una mínima",
+      "ending_3_paragraphs": "Las familias necesitan noches normales y noches de emergencia. Decide qué pasos forman el núcleo —por ejemplo, aseo, pijama, conexión breve y una señal final— y cuáles son opcionales cuando hay más tiempo. Así, alargar la rutina no la vuelve frágil. El niño reconoce el mismo esqueleto aunque una noche haya dos cuentos y otra solo uno. Una rutina más larga solo ayuda si crea una transición más clara. Añade tiempo donde falta cambio de ritmo, conserva pocos pasos reconocibles y evita convertir la hora de dormir en otro proyecto que hay que ejecutar perfectamente.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/104-resistencia-hora-dormir-negociacion-como-responder.json",
+      "article_number": 104,
+      "translation_group": "104-bedtime-resistance-negotiation",
+      "language": "es",
+      "title": "Resistencia a la hora de dormir: por qué se vuelve una negociación y cómo responder",
+      "words": 428,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 9.35,
+      "h2s": [
+        "Mueve las decisiones hacia el principio de la rutina",
+        "Crea un cierre que siempre suene parecido",
+        "Atiende necesidades sin reabrir toda la rutina",
+        "Revisa el patrón fuera del momento difícil"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 36.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.182,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Cuando la hora de dormir empieza a alargarse, los adultos suelen intentar resolver cada petición de forma individual. Y muchas son razonables. El vaso de agua no es absurdo; el abrazo tampoco. Pero responder una por una puede dejar abierta una pregunta mayor: ¿todavía estamos decidiendo qué pasa o ya hemos llegado al final de la rutina?",
+      "opening_14_words": "Cuando la hora de dormir empieza a alargarse los adultos suelen intentar resolver cada",
+      "intro_3_paragraphs": "Cuando la hora de dormir empieza a alargarse, los adultos suelen intentar resolver cada petición de forma individual. Y muchas son razonables. El vaso de agua no es absurdo; el abrazo tampoco. Pero responder una por una puede dejar abierta una pregunta mayor: ¿todavía estamos decidiendo qué pasa o ya hemos llegado al final de la rutina? La resistencia se vuelve negociación cuando cada paso parece una nueva oportunidad de revisar el acuerdo anterior. La solución no es negar toda necesidad, sino hacer más visible qué cosas se deciden antes y qué parte ya no se renegocia. Elegir pijama, cuento, vaso, peluche o quién da el último abrazo puede ser agradable si ocurre cuando todavía hay margen. Cinco minutos después, esas mismas elecciones pueden convertirse en una forma de mantener abierta la noche.",
+      "last_h2": "Revisa el patrón fuera del momento difícil",
+      "ending_3_paragraphs": "Si cada noche termina igual, analiza la rutina durante el día. ¿Hay demasiadas decisiones? ¿El adulto cambia el límite según su cansancio? ¿El niño recibe casi toda la conexión exclusiva justo cuando la rutina está terminando? Los ajustes más útiles suelen hacerse antes de estar todos agotados: añadir conexión al principio, definir cuántos cuentos hay, preparar agua o acordar entre adultos una respuesta común. No necesitas ganar una discusión al final del día. Necesitas que la secuencia deje de sentirse negociable minuto a minuto: opciones antes, cierre claro y pocas palabras cuando la noche ya ha terminado.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/105-despertares-tempranos-revisar-rutina-familiar.json",
+      "article_number": 105,
+      "translation_group": "105-early-wakings-review-family-routine",
+      "language": "es",
+      "title": "Despertares tempranos: cómo revisar la rutina familiar antes de intentar cambiar al niño",
+      "words": 434,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 9.22,
+      "h2s": [
+        "Define qué significa “demasiado temprano” para vuestra casa",
+        "Observa las señales que anuncian que el día ha empezado",
+        "Evita responder con un horario nuevo cada dos días",
+        "Diseña también una mañana soportable si el despertar no cambia"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 36.1,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 3,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Los despertares tempranos son difíciles porque llegan cuando los adultos tienen menos margen. A las cinco y media, cualquier plan parece urgente: cambiar la hora de acostarse, mover una siesta, empezar el desayuno o probar una estrategia distinta cada dos días.",
+      "opening_14_words": "Los despertares tempranos son difíciles porque llegan cuando los adultos tienen menos margen A",
+      "intro_3_paragraphs": "Los despertares tempranos son difíciles porque llegan cuando los adultos tienen menos margen. A las cinco y media, cualquier plan parece urgente: cambiar la hora de acostarse, mover una siesta, empezar el desayuno o probar una estrategia distinta cada dos días. Antes de perseguir una hora exacta de despertar, conviene separar lo que no controlas directamente de lo que sí pertenece a la organización de la casa. Esa revisión no garantiza que el niño duerma más, pero evita cambiar cinco variables a la vez. No todas las familias necesitan la misma hora. Un despertar a las seis puede ser inviable si un adulto trabaja tarde y perfectamente manejable si la casa empieza pronto. Poner una referencia concreta ayuda a diseñar una respuesta coherente.",
+      "last_h2": "Diseña también una mañana soportable si el despertar no cambia",
+      "ending_3_paragraphs": "Parte del estrés disminuye cuando existe un plan para el escenario que no deseas. Quizá haya una cesta tranquila, desayuno preparado, turnos entre adultos o una regla sobre quién cubre las mañanas tempranas en ciertos días. Ese plan no significa rendirse. Significa que la calidad de vida familiar no depende por completo de conseguir una hora concreta que ningún adulto puede garantizar. Revisar la rutina familiar devuelve algunas decisiones a vuestro terreno: qué señales da la casa, cómo respondéis, qué cambios probáis y cómo protegéis el descanso de los adultos.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/106-ninos-piden-mil-cosas-acostarse-limites-conexion.json",
+      "article_number": 106,
+      "translation_group": "106-bedtime-endless-requests-limits-connection",
+      "language": "es",
+      "title": "Niños que piden mil cosas al acostarse: cómo poner límites sin romper la conexión",
+      "words": 390,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.26,
+      "h2s": [
+        "Anticipa las peticiones previsibles",
+        "Usa una respuesta breve que puedas repetir cansado",
+        "Atiende lo importante sin convertirlo en una excepción total",
+        "Añade conexión antes de que empiece la cadena"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 32.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 6,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "El final del día tiene una característica especial: el niño descubre que cada petición compra un poco más de presencia adulta, mientras el adulto está cada vez más cansado y más dispuesto a conceder “solo una cosa más” para terminar. Esa combinación puede sostener una cadena larguísima sin que nadie la haya elegido.",
+      "opening_14_words": "El final del día tiene una característica especial el niño descubre que cada petición",
+      "intro_3_paragraphs": "El final del día tiene una característica especial: el niño descubre que cada petición compra un poco más de presencia adulta, mientras el adulto está cada vez más cansado y más dispuesto a conceder “solo una cosa más” para terminar. Esa combinación puede sostener una cadena larguísima sin que nadie la haya elegido. Un límite útil no dice “ya no puedes necesitarme”; dice “te sigo acompañando, pero la rutina ya no vuelve a empezar”. Antes del cierre, haz una ronda sencilla: agua, baño, peluche, temperatura, último abrazo. No como interrogatorio, sino como preparación. Cuantas más necesidades básicas quedan resueltas antes, menos confuso resulta el límite después.",
+      "last_h2": "Añade conexión antes de que empiece la cadena",
+      "ending_3_paragraphs": "A veces la noche es el primer momento del día en que un niño tiene atención individual sin competencia. Si cada petición produce conversación exclusiva, tiene sentido que intente mantenerla. No siempre puedes crear una tarde tranquila, pero unos minutos de conexión deliberada al principio de la rutina pueden evitar que todo el vínculo del día quede concentrado después del último cuento. Puedes decir que no a otra petición y seguir siendo una presencia segura. La conexión no depende de mantener la noche abierta; también se construye cuando el final es previsible.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/107-senales-sueno-reconocibles-dias-distintos.json",
+      "article_number": 107,
+      "translation_group": "107-recognizable-sleep-cues-when-days-vary",
+      "language": "es",
+      "title": "Cómo crear señales de sueño reconocibles cuando cada día es distinto",
+      "words": 372,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.75,
+      "h2s": [
+        "Elige un núcleo que pueda viajar",
+        "Mantén el orden aunque cambie la hora",
+        "Usa el lenguaje como señal estable",
+        "Diseña una versión de cinco minutos"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 31.5,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.091,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Turnos laborales, hermanos, actividades, trayectos y fines de semana hacen que muchas familias no puedan reproducir una rutina idéntica cada noche. Eso puede generar la sensación de que no existe rutina en absoluto: si hoy el baño fue antes de cenar y mañana no habrá baño, ¿qué queda?",
+      "opening_14_words": "Turnos laborales hermanos actividades trayectos y fines de semana hacen que muchas familias no",
+      "intro_3_paragraphs": "Turnos laborales, hermanos, actividades, trayectos y fines de semana hacen que muchas familias no puedan reproducir una rutina idéntica cada noche. Eso puede generar la sensación de que no existe rutina en absoluto: si hoy el baño fue antes de cenar y mañana no habrá baño, ¿qué queda? La previsibilidad puede vivir en el orden y en las señales, no solo en el reloj. Dos o tres elementos que sobreviven a distintos contextos pueden ser más reconocibles que una secuencia larga que solo funciona en días ideales. Piensa en lo que podríais hacer en casa, en casa de los abuelos o en un hotel: pijama o cambio de ropa, una canción, una frase, un cuento breve, bajar luces. Ese núcleo tiene que caber en una noche normal y también en una complicada.",
+      "last_h2": "Diseña una versión de cinco minutos",
+      "ending_3_paragraphs": "Las rutinas fallan cuando solo existe la versión completa. Crea deliberadamente una mínima para llegadas tarde, viajes o noches caóticas. Mantén el orden y las señales esenciales, aunque acortes todo lo demás. Una versión corta no rompe la rutina; demuestra cuáles son sus elementos centrales. Esa flexibilidad hace más probable que la familia mantenga continuidad durante meses. Cuando cada día es distinto, no necesitas fabricar días idénticos. Necesitas suficientes señales que vuelvan: un orden, unas palabras y unos pocos pasos capaces de acompañar a la familia cuando el reloj cambia.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/108-rutina-sueno-padres-horarios-diferentes.json",
+      "article_number": 108,
+      "translation_group": "108-sleep-routine-parents-different-schedules",
+      "language": "es",
+      "title": "Cómo mantener una rutina de sueño cuando los padres tienen horarios diferentes",
+      "words": 391,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.23,
+      "h2s": [
+        "Acordad el núcleo, no cada gesto",
+        "Definid qué ocurre cuando alguien llega a mitad",
+        "Compartid la información que realmente importa",
+        "Proteged la rutina de la comparación entre estilos"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 33.0,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 4,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "En algunas casas una persona hace casi todas las noches; en otras se alternan según turnos; en otras alguien llega justo a mitad de la rutina y el niño quiere volver a empezar para incluirlo. Intentar que ambos adultos reproduzcan exactamente la misma versión puede añadir más tensión de la que resuelve.",
+      "opening_14_words": "En algunas casas una persona hace casi todas las noches en otras se alternan",
+      "intro_3_paragraphs": "En algunas casas una persona hace casi todas las noches; en otras se alternan según turnos; en otras alguien llega justo a mitad de la rutina y el niño quiere volver a empezar para incluirlo. Intentar que ambos adultos reproduzcan exactamente la misma versión puede añadir más tensión de la que resuelve. La continuidad no exige dos copias idénticas del mismo adulto. Exige que ciertas partes de la noche sean previsibles aunque cambien la voz, el estilo o quién está presente. Decidid qué pasos son estructurales: higiene, pijama, cuento, luz, frase final, por ejemplo. Después dejad margen para que cada adulto tenga su forma de leer, cantar o dar el abrazo.",
+      "last_h2": "Proteged la rutina de la comparación entre estilos",
+      "ending_3_paragraphs": "Un adulto quizá haga todo más rápido; otro converse más. Mientras el núcleo y los límites compartidos se mantengan, esa diferencia puede ampliar la flexibilidad del niño. Si un estilo está generando un problema real, habladlo fuera del dormitorio. Corregirse delante del niño o discutir sobre el orden a la hora de dormir convierte la rutina en un espacio de tensión adulta. Una rutina compartida no significa que ambos padres tengan que parecer la misma persona. Un núcleo reconocible y acuerdos sobre transiciones pueden sostener continuidad incluso con horarios muy diferentes.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/109-noches-dificiles-sin-cambiar-estrategia-cada-dia.json",
+      "article_number": 109,
+      "translation_group": "109-hard-nights-without-changing-strategy-daily",
+      "language": "es",
+      "title": "Cómo manejar las noches difíciles sin cambiar de estrategia cada día",
+      "words": 385,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.39,
+      "h2s": [
+        "Ten un plan de emergencia que no pretenda enseñar nada",
+        "Conserva dos o tres anclas aunque la noche sea mala",
+        "Espera a tener un patrón antes de rediseñar",
+        "Cambia una variable cada vez que sea posible"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 31.7,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 3,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "A las tres de la mañana, una estrategia nueva puede parecer completamente lógica. Al día siguiente buscas otra explicación, cambias el orden de la rutina y decides que la noche anterior demuestra que el plan anterior nunca funcionó. Esa reacción es comprensible porque el cansancio vuelve cada problema inmediato.",
+      "opening_14_words": "A las tres de la mañana una estrategia nueva puede parecer completamente lógica Al",
+      "intro_3_paragraphs": "A las tres de la mañana, una estrategia nueva puede parecer completamente lógica. Al día siguiente buscas otra explicación, cambias el orden de la rutina y decides que la noche anterior demuestra que el plan anterior nunca funcionó. Esa reacción es comprensible porque el cansancio vuelve cada problema inmediato. Pero una noche difícil necesita primero una respuesta para esa noche; no siempre necesita una nueva filosofía de sueño. Separar crisis y revisión evita reconstruir todo el sistema cuando aún no sabes si existe un patrón. Define qué haréis cuando todos estén agotados: quién toma el relevo, qué forma de acompañamiento es aceptable y cuándo dejáis de experimentar. El objetivo de ese plan es atravesar la noche con el menor coste razonable.",
+      "last_h2": "Cambia una variable cada vez que sea posible",
+      "ending_3_paragraphs": "Si decidís ajustar algo, hacedlo de forma que podáis observarlo: el orden de la rutina, el reparto entre adultos o una señal de cierre. Cambiar hora, lugar, cuidador y respuesta a despertares a la vez produce mucha actividad y poca información. Además, acordad qué resultado sería suficiente para mantener el cambio. No toda mejora tiene que convertir las noches en perfectas para ser útil. Una noche difícil no invalida automáticamente vuestra rutina. Ten una forma de sobrevivir a la crisis, conserva algunas anclas y reserva las decisiones grandes para cuando exista un patrón.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/110-cuando-rutina-sueno-deja-funcionar.json",
+      "article_number": 110,
+      "translation_group": "110-when-sleep-routine-stops-working",
+      "language": "es",
+      "title": "Qué hacer cuando una rutina de sueño deja de funcionar",
+      "words": 356,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.24,
+      "h2s": [
+        "Describe el problema sin juzgar toda la rutina",
+        "Quita antes de añadir",
+        "Conserva las señales que todavía tienen significado",
+        "Prueba la nueva versión como una hipótesis"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 30.0,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 2,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 4,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Las rutinas tienen una reputación engañosa: parece que, si están bien diseñadas, deberían seguir funcionando hasta que alguien decida cambiarlas. Pero cambian edades, horarios, habitaciones, hermanos, preferencias, trabajo y energía familiar. Una estructura útil puede quedarse pequeña o demasiado pesada.",
+      "opening_14_words": "Las rutinas tienen una reputación engañosa parece que si están bien diseñadas deberían seguir",
+      "intro_3_paragraphs": "Las rutinas tienen una reputación engañosa: parece que, si están bien diseñadas, deberían seguir funcionando hasta que alguien decida cambiarlas. Pero cambian edades, horarios, habitaciones, hermanos, preferencias, trabajo y energía familiar. Una estructura útil puede quedarse pequeña o demasiado pesada. Cuando una rutina deja de funcionar, no necesitas elegir entre insistir exactamente igual o tirar todo. Primero averigua qué parte perdió su función. “Ya no funciona” puede significar cosas muy distintas: tarda una hora, el baño provoca una pelea, el niño pide cinco cuentos, un progenitor ya no llega a tiempo o la secuencia es demasiado larga para la nueva etapa.",
+      "last_h2": "Prueba la nueva versión como una hipótesis",
+      "ending_3_paragraphs": "No necesitas declarar que esta será “la rutina definitiva”. Diseña una versión sencilla, úsala durante un periodo razonable y observa dónde fluye y dónde vuelve a atascarse. Si algo necesita otro ajuste, cambias esa pieza. Pensar en versiones reduce la presión de acertar de una vez y permite que la rutina evolucione con la familia. Una rutina que deja de funcionar no demuestra que habéis perdido todo el progreso. A menudo solo está pidiendo una nueva versión: menos pasos, señales que todavía sirven y una estructura adaptada a quiénes sois ahora.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
       "path": "content/articles/es/1001-mom-guilt-culpa-materna.json",
       "article_number": 1001,
       "translation_group": "1001-mom-guilt",
@@ -20174,6 +21464,436 @@
         "body_under_800_words",
         "high_h2_density"
       ]
+    },
+    {
+      "path": "content/articles/es/1101-no-sentirse-feliz-todo-tiempo-embarazo.json",
+      "article_number": 1101,
+      "translation_group": "1101-not-happy-all-the-time-pregnancy",
+      "language": "es",
+      "title": "¿Es normal no sentirse feliz todo el tiempo durante el embarazo?",
+      "words": 390,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.26,
+      "h2s": [
+        "Deja de usar cada emoción como una prueba de deseo",
+        "Haz sitio también para la neutralidad",
+        "Habla con personas que no te obliguen a mejorar la historia",
+        "Pide apoyo cuando el malestar ocupa demasiado espacio"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 32.3,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Existe una imagen cultural muy concreta del embarazo deseado: una felicidad profunda que debería acompañar cada ecografía, cada cambio del cuerpo y cada conversación sobre el bebé. Cuando la experiencia real incluye aburrimiento, miedo, incomodidad o días en los que apenas piensas en el embarazo, es fácil preguntarte si algo falla en ti.",
+      "opening_14_words": "Existe una imagen cultural muy concreta del embarazo deseado una felicidad profunda que debería",
+      "intro_3_paragraphs": "Existe una imagen cultural muy concreta del embarazo deseado: una felicidad profunda que debería acompañar cada ecografía, cada cambio del cuerpo y cada conversación sobre el bebé. Cuando la experiencia real incluye aburrimiento, miedo, incomodidad o días en los que apenas piensas en el embarazo, es fácil preguntarte si algo falla en ti. Querer un bebé y sentir felicidad constante son dos cosas distintas. El embarazo es una etapa de vida, no un estado de ánimo obligatorio. Un día difícil no reescribe la decisión de querer ser madre. Puedes estar agradecida y cansada; ilusionada y preocupada; contenta por el futuro y harta del presente. Las emociones no tienen que votar todas lo mismo.",
+      "last_h2": "Pide apoyo cuando el malestar ocupa demasiado espacio",
+      "ending_3_paragraphs": "Normalizar que no estés feliz todo el tiempo no significa que tengas que soportar sola un malestar intenso, persistente o que interfiera mucho con tu vida cotidiana. Si te preocupa cómo te estás sintiendo, coméntalo con un profesional sanitario o de salud mental. Pedir apoyo no invalida que el embarazo fuera deseado. Solo reconoce que tu experiencia emocional también merece atención. No necesitas demostrar que querías este embarazo sintiéndote feliz cada día. Puedes vivirlo con una mezcla cambiante de emociones y seguir deseando profundamente al bebé que viene.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1102-embarazo-deseado-sin-ilusion-esperada.json",
+      "article_number": 1102,
+      "translation_group": "1102-wanted-pregnancy-without-expected-excitement",
+      "language": "es",
+      "title": "Embarazo deseado pero sin la ilusión que esperabas sentir",
+      "words": 385,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.39,
+      "h2s": [
+        "Distingue la alegría imaginada de la experiencia presente",
+        "No fabriques entusiasmo para tranquilizar a los demás",
+        "Permite que el vínculo tenga otro ritmo",
+        "Busca apoyo si la desconexión te preocupa de verdad"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 32.1,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.091,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 9,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Antes del embarazo, la ilusión suele existir en forma de idea: imaginar nombres, ropa pequeña, una fecha futura, cómo se lo contarás a alguien. Cuando el embarazo se vuelve real, esa fantasía se mezcla con citas, cambios físicos, incertidumbre, trabajo y la conciencia de que tu vida va a cambiar de verdad.",
+      "opening_14_words": "Antes del embarazo la ilusión suele existir en forma de idea imaginar nombres ropa",
+      "intro_3_paragraphs": "Antes del embarazo, la ilusión suele existir en forma de idea: imaginar nombres, ropa pequeña, una fecha futura, cómo se lo contarás a alguien. Cuando el embarazo se vuelve real, esa fantasía se mezcla con citas, cambios físicos, incertidumbre, trabajo y la conciencia de que tu vida va a cambiar de verdad. Que la emoción real sea más silenciosa que la imaginada no convierte el embarazo en menos deseado. A veces la realidad tarda en alcanzar a una historia que llevabas mucho tiempo contando en tu cabeza. Quizá esperabas llorar de felicidad y en cambio te quedaste mirando el test en silencio. Tal vez pensabas que hablarías del bebé todo el día y descubres que sigues concentrada en el trabajo o en cosas completamente normales.",
+      "last_h2": "Busca apoyo si la desconexión te preocupa de verdad",
+      "ending_3_paragraphs": "No sentir la ilusión esperada puede ser simplemente una experiencia distinta a la imaginada. Pero si además hay un malestar intenso o persistente que te preocupa, no tienes que decidir sola qué significa. Hablar con un profesional puede darte un espacio donde explorar lo que sientes sin tener que demostrar gratitud ni entusiasmo. Un embarazo deseado no tiene que sentirse como la escena que imaginaste antes de vivirlo. Puede empezar con sorpresa, silencio, ambivalencia o una ilusión muy suave y seguir siendo profundamente querido.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1103-querer-bebe-tener-miedo-embarazo.json",
+      "article_number": 1103,
+      "translation_group": "1103-love-baby-and-feel-afraid-pregnancy",
+      "language": "es",
+      "title": "Querer al bebé y tener miedo al mismo tiempo durante el embarazo",
+      "words": 362,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.05,
+      "h2s": [
+        "Pon nombre al miedo concreto",
+        "No exijas que la gratitud silencie la incertidumbre",
+        "Distingue preparar de intentar controlar",
+        "Comparte el miedo antes de que se vuelva un secreto"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 30.4,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 10,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Querer a alguien aumenta lo que importa. De pronto existen decisiones nuevas, una responsabilidad enorme y un futuro que no puedes controlar del todo. No es extraño que el deseo y el miedo aparezcan juntos precisamente porque la situación tiene mucho significado.",
+      "opening_14_words": "Querer a alguien aumenta lo que importa De pronto existen decisiones nuevas una responsabilidad",
+      "intro_3_paragraphs": "Querer a alguien aumenta lo que importa. De pronto existen decisiones nuevas, una responsabilidad enorme y un futuro que no puedes controlar del todo. No es extraño que el deseo y el miedo aparezcan juntos precisamente porque la situación tiene mucho significado. El miedo no es la emoción opuesta al amor. Muchas veces crece al lado de él, porque ahora hay más cosas que deseas proteger y más cambios que todavía no conoces. “Tengo miedo” puede contener muchas experiencias: parto, cambios de identidad, relación de pareja, dinero, trabajo, no saber cuidar, perder libertad o simplemente no reconocer tu vida futura.",
+      "last_h2": "Comparte el miedo antes de que se vuelva un secreto",
+      "ending_3_paragraphs": "Decir “quiero muchísimo a este bebé y estoy asustada” puede ser liberador con la persona adecuada. No necesitas escoger una de las dos partes para que la frase sea coherente. Si el miedo es intenso, persistente o interfiere mucho con tu día a día, busca apoyo profesional. No tienes que esperar a estar desbordada para hablar de ello. Puedes querer profundamente al bebé y sentir miedo por todo lo que cambia. Las dos emociones pueden contar la misma historia: esto importa mucho y todavía no sabes exactamente cómo será.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1104-culpa-quejarte-embarazo-querias-ser-madre.json",
+      "article_number": 1104,
+      "translation_group": "1104-guilt-complaining-about-wanted-pregnancy",
+      "language": "es",
+      "title": "Sentir culpa por quejarte del embarazo cuando querías ser madre",
+      "words": 361,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.08,
+      "h2s": [
+        "Separa el bebé del proceso de estar embarazada",
+        "Observa a quién le estás intentando demostrar gratitud",
+        "Elige espacios donde puedas hablar sin corregirte",
+        "Toma en serio el malestar sin convertirlo en culpa"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 29.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 6,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Hay deseos que incluyen experiencias difíciles. Querer una profesión no elimina los días malos y desear un viaje no obliga a disfrutar cada minuto del trayecto. Sin embargo, alrededor de la maternidad aparece una exigencia especial: si lo querías de verdad, deberías aceptar con gratitud cada parte del proceso.",
+      "opening_14_words": "Hay deseos que incluyen experiencias difíciles Querer una profesión no elimina los días malos",
+      "intro_3_paragraphs": "Hay deseos que incluyen experiencias difíciles. Querer una profesión no elimina los días malos y desear un viaje no obliga a disfrutar cada minuto del trayecto. Sin embargo, alrededor de la maternidad aparece una exigencia especial: si lo querías de verdad, deberías aceptar con gratitud cada parte del proceso. Quejarte del embarazo no es lo mismo que arrepentirte del bebé. Puedes rechazar una parte de la experiencia sin rechazar el destino que estabas buscando. Puedes querer conocer a tu hijo y no disfrutar de cómo se siente tu cuerpo, de las restricciones, de la atención constante o de la incertidumbre. Son capas distintas de una misma etapa.",
+      "last_h2": "Toma en serio el malestar sin convertirlo en culpa",
+      "ending_3_paragraphs": "Normalizar la queja no significa ignorar un malestar físico o emocional importante. Si algo te preocupa o te está afectando mucho, consulta con un profesional adecuado. Buscar ayuda es compatible con haber querido el embarazo. No tienes que demostrar fortaleza soportando todo en silencio. Desear ser madre no te obliga a disfrutar el camino completo hasta el nacimiento. Puedes agradecer que el bebé venga y seguir diciendo con claridad qué partes del embarazo te pesan.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1105-no-disfrutar-embarazo-muy-deseado.json",
+      "article_number": 1105,
+      "translation_group": "1105-not-enjoy-pregnancy-even-wanted",
+      "language": "es",
+      "title": "No disfrutar del embarazo aunque estuviera muy deseado",
+      "words": 353,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.33,
+      "h2s": [
+        "Define qué significa exactamente “no disfrutar”",
+        "No conviertas el recuerdo futuro en una obligación presente",
+        "Protege partes de tu identidad que no tienen que ver con el embarazo",
+        "Permite apoyo sin esperar a que te encante"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 2,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 7,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "“Disfruta, que pasa rápido” puede sonar amable y a la vez crear una tarea imposible: además de atravesar todos los cambios del embarazo, tendrías que asegurarte de que los estás apreciando. Si no lo haces, parece que estás desperdiciando algo que otras personas valorarían.",
+      "opening_14_words": "Disfruta que pasa rápido puede sonar amable y a la vez crear una tarea",
+      "intro_3_paragraphs": "“Disfruta, que pasa rápido” puede sonar amable y a la vez crear una tarea imposible: además de atravesar todos los cambios del embarazo, tendrías que asegurarte de que los estás apreciando. Si no lo haces, parece que estás desperdiciando algo que otras personas valorarían. El embarazo puede ser muy deseado y no ser una etapa que disfrutes. Querer el resultado no obliga a amar el proceso. Quizá no te gustan los cambios corporales, la atención pública, la incertidumbre, dejar de hacer ciertas cosas o sentir que tu identidad se ha reducido a estar embarazada. Quizá simplemente no te parece una etapa especialmente agradable.",
+      "last_h2": "Permite apoyo sin esperar a que te encante",
+      "ending_3_paragraphs": "No necesitas llegar a disfrutar el embarazo para sentir que lo estás haciendo bien. Puedes enfocarte en atravesarlo de una forma sostenible y pedir ayuda para lo que pesa. Si el malestar emocional es intenso o persistente, o te preocupa, hablar con un profesional puede darte apoyo sin obligarte a convertir la experiencia en positiva. No tienes que guardar un recuerdo feliz de cada etapa para ser una madre que quería a su hijo. Puedes atravesar un embarazo deseado con poca nostalgia y mucha impaciencia y aun así esperar profundamente conocer al bebé.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1106-esperar-termine-embarazo-culpa-no-disfrutarlo.json",
+      "article_number": 1106,
+      "translation_group": "1106-want-pregnancy-to-end-feel-guilty",
+      "language": "es",
+      "title": "Esperar que termine el embarazo y sentir culpa por no disfrutarlo",
+      "words": 340,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.76,
+      "h2s": [
+        "Distingue impaciencia de rechazo",
+        "Deja de convertir las semanas en una cuenta atrás emocional",
+        "Haz el presente más habitable en lugar de intentar amarlo",
+        "Habla de la culpa si empieza a ocupar demasiado"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 27.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 9,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Hay etapas importantes que se hacen largas incluso cuando sabes que no puedes apresurarlas. Esperar el final del embarazo puede intensificar la sensación de estar entre dos vidas: la anterior ya cambió y la siguiente todavía no ha empezado.",
+      "opening_14_words": "Hay etapas importantes que se hacen largas incluso cuando sabes que no puedes apresurarlas",
+      "intro_3_paragraphs": "Hay etapas importantes que se hacen largas incluso cuando sabes que no puedes apresurarlas. Esperar el final del embarazo puede intensificar la sensación de estar entre dos vidas: la anterior ya cambió y la siguiente todavía no ha empezado. Desear que una etapa termine no significa que no valores lo que está ocurriendo dentro de ella. A veces solo significa que estás cansada de vivir en transición. Puedes pensar “quiero que esto se acabe” refiriéndote a la espera, la incomodidad, la incertidumbre o la atención constante. Esa frase no tiene que significar “no quiero a este bebé” ni “me arrepiento”.",
+      "last_h2": "Habla de la culpa si empieza a ocupar demasiado",
+      "ending_3_paragraphs": "Compartir “estoy deseando que termine y luego me siento fatal por pensarlo” puede desmontar la sensación de estar diciendo algo prohibido. Si el malestar emocional es intenso, persistente o te preocupa, busca apoyo profesional. No necesitas esperar a que el embarazo termine para merecer ayuda. Puedes querer que el embarazo termine porque estás lista para dejar atrás esta etapa, no porque quieras menos al bebé. Esperar el siguiente capítulo también puede formar parte de desear profundamente su llegada.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1107-no-sentirte-conectada-bebe-embarazo.json",
+      "article_number": 1107,
+      "translation_group": "1107-not-feel-connected-to-baby-during-pregnancy",
+      "language": "es",
+      "title": "No sentirte conectada con el bebé durante el embarazo",
+      "words": 372,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 10.75,
+      "h2s": [
+        "Reconoce lo abstracto que puede ser el embarazo",
+        "No uses rituales como examen de vínculo",
+        "Evita comparar una experiencia interna con relatos externos",
+        "Busca apoyo si la desconexión viene acompañada de un malestar que te preocupa"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 30.5,
+      "short_paragraph_ratio": 0.091,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 10,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Las conversaciones sobre embarazo suelen tratar el vínculo como algo automático: ves una prueba positiva, escuchas un latido o notas un movimiento y de pronto existe una relación emocional profunda. Si eso no ocurre, puedes empezar a observarte con preocupación.",
+      "opening_14_words": "Las conversaciones sobre embarazo suelen tratar el vínculo como algo automático ves una prueba",
+      "intro_3_paragraphs": "Las conversaciones sobre embarazo suelen tratar el vínculo como algo automático: ves una prueba positiva, escuchas un latido o notas un movimiento y de pronto existe una relación emocional profunda. Si eso no ocurre, puedes empezar a observarte con preocupación. La conexión no es una prueba que debas aprobar antes del nacimiento. Una relación con un hijo puede empezar de maneras distintas y crecer durante mucho tiempo. Antes del nacimiento todavía no compartes muchas de las experiencias que construyen una relación cotidiana: miradas, respuestas, rutinas, conocer preferencias, consolar, reír juntos. Para algunas personas, la ausencia de esa interacción hace que el bebé se sienta más como un futuro que como una relación presente.",
+      "last_h2": "Busca apoyo si la desconexión viene acompañada de un malestar que te preocupa",
+      "ending_3_paragraphs": "No sentir conexión prenatal por sí solo no te obliga a sacar una conclusión sobre tu futura maternidad. Pero si la experiencia te produce un sufrimiento intenso o persistente, o se combina con otros cambios emocionales que te preocupan, háblalo con un profesional. Puedes pedir apoyo sin tener que demostrar que “deberías” sentir otra cosa. No necesitas enamorarte de una idea abstracta en una fecha concreta. Puedes conocer a tu hijo poco a poco, antes o después del nacimiento, y dejar que el vínculo se construya a través de una relación real.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1108-no-sentir-amor-instantaneo-bebe-antes-nazca.json",
+      "article_number": 1108,
+      "translation_group": "1108-no-instant-love-before-birth",
+      "language": "es",
+      "title": "No sentir amor instantáneo por el bebé antes de que nazca",
+      "words": 320,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.5,
+      "h2s": [
+        "No obligues a una palabra a describir algo que todavía está formándose",
+        "Recuerda que aún conoces muy poco a esa persona",
+        "No conviertas cada hito en una oportunidad de examinarte",
+        "Deja espacio para pedir ayuda sin patologizar cada diferencia"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 25.5,
+      "short_paragraph_ratio": 0.182,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.091,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 2,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 3,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "El amor prenatal suele contarse como una revelación: desde el primer momento supiste que harías cualquier cosa por ese bebé. Para algunas personas es exactamente así. Para otras hay responsabilidad, curiosidad, protección, extrañeza o simplemente conciencia de que algo enorme está ocurriendo.",
+      "opening_14_words": "El amor prenatal suele contarse como una revelación desde el primer momento supiste que",
+      "intro_3_paragraphs": "El amor prenatal suele contarse como una revelación: desde el primer momento supiste que harías cualquier cosa por ese bebé. Para algunas personas es exactamente así. Para otras hay responsabilidad, curiosidad, protección, extrañeza o simplemente conciencia de que algo enorme está ocurriendo. El amor no tiene que llegar como un impacto instantáneo para ser real cuando se construya. Las relaciones humanas también pueden empezar con conocimiento gradual. Tal vez sí te importa el bebé, tomas decisiones pensando en él y te imaginas su llegada, pero no sientes una emoción que llamarías amor. No necesitas cambiar la etiqueta para cumplir una expectativa.",
+      "last_h2": "Deja espacio para pedir ayuda sin patologizar cada diferencia",
+      "ending_3_paragraphs": "No sentir amor instantáneo no es por sí mismo un diagnóstico. A la vez, si tu estado emocional general te preocupa, es intenso o persistente, merece atención profesional. Puedes sostener ambas ideas: no existe una emoción prenatal obligatoria y tu bienestar emocional sigue siendo importante. No necesitas amar al bebé de una forma reconocible antes de conocerlo para que vuestra relación pueda crecer. El vínculo no pierde valor porque empiece con curiosidad, responsabilidad o una emoción que todavía no sabes nombrar.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1109-no-tener-ganas-hablar-barriga-embarazo.json",
+      "article_number": 1109,
+      "translation_group": "1109-not-want-to-talk-to-bump",
+      "language": "es",
+      "title": "No tener ganas de hablarle a la barriga durante el embarazo",
+      "words": 349,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.46,
+      "h2s": [
+        "Distingue una sugerencia de un requisito emocional",
+        "Encuentra formas de relación que sí se parezcan a ti",
+        "Pon límites a los comentarios que te hacen sentir observada",
+        "Deja que el vínculo llegue a través de la relación real"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.3,
+      "short_paragraph_ratio": 0.091,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 2,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Algunas prácticas prenatales se presentan como si fueran pasos naturales de la maternidad: acariciar la barriga, poner música, hablarle al bebé antes de dormir. Pueden ser preciosas cuando encajan con la persona. Cuando no, hacerlas puede sentirse como interpretar un papel frente a nadie.",
+      "opening_14_words": "Algunas prácticas prenatales se presentan como si fueran pasos naturales de la maternidad acariciar",
+      "intro_3_paragraphs": "Algunas prácticas prenatales se presentan como si fueran pasos naturales de la maternidad: acariciar la barriga, poner música, hablarle al bebé antes de dormir. Pueden ser preciosas cuando encajan con la persona. Cuando no, hacerlas puede sentirse como interpretar un papel frente a nadie. No necesitas demostrar conexión realizando rituales que no se parecen a ti. El vínculo no se mide por cuántas conversaciones mantienes con tu barriga. Que una actividad pueda resultar agradable o significativa no significa que sea necesaria para todas las personas. Puedes probarla una vez, decidir que no te sale y seguir adelante sin buscar una explicación profunda.",
+      "last_h2": "Deja que el vínculo llegue a través de la relación real",
+      "ending_3_paragraphs": "Quizá hablar al bebé antes de nacer nunca tenga sentido para ti y, después, te descubras hablando durante horas mientras lo cuidas. O quizá tu forma de conexión siga siendo menos verbal. Las relaciones no necesitan comenzar con el mismo ritual para ser profundas. Si hablarle a la barriga te sale, puedes disfrutarlo. Si no, puedes dejarlo. La maternidad no empieza con una actuación concreta y tu vínculo con el bebé tendrá muchas más oportunidades de construirse.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1110-sentirte-diferente-otras-embarazadas-mas-emocionadas.json",
+      "article_number": 1110,
+      "translation_group": "1110-feel-different-from-more-excited-pregnant-women",
+      "language": "es",
+      "title": "Sentirte diferente de otras embarazadas que parecen más emocionadas",
+      "words": 326,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.27,
+      "h2s": [
+        "Observa qué exactamente estás comparando",
+        "Recuerda que entusiasmo y amor no son sinónimos",
+        "Reduce las comparaciones que no te aportan información",
+        "Construye una narrativa que no dependa de parecerte a nadie"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 26.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Las emociones visibles son fáciles de comparar: fotos semanales, compras, anuncios, conversaciones constantes sobre el bebé. Lo que no ves son las horas neutrales, los miedos privados, el cansancio o las dudas que quizá existen fuera de esa escena.",
+      "opening_14_words": "Las emociones visibles son fáciles de comparar fotos semanales compras anuncios conversaciones constantes sobre",
+      "intro_3_paragraphs": "Las emociones visibles son fáciles de comparar: fotos semanales, compras, anuncios, conversaciones constantes sobre el bebé. Lo que no ves son las horas neutrales, los miedos privados, el cansancio o las dudas que quizá existen fuera de esa escena. Cuando comparas tu interior completo con la parte más comunicable del embarazo de otra persona, casi siempre tu experiencia parece más desordenada. Quizá no envidias su embarazo, sino su facilidad para mostrar emoción, su energía para preparar cosas o la seguridad con la que habla del futuro. Esas son características distintas.",
+      "last_h2": "Construye una narrativa que no dependa de parecerte a nadie",
+      "ending_3_paragraphs": "Puedes describir tu embarazo con tus propias palabras: “lo estoy asimilando”, “estoy contenta y también nerviosa”, “no soy muy de rituales”, “me siento bastante normal la mayor parte del tiempo”. Una historia menos espectacular puede ser más fiel. No necesitas convertirte en la embarazada más emocionada de la sala para estar viviendo un embarazo válido. No estás haciendo peor el embarazo porque otra persona lo exprese con más entusiasmo. Tu experiencia puede ser más tranquila, ambivalente o privada y seguir conteniendo deseo, cuidado y espacio para una relación que está empezando.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
     }
   ],
   "repeated_paragraphs": [],
@@ -20226,6 +21946,20 @@
       ]
     },
     {
+      "ngram": "you do not have to choose",
+      "count": 8,
+      "files": [
+        "content/articles/en/1009-guilt-weekend-without-kids.json",
+        "content/articles/en/1015-missing-who-you-were-before-kids.json",
+        "content/articles/en/1031-motherhood-changed-my-personality.json",
+        "content/articles/en/1034-relationship-with-risk-after-kids.json",
+        "content/articles/en/1037-more-protective-than-expected.json",
+        "content/articles/en/1053-connect-with-kids-if-not-playful-mom.json",
+        "content/articles/en/1065-why-five-minutes-alone-matter-as-mom.json",
+        "content/articles/en/110-when-sleep-routine-stops-working.json"
+      ]
+    },
+    {
       "ngram": "it does not need to become",
       "count": 7,
       "files": [
@@ -20252,19 +21986,6 @@
       ]
     },
     {
-      "ngram": "you do not have to choose",
-      "count": 7,
-      "files": [
-        "content/articles/en/1009-guilt-weekend-without-kids.json",
-        "content/articles/en/1015-missing-who-you-were-before-kids.json",
-        "content/articles/en/1031-motherhood-changed-my-personality.json",
-        "content/articles/en/1034-relationship-with-risk-after-kids.json",
-        "content/articles/en/1037-more-protective-than-expected.json",
-        "content/articles/en/1053-connect-with-kids-if-not-playful-mom.json",
-        "content/articles/en/1065-why-five-minutes-alone-matter-as-mom.json"
-      ]
-    },
-    {
       "ngram": "you do not need to make",
       "count": 7,
       "files": [
@@ -20275,6 +21996,43 @@
         "content/articles/en/1043-pressure-to-create-special-memories-for-kids.json",
         "content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json",
         "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json"
+      ]
+    },
+    {
+      "ngram": "you do not need to prove",
+      "count": 7,
+      "files": [
+        "content/articles/en/013-sleep-regressions-calm.json",
+        "content/articles/en/050-boundaries-with-grandparents-without-breaking-relationship.json",
+        "content/articles/en/063-breastfeeding-in-public-feel-comfortable-prepared.json",
+        "content/articles/en/1038-dont-recognize-how-protective-youve-become.json",
+        "content/articles/en/1083-small-mistake-means-bad-mom.json",
+        "content/articles/en/1101-not-happy-all-the-time-pregnancy.json",
+        "content/articles/en/1109-not-want-to-talk-to-bump.json"
+      ]
+    },
+    {
+      "ngram": "at the end of the day",
+      "count": 6,
+      "files": [
+        "content/articles/en/003-toddler-tantrums-calm-limits-connection.json",
+        "content/articles/en/097-vacation-young-kids-lower-expectations.json",
+        "content/articles/en/106-bedtime-endless-requests-limits-connection.json",
+        "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
+        "content/articles/en/1082-stop-measuring-motherhood-by-output.json",
+        "content/articles/en/1085-remember-parenting-mistakes-forget-good.json"
+      ]
+    },
+    {
+      "ngram": "do not have to choose between",
+      "count": 6,
+      "files": [
+        "content/articles/en/1015-missing-who-you-were-before-kids.json",
+        "content/articles/en/1031-motherhood-changed-my-personality.json",
+        "content/articles/en/1037-more-protective-than-expected.json",
+        "content/articles/en/1053-connect-with-kids-if-not-playful-mom.json",
+        "content/articles/en/1065-why-five-minutes-alone-matter-as-mom.json",
+        "content/articles/en/110-when-sleep-routine-stops-working.json"
       ]
     }
   ]

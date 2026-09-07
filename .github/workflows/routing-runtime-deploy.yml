@@ -67,24 +67,7 @@ jobs:
           "${DOCKER[@]}" exec mom-wp sh -lc 'chown www-data:www-data /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php && chmod 644 /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php'
           "${DOCKER[@]}" exec mom-wp php -l /var/www/html/wp-content/mu-plugins/mom-routing-runtime.php
 
-          # Pretty permalinks are required for /en/, localized taxonomies and article slugs.
-          # Keep a standard WordPress front-controller .htaccess in place even if a prior
-          # soft rewrite flush left the container without one.
-          "${DOCKER[@]}" exec mom-wp sh -lc 'cat > /var/www/html/.htaccess <<"HTACCESS"
-# BEGIN WordPress
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
-# END WordPress
-HTACCESS
-chown www-data:www-data /var/www/html/.htaccess
-chmod 644 /var/www/html/.htaccess'
+          "${DOCKER[@]}" exec mom-wp sh -lc 'printf "%s\n" "# BEGIN WordPress" "<IfModule mod_rewrite.c>" "RewriteEngine On" "RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]" "RewriteBase /" "RewriteRule ^index\\.php$ - [L]" "RewriteCond %{REQUEST_FILENAME} !-f" "RewriteCond %{REQUEST_FILENAME} !-d" "RewriteRule . /index.php [L]" "</IfModule>" "# END WordPress" > /var/www/html/.htaccess && chown www-data:www-data /var/www/html/.htaccess && chmod 644 /var/www/html/.htaccess'
 
           ROUTE_INFO="$("${DOCKER[@]}" exec mom-wp php -r '
             require "/var/www/html/wp-load.php";

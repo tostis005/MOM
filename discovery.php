@@ -88,7 +88,7 @@ $hero_url  = file_exists( $hero_file ) ? trailingslashit( get_template_directory
 						if ( $taxonomy && taxonomy_exists( $taxonomy ) ) {
 							$wp_term = get_term_by( 'slug', sanitize_title( $term_id ), $taxonomy );
 							if ( $wp_term instanceof WP_Term ) {
-								$term_count = (int) $wp_term->count;
+								$term_count = function_exists( 'mom_term_language_count' ) ? mom_term_language_count( $wp_term, $language ) : 0;
 							}
 						}
 						$term_description = 'topic' === $dimension ? mom_topic_description( $term_id ) : '';
@@ -96,7 +96,7 @@ $hero_url  = file_exists( $hero_file ) ? trailingslashit( get_template_directory
 						<a class="discovery-card" href="<?php echo esc_url( $term_url ); ?>">
 							<div class="discovery-card-media">
 								<?php if ( $image_url ) : ?>
-									<img src="<?php echo esc_url( $image_url ); ?>" width="1448" height="1086" alt="" loading="lazy" decoding="async">
+									<img src="<?php echo esc_url( $image_url ); ?>" width="480" height="360" alt="" loading="lazy" decoding="async">
 								<?php else : ?>
 									<div class="discovery-card-fallback" style="--topic-accent:<?php echo esc_attr( 'topic' === $dimension ? mom_topic_accent( $term_id ) : '#9b5f60' ); ?>"><?php echo 'topic' === $dimension ? mom_topic_art_svg( $term_id ) : mom_hero_art_svg(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 								<?php endif; ?>

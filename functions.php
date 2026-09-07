@@ -29,13 +29,23 @@ function mom_theme_setup() {
 }
 add_action( 'after_setup_theme', 'mom_theme_setup' );
 
+$mom_i18n_routing = get_template_directory() . '/inc/i18n-routing.php';
+if ( file_exists( $mom_i18n_routing ) ) {
+	require_once $mom_i18n_routing;
+}
+
 function mom_enqueue_assets() {
 	$version = wp_get_theme()->get( 'Version' );
 	wp_enqueue_style( 'mom-style', get_stylesheet_uri(), array(), $version );
+	wp_enqueue_style( 'mom-navigation-overlays', get_template_directory_uri() . '/assets/css/navigation-overlays.css', array( 'mom-style' ), $version );
+	wp_enqueue_script( 'mom-navigation-overlays', get_template_directory_uri() . '/assets/js/navigation-overlays.js', array(), $version, true );
 }
 add_action( 'wp_enqueue_scripts', 'mom_enqueue_assets' );
 
 function mom_is_english() {
+	if ( function_exists( 'mom_current_language' ) ) {
+		return 'en' === mom_current_language();
+	}
 	if ( function_exists( 'content_platform_current_language' ) ) {
 		return 'en' === content_platform_current_language();
 	}
@@ -49,9 +59,13 @@ function mom_t( $es, $en ) {
 	return mom_is_english() ? $en : $es;
 }
 
-function mom_language_home_url() {
+function mom_language_home_url( $language = '' ) {
+	if ( function_exists( 'mom_i18n_home_url' ) ) {
+		return mom_i18n_home_url( $language );
+	}
 	if ( function_exists( 'pll_home_url' ) ) {
-		return pll_home_url( mom_is_english() ? 'en' : 'es' );
+		$language = in_array( $language, array( 'es', 'en' ), true ) ? $language : ( mom_is_english() ? 'en' : 'es' );
+		return pll_home_url( $language );
 	}
 	return home_url( '/' );
 }
@@ -98,7 +112,7 @@ function mom_fallback_terms( $dimension ) {
 
 	$language = mom_is_english() ? 'en' : 'es';
 	$result   = array();
-	foreach ( $terms[ $dimension ] ?? array() as $term ) {
+	foreach ( isset( $terms[ $dimension ] ) ? $terms[ $dimension ] : array() as $term ) {
 		$result[] = array(
 			'id'    => $term['id'],
 			'label' => $term['label'][ $language ],
@@ -131,10 +145,13 @@ function mom_taxonomy_name( $dimension ) {
 		'audience'     => 'content_audience',
 		'article_type' => 'content_article_type',
 	);
-	return $map[ $dimension ] ?? '';
+	return isset( $map[ $dimension ] ) ? $map[ $dimension ] : '';
 }
 
-function mom_term_url( $dimension, $term_id, $label = '' ) {
+function mom_term_url( $dimension, $term_id, $label = '', $language = '' ) {
+	if ( function_exists( 'mom_i18n_term_url' ) ) {
+		return mom_i18n_term_url( $dimension, $term_id, $language );
+	}
 	$taxonomy = mom_taxonomy_name( $dimension );
 	if ( $taxonomy && taxonomy_exists( $taxonomy ) ) {
 		$term = get_term_by( 'slug', sanitize_title( $term_id ), $taxonomy );
@@ -145,7 +162,7 @@ function mom_term_url( $dimension, $term_id, $label = '' ) {
 			}
 		}
 	}
-	return mom_language_home_url() . '?s=' . rawurlencode( $label ? $label : str_replace( '-', ' ', $term_id ) );
+	return mom_language_home_url( $language ) . '?s=' . rawurlencode( $label ? $label : str_replace( '-', ' ', $term_id ) );
 }
 
 function mom_topic_description( $id ) {
@@ -184,7 +201,7 @@ function mom_topic_description( $id ) {
 		'travel-outings-celebrations' => 'Trips, outings, restaurants and celebrations with children, made simpler.',
 	);
 	$source = mom_is_english() ? $en : $es;
-	return $source[ $id ] ?? '';
+	return isset( $source[ $id ] ) ? $source[ $id ] : '';
 }
 
 function mom_topic_accent( $id ) {
@@ -195,7 +212,7 @@ function mom_topic_accent( $id ) {
 		'breastfeeding-baby-feeding' => '#8f7664', 'couple-coparenting' => '#93677f', 'motherhood-identity' => '#7a736d',
 		'family-siblings-boundaries' => '#71816d', 'work-balance-life' => '#6f7286', 'travel-outings-celebrations' => '#a17658',
 	);
-	return $colors[ $id ] ?? '#9b5f60';
+	return isset( $colors[ $id ] ) ? $colors[ $id ] : '#9b5f60';
 }
 
 function mom_primary_topic_id( $post_id = 0 ) {

@@ -25,11 +25,11 @@ on:
         default: false
     secrets:
       VPS_HOST:
-        required: true
+        required: false
       VPS_USER:
-        required: true
+        required: false
       VPS_SSH_KEY:
-        required: true
+        required: false
       WP_ROOT:
         required: false
   workflow_dispatch:
@@ -100,7 +100,24 @@ jobs:
           php -l engine/platform/content-platform.php
           python3 engine/platform/validate-content.py site
 
+      - name: Detect remote deployment configuration
+        id: remote
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -n "${VPS_HOST:-}" ] && [ -n "${VPS_USER:-}" ] && [ -n "${VPS_SSH_KEY:-}" ]; then
+            echo 'ready=true' >> "$GITHUB_OUTPUT"
+            echo 'Remote WordPress deployment is configured.'
+          else
+            echo 'ready=false' >> "$GITHUB_OUTPUT"
+            echo '::notice::Content contract validated. Remote import skipped because VPS_HOST, VPS_USER and VPS_SSH_KEY are not all configured for this repository.'
+          fi
+
       - name: Configure SSH
+        if: steps.remote.outputs.ready == 'true'
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
@@ -112,6 +129,7 @@ jobs:
           ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
 
       - name: Resolve WordPress root
+        if: steps.remote.outputs.ready == 'true'
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -140,6 +158,7 @@ jobs:
           echo "WP_ROOT=$WP_ROOT" >> "$GITHUB_ENV"
 
       - name: Copy shared engine to VPS
+        if: steps.remote.outputs.ready == 'true'
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -151,6 +170,7 @@ jobs:
             "$VPS_USER@$VPS_HOST:/tmp/content-platform-runtime.php"
 
       - name: Read last successful import SHA
+        if: steps.remote.outputs.ready == 'true'
         id: import_state
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
@@ -264,6 +284,7 @@ jobs:
           echo "Selected $COUNT article(s)."
 
       - name: Copy package to VPS
+        if: steps.remote.outputs.ready == 'true'
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -272,6 +293,7 @@ jobs:
             "$VPS_USER@$VPS_HOST:/tmp/content-platform-package.tgz"
 
       - name: Install runtime and import
+        if: steps.remote.outputs.ready == 'true'
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -321,3 +343,9 @@ jobs:
             "--language=$IMPORT_LANGUAGE" "--from=$IMPORT_FROM" "--to=$IMPORT_TO" \
             "--status=$IMPORT_STATUS" "--force=$IMPORT_FORCE" $SHA_ARG
           REMOTE
+
+      - name: Report validation-only mode
+        if: steps.remote.outputs.ready != 'true'
+        run: |
+          echo 'Content Platform validation and packaging succeeded.'
+          echo 'Remote WordPress import was not attempted because deployment credentials are not configured in this repository.'

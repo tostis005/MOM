@@ -9,6 +9,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+$mom_image_performance = get_template_directory() . '/inc/image-performance.php';
+if ( file_exists( $mom_image_performance ) ) {
+	require_once $mom_image_performance;
+}
+
 if ( ! defined( 'MOM_DISCOVERY_ROUTING_VERSION' ) ) {
 	define( 'MOM_DISCOVERY_ROUTING_VERSION', '2026-09-07-1' );
 }
@@ -157,7 +162,10 @@ function mom_discovery_image_url( $dimension, $term_id ) {
 		return '';
 	}
 	$filename = $prefixes[ $dimension ] . '-' . sanitize_file_name( $term_id ) . '.jpg';
-	$file     = trailingslashit( get_template_directory() ) . 'assets/images/hq/' . $filename;
+	if ( function_exists( 'mom_static_image_url' ) ) {
+		return mom_static_image_url( $filename, 'thumb' );
+	}
+	$file = trailingslashit( get_template_directory() ) . 'assets/images/hq/' . $filename;
 	if ( ! file_exists( $file ) ) {
 		return '';
 	}

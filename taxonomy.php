@@ -158,7 +158,6 @@ $post_count = $term instanceof WP_Term ? (int) $term->count : 0;
 					<span class="section-label"><?php echo esc_html( mom_t( 'Lecturas recomendadas', 'Recommended reading' ) ); ?></span>
 					<h2><?php echo esc_html( mom_t( 'Artículos para ti', 'Guides for you' ) ); ?></h2>
 				</div>
-				<p><?php echo esc_html( mom_t( 'Información práctica para encontrar respuestas sin perderte entre consejos contradictorios.', 'Practical information to help you find answers without getting lost in conflicting advice.' ) ); ?></p>
 			</header>
 
 			<?php if ( have_posts() ) : ?>

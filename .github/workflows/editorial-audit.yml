@@ -6,6 +6,7 @@ on:
     paths:
       - 'platform/editorial-audit.py'
       - '.github/workflows/editorial-audit.yml'
+      - 'content/articles/**/*.json'
 
 permissions:
   contents: write

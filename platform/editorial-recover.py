@@ -71,8 +71,6 @@ def smooth_segment(segment: str) -> str:
         else:
             i += 1
     merged = "".join(out)
-    # A second pass catches short paragraphs created after one merge, but still only
-    # touches adjacent paragraph tags and leaves lists/tables/H3/other HTML intact.
     if merged != segment:
         pieces2 = re.split(r"(<p>.*?</p>)", merged, flags=re.I | re.S)
         out2: list[str] = []
@@ -130,8 +128,6 @@ def consolidate_sections(sections: list[dict], total_words: int) -> list[dict]:
     for idx, sec in enumerate(sections[1:-1], 1):
         section_words = wc(sec["content"])
         bonus = 20 if "?" in plain(sec["heading"]) or "¿" in plain(sec["heading"]) else 0
-        # Lists/tables are meaningful standalone reader tasks, so prefer keeping
-        # their headings rather than burying them inside a neighboring section.
         structural_bonus = 35 if re.search(r"<(ul|ol|table|h3)\b", sec["content"], re.I) else 0
         scored.append((section_words + bonus + structural_bonus, idx))
     for _, idx in sorted(scored, reverse=True)[: max(0, target - len(keep))]:

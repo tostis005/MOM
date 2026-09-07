@@ -1,34 +1,34 @@
 {
   "summary": {
-    "total": 220,
+    "total": 240,
     "by_language": {
       "es": {
-        "count": 110,
-        "avg_words": 844.5,
-        "median_words": 755,
-        "avg_h2": 6.0,
-        "avg_short_para_ratio": 0.059,
+        "count": 120,
+        "avg_words": 822.2,
+        "median_words": 737,
+        "avg_h2": 5.75,
+        "avg_short_para_ratio": 0.056,
         "risk_7_plus": 0,
         "risk_5_6": 60,
-        "risk_3_4": 21,
+        "risk_3_4": 31,
         "risk_0_2": 29
       },
       "en": {
-        "count": 110,
-        "avg_words": 789.3,
-        "median_words": 729,
-        "avg_h2": 5.76,
-        "avg_short_para_ratio": 0.066,
+        "count": 120,
+        "avg_words": 771.4,
+        "median_words": 707,
+        "avg_h2": 5.53,
+        "avg_short_para_ratio": 0.062,
         "risk_7_plus": 0,
         "risk_5_6": 71,
-        "risk_3_4": 14,
+        "risk_3_4": 24,
         "risk_0_2": 25
       }
     },
     "exact_repeated_paragraphs": 0,
     "repeated_h2_patterns": 0,
     "repeated_opening_patterns": 0,
-    "common_6grams_6plus_articles": 2
+    "common_6grams_6plus_articles": 4
   },
   "highest_risk": [
     {
@@ -5136,6 +5136,211 @@
       ]
     },
     {
+      "path": "content/articles/en/056-baby-diaper-bag-essentials-everyday-outings.json",
+      "article_number": 56,
+      "translation_group": "056-baby-bag-day-to-day",
+      "language": "en",
+      "title": "Baby diaper bag essentials: what you actually need for everyday outings",
+      "words": 641,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 4.68,
+      "h2s": [
+        "Build a small base that works for most outings",
+        "One complete outfit beats a pile of random clothes",
+        "The real goal is making it easier to leave"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 40.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "The first few times you leave home with a baby, packing can feel strangely high stakes. You add diapers, extra diapers, three outfits, wipes, blankets, toys, feeding gear, bags, backup feeding gear, and something you have never used but might suddenly need in a parking lot.",
+      "opening_14_words": "The first few times you leave home with a baby packing can feel strangely",
+      "intro_3_paragraphs": "The first few times you leave home with a baby, packing can feel strangely high stakes. You add diapers, extra diapers, three outfits, wipes, blankets, toys, feeding gear, bags, backup feeding gear, and something you have never used but might suddenly need in a parking lot. After enough ordinary outings, most families discover a simpler truth: the best diaper bag is not the one prepared for every possible event. It is the one stocked with the things you actually reach for. For many families, the everyday base is straightforward: diapers, wipes or your usual cleanup supplies, one complete change of clothes, a bag for dirty items, and whatever your baby routinely needs for feeding away from home.",
+      "last_h2": "The real goal is making it easier to leave",
+      "ending_3_paragraphs": "And sometimes you will forget something. In many cases, the supposedly essential item can be improvised, bought, or simply skipped for that outing. That experience is useful information too. It teaches you what truly deserves permanent space the next time you pack. If every simple outing requires twenty minutes of packing, the system is probably asking too much of you. Keep the base ready, look at the actual plan, add the one or two things that make sense, and go. You are not trying to prove you can anticipate every inconvenience. You are trying to make an ordinary outing with a baby feel ordinary enough to happen. Your own experience will quickly become a better packing guide than any giant online list.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/057-dress-newborn-without-buying-too-many-clothes.json",
+      "article_number": 57,
+      "translation_group": "057-dressing-newborn-without-overbuying",
+      "language": "en",
+      "title": "How to dress a newborn without buying a closet full of clothes",
+      "words": 599,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.01,
+      "h2s": [
+        "Shop for an ordinary week, not a photo shoot",
+        "Your laundry routine and weather matter more than a universal number",
+        "A smaller wardrobe can be easier to manage"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 38.1,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 8,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Newborn clothes are unusually easy to overbuy before there is an actual newborn in the house. Everything is tiny, soft, and inexpensive enough one item at a time that a drawer can fill up long before you know your baby's size or what kinds of clothes you will enjoy using.",
+      "opening_14_words": "Newborn clothes are unusually easy to overbuy before there is an actual newborn in",
+      "intro_3_paragraphs": "Newborn clothes are unusually easy to overbuy before there is an actual newborn in the house. Everything is tiny, soft, and inexpensive enough one item at a time that a drawer can fill up long before you know your baby's size or what kinds of clothes you will enjoy using. The simplest rule is not very glamorous: at the beginning, a smaller wardrobe of useful clothes usually beats a large wardrobe waiting for the right occasion. In the early weeks, clothes are working clothes. They go on, get messy, get washed, and return to the drawer. The pieces that earn repeat use are often the ones that open easily, make diaper changes straightforward, and do not require much coordination from a tired adult.",
+      "last_h2": "A smaller wardrobe can be easier to manage",
+      "ending_3_paragraphs": "It also helps when everyday clothes mix easily. If most pieces work together, a messy change does not leave you searching for the one pair of pants that matches a particular top. Practical baby clothes benefit more from compatibility than from perfect outfits. When the drawer is overflowing, the useful clothes can disappear underneath outgrown items, gifts, and outfits that never quite fit the day. A smaller rotation makes it easier to see what you have and notice when a size is ending. Your newborn's wardrobe does not need to be complete before birth. It only needs to get you through the beginning comfortably. After that, your baby's size, your laundry rhythm, and your actual routines are much better shopping information than a giant checklist.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/058-what-to-buy-before-baby-arrives-what-can-wait.json",
+      "article_number": 58,
+      "translation_group": "058-what-to-buy-before-baby-and-what-can-wait",
+      "language": "en",
+      "title": "What to buy before the baby arrives — and what can wait",
+      "words": 587,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.11,
+      "h2s": [
+        "Set up the basics for the first days",
+        "Do not solve six-month problems today",
+        "Being prepared does not mean owning everything"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 37.7,
+      "short_paragraph_ratio": 0.067,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.133,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 8,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Preparing for a baby comes with a powerful marketing message: almost everything can be presented as something you should have ready before birth. Suddenly the final months of pregnancy can feel like a deadline for buying solutions to problems you do not even know you will have.",
+      "opening_14_words": "Preparing for a baby comes with a powerful marketing message almost everything can be",
+      "intro_3_paragraphs": "Preparing for a baby comes with a powerful marketing message: almost everything can be presented as something you should have ready before birth. Suddenly the final months of pregnancy can feel like a deadline for buying solutions to problems you do not even know you will have. A calmer approach is to separate two questions: What do we need to bring a baby home and function? And what will we be able to choose better once we know our actual baby and routine? Before birth, it makes sense to solve the things you will use immediately: appropriate transportation, a sleep space set up according to the safety guidance you follow, diapers and basic care supplies, a small clothing rotation, and the feeding items you already know are part of your initial plan.",
+      "last_h2": "Being prepared does not mean owning everything",
+      "ending_3_paragraphs": "If a purchase feels uncertain, imagine the first week without it. Would you be unable to meet a basic need, or would the item simply make one task more convenient? Both categories can be worthwhile, but separating them makes it much easier to decide what truly needs to be ready. Stores still exist after a baby is born. So do delivery, borrowing, and quick purchases when a real need becomes clear. Remembering that can remove a surprising amount of pressure. A prepared home is not a home containing every baby product. It is a home that can handle the beginning and still has enough flexibility to adapt to the family that actually shows up.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/059-baby-nursery-practical-calm-space-that-grows.json",
+      "article_number": 59,
+      "translation_group": "059-practical-calm-lasting-nursery",
+      "language": "en",
+      "title": "Baby nursery ideas for a practical, calm space that can grow",
+      "words": 562,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.34,
+      "h2s": [
+        "Start with functions, not a theme",
+        "You do not have to buy every piece before birth",
+        "Calm does not come from everything matching"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 35.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 12,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "A nursery can start as “let's make a comfortable room for the baby” and somehow turn into a paint palette, twelve matching baskets, and the feeling that one specific lamp must be purchased before labor can begin.",
+      "opening_14_words": "A nursery can start as let's make a comfortable room for the baby and",
+      "intro_3_paragraphs": "A nursery can start as “let's make a comfortable room for the baby” and somehow turn into a paint palette, twelve matching baskets, and the feeling that one specific lamp must be purchased before labor can begin. The room usually works better when it is designed around daily life instead of the final photo. The goal is not to finish a perfect baby room. It is to create a space that remains useful after your baby stops being a newborn. Think about what you will actually do in the room: store clothes, change the baby, sit together, keep diapers organized, read, or simply give baby gear a home. Your baby may sleep there right away or may not, but the room can still support the household.",
+      "last_h2": "Calm does not come from everything matching",
+      "ending_3_paragraphs": "The nursery also does not need to carry every emotional expectation of pregnancy. Preparing it can be a lovely ritual, but unfinished shelves or undecided artwork do not mean the baby is arriving in an unprepared home. Function can be completed gradually. A room often feels peaceful because it is easy to find what you need, surfaces are not overloaded, and there is enough visual breathing room. That kind of calm is more useful at 2 a.m. than perfect coordination. The best nursery is not the one that looks completely finished before you know your baby. It is the one with enough room to be finished by living in it.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/060-modern-baby-shower-ideas-different.json",
+      "article_number": 60,
+      "translation_group": "060-modern-baby-shower-ideas",
+      "language": "en",
+      "title": "Modern baby shower ideas that do not feel like the same party every time",
+      "words": 560,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.36,
+      "h2s": [
+        "Choose the kind of gathering first",
+        "Gift opening does not have to be the main event",
+        "Decide how you want the gathering to feel"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 35.7,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Some baby showers seem to arrive with a script: themed decorations, several games nobody volunteered to play, a long gift-opening session, and a schedule so full that guests barely have time to talk.",
+      "opening_14_words": "Some baby showers seem to arrive with a script themed decorations several games nobody",
+      "intro_3_paragraphs": "Some baby showers seem to arrive with a script: themed decorations, several games nobody volunteered to play, a long gift-opening session, and a schedule so full that guests barely have time to talk. The celebration can be much simpler. A modern baby shower does not have to reinvent parties. It just needs to look more like the person being celebrated and less like a template. Before decorations, decide what actually fits the group: brunch at home, a backyard afternoon, a picnic, dinner, coffee and dessert, or a larger gathering that includes partners and different friend groups.",
+      "last_h2": "Decide how you want the gathering to feel",
+      "ending_3_paragraphs": "If guests come from different parts of your life, a little structure can help: accessible food, comfortable places to talk, and maybe one shared activity early on. After that, you do not have to fill every silence. People who care about each other usually know what to do when they are given time to actually talk. If the guest of honor wants a quiet afternoon talking with friends, do not fill it with contests. If they love big games and decorations, lean into that. If they want a coed party or a tiny meal, that counts too. Originality is not about inventing a baby shower nobody has ever seen. It is about removing the traditions you are doing only because you think you are supposed to, and keeping the parts this particular group will genuinely enjoy.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
       "path": "content/articles/en/1001-mom-guilt.json",
       "article_number": 1001,
       "translation_group": "1001-mom-guilt",
@@ -7587,6 +7792,211 @@
       "risk_reasons": [
         "body_under_800_words",
         "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json",
+      "article_number": 1056,
+      "translation_group": "1056-caring-feels-natural-playing-does-not",
+      "language": "en",
+      "title": "When caring for your kids feels natural but playing does not",
+      "words": 610,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 4.92,
+      "h2s": [
+        "Caregiving often has structure that pretend play does not",
+        "You can join without becoming a character for an hour",
+        "Motherhood is not measured in hours on the floor"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 38.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 1,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 11,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "You may know exactly when your child needs food, how to help after a hard day, what to pack for an outing, or when a conversation needs your full attention. Then you sit on the floor holding two toy animals and have absolutely no idea what they are supposed to say.",
+      "opening_14_words": "You may know exactly when your child needs food how to help after a",
+      "intro_3_paragraphs": "You may know exactly when your child needs food, how to help after a hard day, what to pack for an outing, or when a conversation needs your full attention. Then you sit on the floor holding two toy animals and have absolutely no idea what they are supposed to say. That contrast can feel confusing because we package all of it under “being a good mom.” But caregiving and play do not require the same kind of attention, and it is possible to feel deeply natural in one and much less natural in the other. Many caregiving tasks have a visible purpose: comfort, prepare, organize, solve, feed, help. Pretend play can ask for improvisation, repetition, and a willingness to stay inside a story that may have no destination at all.",
+      "last_h2": "Motherhood is not measured in hours on the floor",
+      "ending_3_paragraphs": "Your relationship to play can also change with age. The doll stage may feel endless while board games, conversation, sports, or shared projects later feel completely natural. You do not need to make a permanent judgment about what kind of mother you are based on one developmental season. Children need relationship, enough availability, boundaries, and shared experiences. None of those require a mother to turn every afternoon into extended imaginative entertainment. Caregiving may be one of your most natural languages of love while play takes more intention. That does not make the relationship less real. It only means connection has more than one language.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/1057-ways-to-connect-with-kids-you-enjoy-too.json",
+      "article_number": 1057,
+      "translation_group": "1057-find-connection-you-enjoy-too",
+      "language": "en",
+      "title": "How to find ways to connect with your kids that you enjoy too",
+      "words": 548,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.47,
+      "h2s": [
+        "Notice when you stop checking the time",
+        "Build bridges between their interests and yours",
+        "Good time together does not need to look impressive"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 35.0,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 6,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "When a mom worries that she should “connect more” with her kids, the usual answer is to add things: more play, more crafts, more special outings, more planned weekends. Sometimes that produces the opposite of connection. You are physically present and mentally waiting for the activity to be over.",
+      "opening_14_words": "When a mom worries that she should connect more with her kids the usual",
+      "intro_3_paragraphs": "When a mom worries that she should “connect more” with her kids, the usual answer is to add things: more play, more crafts, more special outings, more planned weekends. Sometimes that produces the opposite of connection. You are physically present and mentally waiting for the activity to be over. The most sustainable connection often happens when your child feels accompanied and you do not have to disappear from yourself in order to participate. Do not start with the most educational activity or whatever other parents recommend. Notice the moments when both of you are reasonably content: reading, cooking, running an errand, listening to music, building something, walking, caring for plants, or talking before bed.",
+      "last_h2": "Good time together does not need to look impressive",
+      "ending_3_paragraphs": "When your child's age allows it, you can also ask directly: “What do you like doing with me?” The answer may surprise you. They may not mention the elaborate activity you planned, but reading in your bed, coming to the grocery store, or talking while dinner is made. That is valuable information about how they actually experience connection. Family memories are not always built during the most planned activity. They often grow from repeated jokes, small conversations, and the feeling that there was room to be together without performing. Look less for the activity you think a good mom should enjoy and more for the one where your child gets your presence while you still feel like yourself. That version of connection is much easier to sustain.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/1058-not-wanting-kid-activities-every-weekend.json",
+      "article_number": 1058,
+      "translation_group": "1058-not-wanting-kids-activities-every-weekend",
+      "language": "en",
+      "title": "Not wanting to do kid activities every single weekend",
+      "words": 527,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.69,
+      "h2s": [
+        "Childhood also happens on days with no event",
+        "One plan can be plenty",
+        "You do not have to manufacture a memorable childhood every Saturday"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 33.5,
+      "short_paragraph_ratio": 0.067,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 12,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Friday can arrive with a strange extra assignment: What are we doing with the kids this weekend? Museum, zoo, class, birthday party, hike, craft, indoor play place. If there is no immediate answer, Saturday can start to feel like an opportunity you are about to waste.",
+      "opening_14_words": "Friday can arrive with a strange extra assignment What are we doing with the",
+      "intro_3_paragraphs": "Friday can arrive with a strange extra assignment: What are we doing with the kids this weekend? Museum, zoo, class, birthday party, hike, craft, indoor play place. If there is no immediate answer, Saturday can start to feel like an opportunity you are about to waste. But a family weekend does not have to become a children's entertainment schedule in order to be a good weekend. Running an errand, playing at home, visiting relatives, cleaning a room, watching a movie, or being bored for a while are part of family life. They are not empty space between the meaningful memories.",
+      "last_h2": "You do not have to manufacture a memorable childhood every Saturday",
+      "ending_3_paragraphs": "There can also be an expectation effect. When adults plan a lot, children get used to asking what the next activity is. Slowing down may bring complaints at first. That does not prove the change is bad; it may simply be the transition from adult-produced leisure to a more shared, ordinary weekend. Kids can love special outings and also benefit from a home where nothing remarkable is happening. Your relationship is not built by accumulating tickets, classes, and photo opportunities. A perfectly decent weekend can include one outing, laundry, a nap, an argument, a walk, and a lot of unscheduled time. Every two-day break does not need to become a mini vacation.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/1059-pressure-to-entertain-kids-constantly-good-mom.json",
+      "article_number": 1059,
+      "translation_group": "1059-pressure-to-entertain-kids-constantly",
+      "language": "en",
+      "title": "Feeling like you have to entertain your kids constantly to be a good mom",
+      "words": 543,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.52,
+      "h2s": [
+        "The pressure grows when presence becomes production",
+        "Not every complaint needs a solution",
+        "Your home does not need an activities department"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 34.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 2,
+        "a_veces": 1,
+        "puede": 10,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Your child finishes one activity and looks at you: “What can I do now?” If that question appears all day, you can start to feel as though part of motherhood is maintaining an ongoing schedule so your child never reaches boredom.",
+      "opening_14_words": "Your child finishes one activity and looks at you What can I do now",
+      "intro_3_paragraphs": "Your child finishes one activity and looks at you: “What can I do now?” If that question appears all day, you can start to feel as though part of motherhood is maintaining an ongoing schedule so your child never reaches boredom. But being available to your kids does not make you responsible for ensuring that every minute of their free time is interesting. Presence can mean listening, responding, sharing moments, and holding boundaries. Producing entertainment is a separate job: inventing ideas, gathering materials, organizing, supervising, and cleaning up.",
+      "last_h2": "Your home does not need an activities department",
+      "ending_3_paragraphs": "That does not mean dismissing a child who is genuinely seeking connection. Sometimes “play with me” means exactly that: I need some time with you. Other times it is simply the easiest option compared with starting something independently. Your response can change with the situation without making you inconsistent. When you reduce the programming, it may initially look as though “nothing is happening.” Then something else can emerge: kids invent, repeat, help, complain, get bored, argue, and eventually find things to do. A good mom is not an entertainer available on demand. She is a person in relationship with her children, and healthy relationships also include stretches when everyone has to figure out what to do with themselves.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/1060-stop-being-family-entertainment-director.json",
+      "article_number": 1060,
+      "translation_group": "1060-stop-being-family-entertainment-director",
+      "language": "en",
+      "title": "How to stop being the official entertainment director for your whole family",
+      "words": 562,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.34,
+      "h2s": [
+        "Start by naming fun-planning as real work",
+        "Sharing the load means sharing the whole process",
+        "You deserve to arrive at family fun as a participant too"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 35.7,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.133,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 9,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "“What should we do today?” sounds like a casual question until you notice everyone is looking at the same person for the answer. You find the place, check hours, make the reservation, pack what everyone needs, and then try to make sure the family has fun.",
+      "opening_14_words": "What should we do today sounds like a casual question until you notice everyone",
+      "intro_3_paragraphs": "“What should we do today?” sounds like a casual question until you notice everyone is looking at the same person for the answer. You find the place, check hours, make the reservation, pack what everyone needs, and then try to make sure the family has fun. At that point, leisure stops feeling much like leisure. Being the family's entertainment director means even fun arrives in your brain as responsibility. Choosing an outing can require knowing ages, schedules, weather, budget, drive time, food, nap considerations, and what each child is likely to tolerate. The task may be enjoyable, but it still uses attention.",
+      "last_h2": "You deserve to arrive at family fun as a participant too",
+      "ending_3_paragraphs": "It also helps to notice the invisible tasks attached to leisure: saving photos, remembering which activity everyone wants to repeat, buying the birthday gift for the party included in the weekend, or figuring out dinner after the outing. Family fun creates decisions before and after the event that often disappear from the workload count. An outing feels different when you are not the only person who knows where the tickets are, what to pack, and when to leave. Showing up to something another person organized is a genuine form of mental rest. Family life can have special experiences without one mother acting as executive producer. Shared fun becomes much more sustainable when the responsibility for creating it can be shared too.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
       ]
     },
     {
@@ -10053,6 +10463,211 @@
       ]
     },
     {
+      "path": "content/articles/es/056-bolsa-bebe-que-llevar-dia-a-dia.json",
+      "article_number": 56,
+      "translation_group": "056-baby-bag-day-to-day",
+      "language": "es",
+      "title": "Bolsa del bebé: qué llevar de verdad para el día a día",
+      "words": 642,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 4.67,
+      "h2s": [
+        "Empieza por una base que sirva para casi cualquier salida",
+        "Una muda completa suele valer más que cinco prendas sueltas",
+        "La buena bolsa es la que te permite salir sin negociar contigo misma"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 40.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 6,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "La primera vez que preparas una bolsa para salir con un bebé es fácil actuar como si fueras a cruzar una frontera durante tres días. Pañales de sobra, cuatro mudas, mantas, juguetes, baberos, bolsas, crema, toallitas, comida, otra comida por si acaso y algún objeto cuya función ya no recuerdas cuando llegas a casa.",
+      "opening_14_words": "La primera vez que preparas una bolsa para salir con un bebé es fácil",
+      "intro_3_paragraphs": "La primera vez que preparas una bolsa para salir con un bebé es fácil actuar como si fueras a cruzar una frontera durante tres días. Pañales de sobra, cuatro mudas, mantas, juguetes, baberos, bolsas, crema, toallitas, comida, otra comida por si acaso y algún objeto cuya función ya no recuerdas cuando llegas a casa. Después de varias salidas suele aparecer una conclusión bastante liberadora: la bolsa más útil no es la que contiene todo; es la que contiene lo que vuestra familia utiliza con frecuencia y se puede reponer sin pensar demasiado. Para muchas familias la base real es pequeña: pañales, algo para limpiar, una muda sencilla, una bolsa para ropa sucia y lo que el bebé necesite habitualmente para comer fuera de casa. A partir de ahí, cada plan añade o quita cosas.",
+      "last_h2": "La buena bolsa es la que te permite salir sin negociar contigo misma",
+      "ending_3_paragraphs": "Y no pasa nada si un día olvidas algo. Muchas veces el objeto que parecía imprescindible se puede improvisar, comprar o simplemente no utilizar durante esa salida. Esa experiencia también sirve para recalibrar qué merece realmente ocupar espacio la próxima vez. Si cada paseo exige veinte minutos de preparación, es probable que el sistema pueda simplificarse. Tener una base lista reduce mucho la fricción: miras el plan, añades una o dos cosas específicas y sales. El objetivo no es demostrar que prevés cualquier eventualidad. Es que una salida normal con un bebé siga siendo una salida normal. Con el tiempo descubrirás qué usáis de verdad, y esa experiencia vale más que cualquier checklist interminable.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/057-vestir-recien-nacido-sin-llenar-armario.json",
+      "article_number": 57,
+      "translation_group": "057-dressing-newborn-without-overbuying",
+      "language": "es",
+      "title": "Cómo vestir a un recién nacido sin llenar el armario de ropa que apenas usará",
+      "words": 590,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.08,
+      "h2s": [
+        "Compra para una semana real, no para una sesión de fotos",
+        "El clima y vuestra forma de lavar importan más que una lista universal",
+        "Un armario pequeño puede ser más fácil de usar"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 37.1,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "La ropa de recién nacido tiene una capacidad especial para parecer imprescindible cuando todavía no hay un bebé en casa. Todo es pequeño, suave y relativamente barato por unidad, así que es fácil terminar con un cajón lleno antes de saber cuánto pesará el bebé, qué talla le quedará bien o qué prendas os resultarán cómodas de usar.",
+      "opening_14_words": "La ropa de recién nacido tiene una capacidad especial para parecer imprescindible cuando todavía",
+      "intro_3_paragraphs": "La ropa de recién nacido tiene una capacidad especial para parecer imprescindible cuando todavía no hay un bebé en casa. Todo es pequeño, suave y relativamente barato por unidad, así que es fácil terminar con un cajón lleno antes de saber cuánto pesará el bebé, qué talla le quedará bien o qué prendas os resultarán cómodas de usar. La idea que más simplifica este tema es bastante poco emocionante: al principio suele ser mejor tener menos ropa útil que mucha ropa bonita pendiente de ocasión. Durante las primeras semanas, la ropa trabaja. Se pone, se mancha, se lava y vuelve al cajón. Las prendas que ganan suelen ser las que se abren con facilidad, permiten cambios rápidos y no exigen demasiada coordinación cuando alguien está cansado.",
+      "last_h2": "Un armario pequeño puede ser más fácil de usar",
+      "ending_3_paragraphs": "También conviene pensar en la facilidad de combinar. Si casi todo funciona entre sí, una mancha no obliga a buscar “el pantalón que iba con ese body”. La ropa cotidiana del bebé agradece más la compatibilidad que la coordinación perfecta. Cuando hay demasiada ropa, lo que sirve puede quedar escondido entre prendas pequeñas, regalos pendientes y conjuntos que nunca encajan con el día. Un cajón simple hace más visible lo que hay y facilita notar cuándo una talla está quedando atrás. La ropa del recién nacido no necesita estar “terminada” antes de que nazca. Necesita cubrir los primeros días con comodidad. Después, el propio bebé os dirá —a través de su talla, vuestra rutina y el clima— qué merece entrar en el armario siguiente.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/058-que-comprar-antes-nazca-bebe-que-puede-esperar.json",
+      "article_number": 58,
+      "translation_group": "058-what-to-buy-before-baby-and-what-can-wait",
+      "language": "es",
+      "title": "Qué comprar antes de que nazca el bebé y qué puede esperar",
+      "words": 586,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.12,
+      "h2s": [
+        "Prepara una base para los primeros días",
+        "No compres hoy soluciones para problemas de dentro de seis meses",
+        "Estar preparados no significa tenerlo todo"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 37.5,
+      "short_paragraph_ratio": 0.067,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.133,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Preparar la llegada de un bebé tiene una trampa comercial muy eficaz: casi todo puede presentarse como algo que “conviene tener antes”. El resultado es que el último trimestre puede convertirse en una carrera por comprar objetos para problemas que todavía no sabes si vais a tener.",
+      "opening_14_words": "Preparar la llegada de un bebé tiene una trampa comercial muy eficaz casi todo",
+      "intro_3_paragraphs": "Preparar la llegada de un bebé tiene una trampa comercial muy eficaz: casi todo puede presentarse como algo que “conviene tener antes”. El resultado es que el último trimestre puede convertirse en una carrera por comprar objetos para problemas que todavía no sabes si vais a tener. Una forma más tranquila de prepararse es separar dos preguntas: ¿qué necesitamos para poder recibir al bebé con normalidad? y ¿qué podremos decidir mejor cuando sepamos cómo es nuestra vida con ese bebé? Antes del nacimiento tiene sentido resolver lo que usaréis desde el principio: una forma adecuada de transportar al bebé, un espacio de descanso preparado según las indicaciones de seguridad que sigáis, pañales y básicos de higiene, una pequeña rotación de ropa y los elementos de alimentación que sepáis que vais a utilizar inicialmente.",
+      "last_h2": "Estar preparados no significa tenerlo todo",
+      "ending_3_paragraphs": "Si una compra te genera dudas, prueba a imaginar la primera semana sin ella. ¿Bloquea una necesidad básica o simplemente haría algo más cómodo? Las dos categorías son legítimas, pero distinguirlas ayuda mucho a decidir qué debe estar listo y qué puede esperar. Las tiendas seguirán existiendo después del nacimiento. También el comercio online, los préstamos y las compras de última hora. Esa realidad permite bajar bastante la presión. Una casa preparada no es una casa que contiene cada producto posible. Es una casa que puede recibir al bebé con lo esencial y que conserva suficiente flexibilidad para adaptarse a la familia que realmente aparece.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/059-habitacion-bebe-espacio-practico-calmado-duradero.json",
+      "article_number": 59,
+      "translation_group": "059-practical-calm-lasting-nursery",
+      "language": "es",
+      "title": "Habitación del bebé: cómo crear un espacio práctico, calmado y duradero",
+      "words": 574,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.23,
+      "h2s": [
+        "Empieza por las funciones, no por el estilo",
+        "No todo tiene que comprarse antes del nacimiento",
+        "La calma no viene de que todo combine"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 36.7,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 11,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "La habitación del bebé es uno de esos proyectos que puede empezar como “vamos a preparar un rincón cómodo” y terminar con una paleta de colores, doce cestas iguales y la sensación de que falta una lámpara concreta para que el bebé pueda nacer.",
+      "opening_14_words": "La habitación del bebé es uno de esos proyectos que puede empezar como vamos",
+      "intro_3_paragraphs": "La habitación del bebé es uno de esos proyectos que puede empezar como “vamos a preparar un rincón cómodo” y terminar con una paleta de colores, doce cestas iguales y la sensación de que falta una lámpara concreta para que el bebé pueda nacer. Pero una habitación funciona mejor cuando se diseña desde la vida cotidiana y no desde la fotografía final. El objetivo no es terminar una habitación de bebé perfecta; es crear un espacio que siga siendo útil cuando el bebé deje de ser recién nacido. Piensa qué vais a hacer realmente allí: guardar ropa, cambiar al bebé, sentaros, leer, organizar pañales o simplemente tener sus cosas concentradas. Puede que el bebé duerma allí desde el principio o puede que no; la habitación sigue pudiendo ser útil como espacio de organización.",
+      "last_h2": "La calma no viene de que todo combine",
+      "ending_3_paragraphs": "La habitación tampoco necesita cargar con todas las expectativas emocionales del embarazo. Puede ser bonito prepararla y disfrutar ese ritual, pero si algo queda pendiente no significa que el bebé llegue a una casa menos preparada. La funcionalidad puede completarse poco a poco. Un espacio puede sentirse tranquilo porque es fácil encontrar lo que necesitas, porque no está saturado y porque las superficies no están permanentemente ocupadas. Eso suele aportar más calma que una decoración perfectamente coordinada. La mejor habitación del bebé no es la que parece terminada antes de conocerlo. Es la que deja espacio para que la familia la termine viviendo.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/060-baby-shower-ideas-actuales-diferentes.json",
+      "article_number": 60,
+      "translation_group": "060-modern-baby-shower-ideas",
+      "language": "es",
+      "title": "Baby shower: ideas actuales para celebrarlo sin que parezca siempre lo mismo",
+      "words": 578,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.19,
+      "h2s": [
+        "Elige primero el tipo de encuentro",
+        "Los regalos no tienen que ocupar el centro de la fiesta",
+        "La pregunta final es cómo quieres recordar ese rato"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 36.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 6,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Hay baby showers que parecen venir con un guion incluido: decoración pastel, varios juegos que nadie quería jugar, regalos abiertos delante de todo el mundo y una agenda tan llena que apenas queda tiempo para conversar.",
+      "opening_14_words": "Hay baby showers que parecen venir con un guion incluido decoración pastel varios juegos",
+      "intro_3_paragraphs": "Hay baby showers que parecen venir con un guion incluido: decoración pastel, varios juegos que nadie quería jugar, regalos abiertos delante de todo el mundo y una agenda tan llena que apenas queda tiempo para conversar. La celebración puede ser mucho más sencilla. Un baby shower actual no necesita reinventar una fiesta; solo necesita parecerse un poco más a la persona embarazada y un poco menos a una plantilla. Antes de pensar en decoración, decide qué formato encaja con el grupo: un brunch en casa, una merienda pequeña, un picnic, una comida larga, una tarde de café o una celebración con parejas y amigos de distintos círculos.",
+      "last_h2": "La pregunta final es cómo quieres recordar ese rato",
+      "ending_3_paragraphs": "Si hay invitados de grupos distintos, una estructura mínima puede ayudar: comida disponible, lugares cómodos para conversar y quizá una actividad común al principio. Después no hace falta llenar cada silencio. La gente que se quiere suele saber qué hacer cuando se le deja tiempo para hablar. Si la persona embarazada imagina una tarde tranquila hablando con amigos, no hace falta llenarla de pruebas y horarios. Si le encantan los juegos, adelante. Si quiere una fiesta grande, también puede serlo. La originalidad no está en inventar una actividad que nadie haya visto. Está en quitar las cosas que se hacen solo porque “en un baby shower toca” y conservar las que hacen que ese grupo quiera quedarse un rato más.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
       "path": "content/articles/es/1001-mom-guilt-culpa-materna.json",
       "article_number": 1001,
       "translation_group": "1001-mom-guilt",
@@ -12513,6 +13128,211 @@
         "body_under_800_words",
         "high_h2_density"
       ]
+    },
+    {
+      "path": "content/articles/es/1056-cuidar-hijos-natural-jugar-no-tanto.json",
+      "article_number": 1056,
+      "translation_group": "1056-caring-feels-natural-playing-does-not",
+      "language": "es",
+      "title": "Cuando cuidar de tus hijos te sale natural pero jugar no tanto",
+      "words": 604,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 4.97,
+      "h2s": [
+        "Cuidar tiene una estructura que el juego imaginativo no siempre ofrece",
+        "Puedes participar sin convertirte en personaje durante una hora",
+        "La maternidad no se evalúa en horas de suelo"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 38.3,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 1,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 2,
+        "puede": 12,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Puede que sepas perfectamente cuándo tu hijo necesita comer, qué le calma después de un día largo, cómo prepararle para salir o cuándo una conversación necesita tiempo. Y luego te sientes en el suelo con dos muñecos en la mano sin saber qué hacer con ellos.",
+      "opening_14_words": "Puede que sepas perfectamente cuándo tu hijo necesita comer qué le calma después de",
+      "intro_3_paragraphs": "Puede que sepas perfectamente cuándo tu hijo necesita comer, qué le calma después de un día largo, cómo prepararle para salir o cuándo una conversación necesita tiempo. Y luego te sientes en el suelo con dos muñecos en la mano sin saber qué hacer con ellos. La diferencia desconcierta porque solemos meterlo todo dentro de la misma idea de “ser buena madre”. Pero cuidar y jugar no exigen exactamente la misma forma de atención, y es posible sentirte muy natural en una y bastante menos en la otra. Muchas tareas de cuidado tienen un propósito visible: preparar, consolar, acompañar, resolver, organizar. El juego simbólico puede pedir improvisación, repetición y una tolerancia enorme a historias que no llevan a ninguna parte.",
+      "last_h2": "La maternidad no se evalúa en horas de suelo",
+      "ending_3_paragraphs": "También puede cambiar con la edad. Quizá la etapa de muñecos te resulta eterna y años después disfrutas muchísimo de juegos de mesa, conversaciones o proyectos compartidos. No tienes que emitir un veredicto permanente sobre qué tipo de madre eres basándote en una etapa concreta. Los niños necesitan relación, disponibilidad suficiente, límites y experiencias compartidas. Nada de eso exige que una madre convierta cada tarde en una sesión de entretenimiento imaginativo. Puede que cuidar sea uno de tus lenguajes más naturales de amor y que jugar requiera más intención. Eso no hace el vínculo menos real. Solo significa que vuestra conexión tiene más de un idioma.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/1057-formas-conexion-hijos-que-disfrutes-tu.json",
+      "article_number": 1057,
+      "translation_group": "1057-find-connection-you-enjoy-too",
+      "language": "es",
+      "title": "Cómo encontrar formas de conexión con tus hijos que también disfrutes tú",
+      "words": 549,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.46,
+      "h2s": [
+        "Observa cuándo dejas de mirar el reloj",
+        "Combina sus intereses con los tuyos",
+        "El buen tiempo juntos no necesita parecer espectacular"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 35.2,
+      "short_paragraph_ratio": 0.067,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 2,
+        "puede": 6,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Cuando una madre siente que “debería conectar más” con sus hijos, la respuesta habitual es añadir actividades: más juegos, más manualidades, más planes especiales, más fines de semana organizados. Y a veces el resultado es exactamente lo contrario: estás físicamente allí, pero mentalmente esperando que termine.",
+      "opening_14_words": "Cuando una madre siente que debería conectar más con sus hijos la respuesta habitual",
+      "intro_3_paragraphs": "Cuando una madre siente que “debería conectar más” con sus hijos, la respuesta habitual es añadir actividades: más juegos, más manualidades, más planes especiales, más fines de semana organizados. Y a veces el resultado es exactamente lo contrario: estás físicamente allí, pero mentalmente esperando que termine. La conexión más sostenible suele aparecer en actividades en las que el niño se siente acompañado y el adulto no necesita desaparecer de sí mismo para participar. No busques primero la actividad más educativa o la que otros padres recomiendan. Fíjate en los momentos en los que ambos estáis razonablemente bien. Puede ser leer, cocinar algo sencillo, ir a comprar, escuchar música, construir, caminar, cuidar plantas o hablar antes de dormir.",
+      "last_h2": "El buen tiempo juntos no necesita parecer espectacular",
+      "ending_3_paragraphs": "También puedes preguntar directamente cuando la edad lo permite: “¿qué te gusta hacer conmigo?”. A veces la respuesta sorprende. Puede que tu hijo no mencione la actividad elaborada que preparaste, sino leer en tu cama, acompañarte al supermercado o hablar mientras preparáis la cena. Esa información es oro porque revela cómo vive él la conexión. Los recuerdos familiares no siempre se construyen en la actividad más preparada. Muchas veces nacen de bromas repetidas, conversaciones pequeñas y la sensación de que había espacio para estar juntos sin rendimiento. Busca menos la actividad que “deberías” disfrutar y más aquella en la que tu hijo obtiene tu presencia mientras tú sigues sintiéndote tú. Esa combinación suele durar bastante más.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/1058-no-ganas-actividades-infantiles-cada-fin-semana.json",
+      "article_number": 1058,
+      "translation_group": "1058-not-wanting-kids-activities-every-weekend",
+      "language": "es",
+      "title": "No tener ganas de hacer actividades infantiles cada fin de semana",
+      "words": 537,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.59,
+      "h2s": [
+        "La infancia también ocurre en los días sin evento",
+        "Un plan puede ser suficiente",
+        "No necesitas fabricar una infancia memorable cada sábado"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 34.3,
+      "short_paragraph_ratio": 0.067,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 9,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "El viernes puede llegar acompañado de una presión extraña: ¿qué vamos a hacer con los niños este fin de semana? Parque temático, granja, taller, museo, cumpleaños, manualidad, excursión. Si no aparece una respuesta rápida, parece que el sábado corre peligro de desperdiciarse.",
+      "opening_14_words": "El viernes puede llegar acompañado de una presión extraña qué vamos a hacer con",
+      "intro_3_paragraphs": "El viernes puede llegar acompañado de una presión extraña: ¿qué vamos a hacer con los niños este fin de semana? Parque temático, granja, taller, museo, cumpleaños, manualidad, excursión. Si no aparece una respuesta rápida, parece que el sábado corre peligro de desperdiciarse. Pero un fin de semana familiar no necesita convertirse en una programación de ocio infantil para ser un buen fin de semana. Ir a comprar pan, jugar en casa, visitar a alguien, ordenar una habitación, ver una película o aburrirse un rato también forman parte de la vida familiar. No son huecos entre los recuerdos importantes.",
+      "last_h2": "No necesitas fabricar una infancia memorable cada sábado",
+      "ending_3_paragraphs": "También hay un efecto acumulativo: cuando los adultos planifican mucho, los niños pueden acostumbrarse a preguntar cuál es la siguiente actividad. Reducir el ritmo puede generar protestas al principio. Eso no demuestra que el cambio sea malo; puede ser simplemente la transición de un ocio producido a un ocio más compartido. Los niños pueden disfrutar de planes especiales y también de una casa donde no pasa nada extraordinario. La relación no se construye por acumulación de entradas, talleres o fotos. Un fin de semana suficientemente bueno puede contener un plan, una lavadora, una siesta, una pelea, un paseo y bastante tiempo sin agenda. No hace falta convertir cada descanso escolar en una pequeña temporada turística.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/1059-sentir-entretener-hijos-constantemente-buena-madre.json",
+      "article_number": 1059,
+      "translation_group": "1059-pressure-to-entertain-kids-constantly",
+      "language": "es",
+      "title": "Sentir que tienes que entretener a tus hijos constantemente para ser buena madre",
+      "words": 553,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.42,
+      "h2s": [
+        "La presión aparece cuando confundimos presencia con producción",
+        "No todas las quejas requieren una solución",
+        "Tu casa no necesita tener un departamento de actividades"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 35.3,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 3,
+        "a_veces": 1,
+        "puede": 10,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Un niño termina una actividad y mira hacia ti: “¿ahora qué hago?”. Si la pregunta aparece muchas veces al día, puedes acabar sintiendo que una parte de tu trabajo como madre consiste en mantener una programación continua para que nunca llegue el aburrimiento.",
+      "opening_14_words": "Un niño termina una actividad y mira hacia ti ahora qué hago Si la",
+      "intro_3_paragraphs": "Un niño termina una actividad y mira hacia ti: “¿ahora qué hago?”. Si la pregunta aparece muchas veces al día, puedes acabar sintiendo que una parte de tu trabajo como madre consiste en mantener una programación continua para que nunca llegue el aburrimiento. Pero estar disponible para tus hijos no significa asumir la responsabilidad de que cada minuto de su tiempo libre resulte interesante. Estar presente puede ser escuchar, responder, compartir momentos y sostener límites. Producir entretenimiento es otra tarea: pensar ideas, preparar materiales, organizar, supervisar y limpiar.",
+      "last_h2": "Tu casa no necesita tener un departamento de actividades",
+      "ending_3_paragraphs": "Eso no significa ignorar a un niño que busca conexión. A veces “juega conmigo” quiere decir exactamente eso: necesito un rato contigo. Pero otras veces es simplemente la opción más fácil frente a empezar algo solo. La respuesta puede variar según el momento sin convertirte en incoherente. Cuando bajas el nivel de producción, al principio puede parecer que “no está pasando nada”. Después quizá notes otra cosa: los niños inventan, repiten, ayudan, se aburren, discuten y encuentran formas de ocupar el tiempo. Una buena madre no es una animadora disponible a demanda. Es una persona en relación con sus hijos, y una relación saludable también contiene momentos en los que cada uno tiene que encontrar qué hacer consigo mismo.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/1060-dejar-ser-animadora-oficial-familia.json",
+      "article_number": 1060,
+      "translation_group": "1060-stop-being-family-entertainment-director",
+      "language": "es",
+      "title": "Cómo dejar de ser la animadora oficial de toda la familia",
+      "words": 559,
+      "paragraphs": 15,
+      "h2_count": 3,
+      "h2_density_per_1000_words": 5.37,
+      "h2s": [
+        "Primero reconoce que planear diversión también es trabajo",
+        "Repartir la carga significa repartir el proceso entero",
+        "También mereces llegar a los planes como participante"
+      ],
+      "list_items": 0,
+      "bold_spans": 4,
+      "avg_paragraph_words": 35.7,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 8,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "“¿Qué hacemos hoy?” puede sonar como una pregunta inocente hasta que descubres que todo el mundo mira hacia la misma persona esperando respuesta. Tú buscas el plan, haces la reserva, compruebas horarios, preparas las mochilas y después intentas que todos se lo pasen bien.",
+      "opening_14_words": "Qué hacemos hoy puede sonar como una pregunta inocente hasta que descubres que todo",
+      "intro_3_paragraphs": "“¿Qué hacemos hoy?” puede sonar como una pregunta inocente hasta que descubres que todo el mundo mira hacia la misma persona esperando respuesta. Tú buscas el plan, haces la reserva, compruebas horarios, preparas las mochilas y después intentas que todos se lo pasen bien. En ese momento, el ocio deja de sentirse como ocio. Convertirte en la animadora oficial de la familia significa que incluso la diversión llega a tu cabeza en forma de responsabilidad. Elegir un sitio implica saber edades, horarios, presupuesto, clima, trayectos, comidas y qué tolerará cada niño. La tarea puede ser agradable, pero sigue consumiendo atención.",
+      "last_h2": "También mereces llegar a los planes como participante",
+      "ending_3_paragraphs": "También conviene repartir la parte invisible posterior: guardar fotos, recordar repetir la actividad que gustó, comprar el regalo para el cumpleaños al que iréis durante el plan o pensar qué comeréis al volver. El ocio familiar arrastra pequeñas decisiones antes y después que suelen desaparecer del recuento. Una excursión cambia mucho cuando no eres la única que sabe dónde están las entradas, qué hay que llevar y a qué hora hay que volver. Poder presentarte a un plan que otra persona ha organizado es una forma real de descanso mental. La vida familiar puede tener momentos especiales sin que una madre tenga que ser su productora ejecutiva. La diversión compartida funciona mejor cuando la responsabilidad de crearla también puede compartirse.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
     }
   ],
   "repeated_paragraphs": [],
@@ -12533,6 +13353,18 @@
       ]
     },
     {
+      "ngram": "does not need to become a",
+      "count": 6,
+      "files": [
+        "content/articles/en/001-respectful-parenting.json",
+        "content/articles/en/024-toddler-yelling-respectful-parenting.json",
+        "content/articles/en/045-prepare-toddler-for-new-sibling.json",
+        "content/articles/en/1029-missing-friendships-and-plans-before-kids.json",
+        "content/articles/en/1055-guilt-partner-enjoys-playing-with-kids-more.json",
+        "content/articles/en/1058-not-wanting-kid-activities-every-weekend.json"
+      ]
+    },
+    {
       "ngram": "you do not have to choose",
       "count": 6,
       "files": [
@@ -12542,6 +13374,18 @@
         "content/articles/en/1034-relationship-with-risk-after-kids.json",
         "content/articles/en/1037-more-protective-than-expected.json",
         "content/articles/en/1053-connect-with-kids-if-not-playful-mom.json"
+      ]
+    },
+    {
+      "ngram": "you do not need to make",
+      "count": 6,
+      "files": [
+        "content/articles/en/011-night-wakings-respectful-response.json",
+        "content/articles/en/035-teach-waiting-without-demanding-patience.json",
+        "content/articles/en/1037-more-protective-than-expected.json",
+        "content/articles/en/1043-pressure-to-create-special-memories-for-kids.json",
+        "content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json",
+        "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json"
       ]
     }
   ]

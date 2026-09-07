@@ -78,6 +78,11 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 16	016-toddler-bedtime-routine	3	2	3	861	836	6	6	0.034	0.036	Rutina de noche para niños pequeños: pasos sencillos que favorecen la cooperación	A Toddler Bedtime Routine That Encourages Cooperation Without Becoming a Battle
 20	020-hospital-bag-practical-minimalist	3	3	3	1021	1002	7	7	0.067	0.125	Qué llevar en la bolsa del hospital: lista práctica y minimalista	What to Pack in Your Hospital Bag: A Practical, Minimalist List
 31	031-open-ended-toys-longer-play	3	2	3	867	834	6	6	0.0	0.036	Juguetes abiertos: por qué suelen durar más en el juego	Open-ended toys: why they often stay interesting longer
+56	056-baby-bag-day-to-day	3	3	3	642	641	3	3	0.0	0.0	Bolsa del bebé: qué llevar de verdad para el día a día	Baby diaper bag essentials: what you actually need for everyday outings
+57	057-dressing-newborn-without-overbuying	3	3	3	590	599	3	3	0.0	0.0	Cómo vestir a un recién nacido sin llenar el armario de ropa que apenas usará	How to dress a newborn without buying a closet full of clothes
+58	058-what-to-buy-before-baby-and-what-can-wait	3	3	3	586	587	3	3	0.067	0.067	Qué comprar antes de que nazca el bebé y qué puede esperar	What to buy before the baby arrives — and what can wait
+59	059-practical-calm-lasting-nursery	3	3	3	574	562	3	3	0.0	0.0	Habitación del bebé: cómo crear un espacio práctico, calmado y duradero	Baby nursery ideas for a practical, calm space that can grow
+60	060-modern-baby-shower-ideas	3	3	3	578	560	3	3	0.0	0.0	Baby shower: ideas actuales para celebrarlo sin que parezca siempre lo mismo	Modern baby shower ideas that do not feel like the same party every time
 1004	1004-guilt-not-missing-kids	3	3	2	939	938	6	6	0.0	0.067	Culpa por no echar de menos a tus hijos durante unas horas	Feeling Guilty for Not Missing Your Kids When You’re Away
 1006	1006-phone-guilt-while-kids-play	3	1	3	1166	995	7	7	0.026	0.031	Culpa por mirar el móvil mientras tus hijos juegan	Feeling Guilty for Looking at Your Phone While Your Kids Play
 1007	1007-guilt-not-playing-enough	3	3	2	968	876	7	6	0.062	0.036	Culpa por no jugar tanto con tus hijos como crees que deberías	Feeling Guilty Because You Don’t Play With Your Kids as Much as You Think You Should
@@ -88,6 +93,11 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1015	1015-missing-who-you-were-before-kids	3	2	3	879	827	6	6	0.103	0.133	Echar de menos quién eras antes de tener hijos sin querer volver atrás	Missing Who You Were Before Kids Without Wanting Your Old Life Back
 1019	1019-nothing-to-talk-about-except-kids	3	3	3	816	844	6	6	0.154	0.103	Sentir que ya no tienes nada de qué hablar aparte de tus hijos	When You Feel Like You Have Nothing to Talk About Except Your Kids
 1050	1050-stop-living-motherhood-like-an-exam	3	3	3	801	801	6	6	0.1	0.167	Cómo dejar de vivir la maternidad como un examen que tienes que aprobar	How to Stop Living Motherhood Like a Test You Have to Pass
+1056	1056-caring-feels-natural-playing-does-not	3	3	3	604	610	3	3	0.0	0.0	Cuando cuidar de tus hijos te sale natural pero jugar no tanto	When caring for your kids feels natural but playing does not
+1057	1057-find-connection-you-enjoy-too	3	3	3	549	548	3	3	0.067	0.0	Cómo encontrar formas de conexión con tus hijos que también disfrutes tú	How to find ways to connect with your kids that you enjoy too
+1058	1058-not-wanting-kids-activities-every-weekend	3	3	3	537	527	3	3	0.067	0.067	No tener ganas de hacer actividades infantiles cada fin de semana	Not wanting to do kid activities every single weekend
+1059	1059-pressure-to-entertain-kids-constantly	3	3	3	553	543	3	3	0.0	0.0	Sentir que tienes que entretener a tus hijos constantemente para ser buena madre	Feeling like you have to entertain your kids constantly to be a good mom
+1060	1060-stop-being-family-entertainment-director	3	3	3	559	562	3	3	0.0	0.0	Cómo dejar de ser la animadora oficial de toda la familia	How to stop being the official entertainment director for your whole family
 3	003-tantrums-calm-limits-connection	2	2	0	1375	1209	8	7	0.089	0.081	Rabietas: cómo acompañarlas con calma, límites y conexión	Toddler Tantrums: How to Respond With Calm, Limits and Connection
 18	018-baby-led-feeding-table-autonomy	2	2	2	913	876	6	6	0.038	0.032	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure
 19	019-prepare-home-for-baby-without-overbuying	2	2	2	898	939	6	6	0.067	0.133	Cómo preparar la casa para la llegada del bebé sin comprar de más	How to Prepare Your Home for a Baby Without Buying Too Much

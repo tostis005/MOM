@@ -144,7 +144,7 @@ function mom_optimize_static_theme_images_html( $html ) {
 	}
 
 	return preg_replace_callback(
-		'#<img\b[^>]*\bsrc=(\"|\')([^\"\']*/assets/images/hq/([^\"\']+\.jpg))\1[^>]*>#i',
+		"#<img\\b[^>]*\\bsrc=(\"|')([^\"']*/assets/images/hq/([^\"']+\\.jpg))\\1[^>]*>#i",
 		static function ( $matches ) {
 			$tag      = $matches[0];
 			$filename = rawurldecode( wp_basename( $matches[3] ) );
@@ -152,8 +152,10 @@ function mom_optimize_static_theme_images_html( $html ) {
 
 			if ( false !== stripos( $tag, 'mom-hq-hero' ) ) {
 				$profile = 'home-hero';
-			} elseif ( false !== stripos( $tag, 'fetchpriority=\"high\"' ) || false !== stripos( $tag, "fetchpriority='high'" ) || false !== stripos( $tag, 'article-banner-image' ) ) {
+			} elseif ( false !== stripos( $tag, 'fetchpriority="high"' ) || false !== stripos( $tag, "fetchpriority='high'" ) || false !== stripos( $tag, 'article-banner-image' ) ) {
 				$profile = 'hero';
+			} elseif ( false !== stripos( $tag, 'mom-topic-fallback-image' ) ) {
+				$profile = 'card';
 			}
 
 			$image = mom_static_image_variant( $filename, $profile );
@@ -161,12 +163,12 @@ function mom_optimize_static_theme_images_html( $html ) {
 				return $tag;
 			}
 
-			$tag = preg_replace( '#\bsrc=(\"|\')[^\"\']+\1#i', 'src="' . esc_url( $image['url'] ) . '"', $tag, 1 );
+			$tag = preg_replace( "#\\bsrc=(\"|')[^\"']+\\1#i", 'src="' . esc_url( $image['url'] ) . '"', $tag, 1 );
 			if ( ! empty( $image['width'] ) ) {
-				$tag = preg_replace( '#\bwidth=(\"|\')[^\"\']*\1#i', 'width="' . (int) $image['width'] . '"', $tag, 1 );
+				$tag = preg_replace( "#\\bwidth=(\"|')[^\"']*\\1#i", 'width="' . (int) $image['width'] . '"', $tag, 1 );
 			}
 			if ( ! empty( $image['height'] ) ) {
-				$tag = preg_replace( '#\bheight=(\"|\')[^\"\']*\1#i', 'height="' . (int) $image['height'] . '"', $tag, 1 );
+				$tag = preg_replace( "#\\bheight=(\"|')[^\"']*\\1#i", 'height="' . (int) $image['height'] . '"', $tag, 1 );
 			}
 			return $tag;
 		},

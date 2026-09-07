@@ -178,13 +178,11 @@ def fold(text: str) -> str:
 
 def article_text(data: dict) -> str:
     seo = data.get("seo") if isinstance(data.get("seo"), dict) else {}
-    taxonomy = data.get("taxonomy") if isinstance(data.get("taxonomy"), dict) else {}
     bits = [
         str(data.get("title", "")),
         str(data.get("slug", "")),
         str(data.get("excerpt", "")),
         str(seo.get("search_intent", "")),
-        json.dumps(taxonomy, ensure_ascii=False),
     ]
     return fold(" ".join(bits))
 
@@ -332,15 +330,10 @@ def normalize_assignment(dimension: str, assignment: object, valid: set[str], in
     elif not primary:
         primary = inferred if inferred in terms else terms[0]
     if dimension == "topic":
-        broad = [t for t in terms if t in TOP_LEVEL_TOPICS]
+        terms = [t for t in terms if t not in TOP_LEVEL_TOPICS or t == inferred]
         if inferred in valid and inferred not in terms:
             terms.insert(0, inferred)
-            broad.insert(0, inferred)
-        if broad:
-            primary = inferred if inferred in broad else broad[0]
-        elif inferred in valid:
-            terms.insert(0, inferred)
-            primary = inferred
+        primary = inferred if inferred in valid else terms[0]
     return {"primary": primary, "terms": terms}
 
 

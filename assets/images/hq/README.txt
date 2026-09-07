@@ -1,43 +1,34 @@
-MOM — IMÁGENES HQ PARA PRODUCCIÓN
+MOM — REVISIÓN 3 COMPLETA
 
-Ruta exacta dentro del repositorio:
-assets/images/ai-hq/
+Ruta:
+assets/images/hq/
 
-Instrucciones:
-1. Entra en el repositorio tostis005/MOM.
-2. Desde la raíz, crea o abre:
-   assets/images/ai-hq/
-3. Sube TODOS los JPG de este ZIP directamente dentro de esa carpeta.
-4. No cambies los nombres.
-5. No los metas dentro de una subcarpeta adicional.
-6. Cuando estén subidos a main, vuelve al chat y dime: "ya están".
+Sube TODOS los JPG y sobrescribe los existentes cuando GitHub lo pida.
+No cambies los nombres.
 
-Contenido:
-- hero-mother-baby.jpg — 2400x1350
-- 15 imágenes de categorías — 1448x1086 cada una
+Este paquete contiene:
+- 1 hero
+- 15 imágenes de Temas
+- 10 imágenes de Etapas
+- 5 imágenes de Para ti
 
-Nombres esperados:
-hero-mother-baby.jpg
-topic-sleep.jpg
-topic-parenting-behavior.jpg
-topic-child-feeding.jpg
-topic-potty-hygiene-autonomy.jpg
-topic-routines-family-life.jpg
-topic-play-learning-autonomy.jpg
-topic-childcare-school-social.jpg
-topic-pregnancy-preparation.jpg
-topic-postpartum-newborn.jpg
-topic-breastfeeding-baby-feeding.jpg
-topic-couple-coparenting.jpg
-topic-motherhood-identity.jpg
-topic-family-siblings-boundaries.jpg
-topic-work-balance-life.jpg
-topic-travel-outings-celebrations.jpg
+Nuevas imágenes de Etapas:
+stage-pregnancy.jpg
+stage-preparing-for-baby.jpg
+stage-postpartum.jpg
+stage-newborn.jpg
+stage-baby.jpg
+stage-toddler.jpg
+stage-preschool.jpg
+stage-school-age.jpg
+stage-second-child-siblings.jpg
+stage-parenthood-general.jpg
 
-Después de que confirmes que están en main, actualizaré el tema para:
-- usar ai-hq/ como fuente visual;
-- asignar una imagen distinta a cada tema;
-- eliminar repeticiones;
-- ajustar src, tamaños y object-fit para máxima nitidez;
-- usar el hero 2400x1350 sin ampliación destructiva;
-- desplegarlo a WordPress y verificar el workflow.
+Nuevas imágenes de Para ti:
+audience-parents.jpg
+audience-mothers.jpg
+audience-fathers.jpg
+audience-couples.jpg
+audience-family-caregivers.jpg
+
+Todas las nuevas tarjetas están preparadas a 1448x1086 (4:3).

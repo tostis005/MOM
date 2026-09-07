@@ -44,8 +44,7 @@ When migrating or reclassifying an existing article, do not rewrite `title`, `sl
 Before committing article JSON, run:
 
 ```bash
-python3 platform/migrate-v1-to-v2.py . --check
-python3 platform/validate-content.py .
+python3 platform/normalize-mom-v2.py . --check
 ```
 
-The repository automation enforces the same contract on `main`.
+The repository automation enforces the same contract on `main` and automatically normalizes any legacy v1 JSON that an older process may still create.

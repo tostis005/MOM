@@ -248,3 +248,19 @@ function mom_term_language_count( $term, $language = '' ) {
 	$counts = mom_language_term_counts( $term->taxonomy, $language );
 	return isset( $counts[ $term->term_id ] ) ? (int) $counts[ $term->term_id ] : 0;
 }
+
+/**
+ * Keep paginated editorial listings aligned with the three-column card grid.
+ */
+function mom_paginated_listings_page_size( $query ) {
+	if ( is_admin() || ! $query instanceof WP_Query || ! $query->is_main_query() ) {
+		return;
+	}
+
+	if ( $query->is_singular() || $query->is_page() || $query->is_front_page() ) {
+		return;
+	}
+
+	$query->set( 'posts_per_page', 12 );
+}
+add_action( 'pre_get_posts', 'mom_paginated_listings_page_size', 30 );

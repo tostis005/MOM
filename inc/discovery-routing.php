@@ -15,7 +15,7 @@ if ( file_exists( $mom_image_performance ) ) {
 }
 
 if ( ! defined( 'MOM_DISCOVERY_ROUTING_VERSION' ) ) {
-	define( 'MOM_DISCOVERY_ROUTING_VERSION', '2026-09-07-1' );
+	define( 'MOM_DISCOVERY_ROUTING_VERSION', '2026-09-07-2' );
 }
 
 function mom_discovery_pages() {
@@ -62,8 +62,9 @@ function mom_discovery_url( $hub, $language = '' ) {
 }
 
 function mom_context_language_switch_url( $language ) {
-	$hub = (string) get_query_var( 'mom_hub' );
-	if ( $hub && isset( mom_discovery_pages()[ $hub ] ) ) {
+	$hub   = (string) get_query_var( 'mom_hub' );
+	$pages = mom_discovery_pages();
+	if ( $hub && isset( $pages[ $hub ] ) ) {
 		return mom_discovery_url( $hub, $language );
 	}
 	return function_exists( 'mom_language_switch_url' ) ? mom_language_switch_url( $language ) : mom_language_home_url( $language );
@@ -72,15 +73,20 @@ function mom_context_language_switch_url( $language ) {
 function mom_discovery_register_rewrite_rules() {
 	foreach ( mom_discovery_pages() as $hub => $page ) {
 		foreach ( array( 'es', 'en' ) as $language ) {
-			$head = 'en' === $language ? 'en/' : '';
-			$slug = preg_quote( $page[ $language ], '#' );
+			$head  = 'en' === $language ? 'en/' : '';
+			$slug  = preg_quote( $page[ $language ], '#' );
 			$query = 'index.php?mom_hub=' . rawurlencode( $hub ) . '&mom_lang=' . $language;
 			add_rewrite_rule( '^' . $head . $slug . '/page/([0-9]+)/?$', $query . '&paged=$matches[1]', 'top' );
 			add_rewrite_rule( '^' . $head . $slug . '/?$', $query, 'top' );
 		}
 	}
 }
-add_action( 'init', 'mom_discovery_register_rewrite_rules', 35 );
+/*
+ * These exact hub routes must be registered before i18n-routing.php adds the
+ * generic English article rule ^en/([^/]+)/?$. Otherwise /en/topics/ etc. are
+ * mistaken for article slugs.
+ */
+add_action( 'init', 'mom_discovery_register_rewrite_rules', 10 );
 
 function mom_discovery_query_vars( $vars ) {
 	$vars[] = 'mom_hub';
@@ -98,14 +104,15 @@ function mom_discovery_maybe_flush_rewrites() {
 add_action( 'wp_loaded', 'mom_discovery_maybe_flush_rewrites', 40 );
 
 function mom_discovery_prepare_virtual_page() {
-	$hub = (string) get_query_var( 'mom_hub' );
-	if ( ! $hub || ! isset( mom_discovery_pages()[ $hub ] ) ) {
+	$hub   = (string) get_query_var( 'mom_hub' );
+	$pages = mom_discovery_pages();
+	if ( ! $hub || ! isset( $pages[ $hub ] ) ) {
 		return;
 	}
 	global $wp_query;
 	if ( $wp_query instanceof WP_Query ) {
-		$wp_query->is_404 = false;
-		$wp_query->is_home = false;
+		$wp_query->is_404     = false;
+		$wp_query->is_home    = false;
 		$wp_query->is_archive = true;
 	}
 	status_header( 200 );
@@ -113,8 +120,9 @@ function mom_discovery_prepare_virtual_page() {
 add_action( 'template_redirect', 'mom_discovery_prepare_virtual_page', 0 );
 
 function mom_discovery_template( $template ) {
-	$hub = (string) get_query_var( 'mom_hub' );
-	if ( ! $hub || ! isset( mom_discovery_pages()[ $hub ] ) ) {
+	$hub   = (string) get_query_var( 'mom_hub' );
+	$pages = mom_discovery_pages();
+	if ( ! $hub || ! isset( $pages[ $hub ] ) ) {
 		return $template;
 	}
 	$discovery_template = locate_template( 'discovery.php' );
@@ -133,8 +141,9 @@ function mom_discovery_document_title( $title ) {
 add_filter( 'pre_get_document_title', 'mom_discovery_document_title', 20 );
 
 function mom_discovery_hreflang_links() {
-	$hub = (string) get_query_var( 'mom_hub' );
-	if ( $hub && isset( mom_discovery_pages()[ $hub ] ) ) {
+	$hub   = (string) get_query_var( 'mom_hub' );
+	$pages = mom_discovery_pages();
+	if ( $hub && isset( $pages[ $hub ] ) ) {
 		$es = mom_discovery_url( $hub, 'es' );
 		$en = mom_discovery_url( $hub, 'en' );
 		echo '<link rel="alternate" hreflang="es-ES" href="' . esc_url( $es ) . '">' . "\n";

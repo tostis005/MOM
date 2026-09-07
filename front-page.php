@@ -17,15 +17,16 @@ $topic_images = array(
 	'parenting-behavior'          => 'topic-parenting.jpg',
 	'child-feeding'               => 'topic-feeding.jpg',
 	'potty-hygiene-autonomy'      => 'topic-parenting.jpg',
+	'routines-family-life'        => 'topic-relationships.jpg',
 	'play-learning-autonomy'      => 'topic-parenting.jpg',
 	'childcare-school-social'     => 'topic-parenting.jpg',
 	'pregnancy-preparation'       => 'topic-pregnancy.jpg',
 	'postpartum-newborn'          => 'topic-postpartum.jpg',
-	'breastfeeding-baby-feeding'  => 'hero-mother-baby.jpg',
+	'breastfeeding-baby-feeding'  => 'topic-postpartum.jpg',
 	'couple-coparenting'          => 'topic-relationships.jpg',
 	'motherhood-identity'         => 'topic-wellbeing.jpg',
-	'routines-family-life'        => 'topic-relationships.jpg',
 	'family-siblings-boundaries'  => 'topic-relationships.jpg',
+	'work-balance-life'           => 'topic-wellbeing.jpg',
 );
 
 $topic_image_url = static function ( $topic_id ) use ( $topic_images, $ai_assets ) {
@@ -37,12 +38,50 @@ $topic_image_url = static function ( $topic_id ) use ( $topic_images, $ai_assets
 ?>
 
 <style>
-.mom-ai-hero{width:100%;height:100%;min-height:100%;object-fit:cover;object-position:center;display:block}
-.premium-topic-art.mom-ai-topic{overflow:hidden;padding:0;background:#eadfd8;box-shadow:inset 0 0 0 1px rgba(69,47,44,.06)}
-.premium-topic-art.mom-ai-topic img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease,filter .35s ease}
-.premium-topic-card:hover .premium-topic-art.mom-ai-topic img{transform:scale(1.045);filter:saturate(.96) contrast(1.02)}
-.story-fallback.mom-ai-story{padding:0;overflow:hidden;background:#eadfd8}
-.story-fallback.mom-ai-story img{width:100%;height:100%;object-fit:cover;display:block}
+/* Production image/layout corrections: preserve photo ratios and avoid stretched AI crops. */
+.hero-shell{min-height:530px;grid-template-columns:45% 55%}
+.hero-copy{padding:clamp(42px,5vw,72px) clamp(32px,4.4vw,64px)}
+.hero-copy h1{max-width:12ch;font-size:clamp(46px,5vw,68px);line-height:1.01}
+.hero-media{min-height:530px;background:#e6d8ce}
+.mom-ai-hero{width:100%;height:100%;min-height:530px;object-fit:cover;object-position:center center;display:block}
+.hero-quote{right:5%;top:10%;max-width:190px;padding:15px 18px;border:1px solid rgba(124,73,68,.14);border-radius:16px;background:rgba(255,253,251,.82);backdrop-filter:blur(10px);color:#5d4540;text-shadow:none;box-shadow:0 12px 30px rgba(66,45,39,.08)}
+.hero-quote span{font-size:19px;line-height:1.2}
+.hero-quote strong{margin-top:10px;color:#7c4944}
+.topic-rail{grid-auto-columns:180px;gap:14px;padding-bottom:12px}
+.premium-topic-card{min-width:180px;border-radius:16px}
+.premium-topic-art.mom-ai-topic{height:126px;overflow:hidden;padding:0;background:#eadfd8;box-shadow:inset 0 0 0 1px rgba(69,47,44,.06)}
+.premium-topic-art.mom-ai-topic img{width:100%;height:100%;object-fit:cover;object-position:center;display:block;transition:transform .35s ease,filter .35s ease}
+.premium-topic-card:hover .premium-topic-art.mom-ai-topic img{transform:scale(1.035);filter:saturate(.97) contrast(1.02)}
+.premium-topic-copy{min-height:88px;padding:13px 14px 15px}
+.premium-topic-copy strong{font-size:16px}
+.premium-topic-copy small{font-size:10px;line-height:1.32;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.story-grid{gap:18px}
+.story-card{border-radius:16px}
+.story-card>a{display:block;min-height:0}
+.story-media{min-height:0;aspect-ratio:16/10;background:#eadbd3}
+.story-media img,.story-fallback.mom-ai-story img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.story-fallback.mom-ai-story{width:100%;height:100%;padding:0;overflow:hidden;background:#eadfd8}
+.story-body{min-height:178px;padding:18px 18px 16px}
+.story-body h3{font-size:20px;line-height:1.12;margin:9px 0 8px}
+.story-body p{font-size:11.5px;line-height:1.42}
+.story-meta{font-size:10px;padding-top:12px}
+@media (max-width:980px){
+  .hero-shell{grid-template-columns:1fr;min-height:0}
+  .hero-copy{padding:44px 40px}
+  .hero-media,.mom-ai-hero{min-height:440px}
+  .story-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:650px){
+  .hero-copy{padding:36px 24px}
+  .hero-copy h1{font-size:clamp(42px,12vw,56px)}
+  .hero-media,.mom-ai-hero{min-height:350px}
+  .hero-quote{top:auto;right:16px;bottom:16px;max-width:180px}
+  .topic-rail{grid-auto-columns:166px}
+  .premium-topic-card{min-width:166px}
+  .premium-topic-art.mom-ai-topic{height:118px}
+  .story-grid{grid-template-columns:1fr;gap:14px}
+  .story-body{min-height:0}
+}
 </style>
 
 <section class="home-hero">

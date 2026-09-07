@@ -9,6 +9,7 @@ on:
       - 'content/taxonomies/*.json'
       - 'platform/migrate-v1-to-v2.py'
       - 'platform/normalize-mom-v2.py'
+      - 'platform/refine-topic-taxonomy.py'
       - 'platform/validate-content.py'
 
 permissions:
@@ -27,10 +28,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Normalize legacy JSON, align translations and validate
+      - name: Normalize, refine topic taxonomy and validate
         run: |
           set -euo pipefail
           python3 platform/normalize-mom-v2.py .
+          python3 platform/refine-topic-taxonomy.py .
           python3 platform/normalize-mom-v2.py . --check
 
       - name: Commit normalization when needed

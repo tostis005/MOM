@@ -29,7 +29,7 @@
     "content/taxonomies/article-type.json"
   ],
   "legacy_v1": {
-    "enabled": true,
+    "enabled": false,
     "taxonomy_fields": {
       "food_family": {
         "dimension": "topic",

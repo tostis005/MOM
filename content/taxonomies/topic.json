@@ -4,23 +4,1158 @@
   "wp_taxonomy": "content_topic",
   "hierarchical": true,
   "public": true,
-  "navigation": { "home": true, "order": 10 },
-  "labels": { "es": "Temas", "en": "Topics" },
+  "navigation": {
+    "home": true,
+    "order": 10
+  },
+  "labels": {
+    "es": "Temas",
+    "en": "Topics"
+  },
   "terms": [
-    { "id": "sleep", "parent": null, "home_order": 10, "label": { "es": "Sueño", "en": "Sleep" }, "slug": { "es": "sueno", "en": "sleep" } },
-    { "id": "parenting-behavior", "parent": null, "home_order": 20, "label": { "es": "Crianza y comportamiento", "en": "Parenting & behavior" }, "slug": { "es": "crianza-comportamiento", "en": "parenting-behavior" } },
-    { "id": "child-feeding", "parent": null, "home_order": 30, "label": { "es": "Alimentación infantil", "en": "Child feeding" }, "slug": { "es": "alimentacion-infantil", "en": "child-feeding" } },
-    { "id": "potty-hygiene-autonomy", "parent": null, "home_order": 40, "label": { "es": "Pañal, higiene y autonomía", "en": "Potty, hygiene & autonomy" }, "slug": { "es": "panal-higiene-autonomia", "en": "potty-hygiene-autonomy" } },
-    { "id": "routines-family-life", "parent": null, "home_order": 50, "label": { "es": "Rutinas y vida familiar", "en": "Routines & family life" }, "slug": { "es": "rutinas-vida-familiar", "en": "routines-family-life" } },
-    { "id": "play-learning-autonomy", "parent": null, "home_order": 60, "label": { "es": "Juego, aprendizaje y autonomía", "en": "Play, learning & autonomy" }, "slug": { "es": "juego-aprendizaje-autonomia", "en": "play-learning-autonomy" } },
-    { "id": "childcare-school-social", "parent": null, "home_order": 70, "label": { "es": "Guardería, colegio y vida social", "en": "Childcare, school & social life" }, "slug": { "es": "guarderia-colegio-vida-social", "en": "childcare-school-social" } },
-    { "id": "pregnancy-preparation", "parent": null, "home_order": 80, "label": { "es": "Embarazo y preparación", "en": "Pregnancy & preparation" }, "slug": { "es": "embarazo-preparacion", "en": "pregnancy-preparation" } },
-    { "id": "postpartum-newborn", "parent": null, "home_order": 90, "label": { "es": "Posparto y recién nacido", "en": "Postpartum & newborn" }, "slug": { "es": "posparto-recien-nacido", "en": "postpartum-newborn" } },
-    { "id": "breastfeeding-baby-feeding", "parent": null, "home_order": 100, "label": { "es": "Lactancia y alimentación del bebé", "en": "Breastfeeding & baby feeding" }, "slug": { "es": "lactancia-alimentacion-bebe", "en": "breastfeeding-baby-feeding" } },
-    { "id": "couple-coparenting", "parent": null, "home_order": 110, "label": { "es": "Pareja y coparentalidad", "en": "Couple & coparenting" }, "slug": { "es": "pareja-coparentalidad", "en": "couple-coparenting" } },
-    { "id": "motherhood-identity", "parent": null, "home_order": 120, "label": { "es": "Maternidad, identidad y bienestar", "en": "Motherhood, identity & wellbeing" }, "slug": { "es": "maternidad-identidad-bienestar", "en": "motherhood-identity-wellbeing" } },
-    { "id": "family-siblings-boundaries", "parent": null, "home_order": 130, "label": { "es": "Familia, hermanos y límites", "en": "Family, siblings & boundaries" }, "slug": { "es": "familia-hermanos-limites", "en": "family-siblings-boundaries" } },
-    { "id": "work-balance-life", "parent": null, "home_order": 140, "label": { "es": "Trabajo, conciliación y vida propia", "en": "Work, balance & own life" }, "slug": { "es": "trabajo-conciliacion-vida", "en": "work-balance-life" } },
-    { "id": "travel-outings-celebrations", "parent": null, "home_order": 150, "label": { "es": "Viajes, salidas y celebraciones", "en": "Travel, outings & celebrations" }, "slug": { "es": "viajes-salidas-celebraciones", "en": "travel-outings-celebrations" } }
+    {
+      "id": "sleep",
+      "parent": null,
+      "home_order": 10,
+      "label": {
+        "es": "Sueño",
+        "en": "Sleep"
+      },
+      "slug": {
+        "es": "sueno",
+        "en": "sleep"
+      }
+    },
+    {
+      "id": "parenting-behavior",
+      "parent": null,
+      "home_order": 20,
+      "label": {
+        "es": "Crianza y comportamiento",
+        "en": "Parenting & behavior"
+      },
+      "slug": {
+        "es": "crianza-comportamiento",
+        "en": "parenting-behavior"
+      }
+    },
+    {
+      "id": "child-feeding",
+      "parent": null,
+      "home_order": 30,
+      "label": {
+        "es": "Alimentación infantil",
+        "en": "Child feeding"
+      },
+      "slug": {
+        "es": "alimentacion-infantil",
+        "en": "child-feeding"
+      }
+    },
+    {
+      "id": "potty-hygiene-autonomy",
+      "parent": null,
+      "home_order": 40,
+      "label": {
+        "es": "Pañal, higiene y autonomía",
+        "en": "Potty, hygiene & autonomy"
+      },
+      "slug": {
+        "es": "panal-higiene-autonomia",
+        "en": "potty-hygiene-autonomy"
+      }
+    },
+    {
+      "id": "routines-family-life",
+      "parent": null,
+      "home_order": 50,
+      "label": {
+        "es": "Rutinas y vida familiar",
+        "en": "Routines & family life"
+      },
+      "slug": {
+        "es": "rutinas-vida-familiar",
+        "en": "routines-family-life"
+      }
+    },
+    {
+      "id": "play-learning-autonomy",
+      "parent": null,
+      "home_order": 60,
+      "label": {
+        "es": "Juego, aprendizaje y autonomía",
+        "en": "Play, learning & autonomy"
+      },
+      "slug": {
+        "es": "juego-aprendizaje-autonomia",
+        "en": "play-learning-autonomy"
+      }
+    },
+    {
+      "id": "childcare-school-social",
+      "parent": null,
+      "home_order": 70,
+      "label": {
+        "es": "Guardería, colegio y vida social",
+        "en": "Childcare, school & social life"
+      },
+      "slug": {
+        "es": "guarderia-colegio-vida-social",
+        "en": "childcare-school-social"
+      }
+    },
+    {
+      "id": "pregnancy-preparation",
+      "parent": null,
+      "home_order": 80,
+      "label": {
+        "es": "Embarazo y preparación",
+        "en": "Pregnancy & preparation"
+      },
+      "slug": {
+        "es": "embarazo-preparacion",
+        "en": "pregnancy-preparation"
+      }
+    },
+    {
+      "id": "postpartum-newborn",
+      "parent": null,
+      "home_order": 90,
+      "label": {
+        "es": "Posparto y recién nacido",
+        "en": "Postpartum & newborn"
+      },
+      "slug": {
+        "es": "posparto-recien-nacido",
+        "en": "postpartum-newborn"
+      }
+    },
+    {
+      "id": "breastfeeding-baby-feeding",
+      "parent": null,
+      "home_order": 100,
+      "label": {
+        "es": "Lactancia y alimentación del bebé",
+        "en": "Breastfeeding & baby feeding"
+      },
+      "slug": {
+        "es": "lactancia-alimentacion-bebe",
+        "en": "breastfeeding-baby-feeding"
+      }
+    },
+    {
+      "id": "couple-coparenting",
+      "parent": null,
+      "home_order": 110,
+      "label": {
+        "es": "Pareja y coparentalidad",
+        "en": "Couple & coparenting"
+      },
+      "slug": {
+        "es": "pareja-coparentalidad",
+        "en": "couple-coparenting"
+      }
+    },
+    {
+      "id": "motherhood-identity",
+      "parent": null,
+      "home_order": 120,
+      "label": {
+        "es": "Maternidad, identidad y bienestar",
+        "en": "Motherhood, identity & wellbeing"
+      },
+      "slug": {
+        "es": "maternidad-identidad-bienestar",
+        "en": "motherhood-identity-wellbeing"
+      }
+    },
+    {
+      "id": "family-siblings-boundaries",
+      "parent": null,
+      "home_order": 130,
+      "label": {
+        "es": "Familia, hermanos y límites",
+        "en": "Family, siblings & boundaries"
+      },
+      "slug": {
+        "es": "familia-hermanos-limites",
+        "en": "family-siblings-boundaries"
+      }
+    },
+    {
+      "id": "work-balance-life",
+      "parent": null,
+      "home_order": 140,
+      "label": {
+        "es": "Trabajo, conciliación y vida propia",
+        "en": "Work, balance & own life"
+      },
+      "slug": {
+        "es": "trabajo-conciliacion-vida",
+        "en": "work-balance-life"
+      }
+    },
+    {
+      "id": "travel-outings-celebrations",
+      "parent": null,
+      "home_order": 150,
+      "label": {
+        "es": "Viajes, salidas y celebraciones",
+        "en": "Travel, outings & celebrations"
+      },
+      "slug": {
+        "es": "viajes-salidas-celebraciones",
+        "en": "travel-outings-celebrations"
+      }
+    },
+    {
+      "id": "bedtime-routines",
+      "parent": "sleep",
+      "home_visible": false,
+      "label": {
+        "es": "Rutinas de sueño",
+        "en": "Bedtime routines"
+      },
+      "slug": {
+        "es": "rutinas-sueno",
+        "en": "bedtime-routines"
+      }
+    },
+    {
+      "id": "night-wakings",
+      "parent": "sleep",
+      "home_visible": false,
+      "label": {
+        "es": "Despertares nocturnos",
+        "en": "Night wakings"
+      },
+      "slug": {
+        "es": "despertares-nocturnos",
+        "en": "night-wakings"
+      }
+    },
+    {
+      "id": "naps",
+      "parent": "sleep",
+      "home_visible": false,
+      "label": {
+        "es": "Siestas",
+        "en": "Naps"
+      },
+      "slug": {
+        "es": "siestas",
+        "en": "naps"
+      }
+    },
+    {
+      "id": "sleep-transitions",
+      "parent": "sleep",
+      "home_visible": false,
+      "label": {
+        "es": "Transiciones de sueño",
+        "en": "Sleep transitions"
+      },
+      "slug": {
+        "es": "transiciones-sueno",
+        "en": "sleep-transitions"
+      }
+    },
+    {
+      "id": "sleep-environment",
+      "parent": "sleep",
+      "home_visible": false,
+      "label": {
+        "es": "Entorno de sueño",
+        "en": "Sleep environment"
+      },
+      "slug": {
+        "es": "entorno-sueno",
+        "en": "sleep-environment"
+      }
+    },
+    {
+      "id": "sleep-travel",
+      "parent": "sleep",
+      "home_visible": false,
+      "label": {
+        "es": "Sueño en viajes",
+        "en": "Sleep while traveling"
+      },
+      "slug": {
+        "es": "sueno-viajes",
+        "en": "sleep-travel"
+      }
+    },
+    {
+      "id": "respectful-parenting",
+      "parent": "parenting-behavior",
+      "home_visible": false,
+      "label": {
+        "es": "Crianza respetuosa",
+        "en": "Respectful parenting"
+      },
+      "slug": {
+        "es": "crianza-respetuosa",
+        "en": "respectful-parenting"
+      }
+    },
+    {
+      "id": "boundaries",
+      "parent": "parenting-behavior",
+      "home_visible": false,
+      "label": {
+        "es": "Límites",
+        "en": "Boundaries"
+      },
+      "slug": {
+        "es": "limites",
+        "en": "boundaries"
+      }
+    },
+    {
+      "id": "tantrums",
+      "parent": "parenting-behavior",
+      "home_visible": false,
+      "label": {
+        "es": "Rabietas",
+        "en": "Tantrums"
+      },
+      "slug": {
+        "es": "rabietas",
+        "en": "tantrums"
+      }
+    },
+    {
+      "id": "cooperation",
+      "parent": "parenting-behavior",
+      "home_visible": false,
+      "label": {
+        "es": "Cooperación",
+        "en": "Cooperation"
+      },
+      "slug": {
+        "es": "cooperacion",
+        "en": "cooperation"
+      }
+    },
+    {
+      "id": "frustration-emotions",
+      "parent": "parenting-behavior",
+      "home_visible": false,
+      "label": {
+        "es": "Frustración y emociones",
+        "en": "Frustration & emotions"
+      },
+      "slug": {
+        "es": "frustracion-emociones",
+        "en": "frustration-emotions"
+      }
+    },
+    {
+      "id": "repair",
+      "parent": "parenting-behavior",
+      "home_visible": false,
+      "label": {
+        "es": "Reparación",
+        "en": "Repair"
+      },
+      "slug": {
+        "es": "reparacion",
+        "en": "repair"
+      }
+    },
+    {
+      "id": "picky-eating",
+      "parent": "child-feeding",
+      "home_visible": false,
+      "label": {
+        "es": "Picky eating y rechazo",
+        "en": "Picky eating & refusal"
+      },
+      "slug": {
+        "es": "picky-eating-rechazo",
+        "en": "picky-eating"
+      }
+    },
+    {
+      "id": "baby-led-feeding",
+      "parent": "child-feeding",
+      "home_visible": false,
+      "label": {
+        "es": "Baby-led feeding",
+        "en": "Baby-led feeding"
+      },
+      "slug": {
+        "es": "baby-led-feeding",
+        "en": "baby-led-feeding"
+      }
+    },
+    {
+      "id": "mealtime-routines",
+      "parent": "child-feeding",
+      "home_visible": false,
+      "label": {
+        "es": "Rutinas de comida",
+        "en": "Mealtime routines"
+      },
+      "slug": {
+        "es": "rutinas-comida",
+        "en": "mealtime-routines"
+      }
+    },
+    {
+      "id": "new-foods",
+      "parent": "child-feeding",
+      "home_visible": false,
+      "label": {
+        "es": "Alimentos nuevos",
+        "en": "New foods"
+      },
+      "slug": {
+        "es": "alimentos-nuevos",
+        "en": "new-foods"
+      }
+    },
+    {
+      "id": "snacks-sweets",
+      "parent": "child-feeding",
+      "home_visible": false,
+      "label": {
+        "es": "Snacks y dulces",
+        "en": "Snacks & sweets"
+      },
+      "slug": {
+        "es": "snacks-dulces",
+        "en": "snacks-sweets"
+      }
+    },
+    {
+      "id": "eating-out",
+      "parent": "child-feeding",
+      "home_visible": false,
+      "label": {
+        "es": "Comer fuera",
+        "en": "Eating out"
+      },
+      "slug": {
+        "es": "comer-fuera",
+        "en": "eating-out"
+      }
+    },
+    {
+      "id": "potty-training",
+      "parent": "potty-hygiene-autonomy",
+      "home_visible": false,
+      "label": {
+        "es": "Dejar el pañal",
+        "en": "Potty training"
+      },
+      "slug": {
+        "es": "dejar-panal",
+        "en": "potty-training"
+      }
+    },
+    {
+      "id": "bath-hygiene",
+      "parent": "potty-hygiene-autonomy",
+      "home_visible": false,
+      "label": {
+        "es": "Baño e higiene",
+        "en": "Bath & hygiene"
+      },
+      "slug": {
+        "es": "bano-higiene",
+        "en": "bath-hygiene"
+      }
+    },
+    {
+      "id": "dressing",
+      "parent": "potty-hygiene-autonomy",
+      "home_visible": false,
+      "label": {
+        "es": "Vestirse",
+        "en": "Getting dressed"
+      },
+      "slug": {
+        "es": "vestirse",
+        "en": "dressing"
+      }
+    },
+    {
+      "id": "responsibilities",
+      "parent": "potty-hygiene-autonomy",
+      "home_visible": false,
+      "label": {
+        "es": "Responsabilidades",
+        "en": "Responsibilities"
+      },
+      "slug": {
+        "es": "responsabilidades",
+        "en": "responsibilities"
+      }
+    },
+    {
+      "id": "morning-routines",
+      "parent": "routines-family-life",
+      "home_visible": false,
+      "label": {
+        "es": "Rutinas de mañana",
+        "en": "Morning routines"
+      },
+      "slug": {
+        "es": "rutinas-manana",
+        "en": "morning-routines"
+      }
+    },
+    {
+      "id": "evening-routines",
+      "parent": "routines-family-life",
+      "home_visible": false,
+      "label": {
+        "es": "Rutinas de tarde",
+        "en": "Evening routines"
+      },
+      "slug": {
+        "es": "rutinas-tarde",
+        "en": "evening-routines"
+      }
+    },
+    {
+      "id": "home-organization",
+      "parent": "routines-family-life",
+      "home_visible": false,
+      "label": {
+        "es": "Organización del hogar",
+        "en": "Home organization"
+      },
+      "slug": {
+        "es": "organizacion-hogar",
+        "en": "home-organization"
+      }
+    },
+    {
+      "id": "family-routines",
+      "parent": "routines-family-life",
+      "home_visible": false,
+      "label": {
+        "es": "Rutinas familiares",
+        "en": "Family routines"
+      },
+      "slug": {
+        "es": "rutinas-familiares",
+        "en": "family-routines"
+      }
+    },
+    {
+      "id": "mental-load",
+      "parent": "routines-family-life",
+      "home_visible": false,
+      "label": {
+        "es": "Carga mental",
+        "en": "Mental load"
+      },
+      "slug": {
+        "es": "carga-mental",
+        "en": "mental-load"
+      }
+    },
+    {
+      "id": "independent-play",
+      "parent": "play-learning-autonomy",
+      "home_visible": false,
+      "label": {
+        "es": "Juego independiente",
+        "en": "Independent play"
+      },
+      "slug": {
+        "es": "juego-independiente",
+        "en": "independent-play"
+      }
+    },
+    {
+      "id": "activities",
+      "parent": "play-learning-autonomy",
+      "home_visible": false,
+      "label": {
+        "es": "Actividades",
+        "en": "Activities"
+      },
+      "slug": {
+        "es": "actividades",
+        "en": "activities"
+      }
+    },
+    {
+      "id": "montessori",
+      "parent": "play-learning-autonomy",
+      "home_visible": false,
+      "label": {
+        "es": "Montessori",
+        "en": "Montessori"
+      },
+      "slug": {
+        "es": "montessori",
+        "en": "montessori"
+      }
+    },
+    {
+      "id": "toys-books",
+      "parent": "play-learning-autonomy",
+      "home_visible": false,
+      "label": {
+        "es": "Juguetes y libros",
+        "en": "Toys & books"
+      },
+      "slug": {
+        "es": "juguetes-libros",
+        "en": "toys-books"
+      }
+    },
+    {
+      "id": "daycare",
+      "parent": "childcare-school-social",
+      "home_visible": false,
+      "label": {
+        "es": "Daycare y guardería",
+        "en": "Daycare"
+      },
+      "slug": {
+        "es": "daycare-guarderia",
+        "en": "daycare"
+      }
+    },
+    {
+      "id": "preschool-school",
+      "parent": "childcare-school-social",
+      "home_visible": false,
+      "label": {
+        "es": "Preschool y colegio",
+        "en": "Preschool & school"
+      },
+      "slug": {
+        "es": "preschool-colegio",
+        "en": "preschool-school"
+      }
+    },
+    {
+      "id": "school-transitions",
+      "parent": "childcare-school-social",
+      "home_visible": false,
+      "label": {
+        "es": "Adaptación y transiciones",
+        "en": "School transitions"
+      },
+      "slug": {
+        "es": "adaptacion-transiciones",
+        "en": "school-transitions"
+      }
+    },
+    {
+      "id": "extracurriculars",
+      "parent": "childcare-school-social",
+      "home_visible": false,
+      "label": {
+        "es": "Extraescolares",
+        "en": "Extracurriculars"
+      },
+      "slug": {
+        "es": "extraescolares",
+        "en": "extracurriculars"
+      }
+    },
+    {
+      "id": "playdates",
+      "parent": "childcare-school-social",
+      "home_visible": false,
+      "label": {
+        "es": "Playdates y vida social",
+        "en": "Playdates & social life"
+      },
+      "slug": {
+        "es": "playdates-vida-social",
+        "en": "playdates"
+      }
+    },
+    {
+      "id": "baby-registry",
+      "parent": "pregnancy-preparation",
+      "home_visible": false,
+      "label": {
+        "es": "Baby registry y compras",
+        "en": "Baby registry & shopping"
+      },
+      "slug": {
+        "es": "baby-registry-compras",
+        "en": "baby-registry"
+      }
+    },
+    {
+      "id": "hospital-bag",
+      "parent": "pregnancy-preparation",
+      "home_visible": false,
+      "label": {
+        "es": "Bolsa del hospital",
+        "en": "Hospital bag"
+      },
+      "slug": {
+        "es": "bolsa-hospital",
+        "en": "hospital-bag"
+      }
+    },
+    {
+      "id": "home-preparation",
+      "parent": "pregnancy-preparation",
+      "home_visible": false,
+      "label": {
+        "es": "Preparar la casa",
+        "en": "Preparing the home"
+      },
+      "slug": {
+        "es": "preparar-casa",
+        "en": "home-preparation"
+      }
+    },
+    {
+      "id": "pregnancy-emotions",
+      "parent": "pregnancy-preparation",
+      "home_visible": false,
+      "label": {
+        "es": "Emociones del embarazo",
+        "en": "Pregnancy emotions"
+      },
+      "slug": {
+        "es": "emociones-embarazo",
+        "en": "pregnancy-emotions"
+      }
+    },
+    {
+      "id": "pregnancy-boundaries",
+      "parent": "pregnancy-preparation",
+      "home_visible": false,
+      "label": {
+        "es": "Límites durante el embarazo",
+        "en": "Pregnancy boundaries"
+      },
+      "slug": {
+        "es": "limites-embarazo",
+        "en": "pregnancy-boundaries"
+      }
+    },
+    {
+      "id": "first-weeks",
+      "parent": "postpartum-newborn",
+      "home_visible": false,
+      "label": {
+        "es": "Primeras semanas",
+        "en": "First weeks"
+      },
+      "slug": {
+        "es": "primeras-semanas",
+        "en": "first-weeks"
+      }
+    },
+    {
+      "id": "newborn-routines",
+      "parent": "postpartum-newborn",
+      "home_visible": false,
+      "label": {
+        "es": "Rutinas con recién nacido",
+        "en": "Newborn routines"
+      },
+      "slug": {
+        "es": "rutinas-recien-nacido",
+        "en": "newborn-routines"
+      }
+    },
+    {
+      "id": "postpartum-home",
+      "parent": "postpartum-newborn",
+      "home_visible": false,
+      "label": {
+        "es": "Casa y posparto",
+        "en": "Home & postpartum"
+      },
+      "slug": {
+        "es": "casa-posparto",
+        "en": "postpartum-home"
+      }
+    },
+    {
+      "id": "visits-help",
+      "parent": "postpartum-newborn",
+      "home_visible": false,
+      "label": {
+        "es": "Visitas y ayuda",
+        "en": "Visits & help"
+      },
+      "slug": {
+        "es": "visitas-ayuda",
+        "en": "visits-help"
+      }
+    },
+    {
+      "id": "breastfeeding",
+      "parent": "breastfeeding-baby-feeding",
+      "home_visible": false,
+      "label": {
+        "es": "Lactancia",
+        "en": "Breastfeeding"
+      },
+      "slug": {
+        "es": "lactancia",
+        "en": "breastfeeding"
+      }
+    },
+    {
+      "id": "weaning",
+      "parent": "breastfeeding-baby-feeding",
+      "home_visible": false,
+      "label": {
+        "es": "Destete",
+        "en": "Weaning"
+      },
+      "slug": {
+        "es": "destete",
+        "en": "weaning"
+      }
+    },
+    {
+      "id": "feeding-logistics",
+      "parent": "breastfeeding-baby-feeding",
+      "home_visible": false,
+      "label": {
+        "es": "Logística de alimentación",
+        "en": "Feeding logistics"
+      },
+      "slug": {
+        "es": "logistica-alimentacion",
+        "en": "feeding-logistics"
+      }
+    },
+    {
+      "id": "coparenting",
+      "parent": "couple-coparenting",
+      "home_visible": false,
+      "label": {
+        "es": "Coparentalidad",
+        "en": "Coparenting"
+      },
+      "slug": {
+        "es": "coparentalidad",
+        "en": "coparenting"
+      }
+    },
+    {
+      "id": "relationship-after-kids",
+      "parent": "couple-coparenting",
+      "home_visible": false,
+      "label": {
+        "es": "Pareja después de los hijos",
+        "en": "Relationship after kids"
+      },
+      "slug": {
+        "es": "pareja-despues-hijos",
+        "en": "relationship-after-kids"
+      }
+    },
+    {
+      "id": "division-of-labor",
+      "parent": "couple-coparenting",
+      "home_visible": false,
+      "label": {
+        "es": "Reparto de tareas",
+        "en": "Division of labor"
+      },
+      "slug": {
+        "es": "reparto-tareas",
+        "en": "division-of-labor"
+      }
+    },
+    {
+      "id": "conflict-repair",
+      "parent": "couple-coparenting",
+      "home_visible": false,
+      "label": {
+        "es": "Conflicto y reparación",
+        "en": "Conflict & repair"
+      },
+      "slug": {
+        "es": "conflicto-reparacion",
+        "en": "conflict-repair"
+      }
+    },
+    {
+      "id": "mom-guilt",
+      "parent": "motherhood-identity",
+      "home_visible": false,
+      "label": {
+        "es": "Culpa materna",
+        "en": "Mom guilt"
+      },
+      "slug": {
+        "es": "culpa-materna",
+        "en": "mom-guilt"
+      }
+    },
+    {
+      "id": "matrescence",
+      "parent": "motherhood-identity",
+      "home_visible": false,
+      "label": {
+        "es": "Matrescencia",
+        "en": "Matrescence"
+      },
+      "slug": {
+        "es": "matrescencia",
+        "en": "matrescence"
+      }
+    },
+    {
+      "id": "identity",
+      "parent": "motherhood-identity",
+      "home_visible": false,
+      "label": {
+        "es": "Identidad",
+        "en": "Identity"
+      },
+      "slug": {
+        "es": "identidad",
+        "en": "identity"
+      }
+    },
+    {
+      "id": "perfectionism",
+      "parent": "motherhood-identity",
+      "home_visible": false,
+      "label": {
+        "es": "Perfeccionismo",
+        "en": "Perfectionism"
+      },
+      "slug": {
+        "es": "perfeccionismo",
+        "en": "perfectionism"
+      }
+    },
+    {
+      "id": "comparison",
+      "parent": "motherhood-identity",
+      "home_visible": false,
+      "label": {
+        "es": "Comparación",
+        "en": "Comparison"
+      },
+      "slug": {
+        "es": "comparacion",
+        "en": "comparison"
+      }
+    },
+    {
+      "id": "alone-time",
+      "parent": "motherhood-identity",
+      "home_visible": false,
+      "label": {
+        "es": "Tiempo propio",
+        "en": "Time for yourself"
+      },
+      "slug": {
+        "es": "tiempo-propio",
+        "en": "alone-time"
+      }
+    },
+    {
+      "id": "grandparents-family",
+      "parent": "family-siblings-boundaries",
+      "home_visible": false,
+      "label": {
+        "es": "Abuelos y familia",
+        "en": "Grandparents & family"
+      },
+      "slug": {
+        "es": "abuelos-familia",
+        "en": "grandparents-family"
+      }
+    },
+    {
+      "id": "new-sibling",
+      "parent": "family-siblings-boundaries",
+      "home_visible": false,
+      "label": {
+        "es": "Nuevo hermano",
+        "en": "New sibling"
+      },
+      "slug": {
+        "es": "nuevo-hermano",
+        "en": "new-sibling"
+      }
+    },
+    {
+      "id": "sibling-rivalry",
+      "parent": "family-siblings-boundaries",
+      "home_visible": false,
+      "label": {
+        "es": "Rivalidad entre hermanos",
+        "en": "Sibling rivalry"
+      },
+      "slug": {
+        "es": "rivalidad-hermanos",
+        "en": "sibling-rivalry"
+      }
+    },
+    {
+      "id": "family-boundaries",
+      "parent": "family-siblings-boundaries",
+      "home_visible": false,
+      "label": {
+        "es": "Límites familiares",
+        "en": "Family boundaries"
+      },
+      "slug": {
+        "es": "limites-familiares",
+        "en": "family-boundaries"
+      }
+    },
+    {
+      "id": "family-traditions",
+      "parent": "family-siblings-boundaries",
+      "home_visible": false,
+      "label": {
+        "es": "Tradiciones familiares",
+        "en": "Family traditions"
+      },
+      "slug": {
+        "es": "tradiciones-familiares",
+        "en": "family-traditions"
+      }
+    },
+    {
+      "id": "return-to-work",
+      "parent": "work-balance-life",
+      "home_visible": false,
+      "label": {
+        "es": "Vuelta al trabajo",
+        "en": "Return to work"
+      },
+      "slug": {
+        "es": "vuelta-trabajo",
+        "en": "return-to-work"
+      }
+    },
+    {
+      "id": "childcare-work",
+      "parent": "work-balance-life",
+      "home_visible": false,
+      "label": {
+        "es": "Cuidado y trabajo",
+        "en": "Childcare & work"
+      },
+      "slug": {
+        "es": "cuidado-trabajo",
+        "en": "childcare-work"
+      }
+    },
+    {
+      "id": "career-identity",
+      "parent": "work-balance-life",
+      "home_visible": false,
+      "label": {
+        "es": "Carrera e identidad",
+        "en": "Career & identity"
+      },
+      "slug": {
+        "es": "carrera-identidad",
+        "en": "career-identity"
+      }
+    },
+    {
+      "id": "personal-time",
+      "parent": "work-balance-life",
+      "home_visible": false,
+      "label": {
+        "es": "Tiempo personal",
+        "en": "Personal time"
+      },
+      "slug": {
+        "es": "tiempo-personal",
+        "en": "personal-time"
+      }
+    },
+    {
+      "id": "flying",
+      "parent": "travel-outings-celebrations",
+      "home_visible": false,
+      "label": {
+        "es": "Viajar en avión",
+        "en": "Flying"
+      },
+      "slug": {
+        "es": "viajar-avion",
+        "en": "flying"
+      }
+    },
+    {
+      "id": "road-trips",
+      "parent": "travel-outings-celebrations",
+      "home_visible": false,
+      "label": {
+        "es": "Road trips",
+        "en": "Road trips"
+      },
+      "slug": {
+        "es": "road-trips",
+        "en": "road-trips"
+      }
+    },
+    {
+      "id": "packing",
+      "parent": "travel-outings-celebrations",
+      "home_visible": false,
+      "label": {
+        "es": "Equipaje",
+        "en": "Packing"
+      },
+      "slug": {
+        "es": "equipaje",
+        "en": "packing"
+      }
+    },
+    {
+      "id": "restaurants-outings",
+      "parent": "travel-outings-celebrations",
+      "home_visible": false,
+      "label": {
+        "es": "Restaurantes y salidas",
+        "en": "Restaurants & outings"
+      },
+      "slug": {
+        "es": "restaurantes-salidas",
+        "en": "restaurants-outings"
+      }
+    },
+    {
+      "id": "vacations",
+      "parent": "travel-outings-celebrations",
+      "home_visible": false,
+      "label": {
+        "es": "Vacaciones",
+        "en": "Vacations"
+      },
+      "slug": {
+        "es": "vacaciones",
+        "en": "vacations"
+      }
+    },
+    {
+      "id": "celebrations",
+      "parent": "travel-outings-celebrations",
+      "home_visible": false,
+      "label": {
+        "es": "Celebraciones",
+        "en": "Celebrations"
+      },
+      "slug": {
+        "es": "celebraciones",
+        "en": "celebrations"
+      }
+    }
   ]
 }

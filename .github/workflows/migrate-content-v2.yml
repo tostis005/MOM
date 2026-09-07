@@ -1,0 +1,80 @@
+name: Migrate MOM content to v2
+
+on:
+  push:
+    branches:
+      - migrate-content-v2
+    paths:
+      - 'platform/migrate-v1-to-v2.py'
+      - 'platform/normalize-mom-v2.py'
+      - 'content/site.json'
+      - 'content/taxonomies/*.json'
+      - 'content/articles/*/*.json'
+      - '.github/workflows/migrate-content-v2.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mom-content-v2-migration
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout migration branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: migrate-content-v2
+
+      - name: Migrate and align legacy article JSON
+        run: python3 platform/normalize-mom-v2.py .
+
+      - name: Validate v2 content contract
+        run: |
+          python3 platform/normalize-mom-v2.py . --check
+          php -l platform/import-content.php
+          php -l platform/content-platform.php
+
+      - name: Verify editorial fields are byte-for-byte equivalent as JSON values
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          BASE="$(git merge-base origin/main HEAD)"
+          BASE="$BASE" python3 - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+          base=os.environ['BASE']
+          protected_failures=[]
+          checked=0
+          for path in sorted(Path('content/articles').glob('*/*.json')):
+              rel=path.as_posix()
+              old_raw=subprocess.run(['git','show',f'{base}:{rel}'],capture_output=True,text=True)
+              if old_raw.returncode != 0:
+                  continue
+              old=json.loads(old_raw.stdout)
+              new=json.loads(path.read_text(encoding='utf-8'))
+              old.pop('schema_version',None); old.pop('taxonomy',None)
+              new.pop('schema_version',None); new.pop('taxonomy',None)
+              checked += 1
+              if old != new:
+                  protected_failures.append(rel)
+          if protected_failures:
+              raise SystemExit('Editorial/data fields changed unexpectedly:\n'+'\n'.join(protected_failures))
+          print(f'Editorial preservation verified for {checked} pre-existing article JSON files.')
+          PY
+
+      - name: Commit migrated inventory
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- content/articles content/site.json content/taxonomies/topic.json; then
+            echo 'No migration changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/articles content/site.json content/taxonomies/topic.json
+          git commit -m 'Migrate MOM article inventory to Content Contract v2'
+          git push origin HEAD:migrate-content-v2

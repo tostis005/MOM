@@ -32,6 +32,8 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add editorial-audit-report.json editorial-audit-ranking.tsv editorial-audit-groups.tsv
           git commit -m 'Update editorial audit report'
+          git fetch origin main
+          git rebase origin/main
           git push origin HEAD:main
 
 # This audit intentionally runs after corpus-level editorial recovery as well as normal article updates.

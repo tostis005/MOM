@@ -94,6 +94,48 @@ function mom_discovery_query_vars( $vars ) {
 }
 add_filter( 'query_vars', 'mom_discovery_query_vars' );
 
+/**
+ * Resolve discovery URLs even if a server is still using stale rewrite rules.
+ * This is especially important in English because the generic article route
+ * can otherwise interpret /en/topics/ as the post slug "topics".
+ */
+function mom_discovery_resolve_request( $query_vars ) {
+	$path = function_exists( 'mom_i18n_request_path' ) ? mom_i18n_request_path() : '';
+	$path = trim( (string) $path, '/' );
+	if ( '' === $path ) {
+		return $query_vars;
+	}
+
+	foreach ( mom_discovery_pages() as $hub => $page ) {
+		foreach ( array( 'es', 'en' ) as $language ) {
+			$prefix = 'en' === $language ? 'en/' : '';
+			$base   = $prefix . $page[ $language ];
+			$paged  = 0;
+
+			if ( $path === $base ) {
+				$paged = 1;
+			} elseif ( preg_match( '#^' . preg_quote( $base, '#' ) . '/page/([0-9]+)$#', $path, $matches ) ) {
+				$paged = max( 1, (int) $matches[1] );
+			} else {
+				continue;
+			}
+
+			unset( $query_vars['name'], $query_vars['pagename'], $query_vars['page_id'], $query_vars['error'] );
+			$query_vars['mom_hub']  = $hub;
+			$query_vars['mom_lang'] = $language;
+			if ( $paged > 1 ) {
+				$query_vars['paged'] = $paged;
+			} else {
+				unset( $query_vars['paged'] );
+			}
+			return $query_vars;
+		}
+	}
+
+	return $query_vars;
+}
+add_filter( 'request', 'mom_discovery_resolve_request', 1 );
+
 function mom_discovery_maybe_flush_rewrites() {
 	if ( MOM_DISCOVERY_ROUTING_VERSION === get_option( 'mom_discovery_routing_version' ) ) {
 		return;

@@ -18,23 +18,29 @@ while ( have_posts() ) : the_post();
 	$topic_id    = mom_primary_topic_id();
 	$topic_label = mom_topic_label( $topic_id );
 	$topic_url   = mom_term_url( 'topic', $topic_id, $topic_label );
-	$has_hero    = has_post_thumbnail();
+
+	$hero_url = '';
+	$hero_alt = '';
+	if ( has_post_thumbnail() ) {
+		$hero_url = (string) get_the_post_thumbnail_url( get_the_ID(), 'full' );
+		$hero_alt = (string) get_post_meta( get_post_thumbnail_id(), '_wp_attachment_image_alt', true );
+	}
+
+	if ( ! $hero_url ) {
+		$topic_photo_file = get_template_directory() . '/assets/images/hq/topic-' . sanitize_file_name( $topic_id ) . '.jpg';
+		if ( file_exists( $topic_photo_file ) ) {
+			$hero_url = get_template_directory_uri() . '/assets/images/hq/topic-' . rawurlencode( $topic_id ) . '.jpg';
+			$hero_alt = (string) get_post_meta( get_the_ID(), '_content_image_alt', true );
+		}
+	}
+
+	$has_hero = (bool) $hero_url;
 	?>
 	<article class="single-article-premium">
 		<header class="article-banner <?php echo $has_hero ? 'has-image' : 'no-image'; ?>">
 			<?php if ( $has_hero ) : ?>
 				<figure class="article-banner-media">
-					<?php
-					the_post_thumbnail(
-						'mom-hero',
-						array(
-							'class'         => 'article-banner-image',
-							'fetchpriority' => 'high',
-							'decoding'      => 'async',
-							'sizes'         => '100vw',
-						)
-					);
-					?>
+					<img class="article-banner-image" src="<?php echo esc_url( $hero_url ); ?>" alt="<?php echo esc_attr( $hero_alt ); ?>" width="1448" height="1086" fetchpriority="high" decoding="async">
 				</figure>
 			<?php endif; ?>
 			<div class="article-banner-overlay" aria-hidden="true"></div>

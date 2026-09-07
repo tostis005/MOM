@@ -1,0 +1,84 @@
+name: Import MOM content
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/articles/*/*.json'
+      - 'content/site.json'
+      - 'content/taxonomies/*.json'
+  workflow_dispatch:
+    inputs:
+      language:
+        description: Language to import
+        required: true
+        type: choice
+        options: [es, en, all]
+        default: all
+      from:
+        description: First article number
+        required: true
+        default: '1'
+      to:
+        description: Last article number
+        required: true
+        default: '999999'
+      status:
+        description: WordPress status override
+        required: true
+        type: choice
+        options: [publish, draft, review, json]
+        default: json
+      force:
+        description: Force rewrite when hash is unchanged
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    outputs:
+      ready: ${{ steps.contract.outputs.ready }}
+    steps:
+      - name: Checkout triggering revision
+        uses: actions/checkout@v4
+
+      - name: Require Content Contract v2 before importing
+        id: contract
+        run: |
+          set -euo pipefail
+          if python3 - <<'PY'
+          import json
+          from pathlib import Path
+          bad=[]
+          for p in Path('content/articles').glob('*/*.json'):
+              d=json.loads(p.read_text(encoding='utf-8'))
+              if int(d.get('schema_version', 1) or 1) < 2:
+                  bad.append(str(p))
+          if bad:
+              print('Legacy JSON waiting for normalization:')
+              print('\n'.join(bad))
+              raise SystemExit(2)
+          PY
+          then
+            python3 platform/validate-content.py .
+            echo 'ready=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'ready=false' >> "$GITHUB_OUTPUT"
+          fi
+
+  import:
+    needs: preflight
+    if: needs.preflight.outputs.ready == 'true'
+    uses: ./.github/workflows/reusable-content-import.yml
+    with:
+      language: ${{ inputs.language || 'all' }}
+      from: ${{ inputs.from || '1' }}
+      to: ${{ inputs.to || '999999' }}
+      status: ${{ inputs.status || 'json' }}
+      force: ${{ inputs.force || false }}
+    secrets: inherit

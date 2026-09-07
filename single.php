@@ -34,6 +34,13 @@ while ( have_posts() ) : the_post();
 		}
 	}
 
+	if ( ! $hero_url ) {
+		$fallback_hero_file = get_template_directory() . '/assets/images/hq/hero-mother-baby.jpg';
+		if ( file_exists( $fallback_hero_file ) ) {
+			$hero_url = get_template_directory_uri() . '/assets/images/hq/hero-mother-baby.jpg';
+		}
+	}
+
 	$has_hero = (bool) $hero_url;
 	?>
 	<article class="single-article-premium">

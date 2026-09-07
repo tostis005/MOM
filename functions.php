@@ -273,7 +273,7 @@ function mom_render_post_card( $post_id ) {
 				<span class="card-kicker"><?php echo esc_html( mom_topic_label( $topic_id ) ); ?></span>
 				<h3 class="card-title"><?php echo esc_html( get_the_title( $post_id ) ); ?></h3>
 				<p class="card-excerpt"><?php echo esc_html( wp_trim_words( get_the_excerpt( $post_id ), 22 ) ); ?></p>
-				<div class="card-meta"><span><?php echo esc_html( mom_reading_time( $post_id ) ); ?></span><span>·</span><span><?php echo esc_html( get_the_date( '', $post_id ) ); ?></span></div>
+				<div class="card-meta"><span><?php echo esc_html( mom_reading_time( $post_id ) ); ?></span></div>
 			</div>
 		</a>
 	</article>
@@ -289,4 +289,9 @@ add_filter( 'body_class', 'mom_body_classes' );
 $mom_visual_taxonomy = get_template_directory() . '/inc/visual-taxonomy.php';
 if ( file_exists( $mom_visual_taxonomy ) ) {
 	require_once $mom_visual_taxonomy;
+}
+
+$mom_discovery_routing = get_template_directory() . '/inc/discovery-routing.php';
+if ( file_exists( $mom_discovery_routing ) ) {
+	require_once $mom_discovery_routing;
 }

@@ -1,16 +1,6 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
 en	1147	10	250	4	16.0	0.0	0	7	Getting tired of everyone constantly asking how your pregnancy is going	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/en/1147-tired-of-everyone-asking-about-pregnancy.json
 es	1147	10	247	4	16.19	0.0	0	7	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/es/1147-cansarte-preguntas-como-va-embarazo.json
-en	1131	9	210	4	19.05	0.0	0	6	Feeling like your body no longer belongs to you during pregnancy	body_under_350_words,high_h2_density	content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json
-en	1132	9	210	4	19.05	0.0	0	5	When everyone comments on your body because you are pregnant	body_under_350_words,high_h2_density	content/articles/en/1132-everyone-comments-on-pregnant-body.json
-en	1133	9	210	4	19.05	0.0	0	5	How to respond to comments about the size of your pregnant belly	body_under_350_words,high_h2_density	content/articles/en/1133-respond-comments-pregnant-belly-size.json
-en	1134	9	200	4	20.0	0.167	1	6	Not wanting other people to touch your belly during pregnancy	body_under_350_words,high_h2_density	content/articles/en/1134-not-want-people-touch-pregnant-belly.json
-en	1135	9	200	4	20.0	0.0	0	5	How to set boundaries when family members want to touch your pregnant belly	body_under_350_words,high_h2_density	content/articles/en/1135-boundaries-family-touch-pregnant-belly.json
-en	1136	9	199	4	20.1	0.0	0	5	Feeling uncomfortable with the attention you receive because you are pregnant	body_under_350_words,high_h2_density	content/articles/en/1136-uncomfortable-with-pregnancy-attention.json
-en	1137	9	219	4	18.26	0.0	0	5	Feeling like you stopped being yourself and became “the pregnant one”	body_under_350_words,high_h2_density	content/articles/en/1137-stopped-being-yourself-became-pregnant-one.json
-en	1138	9	186	4	21.51	0.0	0	5	Missing your pre-pregnancy body without feeling ungrateful	body_under_350_words,high_h2_density	content/articles/en/1138-missing-pre-pregnancy-body-without-guilt.json
-en	1139	9	198	4	20.2	0.0	0	5	Loving your pregnant belly some days and feeling uncomfortable with it on others	body_under_350_words,high_h2_density	content/articles/en/1139-love-pregnant-belly-some-days-uncomfortable-others.json
-en	1140	9	189	4	21.16	0.0	0	5	Feeling conflicting emotions when you look in the mirror during pregnancy	body_under_350_words,high_h2_density	content/articles/en/1140-conflicting-emotions-mirror-pregnancy.json
 en	1141	9	296	4	13.51	0.0	0	8	Not wanting pregnancy photos and feeling like you should want them	body_under_350_words,high_h2_density	content/articles/en/1141-not-want-pregnancy-photos.json
 en	1142	9	246	4	16.26	0.0	0	8	Not wanting to share your pregnancy on social media	body_under_350_words,high_h2_density	content/articles/en/1142-not-share-pregnancy-social-media.json
 en	1143	9	266	4	15.04	0.0	0	8	How to keep your pregnancy private when your family wants to tell everyone	body_under_350_words,high_h2_density	content/articles/en/1143-keep-pregnancy-private-family-wants-tell.json
@@ -20,16 +10,6 @@ en	1146	9	268	4	14.93	0.0	0	7	When your pregnancy starts to feel like public inf
 en	1148	9	272	4	14.71	0.0	0	8	How to respond when you do not want to talk about pregnancy all the time	body_under_350_words,high_h2_density	content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json
 en	1149	9	278	4	14.39	0.0	0	7	When everything is about the baby and you miss people asking about you	body_under_350_words,high_h2_density	content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json
 en	1150	9	287	4	13.94	0.0	0	7	How to maintain other parts of your identity while you are pregnant	body_under_350_words,high_h2_density	content/articles/en/1150-maintain-identity-during-pregnancy.json
-es	1131	9	223	4	17.94	0.0	0	6	Sentir que tu cuerpo deja de pertenecerte durante el embarazo	body_under_350_words,high_h2_density	content/articles/es/1131-sentir-cuerpo-deja-pertenecerte-embarazo.json
-es	1132	9	201	4	19.9	0.0	0	5	Cuando todo el mundo comenta tu cuerpo porque estás embarazada	body_under_350_words,high_h2_density	content/articles/es/1132-todo-mundo-comenta-cuerpo-embarazada.json
-es	1133	9	190	4	21.05	0.0	0	5	Cómo responder a comentarios sobre el tamaño de tu barriga	body_under_350_words,high_h2_density	content/articles/es/1133-responder-comentarios-tamano-barriga.json
-es	1134	9	198	4	20.2	0.167	1	6	No querer que otras personas toquen tu barriga durante el embarazo	body_under_350_words,high_h2_density	content/articles/es/1134-no-querer-que-toquen-barriga-embarazo.json
-es	1135	9	202	4	19.8	0.0	0	5	Cómo poner límites cuando familiares quieren tocarte la barriga	body_under_350_words,high_h2_density	content/articles/es/1135-poner-limites-familiares-tocar-barriga.json
-es	1136	9	205	4	19.51	0.0	0	5	Sentirte incómoda con la atención que recibes por estar embarazada	body_under_350_words,high_h2_density	content/articles/es/1136-incomoda-atencion-por-estar-embarazada.json
-es	1137	9	205	4	19.51	0.0	0	5	Sentir que has dejado de ser tú para convertirte en “la embarazada”	body_under_350_words,high_h2_density	content/articles/es/1137-dejar-ser-tu-convertirte-la-embarazada.json
-es	1138	9	195	4	20.51	0.0	0	5	Echar de menos tu cuerpo anterior durante el embarazo sin sentirte desagradecida	body_under_350_words,high_h2_density	content/articles/es/1138-echar-menos-cuerpo-anterior-embarazo.json
-es	1139	9	183	4	21.86	0.0	0	5	Amar tu barriga unos días y sentirte incómoda con ella otros	body_under_350_words,high_h2_density	content/articles/es/1139-amar-barriga-unos-dias-incomoda-otros.json
-es	1140	9	181	4	22.1	0.0	0	5	Sentir emociones contradictorias al mirarte al espejo durante el embarazo	body_under_350_words,high_h2_density	content/articles/es/1140-emociones-contradictorias-espejo-embarazo.json
 es	1141	9	309	4	12.94	0.0	0	8	No querer hacer fotos de embarazo y sentir que deberías quererlas	body_under_350_words,high_h2_density	content/articles/es/1141-no-querer-fotos-embarazo-sentir-deberias.json
 es	1142	9	252	4	15.87	0.0	0	8	No querer compartir tu embarazo en redes sociales	body_under_350_words,high_h2_density	content/articles/es/1142-no-querer-compartir-embarazo-redes-sociales.json
 es	1143	9	280	4	14.29	0.0	0	8	Cómo mantener tu embarazo privado cuando tu familia quiere contarlo todo	body_under_350_words,high_h2_density	content/articles/es/1143-mantener-embarazo-privado-familia-quiere-contarlo.json
@@ -320,6 +300,8 @@ en	1123	3	674	4	5.93	0.0	0	15	Feeling reassured after a pregnancy appointment an
 en	1124	3	653	4	6.13	0.0	0	14	The wait between pregnancy appointments when your mind will not stop thinking	body_under_800_words,elevated_h2_density	content/articles/en/1124-waiting-between-pregnancy-appointments.json
 en	1125	3	685	4	5.84	0.0	0	15	Feeling afraid to buy things for the baby too early	body_under_800_words,elevated_h2_density	content/articles/en/1125-afraid-to-buy-baby-things-too-early.json
 en	1127	3	655	4	6.11	0.0	0	15	Feeling like you cannot fully relax during pregnancy	body_under_800_words,elevated_h2_density	content/articles/en/1127-cannot-fully-relax-pregnancy.json
+en	1134	3	654	4	6.12	0.0	0	15	Not wanting other people to touch your belly during pregnancy	body_under_800_words,elevated_h2_density	content/articles/en/1134-not-want-people-touch-pregnant-belly.json
+en	1135	3	681	4	5.87	0.0	0	15	How to set boundaries when family members want to touch your pregnant belly	body_under_800_words,elevated_h2_density	content/articles/en/1135-boundaries-family-touch-pregnant-belly.json
 es	11	3	843	6	7.12	0.1	1	30	Despertares nocturnos: cómo responder de forma respetuosa y sostenible para la familia	body_under_1050_words,high_h2_density	content/articles/es/011-despertares-nocturnos-responder-respeto.json
 es	12	3	897	6	6.69	0.069	1	29	Actividades para toddlers en casa que realmente mantienen su interés	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/012-actividades-toddlers-en-casa.json
 es	13	3	836	6	7.18	0.037	1	27	Regresiones del sueño: cómo atravesarlas con calma	body_under_1050_words,high_h2_density	content/articles/es/013-regresiones-sueno-calma.json
@@ -381,6 +363,9 @@ es	1119	3	650	4	6.15	0.0	0	15	Miedo a no sentir suficiente amor por tu bebé cua
 es	1127	3	651	4	6.14	0.0	0	15	Sentir que no puedes relajarte del todo durante el embarazo	body_under_800_words,elevated_h2_density	content/articles/es/1127-no-poder-relajarte-embarazo.json
 es	1128	3	674	4	5.93	0.0	0	15	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	body_under_800_words,elevated_h2_density	content/articles/es/1128-buscar-tranquilidad-embarazo-nunca-dura.json
 es	1130	3	675	4	5.93	0.0	0	15	Cómo reducir la comparación con otras embarazadas en redes sociales	body_under_800_words,elevated_h2_density	content/articles/es/1130-reducir-comparacion-embarazadas-redes-sociales.json
+es	1132	3	684	4	5.85	0.0	0	15	Cuando todo el mundo comenta tu cuerpo porque estás embarazada	body_under_800_words,elevated_h2_density	content/articles/es/1132-todo-mundo-comenta-cuerpo-embarazada.json
+es	1134	3	650	4	6.15	0.0	0	15	No querer que otras personas toquen tu barriga durante el embarazo	body_under_800_words,elevated_h2_density	content/articles/es/1134-no-querer-que-toquen-barriga-embarazo.json
+es	1140	3	684	4	5.85	0.0	0	15	Sentir emociones contradictorias al mirarte al espejo durante el embarazo	body_under_800_words,elevated_h2_density	content/articles/es/1140-emociones-contradictorias-espejo-embarazo.json
 en	15	2	944	6	6.36	0.033	1	30	Positive Discipline vs. Respectful Parenting: Similarities, Differences and How They Fit Together	body_under_1050_words,elevated_h2_density	content/articles/en/015-positive-discipline-vs-respectful-parenting.json
 en	18	2	876	6	6.85	0.032	1	31	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure	body_under_1050_words,elevated_h2_density	content/articles/en/018-baby-led-feeding-table-autonomy.json
 en	19	2	939	6	6.39	0.133	1	30	How to Prepare Your Home for a Baby Without Buying Too Much	body_under_1050_words,elevated_h2_density	content/articles/en/019-prepare-home-for-baby-without-overbuying.json
@@ -447,6 +432,13 @@ en	1122	2	736	4	5.43	0.0	0	15	How to live with emotional uncertainty during preg
 en	1126	2	714	4	5.6	0.0	0	14	Feeling afraid to get too excited about the pregnancy	body_under_800_words	content/articles/en/1126-afraid-to-get-too-excited-pregnancy.json
 en	1128	2	702	4	5.7	0.0	0	15	Constantly seeking reassurance during pregnancy and feeling like it never lasts	body_under_800_words	content/articles/en/1128-constant-reassurance-never-lasts-pregnancy.json
 en	1130	2	736	4	5.43	0.0	0	15	How to reduce comparison with other pregnant women on social media	body_under_800_words	content/articles/en/1130-reduce-pregnancy-comparison-social-media.json
+en	1132	2	715	4	5.59	0.0	0	15	When everyone comments on your body because you are pregnant	body_under_800_words	content/articles/en/1132-everyone-comments-on-pregnant-body.json
+en	1133	2	729	4	5.49	0.0	0	15	How to respond to comments about the size of your pregnant belly	body_under_800_words	content/articles/en/1133-respond-comments-pregnant-belly-size.json
+en	1136	2	713	4	5.61	0.0	0	15	Feeling uncomfortable with the attention you receive because you are pregnant	body_under_800_words	content/articles/en/1136-uncomfortable-with-pregnancy-attention.json
+en	1137	2	753	4	5.31	0.0	0	16	Feeling like you stopped being yourself and became “the pregnant one”	body_under_800_words	content/articles/en/1137-stopped-being-yourself-became-pregnant-one.json
+en	1138	2	715	4	5.59	0.0	0	15	Missing your pre-pregnancy body without feeling ungrateful	body_under_800_words	content/articles/en/1138-missing-pre-pregnancy-body-without-guilt.json
+en	1139	2	739	4	5.41	0.0	0	15	Loving your pregnant belly some days and feeling uncomfortable with it on others	body_under_800_words	content/articles/en/1139-love-pregnant-belly-some-days-uncomfortable-others.json
+en	1140	2	692	4	5.78	0.0	0	15	Feeling conflicting emotions when you look in the mirror during pregnancy	body_under_800_words	content/articles/en/1140-conflicting-emotions-mirror-pregnancy.json
 es	3	2	1375	8	5.82	0.089	1	45	Rabietas: cómo acompañarlas con calma, límites y conexión	elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/003-rabietas-acompanar-calma-limites-conexion.json
 es	16	2	861	6	6.97	0.034	1	29	Rutina de noche para niños pequeños: pasos sencillos que favorecen la cooperación	body_under_1050_words,elevated_h2_density	content/articles/es/016-rutina-noche-ninos-pequenos.json
 es	18	2	913	6	6.57	0.038	1	26	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	body_under_1050_words,elevated_h2_density	content/articles/es/018-baby-led-feeding-autonomia-mesa.json
@@ -517,6 +509,12 @@ es	1121	2	822	4	4.87	0.0	0	15	Pensar constantemente “¿y si algo sale mal?” 
 es	1122	2	739	4	5.41	0.0	0	15	Cómo convivir con la incertidumbre emocional durante el embarazo	body_under_800_words	content/articles/es/1122-convivir-incertidumbre-emocional-embarazo.json
 es	1123	2	757	4	5.28	0.0	0	15	Sentir tranquilidad después de una cita del embarazo y volver a preocuparte pocas horas después	body_under_800_words	content/articles/es/1123-tranquila-tras-cita-y-volver-preocuparte.json
 es	1125	2	711	4	5.63	0.0	0	15	Miedo a comprar cosas para el bebé demasiado pronto	body_under_800_words	content/articles/es/1125-miedo-comprar-cosas-bebe-demasiado-pronto.json
+es	1133	2	729	4	5.49	0.0	0	15	Cómo responder a comentarios sobre el tamaño de tu barriga	body_under_800_words	content/articles/es/1133-responder-comentarios-tamano-barriga.json
+es	1135	2	711	4	5.63	0.0	0	15	Cómo poner límites cuando familiares quieren tocarte la barriga	body_under_800_words	content/articles/es/1135-poner-limites-familiares-tocar-barriga.json
+es	1136	2	702	4	5.7	0.0	0	15	Sentirte incómoda con la atención que recibes por estar embarazada	body_under_800_words	content/articles/es/1136-incomoda-atencion-por-estar-embarazada.json
+es	1137	2	772	4	5.18	0.0	0	16	Sentir que has dejado de ser tú para convertirte en “la embarazada”	body_under_800_words	content/articles/es/1137-dejar-ser-tu-convertirte-la-embarazada.json
+es	1138	2	744	4	5.38	0.0	0	15	Echar de menos tu cuerpo anterior durante el embarazo sin sentirte desagradecida	body_under_800_words	content/articles/es/1138-echar-menos-cuerpo-anterior-embarazo.json
+es	1139	2	724	4	5.52	0.0	0	15	Amar tu barriga unos días y sentirte incómoda con ella otros	body_under_800_words	content/articles/es/1139-amar-barriga-unos-dias-incomoda-otros.json
 en	91	1	956	5	5.23	0.0	0	15	How to talk with teachers when you disagree with how behavior was handled	body_under_1050_words	content/articles/en/091-talk-teachers-disagree-behavior-handling.json
 en	93	1	959	5	5.21	0.0	0	17	Flying with a baby: packing, logistics, and realistic expectations	body_under_1050_words	content/articles/en/093-flying-baby-logistics-packing.json
 en	94	1	900	5	5.56	0.0	0	17	Flying with a toddler: how to prepare for the trip	body_under_1050_words	content/articles/en/094-flying-toddler-prepare-trip.json
@@ -546,6 +544,7 @@ en	1020	1	1070	7	6.54	0.057	1	35	How to Build an Adult Identity That Includes Mo
 en	1091	1	812	4	4.93	0.0	0	15	Feeling like other moms handle everything better than you	body_under_1050_words	content/articles/en/1091-other-moms-seem-to-handle-everything-better.json
 en	1104	1	859	4	4.66	0.0	0	14	Feeling guilty for complaining about pregnancy when you wanted to be a mother	body_under_1050_words	content/articles/en/1104-guilt-complaining-about-wanted-pregnancy.json
 en	1118	1	805	4	4.97	0.0	0	15	Fear that you will stop being a couple and become only parents	body_under_1050_words	content/articles/en/1118-fear-becoming-only-parents-not-couple.json
+en	1131	1	862	4	4.64	0.0	0	15	Feeling like your body no longer belongs to you during pregnancy	body_under_1050_words	content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json
 es	1	1	1630	8	4.91	0.041	1	49	Crianza respetuosa: qué significa de verdad y cómo aplicarla sin caer en extremos	repeated_no_necesitas_pattern	content/articles/es/001-crianza-respetuosa.json
 es	4	1	1578	8	5.07	0.065	1	46	Potty training o dejar el pañal: guía respetuosa sin premios ni presión	repeated_no_significa_pattern	content/articles/es/004-potty-training-sin-premios-presion.json
 es	81	1	890	5	5.62	0.0	0	19	Cómo pasar del orinal al inodoro con una transición gradual	body_under_1050_words	content/articles/es/081-transicion-orinal-inodoro-gradual.json
@@ -578,6 +577,7 @@ es	1005	1	1087	7	6.44	0.0	0	35	Culpa por desear que llegue la hora de dormir de 
 es	1006	1	1166	7	6.0	0.026	1	38	Culpa por mirar el móvil mientras tus hijos juegan	elevated_h2_density	content/articles/es/1006-culpa-movil-mientras-hijos-juegan.json
 es	1047	1	910	5	5.49	0.0	0	24	La presión de no repetir ningún error de tus propios padres	body_under_1050_words	content/articles/es/1047-presion-no-repetir-errores-de-tus-padres.json
 es	1091	1	829	4	4.83	0.0	0	15	Sentir que otras madres parecen llevarlo todo mejor que tú	body_under_1050_words	content/articles/es/1091-otras-madres-parecen-llevarlo-mejor.json
+es	1131	1	822	4	4.87	0.0	0	15	Sentir que tu cuerpo deja de pertenecerte durante el embarazo	body_under_1050_words	content/articles/es/1131-sentir-cuerpo-deja-pertenecerte-embarazo.json
 en	1	0	1524	8	5.25	0.02	1	49	Respectful Parenting: What It Really Means and How to Use It Without Going to Extremes		content/articles/en/001-respectful-parenting.json
 en	2	0	1380	7	5.07	0.102	1	49	Baby Bedtime Routine: How to Make Nights More Predictable Without Being Rigid		content/articles/en/002-baby-bedtime-routine.json
 en	3	0	1209	7	5.79	0.081	1	37	Toddler Tantrums: How to Respond With Calm, Limits and Connection		content/articles/en/003-toddler-tantrums-calm-limits-connection.json

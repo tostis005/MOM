@@ -1,15 +1,5 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
 1147	1147-tired-of-everyone-asking-about-pregnancy	10	10	10	247	250	4	4	0.0	0.0	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	Getting tired of everyone constantly asking how your pregnancy is going
-1131	1131-body-no-longer-feels-like-yours-pregnancy	9	9	9	223	210	4	4	0.0	0.0	Sentir que tu cuerpo deja de pertenecerte durante el embarazo	Feeling like your body no longer belongs to you during pregnancy
-1132	1132-everyone-comments-on-pregnant-body	9	9	9	201	210	4	4	0.0	0.0	Cuando todo el mundo comenta tu cuerpo porque estás embarazada	When everyone comments on your body because you are pregnant
-1133	1133-respond-comments-pregnant-belly-size	9	9	9	190	210	4	4	0.0	0.0	Cómo responder a comentarios sobre el tamaño de tu barriga	How to respond to comments about the size of your pregnant belly
-1134	1134-not-want-people-touch-pregnant-belly	9	9	9	198	200	4	4	0.167	0.167	No querer que otras personas toquen tu barriga durante el embarazo	Not wanting other people to touch your belly during pregnancy
-1135	1135-boundaries-family-touch-pregnant-belly	9	9	9	202	200	4	4	0.0	0.0	Cómo poner límites cuando familiares quieren tocarte la barriga	How to set boundaries when family members want to touch your pregnant belly
-1136	1136-uncomfortable-with-pregnancy-attention	9	9	9	205	199	4	4	0.0	0.0	Sentirte incómoda con la atención que recibes por estar embarazada	Feeling uncomfortable with the attention you receive because you are pregnant
-1137	1137-stopped-being-yourself-became-pregnant-one	9	9	9	205	219	4	4	0.0	0.0	Sentir que has dejado de ser tú para convertirte en “la embarazada”	Feeling like you stopped being yourself and became “the pregnant one”
-1138	1138-missing-pre-pregnancy-body-without-guilt	9	9	9	195	186	4	4	0.0	0.0	Echar de menos tu cuerpo anterior durante el embarazo sin sentirte desagradecida	Missing your pre-pregnancy body without feeling ungrateful
-1139	1139-love-pregnant-belly-some-days-uncomfortable-others	9	9	9	183	198	4	4	0.0	0.0	Amar tu barriga unos días y sentirte incómoda con ella otros	Loving your pregnant belly some days and feeling uncomfortable with it on others
-1140	1140-conflicting-emotions-mirror-pregnancy	9	9	9	181	189	4	4	0.0	0.0	Sentir emociones contradictorias al mirarte al espejo durante el embarazo	Feeling conflicting emotions when you look in the mirror during pregnancy
 1141	1141-not-want-pregnancy-photos	9	9	9	309	296	4	4	0.0	0.0	No querer hacer fotos de embarazo y sentir que deberías quererlas	Not wanting pregnancy photos and feeling like you should want them
 1142	1142-not-share-pregnancy-social-media	9	9	9	252	246	4	4	0.0	0.0	No querer compartir tu embarazo en redes sociales	Not wanting to share your pregnancy on social media
 1143	1143-keep-pregnancy-private-family-wants-tell	9	9	9	280	266	4	4	0.0	0.0	Cómo mantener tu embarazo privado cuando tu familia quiere contarlo todo	How to keep your pregnancy private when your family wants to tell everyone
@@ -207,6 +197,10 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1127	1127-cannot-fully-relax-pregnancy	3	3	3	651	655	4	4	0.0	0.0	Sentir que no puedes relajarte del todo durante el embarazo	Feeling like you cannot fully relax during pregnancy
 1128	1128-constant-reassurance-never-lasts-pregnancy	3	3	2	674	702	4	4	0.0	0.0	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	Constantly seeking reassurance during pregnancy and feeling like it never lasts
 1130	1130-reduce-pregnancy-comparison-social-media	3	3	2	675	736	4	4	0.0	0.0	Cómo reducir la comparación con otras embarazadas en redes sociales	How to reduce comparison with other pregnant women on social media
+1132	1132-everyone-comments-on-pregnant-body	3	3	2	684	715	4	4	0.0	0.0	Cuando todo el mundo comenta tu cuerpo porque estás embarazada	When everyone comments on your body because you are pregnant
+1134	1134-not-want-people-touch-pregnant-belly	3	3	3	650	654	4	4	0.0	0.0	No querer que otras personas toquen tu barriga durante el embarazo	Not wanting other people to touch your belly during pregnancy
+1135	1135-boundaries-family-touch-pregnant-belly	3	2	3	711	681	4	4	0.0	0.0	Cómo poner límites cuando familiares quieren tocarte la barriga	How to set boundaries when family members want to touch your pregnant belly
+1140	1140-conflicting-emotions-mirror-pregnancy	3	3	2	684	692	4	4	0.0	0.0	Sentir emociones contradictorias al mirarte al espejo durante el embarazo	Feeling conflicting emotions when you look in the mirror during pregnancy
 3	003-tantrums-calm-limits-connection	2	2	0	1375	1209	8	7	0.089	0.081	Rabietas: cómo acompañarlas con calma, límites y conexión	Toddler Tantrums: How to Respond With Calm, Limits and Connection
 18	018-baby-led-feeding-table-autonomy	2	2	2	913	876	6	6	0.038	0.032	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure
 19	019-prepare-home-for-baby-without-overbuying	2	2	2	898	939	6	6	0.067	0.133	Cómo preparar la casa para la llegada del bebé sin comprar de más	How to Prepare Your Home for a Baby Without Buying Too Much
@@ -266,6 +260,11 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1110	1110-feel-different-from-more-excited-pregnant-women	2	2	2	755	748	4	4	0.0	0.0	Sentirte diferente de otras embarazadas que parecen más emocionadas	Feeling different from other pregnant women who seem more excited
 1121	1121-what-if-something-goes-wrong-pregnancy	2	2	2	822	802	4	4	0.0	0.0	Pensar constantemente “¿y si algo sale mal?” durante el embarazo	Constantly thinking “what if something goes wrong?” during pregnancy
 1122	1122-live-with-emotional-uncertainty-pregnancy	2	2	2	739	736	4	4	0.0	0.0	Cómo convivir con la incertidumbre emocional durante el embarazo	How to live with emotional uncertainty during pregnancy
+1133	1133-respond-comments-pregnant-belly-size	2	2	2	729	729	4	4	0.0	0.0	Cómo responder a comentarios sobre el tamaño de tu barriga	How to respond to comments about the size of your pregnant belly
+1136	1136-uncomfortable-with-pregnancy-attention	2	2	2	702	713	4	4	0.0	0.0	Sentirte incómoda con la atención que recibes por estar embarazada	Feeling uncomfortable with the attention you receive because you are pregnant
+1137	1137-stopped-being-yourself-became-pregnant-one	2	2	2	772	753	4	4	0.0	0.0	Sentir que has dejado de ser tú para convertirte en “la embarazada”	Feeling like you stopped being yourself and became “the pregnant one”
+1138	1138-missing-pre-pregnancy-body-without-guilt	2	2	2	744	715	4	4	0.0	0.0	Echar de menos tu cuerpo anterior durante el embarazo sin sentirte desagradecida	Missing your pre-pregnancy body without feeling ungrateful
+1139	1139-love-pregnant-belly-some-days-uncomfortable-others	2	2	2	724	739	4	4	0.0	0.0	Amar tu barriga unos días y sentirte incómoda con ella otros	Loving your pregnant belly some days and feeling uncomfortable with it on others
 1	001-respectful-parenting	1	1	0	1630	1524	8	8	0.041	0.02	Crianza respetuosa: qué significa de verdad y cómo aplicarla sin caer en extremos	Respectful Parenting: What It Really Means and How to Use It Without Going to Extremes
 4	004-potty-training-without-pressure	1	1	0	1578	1492	8	8	0.065	0.067	Potty training o dejar el pañal: guía respetuosa sin premios ni presión	Potty Training Without Pressure: A Respectful Guide Without Rewards
 93	093-flying-baby-logistics-packing-expectations	1	1	1	914	959	5	5	0.0	0.0	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	Flying with a baby: packing, logistics, and realistic expectations
@@ -291,6 +290,7 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1002	1002-guilt-needing-break-from-kids	1	1	1	1087	1091	7	7	0.053	0.029	Culpa por necesitar un descanso de tus hijos: por qué aparece y cómo mirarla de otra manera	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently
 1009	1009-guilt-weekend-without-kids	1	0	1	1792	1059	8	7	0.016	0.029	Culpa por querer pasar un fin de semana sin los niños	Feeling Guilty for Wanting a Weekend Away Without the Kids
 1091	1091-other-moms-seem-to-handle-everything-better	1	1	1	829	812	4	4	0.0	0.0	Sentir que otras madres parecen llevarlo todo mejor que tú	Feeling like other moms handle everything better than you
+1131	1131-body-no-longer-feels-like-yours-pregnancy	1	1	1	822	862	4	4	0.0	0.0	Sentir que tu cuerpo deja de pertenecerte durante el embarazo	Feeling like your body no longer belongs to you during pregnancy
 2	002-baby-bedtime-routine	0	0	0	1625	1380	8	7	0.118	0.102	Rutina de sueño del bebé: cómo crear noches más predecibles sin rigidez	Baby Bedtime Routine: How to Make Nights More Predictable Without Being Rigid
 5	005-baby-registry-essentials	0	0	0	1348	1262	7	7	0.133	0.143	Baby registry: qué merece la pena incluir y qué puedes saltarte	Baby Registry Essentials: What’s Worth Adding and What You Can Skip
 6	006-toddler-bedtime-without-battles	0	0	0	1529	1305	8	7	0.041	0.025	Sueño del toddler: cómo acompañar la hora de dormir sin convertirla en una batalla	Toddler Bedtime: How to Handle Sleep Without Turning It Into a Battle

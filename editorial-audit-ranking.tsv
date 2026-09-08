@@ -1,7 +1,5 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
 en	13	5	780	6	7.69	0.04	1	25	Sleep Regressions: How to Get Through Them Without Changing Everything	body_under_800_words,high_h2_density,many_question_paragraphs	content/articles/en/013-sleep-regressions-calm.json
-en	54	5	614	5	8.14	0.0	0	16	Newborn Routine: How Structure Can Help Without Expecting Predictability	body_under_650_words,high_h2_density	content/articles/en/054-newborn-routine-structure-without-predictability.json
-en	55	5	626	5	7.99	0.0	0	16	How to Leave the House With a Baby Without Packing Half the House	body_under_650_words,high_h2_density	content/articles/en/055-leaving-house-with-baby-without-packing-everything.json
 en	1022	5	586	5	8.53	0.056	1	18	Loving your kids and missing your old freedom at the same time	body_under_650_words,high_h2_density	content/articles/en/1022-love-kids-miss-freedom-before.json
 en	1023	5	616	5	8.12	0.1	1	20	Missing your pre-kids life during an exhausting season of parenting	body_under_650_words,high_h2_density	content/articles/en/1023-nostalgia-childfree-life-exhausting-season.json
 en	1024	5	592	5	8.45	0.05	1	20	Missing spontaneity after becoming a mom	body_under_650_words,high_h2_density	content/articles/en/1024-missing-spontaneity-after-motherhood.json
@@ -18,8 +16,6 @@ en	1052	5	634	5	7.89	0.0	0	17	Loving Your Kids and Getting Bored Playing With Th
 en	1053	5	564	5	8.87	0.0	0	16	How to Connect With Your Kids If You Are Not a Very Playful Mom	body_under_650_words,high_h2_density	content/articles/en/1053-connect-with-kids-if-not-playful-mom.json
 en	1054	5	525	5	9.52	0.176	1	17	Preferring Reading or Walking With Your Kids Instead of Playing on the Floor	body_under_650_words,high_h2_density	content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json
 en	1055	5	641	5	7.8	0.0	0	16	Feeling Guilty Because Your Partner Enjoys Playing With the Kids More Than You Do	body_under_650_words,high_h2_density	content/articles/en/1055-guilt-partner-enjoys-playing-with-kids-more.json
-es	54	5	633	5	7.9	0.0	0	16	Rutina con un recién nacido: qué puede aportar estructura sin esperar previsibilidad	body_under_650_words,high_h2_density	content/articles/es/054-rutina-recien-nacido-estructura-sin-previsibilidad.json
-es	55	5	604	5	8.28	0.0	0	16	Cómo salir de casa con un bebé sin llevar media casa en la bolsa	body_under_650_words,high_h2_density	content/articles/es/055-salir-casa-bebe-sin-llevar-media-casa.json
 es	1023	5	625	5	8.0	0.0	0	19	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	body_under_650_words,high_h2_density	content/articles/es/1023-nostalgia-vida-sin-hijos-etapa-agotadora.json
 es	1025	5	593	5	8.43	0.05	1	20	Echar de menos poder salir de casa sin planificar nada desde que tienes hijos	body_under_650_words,high_h2_density	content/articles/es/1025-echar-menos-salir-casa-sin-planificar.json
 es	1026	5	609	5	8.21	0.045	1	22	Echar de menos el silencio después de tener hijos pequeños	body_under_650_words,high_h2_density	content/articles/es/1026-echar-menos-silencio-despues-hijos-pequenos.json
@@ -34,9 +30,6 @@ es	1053	5	600	5	8.33	0.0	0	16	Formas de conectar con tus hijos si no eres una ma
 es	1054	5	546	5	9.16	0.118	1	17	Preferir leer o pasear con tus hijos en vez de jugar en el suelo	body_under_650_words,high_h2_density	content/articles/es/1054-preferir-leer-pasear-hijos-en-vez-jugar-suelo.json
 es	1055	5	628	5	7.96	0.0	0	16	Sentir culpa porque tu pareja disfruta más jugando con los niños que tú	body_under_650_words,high_h2_density	content/articles/es/1055-culpa-pareja-disfruta-mas-jugando-ninos.json
 en	17	4	789	6	7.6	0.107	1	28	How to Get More Cooperation Without Repeating Yourself Twenty Times	body_under_800_words,high_h2_density	content/articles/en/017-cooperation-without-repeating.json
-en	51	4	656	5	7.62	0.0	0	14	Postpartum Visitors: How to Set Boundaries That Protect Your New Family	body_under_800_words,high_h2_density	content/articles/en/051-postpartum-visitors-boundaries.json
-en	52	4	676	5	7.4	0.0	0	16	Postpartum Without Perfectionism: Simplifying the House, Visitors and Expectations	body_under_800_words,high_h2_density	content/articles/en/052-postpartum-without-perfectionism.json
-en	53	4	653	5	7.66	0.0	0	16	How to Organize the First Weeks With a Newborn Without Creating a Perfect Schedule	body_under_800_words,high_h2_density	content/articles/en/053-first-weeks-newborn-without-perfect-schedule.json
 en	145	4	639	4	6.26	0.0	0	14	How to decide which bedtime battles are not worth having	body_under_650_words,elevated_h2_density	content/articles/en/145-choose-bedtime-battles-worth-having.json
 en	148	4	600	4	6.67	0.0	0	14	Why another family's sleep schedule may not work for yours	body_under_650_words,elevated_h2_density	content/articles/en/148-other-families-sleep-schedules-may-not-fit-yours.json
 en	149	4	646	4	6.19	0.0	0	15	How to use a sleep log without turning it into an obsession	body_under_650_words,elevated_h2_density	content/articles/en/149-use-sleep-log-without-obsession.json
@@ -72,9 +65,6 @@ en	1119	4	640	4	6.25	0.0	0	15	Fear that you won't feel enough love for your baby
 en	1120	4	645	4	6.2	0.0	0	15	Fear that you won't know what your newborn needs	body_under_650_words,elevated_h2_density	content/articles/en/1120-fear-not-knowing-what-newborn-needs.json
 en	1129	4	606	4	6.6	0.0	0	15	Comparing your pregnancy with other women's and starting to worry about everything	body_under_650_words,elevated_h2_density	content/articles/en/1129-compare-pregnancy-to-others-and-worry.json
 en	1145	4	640	4	6.25	0.0	0	14	How to decide which pregnancy details you want to share and which you do not	body_under_650_words,elevated_h2_density	content/articles/en/1145-decide-pregnancy-details-to-share.json
-es	51	4	697	5	7.17	0.0	0	14	Visitas después del parto: cómo establecer límites que protejan a la nueva familia	body_under_800_words,high_h2_density	content/articles/es/051-visitas-despues-parto-limites.json
-es	52	4	676	5	7.4	0.0	0	16	Posparto sin perfeccionismo: cómo simplificar casa, visitas y expectativas	body_under_800_words,high_h2_density	content/articles/es/052-posparto-sin-perfeccionismo.json
-es	53	4	662	5	7.55	0.0	0	16	Cómo organizar las primeras semanas con un recién nacido sin intentar crear un horario perfecto	body_under_800_words,high_h2_density	content/articles/es/053-primeras-semanas-recien-nacido-sin-horario-perfecto.json
 es	145	4	619	4	6.46	0.0	0	14	Cómo decidir qué batallas no merece la pena librar a la hora de dormir	body_under_650_words,elevated_h2_density	content/articles/es/145-batallas-no-merecen-pena-hora-dormir.json
 es	148	4	606	4	6.6	0.0	0	14	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	body_under_650_words,elevated_h2_density	content/articles/es/148-horarios-sueno-otras-familias-no-tienen-funcionar.json
 es	149	4	647	4	6.18	0.0	0	15	Cómo usar un registro de sueño sin convertirlo en una obsesión	body_under_650_words,elevated_h2_density	content/articles/es/149-registro-sueno-sin-obsesion.json
@@ -121,11 +111,6 @@ en	12	3	880	6	6.82	0.065	1	31	Toddler Activities at Home That Actually Hold Thei
 en	14	3	872	6	6.88	0.071	1	28	How to Choose a Daycare: Questions That Matter Before You Decide	body_under_1050_words,elevated_h2_density,many_question_paragraphs	content/articles/en/014-how-to-choose-daycare.json
 en	16	3	836	6	7.18	0.036	1	28	A Toddler Bedtime Routine That Encourages Cooperation Without Becoming a Battle	body_under_1050_words,high_h2_density	content/articles/en/016-toddler-bedtime-routine.json
 en	20	3	1002	7	6.99	0.125	1	32	What to Pack in Your Hospital Bag: A Practical, Minimalist List	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/en/020-hospital-bag-practical-minimalist.json
-en	56	3	641	3	4.68	0.0	0	15	Baby diaper bag essentials: what you actually need for everyday outings	body_under_650_words	content/articles/en/056-baby-diaper-bag-essentials-everyday-outings.json
-en	57	3	599	3	5.01	0.0	0	15	How to dress a newborn without buying a closet full of clothes	body_under_650_words	content/articles/en/057-dress-newborn-without-buying-too-many-clothes.json
-en	58	3	587	3	5.11	0.067	1	15	What to buy before the baby arrives — and what can wait	body_under_650_words	content/articles/en/058-what-to-buy-before-baby-arrives-what-can-wait.json
-en	59	3	562	3	5.34	0.0	0	15	Baby nursery ideas for a practical, calm space that can grow	body_under_650_words	content/articles/en/059-baby-nursery-practical-calm-space-that-grows.json
-en	60	3	560	3	5.36	0.0	0	15	Modern baby shower ideas that do not feel like the same party every time	body_under_650_words	content/articles/en/060-modern-baby-shower-ideas-different.json
 en	62	3	684	4	5.85	0.0	0	15	Breastfeeding and partners: practical ways to support without taking over	body_under_800_words,elevated_h2_density	content/articles/en/062-breastfeeding-partner-support-without-taking-over.json
 en	64	3	665	4	6.02	0.0	0	15	Returning to work while breastfeeding: organize the logistics without creating a second job	body_under_800_words,elevated_h2_density	content/articles/en/064-return-to-work-breastfeeding-logistics.json
 en	65	3	675	4	5.93	0.0	0	15	Respectful weaning: how to make changes with connection and clear boundaries	body_under_800_words,elevated_h2_density	content/articles/en/065-respectful-weaning-connection-boundaries.json
@@ -188,11 +173,6 @@ es	14	3	867	6	6.92	0.036	1	28	Cómo elegir daycare o guardería: preguntas impor
 es	15	3	993	7	7.05	0.0	0	33	Disciplina positiva y crianza respetuosa: similitudes, diferencias y cómo usarlas	body_under_1050_words,high_h2_density	content/articles/es/015-disciplina-positiva-vs-crianza-respetuosa.json
 es	17	3	828	6	7.25	0.069	1	29	Cómo conseguir cooperación sin repetir las cosas veinte veces	body_under_1050_words,high_h2_density	content/articles/es/017-cooperacion-sin-repetir-veinte-veces.json
 es	20	3	1021	7	6.86	0.067	1	30	Qué llevar en la bolsa del hospital: lista práctica y minimalista	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/020-bolsa-hospital-lista-practica-minimalista.json
-es	56	3	642	3	4.67	0.0	0	15	Bolsa del bebé: qué llevar de verdad para el día a día	body_under_650_words	content/articles/es/056-bolsa-bebe-que-llevar-dia-a-dia.json
-es	57	3	590	3	5.08	0.0	0	15	Cómo vestir a un recién nacido sin llenar el armario de ropa que apenas usará	body_under_650_words	content/articles/es/057-vestir-recien-nacido-sin-llenar-armario.json
-es	58	3	586	3	5.12	0.067	1	15	Qué comprar antes de que nazca el bebé y qué puede esperar	body_under_650_words	content/articles/es/058-que-comprar-antes-nazca-bebe-que-puede-esperar.json
-es	59	3	574	3	5.23	0.0	0	15	Habitación del bebé: cómo crear un espacio práctico, calmado y duradero	body_under_650_words	content/articles/es/059-habitacion-bebe-espacio-practico-calmado-duradero.json
-es	60	3	578	3	5.19	0.0	0	15	Baby shower: ideas actuales para celebrarlo sin que parezca siempre lo mismo	body_under_650_words	content/articles/es/060-baby-shower-ideas-actuales-diferentes.json
 es	62	3	703	4	5.69	0.0	0	15	Lactancia y pareja: formas concretas de apoyar sin invadir ni dirigir	body_under_800_words,many_question_paragraphs	content/articles/es/062-lactancia-pareja-como-apoyar-sin-dirigir.json
 es	64	3	673	4	5.94	0.0	0	15	Vuelta al trabajo y lactancia: cómo organizar la logística sin convertirla en otro trabajo	body_under_800_words,elevated_h2_density	content/articles/es/064-vuelta-trabajo-lactancia-organizar-logistica.json
 es	65	3	661	4	6.05	0.0	0	15	Destete respetuoso: cómo plantear el cambio con conexión y límites	body_under_800_words,elevated_h2_density	content/articles/es/065-destete-respetuoso-conexion-limites.json
@@ -259,6 +239,8 @@ en	47	2	736	4	5.43	0.05	1	20	Coparenting When You Don’t Always Agree: How to S
 en	48	2	790	4	5.06	0.0	0	18	Involved Fatherhood From the Start: Real Ways to Connect With Your Baby	body_under_800_words	content/articles/en/048-involved-fatherhood-connect-with-baby.json
 en	49	2	750	4	5.33	0.0	0	20	How to Take Care of Your Relationship After Kids Without Making It Another Chore	body_under_800_words	content/articles/en/049-care-for-relationship-after-kids-without-another-chore.json
 en	50	2	763	4	5.24	0.05	1	20	How to Set Boundaries With Grandparents and Family Without Breaking the Relationship	body_under_800_words	content/articles/en/050-boundaries-with-grandparents-without-breaking-relationship.json
+en	51	2	918	4	4.36	0.0	0	14	Postpartum Visitors: How to Set Boundaries That Protect Your New Family	body_under_1050_words,many_long_paragraphs	content/articles/en/051-postpartum-visitors-boundaries.json
+en	59	2	779	4	5.13	0.0	0	18	Baby nursery ideas for a practical, calm space that can grow	body_under_800_words	content/articles/en/059-baby-nursery-practical-calm-space-that-grows.json
 en	61	2	730	4	5.48	0.0	0	15	How to create a practical breastfeeding corner without buying unnecessary gear	body_under_800_words	content/articles/en/061-practical-breastfeeding-corner-without-unnecessary-gear.json
 en	63	2	738	4	5.42	0.0	0	15	Breastfeeding in public: practical ways to feel more comfortable and prepared	body_under_800_words	content/articles/en/063-breastfeeding-in-public-feel-comfortable-prepared.json
 en	66	2	693	4	5.77	0.0	0	16	Night feeding and sharing the load: how couples can organize baby wake-ups	body_under_800_words	content/articles/en/066-night-feeding-share-load-partner.json
@@ -367,6 +349,7 @@ es	47	2	728	4	5.49	0.0	0	20	Coparentalidad: cómo criar en equipo cuando no siem
 es	48	2	732	4	5.46	0.0	0	19	Paternidad implicada desde el principio: formas reales de conectar con el bebé	body_under_800_words	content/articles/es/048-paternidad-implicada-conectar-con-bebe.json
 es	49	2	777	4	5.15	0.0	0	20	Cómo cuidar la relación de pareja después de tener hijos sin añadir otra obligación	body_under_800_words	content/articles/es/049-cuidar-relacion-pareja-despues-hijos.json
 es	50	2	778	4	5.14	0.05	1	20	Cómo poner límites a abuelos y familiares sin romper la relación	body_under_800_words	content/articles/es/050-limites-abuelos-familiares-sin-romper-relacion.json
+es	51	2	911	4	4.39	0.0	0	14	Visitas después del parto: cómo establecer límites que protejan a la nueva familia	body_under_1050_words,many_long_paragraphs	content/articles/es/051-visitas-despues-parto-limites.json
 es	61	2	793	4	5.04	0.0	0	15	Cómo crear un rincón de lactancia práctico sin comprar accesorios innecesarios	body_under_800_words	content/articles/es/061-rincon-lactancia-practico-sin-accesorios-innecesarios.json
 es	63	2	723	4	5.53	0.0	0	15	Dar el pecho en público: ideas para sentirte más cómoda y preparada	body_under_800_words	content/articles/es/063-dar-pecho-publico-sentirte-comoda-preparada.json
 es	67	2	726	4	5.51	0.0	0	16	Cómo organizar las comidas familiares cuando hay un toddler en casa	body_under_800_words	content/articles/es/067-organizar-comidas-familiares-toddler.json
@@ -479,6 +462,14 @@ en	39	1	1047	4	3.82	0.0	0	22	How to stop yelling at your kids when you are overw
 en	42	1	817	4	4.9	0.0	0	19	How to Teach a Child to Apologize Without Forcing an Empty “Sorry”	body_under_1050_words	content/articles/en/042-teach-child-to-apologize-without-forcing.json
 en	43	1	832	4	4.81	0.05	1	20	How to Handle Sibling Rivalry Without Becoming the Constant Referee	body_under_1050_words	content/articles/en/043-sibling-rivalry-without-being-constant-referee.json
 en	44	1	810	4	4.94	0.0	0	18	Jealousy After a New Baby: How to Support the Older Sibling	body_under_1050_words	content/articles/en/044-jealousy-after-new-baby-older-sibling.json
+en	52	1	876	4	4.57	0.0	0	14	Postpartum Without Perfectionism: Simplifying the House, Visitors and Expectations	body_under_1050_words	content/articles/en/052-postpartum-without-perfectionism.json
+en	53	1	856	4	4.67	0.0	0	15	How to Organize the First Weeks With a Newborn Without Creating a Perfect Schedule	body_under_1050_words	content/articles/en/053-first-weeks-newborn-without-perfect-schedule.json
+en	54	1	887	4	4.51	0.0	0	15	Newborn Routine: How Structure Can Help Without Expecting Predictability	body_under_1050_words	content/articles/en/054-newborn-routine-structure-without-predictability.json
+en	55	1	815	4	4.91	0.0	0	15	How to Leave the House With a Baby Without Packing Half the House	body_under_1050_words	content/articles/en/055-leaving-house-with-baby-without-packing-everything.json
+en	56	1	825	4	4.85	0.0	0	15	Baby diaper bag essentials: what you actually need for everyday outings	body_under_1050_words	content/articles/en/056-baby-diaper-bag-essentials-everyday-outings.json
+en	57	1	879	4	4.55	0.0	0	18	How to dress a newborn without buying a closet full of clothes	body_under_1050_words	content/articles/en/057-dress-newborn-without-buying-too-many-clothes.json
+en	58	1	808	4	4.95	0.0	0	18	What to buy before the baby arrives — and what can wait	body_under_1050_words	content/articles/en/058-what-to-buy-before-baby-arrives-what-can-wait.json
+en	60	1	868	4	4.61	0.0	0	19	Modern baby shower ideas that do not feel like the same party every time	body_under_1050_words	content/articles/en/060-modern-baby-shower-ideas-different.json
 en	71	1	863	4	4.63	0.0	0	17	Kids’ snacks: how to build a routine that doesn’t constantly replace meals	body_under_1050_words	content/articles/en/071-kids-snack-routine-without-replacing-meals.json
 en	76	1	828	4	4.83	0.0	0	18	Potty training without pressure: practical signs it may be a good time	body_under_1050_words	content/articles/en/076-potty-training-readiness-without-pressure.json
 en	79	1	800	4	5.0	0.0	0	18	Potty training and daycare: how to coordinate expectations with caregivers	body_under_1050_words	content/articles/en/079-potty-training-daycare-coordinate-expectations.json
@@ -538,6 +529,15 @@ es	37	1	978	4	4.09	0.0	0	22	Cómo validar emociones sin decir sí a todo	body_un
 es	38	1	984	4	4.07	0.0	0	21	Consecuencias naturales y lógicas: cuándo ayudan y cuándo se convierten en castigos disfrazados	body_under_1050_words	content/articles/es/038-consecuencias-naturales-logicas-sin-castigo.json
 es	40	1	1000	4	4.0	0.0	0	23	Qué hacer después de gritarle a tu hijo	body_under_1050_words	content/articles/es/040-despues-gritarle-hijo.json
 es	41	1	984	4	4.07	0.0	0	20	Cómo pedir perdón a un niño de una forma que realmente repare	body_under_1050_words	content/articles/es/041-pedir-perdon-a-un-nino-reparar.json
+es	52	1	840	4	4.76	0.0	0	14	Posparto sin perfeccionismo: cómo simplificar casa, visitas y expectativas	body_under_1050_words	content/articles/es/052-posparto-sin-perfeccionismo.json
+es	53	1	834	4	4.8	0.0	0	15	Cómo organizar las primeras semanas con un recién nacido sin intentar crear un horario perfecto	body_under_1050_words	content/articles/es/053-primeras-semanas-recien-nacido-sin-horario-perfecto.json
+es	54	1	885	4	4.52	0.0	0	15	Rutina con un recién nacido: qué puede aportar estructura sin esperar previsibilidad	body_under_1050_words	content/articles/es/054-rutina-recien-nacido-estructura-sin-previsibilidad.json
+es	55	1	862	4	4.64	0.0	0	15	Cómo salir de casa con un bebé sin llevar media casa en la bolsa	body_under_1050_words	content/articles/es/055-salir-casa-bebe-sin-llevar-media-casa.json
+es	56	1	943	4	4.24	0.0	0	17	Bolsa del bebé: qué llevar de verdad para el día a día	body_under_1050_words	content/articles/es/056-bolsa-bebe-que-llevar-dia-a-dia.json
+es	57	1	851	4	4.7	0.0	0	18	Cómo vestir a un recién nacido sin llenar el armario de ropa que apenas usará	body_under_1050_words	content/articles/es/057-vestir-recien-nacido-sin-llenar-armario.json
+es	58	1	805	4	4.97	0.0	0	18	Qué comprar antes de que nazca el bebé y qué puede esperar	body_under_1050_words	content/articles/es/058-que-comprar-antes-nazca-bebe-que-puede-esperar.json
+es	59	1	804	4	4.98	0.0	0	18	Habitación del bebé: cómo crear un espacio práctico, calmado y duradero	body_under_1050_words	content/articles/es/059-habitacion-bebe-espacio-practico-calmado-duradero.json
+es	60	1	882	4	4.54	0.0	0	19	Baby shower: ideas actuales para celebrarlo sin que parezca siempre lo mismo	body_under_1050_words	content/articles/es/060-baby-shower-ideas-actuales-diferentes.json
 es	81	1	890	5	5.62	0.0	0	19	Cómo pasar del orinal al inodoro con una transición gradual	body_under_1050_words	content/articles/es/081-transicion-orinal-inodoro-gradual.json
 es	92	1	911	5	5.49	0.0	0	17	Cómo organizar mañanas de preschool sin prisas constantes	body_under_1050_words	content/articles/es/092-mananas-preschool-sin-prisas.json
 es	93	1	914	5	5.47	0.0	0	17	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	body_under_1050_words	content/articles/es/093-viajar-avion-bebe-organizacion-equipaje.json

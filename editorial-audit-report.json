@@ -4,31 +4,31 @@
     "by_language": {
       "es": {
         "count": 300,
-        "avg_words": 790.0,
-        "median_words": 744,
+        "avg_words": 798.0,
+        "median_words": 755,
         "avg_h2": 4.64,
         "avg_short_para_ratio": 0.017,
         "risk_7_plus": 0,
-        "risk_5_6": 15,
-        "risk_3_4": 107,
-        "risk_0_2": 178
+        "risk_5_6": 13,
+        "risk_3_4": 99,
+        "risk_0_2": 188
       },
       "en": {
         "count": 300,
-        "avg_words": 787.6,
-        "median_words": 768,
+        "avg_words": 795.4,
+        "median_words": 775,
         "avg_h2": 4.6,
         "avg_short_para_ratio": 0.019,
         "risk_7_plus": 0,
-        "risk_5_6": 19,
-        "risk_3_4": 104,
-        "risk_0_2": 177
+        "risk_5_6": 17,
+        "risk_3_4": 96,
+        "risk_0_2": 187
       }
     },
     "exact_repeated_paragraphs": 0,
     "repeated_h2_patterns": 0,
     "repeated_opening_patterns": 0,
-    "common_6grams_6plus_articles": 28
+    "common_6grams_6plus_articles": 27
   },
   "highest_risk": [
     {
@@ -75,94 +75,6 @@
         "body_under_800_words",
         "high_h2_density",
         "many_question_paragraphs"
-      ]
-    },
-    {
-      "path": "content/articles/en/054-newborn-routine-structure-without-predictability.json",
-      "article_number": 54,
-      "translation_group": "054-newborn-routine-structure-without-predictability",
-      "language": "en",
-      "title": "Newborn Routine: How Structure Can Help Without Expecting Predictability",
-      "words": 614,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 8.14,
-      "h2s": [
-        "A sequence can repeat even when the time changes",
-        "The routine may be for the adults as much as the baby",
-        "Do not treat every change as a system failure",
-        "Predictability can emerge rather than be imposed",
-        "Useful structure survives a strange day"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 35.7,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.062,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 12,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Talking about a newborn “routine” can sound ridiculous when you are three days into not knowing exactly when morning starts. But routine does not have to mean feeding, sleeping and waking at fixed clock times.",
-      "opening_14_words": "Talking about a newborn routine can sound ridiculous when you are three days into",
-      "intro_3_paragraphs": "Talking about a newborn “routine” can sound ridiculous when you are three days into not knowing exactly when morning starts. But routine does not have to mean feeding, sleeping and waking at fixed clock times. In this stage it can mean something much simpler: certain needs meet a familiar response, and the adults have a basic sequence they can return to. The structure lives in the process, not in a promise that the baby will produce the same outcome. After a wake-up there may be feeding, a diaper change when needed, some contact, then another look at what the baby seems ready for. In the evening, you might lower the household energy and repeat a few familiar steps.",
-      "last_h2": "Useful structure survives a strange day",
-      "ending_3_paragraphs": "If you repeat the same evening steps and get a different result, there may be nothing to fix. Keep the pieces that organize the adults and let the baby's response remain variable. There will be appointments, visitors, long outings and days when the baby simply does something different. A healthy routine should tolerate variation without making everyone feel they must start over. With a newborn, the best structure is not the one that makes the day predictable. It is the one that helps the adults know what to do when the day is not.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/055-leaving-house-with-baby-without-packing-everything.json",
-      "article_number": 55,
-      "translation_group": "055-leaving-house-with-baby-light-bag",
-      "language": "en",
-      "title": "How to Leave the House With a Baby Without Packing Half the House",
-      "words": 626,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.99,
-      "h2s": [
-        "Start with time and destination",
-        "Keep a small core ready to go",
-        "One useful outfit can beat three perfect ones",
-        "Reset the bag after you get home",
-        "Going out gets easier when you trust yourself to solve things away from home"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 36.6,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.125,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 2,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 7,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Leaving the house with a baby can become a logistics operation wildly out of proportion to the outing. Diapers, wipes, spare clothes, burp cloths, toys, cream, a blanket, feeding supplies and a growing category called “just in case” can turn a coffee run into luggage.",
-      "opening_14_words": "Leaving the house with a baby can become a logistics operation wildly out of",
-      "intro_3_paragraphs": "Leaving the house with a baby can become a logistics operation wildly out of proportion to the outing. Diapers, wipes, spare clothes, burp cloths, toys, cream, a blanket, feeding supplies and a growing category called “just in case” can turn a coffee run into luggage. Being prepared is useful. The problem is that “just in case” has no natural stopping point. A good diaper bag does not solve every situation you can imagine. It covers the situations that are reasonably likely during the outing you are actually taking. You do not need the same setup for a forty-minute walk and six hours across town. Going to a grandparent's house where supplies already exist is different from spending the afternoon somewhere with no easy store nearby.",
-      "last_h2": "Going out gets easier when you trust yourself to solve things away from home",
-      "ending_3_paragraphs": "Over time, the bag becomes a small record of your actual experience. If something has gone on ten outings without being used and its absence would be easy to solve, it may no longer need to come. Overpacking often comes from imagining that every surprise will become a crisis. Experience teaches you what your baby actually uses, what almost never leaves the bag, and which problems can be handled by buying something, asking for help, changing the plan or simply coming home. The goal is not to leave home perfectly equipped. It is to make preparation light enough that leaving still feels worth doing.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
       ]
     },
     {
@@ -870,94 +782,6 @@
       ]
     },
     {
-      "path": "content/articles/es/054-rutina-recien-nacido-estructura-sin-previsibilidad.json",
-      "article_number": 54,
-      "translation_group": "054-newborn-routine-structure-without-predictability",
-      "language": "es",
-      "title": "Rutina con un recién nacido: qué puede aportar estructura sin esperar previsibilidad",
-      "words": 633,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.9,
-      "h2s": [
-        "Una secuencia puede repetirse aunque la hora cambie",
-        "La rutina también es para los adultos",
-        "No conviertas cada cambio en una señal de que algo va mal",
-        "La previsibilidad puede llegar poco a poco",
-        "Una estructura útil deja sitio a un día raro"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 36.9,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.062,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 11,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Hablar de “rutina” con un recién nacido puede sonar casi cómico cuando llevas tres días sin saber exactamente cuándo empieza la mañana. Pero rutina no tiene por qué significar que el bebé coma, duerma y despierte a horas fijas.",
-      "opening_14_words": "Hablar de rutina con un recién nacido puede sonar casi cómico cuando llevas tres",
-      "intro_3_paragraphs": "Hablar de “rutina” con un recién nacido puede sonar casi cómico cuando llevas tres días sin saber exactamente cuándo empieza la mañana. Pero rutina no tiene por qué significar que el bebé coma, duerma y despierte a horas fijas. En esta etapa puede significar algo mucho más sencillo: que ciertas necesidades encuentren una respuesta reconocible y que los adultos tengan una secuencia básica a la que volver. La estructura está en el proceso, no en la promesa de un resultado. Después de un despertar puede haber alimentación, cambio si hace falta, un rato de contacto y volver a observar qué necesita el bebé. Por la noche podéis bajar luces, reducir actividad y hacer algunas cosas en un orden parecido.",
-      "last_h2": "Una estructura útil deja sitio a un día raro",
-      "ending_3_paragraphs": "Si una noche repetís todo y el resultado es distinto, no necesariamente hay algo que corregir. Podéis conservar lo que os ordena a vosotros y dejar que la respuesta del bebé siga siendo variable. Habrá días con una cita, una visita, un paseo largo o un bebé que simplemente hace algo distinto. Una rutina sana debería soportar esa variación sin haceros sentir que hay que “volver a empezar”. Con un recién nacido, la mejor estructura no es la que hace el día predecible. Es la que hace que los adultos sepan qué pueden hacer incluso cuando el día no lo es.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/es/055-salir-casa-bebe-sin-llevar-media-casa.json",
-      "article_number": 55,
-      "translation_group": "055-leaving-house-with-baby-light-bag",
-      "language": "es",
-      "title": "Cómo salir de casa con un bebé sin llevar media casa en la bolsa",
-      "words": 604,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 8.28,
-      "h2s": [
-        "Empieza por la duración y el destino",
-        "Construye un núcleo que siempre esté listo",
-        "Una muda útil gana a tres conjuntos perfectos",
-        "Revisa la bolsa cuando vuelves, no justo antes de salir",
-        "Salir mejora cuando confías en que puedes resolver cosas fuera"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 35.1,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.125,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 1,
-        "puede": 5,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Salir de casa con un bebé puede empezar como una operación logística desproporcionada. Pañales, toallitas, mudas, muselinas, juguetes, crema, mantita, comida, “por si acaso” de todo tipo… y al final llevas una bolsa que pesa más que la salida.",
-      "opening_14_words": "Salir de casa con un bebé puede empezar como una operación logística desproporcionada Pañales",
-      "intro_3_paragraphs": "Salir de casa con un bebé puede empezar como una operación logística desproporcionada. Pañales, toallitas, mudas, muselinas, juguetes, crema, mantita, comida, “por si acaso” de todo tipo… y al final llevas una bolsa que pesa más que la salida. El problema no es querer ir preparada. Es que el “por si acaso” no tiene límite. Una bolsa útil no intenta resolver todas las situaciones posibles; intenta cubrir las situaciones probables durante el tiempo que realmente vais a estar fuera. No necesitas lo mismo para bajar a tomar un café que para pasar seis horas lejos de casa. Tampoco para ir a casa de los abuelos, donde quizá ya hay pañales, que para caminar por un lugar sin tiendas cerca.",
-      "last_h2": "Salir mejora cuando confías en que puedes resolver cosas fuera",
-      "ending_3_paragraphs": "Con el tiempo, la bolsa se convierte en un pequeño registro de vuestra experiencia. Si algo lleva diez salidas sin usarse y sería fácil resolver su ausencia, quizá ya no necesita acompañaros. Parte del exceso de equipaje viene de imaginar que cualquier imprevisto será un desastre. Con experiencia descubres qué utiliza realmente vuestro bebé y qué casi nunca sale de la bolsa. También descubres que a veces puedes comprar algo, pedir ayuda, volver antes o improvisar. La meta no es salir de casa perfectamente equipada. Es que la preparación sea suficientemente ligera como para que salir siga mereciendo la pena.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
       "path": "content/articles/es/1023-nostalgia-vida-sin-hijos-etapa-agotadora.json",
       "article_number": 1023,
       "translation_group": "1023-nostalgia-childfree-life-exhausting-season",
@@ -1568,138 +1392,6 @@
       "intro_3_paragraphs": "“Put your shoes on.” “Shoes.” “I said put your shoes on.” “How many times do I have to ask?” If this is a familiar morning loop, the problem may not be that your child only listens when you get angry. Often the instruction has become part of the room’s background noise. You are calling from the kitchen. Your child is absorbed in a game. Everyone waits for the fourth repetition to somehow accomplish what the first three did not.",
       "last_h2": "Cooperation is bigger than obedience",
       "ending_3_paragraphs": "Children are learning to stop preferred activities, remember sequences, tolerate frustration, complete boring tasks and contribute to shared family life. Those are skills, not personality traits. Your long-term goal is not a child who instantly follows every instruction. It is a child who gradually needs less adult management to participate in the routines everyone shares. When you stop measuring cooperation by whether your child says yes the first time, you can focus on something more useful: making the path from request to action clearer, calmer and increasingly independent.",
-      "risk_score": 4,
-      "risk_reasons": [
-        "body_under_800_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/051-postpartum-visitors-boundaries.json",
-      "article_number": 51,
-      "translation_group": "051-postpartum-visits-boundaries",
-      "language": "en",
-      "title": "Postpartum Visitors: How to Set Boundaries That Protect Your New Family",
-      "words": 656,
-      "paragraphs": 14,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.62,
-      "h2s": [
-        "Decide what you are protecting before invitations start",
-        "Say the limit before the doorbell rings",
-        "Helpful visitors do not automatically take the baby",
-        "You do not have to pass the baby around",
-        "A good postpartum visit leaves room after it"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 44.0,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 1,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 2,
-        "puede": 12,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "After birth, a visit that sounds simple on a group text can take surprising energy. Someone has to answer the door, make conversation, decide whether passing the baby around feels okay, and manage other people's excitement while the household is still learning what a normal hour looks like.",
-      "opening_14_words": "After birth a visit that sounds simple on a group text can take surprising",
-      "intro_3_paragraphs": "After birth, a visit that sounds simple on a group text can take surprising energy. Someone has to answer the door, make conversation, decide whether passing the baby around feels okay, and manage other people's excitement while the household is still learning what a normal hour looks like. Setting limits around postpartum visitors is not about keeping people away from the baby. It is about deciding how much social life your recovering household can actually hold. The most useful plan is the one that keeps every “Can we stop by?” from becoming a brand-new negotiation. Some families want several quiet days. Others love short visits from close friends immediately. You may welcome people who bring dinner but dread anyone who expects to be hosted. You may be excited to introduce the baby and still not want the baby passed from person to person.",
-      "last_h2": "A good postpartum visit leaves room after it",
-      "ending_3_paragraphs": "If you have a large family, inviting everyone at once can look efficient and still turn an ordinary afternoon into an event. That works for some households. Others do far better with staggered visits. There is no prize for getting all introductions over with in one weekend if the cost is needing two days to recover. The best visit is not necessarily the longest or most festive one. It is the visit that fits inside the actual capacity of the family. That may be twenty minutes. It may be an unhurried afternoon with someone who feels like part of the household rather than a guest. The point is to let the home stay a recovery space, not turn into a stage. People who care about you can adapt to a season when seeing you requires a little more consideration and a lot less ceremony.",
-      "risk_score": 4,
-      "risk_reasons": [
-        "body_under_800_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/052-postpartum-without-perfectionism.json",
-      "article_number": 52,
-      "translation_group": "052-postpartum-without-perfectionism",
-      "language": "en",
-      "title": "Postpartum Without Perfectionism: Simplifying the House, Visitors and Expectations",
-      "words": 676,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.4,
-      "h2s": [
-        "The house can function without being caught up",
-        "Reduce decisions as well as chores",
-        "Visitors can enter low-effort mode too",
-        "A day does not need to prove productivity",
-        "The minimum version is temporary"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 40.1,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.125,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 1,
-        "a_veces": 2,
-        "puede": 13,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Postpartum life has a way of combining enormous needs with dozens of tiny expectations. A baby needs care. A body is recovering. Sleep comes in pieces. Meanwhile the house keeps producing dishes, laundry, groceries and messages, and a quiet voice keeps saying you should be more organized.",
-      "opening_14_words": "Postpartum life has a way of combining enormous needs with dozens of tiny expectations",
-      "intro_3_paragraphs": "Postpartum life has a way of combining enormous needs with dozens of tiny expectations. A baby needs care. A body is recovering. Sleep comes in pieces. Meanwhile the house keeps producing dishes, laundry, groceries and messages, and a quiet voice keeps saying you should be more organized. Simplifying this season is not giving up. It is deciding which things can temporarily lose importance so the things that truly matter have room. A postpartum home needs to be usable, not impressive. Having enough clean clothes matters more than folding them. Being able to make something to eat matters more than having clear counters. A bathroom can be perfectly adequate without looking guest-ready.",
-      "last_h2": "The minimum version is temporary",
-      "ending_3_paragraphs": "That distance restores proportion. Postpartum does not require a special exemption from real life; it requires standards that make sense for the amount of physical and mental work already happening. Simplifying postpartum does not mean deciding what your family life will look like forever. It means acknowledging that this season has a different economy. More plans, elaborate meals, visitors and projects can come back. For now, a useful filter is: does this need doing today, can someone else do it, or can it wait? Postpartum does not become easier because you make it look like ordinary life. It often becomes easier when you stop requiring it to.",
-      "risk_score": 4,
-      "risk_reasons": [
-        "body_under_800_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/053-first-weeks-newborn-without-perfect-schedule.json",
-      "article_number": 53,
-      "translation_group": "053-first-weeks-newborn-without-perfect-schedule",
-      "language": "en",
-      "title": "How to Organize the First Weeks With a Newborn Without Creating a Perfect Schedule",
-      "words": 653,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.66,
-      "h2s": [
-        "Build stations, not a timetable",
-        "Plan handoffs before someone is depleted",
-        "Give the family anchors even when the baby has no schedule",
-        "Choose plans that survive interruption",
-        "Organization should remove pressure, not become another scorecard"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 38.6,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.125,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 8,
-        "importante": 1,
-        "clave": 0
-      },
-      "opening": "The first weeks with a newborn can be highly repetitive and almost impossible to schedule. You may spend the day cycling through feeding, changing, holding and trying to sleep, yet still have no reliable idea what the next hour will contain.",
-      "opening_14_words": "The first weeks with a newborn can be highly repetitive and almost impossible to",
-      "intro_3_paragraphs": "The first weeks with a newborn can be highly repetitive and almost impossible to schedule. You may spend the day cycling through feeding, changing, holding and trying to sleep, yet still have no reliable idea what the next hour will contain. That is why building a perfect timetable can create a second problem on top of an already demanding season. Instead of organizing the newborn, it is often more useful to organize the environment around what keeps repeating. If something happens many times a day, make it easy. Keep diapers and spare clothes where changes really happen. Put water and snacks where the person feeding or holding the baby tends to get stuck. Use a basket for the items that migrate around the living room.",
-      "last_h2": "Organization should remove pressure, not become another scorecard",
-      "ending_3_paragraphs": "If you are the one asking, you also do not need to wait until things are unmanageable. A small specific request is often easier for everyone than a rescue mission after the household is already depleted. Tracking apps, lists and routines can be useful if they help you remember what matters. If they turn every day into a series of deviations from the plan, they may be creating work instead of reducing it. The first weeks do not have to prove that you have mastered your new life. Good-enough organization does something more practical: it lowers friction for the adults while the baby's rhythm is still changing.",
       "risk_score": 4,
       "risk_reasons": [
         "body_under_800_words",
@@ -2685,6 +2377,307 @@
       "risk_reasons": [
         "body_under_800_words",
         "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1085-remember-parenting-mistakes-forget-good.json",
+      "article_number": 1085,
+      "translation_group": "1085-remember-parenting-mistakes-forget-good",
+      "language": "en",
+      "title": "Why you remember your parenting mistakes and forget everything you did well",
+      "words": 648,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.17,
+      "h2s": [
+        "Hard moments become scenes while ordinary care becomes background",
+        "You do not need to cancel a mistake with a list of good moments",
+        "Collect facts your mind would normally skip",
+        "A fuller memory helps you learn more accurately"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 43.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.143,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 8,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "When you think back on yesterday, the first scene that returns may be the moment you lost patience. You may remember the yell more clearly than the snack you made, the hug after school, the time you waited while your child struggled with a zipper, or the limits you held without a fight.",
+      "opening_14_words": "When you think back on yesterday the first scene that returns may be the",
+      "intro_3_paragraphs": "When you think back on yesterday, the first scene that returns may be the moment you lost patience. You may remember the yell more clearly than the snack you made, the hug after school, the time you waited while your child struggled with a zipper, or the limits you held without a fight. Mistakes grab attention because they interrupt what you expected from yourself. Much of good caregiving fades into the background precisely because it happened without setting off an alarm. A tense moment has a beginning, conflict, and an unfinished question: “Why did I react that way?” Your mind can replay the exact words and imagine alternatives. Everyday care has less of a plot. Preparing, answering, remembering, waiting, helping, and trying again form the steady background of family life.",
+      "last_h2": "A fuller memory helps you learn more accurately",
+      "ending_3_paragraphs": "If every remembered scene says “I failed,” it is difficult to identify what actually changes outcomes. Once you notice successful moments too, you can compare: Why did this transition go more smoothly? What was different when I asked for help earlier? Which conditions give me more margin? What worked becomes useful information rather than simple reassurance. You can still address a specific mistake without ignoring the rest of the relationship. And if self-criticism takes up a great deal of space persistently, talking with someone you trust or a mental health professional can help you carry that evaluation less alone. Remembering what worked does not erase responsibility. It keeps memory from turning motherhood into a collection of difficult exceptions while losing sight of the enormous amount of ordinary care happening between them.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_650_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1086-end-hard-day-without-judging-motherhood.json",
+      "article_number": 1086,
+      "translation_group": "1086-end-hard-day-without-judging-motherhood",
+      "language": "en",
+      "title": "How to end a hard day without turning it into a judgment of your motherhood",
+      "words": 626,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.39,
+      "h2s": [
+        "Describe what happened before you describe yourself",
+        "Repair the scenes that need repair, not the entire day",
+        "Take one lesson instead of redesigning family life",
+        "Let tomorrow continue the relationship instead of testing it"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 42.3,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 9,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Some days start crooked and never quite recover. You leave late, one child protests everything, your patience disappears, dinner becomes whatever is easiest, and bedtime arrives with everybody depleted. A description of the day then becomes a description of you: “Today was a mess” turns into “I’m a mess as a mother.”",
+      "opening_14_words": "Some days start crooked and never quite recover You leave late one child protests",
+      "intro_3_paragraphs": "Some days start crooked and never quite recover. You leave late, one child protests everything, your patience disappears, dinner becomes whatever is easiest, and bedtime arrives with everybody depleted. A description of the day then becomes a description of you: “Today was a mess” turns into “I’m a mess as a mother.” A hard day can contain real mistakes and still not be a complete evaluation of your motherhood. Closing the day well does not mean pretending nothing happened. It means returning each problem to a size where you can actually respond to it. “We yelled this morning,” “the afternoon had too many transitions,” or “everyone reached dinner hungry” contains information. “I cannot handle my children” is a global conclusion. The more specific the description, the easier it is to understand what made this particular day difficult.",
+      "last_h2": "Let tomorrow continue the relationship instead of testing it",
+      "ending_3_paragraphs": "The next morning does not have to prove that you are a different family. It may contain another rushed breakfast and still offer a chance to repair or do one thing differently. Continuity is usually more realistic than the fantasy of starting from zero. A closing sentence can hold both truth and limits: “Today was hard. I know what I want to repair, and I do not need to decide tonight what kind of mother I am.” Persistent problems can be looked at later with more capacity than you have at the end of the day. A bad day can give you information about fatigue, routines, and needs. It does not have to become a verdict. You can acknowledge what was difficult, repair what was specific, and remember that a relationship is built across many days rather than decided by one.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_650_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1087-promise-tomorrow-more-patient-mom.json",
+      "article_number": 1087,
+      "translation_group": "1087-promise-tomorrow-more-patient-mom",
+      "language": "en",
+      "title": "Promising yourself every night that tomorrow you will be a more patient mom",
+      "words": 622,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.43,
+      "h2s": [
+        "The promise focuses on the final second and skips everything before it",
+        "Turn “I’ll be more patient” into one located observation",
+        "Patience needs margin, not a flawless personality",
+        "Measure change by patterns, not by a promise never to fail"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 41.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.071,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 3,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "After an afternoon when you yelled or answered in a way you regret, the nighttime promise feels simple: tomorrow I will not do that. I will be more patient, speak more gently, and stop getting upset over small things. For a few minutes, the promise restores a sense of control.",
+      "opening_14_words": "After an afternoon when you yelled or answered in a way you regret the",
+      "intro_3_paragraphs": "After an afternoon when you yelled or answered in a way you regret, the nighttime promise feels simple: tomorrow I will not do that. I will be more patient, speak more gently, and stop getting upset over small things. For a few minutes, the promise restores a sense of control. The difficulty is that patience is not produced by intention alone. It is also shaped by sleep, rushing, workload, transitions, and how much margin remains before you reach the hard moment. It is easy to look only at the yell. Before it, though, there may have been a poor night of sleep, leaving home ten minutes late, repeated work interruptions, a child who barely ate, and dinner starting after everyone was already stretched thin. The yell is still your responsibility, but it did not happen in a vacuum.",
+      "last_h2": "Measure change by patterns, not by a promise never to fail",
+      "ending_3_paragraphs": "You may lose patience again tomorrow. That does not make the effort fake. Repair the scene and keep observing. Real improvement might mean it happens less often, you recognize overload sooner, or you can reconnect more quickly after conflict. Try not to turn one difficult moment into another night of harsher promises. If the same point keeps breaking down, ask which variable has not changed. You may need more support, less load, or a different expectation—not a larger dose of guilt. A more patient mother is not built by swearing every night to become someone else tomorrow. She is built by understanding where her margin disappears, changing conditions when she can, and repairing when real life still exceeds her resources.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_650_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1088-need-to-start-over-every-morning-with-kids.json",
+      "article_number": 1088,
+      "translation_group": "1088-need-to-start-over-every-morning-with-kids",
+      "language": "en",
+      "title": "Feeling like you need to start over from zero every morning with your kids",
+      "words": 623,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.42,
+      "h2s": [
+        "A total reset turns an ordinary morning into a test",
+        "Continuity lets you remember without staying trapped in the past",
+        "Use the morning for one new action, not a new identity",
+        "You do not have to earn your place in the relationship every day"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 41.4,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 12,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "After an evening of yelling, rushing, or feeling disconnected, the next morning can carry an enormous assignment. “We start fresh today” sounds hopeful, but it can hide another demand: today I need to prove I can do motherhood correctly and make up for yesterday.",
+      "opening_14_words": "After an evening of yelling rushing or feeling disconnected the next morning can carry",
+      "intro_3_paragraphs": "After an evening of yelling, rushing, or feeling disconnected, the next morning can carry an enormous assignment. “We start fresh today” sounds hopeful, but it can hide another demand: today I need to prove I can do motherhood correctly and make up for yesterday. Your relationship with your children does not get erased every night and rebuilt when everyone wakes up. It continues, carrying what went well, what was hard, what has already been repaired, and what may still need a conversation. If today has to correct yesterday, every early problem becomes too important. Your child resists getting dressed and you think, “Here we go again.” You leave late and it feels as if the new beginning failed before 9 a.m.",
+      "last_h2": "You do not have to earn your place in the relationship every day",
+      "ending_3_paragraphs": "The need to “start well” can sometimes feel like a requirement to prove love, patience, or competence every morning. But your children are not running a nightly scorecard and deciding whether the relationship still exists based on that day’s grade. The relationship is already there, including after moments you regret. You can begin with a smaller sentence: “Yesterday included something hard; today we continue.” Repair if repair is needed. Use what you learned if there was a useful lesson. If nothing specific remains unfinished, you do not need to create a redemption project. The morning does not have to be a blank page. It can be the next page—connected to what came before, open enough to do something differently, and free from the job of proving from zero that you deserve to be your children’s mother.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_650_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1089-accept-bad-week-without-thinking-family-is-bad.json",
+      "article_number": 1089,
+      "translation_group": "1089-accept-bad-week-without-thinking-family-is-bad",
+      "language": "en",
+      "title": "How to accept a bad week without deciding your family is doing badly",
+      "words": 590,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.78,
+      "h2s": [
+        "Family climate changes when conditions change",
+        "Do not use an exhausted Friday night to redesign ten parts of family life",
+        "Notice what continued to hold the family together inside the chaos",
+        "Use the next week to lower pressure, not prove that your family is fine"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 38.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.071,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 9,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "One difficult evening can feel random. After five or six days of rushing, arguments, sensitive kids, and adults with less patience, the conclusion gets much bigger: “This is not just a bad day anymore. Something is wrong with our family.”",
+      "opening_14_words": "One difficult evening can feel random After five or six days of rushing arguments",
+      "intro_3_paragraphs": "One difficult evening can feel random. After five or six days of rushing, arguments, sensitive kids, and adults with less patience, the conclusion gets much bigger: “This is not just a bad day anymore. Something is wrong with our family.” A hard week describes a period of time. It does not automatically become a permanent description of your family. Before drawing a large conclusion, look at what pressure has accumulated and how long it has actually been present. A cold, several bad nights, extra work, the start of school, visitors, packed afternoons, or many small demands arriving together can change the tone of a household. Children regulate less easily, adults reach their limits faster, and routines that usually work begin to snag.",
+      "last_h2": "Use the next week to lower pressure, not prove that your family is fine",
+      "ending_3_paragraphs": "Monday does not need to be a recovery exam. It can simply be a chance to reduce one or two loads: easier dinners, fewer plans, a better caregiver handoff, one protected hour, or temporarily lower expectations. Then watch what happens when pressure drops. If the climate improves, you have learned something about capacity. If a specific problem continues for weeks, significantly affects family functioning, or remains a serious concern, it deserves focused attention and, when appropriate, professional support. A bad week can show you where your family is overloaded. It does not have to prove your family is bad. Sometimes the most useful response is to reduce demands, restore margin, and see how the system functions once it is no longer operating at peak strain.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_650_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1101-not-happy-all-the-time-pregnancy.json",
+      "article_number": 1101,
+      "translation_group": "1101-not-happy-all-the-time-pregnancy",
+      "language": "en",
+      "title": "Is it normal not to feel happy all the time during pregnancy?",
+      "words": 647,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.18,
+      "h2s": [
+        "One feeling today does not rewrite what you want for your life",
+        "Emotionally ordinary days belong in pregnancy too",
+        "Find people who let a difficult sentence stay difficult",
+        "Normal variation and meaningful distress are not the same question"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 43.5,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.071,
+      "long_paragraphs": 1,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 14,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "A wanted pregnancy is often described as if it comes with a permanent emotional soundtrack: excitement at every appointment, gratitude through every body change, joy whenever somebody asks about the baby. Real life is much less tidy. Pregnancy can contain fatigue, irritation, boredom, fear, ordinary workdays, and long stretches when you are thinking about groceries or deadlines rather than motherhood.",
+      "opening_14_words": "A wanted pregnancy is often described as if it comes with a permanent emotional",
+      "intro_3_paragraphs": "A wanted pregnancy is often described as if it comes with a permanent emotional soundtrack: excitement at every appointment, gratitude through every body change, joy whenever somebody asks about the baby. Real life is much less tidy. Pregnancy can contain fatigue, irritation, boredom, fear, ordinary workdays, and long stretches when you are thinking about groceries or deadlines rather than motherhood. Wanting a baby and feeling happy every day are different things. Pregnancy is a life stage, not a required mood. A difficult Tuesday does not erase the months or years you may have spent wanting a child. You can feel deeply glad about the future and miserable about a physical symptom. You can be grateful that pregnancy is progressing and still worry about work, birth, money, or how life will change. You can have a neutral day when the baby barely crosses your mind because other parts of life need your attention.",
+      "last_h2": "Normal variation and meaningful distress are not the same question",
+      "ending_3_paragraphs": "Making room for bad days does not mean minimizing how you feel. If distress is intense, persistent, worrying to you, or significantly interfering with sleep, work, eating, relationships, or daily functioning, it deserves a conversation with a health care or mental health professional. You do not have to decide by yourself whether it is “serious enough.” Getting support does not make the pregnancy less wanted. Your emotional well-being matters even when the cultural story says you should simply be happy. You do not need to prove how much you wanted this pregnancy with a mood. Happy, worried, bored, irritated, neutral, and hopeful days can all exist inside a deeply wanted pregnancy.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_650_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1102-wanted-pregnancy-without-expected-excitement.json",
+      "article_number": 1102,
+      "translation_group": "1102-wanted-pregnancy-without-expected-excitement",
+      "language": "en",
+      "title": "A wanted pregnancy without the excitement you expected to feel",
+      "words": 618,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.47,
+      "h2s": [
+        "Wanting a possibility and absorbing that it is real are different emotional tasks",
+        "Do not let other people’s questions turn excitement into a performance",
+        "Let the pregnancy become real through whatever route fits you",
+        "Separate quiet excitement from distress that deserves support"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 41.1,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.071,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 9,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Before pregnancy, excitement often lives inside a concentrated version of the story: seeing a positive test, calling your partner, thinking about names, picturing a due date. You may rehearse that moment for months or years. When it finally happens, reality arrives with more than the dream. There are appointments, body changes, uncertainty, decisions, and the sudden knowledge that something you wanted is now changing your actual life.",
+      "opening_14_words": "Before pregnancy excitement often lives inside a concentrated version of the story seeing a",
+      "intro_3_paragraphs": "Before pregnancy, excitement often lives inside a concentrated version of the story: seeing a positive test, calling your partner, thinking about names, picturing a due date. You may rehearse that moment for months or years. When it finally happens, reality arrives with more than the dream. There are appointments, body changes, uncertainty, decisions, and the sudden knowledge that something you wanted is now changing your actual life. If the real emotion is quieter, stranger, or slower than the one you imagined, that does not make the pregnancy less wanted. You may have expected tears and instead stared at the test in silence. Maybe you assumed you would talk about the baby constantly and found yourself absorbed in work the next day. The news can be welcome while also activating practical thoughts about money, housing, health, telling people, or how your relationship will change.",
+      "last_h2": "Separate quiet excitement from distress that deserves support",
+      "ending_3_paragraphs": "Not feeling the reaction you expected can simply reflect the difference between fantasy and lived reality. It does not automatically need a clinical explanation. If, however, you are also experiencing intense or persistent distress, you are worried about how you are functioning, or you want support, talk with a health care or mental health professional. The point is not to make you more excited. It is to give you room to talk honestly without having to demonstrate gratitude or joy first. A wanted pregnancy can begin with silence, surprise, ambivalence, or very gentle excitement. The intensity of your reaction does not measure the depth of your desire or predict the relationship you will build with your baby.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_650_words",
+        "elevated_h2_density"
       ]
     }
   ],
@@ -4840,42 +4833,41 @@
       "translation_group": "051-postpartum-visits-boundaries",
       "language": "en",
       "title": "Postpartum Visitors: How to Set Boundaries That Protect Your New Family",
-      "words": 656,
+      "words": 918,
       "paragraphs": 14,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.62,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.36,
       "h2s": [
-        "Decide what you are protecting before invitations start",
-        "Say the limit before the doorbell rings",
-        "Helpful visitors do not automatically take the baby",
-        "You do not have to pass the baby around",
-        "A good postpartum visit leaves room after it"
+        "Decide what you are protecting before you decide who can visit",
+        "Say the practical limit before the doorbell rings",
+        "Helpful visitors adapt to the family instead of expecting to be hosted",
+        "Protect the ending of the visit as carefully as the beginning"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 44.0,
+      "avg_paragraph_words": 62.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 4,
       "phrase_counts": {
-        "no_necesitas": 1,
+        "no_necesitas": 2,
         "no_significa": 0,
-        "a_veces": 2,
-        "puede": 12,
+        "a_veces": 1,
+        "puede": 13,
         "importante": 0,
         "clave": 0
       },
-      "opening": "After birth, a visit that sounds simple on a group text can take surprising energy. Someone has to answer the door, make conversation, decide whether passing the baby around feels okay, and manage other people's excitement while the household is still learning what a normal hour looks like.",
-      "opening_14_words": "After birth a visit that sounds simple on a group text can take surprising",
-      "intro_3_paragraphs": "After birth, a visit that sounds simple on a group text can take surprising energy. Someone has to answer the door, make conversation, decide whether passing the baby around feels okay, and manage other people's excitement while the household is still learning what a normal hour looks like. Setting limits around postpartum visitors is not about keeping people away from the baby. It is about deciding how much social life your recovering household can actually hold. The most useful plan is the one that keeps every “Can we stop by?” from becoming a brand-new negotiation. Some families want several quiet days. Others love short visits from close friends immediately. You may welcome people who bring dinner but dread anyone who expects to be hosted. You may be excited to introduce the baby and still not want the baby passed from person to person.",
-      "last_h2": "A good postpartum visit leaves room after it",
-      "ending_3_paragraphs": "If you have a large family, inviting everyone at once can look efficient and still turn an ordinary afternoon into an event. That works for some households. Others do far better with staggered visits. There is no prize for getting all introductions over with in one weekend if the cost is needing two days to recover. The best visit is not necessarily the longest or most festive one. It is the visit that fits inside the actual capacity of the family. That may be twenty minutes. It may be an unhurried afternoon with someone who feels like part of the household rather than a guest. The point is to let the home stay a recovery space, not turn into a stage. People who care about you can adapt to a season when seeing you requires a little more consideration and a lot less ceremony.",
-      "risk_score": 4,
+      "opening": "After birth, a visit that sounds simple on a group text can take more energy than anyone expects. Someone has to answer the door, make conversation, decide whether holding the baby feels comfortable, and absorb other people's excitement while the household is still learning how to move through a day. Even people you love can arrive at a moment when you are hungry, sore, feeding the baby, trying to sleep, or simply not ready to be seen.",
+      "opening_14_words": "After birth a visit that sounds simple on a group text can take more",
+      "intro_3_paragraphs": "After birth, a visit that sounds simple on a group text can take more energy than anyone expects. Someone has to answer the door, make conversation, decide whether holding the baby feels comfortable, and absorb other people's excitement while the household is still learning how to move through a day. Even people you love can arrive at a moment when you are hungry, sore, feeding the baby, trying to sleep, or simply not ready to be seen. That is why postpartum boundaries are not a verdict on your family or friends. They are a way of matching access to the amount of physical, emotional and social capacity your household actually has. Clear limits usually create less conflict than vague plans followed by resentment, because everyone knows what “visiting” means before they arrive. There is no universally correct waiting period. Some parents want their closest people around immediately; others want several quiet days or weeks. The useful question is not what other families do but what you need visitors to leave intact: rest, privacy, feeding space, time for older siblings, a calmer home, or simply the freedom to have an unstructured day.",
+      "last_h2": "Protect the ending of the visit as carefully as the beginning",
+      "ending_3_paragraphs": "Many visits become exhausting not because the guests are difficult but because nobody knows how they end. If you agreed on an hour, it is okay to stand up at the hour. A phrase such as “We are going to settle in and rest now” is enough. You do not need to wait for the baby to provide an excuse. Large families sometimes try to make introductions “efficient” by inviting everyone together. That can work when the parents enjoy a busy house and have support for the aftermath. For other families, it turns an ordinary afternoon into an event that takes two days to recover from. Staggering visits is not making a fuss; it is acknowledging that social energy is finite. The best measure of a postpartum visit is not whether everyone else felt they got enough time. It is whether your household still has something left when the door closes. Your home is allowed to remain a recovery and adjustment space, even while people are excited to welcome the baby. The people who care about your new family can learn how to enter that space with less entitlement and more care.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_800_words",
-        "high_h2_density"
+        "body_under_1050_words",
+        "many_long_paragraphs"
       ]
     },
     {
@@ -4884,42 +4876,40 @@
       "translation_group": "052-postpartum-without-perfectionism",
       "language": "en",
       "title": "Postpartum Without Perfectionism: Simplifying the House, Visitors and Expectations",
-      "words": 676,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.4,
+      "words": 876,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.57,
       "h2s": [
-        "The house can function without being caught up",
-        "Reduce decisions as well as chores",
-        "Visitors can enter low-effort mode too",
-        "A day does not need to prove productivity",
-        "The minimum version is temporary"
+        "Define what “functional” means for this version of your household",
+        "Reduce the number of decisions, not only the number of chores",
+        "Stop making rest earn its place on the schedule",
+        "Let the standard rise again because life changes, not because guilt wins"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 40.1,
+      "avg_paragraph_words": 59.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.125,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.214,
+      "long_paragraphs": 1,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 1,
+        "no_necesitas": 0,
+        "no_significa": 0,
         "a_veces": 2,
-        "puede": 13,
-        "importante": 0,
+        "puede": 14,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "Postpartum life has a way of combining enormous needs with dozens of tiny expectations. A baby needs care. A body is recovering. Sleep comes in pieces. Meanwhile the house keeps producing dishes, laundry, groceries and messages, and a quiet voice keeps saying you should be more organized.",
-      "opening_14_words": "Postpartum life has a way of combining enormous needs with dozens of tiny expectations",
-      "intro_3_paragraphs": "Postpartum life has a way of combining enormous needs with dozens of tiny expectations. A baby needs care. A body is recovering. Sleep comes in pieces. Meanwhile the house keeps producing dishes, laundry, groceries and messages, and a quiet voice keeps saying you should be more organized. Simplifying this season is not giving up. It is deciding which things can temporarily lose importance so the things that truly matter have room. A postpartum home needs to be usable, not impressive. Having enough clean clothes matters more than folding them. Being able to make something to eat matters more than having clear counters. A bathroom can be perfectly adequate without looking guest-ready.",
-      "last_h2": "The minimum version is temporary",
-      "ending_3_paragraphs": "That distance restores proportion. Postpartum does not require a special exemption from real life; it requires standards that make sense for the amount of physical and mental work already happening. Simplifying postpartum does not mean deciding what your family life will look like forever. It means acknowledging that this season has a different economy. More plans, elaborate meals, visitors and projects can come back. For now, a useful filter is: does this need doing today, can someone else do it, or can it wait? Postpartum does not become easier because you make it look like ordinary life. It often becomes easier when you stop requiring it to.",
-      "risk_score": 4,
+      "opening": "Postpartum life combines a huge amount of invisible work with a strange pressure to make ordinary life look unchanged. A baby needs feeding, soothing and changing; a recovering body needs food, rest and time; sleep arrives in fragments. Meanwhile dishes appear, laundry multiplies, messages wait, and the standards you used before birth can keep running in the background as though nothing fundamental has changed.",
+      "opening_14_words": "Postpartum life combines a huge amount of invisible work with a strange pressure to",
+      "intro_3_paragraphs": "Postpartum life combines a huge amount of invisible work with a strange pressure to make ordinary life look unchanged. A baby needs feeding, soothing and changing; a recovering body needs food, rest and time; sleep arrives in fragments. Meanwhile dishes appear, laundry multiplies, messages wait, and the standards you used before birth can keep running in the background as though nothing fundamental has changed. Perfectionism in this season often sounds responsible rather than extreme: keep the house under control, answer everyone, make proper meals, use every nap well, stay grateful, stay organized. The problem is not caring about your home or routines. It is treating every old standard as equally important when your available energy has changed. A postpartum home does not need to be caught up; it needs to work. Clean enough dishes to eat from, food that is easy to reach, enough laundry to dress everyone, clear paths through the rooms, and the supplies you use most where you can find them may be a perfectly successful baseline. Folded laundry, an empty inbox and guest-ready bathrooms can belong to another tier.",
+      "last_h2": "Let the standard rise again because life changes, not because guilt wins",
+      "ending_3_paragraphs": "Simplifying postpartum is not a permanent identity. It is a temporary reallocation of effort. Over time you may cook more, invite people over, return to routines you missed, and care again about the details that currently feel impossible. They can come back because you have capacity for them, not because you finally managed to force newborn life to resemble the old one. A useful filter is simple: does this need to happen today, could someone else do it, or would anything meaningful go wrong if it waited? That question will not create a perfect house. It can create a household where energy is spent more deliberately. If the pressure to do everything well becomes persistent, intense, or makes it hard to rest even when you have the chance, it is reasonable to tell someone you trust and seek support. You do not have to diagnose the feeling to take it seriously. Postpartum is demanding enough without turning every ordinary limitation into evidence that you should be doing better.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -4928,42 +4918,40 @@
       "translation_group": "053-first-weeks-newborn-without-perfect-schedule",
       "language": "en",
       "title": "How to Organize the First Weeks With a Newborn Without Creating a Perfect Schedule",
-      "words": 653,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.66,
+      "words": 856,
+      "paragraphs": 15,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.67,
       "h2s": [
-        "Build stations, not a timetable",
-        "Plan handoffs before someone is depleted",
-        "Give the family anchors even when the baby has no schedule",
-        "Choose plans that survive interruption",
-        "Organization should remove pressure, not become another scorecard"
+        "Organize around repeated work, not around clock time",
+        "Make ownership visible before both adults are depleted",
+        "Give the adults anchors even when the baby has no timetable",
+        "Decide what counts as unfinished without treating it as urgent"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 38.6,
+      "avg_paragraph_words": 54.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.125,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 1,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 0,
+        "no_significa": 1,
         "a_veces": 0,
-        "puede": 8,
-        "importante": 1,
+        "puede": 14,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "The first weeks with a newborn can be highly repetitive and almost impossible to schedule. You may spend the day cycling through feeding, changing, holding and trying to sleep, yet still have no reliable idea what the next hour will contain.",
-      "opening_14_words": "The first weeks with a newborn can be highly repetitive and almost impossible to",
-      "intro_3_paragraphs": "The first weeks with a newborn can be highly repetitive and almost impossible to schedule. You may spend the day cycling through feeding, changing, holding and trying to sleep, yet still have no reliable idea what the next hour will contain. That is why building a perfect timetable can create a second problem on top of an already demanding season. Instead of organizing the newborn, it is often more useful to organize the environment around what keeps repeating. If something happens many times a day, make it easy. Keep diapers and spare clothes where changes really happen. Put water and snacks where the person feeding or holding the baby tends to get stuck. Use a basket for the items that migrate around the living room.",
-      "last_h2": "Organization should remove pressure, not become another scorecard",
-      "ending_3_paragraphs": "If you are the one asking, you also do not need to wait until things are unmanageable. A small specific request is often easier for everyone than a rescue mission after the household is already depleted. Tracking apps, lists and routines can be useful if they help you remember what matters. If they turn every day into a series of deviations from the plan, they may be creating work instead of reducing it. The first weeks do not have to prove that you have mastered your new life. Good-enough organization does something more practical: it lowers friction for the adults while the baby's rhythm is still changing.",
-      "risk_score": 4,
+      "opening": "The first weeks with a newborn can be repetitive without being predictable. You may feed, change, hold, settle and start again all day, yet still have no reliable idea what 2 p.m. will look like. That mismatch is what makes early newborn life feel so hard to “organize”: the work repeats, but the timing keeps moving.",
+      "opening_14_words": "The first weeks with a newborn can be repetitive without being predictable You may",
+      "intro_3_paragraphs": "The first weeks with a newborn can be repetitive without being predictable. You may feed, change, hold, settle and start again all day, yet still have no reliable idea what 2 p.m. will look like. That mismatch is what makes early newborn life feel so hard to “organize”: the work repeats, but the timing keeps moving. A detailed schedule often tries to solve the wrong problem. Instead of making the baby predictable, organize the adults, the environment and the decisions that are going to recur anyway. The goal is not a smooth day. It is a day with less friction when plans inevitably move. Notice what you do again and again and make those actions easier. Keep diaper supplies where changes actually happen, not only where you imagined they would happen before birth. Put water, a charger and easy snacks near the places where someone often gets pinned under a sleeping or feeding baby. Give burp cloths, clean bottles or other frequently used items an obvious home that both adults can find without asking.",
+      "last_h2": "Decide what counts as unfinished without treating it as urgent",
+      "ending_3_paragraphs": "Food, basic supplies and a time-sensitive appointment may need action. Organizing photos, answering every congratulatory message or finishing decor usually can wait. If someone offers help, convert the offer into a closed task when possible: bring dinner on Tuesday, pick up a grocery order, walk the dog, return a package. Specific help removes coordination instead of adding another conversation. Tracking tools can be useful when they reduce memory work. If a shared note prevents repeated questions about what needs replacing, use it. If a system makes you feel that every day is a series of failures to follow the plan, it is no longer serving its purpose. The first weeks do not need to demonstrate that you have mastered life with a baby. Good organization is much less impressive: the things you use are easy to reach, responsibilities are clearer, basic adult needs stay visible, and a strange day does not mean the system has collapsed.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -4972,42 +4960,40 @@
       "translation_group": "054-newborn-routine-structure-without-predictability",
       "language": "en",
       "title": "Newborn Routine: How Structure Can Help Without Expecting Predictability",
-      "words": 614,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 8.14,
+      "words": 887,
+      "paragraphs": 15,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.51,
       "h2s": [
-        "A sequence can repeat even when the time changes",
-        "The routine may be for the adults as much as the baby",
-        "Do not treat every change as a system failure",
-        "Predictability can emerge rather than be imposed",
-        "Useful structure survives a strange day"
+        "Build sequences around moments, not fixed hours",
+        "Keep the parts that organize the adults and release the expected outcome",
+        "Notice patterns before you decide what the pattern should be",
+        "A useful newborn routine should survive an unusual day"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 35.7,
+      "avg_paragraph_words": 56.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.062,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 3,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 0,
-        "a_veces": 0,
-        "puede": 12,
-        "importante": 0,
+        "a_veces": 1,
+        "puede": 16,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "Talking about a newborn “routine” can sound ridiculous when you are three days into not knowing exactly when morning starts. But routine does not have to mean feeding, sleeping and waking at fixed clock times.",
-      "opening_14_words": "Talking about a newborn routine can sound ridiculous when you are three days into",
-      "intro_3_paragraphs": "Talking about a newborn “routine” can sound ridiculous when you are three days into not knowing exactly when morning starts. But routine does not have to mean feeding, sleeping and waking at fixed clock times. In this stage it can mean something much simpler: certain needs meet a familiar response, and the adults have a basic sequence they can return to. The structure lives in the process, not in a promise that the baby will produce the same outcome. After a wake-up there may be feeding, a diaper change when needed, some contact, then another look at what the baby seems ready for. In the evening, you might lower the household energy and repeat a few familiar steps.",
-      "last_h2": "Useful structure survives a strange day",
-      "ending_3_paragraphs": "If you repeat the same evening steps and get a different result, there may be nothing to fix. Keep the pieces that organize the adults and let the baby's response remain variable. There will be appointments, visitors, long outings and days when the baby simply does something different. A healthy routine should tolerate variation without making everyone feel they must start over. With a newborn, the best structure is not the one that makes the day predictable. It is the one that helps the adults know what to do when the day is not.",
-      "risk_score": 5,
+      "opening": "A newborn routine is easy to misunderstand because the word “routine” sounds like a timetable. Parents hear it and imagine feeds, naps and bedtime landing at predictable hours, then assume something is wrong when Tuesday looks nothing like Monday. In the earliest weeks, a more useful definition is much smaller: certain moments have familiar cues, and the adults have a sequence they can return to even when the clock changes.",
+      "opening_14_words": "A newborn routine is easy to misunderstand because the word routine sounds like a",
+      "intro_3_paragraphs": "A newborn routine is easy to misunderstand because the word “routine” sounds like a timetable. Parents hear it and imagine feeds, naps and bedtime landing at predictable hours, then assume something is wrong when Tuesday looks nothing like Monday. In the earliest weeks, a more useful definition is much smaller: certain moments have familiar cues, and the adults have a sequence they can return to even when the clock changes. The routine is the repeatable process, not a promise about the baby's response. That distinction matters. It lets structure reduce decision-making without asking a newborn to make the day orderly before their rhythm is ready to be orderly. A flexible routine can begin with events rather than times. After the baby wakes, you may feed, change a diaper when needed, spend some time in contact, and then respond to what happens next. Before nighttime care, you might dim the room, gather supplies, lower the household noise and move through familiar steps. None of that requires “bedtime” to happen at exactly 7:30.",
+      "last_h2": "A useful newborn routine should survive an unusual day",
+      "ending_3_paragraphs": "Appointments, visitors, errands and simply difficult days will interrupt whatever usually happens. A supportive routine should be portable enough to return to without a dramatic reset. You do not need to “get back on track” because one nap happened somewhere else, the evening started later, or a familiar sequence was skipped. Return to the pieces that help when they fit again. If dimming the room, preparing supplies and handing over care in a familiar way makes nighttime easier for the adults, use those pieces. If one step has become pointless, drop it. Flexibility is not the absence of routine; it is what keeps a routine useful when life changes. With a newborn, structure is most valuable when it tells the adults what they can do next, not when it claims to know what the baby will do next. Predictability may emerge gradually. You do not have to manufacture it in order to have a home that feels a little more navigable now.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -5016,189 +5002,23 @@
       "translation_group": "055-leaving-house-with-baby-light-bag",
       "language": "en",
       "title": "How to Leave the House With a Baby Without Packing Half the House",
-      "words": 626,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.99,
+      "words": 815,
+      "paragraphs": 15,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.91,
       "h2s": [
-        "Start with time and destination",
-        "Keep a small core ready to go",
-        "One useful outfit can beat three perfect ones",
-        "Reset the bag after you get home",
-        "Going out gets easier when you trust yourself to solve things away from home"
+        "Scale preparation to time, distance and your exit options",
+        "Reduce the number of decisions at the door",
+        "Plan for ordinary mess, not every imaginable emergency",
+        "Make leaving light enough that you still choose to go"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 36.6,
+      "avg_paragraph_words": 52.0,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.125,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 2,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 7,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Leaving the house with a baby can become a logistics operation wildly out of proportion to the outing. Diapers, wipes, spare clothes, burp cloths, toys, cream, a blanket, feeding supplies and a growing category called “just in case” can turn a coffee run into luggage.",
-      "opening_14_words": "Leaving the house with a baby can become a logistics operation wildly out of",
-      "intro_3_paragraphs": "Leaving the house with a baby can become a logistics operation wildly out of proportion to the outing. Diapers, wipes, spare clothes, burp cloths, toys, cream, a blanket, feeding supplies and a growing category called “just in case” can turn a coffee run into luggage. Being prepared is useful. The problem is that “just in case” has no natural stopping point. A good diaper bag does not solve every situation you can imagine. It covers the situations that are reasonably likely during the outing you are actually taking. You do not need the same setup for a forty-minute walk and six hours across town. Going to a grandparent's house where supplies already exist is different from spending the afternoon somewhere with no easy store nearby.",
-      "last_h2": "Going out gets easier when you trust yourself to solve things away from home",
-      "ending_3_paragraphs": "Over time, the bag becomes a small record of your actual experience. If something has gone on ten outings without being used and its absence would be easy to solve, it may no longer need to come. Overpacking often comes from imagining that every surprise will become a crisis. Experience teaches you what your baby actually uses, what almost never leaves the bag, and which problems can be handled by buying something, asking for help, changing the plan or simply coming home. The goal is not to leave home perfectly equipped. It is to make preparation light enough that leaving still feels worth doing.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/056-baby-diaper-bag-essentials-everyday-outings.json",
-      "article_number": 56,
-      "translation_group": "056-baby-bag-day-to-day",
-      "language": "en",
-      "title": "Baby diaper bag essentials: what you actually need for everyday outings",
-      "words": 641,
-      "paragraphs": 15,
-      "h2_count": 3,
-      "h2_density_per_1000_words": 4.68,
-      "h2s": [
-        "Build a small base that works for most outings",
-        "One complete outfit beats a pile of random clothes",
-        "The real goal is making it easier to leave"
-      ],
-      "list_items": 0,
-      "bold_spans": 4,
-      "avg_paragraph_words": 40.9,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.067,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 1,
-        "puede": 5,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "The first few times you leave home with a baby, packing can feel strangely high stakes. You add diapers, extra diapers, three outfits, wipes, blankets, toys, feeding gear, bags, backup feeding gear, and something you have never used but might suddenly need in a parking lot.",
-      "opening_14_words": "The first few times you leave home with a baby packing can feel strangely",
-      "intro_3_paragraphs": "The first few times you leave home with a baby, packing can feel strangely high stakes. You add diapers, extra diapers, three outfits, wipes, blankets, toys, feeding gear, bags, backup feeding gear, and something you have never used but might suddenly need in a parking lot. After enough ordinary outings, most families discover a simpler truth: the best diaper bag is not the one prepared for every possible event. It is the one stocked with the things you actually reach for. For many families, the everyday base is straightforward: diapers, wipes or your usual cleanup supplies, one complete change of clothes, a bag for dirty items, and whatever your baby routinely needs for feeding away from home.",
-      "last_h2": "The real goal is making it easier to leave",
-      "ending_3_paragraphs": "And sometimes you will forget something. In many cases, the supposedly essential item can be improvised, bought, or simply skipped for that outing. That experience is useful information too. It teaches you what truly deserves permanent space the next time you pack. If every simple outing requires twenty minutes of packing, the system is probably asking too much of you. Keep the base ready, look at the actual plan, add the one or two things that make sense, and go. You are not trying to prove you can anticipate every inconvenience. You are trying to make an ordinary outing with a baby feel ordinary enough to happen. Your own experience will quickly become a better packing guide than any giant online list.",
-      "risk_score": 3,
-      "risk_reasons": [
-        "body_under_650_words"
-      ]
-    },
-    {
-      "path": "content/articles/en/057-dress-newborn-without-buying-too-many-clothes.json",
-      "article_number": 57,
-      "translation_group": "057-dressing-newborn-without-overbuying",
-      "language": "en",
-      "title": "How to dress a newborn without buying a closet full of clothes",
-      "words": 599,
-      "paragraphs": 15,
-      "h2_count": 3,
-      "h2_density_per_1000_words": 5.01,
-      "h2s": [
-        "Shop for an ordinary week, not a photo shoot",
-        "Your laundry routine and weather matter more than a universal number",
-        "A smaller wardrobe can be easier to manage"
-      ],
-      "list_items": 0,
-      "bold_spans": 4,
-      "avg_paragraph_words": 38.1,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 8,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Newborn clothes are unusually easy to overbuy before there is an actual newborn in the house. Everything is tiny, soft, and inexpensive enough one item at a time that a drawer can fill up long before you know your baby's size or what kinds of clothes you will enjoy using.",
-      "opening_14_words": "Newborn clothes are unusually easy to overbuy before there is an actual newborn in",
-      "intro_3_paragraphs": "Newborn clothes are unusually easy to overbuy before there is an actual newborn in the house. Everything is tiny, soft, and inexpensive enough one item at a time that a drawer can fill up long before you know your baby's size or what kinds of clothes you will enjoy using. The simplest rule is not very glamorous: at the beginning, a smaller wardrobe of useful clothes usually beats a large wardrobe waiting for the right occasion. In the early weeks, clothes are working clothes. They go on, get messy, get washed, and return to the drawer. The pieces that earn repeat use are often the ones that open easily, make diaper changes straightforward, and do not require much coordination from a tired adult.",
-      "last_h2": "A smaller wardrobe can be easier to manage",
-      "ending_3_paragraphs": "It also helps when everyday clothes mix easily. If most pieces work together, a messy change does not leave you searching for the one pair of pants that matches a particular top. Practical baby clothes benefit more from compatibility than from perfect outfits. When the drawer is overflowing, the useful clothes can disappear underneath outgrown items, gifts, and outfits that never quite fit the day. A smaller rotation makes it easier to see what you have and notice when a size is ending. Your newborn's wardrobe does not need to be complete before birth. It only needs to get you through the beginning comfortably. After that, your baby's size, your laundry rhythm, and your actual routines are much better shopping information than a giant checklist.",
-      "risk_score": 3,
-      "risk_reasons": [
-        "body_under_650_words"
-      ]
-    },
-    {
-      "path": "content/articles/en/058-what-to-buy-before-baby-arrives-what-can-wait.json",
-      "article_number": 58,
-      "translation_group": "058-what-to-buy-before-baby-and-what-can-wait",
-      "language": "en",
-      "title": "What to buy before the baby arrives — and what can wait",
-      "words": 587,
-      "paragraphs": 15,
-      "h2_count": 3,
-      "h2_density_per_1000_words": 5.11,
-      "h2s": [
-        "Set up the basics for the first days",
-        "Do not solve six-month problems today",
-        "Being prepared does not mean owning everything"
-      ],
-      "list_items": 0,
-      "bold_spans": 4,
-      "avg_paragraph_words": 37.7,
-      "short_paragraph_ratio": 0.067,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.133,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 8,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Preparing for a baby comes with a powerful marketing message: almost everything can be presented as something you should have ready before birth. Suddenly the final months of pregnancy can feel like a deadline for buying solutions to problems you do not even know you will have.",
-      "opening_14_words": "Preparing for a baby comes with a powerful marketing message almost everything can be",
-      "intro_3_paragraphs": "Preparing for a baby comes with a powerful marketing message: almost everything can be presented as something you should have ready before birth. Suddenly the final months of pregnancy can feel like a deadline for buying solutions to problems you do not even know you will have. A calmer approach is to separate two questions: What do we need to bring a baby home and function? And what will we be able to choose better once we know our actual baby and routine? Before birth, it makes sense to solve the things you will use immediately: appropriate transportation, a sleep space set up according to the safety guidance you follow, diapers and basic care supplies, a small clothing rotation, and the feeding items you already know are part of your initial plan.",
-      "last_h2": "Being prepared does not mean owning everything",
-      "ending_3_paragraphs": "If a purchase feels uncertain, imagine the first week without it. Would you be unable to meet a basic need, or would the item simply make one task more convenient? Both categories can be worthwhile, but separating them makes it much easier to decide what truly needs to be ready. Stores still exist after a baby is born. So do delivery, borrowing, and quick purchases when a real need becomes clear. Remembering that can remove a surprising amount of pressure. A prepared home is not a home containing every baby product. It is a home that can handle the beginning and still has enough flexibility to adapt to the family that actually shows up.",
-      "risk_score": 3,
-      "risk_reasons": [
-        "body_under_650_words"
-      ]
-    },
-    {
-      "path": "content/articles/en/059-baby-nursery-practical-calm-space-that-grows.json",
-      "article_number": 59,
-      "translation_group": "059-practical-calm-lasting-nursery",
-      "language": "en",
-      "title": "Baby nursery ideas for a practical, calm space that can grow",
-      "words": 562,
-      "paragraphs": 15,
-      "h2_count": 3,
-      "h2_density_per_1000_words": 5.34,
-      "h2s": [
-        "Start with functions, not a theme",
-        "You do not have to buy every piece before birth",
-        "Calm does not come from everything matching"
-      ],
-      "list_items": 0,
-      "bold_spans": 4,
-      "avg_paragraph_words": 35.9,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.2,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
@@ -5208,14 +5028,182 @@
         "importante": 0,
         "clave": 0
       },
-      "opening": "A nursery can start as “let's make a comfortable room for the baby” and somehow turn into a paint palette, twelve matching baskets, and the feeling that one specific lamp must be purchased before labor can begin.",
-      "opening_14_words": "A nursery can start as let's make a comfortable room for the baby and",
-      "intro_3_paragraphs": "A nursery can start as “let's make a comfortable room for the baby” and somehow turn into a paint palette, twelve matching baskets, and the feeling that one specific lamp must be purchased before labor can begin. The room usually works better when it is designed around daily life instead of the final photo. The goal is not to finish a perfect baby room. It is to create a space that remains useful after your baby stops being a newborn. Think about what you will actually do in the room: store clothes, change the baby, sit together, keep diapers organized, read, or simply give baby gear a home. Your baby may sleep there right away or may not, but the room can still support the household.",
-      "last_h2": "Calm does not come from everything matching",
-      "ending_3_paragraphs": "The nursery also does not need to carry every emotional expectation of pregnancy. Preparing it can be a lovely ritual, but unfinished shelves or undecided artwork do not mean the baby is arriving in an unprepared home. Function can be completed gradually. A room often feels peaceful because it is easy to find what you need, surfaces are not overloaded, and there is enough visual breathing room. That kind of calm is more useful at 2 a.m. than perfect coordination. The best nursery is not the one that looks completely finished before you know your baby. It is the one with enough room to be finished by living in it.",
-      "risk_score": 3,
+      "opening": "Leaving home with a baby can turn a simple plan into a departure ritual: feed first, change the diaper, find the keys, decide whether the stroller is needed, add another layer, pack for three unlikely emergencies, then discover the baby needs changing again. The problem is not that babies require nothing. It is that preparation can expand until the outing feels harder than staying home.",
+      "opening_14_words": "Leaving home with a baby can turn a simple plan into a departure ritual",
+      "intro_3_paragraphs": "Leaving home with a baby can turn a simple plan into a departure ritual: feed first, change the diaper, find the keys, decide whether the stroller is needed, add another layer, pack for three unlikely emergencies, then discover the baby needs changing again. The problem is not that babies require nothing. It is that preparation can expand until the outing feels harder than staying home. The useful question is not “what could possibly happen?” but “what would be difficult to solve during this particular outing?” A forty-minute walk near home and six hours across town deserve different levels of backup. Treating them as the same trip is how every coffee becomes an expedition. Before adding gear, look at the shape of the plan. How long will you probably be out? Are you walking around the neighborhood, driving somewhere, visiting a relative, or spending hours in a place where it would be inconvenient to leave? Will you have access to the car, a bathroom, stores, food, or supplies already at the destination?",
+      "last_h2": "Make leaving light enough that you still choose to go",
+      "ending_3_paragraphs": "The best system is not the one that makes every outing invulnerable to surprise. It is the one that lowers the threshold for ordinary life. A walk, a quick errand or meeting a friend should not require a twenty-minute risk assessment every time. Some days you will decide that going out is not worth the effort. Other days you will leave later than planned, forget something, or turn around early. None of those outcomes means the system failed. A flexible departure plan assumes that babies and adults can change their minds. Going out becomes easier when preparation supports the outing instead of competing with it. Pack for the time and place in front of you, keep useful backup where it can stay, and leave enough margin to solve a small problem without bringing half the house along.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words"
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/056-baby-diaper-bag-essentials-everyday-outings.json",
+      "article_number": 56,
+      "translation_group": "056-baby-bag-day-to-day",
+      "language": "en",
+      "title": "Baby diaper bag essentials: what you actually need for everyday outings",
+      "words": 825,
+      "paragraphs": 15,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.85,
+      "h2s": [
+        "Build the everyday core around the jobs you actually do away from home",
+        "Keep plan-specific items separate from permanent bag residents",
+        "Restocking matters more than perfect packing",
+        "Let real outings decide what deserves permanent space"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 52.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 1,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 2,
+        "puede": 6,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "A diaper bag becomes useful when you stop treating it like a miniature emergency department and start treating it like a small piece of household infrastructure. It should contain the things you reach for on ordinary outings, be easy to check, and return home ready for the next trip. If it is permanently stuffed, you often carry more while knowing less about what is actually inside.",
+      "opening_14_words": "A diaper bag becomes useful when you stop treating it like a miniature emergency",
+      "intro_3_paragraphs": "A diaper bag becomes useful when you stop treating it like a miniature emergency department and start treating it like a small piece of household infrastructure. It should contain the things you reach for on ordinary outings, be easy to check, and return home ready for the next trip. If it is permanently stuffed, you often carry more while knowing less about what is actually inside. The everyday bag needs a dependable core, not a solution to every possible problem. The right core is small enough to maintain and specific enough that you can leave without rebuilding a packing list every time. For most families, the bag needs to cover a few predictable jobs: diapering and cleanup, one messy clothing change, feeding in whatever form your baby normally needs while out, and containing dirty or wet items until you get home. That usually translates into diapers, wipes or your usual cleaning supplies, one complete change of clothes, a simple bag for dirty things, and the feeding items that belong to your family's routine.",
+      "last_h2": "Let real outings decide what deserves permanent space",
+      "ending_3_paragraphs": "After several weeks, you have better evidence than any universal checklist. Notice what you reach for, what you repeatedly wish you had and what travels everywhere untouched. If an item has gone on ten ordinary outings without being used and its absence would be easy to solve, it may not deserve permanent space. Forgetting something occasionally is useful information too. Sometimes you discover that the supposedly essential object was genuinely inconvenient to miss; add it to the core. Other times you improvise without difficulty and realize you have been carrying it mainly from habit. A good diaper bag is boring in the best way: you know where the basics are, you can see when they need replacing, and it does not require a fresh strategy every time you leave. Let the destination add the exceptions. Let the bag itself stay simple enough to trust.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/057-dress-newborn-without-buying-too-many-clothes.json",
+      "article_number": 57,
+      "translation_group": "057-dressing-newborn-without-overbuying",
+      "language": "en",
+      "title": "How to dress a newborn without buying a closet full of clothes",
+      "words": 879,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.55,
+      "h2s": [
+        "Buy for ordinary days, not for the version of newborn life in photos",
+        "Do not build the whole wardrobe around one size",
+        "Laundry, climate and your baby's habits decide the real quantity",
+        "Build a wardrobe that is easy to use, not impressive to open"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 46.4,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.111,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 8,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Newborn clothes are unusually easy to overbuy before there is an actual newborn in the house. Everything is tiny, soft, and inexpensive enough one piece at a time that a drawer can fill up long before you know your baby's size, how often you will do laundry, or which fastenings you will be willing to deal with at 3 a.m.",
+      "opening_14_words": "Newborn clothes are unusually easy to overbuy before there is an actual newborn in",
+      "intro_3_paragraphs": "Newborn clothes are unusually easy to overbuy before there is an actual newborn in the house. Everything is tiny, soft, and inexpensive enough one piece at a time that a drawer can fill up long before you know your baby's size, how often you will do laundry, or which fastenings you will be willing to deal with at 3 a.m. The useful question is not how to create a complete newborn wardrobe. It is how to create a small starting rotation that works hard, washes easily, and leaves room for your real baby to influence what you buy next. In the first weeks, most clothes are work clothes. They are worn for feeding, sleeping, being held, diaper changes, spit-up, leaks, and long stretches at home. That is why the pieces that become favorites are often the least complicated ones: soft, washable, easy to open, and simple enough that any tired adult can put them on without studying the garment.",
+      "last_h2": "Build a wardrobe that is easy to use, not impressive to open",
+      "ending_3_paragraphs": "This also makes hand-me-downs and secondhand clothes easier to use. You do not need every item to belong to a coordinated set. You need enough pieces that are comfortable, in good condition, suitable for the season, and easy for your family to manage. As you learn your baby's size and your own habits, you can buy more of what genuinely earns repeat use. That often saves money because later purchases are based on a demonstrated preference instead of a theoretical checklist. Your newborn's wardrobe does not need to be finished before birth. It only needs to carry you through the beginning without creating extra work. After that, the baby, the weather, and your laundry basket will give you much better shopping information than a crowded closet ever could.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/058-what-to-buy-before-baby-arrives-what-can-wait.json",
+      "article_number": 58,
+      "translation_group": "058-what-to-buy-before-baby-and-what-can-wait",
+      "language": "en",
+      "title": "What to buy before the baby arrives — and what can wait",
+      "words": 808,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.95,
+      "h2s": [
+        "Prepare the beginning, not every future stage",
+        "Separate needs, conveniences and experiments",
+        "Take inventory before you buy duplicates",
+        "Create a way to buy later without turning every need into an emergency"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 43.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.111,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 14,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Preparing for a baby can make every product sound urgent. A store, registry or social feed can turn a very ordinary object into something you supposedly need before labor starts, and suddenly the last months of pregnancy feel like a deadline for solving the first year of parenthood.",
+      "opening_14_words": "Preparing for a baby can make every product sound urgent A store registry or",
+      "intro_3_paragraphs": "Preparing for a baby can make every product sound urgent. A store, registry or social feed can turn a very ordinary object into something you supposedly need before labor starts, and suddenly the last months of pregnancy feel like a deadline for solving the first year of parenthood. A calmer way to prepare is to separate two questions: What do we need in order to bring a baby home and function during the first days? And what will we choose more intelligently after we know our actual baby, home and routine? Before birth, it makes sense to cover the things you expect to use immediately: appropriate transportation, a sleep setup based on the safety guidance you follow, diapers and basic care supplies, a small amount of clothing, and the feeding items that are part of your initial plan.",
+      "last_h2": "Create a way to buy later without turning every need into an emergency",
+      "ending_3_paragraphs": "You can also notice which purchases would be easy to borrow for a week, order quickly, pick up locally or test from a friend. A decision does not have to be permanent the first time a problem appears. Most importantly, remember that stores still exist after the baby is born. So do deliveries, returns, lending networks and other parents with opinions based on real use. You are allowed to gather new information before spending. A prepared home is not a home containing every product that might someday be useful. It is a home that can handle the beginning and still has enough room—physically, financially and mentally—to adapt once real family life begins.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/059-baby-nursery-practical-calm-space-that-grows.json",
+      "article_number": 59,
+      "translation_group": "059-practical-calm-lasting-nursery",
+      "language": "en",
+      "title": "Baby nursery ideas for a practical, calm space that can grow",
+      "words": 779,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.13,
+      "h2s": [
+        "Start with the jobs the room needs to do",
+        "Design storage for changing contents, not one short stage",
+        "Leave some decisions unfinished until the room teaches you something",
+        "Calm comes from reduced friction, not from everything matching"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 41.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 15,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "A nursery can begin as a practical project and quietly turn into a test of whether you are “ready.” Paint colors, matching baskets, specialized furniture and decorative details start to feel urgent because the room is visible in a way that feeding plans, sleep deprivation and family adjustment are not.",
+      "opening_14_words": "A nursery can begin as a practical project and quietly turn into a test",
+      "intro_3_paragraphs": "A nursery can begin as a practical project and quietly turn into a test of whether you are “ready.” Paint colors, matching baskets, specialized furniture and decorative details start to feel urgent because the room is visible in a way that feeding plans, sleep deprivation and family adjustment are not. But the room will serve you better if it is designed around ordinary movements rather than a finished photograph. The goal is not to complete a perfect newborn room before birth. It is to create a space that works now and can change without fighting the family later. Before choosing a theme, list the actual functions you expect from the space. Maybe it needs to store clothes and diapers, offer a place to change the baby, hold books and feeding supplies, provide comfortable seating, or simply keep baby gear from spreading through the rest of the home.",
+      "last_h2": "Calm comes from reduced friction, not from everything matching",
+      "ending_3_paragraphs": "It is also worth separating emotional preparation from visual completion. Decorating can be a lovely ritual during pregnancy, and enjoying it does not make the project superficial. But an unfinished shelf or missing print does not mean the baby is arriving in an unprepared home. If budget is limited, spend first on the functions you will actually use and let decoration develop over time. If budget is generous, the same principle still protects you from filling the room with expensive objects whose purpose disappears quickly. The best nursery is not the one that looks complete before you know your baby. It is the one with enough practical structure to help now and enough flexibility to be completed by living in it.",
+      "risk_score": 2,
+      "risk_reasons": [
+        "body_under_800_words"
       ]
     },
     {
@@ -5224,18 +5212,19 @@
       "translation_group": "060-modern-baby-shower-ideas",
       "language": "en",
       "title": "Modern baby shower ideas that do not feel like the same party every time",
-      "words": 560,
-      "paragraphs": 15,
-      "h2_count": 3,
-      "h2_density_per_1000_words": 5.36,
+      "words": 868,
+      "paragraphs": 19,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.61,
       "h2s": [
-        "Choose the kind of gathering first",
-        "Gift opening does not have to be the main event",
-        "Decide how you want the gathering to feel"
+        "Choose the gathering before you choose the theme",
+        "Use activities that add something instead of interrupting the party",
+        "Make gifts fit the person instead of turning them into a performance",
+        "Design the atmosphere around how the guest of honor wants to feel"
       ],
       "list_items": 0,
-      "bold_spans": 4,
-      "avg_paragraph_words": 35.7,
+      "bold_spans": 2,
+      "avg_paragraph_words": 43.5,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -5245,18 +5234,18 @@
         "no_necesitas": 0,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 7,
+        "puede": 11,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Some baby showers seem to arrive with a script: themed decorations, several games nobody volunteered to play, a long gift-opening session, and a schedule so full that guests barely have time to talk.",
-      "opening_14_words": "Some baby showers seem to arrive with a script themed decorations several games nobody",
-      "intro_3_paragraphs": "Some baby showers seem to arrive with a script: themed decorations, several games nobody volunteered to play, a long gift-opening session, and a schedule so full that guests barely have time to talk. The celebration can be much simpler. A modern baby shower does not have to reinvent parties. It just needs to look more like the person being celebrated and less like a template. Before decorations, decide what actually fits the group: brunch at home, a backyard afternoon, a picnic, dinner, coffee and dessert, or a larger gathering that includes partners and different friend groups.",
-      "last_h2": "Decide how you want the gathering to feel",
-      "ending_3_paragraphs": "If guests come from different parts of your life, a little structure can help: accessible food, comfortable places to talk, and maybe one shared activity early on. After that, you do not have to fill every silence. People who care about each other usually know what to do when they are given time to actually talk. If the guest of honor wants a quiet afternoon talking with friends, do not fill it with contests. If they love big games and decorations, lean into that. If they want a coed party or a tiny meal, that counts too. Originality is not about inventing a baby shower nobody has ever seen. It is about removing the traditions you are doing only because you think you are supposed to, and keeping the parts this particular group will genuinely enjoy.",
-      "risk_score": 3,
+      "opening": "A lot of baby showers end up feeling identical for a simple reason: the planning starts with traditions instead of people. Someone searches for decorations, games and favors, then tries to fit the guest of honor into a format that was already decided.",
+      "opening_14_words": "A lot of baby showers end up feeling identical for a simple reason the",
+      "intro_3_paragraphs": "A lot of baby showers end up feeling identical for a simple reason: the planning starts with traditions instead of people. Someone searches for decorations, games and favors, then tries to fit the guest of honor into a format that was already decided. A more modern celebration does not have to be dramatically original. It just needs to be built around what this particular person and this particular group would genuinely enjoy. That shift changes almost everything: the size, timing, food, activities, guest list and even whether gifts are opened in front of everyone. Start by deciding what kind of social experience actually fits. A relaxed brunch at home, a backyard afternoon, a picnic, coffee and dessert, dinner at a favorite restaurant, or a larger mixed-group party can all be baby showers. The format matters more than whether every napkin coordinates.",
+      "last_h2": "Design the atmosphere around how the guest of honor wants to feel",
+      "ending_3_paragraphs": "Think about what would make the person feel cared for when the event ends. Maybe that means not lifting a finger for setup or cleanup. Maybe it means having time with friends before life changes. Maybe it means a joyful loud party, or maybe a calm meal where nobody organizes a single game. Decor can support that atmosphere without carrying the event. A few flowers, good lighting, a simple table and personal details often feel more intentional than filling every surface with themed objects. Originality usually comes from editing, not adding. A memorable baby shower is not the one with the most unusual activities. It is the one where the traditions that do not fit have been removed, the useful ones remain, and the person being celebrated can recognize themselves in the room.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -17751,42 +17740,41 @@
       "translation_group": "051-postpartum-visits-boundaries",
       "language": "es",
       "title": "Visitas después del parto: cómo establecer límites que protejan a la nueva familia",
-      "words": 697,
+      "words": 911,
       "paragraphs": 14,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.17,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.39,
       "h2s": [
-        "Decidid primero qué queréis proteger",
-        "Un límite funciona mejor cuando se dice antes",
-        "Ayuda de verdad no siempre significa sostener al bebé",
-        "No hace falta repartir al bebé para ser buena anfitriona",
-        "La visita ideal deja espacio detrás"
+        "Decidid qué queréis proteger antes de repartir invitaciones",
+        "El límite se sostiene mejor cuando se concreta antes de abrir la puerta",
+        "Una visita que ayuda se adapta a la casa en lugar de esperar que la atiendan",
+        "Proteged también el final, porque ahí se alargan muchas visitas"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 47.1,
+      "avg_paragraph_words": 61.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.214,
-      "long_paragraphs": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 4,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
         "a_veces": 3,
-        "puede": 12,
-        "importante": 1,
-        "clave": 1
+        "puede": 11,
+        "importante": 0,
+        "clave": 0
       },
-      "opening": "Después del parto, una visita que sobre el papel dura cuarenta minutos puede sentirse como una cita importante: hay que estar mínimamente presentable, abrir la puerta, conversar, decidir si quieres que cojan al bebé y, muchas veces, gestionar expectativas ajenas justo cuando tu propia familia todavía está aprendiendo a funcionar.",
-      "opening_14_words": "Después del parto una visita que sobre el papel dura cuarenta minutos puede sentirse",
-      "intro_3_paragraphs": "Después del parto, una visita que sobre el papel dura cuarenta minutos puede sentirse como una cita importante: hay que estar mínimamente presentable, abrir la puerta, conversar, decidir si quieres que cojan al bebé y, muchas veces, gestionar expectativas ajenas justo cuando tu propia familia todavía está aprendiendo a funcionar. Por eso poner límites a las visitas no es ser antipática ni aislar al bebé. Es decidir cuánta vida social puede sostener vuestra casa mientras el posparto todavía ocupa casi toda la energía disponible. El mejor sistema no es el más educado sobre el papel. Es el que evita que cada mensaje de “¿podemos pasar?” obligue a negociar desde cero. Antes de responder a nadie, conviene que la nueva familia aclare qué necesita. Quizá queréis unos días sin visitas. Quizá os vienen bien visitas breves, pero no sobremesas. Tal vez agradecéis muchísimo que alguien venga si trae comida y se marcha pronto. O puede que os apetezca enseñar al bebé y, aun así, no queráis que vaya pasando de brazos en brazos.",
-      "last_h2": "La visita ideal deja espacio detrás",
-      "ending_3_paragraphs": "Si tenéis familias grandes, agrupar a todo el mundo de golpe parece eficiente pero a veces transforma una tarde en un evento. Para algunas casas funciona; para otras es mucho más llevadero escalonar. No hay premio por “quitárselo de encima” en un solo fin de semana si después necesitáis dos días para recuperaros. Una buena visita de posparto no se mide por cuánto tiempo estuvisteis juntos, sino por si encajó dentro del momento real de esa familia. A veces serán veinte minutos. Otras, una tarde entera con alguien de muchísima confianza. La clave es que la casa no tenga que convertirse en escenario mientras intenta convertirse en hogar para una persona nueva. Quien os quiere puede adaptarse a una temporada en la que veros requiere un poco más de cuidado y bastante menos protocolo.",
-      "risk_score": 4,
+      "opening": "Después del parto, una visita que en un mensaje parece sencilla puede exigir bastante más energía de la que nadie imagina. Hay que abrir la puerta, conversar, decidir si te apetece que cojan al bebé, atender el entusiasmo ajeno y seguir respondiendo a las necesidades de una casa que todavía no sabe muy bien cómo transcurre una hora normal. Incluso alguien a quien quieres mucho puede llegar justo cuando tienes hambre, estás alimentando al bebé, necesitas tumbarte o simplemente no te apetece que nadie te vea.",
+      "opening_14_words": "Después del parto una visita que en un mensaje parece sencilla puede exigir bastante",
+      "intro_3_paragraphs": "Después del parto, una visita que en un mensaje parece sencilla puede exigir bastante más energía de la que nadie imagina. Hay que abrir la puerta, conversar, decidir si te apetece que cojan al bebé, atender el entusiasmo ajeno y seguir respondiendo a las necesidades de una casa que todavía no sabe muy bien cómo transcurre una hora normal. Incluso alguien a quien quieres mucho puede llegar justo cuando tienes hambre, estás alimentando al bebé, necesitas tumbarte o simplemente no te apetece que nadie te vea. Por eso los límites con las visitas no son una valoración sobre cuánto quieres a tu familia. Son una forma de ajustar el acceso a la capacidad física, emocional y social que tiene realmente vuestra casa en ese momento. Una norma clara suele generar menos tensión que aceptar por compromiso y terminar deseando que todo el mundo se marche. No existe un número correcto de días sin visitas. Hay familias que desean tener cerca a sus personas de confianza desde el principio y otras que necesitan silencio durante más tiempo. La pregunta útil es qué queréis que permanezca intacto después de cada encuentro: descanso, intimidad, espacio para alimentar al bebé, tiempo con hermanos mayores, calma o simplemente la posibilidad de tener un día sin agenda.",
+      "last_h2": "Proteged también el final, porque ahí se alargan muchas visitas",
+      "ending_3_paragraphs": "Hay encuentros agotadores no porque la gente sea difícil, sino porque nadie sabe cómo terminarlos. Si habíais hablado de una hora, podéis cerrar al cumplirse esa hora. Un “vamos a descansar un rato y a acomodarnos” basta. No hace falta esperar a que el bebé llore para tener una excusa socialmente aceptable. En familias grandes aparece a veces la tentación de juntar a todo el mundo y “quitárselo de encima” en una tarde. Para algunas casas funciona. Para otras convierte una presentación del bebé en un acontecimiento del que tardan dos días en recuperarse. Escalonar visitas no es complicarlo: es reconocer que la energía social también es un recurso limitado. La medida de una buena visita posparto no es si cada invitado siente que tuvo suficiente tiempo con el bebé. Es cómo queda vuestra casa cuando se cierra la puerta. El hogar puede seguir siendo un espacio de recuperación y adaptación aunque alrededor exista muchísimo entusiasmo. Las personas que os quieren pueden aprender a entrar en esa etapa con menos expectativas y más cuidado.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_800_words",
-        "high_h2_density"
+        "body_under_1050_words",
+        "many_long_paragraphs"
       ]
     },
     {
@@ -17795,42 +17783,40 @@
       "translation_group": "052-postpartum-without-perfectionism",
       "language": "es",
       "title": "Posparto sin perfeccionismo: cómo simplificar casa, visitas y expectativas",
-      "words": 676,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.4,
+      "words": 840,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.76,
       "h2s": [
-        "La casa puede funcionar sin estar al día",
-        "Reduce decisiones, no solo tareas",
-        "Las visitas también pueden entrar en modo sencillo",
-        "El día no necesita demostrar productividad",
-        "La versión mínima no tiene que durar para siempre"
+        "Decide qué significa que la casa funcione durante unas semanas",
+        "Simplifica decisiones además de simplificar tareas",
+        "El descanso no tiene que ganarse después de ser productiva",
+        "Deja que el nivel vuelva a subir cuando vuelva la capacidad"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 40.0,
+      "avg_paragraph_words": 57.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.125,
+      "question_paragraph_ratio": 0.214,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 13,
-        "importante": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 12,
+        "importante": 4,
         "clave": 0
       },
-      "opening": "El posparto tiene una forma peculiar de juntar necesidades enormes con expectativas pequeñas que se acumulan. Hay un bebé que necesita atención, un cuerpo que está atravesando una recuperación, sueño fragmentado y una casa que sigue produciendo platos, ropa y mensajes. Encima aparecen ideas como “deberíamos mantener algo de rutina”, “tendría que aprovechar cuando duerme” o “qué desastre está todo”.",
-      "opening_14_words": "El posparto tiene una forma peculiar de juntar necesidades enormes con expectativas pequeñas que",
-      "intro_3_paragraphs": "El posparto tiene una forma peculiar de juntar necesidades enormes con expectativas pequeñas que se acumulan. Hay un bebé que necesita atención, un cuerpo que está atravesando una recuperación, sueño fragmentado y una casa que sigue produciendo platos, ropa y mensajes. Encima aparecen ideas como “deberíamos mantener algo de rutina”, “tendría que aprovechar cuando duerme” o “qué desastre está todo”. En esta etapa, simplificar no es rendirse. Es decidir qué cosas pueden bajar temporalmente de categoría para que lo importante tenga espacio. Una casa de posparto necesita ser utilizable, no impecable. Tener ropa limpia suficiente importa más que tenerla doblada. Poder preparar algo de comer importa más que una encimera digna de foto. Un baño razonablemente funcional puede ser suficiente durante una semana difícil.",
-      "last_h2": "La versión mínima no tiene que durar para siempre",
-      "ending_3_paragraphs": "Esa distancia ayuda a devolver proporción. El posparto no necesita una versión especial de indulgencia; necesita criterios coherentes con la cantidad real de trabajo físico y mental que ya existe. Simplificar el posparto no significa decidir cómo será vuestra familia a partir de ahora. Significa aceptar que esta etapa tiene una economía propia. Más adelante volverán planes, comidas elaboradas, gente en casa y proyectos. De momento, puede bastar con preguntarse: ¿esto necesita hacerse ahora, necesita hacerlo alguien más o puede esperar? El posparto no mejora cuando consigues que parezca una vida normal. Mejora cuando dejas de exigirle que lo parezca.",
-      "risk_score": 4,
+      "opening": "El posparto junta una enorme cantidad de trabajo poco visible con una presión extraña por conseguir que la vida de siempre parezca intacta. Hay un bebé que necesita cuidados, un cuerpo que se recupera, sueño a trozos y comidas que de pronto requieren planificación. Mientras tanto siguen llegando platos, ropa, mensajes y pequeñas tareas, y los estándares anteriores continúan funcionando en la cabeza como si nada importante hubiera cambiado.",
+      "opening_14_words": "El posparto junta una enorme cantidad de trabajo poco visible con una presión extraña",
+      "intro_3_paragraphs": "El posparto junta una enorme cantidad de trabajo poco visible con una presión extraña por conseguir que la vida de siempre parezca intacta. Hay un bebé que necesita cuidados, un cuerpo que se recupera, sueño a trozos y comidas que de pronto requieren planificación. Mientras tanto siguen llegando platos, ropa, mensajes y pequeñas tareas, y los estándares anteriores continúan funcionando en la cabeza como si nada importante hubiera cambiado. El perfeccionismo en esta etapa no siempre suena a perfección. Puede sonar a responsabilidad: mantener la casa razonable, contestar a todo el mundo, cocinar bien, aprovechar las siestas, ser organizada y no quejarse demasiado. El problema no es querer cuidar vuestra vida; es exigir que todas las normas antiguas conserven la misma prioridad cuando la energía disponible es otra. Una casa de posparto no necesita estar al día. Necesita poder usarse. Que haya platos limpios suficientes, comida accesible, ropa con la que vestirse, pasos despejados y los objetos cotidianos en lugares fáciles de encontrar puede ser un estándar más que razonable. Doblar cada prenda, vaciar el correo o tener el baño preparado para visitas pertenece a otra categoría.",
+      "last_h2": "Deja que el nivel vuelva a subir cuando vuelva la capacidad",
+      "ending_3_paragraphs": "Simplificar el posparto no define cómo será vuestra casa para siempre. Es una redistribución temporal de esfuerzo. Más adelante quizá cocinéis más, volváis a invitar gente, recuperéis rutinas o tengáis energía para detalles que hoy sobran. Es mejor que regresen porque ya caben que porque la culpa haya conseguido imponerse. Un filtro sencillo puede servir durante esta etapa: ¿esto necesita hacerse hoy, puede hacerlo otra persona o pasaría algo importante si espera? La respuesta no dejará la casa perfecta, pero ayuda a reservar energía para lo que sí sostiene a la familia. Si la presión por hacerlo todo bien se vuelve intensa o persistente, o te resulta imposible descansar incluso cuando tienes ocasión, merece la pena contárselo a alguien de confianza y buscar apoyo. No hace falta ponerle una etiqueta para reconocer que te está pesando demasiado. El posparto ya exige mucho por sí mismo; no necesita además convertir cada límite normal en una prueba de que deberías poder con más.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -17839,42 +17825,40 @@
       "translation_group": "053-first-weeks-newborn-without-perfect-schedule",
       "language": "es",
       "title": "Cómo organizar las primeras semanas con un recién nacido sin intentar crear un horario perfecto",
-      "words": 662,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.55,
+      "words": 834,
+      "paragraphs": 15,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.8,
       "h2s": [
-        "Piensa en estaciones, no en horas",
-        "Organiza relevos antes de estar agotados",
-        "El día puede tener anclas sin tener horario",
-        "Haz planes que toleren ser interrumpidos",
-        "La organización debe quitar presión, no fabricar otra métrica"
+        "Organiza lo que se repite, no las horas a las que debería ocurrir",
+        "Repartid responsabilidades antes de que ambos estéis agotados",
+        "El día de los adultos puede tener anclas aunque el bebé no tenga horario",
+        "Distingue lo pendiente de lo urgente"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 39.2,
+      "avg_paragraph_words": 52.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.125,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 1,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
         "a_veces": 0,
-        "puede": 9,
-        "importante": 1,
+        "puede": 11,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "Las primeras semanas con un recién nacido tienen mucha repetición y muy poca previsibilidad. Parece contradictorio, pero puedes pasar el día haciendo las mismas cosas —alimentar, cambiar, sostener, intentar dormir— y aun así no saber cómo será la próxima hora.",
-      "opening_14_words": "Las primeras semanas con un recién nacido tienen mucha repetición y muy poca previsibilidad",
-      "intro_3_paragraphs": "Las primeras semanas con un recién nacido tienen mucha repetición y muy poca previsibilidad. Parece contradictorio, pero puedes pasar el día haciendo las mismas cosas —alimentar, cambiar, sostener, intentar dormir— y aun así no saber cómo será la próxima hora. Por eso intentar construir enseguida un horario perfecto suele añadir una segunda dificultad a una etapa que ya es intensa. En vez de organizar al bebé, suele ser más útil organizar el entorno alrededor de lo que se repite. Si ciertas tareas aparecen continuamente, hazlas fáciles de repetir. Pañales y recambios donde realmente los usáis. Agua y algo de comer al alcance de quien pasa mucho tiempo alimentando o sosteniendo al bebé. Una cesta para lo que termina siempre desperdigado por el salón.",
-      "last_h2": "La organización debe quitar presión, no fabricar otra métrica",
-      "ending_3_paragraphs": "Y si sois vosotros quienes necesitáis pedir, no hace falta esperar a estar al límite. Una petición pequeña y concreta puede ser más fácil de aceptar por ambas partes que una ayuda enorme cuando todo ya está desbordado. Si una aplicación, una tabla o una rutina os ayuda a recordar cosas, puede ser útil. Si os hace mirar el día como una serie de desviaciones respecto al plan, quizá no lo está siendo. Las primeras semanas no necesitan demostrar que ya domináis una nueva vida. Una organización suficientemente buena consigue algo más modesto y más valioso: que cuando el día sea impredecible, la casa y los adultos tengan menos fricción alrededor.",
-      "risk_score": 4,
+      "opening": "Las primeras semanas con un recién nacido pueden ser muy repetitivas y, al mismo tiempo, nada previsibles. Alimentar, cambiar, sostener, calmar y volver a empezar ocupa buena parte del día, pero aun así resulta imposible saber cómo será exactamente la tarde. Esa contradicción explica por qué cuesta tanto “organizarse”: el trabajo se repite, pero la hora cambia constantemente.",
+      "opening_14_words": "Las primeras semanas con un recién nacido pueden ser muy repetitivas y al mismo",
+      "intro_3_paragraphs": "Las primeras semanas con un recién nacido pueden ser muy repetitivas y, al mismo tiempo, nada previsibles. Alimentar, cambiar, sostener, calmar y volver a empezar ocupa buena parte del día, pero aun así resulta imposible saber cómo será exactamente la tarde. Esa contradicción explica por qué cuesta tanto “organizarse”: el trabajo se repite, pero la hora cambia constantemente. Un horario detallado intenta resolver muchas veces el problema equivocado. En vez de hacer predecible al bebé, conviene organizar a los adultos, el entorno y las decisiones que van a repetirse de todos modos. La meta no es conseguir un día perfecto, sino reducir fricción cuando inevitablemente el plan se mueva. Observad qué hacéis varias veces al día y facilitadlo. Los pañales deben estar donde de verdad cambiáis al bebé, no únicamente en el lugar que parecía lógico antes del parto. Agua, cargador y algo fácil de comer pueden vivir cerca del sofá o sillón donde alguien pasa largos ratos atrapado bajo un bebé. Muselinas, biberones limpios u otros objetos de uso frecuente necesitan un sitio obvio que cualquiera pueda encontrar sin preguntar.",
+      "last_h2": "Distingue lo pendiente de lo urgente",
+      "ending_3_paragraphs": "Comer, tener suministros básicos o resolver una cita con fecha quizá sí necesite atención. Ordenar fotos, contestar todas las felicitaciones o terminar la decoración normalmente puede esperar. Si alguien ofrece ayuda, intentad convertirla en una tarea cerrada: traer cena el martes, recoger una compra, sacar al perro, devolver un paquete. La ayuda concreta quita coordinación en vez de generar otra conversación. Los registros y aplicaciones solo merecen quedarse si reducen memoria. Una nota compartida que evita preguntas repetidas puede ser estupenda. Un sistema que hace sentir que cada día es una desviación del plan se ha convertido en otra obligación. Las primeras semanas no tienen que demostrar que ya domináis la vida con un bebé. Una organización suficientemente buena es mucho menos espectacular: encontráis lo que uséis, las responsabilidades están algo más claras, las necesidades de los adultos no desaparecen y un día extraño no significa que todo el sistema haya fallado.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -17883,42 +17867,40 @@
       "translation_group": "054-newborn-routine-structure-without-predictability",
       "language": "es",
       "title": "Rutina con un recién nacido: qué puede aportar estructura sin esperar previsibilidad",
-      "words": 633,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 7.9,
+      "words": 885,
+      "paragraphs": 15,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.52,
       "h2s": [
-        "Una secuencia puede repetirse aunque la hora cambie",
-        "La rutina también es para los adultos",
-        "No conviertas cada cambio en una señal de que algo va mal",
-        "La previsibilidad puede llegar poco a poco",
-        "Una estructura útil deja sitio a un día raro"
+        "Construye secuencias alrededor de momentos, no de horas fijas",
+        "Organiza lo que sí depende de los adultos y suelta el resultado esperado",
+        "Observa los patrones antes de decidir cómo deberían ser",
+        "Una rutina útil debe soportar un día raro"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 36.9,
+      "avg_paragraph_words": 56.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.062,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 2,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 0,
+        "no_significa": 1,
         "a_veces": 0,
         "puede": 11,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Hablar de “rutina” con un recién nacido puede sonar casi cómico cuando llevas tres días sin saber exactamente cuándo empieza la mañana. Pero rutina no tiene por qué significar que el bebé coma, duerma y despierte a horas fijas.",
-      "opening_14_words": "Hablar de rutina con un recién nacido puede sonar casi cómico cuando llevas tres",
-      "intro_3_paragraphs": "Hablar de “rutina” con un recién nacido puede sonar casi cómico cuando llevas tres días sin saber exactamente cuándo empieza la mañana. Pero rutina no tiene por qué significar que el bebé coma, duerma y despierte a horas fijas. En esta etapa puede significar algo mucho más sencillo: que ciertas necesidades encuentren una respuesta reconocible y que los adultos tengan una secuencia básica a la que volver. La estructura está en el proceso, no en la promesa de un resultado. Después de un despertar puede haber alimentación, cambio si hace falta, un rato de contacto y volver a observar qué necesita el bebé. Por la noche podéis bajar luces, reducir actividad y hacer algunas cosas en un orden parecido.",
-      "last_h2": "Una estructura útil deja sitio a un día raro",
-      "ending_3_paragraphs": "Si una noche repetís todo y el resultado es distinto, no necesariamente hay algo que corregir. Podéis conservar lo que os ordena a vosotros y dejar que la respuesta del bebé siga siendo variable. Habrá días con una cita, una visita, un paseo largo o un bebé que simplemente hace algo distinto. Una rutina sana debería soportar esa variación sin haceros sentir que hay que “volver a empezar”. Con un recién nacido, la mejor estructura no es la que hace el día predecible. Es la que hace que los adultos sepan qué pueden hacer incluso cuando el día no lo es.",
-      "risk_score": 5,
+      "opening": "La palabra “rutina” puede resultar engañosa con un recién nacido porque enseguida suena a horario. Es fácil imaginar tomas, siestas y noche ocurriendo a horas previsibles y concluir que algo no funciona cuando el martes no se parece en nada al lunes. Durante las primeras semanas resulta más útil una definición mucho más pequeña: hay momentos que empiezan a tener señales conocidas y los adultos cuentan con una secuencia a la que volver aunque cambie el reloj.",
+      "opening_14_words": "La palabra rutina puede resultar engañosa con un recién nacido porque enseguida suena a",
+      "intro_3_paragraphs": "La palabra “rutina” puede resultar engañosa con un recién nacido porque enseguida suena a horario. Es fácil imaginar tomas, siestas y noche ocurriendo a horas previsibles y concluir que algo no funciona cuando el martes no se parece en nada al lunes. Durante las primeras semanas resulta más útil una definición mucho más pequeña: hay momentos que empiezan a tener señales conocidas y los adultos cuentan con una secuencia a la que volver aunque cambie el reloj. La rutina es el proceso que puede repetirse, no una promesa sobre la respuesta del bebé. Esa diferencia permite que la estructura quite decisiones sin exigir que un recién nacido ordene el día antes de que su propio ritmo sea más reconocible. Una rutina flexible puede empezar por acontecimientos. Cuando el bebé se despierta, quizá haya alimentación, cambio de pañal cuando haga falta, contacto y después observar qué parece necesitar. Por la noche podéis bajar la intensidad de la casa, preparar lo que vais a utilizar, reducir luces y repetir algunos pasos. Nada de eso obliga a que “la hora de dormir” ocurra exactamente a las ocho.",
+      "last_h2": "Una rutina útil debe soportar un día raro",
+      "ending_3_paragraphs": "Habrá citas, visitas, paseos y días en los que simplemente todo ocurra de otra forma. Una estructura que ayuda tiene que permitir volver a ella sin un gran reinicio. No hace falta “retomar la rutina” como si se hubiera perdido porque una siesta fue fuera de casa, la noche empezó más tarde o un paso habitual no ocurrió. Recuperad las piezas que os sirven cuando vuelvan a encajar. Si bajar luces, acercar suministros y hacer un relevo de una manera conocida facilita la noche, conservadlo. Si una parte ya no aporta nada, puede desaparecer. La flexibilidad no es ausencia de rutina: es lo que impide que la rutina se vuelva frágil. Con un recién nacido, la estructura es más valiosa cuando ayuda a los adultos a saber qué pueden hacer después, no cuando pretende saber qué hará después el bebé. La previsibilidad puede ir apareciendo poco a poco. No necesitáis fabricarla para que la casa se sienta algo más manejable mientras tanto.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -17927,42 +17909,40 @@
       "translation_group": "055-leaving-house-with-baby-light-bag",
       "language": "es",
       "title": "Cómo salir de casa con un bebé sin llevar media casa en la bolsa",
-      "words": 604,
-      "paragraphs": 16,
-      "h2_count": 5,
-      "h2_density_per_1000_words": 8.28,
+      "words": 862,
+      "paragraphs": 15,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.64,
       "h2s": [
-        "Empieza por la duración y el destino",
-        "Construye un núcleo que siempre esté listo",
-        "Una muda útil gana a tres conjuntos perfectos",
-        "Revisa la bolsa cuando vuelves, no justo antes de salir",
-        "Salir mejora cuando confías en que puedes resolver cosas fuera"
+        "Ajusta lo que llevas al tiempo, la distancia y las opciones de volver",
+        "Reduce decisiones justo en el momento de cerrar la puerta",
+        "Prepárate para el desorden normal, no para todos los desastres imaginables",
+        "Haz que salir sea lo bastante ligero como para seguir queriendo hacerlo"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 35.1,
+      "avg_paragraph_words": 54.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.125,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.2,
+      "long_paragraphs": 2,
       "phrase_counts": {
         "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 1,
-        "puede": 5,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 8,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Salir de casa con un bebé puede empezar como una operación logística desproporcionada. Pañales, toallitas, mudas, muselinas, juguetes, crema, mantita, comida, “por si acaso” de todo tipo… y al final llevas una bolsa que pesa más que la salida.",
-      "opening_14_words": "Salir de casa con un bebé puede empezar como una operación logística desproporcionada Pañales",
-      "intro_3_paragraphs": "Salir de casa con un bebé puede empezar como una operación logística desproporcionada. Pañales, toallitas, mudas, muselinas, juguetes, crema, mantita, comida, “por si acaso” de todo tipo… y al final llevas una bolsa que pesa más que la salida. El problema no es querer ir preparada. Es que el “por si acaso” no tiene límite. Una bolsa útil no intenta resolver todas las situaciones posibles; intenta cubrir las situaciones probables durante el tiempo que realmente vais a estar fuera. No necesitas lo mismo para bajar a tomar un café que para pasar seis horas lejos de casa. Tampoco para ir a casa de los abuelos, donde quizá ya hay pañales, que para caminar por un lugar sin tiendas cerca.",
-      "last_h2": "Salir mejora cuando confías en que puedes resolver cosas fuera",
-      "ending_3_paragraphs": "Con el tiempo, la bolsa se convierte en un pequeño registro de vuestra experiencia. Si algo lleva diez salidas sin usarse y sería fácil resolver su ausencia, quizá ya no necesita acompañaros. Parte del exceso de equipaje viene de imaginar que cualquier imprevisto será un desastre. Con experiencia descubres qué utiliza realmente vuestro bebé y qué casi nunca sale de la bolsa. También descubres que a veces puedes comprar algo, pedir ayuda, volver antes o improvisar. La meta no es salir de casa perfectamente equipada. Es que la preparación sea suficientemente ligera como para que salir siga mereciendo la pena.",
-      "risk_score": 5,
+      "opening": "Salir de casa con un bebé puede convertir un plan sencillo en un ritual de salida: darle de comer, cambiarlo, buscar las llaves, decidir si hace falta carrito, añadir otra capa, meter cosas para tres imprevistos poco probables y descubrir, justo cuando vais a cerrar la puerta, que toca volver a cambiar el pañal. El problema no es que un bebé no necesite nada. Es que la preparación puede crecer hasta hacer que el paseo parezca más difícil que quedarse en casa.",
+      "opening_14_words": "Salir de casa con un bebé puede convertir un plan sencillo en un ritual",
+      "intro_3_paragraphs": "Salir de casa con un bebé puede convertir un plan sencillo en un ritual de salida: darle de comer, cambiarlo, buscar las llaves, decidir si hace falta carrito, añadir otra capa, meter cosas para tres imprevistos poco probables y descubrir, justo cuando vais a cerrar la puerta, que toca volver a cambiar el pañal. El problema no es que un bebé no necesite nada. Es que la preparación puede crecer hasta hacer que el paseo parezca más difícil que quedarse en casa. La pregunta útil no es “¿qué podría pasar?”, sino “¿qué sería realmente difícil de resolver en esta salida concreta?”. Un paseo de cuarenta minutos cerca de casa y una tarde entera al otro lado de la ciudad no necesitan el mismo margen. Tratarlos igual es lo que convierte cada café en una expedición. Antes de añadir objetos, mira la forma del plan. ¿Cuánto tiempo estaréis fuera? ¿Vais andando por el barrio, en coche, a casa de alguien o a un lugar del que sería incómodo marcharse? ¿Tendréis acceso a baño, tiendas, comida, coche o cosas del bebé que ya existen en el destino?",
+      "last_h2": "Haz que salir sea lo bastante ligero como para seguir queriendo hacerlo",
+      "ending_3_paragraphs": "Un buen sistema no consigue que ningún imprevisto pueda afectar al plan. Consigue que la vida cotidiana tenga un umbral razonable. Un paseo, un recado breve o ver a un amigo no deberían requerir cada vez veinte minutos de análisis de riesgos. Habrá días en los que no compense salir. Otros saldréis más tarde, olvidaréis algo o regresaréis antes. Ninguna de esas cosas demuestra que os organizasteis mal. Una logística flexible cuenta desde el principio con que el bebé y los adultos pueden cambiar de idea. Salir resulta más fácil cuando la preparación sostiene el plan en vez de competir con él. Lleva lo que tiene sentido para ese tiempo y ese destino, deja los respaldos donde puedan quedarse y conserva margen para resolver un pequeño problema sin transportar media casa.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -17971,39 +17951,40 @@
       "translation_group": "056-baby-bag-day-to-day",
       "language": "es",
       "title": "Bolsa del bebé: qué llevar de verdad para el día a día",
-      "words": 642,
-      "paragraphs": 15,
-      "h2_count": 3,
-      "h2_density_per_1000_words": 4.67,
+      "words": 943,
+      "paragraphs": 17,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.24,
       "h2s": [
-        "Empieza por una base que sirva para casi cualquier salida",
-        "Una muda completa suele valer más que cinco prendas sueltas",
-        "La buena bolsa es la que te permite salir sin negociar contigo misma"
+        "Construye la base alrededor de las tareas que realmente haces fuera de casa",
+        "Separa los básicos permanentes de lo que solo pertenece al plan de hoy",
+        "La reposición importa más que preparar la bolsa perfecta cada mañana",
+        "Deja que las salidas reales decidan qué merece ocupar espacio"
       ],
       "list_items": 0,
-      "bold_spans": 4,
-      "avg_paragraph_words": 40.6,
+      "bold_spans": 2,
+      "avg_paragraph_words": 52.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.067,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 1,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
-        "a_veces": 0,
-        "puede": 6,
-        "importante": 1,
+        "a_veces": 1,
+        "puede": 5,
+        "importante": 2,
         "clave": 0
       },
-      "opening": "La primera vez que preparas una bolsa para salir con un bebé es fácil actuar como si fueras a cruzar una frontera durante tres días. Pañales de sobra, cuatro mudas, mantas, juguetes, baberos, bolsas, crema, toallitas, comida, otra comida por si acaso y algún objeto cuya función ya no recuerdas cuando llegas a casa.",
-      "opening_14_words": "La primera vez que preparas una bolsa para salir con un bebé es fácil",
-      "intro_3_paragraphs": "La primera vez que preparas una bolsa para salir con un bebé es fácil actuar como si fueras a cruzar una frontera durante tres días. Pañales de sobra, cuatro mudas, mantas, juguetes, baberos, bolsas, crema, toallitas, comida, otra comida por si acaso y algún objeto cuya función ya no recuerdas cuando llegas a casa. Después de varias salidas suele aparecer una conclusión bastante liberadora: la bolsa más útil no es la que contiene todo; es la que contiene lo que vuestra familia utiliza con frecuencia y se puede reponer sin pensar demasiado. Para muchas familias la base real es pequeña: pañales, algo para limpiar, una muda sencilla, una bolsa para ropa sucia y lo que el bebé necesite habitualmente para comer fuera de casa. A partir de ahí, cada plan añade o quita cosas.",
-      "last_h2": "La buena bolsa es la que te permite salir sin negociar contigo misma",
-      "ending_3_paragraphs": "Y no pasa nada si un día olvidas algo. Muchas veces el objeto que parecía imprescindible se puede improvisar, comprar o simplemente no utilizar durante esa salida. Esa experiencia también sirve para recalibrar qué merece realmente ocupar espacio la próxima vez. Si cada paseo exige veinte minutos de preparación, es probable que el sistema pueda simplificarse. Tener una base lista reduce mucho la fricción: miras el plan, añades una o dos cosas específicas y sales. El objetivo no es demostrar que prevés cualquier eventualidad. Es que una salida normal con un bebé siga siendo una salida normal. Con el tiempo descubrirás qué usáis de verdad, y esa experiencia vale más que cualquier checklist interminable.",
-      "risk_score": 3,
+      "opening": "La bolsa del bebé empieza a funcionar de verdad cuando deja de ser un pequeño almacén de emergencias y se convierte en una pieza sencilla de la organización cotidiana. Tiene que contener lo que utilizáis en salidas normales, permitir comprobar de un vistazo si falta algo y volver a quedar preparada después. Cuando está permanentemente llena, acabas cargando más y sabiendo menos sobre lo que hay dentro.",
+      "opening_14_words": "La bolsa del bebé empieza a funcionar de verdad cuando deja de ser un",
+      "intro_3_paragraphs": "La bolsa del bebé empieza a funcionar de verdad cuando deja de ser un pequeño almacén de emergencias y se convierte en una pieza sencilla de la organización cotidiana. Tiene que contener lo que utilizáis en salidas normales, permitir comprobar de un vistazo si falta algo y volver a quedar preparada después. Cuando está permanentemente llena, acabas cargando más y sabiendo menos sobre lo que hay dentro. La bolsa diaria necesita un núcleo fiable, no una solución para cada problema imaginable. Ese núcleo debe ser lo bastante pequeño para mantenerlo y lo bastante concreto para poder salir sin reconstruir una lista desde cero. En la mayoría de las familias, la bolsa tiene que resolver unas pocas situaciones previsibles: cambiar y limpiar al bebé, sustituir una ropa que se ha manchado, alimentar según vuestra forma habitual y guardar algo sucio o mojado hasta volver. Eso suele traducirse en pañales, toallitas o vuestros útiles de limpieza, una muda completa, una bolsa para prendas sucias y lo necesario para la alimentación que de verdad utilizáis cuando estáis fuera.",
+      "last_h2": "Deja que las salidas reales decidan qué merece ocupar espacio",
+      "ending_3_paragraphs": "Olvidar algo de vez en cuando también aporta información. A veces descubres que sí era una pieza importante y merece entrar en la base. Otras veces improvisas sin dificultad y compruebas que estabas cargando ese objeto por costumbre o por miedo, no porque fuera esencial. La bolsa tampoco tiene que anticipar necesidades adultas infinitas. Puede ser útil llevar agua, una pequeña merienda o lo que vuestra rutina requiera, pero si acaba absorbiendo todas las cosas de toda la familia dejará de ser fácil de mantener. Cuando salgáis varios adultos, repartir responsabilidades puede ser más práctico que meterlo todo en el mismo bolso. Una buena bolsa del bebé es aburrida en el mejor sentido: sabes dónde están los básicos, puedes ver cuándo faltan y no exige una estrategia nueva cada vez que sales. El destino añade las excepciones; la bolsa cotidiana se queda lo bastante sencilla como para confiar en ella.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18012,39 +17993,40 @@
       "translation_group": "057-dressing-newborn-without-overbuying",
       "language": "es",
       "title": "Cómo vestir a un recién nacido sin llenar el armario de ropa que apenas usará",
-      "words": 590,
-      "paragraphs": 15,
-      "h2_count": 3,
-      "h2_density_per_1000_words": 5.08,
+      "words": 851,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.7,
       "h2s": [
-        "Compra para una semana real, no para una sesión de fotos",
-        "El clima y vuestra forma de lavar importan más que una lista universal",
-        "Un armario pequeño puede ser más fácil de usar"
+        "Compra para días normales, no para la versión fotográfica del recién nacido",
+        "No construyas todo el armario alrededor de una sola talla",
+        "La cantidad real la decidirán las lavadoras, el clima y vuestro bebé",
+        "Un armario fácil de usar vale más que uno impresionante al abrirlo"
       ],
       "list_items": 0,
-      "bold_spans": 4,
-      "avg_paragraph_words": 37.1,
+      "bold_spans": 2,
+      "avg_paragraph_words": 44.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.111,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 1,
+        "no_necesitas": 0,
+        "no_significa": 0,
         "a_veces": 0,
         "puede": 5,
         "importante": 0,
         "clave": 0
       },
-      "opening": "La ropa de recién nacido tiene una capacidad especial para parecer imprescindible cuando todavía no hay un bebé en casa. Todo es pequeño, suave y relativamente barato por unidad, así que es fácil terminar con un cajón lleno antes de saber cuánto pesará el bebé, qué talla le quedará bien o qué prendas os resultarán cómodas de usar.",
-      "opening_14_words": "La ropa de recién nacido tiene una capacidad especial para parecer imprescindible cuando todavía",
-      "intro_3_paragraphs": "La ropa de recién nacido tiene una capacidad especial para parecer imprescindible cuando todavía no hay un bebé en casa. Todo es pequeño, suave y relativamente barato por unidad, así que es fácil terminar con un cajón lleno antes de saber cuánto pesará el bebé, qué talla le quedará bien o qué prendas os resultarán cómodas de usar. La idea que más simplifica este tema es bastante poco emocionante: al principio suele ser mejor tener menos ropa útil que mucha ropa bonita pendiente de ocasión. Durante las primeras semanas, la ropa trabaja. Se pone, se mancha, se lava y vuelve al cajón. Las prendas que ganan suelen ser las que se abren con facilidad, permiten cambios rápidos y no exigen demasiada coordinación cuando alguien está cansado.",
-      "last_h2": "Un armario pequeño puede ser más fácil de usar",
-      "ending_3_paragraphs": "También conviene pensar en la facilidad de combinar. Si casi todo funciona entre sí, una mancha no obliga a buscar “el pantalón que iba con ese body”. La ropa cotidiana del bebé agradece más la compatibilidad que la coordinación perfecta. Cuando hay demasiada ropa, lo que sirve puede quedar escondido entre prendas pequeñas, regalos pendientes y conjuntos que nunca encajan con el día. Un cajón simple hace más visible lo que hay y facilita notar cuándo una talla está quedando atrás. La ropa del recién nacido no necesita estar “terminada” antes de que nazca. Necesita cubrir los primeros días con comodidad. Después, el propio bebé os dirá —a través de su talla, vuestra rutina y el clima— qué merece entrar en el armario siguiente.",
-      "risk_score": 3,
+      "opening": "La ropa de recién nacido tiene una facilidad especial para parecer imprescindible cuando todavía no hay un bebé en casa. Todo es pequeño, suave y relativamente barato por unidad, así que el cajón puede llenarse mucho antes de saber cuánto pesará el bebé, cada cuánto pondréis lavadoras o qué tipo de cierres estaréis dispuestos a abrochar a las tres de la mañana.",
+      "opening_14_words": "La ropa de recién nacido tiene una facilidad especial para parecer imprescindible cuando todavía",
+      "intro_3_paragraphs": "La ropa de recién nacido tiene una facilidad especial para parecer imprescindible cuando todavía no hay un bebé en casa. Todo es pequeño, suave y relativamente barato por unidad, así que el cajón puede llenarse mucho antes de saber cuánto pesará el bebé, cada cuánto pondréis lavadoras o qué tipo de cierres estaréis dispuestos a abrochar a las tres de la mañana. La pregunta útil no es cómo conseguir un armario “completo”. Es cómo preparar una rotación pequeña que funcione mucho, se lave sin complicaciones y deje margen para que el bebé real influya en las compras siguientes. Durante las primeras semanas, la ropa trabaja. Se usa para dormir, comer, estar en brazos, cambiar pañales, absorber pequeños accidentes y pasar muchas horas en casa. Por eso las prendas favoritas suelen ser poco sofisticadas: suaves, lavables, fáciles de abrir y suficientemente sencillas para que cualquier adulto cansado pueda ponerlas sin estudiar el diseño.",
+      "last_h2": "Un armario fácil de usar vale más que uno impresionante al abrirlo",
+      "ending_3_paragraphs": "Esta lógica también facilita aprovechar ropa heredada o de segunda mano. No hace falta que cada pieza forme parte de un conjunto perfecto. Basta con que esté en buen estado, sea cómoda, adecuada para la temporada y fácil de usar en vuestra casa. A medida que conozcáis la talla del bebé y vuestras rutinas, podréis comprar más de lo que realmente se usa. Esas compras suelen salir mejor porque responden a una preferencia demostrada y no a una checklist teórica. El armario del recién nacido no necesita estar terminado antes de que nazca. Solo necesita sostener bien el comienzo sin crear más trabajo. Después, el bebé, el clima y vuestra cesta de la ropa darán mucha mejor información de compra que un cajón abarrotado.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18053,39 +18035,40 @@
       "translation_group": "058-what-to-buy-before-baby-and-what-can-wait",
       "language": "es",
       "title": "Qué comprar antes de que nazca el bebé y qué puede esperar",
-      "words": 586,
-      "paragraphs": 15,
-      "h2_count": 3,
-      "h2_density_per_1000_words": 5.12,
+      "words": 805,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.97,
       "h2s": [
-        "Prepara una base para los primeros días",
-        "No compres hoy soluciones para problemas de dentro de seis meses",
-        "Estar preparados no significa tenerlo todo"
+        "Prepara el comienzo, no todas las etapas futuras",
+        "Distingue necesidad, comodidad y experimento",
+        "Haz inventario antes de comprar duplicados",
+        "Organiza la opción de comprar después sin convertir cada necesidad en una emergencia"
       ],
       "list_items": 0,
-      "bold_spans": 4,
-      "avg_paragraph_words": 37.5,
-      "short_paragraph_ratio": 0.067,
+      "bold_spans": 2,
+      "avg_paragraph_words": 42.9,
+      "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.133,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.111,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 5,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 4,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Preparar la llegada de un bebé tiene una trampa comercial muy eficaz: casi todo puede presentarse como algo que “conviene tener antes”. El resultado es que el último trimestre puede convertirse en una carrera por comprar objetos para problemas que todavía no sabes si vais a tener.",
-      "opening_14_words": "Preparar la llegada de un bebé tiene una trampa comercial muy eficaz casi todo",
-      "intro_3_paragraphs": "Preparar la llegada de un bebé tiene una trampa comercial muy eficaz: casi todo puede presentarse como algo que “conviene tener antes”. El resultado es que el último trimestre puede convertirse en una carrera por comprar objetos para problemas que todavía no sabes si vais a tener. Una forma más tranquila de prepararse es separar dos preguntas: ¿qué necesitamos para poder recibir al bebé con normalidad? y ¿qué podremos decidir mejor cuando sepamos cómo es nuestra vida con ese bebé? Antes del nacimiento tiene sentido resolver lo que usaréis desde el principio: una forma adecuada de transportar al bebé, un espacio de descanso preparado según las indicaciones de seguridad que sigáis, pañales y básicos de higiene, una pequeña rotación de ropa y los elementos de alimentación que sepáis que vais a utilizar inicialmente.",
-      "last_h2": "Estar preparados no significa tenerlo todo",
-      "ending_3_paragraphs": "Si una compra te genera dudas, prueba a imaginar la primera semana sin ella. ¿Bloquea una necesidad básica o simplemente haría algo más cómodo? Las dos categorías son legítimas, pero distinguirlas ayuda mucho a decidir qué debe estar listo y qué puede esperar. Las tiendas seguirán existiendo después del nacimiento. También el comercio online, los préstamos y las compras de última hora. Esa realidad permite bajar bastante la presión. Una casa preparada no es una casa que contiene cada producto posible. Es una casa que puede recibir al bebé con lo esencial y que conserva suficiente flexibilidad para adaptarse a la familia que realmente aparece.",
-      "risk_score": 3,
+      "opening": "Preparar la llegada de un bebé puede hacer que casi cualquier producto parezca urgente. Una tienda, una lista de nacimiento o las redes convierten objetos cotidianos en cosas que supuestamente deberías tener resueltas antes del parto, y de pronto los últimos meses del embarazo parecen una fecha límite para organizar el primer año entero.",
+      "opening_14_words": "Preparar la llegada de un bebé puede hacer que casi cualquier producto parezca urgente",
+      "intro_3_paragraphs": "Preparar la llegada de un bebé puede hacer que casi cualquier producto parezca urgente. Una tienda, una lista de nacimiento o las redes convierten objetos cotidianos en cosas que supuestamente deberías tener resueltas antes del parto, y de pronto los últimos meses del embarazo parecen una fecha límite para organizar el primer año entero. Una forma más tranquila de prepararse es separar dos preguntas: ¿qué necesitamos para recibir al bebé y funcionar durante los primeros días? y ¿qué podremos elegir mejor cuando conozcamos al bebé real, nuestra casa y nuestra rutina? Antes del nacimiento tiene sentido cubrir lo que utilizaréis desde el principio: una forma adecuada de transportar al bebé, un espacio de descanso preparado según las recomendaciones de seguridad que sigáis, pañales y cuidados básicos, una pequeña rotación de ropa y los elementos de alimentación que formen parte de vuestro plan inicial.",
+      "last_h2": "Organiza la opción de comprar después sin convertir cada necesidad en una emergencia",
+      "ending_3_paragraphs": "También podéis identificar qué cosas serían fáciles de pedir prestadas unos días, comprar cerca de casa o probar gracias a otra familia. La primera solución a un problema no tiene que convertirse necesariamente en una compra definitiva. Y conviene recordar algo muy básico: las tiendas seguirán existiendo después del nacimiento. También las entregas, devoluciones, préstamos y recomendaciones de otras familias basadas en uso real. No hace falta gastar antes de tener toda la información. Una casa preparada no es una casa que contiene cada producto que quizá sirva algún día. Es una casa capaz de sostener el comienzo y que conserva suficiente espacio —físico, económico y mental— para adaptarse cuando empiece la vida familiar real.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18094,18 +18077,19 @@
       "translation_group": "059-practical-calm-lasting-nursery",
       "language": "es",
       "title": "Habitación del bebé: cómo crear un espacio práctico, calmado y duradero",
-      "words": 574,
-      "paragraphs": 15,
-      "h2_count": 3,
-      "h2_density_per_1000_words": 5.23,
+      "words": 804,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.98,
       "h2s": [
-        "Empieza por las funciones, no por el estilo",
-        "No todo tiene que comprarse antes del nacimiento",
-        "La calma no viene de que todo combine"
+        "Empieza por las funciones que la habitación debe cumplir",
+        "Piensa en almacenamiento que pueda cambiar de contenido",
+        "Deja algunas decisiones abiertas hasta que la habitación os enseñe algo",
+        "La calma viene de reducir fricción, no de que todo combine"
       ],
       "list_items": 0,
-      "bold_spans": 4,
-      "avg_paragraph_words": 36.7,
+      "bold_spans": 2,
+      "avg_paragraph_words": 42.5,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -18114,19 +18098,19 @@
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
-        "a_veces": 1,
-        "puede": 11,
+        "a_veces": 0,
+        "puede": 13,
         "importante": 0,
         "clave": 0
       },
-      "opening": "La habitación del bebé es uno de esos proyectos que puede empezar como “vamos a preparar un rincón cómodo” y terminar con una paleta de colores, doce cestas iguales y la sensación de que falta una lámpara concreta para que el bebé pueda nacer.",
-      "opening_14_words": "La habitación del bebé es uno de esos proyectos que puede empezar como vamos",
-      "intro_3_paragraphs": "La habitación del bebé es uno de esos proyectos que puede empezar como “vamos a preparar un rincón cómodo” y terminar con una paleta de colores, doce cestas iguales y la sensación de que falta una lámpara concreta para que el bebé pueda nacer. Pero una habitación funciona mejor cuando se diseña desde la vida cotidiana y no desde la fotografía final. El objetivo no es terminar una habitación de bebé perfecta; es crear un espacio que siga siendo útil cuando el bebé deje de ser recién nacido. Piensa qué vais a hacer realmente allí: guardar ropa, cambiar al bebé, sentaros, leer, organizar pañales o simplemente tener sus cosas concentradas. Puede que el bebé duerma allí desde el principio o puede que no; la habitación sigue pudiendo ser útil como espacio de organización.",
-      "last_h2": "La calma no viene de que todo combine",
-      "ending_3_paragraphs": "La habitación tampoco necesita cargar con todas las expectativas emocionales del embarazo. Puede ser bonito prepararla y disfrutar ese ritual, pero si algo queda pendiente no significa que el bebé llegue a una casa menos preparada. La funcionalidad puede completarse poco a poco. Un espacio puede sentirse tranquilo porque es fácil encontrar lo que necesitas, porque no está saturado y porque las superficies no están permanentemente ocupadas. Eso suele aportar más calma que una decoración perfectamente coordinada. La mejor habitación del bebé no es la que parece terminada antes de conocerlo. Es la que deja espacio para que la familia la termine viviendo.",
-      "risk_score": 3,
+      "opening": "La habitación del bebé puede empezar como un proyecto práctico y terminar pareciendo un examen de si “estáis preparados”. Colores, cestas a juego, muebles específicos y detalles decorativos empiezan a sentirse urgentes porque la habitación se puede fotografiar y enseñar, mientras que el cansancio, la adaptación familiar y las rutinas futuras todavía son invisibles.",
+      "opening_14_words": "La habitación del bebé puede empezar como un proyecto práctico y terminar pareciendo un",
+      "intro_3_paragraphs": "La habitación del bebé puede empezar como un proyecto práctico y terminar pareciendo un examen de si “estáis preparados”. Colores, cestas a juego, muebles específicos y detalles decorativos empiezan a sentirse urgentes porque la habitación se puede fotografiar y enseñar, mientras que el cansancio, la adaptación familiar y las rutinas futuras todavía son invisibles. Sin embargo, el espacio funcionará mejor si se diseña desde los movimientos cotidianos y no desde la foto final. El objetivo no es terminar una habitación perfecta de recién nacido antes del parto, sino crear un espacio útil ahora y suficientemente flexible para cambiar con la familia. Antes de elegir una temática, piensa qué vais a hacer realmente allí. Quizá necesitéis guardar ropa y pañales, cambiar al bebé, sentaros cómodamente, almacenar libros o material de alimentación, o simplemente concentrar parte del equipamiento para que no invada toda la casa.",
+      "last_h2": "La calma viene de reducir fricción, no de que todo combine",
+      "ending_3_paragraphs": "También merece la pena separar preparación emocional de finalización visual. Decorar puede ser un ritual bonito durante el embarazo y disfrutarlo no convierte el proyecto en algo superficial. Pero una balda pendiente o un cuadro aún sin elegir no significan que el bebé llegue a una casa poco preparada. Si el presupuesto es limitado, prioriza primero las funciones que realmente usaréis y deja que la decoración crezca después. Si el presupuesto es amplio, la misma lógica ayuda a no llenar el cuarto de objetos caros cuya utilidad puede durar muy poco. La mejor habitación del bebé no es la que parece terminada antes de conocerlo. Es la que tiene suficiente estructura práctica para ayudar ahora y suficiente flexibilidad para terminar de construirse con la vida real.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18135,39 +18119,40 @@
       "translation_group": "060-modern-baby-shower-ideas",
       "language": "es",
       "title": "Baby shower: ideas actuales para celebrarlo sin que parezca siempre lo mismo",
-      "words": 578,
-      "paragraphs": 15,
-      "h2_count": 3,
-      "h2_density_per_1000_words": 5.19,
+      "words": 882,
+      "paragraphs": 19,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.54,
       "h2s": [
-        "Elige primero el tipo de encuentro",
-        "Los regalos no tienen que ocupar el centro de la fiesta",
-        "La pregunta final es cómo quieres recordar ese rato"
+        "Elige primero el tipo de encuentro y después la estética",
+        "Propón actividades que sumen sin interrumpir cada conversación",
+        "Haz que los regalos encajen con la persona, no que se conviertan en una actuación",
+        "Diseña el ambiente pensando en cómo quiere sentirse la persona celebrada"
       ],
       "list_items": 0,
-      "bold_spans": 4,
-      "avg_paragraph_words": 36.8,
+      "bold_spans": 2,
+      "avg_paragraph_words": 44.1,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
+        "no_necesitas": 0,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 6,
-        "importante": 1,
+        "puede": 12,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "Hay baby showers que parecen venir con un guion incluido: decoración pastel, varios juegos que nadie quería jugar, regalos abiertos delante de todo el mundo y una agenda tan llena que apenas queda tiempo para conversar.",
-      "opening_14_words": "Hay baby showers que parecen venir con un guion incluido decoración pastel varios juegos",
-      "intro_3_paragraphs": "Hay baby showers que parecen venir con un guion incluido: decoración pastel, varios juegos que nadie quería jugar, regalos abiertos delante de todo el mundo y una agenda tan llena que apenas queda tiempo para conversar. La celebración puede ser mucho más sencilla. Un baby shower actual no necesita reinventar una fiesta; solo necesita parecerse un poco más a la persona embarazada y un poco menos a una plantilla. Antes de pensar en decoración, decide qué formato encaja con el grupo: un brunch en casa, una merienda pequeña, un picnic, una comida larga, una tarde de café o una celebración con parejas y amigos de distintos círculos.",
-      "last_h2": "La pregunta final es cómo quieres recordar ese rato",
-      "ending_3_paragraphs": "Si hay invitados de grupos distintos, una estructura mínima puede ayudar: comida disponible, lugares cómodos para conversar y quizá una actividad común al principio. Después no hace falta llenar cada silencio. La gente que se quiere suele saber qué hacer cuando se le deja tiempo para hablar. Si la persona embarazada imagina una tarde tranquila hablando con amigos, no hace falta llenarla de pruebas y horarios. Si le encantan los juegos, adelante. Si quiere una fiesta grande, también puede serlo. La originalidad no está en inventar una actividad que nadie haya visto. Está en quitar las cosas que se hacen solo porque “en un baby shower toca” y conservar las que hacen que ese grupo quiera quedarse un rato más.",
-      "risk_score": 3,
+      "opening": "Muchos baby showers terminan pareciéndose por una razón sencilla: la organización empieza por las tradiciones y no por las personas. Primero aparecen la decoración, los juegos y los detalles para invitados; después se intenta encajar a la persona embarazada dentro de un formato que ya venía decidido.",
+      "opening_14_words": "Muchos baby showers terminan pareciéndose por una razón sencilla la organización empieza por las",
+      "intro_3_paragraphs": "Muchos baby showers terminan pareciéndose por una razón sencilla: la organización empieza por las tradiciones y no por las personas. Primero aparecen la decoración, los juegos y los detalles para invitados; después se intenta encajar a la persona embarazada dentro de un formato que ya venía decidido. Una celebración más actual no necesita ser radicalmente original. Solo necesita construirse alrededor de lo que esa persona y ese grupo disfrutarían de verdad. Ese cambio afecta al tamaño, el horario, la comida, las actividades, los invitados e incluso a si los regalos se abren delante de todos. Empieza por decidir qué experiencia social encaja. Un brunch en casa, una merienda en el jardín, un picnic, café y postre, una comida en un sitio favorito o una fiesta más grande y mixta pueden ser igualmente un baby shower. El formato importa más que conseguir que todas las servilletas combinen.",
+      "last_h2": "Diseña el ambiente pensando en cómo quiere sentirse la persona celebrada",
+      "ending_3_paragraphs": "Piensa en qué haría que esa persona se sintiera cuidada cuando termine el encuentro. Tal vez sea no tener que ocuparse de preparar ni recoger. Quizá sea pasar tiempo con sus amigos antes de una gran transición. Puede querer una fiesta ruidosa y alegre o una comida tranquila sin un solo juego. La decoración puede acompañar ese ambiente sin cargar con toda la celebración. Algunas flores, buena luz, una mesa sencilla y detalles personales suelen sentirse más intencionados que llenar cada superficie de objetos temáticos. La originalidad suele aparecer al editar, no al añadir. Un baby shower memorable no es el que inventa las actividades más raras. Es el que elimina las tradiciones que no encajan, conserva las que sí aportan algo y permite que la persona celebrada se reconozca en la reunión.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -28534,10 +28519,11 @@
     },
     {
       "ngram": "at the end of the day",
-      "count": 11,
+      "count": 12,
       "files": [
         "content/articles/en/003-toddler-tantrums-calm-limits-connection.json",
         "content/articles/en/025-child-wont-clean-up-cooperation.json",
+        "content/articles/en/052-postpartum-without-perfectionism.json",
         "content/articles/en/097-vacation-young-kids-lower-expectations.json",
         "content/articles/en/106-bedtime-endless-requests-limits-connection.json",
         "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
@@ -28609,6 +28595,20 @@
         "content/articles/en/1138-missing-pre-pregnancy-body-without-guilt.json",
         "content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json",
         "content/articles/en/125-time-change-kids-adjust-routine.json"
+      ]
+    },
+    {
+      "ngram": "a las tres de la mañana",
+      "count": 8,
+      "files": [
+        "content/articles/es/011-despertares-nocturnos-responder-respeto.json",
+        "content/articles/es/048-paternidad-implicada-conectar-con-bebe.json",
+        "content/articles/es/053-primeras-semanas-recien-nacido-sin-horario-perfecto.json",
+        "content/articles/es/057-vestir-recien-nacido-sin-llenar-armario.json",
+        "content/articles/es/066-alimentacion-nocturna-reparto-pareja.json",
+        "content/articles/es/109-noches-dificiles-sin-cambiar-estrategia-cada-dia.json",
+        "content/articles/es/1117-miedo-relacion-cambie-para-siempre-despues-bebe.json",
+        "content/articles/es/1119-miedo-no-sentir-suficiente-amor-bebe-cuando-nazca.json"
       ]
     },
     {
@@ -28739,24 +28739,11 @@
       "files": [
         "content/articles/en/001-respectful-parenting.json",
         "content/articles/en/045-prepare-toddler-for-new-sibling.json",
-        "content/articles/en/053-first-weeks-newborn-without-perfect-schedule.json",
+        "content/articles/en/057-dress-newborn-without-buying-too-many-clothes.json",
         "content/articles/en/1046-pressure-to-give-kids-perfect-childhood.json",
         "content/articles/en/1071-always-available-to-someone-as-mom.json",
         "content/articles/en/1105-not-enjoy-pregnancy-even-wanted.json",
         "content/articles/en/1143-keep-pregnancy-private-family-wants-tell.json"
-      ]
-    },
-    {
-      "ngram": "you do not have to solve",
-      "count": 7,
-      "files": [
-        "content/articles/en/056-baby-diaper-bag-essentials-everyday-outings.json",
-        "content/articles/en/101-move-from-sleeping-in-arms-to-other-support.json",
-        "content/articles/en/1036-more-to-lose-after-motherhood.json",
-        "content/articles/en/1084-nightly-motherhood-rumination.json",
-        "content/articles/en/1112-fear-not-knowing-how-to-care-for-newborn-first-time-mom.json",
-        "content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json",
-        "content/articles/en/1129-compare-pregnancy-to-others-and-worry.json"
       ]
     },
     {
@@ -28799,18 +28786,6 @@
       ]
     },
     {
-      "ngram": "a las tres de la mañana",
-      "count": 6,
-      "files": [
-        "content/articles/es/011-despertares-nocturnos-responder-respeto.json",
-        "content/articles/es/048-paternidad-implicada-conectar-con-bebe.json",
-        "content/articles/es/066-alimentacion-nocturna-reparto-pareja.json",
-        "content/articles/es/109-noches-dificiles-sin-cambiar-estrategia-cada-dia.json",
-        "content/articles/es/1117-miedo-relacion-cambie-para-siempre-despues-bebe.json",
-        "content/articles/es/1119-miedo-no-sentir-suficiente-amor-bebe-cuando-nazca.json"
-      ]
-    },
-    {
       "ngram": "comentarlo con un profesional de confianza",
       "count": 6,
       "files": [
@@ -28832,18 +28807,6 @@
         "content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json",
         "content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json",
         "content/articles/en/146-guilt-changing-sleep-routine.json"
-      ]
-    },
-    {
-      "ngram": "does not have to be the",
-      "count": 6,
-      "files": [
-        "content/articles/en/060-modern-baby-shower-ideas-different.json",
-        "content/articles/en/1076-remember-everything-for-everyone.json",
-        "content/articles/en/1108-no-instant-love-before-birth.json",
-        "content/articles/en/112-bedtime-story-routine-anchor.json",
-        "content/articles/en/123-weekend-sleep-routine-without-clock-slavery.json",
-        "content/articles/en/135-sleep-routines-two-children-different-ages.json"
       ]
     },
     {
@@ -28892,6 +28855,18 @@
         "content/articles/en/027-difficult-transitions-fewer-conflicts.json",
         "content/articles/en/035-teach-waiting-without-demanding-patience.json",
         "content/articles/en/084-small-responsibilities-without-constant-rewards.json"
+      ]
+    },
+    {
+      "ngram": "you do not have to solve",
+      "count": 6,
+      "files": [
+        "content/articles/en/101-move-from-sleeping-in-arms-to-other-support.json",
+        "content/articles/en/1036-more-to-lose-after-motherhood.json",
+        "content/articles/en/1084-nightly-motherhood-rumination.json",
+        "content/articles/en/1112-fear-not-knowing-how-to-care-for-newborn-first-time-mom.json",
+        "content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json",
+        "content/articles/en/1129-compare-pregnancy-to-others-and-worry.json"
       ]
     }
   ]

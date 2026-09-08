@@ -4,14 +4,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1125	1125-afraid-to-buy-baby-things-too-early	10	10	9	308	305	4	4	0.3	0.0	Miedo a comprar cosas para el bebé demasiado pronto	Feeling afraid to buy things for the baby too early
 1128	1128-constant-reassurance-never-lasts-pregnancy	10	10	9	286	293	4	4	0.3	0.1	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	Constantly seeking reassurance during pregnancy and feeling like it never lasts
 1147	1147-tired-of-everyone-asking-about-pregnancy	10	10	10	247	250	4	4	0.0	0.0	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	Getting tired of everyone constantly asking how your pregnancy is going
-1103	1103-love-baby-and-feel-afraid-pregnancy	9	7	9	362	330	4	4	0.0	0.0	Querer al bebé y tener miedo al mismo tiempo durante el embarazo	Loving the baby and feeling afraid at the same time during pregnancy
-1104	1104-guilt-complaining-about-wanted-pregnancy	9	7	9	361	349	4	4	0.0	0.0	Sentir culpa por quejarte del embarazo cuando querías ser madre	Feeling guilty for complaining about pregnancy when you wanted to be a mother
-1105	1105-not-enjoy-pregnancy-even-wanted	9	7	9	353	348	4	4	0.0	0.091	No disfrutar del embarazo aunque estuviera muy deseado	Not enjoying pregnancy even though it was deeply wanted
-1106	1106-want-pregnancy-to-end-feel-guilty	9	9	9	340	329	4	4	0.0	0.0	Esperar que termine el embarazo y sentir culpa por no disfrutarlo	Wanting pregnancy to be over and feeling guilty for not enjoying it
-1107	1107-not-feel-connected-to-baby-during-pregnancy	9	7	9	372	344	4	4	0.091	0.091	No sentirte conectada con el bebé durante el embarazo	Not feeling connected to the baby during pregnancy
-1108	1108-no-instant-love-before-birth	9	9	9	320	324	4	4	0.182	0.182	No sentir amor instantáneo por el bebé antes de que nazca	Not feeling instant love for the baby before birth
-1109	1109-not-want-to-talk-to-bump	9	9	9	349	342	4	4	0.091	0.091	No tener ganas de hablarle a la barriga durante el embarazo	Not wanting to talk to your bump during pregnancy
-1110	1110-feel-different-from-more-excited-pregnant-women	9	9	9	326	342	4	4	0.0	0.0	Sentirte diferente de otras embarazadas que parecen más emocionadas	Feeling different from other pregnant women who seem more excited
 1112	1112-fear-not-knowing-how-to-care-for-newborn-first-time-mom	9	9	9	308	321	4	4	0.0	0.0	Miedo a no saber cuidar a un recién nacido cuando eres madre primeriza	Fear you won't know how to care for a newborn as a first-time mom
 1113	1113-what-have-i-gotten-into-wanted-pregnancy	9	9	9	319	331	4	4	0.1	0.0	Pensar “¿en qué me he metido?” durante un embarazo que sí querías	Thinking “what have I gotten myself into?” during a pregnancy you wanted
 1114	1114-doubt-whether-you-were-ready-after-pregnancy	9	9	9	289	296	4	4	0.2	0.1	Dudar de si estabas preparada para ser madre después de quedarte embarazada	Doubting whether you were ready to become a mother after getting pregnant
@@ -54,8 +46,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1076	1076-remember-everything-for-everyone	7	5	7	512	481	4	4	0.0	0.0	Sentir que tienes que recordar todo por todos dentro de la familia	Feeling like you have to remember everything for everyone in the family
 1077	1077-cant-rest-because-remembering-tasks	7	7	5	494	523	4	4	0.0	0.0	Cuando descansar parece imposible porque siempre recuerdas una tarea pendiente	When resting feels impossible because you keep remembering another task
 1078	1078-mentally-disconnect-from-family-responsibilities	7	7	7	478	498	4	4	0.0	0.0	Cómo desconectar mentalmente de las responsabilidades familiares durante un rato	How to mentally disconnect from family responsibilities for a while
-1101	1101-not-happy-all-the-time-pregnancy	7	7	7	390	394	4	4	0.0	0.0	¿Es normal no sentirse feliz todo el tiempo durante el embarazo?	Is it normal not to feel happy all the time during pregnancy?
-1102	1102-wanted-pregnancy-without-expected-excitement	7	7	7	385	373	4	4	0.0	0.0	Embarazo deseado pero sin la ilusión que esperabas sentir	A wanted pregnancy without the excitement you expected to feel
 37	037-validate-emotions-without-saying-yes	6	6	5	647	639	5	5	0.045	0.091	Cómo validar emociones sin decir sí a todo	How to validate feelings without saying yes to everything
 77	077-potty-training-accidents-without-shame-punishment	6	6	6	538	535	4	4	0.0	0.0	Accidentes durante el potty training: cómo responder sin vergüenza ni castigos	Potty training accidents: how to respond without shame or punishment
 13	013-sleep-regressions-calm	5	3	5	836	780	6	6	0.037	0.04	Regresiones del sueño: cómo atravesarlas con calma	Sleep Regressions: How to Get Through Them Without Changing Everything
@@ -162,6 +152,9 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1089	1089-accept-bad-week-without-thinking-family-is-bad	4	4	4	611	590	4	4	0.0	0.0	Cómo aceptar una semana mala sin pensar que vuestra familia está mal	How to accept a bad week without deciding your family is doing badly
 1096	1096-other-motherhood-looks-easier-from-outside	4	4	3	649	658	4	4	0.0	0.0	Por qué la maternidad de otras personas parece más fácil desde fuera	Why other people’s motherhood looks easier from the outside
 1098	1098-everyone-knows-what-theyre-doing-except-you	4	4	3	636	658	4	4	0.0	0.0	Sentir que todos los demás padres saben lo que hacen menos tú	Feeling like every other parent knows what they’re doing except you
+1101	1101-not-happy-all-the-time-pregnancy	4	3	4	685	647	4	4	0.0	0.0	¿Es normal no sentirse feliz todo el tiempo durante el embarazo?	Is it normal not to feel happy all the time during pregnancy?
+1102	1102-wanted-pregnancy-without-expected-excitement	4	4	4	625	618	4	4	0.0	0.0	Embarazo deseado pero sin la ilusión que esperabas sentir	A wanted pregnancy without the excitement you expected to feel
+1104	1104-guilt-complaining-about-wanted-pregnancy	4	4	1	644	859	4	4	0.0	0.0	Sentir culpa por quejarte del embarazo cuando querías ser madre	Feeling guilty for complaining about pregnancy when you wanted to be a mother
 11	011-night-wakings-respectful-response	3	3	3	843	801	6	6	0.1	0.038	Despertares nocturnos: cómo responder de forma respetuosa y sostenible para la familia	Night Wakings: How to Respond Respectfully Without Burning Out the Family
 12	012-toddler-activities-at-home	3	3	3	897	880	6	6	0.069	0.065	Actividades para toddlers en casa que realmente mantienen su interés	Toddler Activities at Home That Actually Hold Their Attention
 14	014-how-to-choose-daycare	3	3	3	867	872	6	6	0.036	0.071	Cómo elegir daycare o guardería: preguntas importantes antes de decidir	How to Choose a Daycare: Questions That Matter Before You Decide
@@ -213,6 +206,9 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1092	1092-stop-comparing-more-organized-moms	3	2	3	696	683	4	4	0.0	0.0	Cómo dejar de compararte con madres que parecen más organizadas	How to stop comparing yourself with moms who seem more organized
 1099	1099-impostor-feeling-in-motherhood	3	2	3	713	680	4	4	0.0	0.0	Síndrome de impostora en la maternidad: sentir que algún día descubrirán que no sabes lo que haces	Impostor syndrome in motherhood: feeling like people will discover you don’t know what you’re doing
 1100	1100-build-confidence-mom-without-perfection	3	3	2	670	699	4	4	0.0	0.0	Cómo construir confianza en ti misma como madre sin necesitar hacerlo todo perfecto	How to build confidence as a mom without needing to do everything perfectly
+1103	1103-love-baby-and-feel-afraid-pregnancy	3	3	3	655	672	4	4	0.0	0.0	Querer al bebé y tener miedo al mismo tiempo durante el embarazo	Loving the baby and feeling afraid at the same time during pregnancy
+1108	1108-no-instant-love-before-birth	3	3	3	677	681	4	4	0.0	0.0	No sentir amor instantáneo por el bebé antes de que nazca	Not feeling instant love for the baby before birth
+1109	1109-not-want-to-talk-to-bump	3	3	3	679	682	4	4	0.0	0.0	No tener ganas de hablarle a la barriga durante el embarazo	Not wanting to talk to your bump during pregnancy
 3	003-tantrums-calm-limits-connection	2	2	0	1375	1209	8	7	0.089	0.081	Rabietas: cómo acompañarlas con calma, límites y conexión	Toddler Tantrums: How to Respond With Calm, Limits and Connection
 18	018-baby-led-feeding-table-autonomy	2	2	2	913	876	6	6	0.038	0.032	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure
 19	019-prepare-home-for-baby-without-overbuying	2	2	2	898	939	6	6	0.067	0.133	Cómo preparar la casa para la llegada del bebé sin comprar de más	How to Prepare Your Home for a Baby Without Buying Too Much
@@ -266,6 +262,10 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1094	1094-feel-less-patient-than-other-moms	2	2	2	711	721	4	4	0.0	0.0	Sentir que eres menos paciente que otras madres	Feeling less patient than other moms
 1095	1095-other-moms-seem-to-enjoy-parenting-more	2	2	2	753	721	4	4	0.0	0.0	Compararte con madres que parecen disfrutar más de la crianza	Comparing yourself with moms who seem to enjoy parenting more
 1097	1097-stop-using-other-families-as-measure	2	2	2	698	721	4	4	0.0	0.0	Cómo dejar de usar a otras familias como medida de si lo estás haciendo bien	How to stop using other families as a measure of whether you’re doing it right
+1105	1105-not-enjoy-pregnancy-even-wanted	2	2	2	741	707	4	4	0.0	0.0	No disfrutar del embarazo aunque estuviera muy deseado	Not enjoying pregnancy even though it was deeply wanted
+1106	1106-want-pregnancy-to-end-feel-guilty	2	2	2	709	720	4	4	0.0	0.0	Esperar que termine el embarazo y sentir culpa por no disfrutarlo	Wanting pregnancy to be over and feeling guilty for not enjoying it
+1107	1107-not-feel-connected-to-baby-during-pregnancy	2	2	2	731	699	4	4	0.0	0.0	No sentirte conectada con el bebé durante el embarazo	Not feeling connected to the baby during pregnancy
+1110	1110-feel-different-from-more-excited-pregnant-women	2	2	2	755	748	4	4	0.0	0.0	Sentirte diferente de otras embarazadas que parecen más emocionadas	Feeling different from other pregnant women who seem more excited
 1	001-respectful-parenting	1	1	0	1630	1524	8	8	0.041	0.02	Crianza respetuosa: qué significa de verdad y cómo aplicarla sin caer en extremos	Respectful Parenting: What It Really Means and How to Use It Without Going to Extremes
 4	004-potty-training-without-pressure	1	1	0	1578	1492	8	8	0.065	0.067	Potty training o dejar el pañal: guía respetuosa sin premios ni presión	Potty Training Without Pressure: A Respectful Guide Without Rewards
 93	093-flying-baby-logistics-packing-expectations	1	1	1	914	959	5	5	0.0	0.0	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	Flying with a baby: packing, logistics, and realistic expectations

@@ -1,18 +1,9 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
-147	147-talk-about-baby-sleep-without-comparison	10	10	10	286	273	4	4	0.0	0.0	Cómo hablar del sueño infantil sin comparar a tu bebé con otros	How to talk about baby sleep without comparing your baby to others
-150	150-baby-sleep-apps-help-or-add-anxiety	10	10	10	279	273	4	4	0.125	0.125	Apps de sueño para bebés: cuándo ayudan a organizarse y cuándo añaden ansiedad	Baby sleep apps: when they help you organize and when they add anxiety
 1111	1111-fear-not-being-good-mother-before-birth	10	10	8	338	352	4	4	0.0	0.0	Miedo a no ser una buena madre antes de que nazca el bebé	Fear that you will not be a good mother before the baby is born
 1121	1121-what-if-something-goes-wrong-pregnancy	10	8	10	354	347	4	4	0.0	0.0	Pensar constantemente “¿y si algo sale mal?” durante el embarazo	Constantly thinking “what if something goes wrong?” during pregnancy
 1125	1125-afraid-to-buy-baby-things-too-early	10	10	9	308	305	4	4	0.3	0.0	Miedo a comprar cosas para el bebé demasiado pronto	Feeling afraid to buy things for the baby too early
 1128	1128-constant-reassurance-never-lasts-pregnancy	10	10	9	286	293	4	4	0.3	0.1	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	Constantly seeking reassurance during pregnancy and feeling like it never lasts
 1147	1147-tired-of-everyone-asking-about-pregnancy	10	10	10	247	250	4	4	0.0	0.0	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	Getting tired of everyone constantly asking how your pregnancy is going
-142	142-limit-adult-presence-at-bedtime-gradually	9	9	9	337	320	4	4	0.0	0.0	Cómo poner límites a la presencia del adulto durante el sueño sin desaparecer de golpe	How to limit adult presence at bedtime without disappearing all at once
-143	143-reduce-sleep-help-gradually-while-supporting	9	9	9	301	287	4	4	0.0	0.111	Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar	How to gradually reduce sleep help without stopping support
-144	144-sustainable-bedtime-routine-for-adults	9	9	9	291	280	4	4	0.0	0.0	Cómo crear una rutina de sueño más sostenible para los adultos	How to make a child's bedtime routine more sustainable for adults
-145	145-choose-bedtime-battles-worth-having	9	9	9	308	315	4	4	0.222	0.111	Cómo decidir qué batallas no merece la pena librar a la hora de dormir	How to decide which bedtime battles are not worth having
-146	146-guilt-changing-sleep-routine	9	9	9	312	303	4	4	0.111	0.111	Cómo manejar la culpa cuando quieres cambiar una rutina de sueño	How to handle guilt when you want to change a sleep routine
-148	148-other-families-sleep-schedules-may-not-fit-yours	9	9	9	293	268	4	4	0.0	0.0	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	Why another family's sleep schedule may not work for yours
-149	149-use-sleep-log-without-obsession	9	9	9	277	272	4	4	0.0	0.0	Cómo usar un registro de sueño sin convertirlo en una obsesión	How to use a sleep log without turning it into an obsession
 1081	1081-maternal-perfectionism-never-enough	9	7	9	374	339	4	4	0.0	0.0	Perfeccionismo materno: por qué nunca sientes que haces suficiente	Maternal perfectionism: why it never feels like you do enough
 1082	1082-stop-measuring-motherhood-by-output	9	9	9	303	319	4	4	0.0	0.0	Cómo dejar de medir tu maternidad por la cantidad de cosas que haces	How to stop measuring your motherhood by how much you get done
 1083	1083-small-mistake-means-bad-mom	9	9	9	301	323	4	4	0.0	0.0	Sentir que cualquier error pequeño demuestra que eres mala madre	Feeling like any small mistake proves you are a bad mom
@@ -71,7 +62,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1148	1148-respond-when-dont-want-talk-pregnancy	9	9	9	266	272	4	4	0.0	0.0	Cómo responder cuando no quieres hablar de tu embarazo todo el tiempo	How to respond when you do not want to talk about pregnancy all the time
 1149	1149-everything-about-baby-miss-being-asked-about-you	9	9	9	270	278	4	4	0.0	0.0	Cuando todo gira alrededor del bebé y echas de menos que te pregunten por ti	When everything is about the baby and you miss people asking about you
 1150	1150-maintain-identity-during-pregnancy	9	9	9	280	287	4	4	0.0	0.0	Cómo mantener otras partes de tu identidad mientras estás embarazada	How to maintain other parts of your identity while you are pregnant
-141	141-falling-asleep-with-parent-bad-habit	7	7	7	395	376	4	4	0.0	0.0	¿Dormirse acompañado es un mal hábito?	Is falling asleep with a parent nearby a bad habit?
 1065	1065-why-five-minutes-alone-matter-as-mom	7	7	5	466	513	4	4	0.0	0.0	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	Why five minutes alone can feel so important when you are a mom
 1068	1068-uninterrupted-shower-feels-like-luxury	7	7	7	495	490	4	4	0.0	0.0	Por qué una ducha sin interrupciones puede sentirse como un lujo cuando eres madre	Why an uninterrupted shower can feel like a luxury when you are a mom
 1073	1073-tired-of-hearing-mom-all-day-guilt	7	7	5	491	511	4	4	0.0	0.0	Cansarte de escuchar “mamá” todo el día y sentir culpa por ello	Feeling tired of hearing “Mom” all day — and guilty about it
@@ -159,6 +149,9 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 73	073-eating-out-with-toddlers-easier	4	4	4	607	598	4	4	0.0	0.0	Comer fuera con toddlers: cómo hacerlo más llevadero	Eating out with toddlers: how to make restaurants easier
 74	074-morning-exit-routine-with-kids-without-yelling	4	4	4	584	587	4	4	0.0	0.0	Rutina de salida por la mañana: cómo salir de casa con niños sin empezar el día gritando	Morning exit routine: how to get out the door with kids without starting the day yelling
 75	075-after-school-daycare-home-routine	4	4	4	579	580	4	4	0.0	0.0	Rutina de regreso a casa: cómo hacer más suaves las tardes después de daycare o escuela	After daycare or school: how to build a calmer coming-home routine
+145	145-choose-bedtime-battles-worth-having	4	4	4	619	639	4	4	0.0	0.0	Cómo decidir qué batallas no merece la pena librar a la hora de dormir	How to decide which bedtime battles are not worth having
+148	148-other-families-sleep-schedules-may-not-fit-yours	4	4	4	606	600	4	4	0.0	0.0	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	Why another family's sleep schedule may not work for yours
+149	149-use-sleep-log-without-obsession	4	4	4	647	646	4	4	0.0	0.0	Cómo usar un registro de sueño sin convertirlo en una obsesión	How to use a sleep log without turning it into an obsession
 1016	1016-feel-like-yourself-again-after-motherhood	4	2	4	879	794	6	6	0.071	0.077	Cómo volver a sentirte tú misma después de convertirte en madre	How to Feel Like Yourself Again After Becoming a Mom
 1017	1017-when-life-revolves-around-kids-and-you-dont-know-what-you-like	4	4	4	787	768	6	6	0.042	0.038	Cuando toda tu vida gira alrededor de tus hijos y no sabes qué te gusta a ti	When Your Life Revolves Around Your Kids and You Don’t Know What You Like Anymore
 1018	1018-recover-personal-interests-after-parenting-years	4	3	4	807	768	6	6	0.207	0.04	Cómo recuperar intereses personales después de años centrada en la crianza	How to Get Back to Your Hobbies After Years Focused on Parenting
@@ -204,6 +197,11 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 96	096-travel-sleep-familiar-cues-not-perfect-routine	3	2	3	826	797	5	5	0.0	0.0	Sueño de viaje: cómo mantener algunas señales familiares sin perseguir la rutina perfecta	Sleep while traveling: keep familiar cues without chasing the perfect routine
 107	107-recognizable-sleep-cues-when-days-vary	3	2	3	800	786	5	5	0.0	0.0	Cómo crear señales de sueño reconocibles cuando cada día es distinto	How to create recognizable sleep cues when every day looks different
 139	139-involve-father-caregiver-sleep-routine	3	2	3	702	661	4	4	0.0	0.0	Cómo involucrar al padre o a otro cuidador en la rutina de sueño	How to involve a father or another caregiver in the sleep routine
+143	143-reduce-sleep-help-gradually-while-supporting	3	3	2	674	702	4	4	0.0	0.0	Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar	How to gradually reduce sleep help without stopping support
+144	144-sustainable-bedtime-routine-for-adults	3	3	3	668	677	4	4	0.0	0.0	Cómo crear una rutina de sueño más sostenible para los adultos	How to make a child's bedtime routine more sustainable for adults
+146	146-guilt-changing-sleep-routine	3	3	3	653	656	4	4	0.0	0.0	Cómo manejar la culpa cuando quieres cambiar una rutina de sueño	How to handle guilt when you want to change a sleep routine
+147	147-talk-about-baby-sleep-without-comparison	3	3	2	676	696	4	4	0.0	0.0	Cómo hablar del sueño infantil sin comparar a tu bebé con otros	How to talk about baby sleep without comparing your baby to others
+150	150-baby-sleep-apps-help-or-add-anxiety	3	3	3	667	682	4	4	0.0	0.0	Apps de sueño para bebés: cuándo ayudan a organizarse y cuándo añaden ansiedad	Baby sleep apps: when they help you organize and when they add anxiety
 1004	1004-guilt-not-missing-kids	3	3	2	939	938	6	6	0.0	0.067	Culpa por no echar de menos a tus hijos durante unas horas	Feeling Guilty for Not Missing Your Kids When You’re Away
 1006	1006-phone-guilt-while-kids-play	3	1	3	1166	995	7	7	0.026	0.031	Culpa por mirar el móvil mientras tus hijos juegan	Feeling Guilty for Looking at Your Phone While Your Kids Play
 1007	1007-guilt-not-playing-enough	3	3	2	968	876	7	6	0.062	0.036	Culpa por no jugar tanto con tus hijos como crees que deberías	Feeling Guilty Because You Don’t Play With Your Kids as Much as You Think You Should
@@ -261,6 +259,8 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 137	137-split-bedtime-routine-two-caregivers	2	2	2	710	690	4	4	0.0	0.0	Cómo repartir la rutina nocturna entre dos cuidadores	How to split the bedtime routine between two caregivers
 138	138-child-only-accepts-one-parent-at-bedtime	2	2	2	762	777	4	4	0.0	0.0	Qué hacer cuando el niño solo acepta a un progenitor para dormir	What to do when a child only accepts one parent at bedtime
 140	140-change-sleep-associations-gradually-respectfully	2	2	2	743	780	4	4	0.0	0.0	Cómo cambiar asociaciones de sueño de forma gradual y respetuosa	How to change sleep associations gradually and respectfully
+141	141-falling-asleep-with-parent-bad-habit	2	2	1	768	846	4	4	0.0	0.0	¿Dormirse acompañado es un mal hábito?	Is falling asleep with a parent nearby a bad habit?
+142	142-limit-adult-presence-at-bedtime-gradually	2	2	2	712	734	4	4	0.0	0.0	Cómo poner límites a la presencia del adulto durante el sueño sin desaparecer de golpe	How to limit adult presence at bedtime without disappearing all at once
 1003	1003-guilt-enjoying-alone-time	2	2	2	1025	1027	7	7	0.031	0.061	Culpa por disfrutar tiempo sola después de convertirte en madre	Feeling Guilty for Enjoying Time Alone After Becoming a Mom
 1005	1005-guilt-looking-forward-to-bedtime	2	1	2	1087	936	7	6	0.0	0.1	Culpa por desear que llegue la hora de dormir de tus hijos	Feeling Guilty for Wanting Bedtime to Come Sooner
 1010	1010-guilt-relief-back-to-school-daycare	2	2	2	1031	883	7	6	0.091	0.125	Culpa por sentir alivio cuando tus hijos vuelven al colegio o daycare	Feeling Guilty for Feeling Relieved When the Kids Go Back to School or Daycare

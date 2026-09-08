@@ -1,21 +1,10 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
-en	147	10	273	4	14.65	0.0	0	8	How to talk about baby sleep without comparing your baby to others	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/en/147-talk-about-baby-sleep-without-comparison.json
-en	150	10	273	4	14.65	0.125	1	8	Baby sleep apps: when they help you organize and when they add anxiety	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/en/150-baby-sleep-apps-help-or-add-anxiety.json
 en	1121	10	347	4	11.53	0.0	0	10	Constantly thinking “what if something goes wrong?” during pregnancy	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json
 en	1147	10	250	4	16.0	0.0	0	7	Getting tired of everyone constantly asking how your pregnancy is going	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/en/1147-tired-of-everyone-asking-about-pregnancy.json
-es	147	10	286	4	13.99	0.0	0	8	Cómo hablar del sueño infantil sin comparar a tu bebé con otros	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/es/147-hablar-sueno-infantil-sin-comparar-bebe.json
-es	150	10	279	4	14.34	0.125	1	8	Apps de sueño para bebés: cuándo ayudan a organizarse y cuándo añaden ansiedad	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/es/150-apps-sueno-bebes-ayudan-o-anaden-ansiedad.json
 es	1111	10	338	4	11.83	0.0	0	10	Miedo a no ser una buena madre antes de que nazca el bebé	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/es/1111-miedo-no-ser-buena-madre-antes-nazca-bebe.json
 es	1125	10	308	4	12.99	0.3	1	10	Miedo a comprar cosas para el bebé demasiado pronto	body_under_350_words,high_h2_density,elevated_short_paragraphs	content/articles/es/1125-miedo-comprar-cosas-bebe-demasiado-pronto.json
 es	1128	10	286	4	13.99	0.3	1	10	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	body_under_350_words,high_h2_density,elevated_short_paragraphs	content/articles/es/1128-buscar-tranquilidad-embarazo-nunca-dura.json
 es	1147	10	247	4	16.19	0.0	0	7	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/es/1147-cansarte-preguntas-como-va-embarazo.json
-en	142	9	320	4	12.5	0.0	0	9	How to limit adult presence at bedtime without disappearing all at once	body_under_350_words,high_h2_density	content/articles/en/142-set-limits-adult-presence-bedtime-gradually.json
-en	143	9	287	4	13.94	0.111	1	9	How to gradually reduce sleep help without stopping support	body_under_350_words,high_h2_density	content/articles/en/143-reduce-sleep-help-gradually-while-supporting.json
-en	144	9	280	4	14.29	0.0	0	8	How to make a child's bedtime routine more sustainable for adults	body_under_350_words,high_h2_density	content/articles/en/144-sustainable-bedtime-routine-for-adults.json
-en	145	9	315	4	12.7	0.111	1	9	How to decide which bedtime battles are not worth having	body_under_350_words,high_h2_density	content/articles/en/145-choose-bedtime-battles-worth-having.json
-en	146	9	303	4	13.2	0.111	1	9	How to handle guilt when you want to change a sleep routine	body_under_350_words,high_h2_density	content/articles/en/146-guilt-changing-sleep-routine.json
-en	148	9	268	4	14.93	0.0	0	7	Why another family's sleep schedule may not work for yours	body_under_350_words,high_h2_density	content/articles/en/148-other-families-sleep-schedules-may-not-fit-yours.json
-en	149	9	272	4	14.71	0.0	0	8	How to use a sleep log without turning it into an obsession	body_under_350_words,high_h2_density	content/articles/en/149-use-sleep-log-without-obsession.json
 en	1081	9	339	4	11.8	0.0	0	10	Maternal perfectionism: why it never feels like you do enough	body_under_350_words,high_h2_density	content/articles/en/1081-maternal-perfectionism-never-enough.json
 en	1082	9	319	4	12.54	0.0	0	10	How to stop measuring your motherhood by how much you get done	body_under_350_words,high_h2_density	content/articles/en/1082-stop-measuring-motherhood-by-output.json
 en	1083	9	323	4	12.38	0.0	0	10	Feeling like any small mistake proves you are a bad mom	body_under_350_words,high_h2_density	content/articles/en/1083-small-mistake-means-bad-mom.json
@@ -74,13 +63,6 @@ en	1146	9	268	4	14.93	0.0	0	7	When your pregnancy starts to feel like public inf
 en	1148	9	272	4	14.71	0.0	0	8	How to respond when you do not want to talk about pregnancy all the time	body_under_350_words,high_h2_density	content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json
 en	1149	9	278	4	14.39	0.0	0	7	When everything is about the baby and you miss people asking about you	body_under_350_words,high_h2_density	content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json
 en	1150	9	287	4	13.94	0.0	0	7	How to maintain other parts of your identity while you are pregnant	body_under_350_words,high_h2_density	content/articles/en/1150-maintain-identity-during-pregnancy.json
-es	142	9	337	4	11.87	0.0	0	9	Cómo poner límites a la presencia del adulto durante el sueño sin desaparecer de golpe	body_under_350_words,high_h2_density	content/articles/es/142-limites-presencia-adulto-sueno-sin-desaparecer.json
-es	143	9	301	4	13.29	0.0	0	9	Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar	body_under_350_words,high_h2_density	content/articles/es/143-reducir-ayuda-dormir-sin-dejar-acompanar.json
-es	144	9	291	4	13.75	0.0	0	8	Cómo crear una rutina de sueño más sostenible para los adultos	body_under_350_words,high_h2_density	content/articles/es/144-rutina-sueno-sostenible-para-adultos.json
-es	145	9	308	4	12.99	0.222	1	9	Cómo decidir qué batallas no merece la pena librar a la hora de dormir	body_under_350_words,high_h2_density	content/articles/es/145-batallas-no-merecen-pena-hora-dormir.json
-es	146	9	312	4	12.82	0.111	1	9	Cómo manejar la culpa cuando quieres cambiar una rutina de sueño	body_under_350_words,high_h2_density	content/articles/es/146-culpa-cambiar-rutina-sueno.json
-es	148	9	293	4	13.65	0.0	0	7	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	body_under_350_words,high_h2_density	content/articles/es/148-horarios-sueno-otras-familias-no-tienen-funcionar.json
-es	149	9	277	4	14.44	0.0	0	8	Cómo usar un registro de sueño sin convertirlo en una obsesión	body_under_350_words,high_h2_density	content/articles/es/149-registro-sueno-sin-obsesion.json
 es	1082	9	303	4	13.2	0.0	0	10	Cómo dejar de medir tu maternidad por la cantidad de cosas que haces	body_under_350_words,high_h2_density	content/articles/es/1082-dejar-medir-maternidad-cantidad-cosas.json
 es	1083	9	301	4	13.29	0.0	0	10	Sentir que cualquier error pequeño demuestra que eres mala madre	body_under_350_words,high_h2_density	content/articles/es/1083-error-pequeno-mala-madre.json
 es	1085	9	296	4	13.51	0.1	1	10	Por qué recuerdas tus errores de crianza y olvidas todo lo que hiciste bien	body_under_350_words,high_h2_density	content/articles/es/1085-recuerdas-errores-olvidas-lo-bueno.json
@@ -133,7 +115,6 @@ es	1149	9	270	4	14.81	0.0	0	7	Cuando todo gira alrededor del bebé y echas de me
 es	1150	9	280	4	14.29	0.0	0	7	Cómo mantener otras partes de tu identidad mientras estás embarazada	body_under_350_words,high_h2_density	content/articles/es/1150-mantener-identidad-mientras-estas-embarazada.json
 en	1111	8	352	4	11.36	0.0	0	10	Fear that you will not be a good mother before the baby is born	body_under_500_words,high_h2_density,many_question_paragraphs	content/articles/en/1111-fear-not-being-good-mother-before-birth.json
 es	1121	8	354	4	11.3	0.0	0	10	Pensar constantemente “¿y si algo sale mal?” durante el embarazo	body_under_500_words,high_h2_density,many_question_paragraphs	content/articles/es/1121-y-si-algo-sale-mal-embarazo.json
-en	141	7	376	4	10.64	0.0	0	10	Is falling asleep with a parent nearby a bad habit?	body_under_500_words,high_h2_density	content/articles/en/141-falling-asleep-with-parent-bad-habit.json
 en	1068	7	490	4	8.16	0.0	0	14	Why an uninterrupted shower can feel like a luxury when you are a mom	body_under_500_words,high_h2_density	content/articles/en/1068-uninterrupted-shower-feels-like-luxury.json
 en	1076	7	481	4	8.32	0.0	0	14	Feeling like you have to remember everything for everyone in the family	body_under_500_words,high_h2_density	content/articles/en/1076-remember-everything-for-everyone.json
 en	1078	7	498	4	8.03	0.0	0	14	How to mentally disconnect from family responsibilities for a while	body_under_500_words,high_h2_density	content/articles/en/1078-mentally-disconnect-from-family-responsibilities.json
@@ -146,7 +127,6 @@ en	1099	7	357	4	11.2	0.0	0	11	Impostor syndrome in motherhood: feeling like peop
 en	1100	7	373	4	10.72	0.0	0	11	How to build confidence as a mom without needing to do everything perfectly	body_under_500_words,high_h2_density	content/articles/en/1100-build-confidence-mom-without-perfection.json
 en	1101	7	394	4	10.15	0.0	0	11	Is it normal not to feel happy all the time during pregnancy?	body_under_500_words,high_h2_density	content/articles/en/1101-not-happy-all-the-time-pregnancy.json
 en	1102	7	373	4	10.72	0.0	0	11	A wanted pregnancy without the excitement you expected to feel	body_under_500_words,high_h2_density	content/articles/en/1102-wanted-pregnancy-without-expected-excitement.json
-es	141	7	395	4	10.13	0.0	0	10	¿Dormirse acompañado es un mal hábito?	body_under_500_words,high_h2_density	content/articles/es/141-dormirse-acompanado-mal-habito.json
 es	1065	7	466	4	8.58	0.0	0	14	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	body_under_500_words,high_h2_density	content/articles/es/1065-cinco-minutos-sola-importantes-madre.json
 es	1068	7	495	4	8.08	0.0	0	14	Por qué una ducha sin interrupciones puede sentirse como un lujo cuando eres madre	body_under_500_words,high_h2_density	content/articles/es/1068-ducha-sin-interrupciones-lujo-madre.json
 es	1073	7	491	4	8.15	0.0	0	14	Cansarte de escuchar “mamá” todo el día y sentir culpa por ello	body_under_500_words,high_h2_density	content/articles/es/1073-cansarte-escuchar-mama-todo-dia-culpa.json
@@ -280,6 +260,9 @@ en	72	4	625	4	6.4	0.0	0	14	When kids throw food: how to respond without turning 
 en	73	4	598	4	6.69	0.0	0	14	Eating out with toddlers: how to make restaurants easier	body_under_650_words,elevated_h2_density	content/articles/en/073-eating-out-with-toddlers-easier.json
 en	74	4	587	4	6.81	0.0	0	14	Morning exit routine: how to get out the door with kids without starting the day yelling	body_under_650_words,elevated_h2_density	content/articles/en/074-morning-exit-routine-with-kids-without-yelling.json
 en	75	4	580	4	6.9	0.0	0	14	After daycare or school: how to build a calmer coming-home routine	body_under_650_words,elevated_h2_density	content/articles/en/075-after-school-daycare-home-routine.json
+en	145	4	639	4	6.26	0.0	0	14	How to decide which bedtime battles are not worth having	body_under_650_words,elevated_h2_density	content/articles/en/145-choose-bedtime-battles-worth-having.json
+en	148	4	600	4	6.67	0.0	0	14	Why another family's sleep schedule may not work for yours	body_under_650_words,elevated_h2_density	content/articles/en/148-other-families-sleep-schedules-may-not-fit-yours.json
+en	149	4	646	4	6.19	0.0	0	15	How to use a sleep log without turning it into an obsession	body_under_650_words,elevated_h2_density	content/articles/en/149-use-sleep-log-without-obsession.json
 en	1016	4	794	6	7.56	0.077	1	26	How to Feel Like Yourself Again After Becoming a Mom	body_under_800_words,high_h2_density	content/articles/en/1016-feel-like-yourself-again-after-motherhood.json
 en	1017	4	768	6	7.81	0.038	1	26	When Your Life Revolves Around Your Kids and You Don’t Know What You Like Anymore	body_under_800_words,high_h2_density	content/articles/en/1017-life-revolves-around-kids-dont-know-what-you-like.json
 en	1018	4	768	6	7.81	0.04	1	25	How to Get Back to Your Hobbies After Years Focused on Parenting	body_under_800_words,high_h2_density	content/articles/en/1018-recover-personal-interests-after-parenting-years.json
@@ -328,6 +311,9 @@ es	72	4	614	4	6.51	0.0	0	14	Niños que tiran la comida: cómo responder sin mont
 es	73	4	607	4	6.59	0.0	0	14	Comer fuera con toddlers: cómo hacerlo más llevadero	body_under_650_words,elevated_h2_density	content/articles/es/073-comer-fuera-toddlers-mas-llevadero.json
 es	74	4	584	4	6.85	0.0	0	14	Rutina de salida por la mañana: cómo salir de casa con niños sin empezar el día gritando	body_under_650_words,elevated_h2_density	content/articles/es/074-rutina-salida-manana-sin-gritos.json
 es	75	4	579	4	6.91	0.0	0	14	Rutina de regreso a casa: cómo hacer más suaves las tardes después de daycare o escuela	body_under_650_words,elevated_h2_density	content/articles/es/075-rutina-regreso-casa-daycare-escuela.json
+es	145	4	619	4	6.46	0.0	0	14	Cómo decidir qué batallas no merece la pena librar a la hora de dormir	body_under_650_words,elevated_h2_density	content/articles/es/145-batallas-no-merecen-pena-hora-dormir.json
+es	148	4	606	4	6.6	0.0	0	14	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	body_under_650_words,elevated_h2_density	content/articles/es/148-horarios-sueno-otras-familias-no-tienen-funcionar.json
+es	149	4	647	4	6.18	0.0	0	15	Cómo usar un registro de sueño sin convertirlo en una obsesión	body_under_650_words,elevated_h2_density	content/articles/es/149-registro-sueno-sin-obsesion.json
 es	1017	4	787	6	7.62	0.042	1	24	Cuando toda tu vida gira alrededor de tus hijos y no sabes qué te gusta a ti	body_under_800_words,high_h2_density	content/articles/es/1017-toda-vida-gira-hijos-no-sabes-que-te-gusta.json
 es	1021	4	685	6	8.76	0.045	1	22	¿Es normal echar de menos tu vida antes de tener hijos aunque adores ser madre?	body_under_800_words,high_h2_density	content/articles/es/1021-es-normal-echar-menos-vida-antes-hijos.json
 es	1022	4	687	6	8.73	0.045	1	22	Querer a tus hijos y echar de menos la libertad de antes al mismo tiempo	body_under_800_words,high_h2_density	content/articles/es/1022-querer-hijos-echar-menos-libertad.json
@@ -372,6 +358,9 @@ en	90	3	834	6	7.19	0.0	0	22	Preschool: what to look for beyond worksheets, lette
 en	96	3	797	5	6.27	0.0	0	18	Sleep while traveling: keep familiar cues without chasing the perfect routine	body_under_800_words,elevated_h2_density	content/articles/en/096-travel-sleep-familiar-cues.json
 en	107	3	786	5	6.36	0.0	0	18	How to create recognizable sleep cues when every day looks different	body_under_800_words,elevated_h2_density	content/articles/en/107-recognizable-sleep-cues-when-days-vary.json
 en	139	3	661	4	6.05	0.0	0	14	How to involve a father or another caregiver in the sleep routine	body_under_800_words,elevated_h2_density	content/articles/en/139-involve-father-caregiver-sleep-routine.json
+en	144	3	677	4	5.91	0.0	0	14	How to make a child's bedtime routine more sustainable for adults	body_under_800_words,elevated_h2_density	content/articles/en/144-sustainable-bedtime-routine-for-adults.json
+en	146	3	656	4	6.1	0.0	0	15	How to handle guilt when you want to change a sleep routine	body_under_800_words,elevated_h2_density	content/articles/en/146-guilt-changing-sleep-routine.json
+en	150	3	682	4	5.87	0.0	0	15	Baby sleep apps: when they help you organize and when they add anxiety	body_under_800_words,elevated_h2_density	content/articles/en/150-baby-sleep-apps-help-or-add-anxiety.json
 en	1006	3	995	7	7.04	0.031	1	32	Feeling Guilty for Looking at Your Phone While Your Kids Play	body_under_1050_words,high_h2_density	content/articles/en/1006-guilt-phone-while-kids-play.json
 en	1012	3	846	6	7.09	0.08	1	25	Not Recognizing Yourself After Becoming a Mom: Why It Can Feel So Strange	body_under_1050_words,high_h2_density	content/articles/en/1012-not-recognizing-yourself-after-motherhood.json
 en	1013	3	827	6	7.26	0.04	1	25	How to Keep Your Personal Identity After Having Kids	body_under_1050_words,high_h2_density	content/articles/en/1013-maintain-personal-identity-after-kids.json
@@ -409,6 +398,11 @@ es	65	3	661	4	6.05	0.0	0	15	Destete respetuoso: cómo plantear el cambio con con
 es	66	3	667	4	6.0	0.0	0	15	Alimentación nocturna y reparto en pareja: cómo organizarse cuando el bebé se despierta	body_under_800_words,elevated_h2_density	content/articles/es/066-alimentacion-nocturna-reparto-pareja.json
 es	68	3	683	4	5.86	0.0	0	17	Picky eating: cómo reducir las batallas en la mesa	body_under_800_words,elevated_h2_density	content/articles/es/068-picky-eating-reducir-batallas-mesa.json
 es	69	3	651	4	6.14	0.059	1	17	Cómo presentar alimentos nuevos sin presión ni sobornos	body_under_800_words,elevated_h2_density	content/articles/es/069-presentar-alimentos-nuevos-sin-presion-sobornos.json
+es	143	3	674	4	5.93	0.0	0	14	Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar	body_under_800_words,elevated_h2_density	content/articles/es/143-reducir-ayuda-dormir-sin-dejar-acompanar.json
+es	144	3	668	4	5.99	0.0	0	14	Cómo crear una rutina de sueño más sostenible para los adultos	body_under_800_words,elevated_h2_density	content/articles/es/144-rutina-sueno-sostenible-para-adultos.json
+es	146	3	653	4	6.13	0.0	0	15	Cómo manejar la culpa cuando quieres cambiar una rutina de sueño	body_under_800_words,elevated_h2_density	content/articles/es/146-culpa-cambiar-rutina-sueno.json
+es	147	3	676	4	5.92	0.0	0	15	Cómo hablar del sueño infantil sin comparar a tu bebé con otros	body_under_800_words,elevated_h2_density	content/articles/es/147-hablar-sueno-infantil-sin-comparar-bebe.json
+es	150	3	667	4	6.0	0.0	0	15	Apps de sueño para bebés: cuándo ayudan a organizarse y cuándo añaden ansiedad	body_under_800_words,elevated_h2_density	content/articles/es/150-apps-sueno-bebes-ayudan-o-anaden-ansiedad.json
 es	1004	3	939	6	6.39	0.0	0	29	Culpa por no echar de menos a tus hijos durante unas horas	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/1004-culpa-no-echar-menos-hijos.json
 es	1007	3	968	7	7.23	0.062	1	32	Culpa por no jugar tanto con tus hijos como crees que deberías	body_under_1050_words,high_h2_density	content/articles/es/1007-culpa-no-jugar-suficiente-hijos.json
 es	1008	3	1006	7	6.96	0.031	1	32	Culpa por pedir una niñera aunque no tengas ningún compromiso importante	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/1008-culpa-pedir-ninera-sin-compromiso.json
@@ -461,6 +455,9 @@ en	136	2	695	4	5.76	0.0	0	14	How to coordinate sibling bedtimes without doubling
 en	137	2	690	4	5.8	0.0	0	14	How to split the bedtime routine between two caregivers	body_under_800_words	content/articles/en/137-split-bedtime-routine-two-caregivers.json
 en	138	2	777	4	5.15	0.0	0	15	What to do when a child only accepts one parent at bedtime	body_under_800_words	content/articles/en/138-child-only-accepts-one-parent-at-bedtime.json
 en	140	2	780	4	5.13	0.0	0	14	How to change sleep associations gradually and respectfully	body_under_800_words	content/articles/en/140-change-sleep-associations-gradually-respectfully.json
+en	142	2	734	4	5.45	0.0	0	14	How to limit adult presence at bedtime without disappearing all at once	body_under_800_words	content/articles/en/142-set-limits-adult-presence-bedtime-gradually.json
+en	143	2	702	4	5.7	0.0	0	14	How to gradually reduce sleep help without stopping support	body_under_800_words	content/articles/en/143-reduce-sleep-help-gradually-while-supporting.json
+en	147	2	696	4	5.75	0.0	0	15	How to talk about baby sleep without comparing your baby to others	body_under_800_words	content/articles/en/147-talk-about-baby-sleep-without-comparison.json
 en	1003	2	1027	7	6.82	0.061	1	33	Feeling Guilty for Enjoying Time Alone After Becoming a Mom	body_under_1050_words,elevated_h2_density	content/articles/en/1003-guilt-enjoying-time-alone.json
 en	1004	2	938	6	6.4	0.067	1	30	Feeling Guilty for Not Missing Your Kids When You’re Away	body_under_1050_words,elevated_h2_density	content/articles/en/1004-guilt-not-missing-kids.json
 en	1005	2	936	6	6.41	0.1	1	30	Feeling Guilty for Wanting Bedtime to Come Sooner	body_under_1050_words,elevated_h2_density	content/articles/en/1005-guilt-wanting-bedtime.json
@@ -514,6 +511,8 @@ es	137	2	710	4	5.63	0.0	0	14	Cómo repartir la rutina nocturna entre dos cuidado
 es	138	2	762	4	5.25	0.0	0	15	Qué hacer cuando el niño solo acepta a un progenitor para dormir	body_under_800_words	content/articles/es/138-nino-solo-acepta-un-progenitor-para-dormir.json
 es	139	2	702	4	5.7	0.0	0	14	Cómo involucrar al padre o a otro cuidador en la rutina de sueño	body_under_800_words	content/articles/es/139-involucrar-padre-otro-cuidador-rutina-sueno.json
 es	140	2	743	4	5.38	0.0	0	14	Cómo cambiar asociaciones de sueño de forma gradual y respetuosa	body_under_800_words	content/articles/es/140-cambiar-asociaciones-sueno-gradual-respetuosa.json
+es	141	2	768	4	5.21	0.0	0	14	¿Dormirse acompañado es un mal hábito?	body_under_800_words	content/articles/es/141-dormirse-acompanado-mal-habito.json
+es	142	2	712	4	5.62	0.0	0	14	Cómo poner límites a la presencia del adulto durante el sueño sin desaparecer de golpe	body_under_800_words	content/articles/es/142-limites-presencia-adulto-sueno-sin-desaparecer.json
 es	1003	2	1025	7	6.83	0.031	1	32	Culpa por disfrutar tiempo sola después de convertirte en madre	body_under_1050_words,elevated_h2_density	content/articles/es/1003-culpa-disfrutar-tiempo-sola-madre.json
 es	1010	2	1031	7	6.79	0.091	1	33	Culpa por sentir alivio cuando tus hijos vuelven al colegio o daycare	body_under_1050_words,elevated_h2_density	content/articles/es/1010-culpa-alivio-vuelta-colegio-daycare.json
 es	1011	2	939	6	6.39	0.069	1	29	Matrescencia: por qué convertirte en madre puede cambiar profundamente tu identidad	body_under_1050_words,elevated_h2_density	content/articles/es/1011-matrescencia-cambio-identidad-madre.json
@@ -544,6 +543,7 @@ en	128	1	826	4	4.84	0.0	0	15	What to do when your toddler stops wanting to nap	b
 en	129	1	858	4	4.66	0.0	0	15	Transitioning from two naps to one: how to support the change	body_under_1050_words	content/articles/en/129-transition-two-naps-to-one.json
 en	130	1	853	4	4.69	0.0	0	15	Quiet time: how to introduce a calm break when the nap disappears	body_under_1050_words	content/articles/en/130-introduce-quiet-time-after-nap.json
 en	131	1	808	4	4.95	0.0	0	14	How to tell if a nap is interfering with bedtime	body_under_1050_words	content/articles/en/131-nap-interfering-with-bedtime.json
+en	141	1	846	4	4.73	0.0	0	14	Is falling asleep with a parent nearby a bad habit?	body_under_1050_words	content/articles/en/141-falling-asleep-with-parent-bad-habit.json
 en	1002	1	1091	7	6.42	0.029	1	34	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently	elevated_h2_density	content/articles/en/1002-guilt-needing-break-from-kids.json
 en	1009	1	1059	7	6.61	0.029	1	35	Feeling Guilty for Wanting a Weekend Away Without the Kids	elevated_h2_density	content/articles/en/1009-guilt-weekend-without-kids.json
 en	1020	1	1070	7	6.54	0.057	1	35	How to Build an Adult Identity That Includes Motherhood Without Being Only About It	elevated_h2_density	content/articles/en/1020-adult-identity-includes-motherhood.json

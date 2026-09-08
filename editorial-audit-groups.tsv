@@ -1,18 +1,8 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
-1111	1111-fear-not-being-good-mother-before-birth	10	10	8	338	352	4	4	0.0	0.0	Miedo a no ser una buena madre antes de que nazca el bebé	Fear that you will not be a good mother before the baby is born
 1121	1121-what-if-something-goes-wrong-pregnancy	10	8	10	354	347	4	4	0.0	0.0	Pensar constantemente “¿y si algo sale mal?” durante el embarazo	Constantly thinking “what if something goes wrong?” during pregnancy
 1125	1125-afraid-to-buy-baby-things-too-early	10	10	9	308	305	4	4	0.3	0.0	Miedo a comprar cosas para el bebé demasiado pronto	Feeling afraid to buy things for the baby too early
 1128	1128-constant-reassurance-never-lasts-pregnancy	10	10	9	286	293	4	4	0.3	0.1	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	Constantly seeking reassurance during pregnancy and feeling like it never lasts
 1147	1147-tired-of-everyone-asking-about-pregnancy	10	10	10	247	250	4	4	0.0	0.0	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	Getting tired of everyone constantly asking how your pregnancy is going
-1112	1112-fear-not-knowing-how-to-care-for-newborn-first-time-mom	9	9	9	308	321	4	4	0.0	0.0	Miedo a no saber cuidar a un recién nacido cuando eres madre primeriza	Fear you won't know how to care for a newborn as a first-time mom
-1113	1113-what-have-i-gotten-into-wanted-pregnancy	9	9	9	319	331	4	4	0.1	0.0	Pensar “¿en qué me he metido?” durante un embarazo que sí querías	Thinking “what have I gotten myself into?” during a pregnancy you wanted
-1114	1114-doubt-whether-you-were-ready-after-pregnancy	9	9	9	289	296	4	4	0.2	0.1	Dudar de si estabas preparada para ser madre después de quedarte embarazada	Doubting whether you were ready to become a mother after getting pregnant
-1115	1115-fear-losing-freedom-after-baby	9	9	9	315	327	4	4	0.1	0.0	Miedo a perder tu libertad cuando nazca el bebé	Fear of losing your freedom after the baby is born
-1116	1116-fear-losing-identity-after-motherhood	9	9	9	331	334	4	4	0.0	0.0	Miedo a perder tu identidad después de convertirte en madre	Fear of losing your identity after becoming a mother
-1117	1117-fear-relationship-changing-forever-after-baby	9	9	9	316	303	4	4	0.0	0.0	Miedo a que tu relación cambie para siempre después de tener un bebé	Fear that your relationship will change forever after having a baby
-1118	1118-fear-becoming-only-parents-not-couple	9	9	9	290	307	4	4	0.1	0.1	Miedo a dejar de ser pareja y convertiros solamente en padres	Fear that you will stop being a couple and become only parents
-1119	1119-fear-not-loving-baby-enough-after-birth	9	9	9	296	308	4	4	0.1	0.1	Miedo a no sentir suficiente amor por tu bebé cuando nazca	Fear that you won't feel enough love for your baby after birth
-1120	1120-fear-not-knowing-what-newborn-needs	9	9	9	292	312	4	4	0.0	0.0	Miedo a no saber interpretar qué necesita tu recién nacido	Fear that you won't know what your newborn needs
 1122	1122-live-with-emotional-uncertainty-pregnancy	9	9	9	305	308	4	4	0.0	0.1	Cómo convivir con la incertidumbre emocional durante el embarazo	How to live with emotional uncertainty during pregnancy
 1123	1123-reassured-after-appointment-worried-again	9	9	9	329	320	4	4	0.1	0.1	Sentir tranquilidad después de una cita del embarazo y volver a preocuparte pocas horas después	Feeling reassured after a pregnancy appointment and worried again a few hours later
 1124	1124-waiting-between-pregnancy-appointments	9	9	9	303	299	4	4	0.2	0.1	La espera entre citas del embarazo cuando tu cabeza no deja de pensar	The wait between pregnancy appointments when your mind will not stop thinking
@@ -155,6 +145,10 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1101	1101-not-happy-all-the-time-pregnancy	4	3	4	685	647	4	4	0.0	0.0	¿Es normal no sentirse feliz todo el tiempo durante el embarazo?	Is it normal not to feel happy all the time during pregnancy?
 1102	1102-wanted-pregnancy-without-expected-excitement	4	4	4	625	618	4	4	0.0	0.0	Embarazo deseado pero sin la ilusión que esperabas sentir	A wanted pregnancy without the excitement you expected to feel
 1104	1104-guilt-complaining-about-wanted-pregnancy	4	4	1	644	859	4	4	0.0	0.0	Sentir culpa por quejarte del embarazo cuando querías ser madre	Feeling guilty for complaining about pregnancy when you wanted to be a mother
+1113	1113-what-have-i-gotten-into-wanted-pregnancy	4	4	4	616	605	4	4	0.0	0.0	Pensar “¿en qué me he metido?” durante un embarazo que sí querías	Thinking “what have I gotten myself into?” during a pregnancy you wanted
+1117	1117-fear-relationship-changing-forever-after-baby	4	3	4	662	610	4	4	0.0	0.0	Miedo a que tu relación cambie para siempre después de tener un bebé	Fear that your relationship will change forever after having a baby
+1119	1119-fear-not-loving-baby-enough-after-birth	4	3	4	650	640	4	4	0.0	0.0	Miedo a no sentir suficiente amor por tu bebé cuando nazca	Fear that you won't feel enough love for your baby after birth
+1120	1120-fear-not-knowing-what-newborn-needs	4	4	4	626	645	4	4	0.0	0.0	Miedo a no saber interpretar qué necesita tu recién nacido	Fear that you won't know what your newborn needs
 11	011-night-wakings-respectful-response	3	3	3	843	801	6	6	0.1	0.038	Despertares nocturnos: cómo responder de forma respetuosa y sostenible para la familia	Night Wakings: How to Respond Respectfully Without Burning Out the Family
 12	012-toddler-activities-at-home	3	3	3	897	880	6	6	0.069	0.065	Actividades para toddlers en casa que realmente mantienen su interés	Toddler Activities at Home That Actually Hold Their Attention
 14	014-how-to-choose-daycare	3	3	3	867	872	6	6	0.036	0.071	Cómo elegir daycare o guardería: preguntas importantes antes de decidir	How to Choose a Daycare: Questions That Matter Before You Decide
@@ -209,6 +203,12 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1103	1103-love-baby-and-feel-afraid-pregnancy	3	3	3	655	672	4	4	0.0	0.0	Querer al bebé y tener miedo al mismo tiempo durante el embarazo	Loving the baby and feeling afraid at the same time during pregnancy
 1108	1108-no-instant-love-before-birth	3	3	3	677	681	4	4	0.0	0.0	No sentir amor instantáneo por el bebé antes de que nazca	Not feeling instant love for the baby before birth
 1109	1109-not-want-to-talk-to-bump	3	3	3	679	682	4	4	0.0	0.0	No tener ganas de hablarle a la barriga durante el embarazo	Not wanting to talk to your bump during pregnancy
+1111	1111-fear-not-being-good-mother-before-birth	3	3	2	688	713	4	4	0.0	0.0	Miedo a no ser una buena madre antes de que nazca el bebé	Fear that you will not be a good mother before the baby is born
+1112	1112-fear-not-knowing-how-to-care-for-newborn-first-time-mom	3	3	3	655	677	4	4	0.0	0.0	Miedo a no saber cuidar a un recién nacido cuando eres madre primeriza	Fear you won't know how to care for a newborn as a first-time mom
+1114	1114-doubt-whether-you-were-ready-after-pregnancy	3	3	3	664	658	4	4	0.0	0.0	Dudar de si estabas preparada para ser madre después de quedarte embarazada	Doubting whether you were ready to become a mother after getting pregnant
+1115	1115-fear-losing-freedom-after-baby	3	3	3	658	662	4	4	0.0	0.0	Miedo a perder tu libertad cuando nazca el bebé	Fear of losing your freedom after the baby is born
+1116	1116-fear-losing-identity-after-motherhood	3	3	3	658	657	4	4	0.0	0.0	Miedo a perder tu identidad después de convertirte en madre	Fear of losing your identity after becoming a mother
+1118	1118-fear-becoming-only-parents-not-couple	3	3	1	681	805	4	4	0.0	0.0	Miedo a dejar de ser pareja y convertiros solamente en padres	Fear that you will stop being a couple and become only parents
 3	003-tantrums-calm-limits-connection	2	2	0	1375	1209	8	7	0.089	0.081	Rabietas: cómo acompañarlas con calma, límites y conexión	Toddler Tantrums: How to Respond With Calm, Limits and Connection
 18	018-baby-led-feeding-table-autonomy	2	2	2	913	876	6	6	0.038	0.032	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure
 19	019-prepare-home-for-baby-without-overbuying	2	2	2	898	939	6	6	0.067	0.133	Cómo preparar la casa para la llegada del bebé sin comprar de más	How to Prepare Your Home for a Baby Without Buying Too Much

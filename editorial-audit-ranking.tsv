@@ -9,16 +9,6 @@ es	1111	10	338	4	11.83	0.0	0	10	Miedo a no ser una buena madre antes de que nazc
 es	1125	10	308	4	12.99	0.3	1	10	Miedo a comprar cosas para el bebé demasiado pronto	body_under_350_words,high_h2_density,elevated_short_paragraphs	content/articles/es/1125-miedo-comprar-cosas-bebe-demasiado-pronto.json
 es	1128	10	286	4	13.99	0.3	1	10	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	body_under_350_words,high_h2_density,elevated_short_paragraphs	content/articles/es/1128-buscar-tranquilidad-embarazo-nunca-dura.json
 es	1147	10	247	4	16.19	0.0	0	7	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/es/1147-cansarte-preguntas-como-va-embarazo.json
-en	131	9	297	4	13.47	0.0	0	8	How to tell if a nap is interfering with bedtime	body_under_350_words,high_h2_density	content/articles/en/131-nap-interfering-with-bedtime.json
-en	132	9	267	4	14.98	0.0	0	7	Short naps: how to organize the rest of the day without going into rescue mode	body_under_350_words,high_h2_density	content/articles/en/132-short-naps-organize-rest-of-day.json
-en	133	9	223	4	17.94	0.0	0	6	How to handle no-nap days without moving your whole family schedule earlier	body_under_350_words,high_h2_density	content/articles/en/133-no-nap-days-without-moving-whole-schedule.json
-en	134	9	211	4	18.96	0.0	0	6	How to restore some structure after several days of chaotic sleep	body_under_350_words,high_h2_density	content/articles/en/134-restore-structure-after-chaotic-sleep.json
-en	135	9	236	4	16.95	0.0	0	6	Sleep routines for families with two children of different ages	body_under_350_words,high_h2_density	content/articles/en/135-sleep-routines-two-children-different-ages.json
-en	136	9	207	4	19.32	0.0	0	6	How to coordinate sibling bedtimes without doubling the work	body_under_350_words,high_h2_density	content/articles/en/136-coordinate-sibling-bedtimes-without-double-work.json
-en	137	9	201	4	19.9	0.0	0	6	How to split the bedtime routine between two caregivers	body_under_350_words,high_h2_density	content/articles/en/137-split-bedtime-routine-two-caregivers.json
-en	138	9	217	4	18.43	0.0	0	5	What to do when a child only accepts one parent at bedtime	body_under_350_words,high_h2_density	content/articles/en/138-child-only-accepts-one-parent-at-bedtime.json
-en	139	9	193	4	20.73	0.0	0	6	How to involve a father or another caregiver in the sleep routine	body_under_350_words,high_h2_density	content/articles/en/139-involve-father-caregiver-sleep-routine.json
-en	140	9	227	4	17.62	0.0	0	5	How to change sleep associations gradually and respectfully	body_under_350_words,high_h2_density	content/articles/en/140-change-sleep-associations-gradually-respectfully.json
 en	142	9	320	4	12.5	0.0	0	9	How to limit adult presence at bedtime without disappearing all at once	body_under_350_words,high_h2_density	content/articles/en/142-set-limits-adult-presence-bedtime-gradually.json
 en	143	9	287	4	13.94	0.111	1	9	How to gradually reduce sleep help without stopping support	body_under_350_words,high_h2_density	content/articles/en/143-reduce-sleep-help-gradually-while-supporting.json
 en	144	9	280	4	14.29	0.0	0	8	How to make a child's bedtime routine more sustainable for adults	body_under_350_words,high_h2_density	content/articles/en/144-sustainable-bedtime-routine-for-adults.json
@@ -84,16 +74,6 @@ en	1146	9	268	4	14.93	0.0	0	7	When your pregnancy starts to feel like public inf
 en	1148	9	272	4	14.71	0.0	0	8	How to respond when you do not want to talk about pregnancy all the time	body_under_350_words,high_h2_density	content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json
 en	1149	9	278	4	14.39	0.0	0	7	When everything is about the baby and you miss people asking about you	body_under_350_words,high_h2_density	content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json
 en	1150	9	287	4	13.94	0.0	0	7	How to maintain other parts of your identity while you are pregnant	body_under_350_words,high_h2_density	content/articles/en/1150-maintain-identity-during-pregnancy.json
-es	131	9	314	4	12.74	0.0	0	8	Cómo saber si una siesta está interfiriendo con la hora de dormir	body_under_350_words,high_h2_density	content/articles/es/131-siesta-interfiere-hora-dormir.json
-es	132	9	261	4	15.33	0.0	0	7	Siestas cortas: cómo organizar el resto del día sin entrar en modo rescate	body_under_350_words,high_h2_density	content/articles/es/132-siestas-cortas-organizar-resto-dia.json
-es	133	9	221	4	18.1	0.0	0	6	Cómo manejar días sin siesta sin adelantar toda la vida familiar	body_under_350_words,high_h2_density	content/articles/es/133-dias-sin-siesta-sin-adelantar-toda-vida.json
-es	134	9	208	4	19.23	0.0	0	6	Cómo recuperar cierta estructura después de varios días de sueño caótico	body_under_350_words,high_h2_density	content/articles/es/134-recuperar-estructura-despues-sueno-caotico.json
-es	135	9	232	4	17.24	0.0	0	6	Rutinas de sueño para familias con dos hijos de edades distintas	body_under_350_words,high_h2_density	content/articles/es/135-rutinas-sueno-dos-hijos-edades-distintas.json
-es	136	9	203	4	19.7	0.0	0	6	Cómo coordinar la hora de dormir de hermanos sin duplicar el trabajo	body_under_350_words,high_h2_density	content/articles/es/136-coordinar-hora-dormir-hermanos-sin-duplicar-trabajo.json
-es	137	9	202	4	19.8	0.0	0	6	Cómo repartir la rutina nocturna entre dos cuidadores	body_under_350_words,high_h2_density	content/articles/es/137-repartir-rutina-nocturna-dos-cuidadores.json
-es	138	9	207	4	19.32	0.0	0	5	Qué hacer cuando el niño solo acepta a un progenitor para dormir	body_under_350_words,high_h2_density	content/articles/es/138-nino-solo-acepta-un-progenitor-para-dormir.json
-es	139	9	189	4	21.16	0.0	0	6	Cómo involucrar al padre o a otro cuidador en la rutina de sueño	body_under_350_words,high_h2_density	content/articles/es/139-involucrar-padre-otro-cuidador-rutina-sueno.json
-es	140	9	214	4	18.69	0.0	0	5	Cómo cambiar asociaciones de sueño de forma gradual y respetuosa	body_under_350_words,high_h2_density	content/articles/es/140-cambiar-asociaciones-sueno-gradual-respetuosa.json
 es	142	9	337	4	11.87	0.0	0	9	Cómo poner límites a la presencia del adulto durante el sueño sin desaparecer de golpe	body_under_350_words,high_h2_density	content/articles/es/142-limites-presencia-adulto-sueno-sin-desaparecer.json
 es	143	9	301	4	13.29	0.0	0	9	Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar	body_under_350_words,high_h2_density	content/articles/es/143-reducir-ayuda-dormir-sin-dejar-acompanar.json
 es	144	9	291	4	13.75	0.0	0	8	Cómo crear una rutina de sueño más sostenible para los adultos	body_under_350_words,high_h2_density	content/articles/es/144-rutina-sueno-sostenible-para-adultos.json
@@ -391,6 +371,7 @@ en	89	3	801	6	7.49	0.0	0	21	Daycare vs nanny: which style of care may fit your f
 en	90	3	834	6	7.19	0.0	0	22	Preschool: what to look for beyond worksheets, letters, and academics	body_under_1050_words,high_h2_density	content/articles/en/090-preschool-what-to-look-for-beyond-academics.json
 en	96	3	797	5	6.27	0.0	0	18	Sleep while traveling: keep familiar cues without chasing the perfect routine	body_under_800_words,elevated_h2_density	content/articles/en/096-travel-sleep-familiar-cues.json
 en	107	3	786	5	6.36	0.0	0	18	How to create recognizable sleep cues when every day looks different	body_under_800_words,elevated_h2_density	content/articles/en/107-recognizable-sleep-cues-when-days-vary.json
+en	139	3	661	4	6.05	0.0	0	14	How to involve a father or another caregiver in the sleep routine	body_under_800_words,elevated_h2_density	content/articles/en/139-involve-father-caregiver-sleep-routine.json
 en	1006	3	995	7	7.04	0.031	1	32	Feeling Guilty for Looking at Your Phone While Your Kids Play	body_under_1050_words,high_h2_density	content/articles/en/1006-guilt-phone-while-kids-play.json
 en	1012	3	846	6	7.09	0.08	1	25	Not Recognizing Yourself After Becoming a Mom: Why It Can Feel So Strange	body_under_1050_words,high_h2_density	content/articles/en/1012-not-recognizing-yourself-after-motherhood.json
 en	1013	3	827	6	7.26	0.04	1	25	How to Keep Your Personal Identity After Having Kids	body_under_1050_words,high_h2_density	content/articles/en/1013-maintain-personal-identity-after-kids.json
@@ -472,6 +453,14 @@ en	121	2	901	4	4.44	0.0	0	14	How to prepare a child for sleeping away from home 
 en	122	2	817	4	4.9	0.0	0	14	Sleepovers: how to know if your family is ready	body_under_1050_words,many_question_paragraphs	content/articles/en/122-how-to-know-family-ready-for-sleepover.json
 en	125	2	794	4	5.04	0.0	0	14	Time change and kids: how to adjust routines without obsessing over the clock	body_under_800_words	content/articles/en/125-time-change-kids-adjust-routine.json
 en	127	2	797	4	5.02	0.0	0	14	How to handle daycare naps when they are different from naps at home	body_under_800_words	content/articles/en/127-daycare-naps-different-from-home.json
+en	132	2	740	4	5.41	0.0	0	14	Short naps: how to organize the rest of the day without going into rescue mode	body_under_800_words	content/articles/en/132-short-naps-organize-rest-of-day.json
+en	133	2	725	4	5.52	0.0	0	14	How to handle no-nap days without moving your whole family schedule earlier	body_under_800_words	content/articles/en/133-no-nap-days-without-moving-whole-schedule.json
+en	134	2	740	4	5.41	0.0	0	14	How to restore some structure after several days of chaotic sleep	body_under_800_words	content/articles/en/134-restore-structure-after-chaotic-sleep.json
+en	135	2	752	4	5.32	0.0	0	14	Sleep routines for families with two children of different ages	body_under_800_words	content/articles/en/135-sleep-routines-two-children-different-ages.json
+en	136	2	695	4	5.76	0.0	0	14	How to coordinate sibling bedtimes without doubling the work	body_under_800_words	content/articles/en/136-coordinate-sibling-bedtimes-without-double-work.json
+en	137	2	690	4	5.8	0.0	0	14	How to split the bedtime routine between two caregivers	body_under_800_words	content/articles/en/137-split-bedtime-routine-two-caregivers.json
+en	138	2	777	4	5.15	0.0	0	15	What to do when a child only accepts one parent at bedtime	body_under_800_words	content/articles/en/138-child-only-accepts-one-parent-at-bedtime.json
+en	140	2	780	4	5.13	0.0	0	14	How to change sleep associations gradually and respectfully	body_under_800_words	content/articles/en/140-change-sleep-associations-gradually-respectfully.json
 en	1003	2	1027	7	6.82	0.061	1	33	Feeling Guilty for Enjoying Time Alone After Becoming a Mom	body_under_1050_words,elevated_h2_density	content/articles/en/1003-guilt-enjoying-time-alone.json
 en	1004	2	938	6	6.4	0.067	1	30	Feeling Guilty for Not Missing Your Kids When You’re Away	body_under_1050_words,elevated_h2_density	content/articles/en/1004-guilt-not-missing-kids.json
 en	1005	2	936	6	6.41	0.1	1	30	Feeling Guilty for Wanting Bedtime to Come Sooner	body_under_1050_words,elevated_h2_density	content/articles/en/1005-guilt-wanting-bedtime.json
@@ -515,6 +504,16 @@ es	119	2	767	4	5.22	0.0	0	16	Compartir habitación entre hermanos: cómo organiz
 es	120	2	766	4	5.22	0.0	0	17	Cómo pasar de una habitación compartida a habitaciones separadas con suavidad	body_under_800_words	content/articles/es/120-pasar-habitacion-compartida-separadas-suavidad.json
 es	125	2	763	4	5.24	0.0	0	14	Cambio de hora y niños: cómo ajustar rutinas sin obsesionarse con el reloj	body_under_800_words	content/articles/es/125-cambio-hora-ninos-ajustar-rutinas-sin-obsesion.json
 es	127	2	785	4	5.1	0.0	0	14	Cómo manejar las siestas en daycare cuando en casa son diferentes	body_under_800_words	content/articles/es/127-siestas-daycare-diferentes-casa.json
+es	131	2	795	4	5.03	0.0	0	14	Cómo saber si una siesta está interfiriendo con la hora de dormir	body_under_800_words	content/articles/es/131-siesta-interfiere-hora-dormir.json
+es	132	2	734	4	5.45	0.0	0	14	Siestas cortas: cómo organizar el resto del día sin entrar en modo rescate	body_under_800_words	content/articles/es/132-siestas-cortas-organizar-resto-dia.json
+es	133	2	722	4	5.54	0.0	0	14	Cómo manejar días sin siesta sin adelantar toda la vida familiar	body_under_800_words	content/articles/es/133-dias-sin-siesta-sin-adelantar-toda-vida.json
+es	134	2	706	4	5.67	0.0	0	14	Cómo recuperar cierta estructura después de varios días de sueño caótico	body_under_800_words	content/articles/es/134-recuperar-estructura-despues-sueno-caotico.json
+es	135	2	751	4	5.33	0.0	0	14	Rutinas de sueño para familias con dos hijos de edades distintas	body_under_800_words	content/articles/es/135-rutinas-sueno-dos-hijos-edades-distintas.json
+es	136	2	723	4	5.53	0.0	0	14	Cómo coordinar la hora de dormir de hermanos sin duplicar el trabajo	body_under_800_words	content/articles/es/136-coordinar-hora-dormir-hermanos-sin-duplicar-trabajo.json
+es	137	2	710	4	5.63	0.0	0	14	Cómo repartir la rutina nocturna entre dos cuidadores	body_under_800_words	content/articles/es/137-repartir-rutina-nocturna-dos-cuidadores.json
+es	138	2	762	4	5.25	0.0	0	15	Qué hacer cuando el niño solo acepta a un progenitor para dormir	body_under_800_words	content/articles/es/138-nino-solo-acepta-un-progenitor-para-dormir.json
+es	139	2	702	4	5.7	0.0	0	14	Cómo involucrar al padre o a otro cuidador en la rutina de sueño	body_under_800_words	content/articles/es/139-involucrar-padre-otro-cuidador-rutina-sueno.json
+es	140	2	743	4	5.38	0.0	0	14	Cómo cambiar asociaciones de sueño de forma gradual y respetuosa	body_under_800_words	content/articles/es/140-cambiar-asociaciones-sueno-gradual-respetuosa.json
 es	1003	2	1025	7	6.83	0.031	1	32	Culpa por disfrutar tiempo sola después de convertirte en madre	body_under_1050_words,elevated_h2_density	content/articles/es/1003-culpa-disfrutar-tiempo-sola-madre.json
 es	1010	2	1031	7	6.79	0.091	1	33	Culpa por sentir alivio cuando tus hijos vuelven al colegio o daycare	body_under_1050_words,elevated_h2_density	content/articles/es/1010-culpa-alivio-vuelta-colegio-daycare.json
 es	1011	2	939	6	6.39	0.069	1	29	Matrescencia: por qué convertirte en madre puede cambiar profundamente tu identidad	body_under_1050_words,elevated_h2_density	content/articles/es/1011-matrescencia-cambio-identidad-madre.json
@@ -544,6 +543,7 @@ en	126	1	844	4	4.74	0.0	0	15	How to adapt a sleep routine when daycare or school
 en	128	1	826	4	4.84	0.0	0	15	What to do when your toddler stops wanting to nap	body_under_1050_words	content/articles/en/128-toddler-stops-wanting-nap.json
 en	129	1	858	4	4.66	0.0	0	15	Transitioning from two naps to one: how to support the change	body_under_1050_words	content/articles/en/129-transition-two-naps-to-one.json
 en	130	1	853	4	4.69	0.0	0	15	Quiet time: how to introduce a calm break when the nap disappears	body_under_1050_words	content/articles/en/130-introduce-quiet-time-after-nap.json
+en	131	1	808	4	4.95	0.0	0	14	How to tell if a nap is interfering with bedtime	body_under_1050_words	content/articles/en/131-nap-interfering-with-bedtime.json
 en	1002	1	1091	7	6.42	0.029	1	34	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently	elevated_h2_density	content/articles/en/1002-guilt-needing-break-from-kids.json
 en	1009	1	1059	7	6.61	0.029	1	35	Feeling Guilty for Wanting a Weekend Away Without the Kids	elevated_h2_density	content/articles/en/1009-guilt-weekend-without-kids.json
 en	1020	1	1070	7	6.54	0.057	1	35	How to Build an Adult Identity That Includes Motherhood Without Being Only About It	elevated_h2_density	content/articles/en/1020-adult-identity-includes-motherhood.json

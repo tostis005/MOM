@@ -211,7 +211,7 @@ body.mom-overlay-open {
 .language-option {
   min-height: 170px;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   align-items: center;
   gap: 20px;
   padding: 26px;
@@ -242,24 +242,6 @@ body.mom-overlay-open {
 .language-option-copy strong {
   display: block;
   font: 500 26px/1.05 Georgia, "Times New Roman", serif;
-}
-
-.language-option-copy small {
-  display: block;
-  margin-top: 5px;
-  color: var(--mom-muted);
-  font-size: 12px;
-}
-
-.language-option-status {
-  width: 28px;
-  height: 28px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  border: 1px solid #d8c8bf;
-  color: var(--mom-rose-deep);
-  font-size: 12px;
 }
 
 .mobile-menu-panel {

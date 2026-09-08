@@ -91,8 +91,17 @@ def article_record(path: Path) -> dict:
 
     reasons = []
     score = 0
-    if wc < 800:
-        score += 3; reasons.append("body_under_800_words")
+    # Depth is deliberately tiered. Previously every article below 800 words
+    # received the same penalty, which let 200-350 word drafts look no more
+    # concerning than substantially developed 700-word pieces.
+    if wc < 350:
+        score += 7; reasons.append("body_under_350_words")
+    elif wc < 500:
+        score += 5; reasons.append("body_under_500_words")
+    elif wc < 650:
+        score += 3; reasons.append("body_under_650_words")
+    elif wc < 800:
+        score += 2; reasons.append("body_under_800_words")
     elif wc < 1050:
         score += 1; reasons.append("body_under_1050_words")
     if h2_density > 7.0:

@@ -4,77 +4,33 @@
     "by_language": {
       "es": {
         "count": 300,
-        "avg_words": 774.0,
-        "median_words": 729,
+        "avg_words": 779.6,
+        "median_words": 736,
         "avg_h2": 4.82,
         "avg_short_para_ratio": 0.023,
         "risk_7_plus": 0,
-        "risk_5_6": 23,
-        "risk_3_4": 135,
-        "risk_0_2": 142
+        "risk_5_6": 18,
+        "risk_3_4": 132,
+        "risk_0_2": 150
       },
       "en": {
         "count": 300,
-        "avg_words": 758.2,
-        "median_words": 725,
+        "avg_words": 765.6,
+        "median_words": 736,
         "avg_h2": 4.73,
         "avg_short_para_ratio": 0.025,
         "risk_7_plus": 0,
-        "risk_5_6": 43,
-        "risk_3_4": 119,
-        "risk_0_2": 138
+        "risk_5_6": 38,
+        "risk_3_4": 115,
+        "risk_0_2": 147
       }
     },
     "exact_repeated_paragraphs": 0,
     "repeated_h2_patterns": 0,
     "repeated_opening_patterns": 0,
-    "common_6grams_6plus_articles": 29
+    "common_6grams_6plus_articles": 31
   },
   "highest_risk": [
-    {
-      "path": "content/articles/en/077-potty-training-accidents-without-shame-punishment.json",
-      "article_number": 77,
-      "translation_group": "077-potty-training-accidents-without-shame-punishment",
-      "language": "en",
-      "title": "Potty training accidents: how to respond without shame or punishment",
-      "words": 535,
-      "paragraphs": 13,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.48,
-      "h2s": [
-        "Describe what happened without turning it into an identity",
-        "Do not turn every accident into an investigation",
-        "One accident does not erase what your child already knows",
-        "Your reaction becomes part of the learning environment"
-      ],
-      "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 38.5,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.231,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 1,
-        "puede": 9,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "You asked twice whether your child needed the bathroom. They said no. Five minutes later there is a puddle on the floor. It is very easy for “But I just asked you!” to come out before you have even decided what you actually want to teach.",
-      "opening_14_words": "You asked twice whether your child needed the bathroom They said no Five minutes",
-      "intro_3_paragraphs": "You asked twice whether your child needed the bathroom. They said no. Five minutes later there is a puddle on the floor. It is very easy for “But I just asked you!” to come out before you have even decided what you actually want to teach. An accident is more useful as information and practical repair than as a mistake that needs guilt. The goal is for your child to learn body signals and what to do next, not to learn to fear your reaction. “Your pee came out. Let’s get cleaned up” is usually enough. Phrases like “again,” “you’re acting like a baby,” or “you always do this” add an emotional story that does not improve body awareness the next time.",
-      "last_h2": "Your reaction becomes part of the learning environment",
-      "ending_3_paragraphs": "If a child begins hiding wet clothes, denying accidents, or becoming very anxious when one happens, sometimes the fear is less about being wet and more about what follows. A predictable, low-drama response reduces that extra layer. It also protects the adult. You do not have to enjoy cleaning another accident. You can feel tired or frustrated and still keep your response simple and respectful. Progress is not only a perfect streak of dry days. It can also look like noticing earlier, telling you after an accident, helping change clothes, or returning to the routine without the whole family treating one accident as a crisis.",
-      "risk_score": 6,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density",
-        "many_question_paragraphs"
-      ]
-    },
     {
       "path": "content/articles/es/037-validar-emociones-sin-decir-si-todo.json",
       "article_number": 37,
@@ -118,50 +74,6 @@
         "body_under_650_words",
         "high_h2_density",
         "repeated_no_significa_pattern"
-      ]
-    },
-    {
-      "path": "content/articles/es/077-accidentes-potty-training-sin-verguenza-castigos.json",
-      "article_number": 77,
-      "translation_group": "077-potty-training-accidents-without-shame-punishment",
-      "language": "es",
-      "title": "Accidentes durante el potty training: cómo responder sin vergüenza ni castigos",
-      "words": 538,
-      "paragraphs": 13,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.43,
-      "h2s": [
-        "Describe lo que ha pasado sin convertirlo en identidad",
-        "Evita convertir cada accidente en una investigación",
-        "Un accidente no borra lo que ya sabe",
-        "Tu reacción se convierte en parte del aprendizaje"
-      ],
-      "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 38.9,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.231,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 8,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Has preguntado dos veces si necesitaba ir al baño. Ha dicho que no. Cinco minutos después, hay un charco en el suelo. Es fácil que al adulto le salga un “¡pero si te lo acabo de preguntar!” antes incluso de pensar qué quiere enseñar en ese momento.",
-      "opening_14_words": "Has preguntado dos veces si necesitaba ir al baño Ha dicho que no Cinco",
-      "intro_3_paragraphs": "Has preguntado dos veces si necesitaba ir al baño. Ha dicho que no. Cinco minutos después, hay un charco en el suelo. Es fácil que al adulto le salga un “¡pero si te lo acabo de preguntar!” antes incluso de pensar qué quiere enseñar en ese momento. Un accidente enseña mejor cuando se trata como información y reparación práctica, no como una falta que necesita culpa. El objetivo es que el niño aprenda a reconocer señales y qué hacer después, no que aprenda a temer nuestra reacción. “Se ha escapado el pis. Vamos a limpiarnos” suele ser suficiente. Frases como “otra vez”, “eres un bebé” o “siempre haces lo mismo” añaden una historia emocional que no ayuda a controlar mejor el cuerpo la próxima vez.",
-      "last_h2": "Tu reacción se convierte en parte del aprendizaje",
-      "ending_3_paragraphs": "Si un niño empieza a esconder ropa mojada, negar lo ocurrido o ponerse muy nervioso ante un accidente, a veces no teme el pis en sí, sino lo que ocurrirá después. Mantener una respuesta predecible reduce esa carga. También protege al adulto. No necesitas estar encantado de limpiar otro accidente; puedes sentir cansancio y aun así responder de forma sencilla. “Esto es frustrante” puede quedarse en tu cabeza mientras tus acciones siguen siendo claras. El progreso no se mide por una racha perfecta de días secos. También se mide cuando el niño empieza a darse cuenta antes, avisa después, participa en cambiarse o recupera la rutina sin convertir un accidente en una crisis familiar.",
-      "risk_score": 6,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density",
-        "many_question_paragraphs"
       ]
     },
     {
@@ -1135,178 +1047,6 @@
       ]
     },
     {
-      "path": "content/articles/en/076-potty-training-readiness-without-pressure.json",
-      "article_number": 76,
-      "translation_group": "076-potty-training-readiness-without-pressure",
-      "language": "en",
-      "title": "Potty training without pressure: practical signs it may be a good time",
-      "words": 554,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.22,
-      "h2s": [
-        "Look for a cluster of signs, not one magic signal",
-        "Willingness matters alongside ability",
-        "Consider whether the family has enough bandwidth too",
-        "Starting does not mean you have to push through at any cost"
-      ],
-      "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 37.1,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 2,
-        "a_veces": 0,
-        "puede": 9,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "“They’re already two. Shouldn’t you be potty training?” A question like that can turn an ordinary developmental transition into a race against the calendar. Suddenly every diaper feels like proof that you are behind and every child the same age becomes a comparison point.",
-      "opening_14_words": "They re already two Shouldn t you be potty training A question like that",
-      "intro_3_paragraphs": "“They’re already two. Shouldn’t you be potty training?” A question like that can turn an ordinary developmental transition into a race against the calendar. Suddenly every diaper feels like proof that you are behind and every child the same age becomes a comparison point. A workable time to begin potty training is usually better identified by a combination of skills and willingness than by a specific birthday. Looking at the child in front of you tends to be more useful than looking at what is supposedly due by age. It can help if your child is beginning to notice when they pee or poop, tells you before or after, dislikes staying in a soiled diaper, can pull some clothing up and down, or understands simple bathroom-related directions.",
-      "last_h2": "Starting does not mean you have to push through at any cost",
-      "ending_3_paragraphs": "You can try a transition and discover that it produces intense resistance, constant accidents that overwhelm everyone, or bathroom attention that takes over the whole day. Pausing does not turn the attempt into failure. A few weeks can change communication, anticipation, and cooperation significantly. There is no prize for proving that once underwear starts, diapers can never reappear. Potty training tends to work better when it is treated as a skill being built rather than a maturity test a child must pass by a particular date.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/078-potty-training-away-from-home.json",
-      "article_number": 78,
-      "translation_group": "078-potty-training-away-from-home",
-      "language": "en",
-      "title": "Potty training away from home: how to stay calm",
-      "words": 562,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.12,
-      "h2s": [
-        "Start with outings that make practice easy",
-        "Prepare for an accident so it stops feeling catastrophic",
-        "Public bathrooms may need their own adjustment period",
-        "An accident outside does not mean you left home too soon"
-      ],
-      "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 37.6,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 9,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "At home you know where the bathroom is, how long it takes your child to get there, and what clothes they are wearing. Outside the house there are elevators, lines, unfamiliar toilets, car rides, and the temptation to ask “Do you need to go?” every five minutes.",
-      "opening_14_words": "At home you know where the bathroom is how long it takes your child",
-      "intro_3_paragraphs": "At home you know where the bathroom is, how long it takes your child to get there, and what clothes they are wearing. Outside the house there are elevators, lines, unfamiliar toilets, car rides, and the temptation to ask “Do you need to go?” every five minutes. Going out during potty training does not require remotely managing your child’s bladder. It requires enough logistics that mistakes stay manageable. Once you know what you will do if something goes wrong, the whole outing no longer has to feel like a state of alert. Early on, it can help to choose a nearby park, a short visit, or somewhere you already know has a bathroom. Not because children must pass through rigid levels, but because a simple setting lets both parent and child practice a new routine without stacking too many variables.",
-      "last_h2": "An accident outside does not mean you left home too soon",
-      "ending_3_paragraphs": "It can happen even after several successful days at home. There is more distraction, access may take longer, and the environment is different. Changing clothes, cleaning what you can, and moving on is a complete response. If every outing ends in several accidents and everyone comes home exhausted, shorten plans for a while or add more support. That is adjusting the difficulty, not going backward. The goal is for bathroom skills to enter real life gradually — not to wait until your child is “perfect at home,” and not to expect the outside world to work exactly the same on day one.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/079-potty-training-daycare-coordinate-expectations.json",
-      "article_number": 79,
-      "translation_group": "079-potty-training-daycare-coordinate-expectations",
-      "language": "en",
-      "title": "Potty training and daycare: how to coordinate expectations with caregivers",
-      "words": 555,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.21,
-      "h2s": [
-        "Start by learning how the center actually handles it",
-        "Agree on a few basics rather than identical scripts",
-        "Clothes and spare sets are part of the plan too",
-        "Different success at daycare and home can still be normal"
-      ],
-      "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 36.9,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 2,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 5,
-        "importante": 1,
-        "clave": 0
-      },
-      "opening": "You have started offering the potty at home, but daycare says bathroom trips happen at set points in the routine. Or the center thinks your child is ready while you are not planning to begin yet. Once several adults care for the same child, practical differences show up quickly.",
-      "opening_14_words": "You have started offering the potty at home but daycare says bathroom trips happen",
-      "intro_3_paragraphs": "You have started offering the potty at home, but daycare says bathroom trips happen at set points in the routine. Or the center thinks your child is ready while you are not planning to begin yet. Once several adults care for the same child, practical differences show up quickly. Coordinating potty training with daycare does not mean making home and childcare identical. It means agreeing on enough that the child is not learning under completely opposite expectations in the same day. Before settling on a plan, ask what daycare can realistically support. Are bathroom opportunities built into transitions? Do they allow underwear from day one? How many spare outfits do they expect? Do they use small potties, toilet inserts, or regular toilets? How are accidents handled?",
-      "last_h2": "Different success at daycare and home can still be normal",
-      "ending_3_paragraphs": "Your child may use the toilet reliably at daycare and ask for a diaper at home, or the reverse. The environments have different routines, adults, distractions, and expectations. You do not need instant symmetry. If the gap continues for a long time or creates conflict, revisit the plan together. One setting may be prompting too often, or the child may simply need more time. Coordination is an ongoing conversation, not one meeting before training starts. The goal is not for every adult to execute a perfect protocol. It is for a child to practice a new skill in two different places without feeling as if the rules completely change at the door.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/080-potty-refusal-avoid-power-struggle.json",
-      "article_number": 80,
-      "translation_group": "080-potty-refusal-avoid-power-struggle",
-      "language": "en",
-      "title": "Refusing to sit on the potty: how to avoid a power struggle",
-      "words": 529,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.56,
-      "h2s": [
-        "Figure out which part your child is resisting",
-        "Use fewer, more predictable invitations",
-        "Keep the potty from becoming a stage for approval",
-        "Sometimes a pause protects the learning better"
-      ],
-      "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 35.7,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 2,
-        "no_significa": 0,
-        "a_veces": 3,
-        "puede": 9,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "“Let’s sit for a minute.” “No.” You try again before leaving. No. Before bath. No. After dinner. No. Within a few days, the potty itself can become a cue for resistance before your child has even considered whether they need it.",
-      "opening_14_words": "Let s sit for a minute No You try again before leaving No Before",
-      "intro_3_paragraphs": "“Let’s sit for a minute.” “No.” You try again before leaving. No. Before bath. No. After dinner. No. Within a few days, the potty itself can become a cue for resistance before your child has even considered whether they need it. Once sitting becomes a contest, asking more often does not always teach more. Sometimes it only strengthens the connection between the bathroom and losing control. “I don’t want the potty” can mean many things: they do not want to stop playing, dislike being watched, find the seat uncomfortable, prefer the toilet, do not understand why they should sit when they do not feel an urge, or have simply discovered this is an area where they can say no.",
-      "last_h2": "Sometimes a pause protects the learning better",
-      "ending_3_paragraphs": "If your child cries at the sight of the potty, runs away whenever it is mentioned, or the whole family spends the day negotiating bathroom trips, reducing pressure for a while can be reasonable. The potty can remain available without being a constant assignment. A pause does not erase existing skills. It may give communication, body awareness, or willingness time to grow without every step happening under adult observation. The goal of potty training is not to make a child sit because the adult won the argument. It is for the child to gradually recognize a need and use the bathroom as a tool that belongs to them.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
       "path": "content/articles/en/1022-love-kids-miss-freedom-before.json",
       "article_number": 1022,
       "translation_group": "1022-love-kids-miss-freedom-before",
@@ -2187,178 +1927,6 @@
       ]
     },
     {
-      "path": "content/articles/es/076-dejar-panal-sin-presion-senales-buen-momento.json",
-      "article_number": 76,
-      "translation_group": "076-potty-training-readiness-without-pressure",
-      "language": "es",
-      "title": "Dejar el pañal sin presión: señales prácticas de que puede ser buen momento",
-      "words": 526,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.6,
-      "h2s": [
-        "Busca un conjunto de señales, no una sola",
-        "La disposición importa tanto como la habilidad",
-        "Mira también el momento de la familia",
-        "Empezar no te obliga a seguir a cualquier precio"
-      ],
-      "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 35.4,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 2,
-        "a_veces": 1,
-        "puede": 8,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "“Ya tiene dos años, ¿no deberíais quitarle el pañal?” Es una frase que puede convertir una transición cotidiana en una carrera contra el calendario. De pronto cada pañal parece una prueba de que vais tarde y cada niño de la misma edad se convierte en comparación.",
-      "opening_14_words": "Ya tiene dos años no deberíais quitarle el pañal Es una frase que puede",
-      "intro_3_paragraphs": "“Ya tiene dos años, ¿no deberíais quitarle el pañal?” Es una frase que puede convertir una transición cotidiana en una carrera contra el calendario. De pronto cada pañal parece una prueba de que vais tarde y cada niño de la misma edad se convierte en comparación. Un buen momento para dejar el pañal suele reconocerse por una combinación de capacidades y disposición, no por una fecha exacta. Mirar al niño real que tienes delante suele ser más útil que mirar qué “toca” por edad. Puede ayudar que el niño empiece a notar cuándo está haciendo pis o caca, avise antes o después, muestre incomodidad con el pañal sucio, pueda subir y bajar parte de la ropa o entienda instrucciones sencillas relacionadas con el baño.",
-      "last_h2": "Empezar no te obliga a seguir a cualquier precio",
-      "ending_3_paragraphs": "Puedes probar una transición y descubrir que genera una oposición enorme, accidentes continuos que desbordan a todos o una atención al baño que ocupa completamente el día. Hacer una pausa no convierte el intento en fracaso. A veces unas semanas cambian mucho la capacidad de comunicar, anticipar y colaborar. El objetivo no es demostrar que una vez empezado “no se vuelve atrás”. Dejar el pañal funciona mejor cuando se entiende como una habilidad que se construye, no como una prueba de madurez que el niño tiene que aprobar en una fecha concreta.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/es/078-potty-training-fuera-casa-mantener-calma.json",
-      "article_number": 78,
-      "translation_group": "078-potty-training-away-from-home",
-      "language": "es",
-      "title": "Potty training fuera de casa: cómo mantener la calma",
-      "words": 550,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.27,
-      "h2s": [
-        "Empieza con salidas que permitan practicar sin mucho coste",
-        "Prepara el accidente para que deje de parecer una catástrofe",
-        "Los baños públicos pueden necesitar una transición propia",
-        "Un accidente fuera no significa que saliste demasiado pronto"
-      ],
-      "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 36.7,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 7,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "En casa sabes dónde está el baño, cuánto tarda tu hijo en llegar y qué ropa tiene puesta. Fuera aparecen ascensores, colas, baños desconocidos, trayectos en coche y la duda constante de si deberías preguntar “¿quieres hacer pis?” cada cinco minutos.",
-      "opening_14_words": "En casa sabes dónde está el baño cuánto tarda tu hijo en llegar y",
-      "intro_3_paragraphs": "En casa sabes dónde está el baño, cuánto tarda tu hijo en llegar y qué ropa tiene puesta. Fuera aparecen ascensores, colas, baños desconocidos, trayectos en coche y la duda constante de si deberías preguntar “¿quieres hacer pis?” cada cinco minutos. Salir durante el potty training no requiere controlar el cuerpo del niño a distancia. Requiere una logística que haga que los errores sean manejables. Cuando sabes qué harás si algo se complica, deja de ser necesario vivir toda la salida en alerta. Las primeras veces puede ayudar elegir un parque cercano, una visita corta o un lugar donde sepas que hay baño. No porque el niño tenga que superar etapas rígidas, sino porque un contexto sencillo permite que tanto él como el adulto practiquen una rutina nueva sin sumar demasiadas variables.",
-      "last_h2": "Un accidente fuera no significa que saliste demasiado pronto",
-      "ending_3_paragraphs": "Puede ocurrir aunque en casa lleve varios días bien. Fuera hay más distracción, menos acceso inmediato y señales nuevas. Cambiarse, limpiar lo posible y seguir es una respuesta completa. Si cada salida termina en varios accidentes y todos regresáis agotados, quizá conviene acortar temporalmente los planes o añadir más apoyo. Eso es ajustar la dificultad, no retroceder. La meta es que el baño vaya entrando en la vida real poco a poco. No esperar a que el niño sea “perfecto en casa” para salir, ni exigir que fuera funcione exactamente igual desde el primer día.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/es/079-dejar-panal-daycare-coordinar-expectativas.json",
-      "article_number": 79,
-      "translation_group": "079-potty-training-daycare-coordinate-expectations",
-      "language": "es",
-      "title": "Dejar el pañal y daycare: cómo coordinar expectativas con los cuidadores",
-      "words": 546,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.33,
-      "h2s": [
-        "Pregunta primero cómo funciona realmente el centro",
-        "Compartid unas pocas reglas claras",
-        "La ropa y las mudas también forman parte de la coordinación",
-        "Un ritmo diferente en daycare no invalida lo que ocurre en casa"
-      ],
-      "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 36.5,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 5,
-        "importante": 1,
-        "clave": 0
-      },
-      "opening": "En casa habéis empezado a ofrecer el orinal, pero en daycare te dicen que allí solo pueden acompañar al baño en determinados momentos. O al revés: el centro cree que vuestro hijo está preparado y en casa todavía no queréis iniciar el proceso. Cuando varias personas cuidan al mismo niño, las diferencias prácticas aparecen rápido.",
-      "opening_14_words": "En casa habéis empezado a ofrecer el orinal pero en daycare te dicen que",
-      "intro_3_paragraphs": "En casa habéis empezado a ofrecer el orinal, pero en daycare te dicen que allí solo pueden acompañar al baño en determinados momentos. O al revés: el centro cree que vuestro hijo está preparado y en casa todavía no queréis iniciar el proceso. Cuando varias personas cuidan al mismo niño, las diferencias prácticas aparecen rápido. Coordinar potty training con daycare no significa conseguir que casa y centro sean idénticos. Significa acordar lo suficiente para que el niño no reciba mensajes completamente opuestos durante el mismo aprendizaje. Antes de decidir un plan, conviene saber qué puede hacer el daycare. ¿Ofrecen baño en momentos concretos? ¿Aceptan ropa interior desde el primer día? ¿Piden varias mudas? ¿Usan orinal, inodoro con adaptador o ambos? ¿Cómo responden a accidentes?",
-      "last_h2": "Un ritmo diferente en daycare no invalida lo que ocurre en casa",
-      "ending_3_paragraphs": "Puede pasar que el niño use el baño bien en el centro y pida pañal en casa, o al revés. Los contextos tienen rutinas, adultos y niveles de distracción distintos. No hace falta forzar una simetría inmediata. Si las diferencias duran mucho o generan conflicto, volved a hablar. Quizá uno de los entornos está ofreciendo demasiados recordatorios o quizá el niño necesita más tiempo. La coordinación es una conversación continua, no una reunión única antes de empezar. El objetivo no es que todos los adultos ejecuten un protocolo perfecto. Es que el niño pueda practicar una habilidad nueva en dos lugares distintos sin sentir que cada lugar tiene reglas incompatibles.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/es/080-resistencia-sentarse-orinal-sin-lucha-poder.json",
-      "article_number": 80,
-      "translation_group": "080-potty-refusal-avoid-power-struggle",
-      "language": "es",
-      "title": "Resistencia a sentarse en el orinal: cómo evitar convertirlo en una lucha de poder",
-      "words": 541,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.39,
-      "h2s": [
-        "Primero averigua qué parte está rechazando",
-        "Reduce invitaciones y hazlas más previsibles",
-        "Evita que sentarse sea la condición para recibir atención o aprobación",
-        "A veces una pausa protege mejor el aprendizaje"
-      ],
-      "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 36.4,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 2,
-        "puede": 14,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "“Vamos a sentarnos un momento.” “No.” Lo vuelves a intentar antes de salir. No. Antes del baño. No. Después de cenar. No. En pocos días, el orinal puede convertirse en una palabra que activa oposición antes de que el niño siquiera piense si necesita usarlo.",
-      "opening_14_words": "Vamos a sentarnos un momento No Lo vuelves a intentar antes de salir No",
-      "intro_3_paragraphs": "“Vamos a sentarnos un momento.” “No.” Lo vuelves a intentar antes de salir. No. Antes del baño. No. Después de cenar. No. En pocos días, el orinal puede convertirse en una palabra que activa oposición antes de que el niño siquiera piense si necesita usarlo. Cuando sentarse se convierte en un pulso, insistir más veces no siempre enseña más. A veces solo fortalece la asociación entre baño y pérdida de control. “No quiero el orinal” puede significar muchas cosas: no quiere parar de jugar, no le gusta sentirse observado, el asiento le resulta incómodo, prefiere el inodoro, no entiende por qué tiene que sentarse sin necesidad o simplemente ha descubierto que este es un lugar donde puede decir que no.",
-      "last_h2": "A veces una pausa protege mejor el aprendizaje",
-      "ending_3_paragraphs": "Si el niño llora al ver el orinal, huye cada vez que lo mencionas o la familia pasa el día entero negociando baños, puede ser razonable reducir completamente la presión durante un tiempo. El orinal puede quedarse visible sin ser una tarea constante. Una pausa no borra las habilidades que ya tiene. Puede permitir que maduren comunicación, conciencia corporal o disposición sin que cada avance tenga que ocurrir bajo observación adulta. El objetivo del potty training no es conseguir que un niño se siente porque el adulto ganó la discusión. Es que, con el tiempo, pueda reconocer una necesidad y usar el baño como una herramienta propia.",
-      "risk_score": 5,
-      "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
-      ]
-    },
-    {
       "path": "content/articles/es/1023-nostalgia-vida-sin-hijos-etapa-agotadora.json",
       "article_number": 1023,
       "translation_group": "1023-nostalgia-childfree-life-exhausting-season",
@@ -2663,6 +2231,448 @@
       "risk_score": 5,
       "risk_reasons": [
         "body_under_650_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1041-presion-ser-madre-paciente-todo-el-tiempo.json",
+      "article_number": 1041,
+      "translation_group": "1041-pressure-to-be-patient-mom-all-the-time",
+      "language": "es",
+      "title": "La presión de ser una madre paciente todo el tiempo",
+      "words": 581,
+      "paragraphs": 19,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 8.61,
+      "h2s": [
+        "La paciencia no es un rasgo fijo que llevas siempre encima",
+        "La maternidad en internet puede hacer que la calma parezca un requisito",
+        "No prometas que mañana nunca te enfadarás",
+        "Mira qué situaciones consumen tu margen una y otra vez",
+        "Tus hijos tampoco necesitan una madre imperturbable"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.1,
+      "short_paragraph_ratio": 0.053,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 2,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Hay una versión de la maternidad moderna que parece exigir algo bastante extraordinario: que seas paciente todo el tiempo.",
+      "opening_14_words": "Hay una versión de la maternidad moderna que parece exigir algo bastante extraordinario que",
+      "intro_3_paragraphs": "Hay una versión de la maternidad moderna que parece exigir algo bastante extraordinario: que seas paciente todo el tiempo. Paciente cuando tienes prisa. Paciente cuando te han preguntado lo mismo doce veces. Paciente cuando el niño se tira al suelo justo al salir. Paciente cuando has dormido poco y alguien derrama el vaso que acababas de limpiar. La paciencia es valiosa. Pero cuando se convierte en una identidad obligatoria, cualquier momento de irritación empieza a sentirse como una derrota moral.",
+      "last_h2": "Tus hijos tampoco necesitan una madre imperturbable",
+      "ending_3_paragraphs": "Si las tardes te encuentran sin recursos, puede que algunas expectativas tengan que bajar. La paciencia no se trabaja únicamente dentro de tu cabeza. A veces se protege rediseñando el entorno. Necesitan un adulto suficientemente seguro, capaz de poner límites y de responsabilizarse cuando se equivoca. También pueden aprender que las personas tienen emociones, necesitan espacio y no responden siempre con una sonrisa. La meta no es demostrar que nada te altera. Es que tus hijos puedan convivir con una madre humana sin tener que hacerse responsables de gestionar sus emociones.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_650_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1051-no-disfrutar-jugando-hijos-durante-horas.json",
+      "article_number": 1051,
+      "translation_group": "1051-not-enjoy-playing-for-hours",
+      "language": "es",
+      "title": "¿Es normal no disfrutar jugando con tus hijos durante horas?",
+      "words": 599,
+      "paragraphs": 14,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 8.35,
+      "h2s": [
+        "La crianza ha convertido el juego en una medida de amor",
+        "El aburrimiento no cancela la conexión",
+        "No todo vínculo tiene que ocurrir en el suelo",
+        "Pon principio y final al juego compartido",
+        "Tu hijo no necesita una animadora a jornada completa"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 39.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 11,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Hay juegos infantiles que duran cuatro minutos y otros que parecen desafiar las leyes del tiempo. Construyes la torre, la derribáis, la vuelves a construir, el muñeco se cae del sofá por decimoséptima vez y miras el reloj convencida de que ha pasado una hora. Han pasado nueve minutos.",
+      "opening_14_words": "Hay juegos infantiles que duran cuatro minutos y otros que parecen desafiar las leyes",
+      "intro_3_paragraphs": "Hay juegos infantiles que duran cuatro minutos y otros que parecen desafiar las leyes del tiempo. Construyes la torre, la derribáis, la vuelves a construir, el muñeco se cae del sofá por decimoséptima vez y miras el reloj convencida de que ha pasado una hora. Han pasado nueve minutos. Si quieres muchísimo a tus hijos y aun así no disfrutas jugando con ellos durante horas, no hay una contradicción que debas resolver. Querer estar con una persona no significa disfrutar todas las actividades que esa persona disfruta, incluso cuando esa persona es tu hijo. En muchos mensajes sobre maternidad aparece la idea de que una madre disponible debería tirarse al suelo, entrar en el mundo imaginario del niño y permanecer allí encantada. Como el juego es importante para los niños, terminamos dando un salto extraño: si jugar es bueno, una buena madre debería disfrutar muchísimo jugando.",
+      "last_h2": "Tu hijo no necesita una animadora a jornada completa",
+      "ending_3_paragraphs": "Y si un día estás especialmente cansada, no tienes que compensarlo con entusiasmo. Puedes ofrecer una versión más pequeña de ti misma: leer un cuento corto, sentarte a su lado, mirar lo que construye. La relación no se decide por una tarde en la que tu capacidad estaba al mínimo. Los niños también pueden jugar solos, con hermanos, amigos y otros adultos. No cada minuto libre tiene que ser producido por una madre disponible. Dejar espacio para que un niño invente qué hacer no es retirarle amor. La pregunta útil no es cuánto disfrutas jugando. Es si existe conexión real entre vosotros en suficientes momentos y formas como para que ambos podáis reconocerla. Esa conexión puede incluir juego, pero no tiene que depender exclusivamente de él.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_650_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1052-amar-hijos-aburrirte-jugando.json",
+      "article_number": 1052,
+      "translation_group": "1052-love-kids-and-get-bored-playing",
+      "language": "es",
+      "title": "Amar a tus hijos y aburrirte jugando con ellos: por qué ambas cosas pueden coexistir",
+      "words": 631,
+      "paragraphs": 17,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 7.92,
+      "h2s": [
+        "El juego infantil está diseñado para el niño, no para mantener interesada a una adulta",
+        "El problema empieza cuando conviertes el aburrimiento en culpa",
+        "Busca la parte del juego que sí puedes habitar",
+        "También puedes acompañar sin dirigir",
+        "El amor no necesita parecer entusiasmo permanente"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 34.5,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.059,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 10,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Puedes estar jugando con tu hijo, mirarlo y sentir una ternura enorme al mismo tiempo que piensas: no puedo creer que vayamos a hacer esto otra vez.",
+      "opening_14_words": "Puedes estar jugando con tu hijo mirarlo y sentir una ternura enorme al mismo",
+      "intro_3_paragraphs": "Puedes estar jugando con tu hijo, mirarlo y sentir una ternura enorme al mismo tiempo que piensas: no puedo creer que vayamos a hacer esto otra vez. Esa combinación desconcierta porque solemos imaginar que las emociones hacia nuestros hijos deberían contaminar positivamente todo lo que hacemos con ellos. Si los amo, debería gustarme jugar. Si me aburro, quizá estoy menos presente de lo que debería. Pero amor y entretenimiento pertenecen a categorías distintas. Tu hijo puede importarte muchísimo sin que su actividad favorita te resulte interesante durante cuarenta minutos.",
+      "last_h2": "El amor no necesita parecer entusiasmo permanente",
+      "ending_3_paragraphs": "Eso también permite detectar una necesidad real sin dramatizarla. Si descubres que casi todo vuestro contacto es logístico y nunca hay un espacio agradable, quizá sí quieras crear alguno. Pero la solución no tiene que ser convertirte en fan de un juego que detestas. En las relaciones adultas entendemos perfectamente esto. Puedes amar a tu pareja y no querer ver su serie favorita. Querer a una amiga y aburrirte en una actividad que a ella le encanta. Con los hijos, en cambio, tendemos a convertir preferencias en pruebas morales. Aburrirte jugando no rebaja el amor. Solo recuerda que eres una persona adulta dentro de una relación real, no un personaje diseñado para encontrar todo lo infantil fascinante.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_650_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1053-conectar-hijos-si-no-eres-madre-juguetona.json",
+      "article_number": 1053,
+      "translation_group": "1053-connect-if-not-playful-mom",
+      "language": "es",
+      "title": "Formas de conectar con tus hijos si no eres una madre especialmente juguetona",
+      "words": 600,
+      "paragraphs": 16,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 8.33,
+      "h2s": [
+        "Empieza por cómo conectas tú de forma natural",
+        "Convierte tus intereses en espacios compartidos",
+        "Usa microdosis de juego que sí puedas disfrutar",
+        "Los rituales también crean conexión",
+        "No tienes que competir con el progenitor más juguetón"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 35.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 2,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 7,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Hay madres que entran en un juego imaginario en dos segundos. Se tiran al suelo, hacen voces, inventan personajes y parecen tener una fuente inagotable de ideas. Si tú no eres así, es fácil pensar que te falta una habilidad importante.",
+      "opening_14_words": "Hay madres que entran en un juego imaginario en dos segundos Se tiran al",
+      "intro_3_paragraphs": "Hay madres que entran en un juego imaginario en dos segundos. Se tiran al suelo, hacen voces, inventan personajes y parecen tener una fuente inagotable de ideas. Si tú no eres así, es fácil pensar que te falta una habilidad importante. Pero ser juguetona es un estilo, no un requisito de vínculo. La conexión no depende de que adoptes la forma de relación que más se ve en vídeos familiares o anuncios de juguetes. Quizá eres buena escuchando historias del colegio. Tal vez disfrutas caminando, cocinando, leyendo en voz alta, enseñando cómo hacer algo o teniendo pequeñas conversaciones mientras vais en coche.",
+      "last_h2": "No tienes que competir con el progenitor más juguetón",
+      "ending_3_paragraphs": "En niños mayores, quizá la puerta de entrada sea su mundo: preguntarle por una canción, pedir que te enseñe algo que sabe hacer o acompañarlo a un interés sin fingir que también es tu pasión. Curiosidad no es lo mismo que entusiasmo idéntico. Si tu pareja juega de una forma que a ti no te sale, no necesitas replicarla. Los niños pueden conocer distintas maneras de relacionarse con cada adulto. Esa variedad les enseña que el cariño no tiene una sola expresión. No necesitas ser la madre que juega mejor. Necesitas encontrar formas de estar con tu hijo en las que tú también aparezcas como persona real.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_650_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1054-preferir-leer-pasear-hijos-en-vez-jugar-suelo.json",
+      "article_number": 1054,
+      "translation_group": "1054-prefer-reading-walking-over-floor-play",
+      "language": "es",
+      "title": "Preferir leer o pasear con tus hijos en vez de jugar en el suelo",
+      "words": 546,
+      "paragraphs": 17,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 9.16,
+      "h2s": [
+        "Leer y pasear no son sustitutos de segunda categoría",
+        "Tu hijo puede necesitar juego sin necesitar que siempre seas tú",
+        "Incluye algo del mundo del niño dentro de lo que te gusta",
+        "No conviertas tus preferencias en una defensa",
+        "Una relación necesita variedad, no una imagen concreta"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 29.4,
+      "short_paragraph_ratio": 0.118,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.059,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 3,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 14,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Quizá cuando imaginas un buen rato con tus hijos no piensas en muñecos ni en construir una torre en el suelo. Piensas en caminar juntos, leer un cuento largo, ir a una cafetería, cocinar o escuchar lo que te cuentan mientras vais de un sitio a otro.",
+      "opening_14_words": "Quizá cuando imaginas un buen rato con tus hijos no piensas en muñecos ni",
+      "intro_3_paragraphs": "Quizá cuando imaginas un buen rato con tus hijos no piensas en muñecos ni en construir una torre en el suelo. Piensas en caminar juntos, leer un cuento largo, ir a una cafetería, cocinar o escuchar lo que te cuentan mientras vais de un sitio a otro. Y entonces aparece una duda absurda pero persistente: ¿estoy evitando jugar porque soy poco implicada? Preferir formas de conexión más tranquilas o más adultas no convierte la relación en menos válida. Lo importante es no exigir al niño que renuncie al juego, no que tú tengas que ser su compañera principal para todos sus juegos.",
+      "last_h2": "Una relación necesita variedad, no una imagen concreta",
+      "ending_3_paragraphs": "Las relaciones largas cambian de idioma muchas veces. La maternidad también puede hacerlo. Habrá días de juego caótico y otros de cuento. Días en que el niño quiera correr y tú prefieras observar. Con los años, además, las formas de conexión irán cambiando. No estás obligada a amar la versión más estereotipada del juego para ser una madre cercana. Puedes construir una infancia compartida desde actividades que os permitan reconoceros a ambos.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_650_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1055-culpa-pareja-disfruta-mas-jugando-ninos.json",
+      "article_number": 1055,
+      "translation_group": "1055-guilt-partner-enjoys-playing-more",
+      "language": "es",
+      "title": "Sentir culpa porque tu pareja disfruta más jugando con los niños que tú",
+      "words": 628,
+      "paragraphs": 16,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 7.96,
+      "h2s": [
+        "Las preferencias no reparten el amor de forma desigual",
+        "Mira también lo que haces tú que pasa desapercibido",
+        "No te obligues a imitar el estilo de tu pareja",
+        "La diferencia solo se vuelve problema si esconde una carga desigual",
+        "Puedes alegrarte de su vínculo sin usarlo contra ti"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 36.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.062,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 11,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Tu pareja llega al salón, se tira al suelo y en treinta segundos hay una persecución, una historia inventada y dos niños riéndose. Tú lo miras desde la cocina y sientes dos cosas: alivio porque alguien está disfrutando de verdad con ellos y una punzada incómoda porque a ti no te sale así.",
+      "opening_14_words": "Tu pareja llega al salón se tira al suelo y en treinta segundos hay",
+      "intro_3_paragraphs": "Tu pareja llega al salón, se tira al suelo y en treinta segundos hay una persecución, una historia inventada y dos niños riéndose. Tú lo miras desde la cocina y sientes dos cosas: alivio porque alguien está disfrutando de verdad con ellos y una punzada incómoda porque a ti no te sale así. Compararse dentro de la propia pareja puede doler más que compararse con una madre de internet porque la diferencia está delante de ti, en tu casa. Pero que tu pareja disfrute más una parte de la crianza no convierte esa parte en un examen que tú estás suspendiendo. Una persona puede amar cocinar para la familia y otra detestarlo. Una puede disfrutar los baños y otra las mañanas. Con el juego ocurre lo mismo.",
+      "last_h2": "Puedes alegrarte de su vínculo sin usarlo contra ti",
+      "ending_3_paragraphs": "Las preferencias cambian. Un niño que hoy pide siempre a papá para jugar puede buscarte a ti en una preocupación dentro de unos años. No conviene convertir una fotografía de esta etapa en una conclusión definitiva sobre el vínculo. Que tus hijos tengan un adulto que disfruta muchísimo jugando con ellos es una buena noticia. No necesitas convertir esa buena noticia en evidencia de una carencia propia. Tu objetivo no es ganarle a tu pareja en entusiasmo infantil. Es construir tu relación con tus hijos desde una presencia que sea real, suficiente y sostenible para ti.",
+      "risk_score": 5,
+      "risk_reasons": [
+        "body_under_650_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/017-cooperation-without-repeating.json",
+      "article_number": 17,
+      "translation_group": "017-cooperation-without-repeating",
+      "language": "en",
+      "title": "How to Get More Cooperation Without Repeating Yourself Twenty Times",
+      "words": 789,
+      "paragraphs": 28,
+      "h2_count": 6,
+      "h2_density_per_1000_words": 7.6,
+      "h2s": [
+        "Get your child’s attention before giving the direction",
+        "Make the instruction visible",
+        "Use fewer words, not more",
+        "Let routines replace some of your voice",
+        "Transitions are often harder than the task itself",
+        "Cooperation is bigger than obedience"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 26.8,
+      "short_paragraph_ratio": 0.107,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.071,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "“Put your shoes on.” “Shoes.” “I said put your shoes on.” “How many times do I have to ask?”",
+      "opening_14_words": "Put your shoes on Shoes I said put your shoes on How many times",
+      "intro_3_paragraphs": "“Put your shoes on.” “Shoes.” “I said put your shoes on.” “How many times do I have to ask?” If this is a familiar morning loop, the problem may not be that your child only listens when you get angry. Often the instruction has become part of the room’s background noise. You are calling from the kitchen. Your child is absorbed in a game. Everyone waits for the fourth repetition to somehow accomplish what the first three did not.",
+      "last_h2": "Cooperation is bigger than obedience",
+      "ending_3_paragraphs": "Children are learning to stop preferred activities, remember sequences, tolerate frustration, complete boring tasks and contribute to shared family life. Those are skills, not personality traits. Your long-term goal is not a child who instantly follows every instruction. It is a child who gradually needs less adult management to participate in the routines everyone shares. When you stop measuring cooperation by whether your child says yes the first time, you can focus on something more useful: making the path from request to action clearer, calmer and increasingly independent.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/032-toddler-routines-structure-without-rigidity.json",
+      "article_number": 32,
+      "translation_group": "032-toddler-routines-structure-without-rigidity",
+      "language": "en",
+      "title": "Toddler routines: how to add structure without making the day rigid",
+      "words": 661,
+      "paragraphs": 22,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 7.56,
+      "h2s": [
+        "A routine is not the same thing as a strict schedule",
+        "Make “what comes next” easier to understand",
+        "Repetition reduces decisions for parents too",
+        "Do not assume resistance means the routine is failing",
+        "Useful structure creates room, not confinement"
+      ],
+      "list_items": 0,
+      "bold_spans": 3,
+      "avg_paragraph_words": 28.3,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.045,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 11,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Life with a toddler can feel like a chain of tiny negotiations: get dressed, leave the house, get in the car, leave the playground, wash hands, sit for dinner, take a bath, clean up, go to bed.",
+      "opening_14_words": "Life with a toddler can feel like a chain of tiny negotiations get dressed",
+      "intro_3_paragraphs": "Life with a toddler can feel like a chain of tiny negotiations: get dressed, leave the house, get in the car, leave the playground, wash hands, sit for dinner, take a bath, clean up, go to bed. That is why routines can be so helpful. Not because they turn a toddler into someone who happily agrees with every transition, but because they remove some uncertainty from the day. A routine says “this is usually what happens next” without requiring tomorrow to look exactly like today.",
+      "last_h2": "Useful structure creates room, not confinement",
+      "ending_3_paragraphs": "That is not failure. A routine is a tool. If it creates more stress than it removes, keep the useful pieces and change the rest. A family routine should not make you afraid to accept an invitation, stay out later, or have an unusual day. Your child can experience variety and still know the familiar shape of home. The goal is not to make a toddler live by a clock. It is to make a few parts of the day predictable enough that everyone has to negotiate them a little less.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/033-power-struggles-young-children.json",
+      "article_number": 33,
+      "translation_group": "033-power-struggles-young-children",
+      "language": "en",
+      "title": "How to handle power struggles with young children",
+      "words": 775,
+      "paragraphs": 26,
+      "h2_count": 6,
+      "h2_density_per_1000_words": 7.74,
+      "h2s": [
+        "Why young children get into so many of these battles",
+        "Before you insist, ask whether this one really matters",
+        "Share control where you genuinely can",
+        "Your child does not have to agree with the boundary",
+        "Notice when you have joined the contest",
+        "Fewer battles do not mean fewer boundaries"
+      ],
+      "list_items": 0,
+      "bold_spans": 3,
+      "avg_paragraph_words": 27.9,
+      "short_paragraph_ratio": 0.038,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.154,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 12,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "A power struggle can start with a coat. It is cold. You say the coat needs to go on. Your child says no. You repeat yourself. They dig in. You explain more. They get louder.",
+      "opening_14_words": "A power struggle can start with a coat It is cold You say the",
+      "intro_3_paragraphs": "A power struggle can start with a coat. It is cold. You say the coat needs to go on. Your child says no. You repeat yourself. They dig in. You explain more. They get louder. Suddenly the argument is no longer really about outerwear. A power struggle begins when the issue shifts from “what needs to happen?” to “which one of us is going to make the other person give in?”",
+      "last_h2": "Fewer battles do not mean fewer boundaries",
+      "ending_3_paragraphs": "Avoiding power struggles is not the same as giving in whenever a child gets upset. It is about becoming more selective. Let go of what does not matter. Be clear about what does. Offer autonomy where it fits. And remember that a relationship does not become stronger because the adult wins every small disagreement. Useful authority does not need constant proof. It can hold a boundary without turning the moment into a duel.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_800_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/034-child-seems-not-listen.json",
+      "article_number": 34,
+      "translation_group": "034-child-seems-not-listen",
+      "language": "en",
+      "title": "What to do when your child seems not to listen",
+      "words": 674,
+      "paragraphs": 23,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 7.42,
+      "h2s": [
+        "Do not send important directions across the house",
+        "Five steps can sound like one blur",
+        "Sometimes your child heard you and simply does not want to stop",
+        "Notice how many directions fill the day",
+        "Listening is not the same as instant obedience"
+      ],
+      "list_items": 0,
+      "bold_spans": 3,
+      "avg_paragraph_words": 27.5,
+      "short_paragraph_ratio": 0.087,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.043,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 11,
+        "importante": 2,
+        "clave": 0
+      },
+      "opening": "“I've told you five times.” It is a familiar sentence in homes with young kids. You ask for shoes, handwashing, cleanup, or a move toward the door, and your words seem to disappear into the room.",
+      "opening_14_words": "I've told you five times It is a familiar sentence in homes with young",
+      "intro_3_paragraphs": "“I've told you five times.” It is a familiar sentence in homes with young kids. You ask for shoes, handwashing, cleanup, or a move toward the door, and your words seem to disappear into the room. The natural next step is to say the same thing louder. Before deciding your child simply “doesn't listen,” it helps to separate a few situations that look similar from the outside: they did not attend to the message, the direction was too complicated, they were deeply focused on something else, or they heard you and did not want to do it.",
+      "last_h2": "Listening is not the same as instant obedience",
+      "ending_3_paragraphs": "Say what needs to happen. Move closer. Help the child begin if needed. Hold the boundary. Firmness can live in what happens after your words, not in how loud the words become. A child can hear you, dislike the direction, complain, and still eventually cooperate. Not every delay or objection is disrespect. The goal is not an automatic response to every command. It is a family pattern in which important directions are clear, have follow-through, and do not require twenty repetitions before they count.",
+      "risk_score": 4,
+      "risk_reasons": [
+        "body_under_800_words",
         "high_h2_density"
       ]
     }
@@ -5743,41 +5753,40 @@
       "translation_group": "071-kids-snack-routine-without-replacing-meals",
       "language": "en",
       "title": "Kids’ snacks: how to build a routine that doesn’t constantly replace meals",
-      "words": 575,
-      "paragraphs": 13,
+      "words": 863,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.96,
+      "h2_density_per_1000_words": 4.63,
       "h2s": [
-        "Give snacks a place instead of letting them fill every gap",
-        "There is a practical difference between a snack and grazing",
-        "The hardest request often comes right before dinner",
-        "The goal is less food management, not perfect appetite"
+        "Build the snack rhythm around the gaps your day actually has",
+        "Make a snack substantial enough to do its job, then let it end",
+        "Handle the pre-dinner request without opening a second menu",
+        "The real goal is to make food less administratively exhausting"
       ],
       "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 41.3,
+      "bold_spans": 4,
+      "avg_paragraph_words": 48.2,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 2,
-        "no_significa": 1,
+        "no_necesitas": 1,
+        "no_significa": 0,
         "a_veces": 0,
-        "puede": 4,
+        "puede": 9,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Some afternoons feel as if the kitchen never closes. A snack after daycare, crackers while dinner cooks, a little cheese because your child says they are hungry again — and by the time everyone sits down, they are barely interested in the meal.",
-      "opening_14_words": "Some afternoons feel as if the kitchen never closes A snack after daycare crackers",
-      "intro_3_paragraphs": "Some afternoons feel as if the kitchen never closes. A snack after daycare, crackers while dinner cooks, a little cheese because your child says they are hungry again — and by the time everyone sits down, they are barely interested in the meal. The answer is not necessarily to get rid of snacks. What often helps is moving them out of the category of “something we improvise every time hunger is mentioned” and into a recognizable part of the day. Young children may have long stretches between meals, and a snack can make the day work better. Trouble starts when a snack window quietly becomes continuous eating.",
-      "last_h2": "The goal is less food management, not perfect appetite",
-      "ending_3_paragraphs": "Some days will be different. Travel, birthday parties, long outings, and unusual schedules do not need to operate like an ordinary Tuesday. A useful routine can bend without disappearing. As the family develops a predictable rhythm, each request does not need to become a fresh negotiation. Some days a child will eat a large snack and little dinner. Other days the opposite will happen. You do not need to rebalance every variation in real time. A good snack routine is not designed to make children arrive at meals “hungry enough” to eat what adults want. It creates clear eating moments so food does not have to occupy the entire afternoon.",
-      "risk_score": 4,
+      "opening": "Some afternoons feel as if the kitchen never closes. A snack after daycare becomes crackers while dinner cooks, then a piece of cheese because your child says they are hungry again. By the time everyone sits down, the child may barely look at dinner and the adults feel as if they have spent the entire afternoon deciding whether food should appear.",
+      "opening_14_words": "Some afternoons feel as if the kitchen never closes A snack after daycare becomes",
+      "intro_3_paragraphs": "Some afternoons feel as if the kitchen never closes. A snack after daycare becomes crackers while dinner cooks, then a piece of cheese because your child says they are hungry again. By the time everyone sits down, the child may barely look at dinner and the adults feel as if they have spent the entire afternoon deciding whether food should appear. The useful question is not whether snacks are good or bad. It is whether snacks have a recognizable place in the day or whether every expression of hunger starts a new negotiation. A little structure can make food feel more available and less constantly discussed at the same time. A child who eats lunch early and dinner late may genuinely need a substantial afternoon snack. Another child may have a later lunch and need much less before dinner. The point is not to copy a universal timetable; it is to notice where the long stretches are in your own day.",
+      "last_h2": "The real goal is to make food less administratively exhausting",
+      "ending_3_paragraphs": "A good snack routine gives adults fewer decisions and children fewer negotiations. It also leaves room for appetite to vary. One day a child may eat almost everything at snack and only a little at dinner; another day the opposite happens. You do not have to rebalance each variation in real time. Notice whether the system is helping the family rather than whether it is being followed perfectly. Are there fewer random food requests? Is dinner less likely to begin immediately after an hour of grazing? Can you respond to hunger without feeling that the kitchen is permanently open? Those are more useful measures than trying to engineer the exact amount a child should want at dinner. The purpose of snack structure is not to make a child hungry on command. It is to create clear, flexible eating moments so food no longer has to occupy the whole afternoon.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -5786,41 +5795,40 @@
       "translation_group": "072-child-throws-food-without-mealtime-battle",
       "language": "en",
       "title": "When kids throw food: how to respond without turning the table into a battle",
-      "words": 625,
-      "paragraphs": 14,
+      "words": 782,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.4,
+      "h2_density_per_1000_words": 5.12,
       "h2s": [
-        "Respond to the behavior without guessing the motive",
-        "Make being done an available option",
-        "Change the setup when the pattern happens often",
-        "Calm does not mean permissive"
+        "Respond to what happened before trying to explain why it happened",
+        "Give your child a clear way to be finished",
+        "Change the setup when the same problem appears at most meals",
+        "Firm and boring is often more useful than firm and angry"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 42.7,
+      "avg_paragraph_words": 43.5,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 1,
+        "no_necesitas": 0,
+        "no_significa": 0,
         "a_veces": 0,
-        "puede": 9,
+        "puede": 10,
         "importante": 0,
         "clave": 0
       },
-      "opening": "A piece of pasta lands on the floor. Then another. Your child looks at you while you look back at them. In seconds, an ordinary meal can become less about eating and more about discovering what the adult will do next.",
-      "opening_14_words": "A piece of pasta lands on the floor Then another Your child looks at",
-      "intro_3_paragraphs": "A piece of pasta lands on the floor. Then another. Your child looks at you while you look back at them. In seconds, an ordinary meal can become less about eating and more about discovering what the adult will do next. Throwing food needs a limit, but it does not need to become an event. The simpler and more predictable your response is, the less material there is for the behavior to become a game, a test, or a power struggle. A toddler may throw food because they are finished, curious, tired, looking for a reaction, or unsure how to communicate that they do not want more. You do not have to correctly identify the motive before setting a boundary.",
-      "last_h2": "Calm does not mean permissive",
-      "ending_3_paragraphs": "You can block a hand, move food away, remove a plate, and clean the floor later without turning the moment into a confrontation. The boundary can be firm and boring at the same time. If your child protests when the meal ends, you can acknowledge that without immediately returning the plate to stop the crying: “You wanted to keep going. Food was going on the floor, so we’re done.” Agreement is not required for a boundary to count. The goal is not to make sure your child never throws food again. It is to make the family response so clear and low-drama that throwing food does not gain control of the entire table.",
-      "risk_score": 4,
+      "opening": "A piece of pasta lands on the floor. Then another. Your toddler watches your face before reaching for the next piece, and suddenly dinner is no longer mostly about eating. It is about what happens when food leaves the table.",
+      "opening_14_words": "A piece of pasta lands on the floor Then another Your toddler watches your",
+      "intro_3_paragraphs": "A piece of pasta lands on the floor. Then another. Your toddler watches your face before reaching for the next piece, and suddenly dinner is no longer mostly about eating. It is about what happens when food leaves the table. Throwing food needs a boundary, but it does not need a dramatic storyline. The more predictable the response becomes, the less the behavior can take over the entire meal. Toddlers may throw food because they are finished, curious about cause and effect, tired of sitting, looking for a reaction, or unable to express “I don’t want this” in a more useful way. You do not have to correctly diagnose the motive before setting a limit.",
+      "last_h2": "Firm and boring is often more useful than firm and angry",
+      "ending_3_paragraphs": "You can block a hand, move food away, remove the plate, and later involve your child in basic cleanup without shaming them. Helping carry a cloth or put food in the trash can be ordinary participation, not a punishment designed to make the child regret what happened. Your own frustration is real too. Cleaning food from the floor repeatedly is annoying. Keeping the response calm does not require enjoying it; it means separating your understandable irritation from the lesson you want the child to receive. Success is not a toddler who never throws food again. It is a table where the adults know what they will do, the response stays proportionate, and one piece of food on the floor does not automatically become the emotional center of dinner.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -5829,19 +5837,19 @@
       "translation_group": "073-eating-out-with-toddlers-easier",
       "language": "en",
       "title": "Eating out with toddlers: how to make restaurants easier",
-      "words": 598,
-      "paragraphs": 14,
+      "words": 791,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.69,
+      "h2_density_per_1000_words": 5.06,
       "h2s": [
-        "Timing can matter more than the entertainment bag",
-        "Do not turn hunger into a patience test",
-        "Entertainment helps, but it cannot carry an unrealistic wait",
-        "Leaving earlier can still count as a good meal"
+        "Choose the timing and restaurant before relying on entertainment",
+        "Make hunger easier without turning the restaurant into a feeding test",
+        "Use activities and movement as support, not as a promise of endless sitting",
+        "Know when the best ending is simply to leave"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 40.3,
+      "avg_paragraph_words": 44.1,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -5851,19 +5859,18 @@
         "no_necesitas": 0,
         "no_significa": 1,
         "a_veces": 1,
-        "puede": 12,
+        "puede": 10,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Some restaurant meals start going wrong before you even sit down. Everyone arrives hungry, the table is not ready, your toddler has already walked the lobby three times, and then — once the food finally comes — the adults hope for another hour of calm sitting.",
-      "opening_14_words": "Some restaurant meals start going wrong before you even sit down Everyone arrives hungry",
-      "intro_3_paragraphs": "Some restaurant meals start going wrong before you even sit down. Everyone arrives hungry, the table is not ready, your toddler has already walked the lobby three times, and then — once the food finally comes — the adults hope for another hour of calm sitting. Eating out with a toddler tends to work better when the restaurant plan fits a young child’s real capacity for waiting, movement, and participation instead of asking the child to perform an adult version of dining out. An 8:30 dinner may sound normal to adults and be a terrible fit for a child who usually eats much earlier. When you have flexibility, going early or choosing a quieter window often changes the whole experience more than bringing ten activities.",
-      "last_h2": "Leaving earlier can still count as a good meal",
-      "ending_3_paragraphs": "Sometimes the first forty minutes go well and then the toddler is simply done. Trying to preserve the perfect final course can be the decision that turns an okay outing into a battle. Asking for the check, taking leftovers home, or skipping coffee does not mean the restaurant trip failed. It means you noticed the limit before everyone crossed it. Dining out with young children gets easier when success is no longer measured by how closely it resembles dining without them. The meal can be shorter, more active, and less polished and still be a genuinely enjoyable family outing.",
-      "risk_score": 4,
+      "opening": "Some restaurant meals begin going wrong before anyone orders. The table is not ready, the toddler has already walked the lobby three times, everyone is hungry, and by the time food arrives the adults still hope for another hour of calm sitting.",
+      "opening_14_words": "Some restaurant meals begin going wrong before anyone orders The table is not ready",
+      "intro_3_paragraphs": "Some restaurant meals begin going wrong before anyone orders. The table is not ready, the toddler has already walked the lobby three times, everyone is hungry, and by the time food arrives the adults still hope for another hour of calm sitting. Eating out with a toddler usually gets easier when the plan accounts for a young child’s real capacity for waiting, movement, and participation. The goal is not to make restaurant behavior look exactly like an adult dinner with a smaller person in the chair. An 8:30 dinner may be ordinary for adults and badly timed for a child who usually eats much earlier. When you have flexibility, going earlier can reduce hunger, waiting, and fatigue all at once. A quieter restaurant window often changes more than adding another toy to the bag.",
+      "last_h2": "Know when the best ending is simply to leave",
+      "ending_3_paragraphs": "Adults often stretch the final part because they do not want the toddler to “control” the meal. But responding to an obvious limit is not handing over authority. It is using information about the child and the setting. Over time, restaurant skills grow through ordinary exposure: sitting for a while, eating in unfamiliar places, waiting briefly, and learning what happens when the family is finished. They do not need to appear all at once. Dining out with toddlers becomes more enjoyable when success stops meaning “this looked like dinner before kids.” It can be shorter, more active, less polished, and still be a genuinely good family meal.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -5872,40 +5879,40 @@
       "translation_group": "074-morning-exit-routine-with-kids-without-yelling",
       "language": "en",
       "title": "Morning exit routine: how to get out the door with kids without starting the day yelling",
-      "words": 587,
-      "paragraphs": 14,
+      "words": 688,
+      "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.81,
+      "h2_density_per_1000_words": 5.81,
       "h2s": [
-        "Move decisions out of the most rushed part of the day",
-        "Build the sequence around your family, not an ideal schedule",
-        "Use fewer stacked instructions",
-        "A little margin protects the tone of the whole morning"
+        "Move recurring decisions out of the rush",
+        "Give the slowest step real time instead of more pressure",
+        "Reduce how much the routine depends on repeated verbal instructions",
+        "Protect a small margin for the thing you cannot predict"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 39.4,
+      "avg_paragraph_words": 40.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.214,
+      "question_paragraph_ratio": 0.062,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
         "no_significa": 0,
-        "a_veces": 1,
-        "puede": 6,
+        "a_veces": 0,
+        "puede": 2,
         "importante": 0,
         "clave": 0
       },
-      "opening": "“Get dressed. Are you dressed? Shoes. Water bottle. No, not those shoes. We have to go. Now.” Some mornings a parent has been talking for twenty minutes and somehow nothing seems to move until the volume goes up.",
-      "opening_14_words": "Get dressed Are you dressed Shoes Water bottle No not those shoes We have",
-      "intro_3_paragraphs": "“Get dressed. Are you dressed? Shoes. Water bottle. No, not those shoes. We have to go. Now.” Some mornings a parent has been talking for twenty minutes and somehow nothing seems to move until the volume goes up. A useful exit routine reduces how much the morning depends on one adult remembering, announcing, and supervising every step in real time. The goal is not to create unusually fast children. It is to build fewer friction points into the morning. The more choices that remain for morning, the more places the routine can stall. Clothes, backpacks, coats, water bottles, school or daycare items, and anything unusual can often be handled the night before when doing so actually saves effort.",
-      "last_h2": "A little margin protects the tone of the whole morning",
-      "ending_3_paragraphs": "Leaving at the exact last possible minute means any spill, bathroom need, missing toy, or protest turns the morning into an emergency. Even five or ten minutes of margin can change how an adult responds to the unexpected. That margin does not always come from waking everyone earlier. Sometimes it appears by moving nonessential chores out of the morning, simplifying breakfast, or deciding the house does not need to be reset before you leave. A good morning routine is not one where everyone leaves smiling and perfectly on time every day. It is one where, when something goes wrong, an adult does not have to make their voice the engine that moves the whole family.",
-      "risk_score": 4,
+      "opening": "“Get dressed. Shoes. Backpack. We have to go.” Some mornings a parent has been giving instructions for twenty minutes and nothing seems to move until the volume rises. By the time the door closes, everyone is already carrying the stress of being late.",
+      "opening_14_words": "Get dressed Shoes Backpack We have to go Some mornings a parent has been",
+      "intro_3_paragraphs": "“Get dressed. Shoes. Backpack. We have to go.” Some mornings a parent has been giving instructions for twenty minutes and nothing seems to move until the volume rises. By the time the door closes, everyone is already carrying the stress of being late. A calmer exit routine depends less on children suddenly becoming faster and more on removing friction before the final minutes. The question is not “How do I make them hurry?” so much as “What keeps requiring adult rescue at the exact moment we need to leave?” Clothes, backpacks, special school items, water bottles, and anything unusual are easier to solve before the deadline is active. You do not need a perfect command center. Pick the two or three decisions that repeatedly create delays and move those earlier.",
+      "last_h2": "Protect a small margin for the thing you cannot predict",
+      "ending_3_paragraphs": "That margin does not always require earlier wake-ups. It may come from a simpler breakfast, leaving dishes for later, packing lunches differently, or deciding that the living room does not need to be reset before you leave. On mornings that still go badly, review the system later rather than giving a lecture in the car. Ask what actually slowed everyone down and change one thing. A routine becomes useful through small adjustments, not through one perfect schedule. A good morning routine is not one where nobody ever protests or you are never late. It is one where the adult voice no longer has to become the emergency engine that moves the whole family out the door.",
+      "risk_score": 3,
       "risk_reasons": [
-        "body_under_650_words",
+        "body_under_800_words",
         "elevated_h2_density"
       ]
     },
@@ -5915,41 +5922,40 @@
       "translation_group": "075-after-school-daycare-home-routine",
       "language": "en",
       "title": "After daycare or school: how to build a calmer coming-home routine",
-      "words": 580,
-      "paragraphs": 14,
+      "words": 773,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.9,
+      "h2_density_per_1000_words": 5.17,
       "h2s": [
-        "Lower demands for the first few minutes",
-        "Handle hunger and belongings with a simple sequence",
-        "Do not automatically fill the gap with another activity",
-        "A slower start can still leave room for what matters"
+        "Expect the first part of home time to carry some decompression",
+        "Give hunger and belongings a repeatable landing sequence",
+        "Do not automatically fill decompression with another adult-led activity",
+        "Build the afternoon around capacity, then add what matters"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 39.0,
+      "avg_paragraph_words": 40.8,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 2,
-        "a_veces": 1,
+        "a_veces": 0,
         "puede": 9,
         "importante": 0,
         "clave": 0
       },
-      "opening": "You pick your child up and ask, “How was your day?” They barely answer. At home they want food immediately, melt down because you used the wrong cup, and seem much less cooperative than they did that morning. Sometimes the afternoon feels as if everything unravels exactly when the family comes back together.",
-      "opening_14_words": "You pick your child up and ask How was your day They barely answer",
-      "intro_3_paragraphs": "You pick your child up and ask, “How was your day?” They barely answer. At home they want food immediately, melt down because you used the wrong cup, and seem much less cooperative than they did that morning. Sometimes the afternoon feels as if everything unravels exactly when the family comes back together. Coming home tends to go better when it is treated as a transition rather than the moment the second schedule of the day begins. Before homework, baths, errands, questions, or chores, many children need a chance to land. Daycare and school require children to listen, wait, share space, follow someone else’s rhythm, and handle many small transitions. Even when the day went well, getting home can release some of the tension they held together elsewhere.",
-      "last_h2": "A slower start can still leave room for what matters",
-      "ending_3_paragraphs": "A coming-home routine does not need to last an hour or involve a visual chart. Its purpose is to create a small buffer between the outside world and home. Once that buffer exists, later requests often land on a child with a little more capacity. It can also protect the parent. Instead of improvising snack, questions, backpacks, and plans all at once, there is a familiar order to return to on messy days. The goal is not a perfectly calm afternoon. It is to stop expecting maximum cooperation at the exact point when many children have the least reserve left.",
-      "risk_score": 4,
+      "opening": "You pick your child up and ask how the day went. They barely answer. At home they ask for food immediately, get upset about the wrong cup, and seem much less cooperative than they did that morning. It can feel confusing when reunion is exactly the moment the day starts to unravel.",
+      "opening_14_words": "You pick your child up and ask how the day went They barely answer",
+      "intro_3_paragraphs": "You pick your child up and ask how the day went. They barely answer. At home they ask for food immediately, get upset about the wrong cup, and seem much less cooperative than they did that morning. It can feel confusing when reunion is exactly the moment the day starts to unravel. Coming home often goes better when it is treated as a transition rather than the start of a second schedule. Before homework, baths, errands, questions, or chores, many children need a chance to stop adapting to everyone else’s expectations and arrive emotionally as well as physically. Daycare and school ask children to wait, share space, follow group timing, listen to adults, manage transitions, and contain many impulses. A day can have gone perfectly well and still leave very little reserve by pickup.",
+      "last_h2": "Build the afternoon around capacity, then add what matters",
+      "ending_3_paragraphs": "It can protect adults too. Instead of improvising food, questions, bags, papers, and plans at the same time, you have a familiar order to return to. On hard days, simplify further rather than adding more reminders. If evenings regularly collapse despite a calm arrival, look at the whole schedule. There may simply be too much packed between pickup and bedtime. A routine cannot compensate indefinitely for a timetable that leaves nobody room to recover. The goal is not a perfectly calm afternoon. It is to stop asking for maximum cooperation at the exact moment many children have the least reserve, and to let home begin with a small period of landing before the next demands arrive.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -5958,41 +5964,40 @@
       "translation_group": "076-potty-training-readiness-without-pressure",
       "language": "en",
       "title": "Potty training without pressure: practical signs it may be a good time",
-      "words": 554,
-      "paragraphs": 14,
+      "words": 828,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 7.22,
+      "h2_density_per_1000_words": 4.83,
       "h2s": [
-        "Look for a cluster of signs, not one magic signal",
-        "Willingness matters alongside ability",
-        "Consider whether the family has enough bandwidth too",
-        "Starting does not mean you have to push through at any cost"
+        "Look for a cluster of useful abilities rather than a checklist to pass",
+        "Willingness matters because the child has to participate in the process",
+        "Include the family and caregiver context in the decision",
+        "Treat starting as an experiment you can adjust, not a one-way door"
       ],
       "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 37.1,
+      "bold_spans": 4,
+      "avg_paragraph_words": 43.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
+        "no_necesitas": 2,
         "no_significa": 2,
-        "a_veces": 0,
-        "puede": 9,
+        "a_veces": 1,
+        "puede": 14,
         "importante": 0,
         "clave": 0
       },
-      "opening": "“They’re already two. Shouldn’t you be potty training?” A question like that can turn an ordinary developmental transition into a race against the calendar. Suddenly every diaper feels like proof that you are behind and every child the same age becomes a comparison point.",
-      "opening_14_words": "They re already two Shouldn t you be potty training A question like that",
-      "intro_3_paragraphs": "“They’re already two. Shouldn’t you be potty training?” A question like that can turn an ordinary developmental transition into a race against the calendar. Suddenly every diaper feels like proof that you are behind and every child the same age becomes a comparison point. A workable time to begin potty training is usually better identified by a combination of skills and willingness than by a specific birthday. Looking at the child in front of you tends to be more useful than looking at what is supposedly due by age. It can help if your child is beginning to notice when they pee or poop, tells you before or after, dislikes staying in a soiled diaper, can pull some clothing up and down, or understands simple bathroom-related directions.",
-      "last_h2": "Starting does not mean you have to push through at any cost",
-      "ending_3_paragraphs": "You can try a transition and discover that it produces intense resistance, constant accidents that overwhelm everyone, or bathroom attention that takes over the whole day. Pausing does not turn the attempt into failure. A few weeks can change communication, anticipation, and cooperation significantly. There is no prize for proving that once underwear starts, diapers can never reappear. Potty training tends to work better when it is treated as a skill being built rather than a maturity test a child must pass by a particular date.",
-      "risk_score": 5,
+      "opening": "“They’re already two. Aren’t you potty training yet?” A question like that can turn an ordinary developmental transition into a deadline. Suddenly every diaper feels like evidence that your child is behind and every child the same age becomes a comparison point.",
+      "opening_14_words": "They re already two Aren t you potty training yet A question like that",
+      "intro_3_paragraphs": "“They’re already two. Aren’t you potty training yet?” A question like that can turn an ordinary developmental transition into a deadline. Suddenly every diaper feels like evidence that your child is behind and every child the same age becomes a comparison point. A workable time to begin is usually better identified by several abilities starting to line up than by a particular birthday. Potty training asks a child to notice a body signal, interrupt what they are doing, communicate, manage clothing, use an unfamiliar routine, and repeat the sequence many times. Readiness is rarely one magic sign. Helpful signs can include noticing pee or poop before, during, or shortly after it happens; showing discomfort with a wet or soiled diaper; becoming interested in what people do in the bathroom; following simple directions; and participating in pulling clothing up or down.",
+      "last_h2": "Treat starting as an experiment you can adjust, not a one-way door",
+      "ending_3_paragraphs": "A few weeks can change communication, clothing skills, willingness to stop playing, and the child’s ability to notice a signal earlier. There is no prize for proving that once underwear appears, diapers can never be used again. Likewise, a promising start does not guarantee a straight line. Accidents, refusal, and different behavior away from home can all be part of learning. Readiness is not a promise of instant independence; it simply gives the transition a more workable starting point. Potty training tends to go better when it is treated as a skill being built rather than a maturity test a child must pass on schedule. The best time is not the date that looks impressive from outside; it is a time when the child and the adults can realistically practice together.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -6001,41 +6006,40 @@
       "translation_group": "077-potty-training-accidents-without-shame-punishment",
       "language": "en",
       "title": "Potty training accidents: how to respond without shame or punishment",
-      "words": 535,
-      "paragraphs": 13,
+      "words": 803,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 7.48,
+      "h2_density_per_1000_words": 4.98,
       "h2s": [
-        "Describe what happened without turning it into an identity",
-        "Do not turn every accident into an investigation",
-        "One accident does not erase what your child already knows",
-        "Your reaction becomes part of the learning environment"
+        "Keep the first response factual so the accident does not become an identity",
+        "Look for the pattern instead of interrogating each accident",
+        "Separate one accident from the story you tell about the whole process",
+        "Protect honesty by making accidents safe to report"
       ],
       "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 38.5,
+      "bold_spans": 4,
+      "avg_paragraph_words": 42.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.231,
+      "question_paragraph_ratio": 0.222,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 1,
-        "puede": 9,
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 18,
         "importante": 0,
         "clave": 0
       },
-      "opening": "You asked twice whether your child needed the bathroom. They said no. Five minutes later there is a puddle on the floor. It is very easy for “But I just asked you!” to come out before you have even decided what you actually want to teach.",
-      "opening_14_words": "You asked twice whether your child needed the bathroom They said no Five minutes",
-      "intro_3_paragraphs": "You asked twice whether your child needed the bathroom. They said no. Five minutes later there is a puddle on the floor. It is very easy for “But I just asked you!” to come out before you have even decided what you actually want to teach. An accident is more useful as information and practical repair than as a mistake that needs guilt. The goal is for your child to learn body signals and what to do next, not to learn to fear your reaction. “Your pee came out. Let’s get cleaned up” is usually enough. Phrases like “again,” “you’re acting like a baby,” or “you always do this” add an emotional story that does not improve body awareness the next time.",
-      "last_h2": "Your reaction becomes part of the learning environment",
-      "ending_3_paragraphs": "If a child begins hiding wet clothes, denying accidents, or becoming very anxious when one happens, sometimes the fear is less about being wet and more about what follows. A predictable, low-drama response reduces that extra layer. It also protects the adult. You do not have to enjoy cleaning another accident. You can feel tired or frustrated and still keep your response simple and respectful. Progress is not only a perfect streak of dry days. It can also look like noticing earlier, telling you after an accident, helping change clothes, or returning to the routine without the whole family treating one accident as a crisis.",
-      "risk_score": 6,
+      "opening": "You asked whether your child needed the bathroom. They said no. Five minutes later there is a puddle on the floor. “But I just asked you!” can come out before you have decided what you actually want the moment to teach.",
+      "opening_14_words": "You asked whether your child needed the bathroom They said no Five minutes later",
+      "intro_3_paragraphs": "You asked whether your child needed the bathroom. They said no. Five minutes later there is a puddle on the floor. “But I just asked you!” can come out before you have decided what you actually want the moment to teach. An accident is usually more useful as information and practical repair than as evidence that a child failed. Potty training includes learning to notice signals early enough, interrupt an activity, get to the bathroom, manage clothing, and recover when the timing does not work. Accidents are often where some of that learning becomes visible. “Your pee came out. Let’s get cleaned up” is enough to start. Language such as “again,” “you know better,” “you’re acting like a baby,” or “you always do this” adds a judgment that does not help the child recognize the next body signal sooner.",
+      "last_h2": "Protect honesty by making accidents safe to report",
+      "ending_3_paragraphs": "You do not have to be cheerful. Cleaning the third accident of a difficult day can be genuinely frustrating. You can take a second, speak briefly, and keep the practical response respectful even while feeling tired. After cleanup, move on. The rest of the afternoon does not need to be colored by the accident. This gives the child repeated evidence that mistakes can be repaired without losing connection or becoming the center of family attention. Progress in potty training is not only a calendar of dry days. It can also be earlier noticing, clearer communication, easier cleanup, more willingness to try, and a child who can have an accident without feeling that something is wrong with them.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density",
+        "body_under_1050_words",
         "many_question_paragraphs"
       ]
     },
@@ -6045,41 +6049,40 @@
       "translation_group": "078-potty-training-away-from-home",
       "language": "en",
       "title": "Potty training away from home: how to stay calm",
-      "words": 562,
-      "paragraphs": 14,
+      "words": 778,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 7.12,
+      "h2_density_per_1000_words": 5.14,
       "h2s": [
-        "Start with outings that make practice easy",
-        "Prepare for an accident so it stops feeling catastrophic",
-        "Public bathrooms may need their own adjustment period",
-        "An accident outside does not mean you left home too soon"
+        "Start with outings where the logistics are easy to understand",
+        "Pack enough to recover, not enough to control every scenario",
+        "Give unfamiliar bathrooms time to become ordinary",
+        "Use difficult outings to adjust the plan, not judge the process"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 37.6,
+      "avg_paragraph_words": 41.1,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
-        "no_significa": 1,
+        "no_significa": 0,
         "a_veces": 0,
-        "puede": 9,
+        "puede": 14,
         "importante": 0,
         "clave": 0
       },
-      "opening": "At home you know where the bathroom is, how long it takes your child to get there, and what clothes they are wearing. Outside the house there are elevators, lines, unfamiliar toilets, car rides, and the temptation to ask “Do you need to go?” every five minutes.",
-      "opening_14_words": "At home you know where the bathroom is how long it takes your child",
-      "intro_3_paragraphs": "At home you know where the bathroom is, how long it takes your child to get there, and what clothes they are wearing. Outside the house there are elevators, lines, unfamiliar toilets, car rides, and the temptation to ask “Do you need to go?” every five minutes. Going out during potty training does not require remotely managing your child’s bladder. It requires enough logistics that mistakes stay manageable. Once you know what you will do if something goes wrong, the whole outing no longer has to feel like a state of alert. Early on, it can help to choose a nearby park, a short visit, or somewhere you already know has a bathroom. Not because children must pass through rigid levels, but because a simple setting lets both parent and child practice a new routine without stacking too many variables.",
-      "last_h2": "An accident outside does not mean you left home too soon",
-      "ending_3_paragraphs": "It can happen even after several successful days at home. There is more distraction, access may take longer, and the environment is different. Changing clothes, cleaning what you can, and moving on is a complete response. If every outing ends in several accidents and everyone comes home exhausted, shorten plans for a while or add more support. That is adjusting the difficulty, not going backward. The goal is for bathroom skills to enter real life gradually — not to wait until your child is “perfect at home,” and not to expect the outside world to work exactly the same on day one.",
-      "risk_score": 5,
+      "opening": "At home you know exactly where the bathroom is, what clothes your child is wearing, and how long it takes to get there. Outside the house there are car rides, lines, automatic flushes, unfamiliar toilets, and the temptation to ask “Do you need to go?” every five minutes.",
+      "opening_14_words": "At home you know exactly where the bathroom is what clothes your child is",
+      "intro_3_paragraphs": "At home you know exactly where the bathroom is, what clothes your child is wearing, and how long it takes to get there. Outside the house there are car rides, lines, automatic flushes, unfamiliar toilets, and the temptation to ask “Do you need to go?” every five minutes. Going out during potty training becomes easier when you prepare for an accident rather than trying to prevent every possible one. Once a mistake is manageable, the outing no longer needs to feel like a constant emergency. Early trips can be short and familiar: a nearby park, the library, a relative’s house, or a store where you already know the bathroom location. This is not a rigid training ladder. It simply reduces the number of unknowns while your child practices using bathroom skills in a different setting.",
+      "last_h2": "Use difficult outings to adjust the plan, not judge the process",
+      "ending_3_paragraphs": "If several outings in a row are exhausting, shorten them temporarily, choose easier locations, simplify clothing, or add a bathroom opportunity at a useful transition. If the child is doing well, you can gradually stop carrying as much support. Notice the adult experience too. If you are spending the entire outing scanning for signs and asking about the bathroom, the plan may be too demanding. A little more practical preparation can allow you to return attention to the actual reason you left the house. The goal is for bathroom skills to enter real life gradually. You do not have to stay home until everything is perfect, and you do not have to pretend the outside world should work exactly like home on the first try.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -6088,41 +6091,40 @@
       "translation_group": "079-potty-training-daycare-coordinate-expectations",
       "language": "en",
       "title": "Potty training and daycare: how to coordinate expectations with caregivers",
-      "words": 555,
-      "paragraphs": 14,
+      "words": 800,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 7.21,
+      "h2_density_per_1000_words": 5.0,
       "h2s": [
-        "Start by learning how the center actually handles it",
-        "Agree on a few basics rather than identical scripts",
-        "Clothes and spare sets are part of the plan too",
-        "Different success at daycare and home can still be normal"
+        "Learn what the childcare setting can realistically support before choosing a plan",
+        "Agree on a few important principles instead of scripting every sentence",
+        "Make clothing, supplies, and daily feedback part of the system",
+        "Expect the skill to look different in different places for a while"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 36.9,
+      "avg_paragraph_words": 41.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 2,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 5,
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 10,
         "importante": 1,
         "clave": 0
       },
-      "opening": "You have started offering the potty at home, but daycare says bathroom trips happen at set points in the routine. Or the center thinks your child is ready while you are not planning to begin yet. Once several adults care for the same child, practical differences show up quickly.",
-      "opening_14_words": "You have started offering the potty at home but daycare says bathroom trips happen",
-      "intro_3_paragraphs": "You have started offering the potty at home, but daycare says bathroom trips happen at set points in the routine. Or the center thinks your child is ready while you are not planning to begin yet. Once several adults care for the same child, practical differences show up quickly. Coordinating potty training with daycare does not mean making home and childcare identical. It means agreeing on enough that the child is not learning under completely opposite expectations in the same day. Before settling on a plan, ask what daycare can realistically support. Are bathroom opportunities built into transitions? Do they allow underwear from day one? How many spare outfits do they expect? Do they use small potties, toilet inserts, or regular toilets? How are accidents handled?",
-      "last_h2": "Different success at daycare and home can still be normal",
-      "ending_3_paragraphs": "Your child may use the toilet reliably at daycare and ask for a diaper at home, or the reverse. The environments have different routines, adults, distractions, and expectations. You do not need instant symmetry. If the gap continues for a long time or creates conflict, revisit the plan together. One setting may be prompting too often, or the child may simply need more time. Coordination is an ongoing conversation, not one meeting before training starts. The goal is not for every adult to execute a perfect protocol. It is for a child to practice a new skill in two different places without feeling as if the rules completely change at the door.",
-      "risk_score": 5,
+      "opening": "You have started offering the potty at home, but daycare follows bathroom opportunities at specific points in the classroom routine. Or the center thinks your child is ready while you are not planning to start yet. Once several adults share care, differences that were invisible at home become practical very quickly.",
+      "opening_14_words": "You have started offering the potty at home but daycare follows bathroom opportunities at",
+      "intro_3_paragraphs": "You have started offering the potty at home, but daycare follows bathroom opportunities at specific points in the classroom routine. Or the center thinks your child is ready while you are not planning to start yet. Once several adults share care, differences that were invisible at home become practical very quickly. Coordination does not require home and daycare to become identical. It requires enough shared understanding that the child is not moving between completely opposite expectations every day. The most useful plan is one that can actually exist in both settings. Ask how bathroom routines work in the actual classroom. Are children offered the toilet during transitions? Can they ask at other times? Does the center use small potties, toilet inserts, or regular toilets? What clothing is easiest for staff to manage? How many spare outfits should stay there?",
+      "last_h2": "Expect the skill to look different in different places for a while",
+      "ending_3_paragraphs": "Avoid using one setting as evidence against the child in the other: “You do it at school, so I know you can do it here.” That can turn a contextual difference into a motivation problem. Instead ask what support is different and whether anything useful can transfer. If the mismatch continues and causes stress, revisit the plan together. Maybe reminders are too frequent in one place, clothing is getting in the way, or the child simply needs more time to connect the routines. The goal is not a perfect protocol executed by every adult. It is a child practicing one emerging skill across two environments while the adults communicate enough that the door between home and daycare does not feel like a complete change of rules.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -6131,41 +6133,40 @@
       "translation_group": "080-potty-refusal-avoid-power-struggle",
       "language": "en",
       "title": "Refusing to sit on the potty: how to avoid a power struggle",
-      "words": 529,
-      "paragraphs": 14,
+      "words": 804,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 7.56,
+      "h2_density_per_1000_words": 4.98,
       "h2s": [
-        "Figure out which part your child is resisting",
-        "Use fewer, more predictable invitations",
-        "Keep the potty from becoming a stage for approval",
-        "Sometimes a pause protects the learning better"
+        "Work out which part of the routine your child is actually resisting",
+        "Use fewer invitations and make them easier to predict",
+        "Reduce the emotional weight around successful sits",
+        "Know when reducing pressure or pausing gives the process room again"
       ],
       "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 35.7,
+      "bold_spans": 4,
+      "avg_paragraph_words": 42.5,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 2,
-        "no_significa": 0,
-        "a_veces": 3,
-        "puede": 9,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 16,
         "importante": 0,
         "clave": 0
       },
-      "opening": "“Let’s sit for a minute.” “No.” You try again before leaving. No. Before bath. No. After dinner. No. Within a few days, the potty itself can become a cue for resistance before your child has even considered whether they need it.",
-      "opening_14_words": "Let s sit for a minute No You try again before leaving No Before",
-      "intro_3_paragraphs": "“Let’s sit for a minute.” “No.” You try again before leaving. No. Before bath. No. After dinner. No. Within a few days, the potty itself can become a cue for resistance before your child has even considered whether they need it. Once sitting becomes a contest, asking more often does not always teach more. Sometimes it only strengthens the connection between the bathroom and losing control. “I don’t want the potty” can mean many things: they do not want to stop playing, dislike being watched, find the seat uncomfortable, prefer the toilet, do not understand why they should sit when they do not feel an urge, or have simply discovered this is an area where they can say no.",
-      "last_h2": "Sometimes a pause protects the learning better",
-      "ending_3_paragraphs": "If your child cries at the sight of the potty, runs away whenever it is mentioned, or the whole family spends the day negotiating bathroom trips, reducing pressure for a while can be reasonable. The potty can remain available without being a constant assignment. A pause does not erase existing skills. It may give communication, body awareness, or willingness time to grow without every step happening under adult observation. The goal of potty training is not to make a child sit because the adult won the argument. It is for the child to gradually recognize a need and use the bathroom as a tool that belongs to them.",
-      "risk_score": 5,
+      "opening": "“Let’s sit for a minute.” “No.” Before leaving: no. Before bath: no. After dinner: no. Within a few days, the potty itself can become a cue for resistance before your child has even considered whether they need to use it.",
+      "opening_14_words": "Let s sit for a minute No Before leaving no Before bath no After",
+      "intro_3_paragraphs": "“Let’s sit for a minute.” “No.” Before leaving: no. Before bath: no. After dinner: no. Within a few days, the potty itself can become a cue for resistance before your child has even considered whether they need to use it. Once sitting becomes a contest, asking more often does not necessarily create more learning. It can strengthen the connection between the bathroom and an adult trying to control what happens to the child’s body. The useful task is to separate the skill from the struggle again. “I don’t want the potty” can cover several different problems. Your child may not want to stop playing, may dislike being watched, may find the seat uncomfortable, prefer the toilet, dislike clothing changes, or simply not understand why they are being asked to sit when they feel no urge.",
+      "last_h2": "Know when reducing pressure or pausing gives the process room again",
+      "ending_3_paragraphs": "A pause does not delete previous learning. Clothing skills, body awareness, communication, and familiarity can continue developing. When you return, you can change the setup rather than simply restarting the same conflict with more determination. During a pause, avoid presenting it as defeat or as a warning that “we’ll try again when you’re ready to cooperate.” Simply let the bathroom become ordinary again. The objective is a usable life skill, not winning a timetable. Potty training is not successful because an adult finally persuades a child to sit. It becomes useful when the child gradually recognizes a need, knows what the bathroom is for, and can participate in the routine with increasing ownership. Protecting that sense of ownership is often more valuable than winning one more sit today.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18749,41 +18750,40 @@
       "translation_group": "071-kids-snack-routine-without-replacing-meals",
       "language": "es",
       "title": "Snacks para niños: cómo crear una rutina que no sustituya constantemente las comidas",
-      "words": 637,
-      "paragraphs": 13,
+      "words": 777,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.28,
+      "h2_density_per_1000_words": 5.15,
       "h2s": [
-        "Un snack funciona mejor cuando tiene un lugar en el día",
-        "La diferencia está entre merendar y picotear",
-        "Si el snack está demasiado cerca de la comida, la decisión cambia",
-        "El objetivo es que comer deje de ocupar toda la tarde"
+        "Construye el ritmo según los huecos reales de vuestro día",
+        "Haz que la merienda cumpla su función y después termine",
+        "Resuelve el hambre antes de cenar sin abrir un segundo menú",
+        "El objetivo real es que la comida genere menos administración"
       ],
       "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 45.8,
+      "bold_spans": 4,
+      "avg_paragraph_words": 43.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
-        "no_significa": 1,
+        "no_significa": 0,
         "a_veces": 0,
-        "puede": 6,
-        "importante": 1,
+        "puede": 7,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "Hay tardes en las que parece que la cocina no llega a cerrar nunca. Un trozo de fruta al volver de daycare, unas galletas mientras preparas la cena, un poco de queso porque vuelve a decir que tiene hambre y, cuando por fin os sentáis a la mesa, el niño apenas quiere probar nada.",
-      "opening_14_words": "Hay tardes en las que parece que la cocina no llega a cerrar nunca",
-      "intro_3_paragraphs": "Hay tardes en las que parece que la cocina no llega a cerrar nunca. Un trozo de fruta al volver de daycare, unas galletas mientras preparas la cena, un poco de queso porque vuelve a decir que tiene hambre y, cuando por fin os sentáis a la mesa, el niño apenas quiere probar nada. La solución no suele ser eliminar los snacks. Lo que ayuda es que dejen de aparecer como una respuesta improvisada a cada petición y pasen a formar parte de una estructura reconocible del día. Para muchos niños pequeños pasan bastantes horas entre una comida y la siguiente. Tener un momento de snack puede hacer el día más llevadero. El problema aparece cuando ese momento se extiende hasta convertirse en comer continuamente.",
-      "last_h2": "El objetivo es que comer deje de ocupar toda la tarde",
-      "ending_3_paragraphs": "En días excepcionales la estructura puede moverse. Un viaje, una fiesta o una tarde larga fuera de casa no necesitan funcionar como un martes normal. Una rutina útil es precisamente la que tolera excepciones sin deshacerse. Cuando los adultos saben aproximadamente cuándo habrá comida y el niño empieza a reconocer ese patrón, disminuye la necesidad de negociar cada petición desde cero. Habrá días en los que comerá mucho en la merienda y poco en la cena, y otros al revés. No hace falta compensar cada variación en tiempo real. Una buena rutina de snacks no busca que el niño llegue “con suficiente hambre” para comer lo que queremos. Busca crear pausas claras para que la comida tenga momentos reconocibles y la familia no viva en servicio permanente de picoteo.",
-      "risk_score": 4,
+      "opening": "Hay tardes en las que parece que la cocina no cierra nunca. Merienda al volver de daycare, unas galletas mientras preparas la cena, un poco de queso porque vuelve a decir que tiene hambre. Cuando por fin os sentáis a la mesa, quizá apenas prueba la cena y tú sientes que llevas dos horas decidiendo si toca ofrecer otra cosa.",
+      "opening_14_words": "Hay tardes en las que parece que la cocina no cierra nunca Merienda al",
+      "intro_3_paragraphs": "Hay tardes en las que parece que la cocina no cierra nunca. Merienda al volver de daycare, unas galletas mientras preparas la cena, un poco de queso porque vuelve a decir que tiene hambre. Cuando por fin os sentáis a la mesa, quizá apenas prueba la cena y tú sientes que llevas dos horas decidiendo si toca ofrecer otra cosa. La cuestión útil no es si los snacks son buenos o malos. Es si tienen un lugar reconocible en el día o si cada petición de comida abre una negociación nueva. Una estructura sencilla puede hacer que la comida esté disponible sin convertirse en el tema permanente de la tarde. Un niño que come pronto y cena tarde probablemente necesita una merienda consistente. Otro que come más tarde quizá necesita menos antes de la cena. No hace falta copiar un horario universal: mira dónde están los tramos largos en vuestra rutina.",
+      "last_h2": "El objetivo real es que la comida genere menos administración",
+      "ending_3_paragraphs": "Una buena rutina de snacks reduce decisiones para los adultos y negociaciones para los niños. También deja espacio para que el apetito cambie de un día a otro sin intentar compensar cada variación en tiempo real. Observa si el sistema facilita la vida: ¿hay menos peticiones aleatorias?, ¿la cena deja de llegar después de una hora de picoteo?, ¿puedes responder al hambre sin sentir que la cocina está de guardia permanente? Esas preguntas son más útiles que intentar calcular cuánto debería comer en cada momento. La estructura de snacks no busca fabricar hambre a una hora concreta. Busca crear momentos claros y flexibles para comer, de modo que la comida no tenga que ocupar toda la tarde.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -18792,41 +18792,40 @@
       "translation_group": "072-child-throws-food-without-mealtime-battle",
       "language": "es",
       "title": "Niños que tiran la comida: cómo responder sin montar una batalla en la mesa",
-      "words": 614,
-      "paragraphs": 14,
+      "words": 736,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.51,
+      "h2_density_per_1000_words": 5.43,
       "h2s": [
-        "Empieza separando el comportamiento de la intención",
-        "Haz que terminar la comida sea una opción clara",
-        "Reduce las oportunidades de ensayo cuando el patrón es frecuente",
-        "La calma no significa permitirlo"
+        "Responde a lo que ha ocurrido antes de intentar explicar por qué",
+        "Haz que terminar de comer sea una opción real",
+        "Cambia el contexto si el patrón aparece casi en cada comida",
+        "Firme y aburrido suele funcionar mejor que firme y enfadado"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 41.6,
+      "avg_paragraph_words": 40.8,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 2,
-        "no_significa": 2,
+        "no_necesitas": 1,
+        "no_significa": 1,
         "a_veces": 0,
-        "puede": 14,
+        "puede": 11,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Un trozo de pasta cae al suelo. Después otro. Miras a tu hijo y él te mira a ti. En cuestión de segundos, una comida normal puede transformarse en una escena donde ya no importa tanto la comida como descubrir qué hará el adulto después.",
-      "opening_14_words": "Un trozo de pasta cae al suelo Después otro Miras a tu hijo y",
-      "intro_3_paragraphs": "Un trozo de pasta cae al suelo. Después otro. Miras a tu hijo y él te mira a ti. En cuestión de segundos, una comida normal puede transformarse en una escena donde ya no importa tanto la comida como descubrir qué hará el adulto después. Tirar comida necesita un límite, pero no necesita convertirse en un acontecimiento. Cuanto más simple y predecible sea la respuesta, menos material hay para convertirlo en juego, provocación o lucha de poder. Un toddler puede tirar comida porque ya ha terminado, porque quiere experimentar, porque busca una reacción, porque está cansado o porque no sabe cómo expresar que no quiere más. No hace falta adivinar exactamente cuál es la causa antes de actuar.",
-      "last_h2": "La calma no significa permitirlo",
-      "ending_3_paragraphs": "Responder sin enfado visible no equivale a aceptar que el suelo sea parte del plato. Puedes detener la mano, mover la comida, retirar el plato y limpiar después. El límite puede ser firme y aburrido a la vez. Si el niño protesta cuando termina la comida, puedes reconocerlo sin devolver inmediatamente el plato para evitar el llanto. “Querías seguir. La comida estaba cayendo al suelo y hemos terminado.” No necesitas que esté de acuerdo para que el límite sea válido. El objetivo no es conseguir que nunca vuelva a tirar nada. Es hacer que, cuando ocurra, la respuesta familiar sea tan clara y poco dramática que el comportamiento no gane poder sobre toda la mesa.",
-      "risk_score": 4,
+      "opening": "Un trozo de pasta cae al suelo. Después otro. Tu toddler mira tu cara antes de coger el siguiente y, de pronto, la cena ya no trata principalmente de comer. Trata de descubrir qué ocurre cuando la comida sale de la mesa.",
+      "opening_14_words": "Un trozo de pasta cae al suelo Después otro Tu toddler mira tu cara",
+      "intro_3_paragraphs": "Un trozo de pasta cae al suelo. Después otro. Tu toddler mira tu cara antes de coger el siguiente y, de pronto, la cena ya no trata principalmente de comer. Trata de descubrir qué ocurre cuando la comida sale de la mesa. Tirar comida necesita un límite, pero no necesita una historia dramática alrededor. Cuanto más predecible sea la respuesta, menos capacidad tendrá la conducta de adueñarse de toda la comida. Un niño pequeño puede tirar comida porque ha terminado, porque experimenta con causa y efecto, porque está cansado de estar sentado, porque busca reacción o porque aún no sabe expresar bien “esto no lo quiero”. No necesitas acertar el motivo exacto antes de poner un límite.",
+      "last_h2": "Firme y aburrido suele funcionar mejor que firme y enfadado",
+      "ending_3_paragraphs": "Puedes bloquear una mano, apartar comida, retirar el plato y después hacer que participe en una limpieza sencilla sin avergonzarlo. Llevar un paño o echar algo a la basura puede ser colaboración cotidiana, no un castigo para que “aprenda la lección”. Tu frustración también es real. Limpiar comida del suelo una y otra vez cansa. Responder con calma no significa que tenga que gustarte; significa separar tu irritación comprensible de lo que quieres enseñar. El éxito no es que un toddler nunca vuelva a tirar comida. Es que la familia sepa cómo responder, el límite mantenga una intensidad razonable y un trozo en el suelo no se convierta automáticamente en el centro emocional de la cena.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -18835,15 +18834,15 @@
       "translation_group": "073-eating-out-with-toddlers-easier",
       "language": "es",
       "title": "Comer fuera con toddlers: cómo hacerlo más llevadero",
-      "words": 607,
-      "paragraphs": 14,
+      "words": 741,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.59,
+      "h2_density_per_1000_words": 5.4,
       "h2s": [
-        "El horario puede cambiar más que cualquier juguete",
-        "No conviertas el hambre en una prueba de paciencia",
-        "El entretenimiento funciona mejor cuando no tiene que sostener toda la experiencia",
-        "Salir antes también puede ser un buen final"
+        "Elige bien horario y tipo de restaurante antes de depender del entretenimiento",
+        "Haz que el hambre sea manejable sin convertir el restaurante en un examen alimentario",
+        "Usa actividades y movimiento como apoyo, no como promesa de que estará sentado indefinidamente",
+        "Aprende a reconocer cuándo irse es un buen final"
       ],
       "list_items": 0,
       "bold_spans": 3,
@@ -18855,21 +18854,20 @@
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
+        "no_significa": 2,
+        "a_veces": 2,
         "puede": 9,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Hay comidas fuera que empiezan a torcerse antes de sentarse. Llegáis con hambre, el restaurante tarda en dar mesa, el niño ya ha recorrido el local tres veces y, cuando llega la comida, todo el mundo espera que se quede quieto y agradable durante otra hora.",
-      "opening_14_words": "Hay comidas fuera que empiezan a torcerse antes de sentarse Llegáis con hambre el",
-      "intro_3_paragraphs": "Hay comidas fuera que empiezan a torcerse antes de sentarse. Llegáis con hambre, el restaurante tarda en dar mesa, el niño ya ha recorrido el local tres veces y, cuando llega la comida, todo el mundo espera que se quede quieto y agradable durante otra hora. Comer fuera con un toddler suele funcionar mejor cuando el plan se adapta a su capacidad real de esperar, moverse y participar, en vez de intentar que el niño se adapte a una versión adulta del restaurante. Un restaurante a las ocho y media puede ser perfecto para los adultos y pésimo para un niño que normalmente cena mucho antes. Si podéis, elegir una hora temprana o evitar el tramo de más espera suele tener más impacto que llevar una bolsa enorme de entretenimiento.",
-      "last_h2": "Salir antes también puede ser un buen final",
-      "ending_3_paragraphs": "A veces la comida ha ido razonablemente bien durante cuarenta minutos y después el toddler ya no puede más. Intentar conservar la sobremesa perfecta puede ser lo que transforme un momento aceptable en una batalla. Pedir la cuenta antes, llevarse lo que queda o decidir que hoy no habrá café no significa que la salida haya fracasado. Significa que habéis leído el momento. Comer fuera con niños pequeños mejora mucho cuando el éxito deja de medirse por cuánto se parece la experiencia a salir sin niños. Puede ser más corta, más activa y menos elegante, y seguir siendo una comida agradable en familia.",
-      "risk_score": 4,
+      "opening": "Hay comidas fuera que empiezan a torcerse antes de pedir. La mesa tarda, el toddler ya ha recorrido la entrada tres veces, todo el mundo llega con hambre y, cuando aparece la comida, los adultos todavía esperan otra hora de calma sentado.",
+      "opening_14_words": "Hay comidas fuera que empiezan a torcerse antes de pedir La mesa tarda el",
+      "intro_3_paragraphs": "Hay comidas fuera que empiezan a torcerse antes de pedir. La mesa tarda, el toddler ya ha recorrido la entrada tres veces, todo el mundo llega con hambre y, cuando aparece la comida, los adultos todavía esperan otra hora de calma sentado. Comer fuera con un toddler suele mejorar cuando el plan tiene en cuenta su capacidad real de esperar, moverse y participar. No hace falta intentar que el restaurante se parezca exactamente a una cena de adultos con una persona más pequeña en la silla. Una cena a las ocho y media puede ser normal para los adultos y estar muy lejos del ritmo de un niño que suele comer antes. Cuando podéis elegir, ir temprano reduce hambre, espera y cansancio al mismo tiempo. A menudo cambia más la experiencia que añadir otro juguete a la bolsa.",
+      "last_h2": "Aprende a reconocer cuándo irse es un buen final",
+      "ending_3_paragraphs": "Los adultos a veces alargan porque no quieren sentir que el toddler “manda”. Pero responder a un límite evidente no significa ceder autoridad; significa usar información sobre el niño y el contexto. Las habilidades de restaurante se construyen con exposición normal: sentarse un rato, comer en un sitio distinto, esperar un poco y aprender cómo termina una salida. No necesitan aparecer todas de golpe. Comer fuera con toddlers se vuelve más agradable cuando el éxito deja de significar “esto se pareció a salir antes de tener hijos”. Puede ser más corto, más activo y menos elegante, y seguir siendo una buena comida en familia.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -18878,40 +18876,40 @@
       "translation_group": "074-morning-exit-routine-with-kids-without-yelling",
       "language": "es",
       "title": "Rutina de salida por la mañana: cómo salir de casa con niños sin empezar el día gritando",
-      "words": 584,
-      "paragraphs": 14,
+      "words": 671,
+      "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.85,
+      "h2_density_per_1000_words": 5.96,
       "h2s": [
-        "Mueve decisiones fuera del momento de más prisa",
-        "Ordena la secuencia según vuestra casa, no según una rutina ideal",
-        "Reduce instrucciones acumuladas",
-        "El margen final protege el tono de toda la mañana"
+        "Saca de la prisa las decisiones que se repiten",
+        "Da tiempo real al paso que siempre tarda más",
+        "Haz que la rutina dependa menos de repetir instrucciones",
+        "Protege un margen pequeño para lo que no puedes prever"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 39.4,
+      "avg_paragraph_words": 39.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.214,
+      "question_paragraph_ratio": 0.062,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 1,
-        "puede": 6,
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 5,
         "importante": 0,
         "clave": 0
       },
-      "opening": "“Vístete. ¿Te has vestido? Los zapatos. El agua. No, esos zapatos no. Tenemos que irnos. Ya.” Hay mañanas en las que el adulto lleva veinte minutos hablando y, aun así, parece que nadie se mueve hasta que la voz sube.",
-      "opening_14_words": "Vístete Te has vestido Los zapatos El agua No esos zapatos no Tenemos que",
-      "intro_3_paragraphs": "“Vístete. ¿Te has vestido? Los zapatos. El agua. No, esos zapatos no. Tenemos que irnos. Ya.” Hay mañanas en las que el adulto lleva veinte minutos hablando y, aun así, parece que nadie se mueve hasta que la voz sube. Una rutina de salida funciona mejor cuando deja de depender de que un adulto recuerde, anuncie y supervise cada paso en tiempo real. El objetivo no es fabricar niños veloces; es diseñar una mañana con menos puntos de fricción. Cuantas más decisiones dejas para la mañana, más oportunidades hay de atascarse. Ropa, mochila, abrigo, botella, material de escuela o daycare y cualquier objeto especial pueden prepararse la noche anterior cuando eso realmente ahorra trabajo.",
-      "last_h2": "El margen final protege el tono de toda la mañana",
-      "ending_3_paragraphs": "Salir exactamente a la hora límite hace que cualquier vaso derramado, pañal, búsqueda de juguete o protesta convierta el día en emergencia. Incluso cinco o diez minutos de margen pueden cambiar mucho la forma en que un adulto responde a lo inesperado. Ese margen no siempre se consigue levantando a todos antes. A veces aparece eliminando tareas que no necesitan ocurrir por la mañana, simplificando el desayuno o dejando de intentar recoger la casa antes de salir. Una buena rutina matinal no se nota porque todo el mundo sale sonriendo y puntual cada día. Se nota porque, cuando algo se tuerce, no hace falta que un adulto convierta su voz en el motor principal de la familia.",
-      "risk_score": 4,
+      "opening": "“Vístete. Los zapatos. La mochila. Tenemos que irnos.” Hay mañanas en las que llevas veinte minutos dando instrucciones y nada parece avanzar hasta que sube la voz. Cuando por fin se cierra la puerta, toda la familia ya sale cargando con la tensión de llegar tarde.",
+      "opening_14_words": "Vístete Los zapatos La mochila Tenemos que irnos Hay mañanas en las que llevas",
+      "intro_3_paragraphs": "“Vístete. Los zapatos. La mochila. Tenemos que irnos.” Hay mañanas en las que llevas veinte minutos dando instrucciones y nada parece avanzar hasta que sube la voz. Cuando por fin se cierra la puerta, toda la familia ya sale cargando con la tensión de llegar tarde. Una salida más tranquila depende menos de conseguir que los niños se vuelvan rápidos de repente y más de quitar fricción antes de los últimos minutos. La pregunta útil no es solo “¿cómo hago que se den prisa?”, sino “¿qué sigue necesitando rescate adulto justo cuando deberíamos estar saliendo?”. Ropa, mochila, materiales especiales, botella o cualquier cosa distinta del día se resuelven mejor antes de que el reloj apriete. No necesitas una entrada de revista. Elige las dos o tres decisiones que más retrasos generan y muévelas a otro momento.",
+      "last_h2": "Protege un margen pequeño para lo que no puedes prever",
+      "ending_3_paragraphs": "Ese margen no siempre sale de despertarse antes. Puede aparecer simplificando el desayuno, dejando platos para luego, preparando la comida de otra manera o aceptando que el salón no necesita quedar recogido antes de salir. Si una mañana sigue siendo desastrosa, revisa el sistema más tarde, no durante el trayecto con todos enfadados. Pregunta qué os frenó de verdad y cambia una sola cosa. Las rutinas útiles se afinan, no aparecen perfectas en el primer intento. Una buena rutina de mañana no significa que nadie proteste o que nunca lleguéis tarde. Significa que la voz adulta deja de tener que convertirse en el motor de emergencia que empuja a toda la familia hasta la puerta.",
+      "risk_score": 3,
       "risk_reasons": [
-        "body_under_650_words",
+        "body_under_800_words",
         "elevated_h2_density"
       ]
     },
@@ -18921,41 +18919,40 @@
       "translation_group": "075-after-school-daycare-home-routine",
       "language": "es",
       "title": "Rutina de regreso a casa: cómo hacer más suaves las tardes después de daycare o escuela",
-      "words": 579,
-      "paragraphs": 14,
+      "words": 719,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.91,
+      "h2_density_per_1000_words": 5.56,
       "h2s": [
-        "Reduce demandas durante los primeros minutos",
-        "Resuelve hambre y pertenencias con una secuencia sencilla",
-        "No llenes automáticamente el hueco con actividades",
-        "La tarde puede empezar más lenta y aun así llegar a todo lo importante"
+        "Cuenta con que los primeros minutos pueden ser de descompresión",
+        "Da a hambre y pertenencias una secuencia reconocible",
+        "No llenes automáticamente la pausa con otra actividad dirigida",
+        "Organiza la tarde desde la capacidad disponible y después añade lo importante"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 38.9,
+      "avg_paragraph_words": 37.8,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
-        "a_veces": 1,
-        "puede": 5,
+        "a_veces": 0,
+        "puede": 7,
         "importante": 1,
         "clave": 0
       },
-      "opening": "Recoges a tu hijo y preguntas con ganas: “¿Qué tal el día?”. No responde. En casa pide comida, se enfada porque has colocado mal un vaso y parece mucho menos capaz de cooperar que por la mañana. A veces la tarde empieza con la sensación de que todo se deshace justo cuando la familia vuelve a reunirse.",
-      "opening_14_words": "Recoges a tu hijo y preguntas con ganas Qué tal el día No responde",
-      "intro_3_paragraphs": "Recoges a tu hijo y preguntas con ganas: “¿Qué tal el día?”. No responde. En casa pide comida, se enfada porque has colocado mal un vaso y parece mucho menos capaz de cooperar que por la mañana. A veces la tarde empieza con la sensación de que todo se deshace justo cuando la familia vuelve a reunirse. La llegada a casa funciona mejor cuando la tratamos como una transición, no como el momento de empezar inmediatamente la segunda agenda del día. Antes de deberes, baño, recados o preguntas, muchos niños necesitan aterrizar. Daycare y escuela implican escuchar, esperar, compartir espacio, seguir ritmos ajenos y gestionar muchas pequeñas transiciones. Aunque el día haya sido bueno, llegar a casa puede liberar de golpe parte de la tensión que se sostuvo fuera.",
-      "last_h2": "La tarde puede empezar más lenta y aun así llegar a todo lo importante",
-      "ending_3_paragraphs": "Una rutina de regreso no tiene que durar una hora ni tener pictogramas. Su función es crear una zona de transición entre el mundo exterior y la casa. Cuando esa zona existe, las siguientes demandas suelen llegar a un niño un poco más disponible. También protege al adulto: en vez de improvisar comida, preguntas, mochilas y planes al mismo tiempo, hay un orden conocido al que volver incluso en un día difícil. La meta no es que todas las tardes sean tranquilas. Es dejar de pedir cooperación máxima justo en el momento en que muchos niños llegan con la reserva más baja del día.",
-      "risk_score": 4,
+      "opening": "Recoges a tu hijo y preguntas qué tal ha ido el día. Apenas responde. Al llegar a casa pide comida, se enfada porque has usado el vaso equivocado y parece mucho menos capaz de colaborar que por la mañana. Resulta desconcertante que el reencuentro sea justo el momento en que todo empieza a desordenarse.",
+      "opening_14_words": "Recoges a tu hijo y preguntas qué tal ha ido el día Apenas responde",
+      "intro_3_paragraphs": "Recoges a tu hijo y preguntas qué tal ha ido el día. Apenas responde. Al llegar a casa pide comida, se enfada porque has usado el vaso equivocado y parece mucho menos capaz de colaborar que por la mañana. Resulta desconcertante que el reencuentro sea justo el momento en que todo empieza a desordenarse. La llegada suele ir mejor cuando se trata como una transición y no como el comienzo inmediato de una segunda agenda. Antes de deberes, baño, recados, preguntas o tareas, muchos niños necesitan dejar de adaptarse a las exigencias externas y llegar también emocionalmente a casa. Daycare y escuela exigen esperar, compartir espacio, seguir ritmos de grupo, escuchar a adultos y atravesar muchas pequeñas transiciones. El día puede haber ido bien y, aun así, dejar poca reserva al llegar la recogida.",
+      "last_h2": "Organiza la tarde desde la capacidad disponible y después añade lo importante",
+      "ending_3_paragraphs": "También protege al adulto. En vez de improvisar comida, preguntas, mochilas, papeles y planes al mismo tiempo, existe un orden al que volver. En días complicados, puedes simplificarlo todavía más. Si las tardes se hunden de forma sistemática incluso con una buena llegada, mira el horario completo. Quizá hay demasiadas cosas entre la recogida y la hora de dormir. Ninguna rutina puede compensar indefinidamente una agenda sin espacio para recuperar. La meta no es una tarde perfectamente tranquila. Es dejar de pedir cooperación máxima justo cuando muchos niños llegan con menos reserva y permitir que la casa empiece con un pequeño periodo de aterrizaje antes de volver a exigir.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -18964,41 +18961,40 @@
       "translation_group": "076-potty-training-readiness-without-pressure",
       "language": "es",
       "title": "Dejar el pañal sin presión: señales prácticas de que puede ser buen momento",
-      "words": 526,
-      "paragraphs": 14,
+      "words": 781,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 7.6,
+      "h2_density_per_1000_words": 5.12,
       "h2s": [
-        "Busca un conjunto de señales, no una sola",
-        "La disposición importa tanto como la habilidad",
-        "Mira también el momento de la familia",
-        "Empezar no te obliga a seguir a cualquier precio"
+        "Mira un conjunto de capacidades útiles, no una lista que haya que aprobar",
+        "La disposición importa porque el niño tiene que participar",
+        "Incluye en la decisión el momento de la familia y de los cuidadores",
+        "Trata el inicio como algo ajustable, no como una puerta que se cierra detrás"
       ],
       "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 35.4,
+      "bold_spans": 4,
+      "avg_paragraph_words": 40.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 2,
-        "a_veces": 1,
-        "puede": 8,
-        "importante": 0,
+        "no_significa": 3,
+        "a_veces": 0,
+        "puede": 13,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "“Ya tiene dos años, ¿no deberíais quitarle el pañal?” Es una frase que puede convertir una transición cotidiana en una carrera contra el calendario. De pronto cada pañal parece una prueba de que vais tarde y cada niño de la misma edad se convierte en comparación.",
-      "opening_14_words": "Ya tiene dos años no deberíais quitarle el pañal Es una frase que puede",
-      "intro_3_paragraphs": "“Ya tiene dos años, ¿no deberíais quitarle el pañal?” Es una frase que puede convertir una transición cotidiana en una carrera contra el calendario. De pronto cada pañal parece una prueba de que vais tarde y cada niño de la misma edad se convierte en comparación. Un buen momento para dejar el pañal suele reconocerse por una combinación de capacidades y disposición, no por una fecha exacta. Mirar al niño real que tienes delante suele ser más útil que mirar qué “toca” por edad. Puede ayudar que el niño empiece a notar cuándo está haciendo pis o caca, avise antes o después, muestre incomodidad con el pañal sucio, pueda subir y bajar parte de la ropa o entienda instrucciones sencillas relacionadas con el baño.",
-      "last_h2": "Empezar no te obliga a seguir a cualquier precio",
-      "ending_3_paragraphs": "Puedes probar una transición y descubrir que genera una oposición enorme, accidentes continuos que desbordan a todos o una atención al baño que ocupa completamente el día. Hacer una pausa no convierte el intento en fracaso. A veces unas semanas cambian mucho la capacidad de comunicar, anticipar y colaborar. El objetivo no es demostrar que una vez empezado “no se vuelve atrás”. Dejar el pañal funciona mejor cuando se entiende como una habilidad que se construye, no como una prueba de madurez que el niño tiene que aprobar en una fecha concreta.",
-      "risk_score": 5,
+      "opening": "“Ya tiene dos años, ¿todavía no le quitáis el pañal?” Una pregunta así puede convertir una transición cotidiana en una fecha límite. De pronto cada pañal parece una señal de que vais tarde y cada niño de la misma edad se convierte en referencia.",
+      "opening_14_words": "Ya tiene dos años todavía no le quitáis el pañal Una pregunta así puede",
+      "intro_3_paragraphs": "“Ya tiene dos años, ¿todavía no le quitáis el pañal?” Una pregunta así puede convertir una transición cotidiana en una fecha límite. De pronto cada pañal parece una señal de que vais tarde y cada niño de la misma edad se convierte en referencia. Un buen momento para empezar suele reconocerse mejor cuando varias capacidades comienzan a coincidir que por un cumpleaños concreto. Dejar el pañal implica notar una señal corporal, interrumpir lo que se está haciendo, comunicar, manejar ropa, usar una rutina nueva y repetirla muchas veces. No suele haber una única señal mágica. Puede ayudar que el niño empiece a notar el pis o la caca antes, durante o poco después; que muestre incomodidad con un pañal mojado; que tenga curiosidad por el baño; que siga instrucciones sencillas y que participe algo al subir o bajar la ropa.",
+      "last_h2": "Trata el inicio como algo ajustable, no como una puerta que se cierra detrás",
+      "ending_3_paragraphs": "Unas semanas pueden cambiar la comunicación, la capacidad de manejar ropa, la disposición a dejar un juego o la antelación con la que nota una señal. No hay premio por demostrar que, una vez aparece la ropa interior, el pañal nunca puede volver a usarse. Del mismo modo, un buen comienzo no promete una línea recta. Accidentes, rechazo o diferencias fuera de casa pueden formar parte del proceso. Estar preparado no significa independencia instantánea; significa contar con un punto de partida más manejable. Dejar el pañal suele ir mejor cuando se entiende como una habilidad que se construye y no como una prueba de madurez con fecha. El mejor momento no es el que parece más avanzado desde fuera, sino aquel en que niño y adultos pueden practicar juntos de forma razonable.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -19007,41 +19003,40 @@
       "translation_group": "077-potty-training-accidents-without-shame-punishment",
       "language": "es",
       "title": "Accidentes durante el potty training: cómo responder sin vergüenza ni castigos",
-      "words": 538,
-      "paragraphs": 13,
+      "words": 781,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 7.43,
+      "h2_density_per_1000_words": 5.12,
       "h2s": [
-        "Describe lo que ha pasado sin convertirlo en identidad",
-        "Evita convertir cada accidente en una investigación",
-        "Un accidente no borra lo que ya sabe",
-        "Tu reacción se convierte en parte del aprendizaje"
+        "Mantén la primera respuesta factual para que el accidente no se convierta en identidad",
+        "Busca el patrón en vez de investigar cada accidente",
+        "Separa un accidente de la historia que cuentas sobre todo el proceso",
+        "Protege la honestidad haciendo que sea seguro contar lo que ha pasado"
       ],
       "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 38.9,
+      "bold_spans": 4,
+      "avg_paragraph_words": 40.8,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.231,
+      "question_paragraph_ratio": 0.222,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 8,
-        "importante": 0,
+        "no_significa": 2,
+        "a_veces": 0,
+        "puede": 12,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "Has preguntado dos veces si necesitaba ir al baño. Ha dicho que no. Cinco minutos después, hay un charco en el suelo. Es fácil que al adulto le salga un “¡pero si te lo acabo de preguntar!” antes incluso de pensar qué quiere enseñar en ese momento.",
-      "opening_14_words": "Has preguntado dos veces si necesitaba ir al baño Ha dicho que no Cinco",
-      "intro_3_paragraphs": "Has preguntado dos veces si necesitaba ir al baño. Ha dicho que no. Cinco minutos después, hay un charco en el suelo. Es fácil que al adulto le salga un “¡pero si te lo acabo de preguntar!” antes incluso de pensar qué quiere enseñar en ese momento. Un accidente enseña mejor cuando se trata como información y reparación práctica, no como una falta que necesita culpa. El objetivo es que el niño aprenda a reconocer señales y qué hacer después, no que aprenda a temer nuestra reacción. “Se ha escapado el pis. Vamos a limpiarnos” suele ser suficiente. Frases como “otra vez”, “eres un bebé” o “siempre haces lo mismo” añaden una historia emocional que no ayuda a controlar mejor el cuerpo la próxima vez.",
-      "last_h2": "Tu reacción se convierte en parte del aprendizaje",
-      "ending_3_paragraphs": "Si un niño empieza a esconder ropa mojada, negar lo ocurrido o ponerse muy nervioso ante un accidente, a veces no teme el pis en sí, sino lo que ocurrirá después. Mantener una respuesta predecible reduce esa carga. También protege al adulto. No necesitas estar encantado de limpiar otro accidente; puedes sentir cansancio y aun así responder de forma sencilla. “Esto es frustrante” puede quedarse en tu cabeza mientras tus acciones siguen siendo claras. El progreso no se mide por una racha perfecta de días secos. También se mide cuando el niño empieza a darse cuenta antes, avisa después, participa en cambiarse o recupera la rutina sin convertir un accidente en una crisis familiar.",
-      "risk_score": 6,
+      "opening": "Has preguntado si necesitaba ir al baño. Ha dicho que no. Cinco minutos después hay un charco en el suelo. Es fácil que salga un “¡pero si te lo acabo de preguntar!” antes de pensar qué quieres enseñar realmente en ese momento.",
+      "opening_14_words": "Has preguntado si necesitaba ir al baño Ha dicho que no Cinco minutos después",
+      "intro_3_paragraphs": "Has preguntado si necesitaba ir al baño. Ha dicho que no. Cinco minutos después hay un charco en el suelo. Es fácil que salga un “¡pero si te lo acabo de preguntar!” antes de pensar qué quieres enseñar realmente en ese momento. Un accidente suele ser más útil como información y reparación práctica que como prueba de que el niño ha fallado. Dejar el pañal incluye aprender a notar una señal con tiempo, interrumpir lo que está haciendo, llegar al baño, manejar la ropa y recuperarse cuando el cálculo no sale bien. Los accidentes forman parte del lugar donde ese aprendizaje se vuelve visible. “Se ha escapado el pis. Vamos a limpiarnos” basta para empezar. Frases como “otra vez”, “si ya lo sabes”, “pareces un bebé” o “siempre haces lo mismo” añaden juicio sin ayudar a reconocer antes la siguiente señal corporal.",
+      "last_h2": "Protege la honestidad haciendo que sea seguro contar lo que ha pasado",
+      "ending_3_paragraphs": "No necesitas estar alegre. Limpiar el tercer accidente de un día agotador puede frustrar muchísimo. Puedes parar un segundo, hablar poco y mantener una respuesta respetuosa aunque por dentro estés cansada. Después de cambiarse, seguid con el día. El accidente no necesita colorear toda la tarde. Así el niño recibe muchas experiencias de que un error se repara sin perder conexión ni convertirse en el centro de atención familiar. El progreso al dejar el pañal no es solo una racha de días secos. También es notar antes, comunicar mejor, colaborar al cambiarse, recuperar la rutina y poder tener un accidente sin sentir que hay algo malo en él.",
+      "risk_score": 3,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density",
+        "body_under_800_words",
         "many_question_paragraphs"
       ]
     },
@@ -19051,41 +19046,40 @@
       "translation_group": "078-potty-training-away-from-home",
       "language": "es",
       "title": "Potty training fuera de casa: cómo mantener la calma",
-      "words": 550,
-      "paragraphs": 14,
+      "words": 725,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 7.27,
+      "h2_density_per_1000_words": 5.52,
       "h2s": [
-        "Empieza con salidas que permitan practicar sin mucho coste",
-        "Prepara el accidente para que deje de parecer una catástrofe",
-        "Los baños públicos pueden necesitar una transición propia",
-        "Un accidente fuera no significa que saliste demasiado pronto"
+        "Empieza por salidas donde la logística sea fácil de entender",
+        "Lleva suficiente para recuperarte, no para controlar cada escenario",
+        "Los baños desconocidos pueden necesitar su propia adaptación",
+        "Usa las salidas difíciles para ajustar el plan, no para juzgar el proceso"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 36.7,
+      "avg_paragraph_words": 38.1,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
         "a_veces": 0,
-        "puede": 7,
+        "puede": 12,
         "importante": 0,
         "clave": 0
       },
-      "opening": "En casa sabes dónde está el baño, cuánto tarda tu hijo en llegar y qué ropa tiene puesta. Fuera aparecen ascensores, colas, baños desconocidos, trayectos en coche y la duda constante de si deberías preguntar “¿quieres hacer pis?” cada cinco minutos.",
-      "opening_14_words": "En casa sabes dónde está el baño cuánto tarda tu hijo en llegar y",
-      "intro_3_paragraphs": "En casa sabes dónde está el baño, cuánto tarda tu hijo en llegar y qué ropa tiene puesta. Fuera aparecen ascensores, colas, baños desconocidos, trayectos en coche y la duda constante de si deberías preguntar “¿quieres hacer pis?” cada cinco minutos. Salir durante el potty training no requiere controlar el cuerpo del niño a distancia. Requiere una logística que haga que los errores sean manejables. Cuando sabes qué harás si algo se complica, deja de ser necesario vivir toda la salida en alerta. Las primeras veces puede ayudar elegir un parque cercano, una visita corta o un lugar donde sepas que hay baño. No porque el niño tenga que superar etapas rígidas, sino porque un contexto sencillo permite que tanto él como el adulto practiquen una rutina nueva sin sumar demasiadas variables.",
-      "last_h2": "Un accidente fuera no significa que saliste demasiado pronto",
-      "ending_3_paragraphs": "Puede ocurrir aunque en casa lleve varios días bien. Fuera hay más distracción, menos acceso inmediato y señales nuevas. Cambiarse, limpiar lo posible y seguir es una respuesta completa. Si cada salida termina en varios accidentes y todos regresáis agotados, quizá conviene acortar temporalmente los planes o añadir más apoyo. Eso es ajustar la dificultad, no retroceder. La meta es que el baño vaya entrando en la vida real poco a poco. No esperar a que el niño sea “perfecto en casa” para salir, ni exigir que fuera funcione exactamente igual desde el primer día.",
-      "risk_score": 5,
+      "opening": "En casa sabes exactamente dónde está el baño, qué ropa lleva tu hijo y cuánto tarda en llegar. Fuera aparecen coche, colas, inodoros desconocidos, cisternas automáticas y la tentación de preguntar “¿quieres hacer pis?” cada cinco minutos.",
+      "opening_14_words": "En casa sabes exactamente dónde está el baño qué ropa lleva tu hijo y",
+      "intro_3_paragraphs": "En casa sabes exactamente dónde está el baño, qué ropa lleva tu hijo y cuánto tarda en llegar. Fuera aparecen coche, colas, inodoros desconocidos, cisternas automáticas y la tentación de preguntar “¿quieres hacer pis?” cada cinco minutos. Salir durante el potty training se vuelve más llevadero cuando te preparas para poder resolver un accidente en vez de intentar impedir todos los posibles. Cuando un error deja de parecer una catástrofe, toda la salida puede bajar de intensidad. Al principio pueden ayudar planes cortos y conocidos: un parque cercano, la biblioteca, casa de un familiar o un sitio donde sepas dónde está el baño. No es una escalera rígida que el niño tenga que superar; simplemente reduce variables mientras practica la misma habilidad en otro contexto.",
+      "last_h2": "Usa las salidas difíciles para ajustar el plan, no para juzgar el proceso",
+      "ending_3_paragraphs": "Si varias salidas seguidas terminan agotando a todos, acórtalas temporalmente, elige lugares más fáciles, simplifica la ropa o añade una oportunidad de baño en una transición útil. Si el niño va ganando seguridad, poco a poco necesitaréis menos apoyo. Mira también cómo estás viviendo tú la salida. Si pasas todo el tiempo vigilando gestos y preguntando por el baño, quizá el plan exige demasiado control. Prepararte mejor para poder manejar un accidente puede permitirte volver a prestar atención al motivo real por el que salisteis. La meta es que las habilidades del baño entren poco a poco en la vida real. No hace falta quedarse en casa hasta que todo sea perfecto ni exigir que fuera funcione exactamente igual que dentro desde el primer día.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -19094,41 +19088,40 @@
       "translation_group": "079-potty-training-daycare-coordinate-expectations",
       "language": "es",
       "title": "Dejar el pañal y daycare: cómo coordinar expectativas con los cuidadores",
-      "words": 546,
-      "paragraphs": 14,
+      "words": 751,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 7.33,
+      "h2_density_per_1000_words": 5.33,
       "h2s": [
-        "Pregunta primero cómo funciona realmente el centro",
-        "Compartid unas pocas reglas claras",
-        "La ropa y las mudas también forman parte de la coordinación",
-        "Un ritmo diferente en daycare no invalida lo que ocurre en casa"
+        "Conoce primero qué puede sostener realmente el centro",
+        "Acordad unos pocos principios importantes en vez de copiar cada frase",
+        "Incluye ropa, mudas y comunicación diaria dentro del plan",
+        "Espera que la habilidad se vea diferente según el lugar durante un tiempo"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 36.5,
+      "avg_paragraph_words": 39.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
-        "a_veces": 1,
-        "puede": 5,
-        "importante": 1,
+        "a_veces": 0,
+        "puede": 11,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "En casa habéis empezado a ofrecer el orinal, pero en daycare te dicen que allí solo pueden acompañar al baño en determinados momentos. O al revés: el centro cree que vuestro hijo está preparado y en casa todavía no queréis iniciar el proceso. Cuando varias personas cuidan al mismo niño, las diferencias prácticas aparecen rápido.",
-      "opening_14_words": "En casa habéis empezado a ofrecer el orinal pero en daycare te dicen que",
-      "intro_3_paragraphs": "En casa habéis empezado a ofrecer el orinal, pero en daycare te dicen que allí solo pueden acompañar al baño en determinados momentos. O al revés: el centro cree que vuestro hijo está preparado y en casa todavía no queréis iniciar el proceso. Cuando varias personas cuidan al mismo niño, las diferencias prácticas aparecen rápido. Coordinar potty training con daycare no significa conseguir que casa y centro sean idénticos. Significa acordar lo suficiente para que el niño no reciba mensajes completamente opuestos durante el mismo aprendizaje. Antes de decidir un plan, conviene saber qué puede hacer el daycare. ¿Ofrecen baño en momentos concretos? ¿Aceptan ropa interior desde el primer día? ¿Piden varias mudas? ¿Usan orinal, inodoro con adaptador o ambos? ¿Cómo responden a accidentes?",
-      "last_h2": "Un ritmo diferente en daycare no invalida lo que ocurre en casa",
-      "ending_3_paragraphs": "Puede pasar que el niño use el baño bien en el centro y pida pañal en casa, o al revés. Los contextos tienen rutinas, adultos y niveles de distracción distintos. No hace falta forzar una simetría inmediata. Si las diferencias duran mucho o generan conflicto, volved a hablar. Quizá uno de los entornos está ofreciendo demasiados recordatorios o quizá el niño necesita más tiempo. La coordinación es una conversación continua, no una reunión única antes de empezar. El objetivo no es que todos los adultos ejecuten un protocolo perfecto. Es que el niño pueda practicar una habilidad nueva en dos lugares distintos sin sentir que cada lugar tiene reglas incompatibles.",
-      "risk_score": 5,
+      "opening": "En casa habéis empezado a ofrecer el orinal, pero en daycare los baños ocurren en momentos concretos de la rutina. O el centro cree que vuestro hijo está preparado y vosotros todavía no queréis empezar. Cuando varios adultos comparten cuidados, las diferencias prácticas aparecen enseguida.",
+      "opening_14_words": "En casa habéis empezado a ofrecer el orinal pero en daycare los baños ocurren",
+      "intro_3_paragraphs": "En casa habéis empezado a ofrecer el orinal, pero en daycare los baños ocurren en momentos concretos de la rutina. O el centro cree que vuestro hijo está preparado y vosotros todavía no queréis empezar. Cuando varios adultos comparten cuidados, las diferencias prácticas aparecen enseguida. Coordinar no significa convertir casa y daycare en lugares idénticos. Significa compartir suficiente criterio para que el niño no pase cada día entre expectativas completamente opuestas. El mejor plan es el que puede existir de verdad en ambos contextos. Pregunta cómo funciona el baño en esa clase concreta. ¿Se ofrece en transiciones? ¿Los niños pueden pedir ir fuera de esos momentos? ¿Usan orinales, adaptadores o inodoros normales? ¿Qué ropa facilita el trabajo? ¿Cuántas mudas conviene dejar?",
+      "last_h2": "Espera que la habilidad se vea diferente según el lugar durante un tiempo",
+      "ending_3_paragraphs": "Evita usar un entorno contra el niño en el otro: “En el cole sí lo haces, así que aquí podrías si quisieras”. Esa frase convierte una diferencia contextual en un problema de voluntad. Es más útil preguntar qué apoyo cambia y si algo se puede trasladar. Si la diferencia se mantiene y genera estrés, revisad juntos. Quizá en un lugar hay demasiados recordatorios, quizá la ropa complica o quizá el niño simplemente necesita tiempo para conectar ambas rutinas. La meta no es que todos los adultos ejecuten un protocolo perfecto. Es que el niño practique una habilidad emergente en dos entornos y que haya suficiente comunicación para que cruzar la puerta del daycare no signifique entrar en reglas completamente distintas.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -19137,41 +19130,40 @@
       "translation_group": "080-potty-refusal-avoid-power-struggle",
       "language": "es",
       "title": "Resistencia a sentarse en el orinal: cómo evitar convertirlo en una lucha de poder",
-      "words": 541,
-      "paragraphs": 14,
+      "words": 744,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 7.39,
+      "h2_density_per_1000_words": 5.38,
       "h2s": [
-        "Primero averigua qué parte está rechazando",
-        "Reduce invitaciones y hazlas más previsibles",
-        "Evita que sentarse sea la condición para recibir atención o aprobación",
-        "A veces una pausa protege mejor el aprendizaje"
+        "Averigua qué parte de la rutina está rechazando realmente",
+        "Reduce las propuestas y hazlas más previsibles",
+        "Quita peso emocional a las sentadas que sí ocurren",
+        "Reconoce cuándo bajar presión o hacer una pausa devuelve espacio al aprendizaje"
       ],
       "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 36.4,
+      "bold_spans": 4,
+      "avg_paragraph_words": 39.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 2,
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
         "puede": 14,
         "importante": 0,
         "clave": 0
       },
-      "opening": "“Vamos a sentarnos un momento.” “No.” Lo vuelves a intentar antes de salir. No. Antes del baño. No. Después de cenar. No. En pocos días, el orinal puede convertirse en una palabra que activa oposición antes de que el niño siquiera piense si necesita usarlo.",
-      "opening_14_words": "Vamos a sentarnos un momento No Lo vuelves a intentar antes de salir No",
-      "intro_3_paragraphs": "“Vamos a sentarnos un momento.” “No.” Lo vuelves a intentar antes de salir. No. Antes del baño. No. Después de cenar. No. En pocos días, el orinal puede convertirse en una palabra que activa oposición antes de que el niño siquiera piense si necesita usarlo. Cuando sentarse se convierte en un pulso, insistir más veces no siempre enseña más. A veces solo fortalece la asociación entre baño y pérdida de control. “No quiero el orinal” puede significar muchas cosas: no quiere parar de jugar, no le gusta sentirse observado, el asiento le resulta incómodo, prefiere el inodoro, no entiende por qué tiene que sentarse sin necesidad o simplemente ha descubierto que este es un lugar donde puede decir que no.",
-      "last_h2": "A veces una pausa protege mejor el aprendizaje",
-      "ending_3_paragraphs": "Si el niño llora al ver el orinal, huye cada vez que lo mencionas o la familia pasa el día entero negociando baños, puede ser razonable reducir completamente la presión durante un tiempo. El orinal puede quedarse visible sin ser una tarea constante. Una pausa no borra las habilidades que ya tiene. Puede permitir que maduren comunicación, conciencia corporal o disposición sin que cada avance tenga que ocurrir bajo observación adulta. El objetivo del potty training no es conseguir que un niño se siente porque el adulto ganó la discusión. Es que, con el tiempo, pueda reconocer una necesidad y usar el baño como una herramienta propia.",
-      "risk_score": 5,
+      "opening": "“Vamos a sentarnos un momento.” “No.” Antes de salir: no. Antes del baño: no. Después de cenar: no. En pocos días, el orinal puede convertirse en una señal que activa resistencia antes de que el niño siquiera piense si necesita usarlo.",
+      "opening_14_words": "Vamos a sentarnos un momento No Antes de salir no Antes del baño no",
+      "intro_3_paragraphs": "“Vamos a sentarnos un momento.” “No.” Antes de salir: no. Antes del baño: no. Después de cenar: no. En pocos días, el orinal puede convertirse en una señal que activa resistencia antes de que el niño siquiera piense si necesita usarlo. Cuando sentarse se convierte en un pulso, preguntar más veces no necesariamente produce más aprendizaje. Puede reforzar la asociación entre baño y un adulto intentando controlar lo que ocurre con su cuerpo. La tarea útil pasa a ser separar de nuevo la habilidad de la lucha. “No quiero el orinal” puede esconder problemas distintos. Quizá no quiere dejar el juego, no le gusta sentirse observado, el asiento le resulta incómodo, prefiere el inodoro, le molesta la ropa o no entiende por qué debe sentarse cuando no siente necesidad.",
+      "last_h2": "Reconoce cuándo bajar presión o hacer una pausa devuelve espacio al aprendizaje",
+      "ending_3_paragraphs": "Una pausa no borra lo aprendido. La comunicación, la conciencia corporal, la ropa y la familiaridad pueden seguir avanzando. Al volver, podéis cambiar el contexto en lugar de repetir el mismo conflicto con más determinación. Durante la pausa, evita presentarla como derrota o advertencia de “ya volveremos cuando quieras colaborar”. Basta con dejar que el baño vuelva a ser algo ordinario. La meta es una habilidad útil para la vida, no ganar un calendario. El potty training no tiene éxito porque un adulto finalmente consigue que el niño se siente. Tiene sentido cuando el niño va reconociendo una necesidad, entiende para qué sirve el baño y participa cada vez con más propiedad. Proteger esa sensación de autonomía suele valer más que ganar una sentada adicional hoy.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -28671,12 +28663,11 @@
   "common_ngrams": [
     {
       "ngram": "does not need to become a",
-      "count": 16,
+      "count": 15,
       "files": [
         "content/articles/en/001-respectful-parenting.json",
         "content/articles/en/024-toddler-yelling-respectful-parenting.json",
         "content/articles/en/045-prepare-toddler-for-new-sibling.json",
-        "content/articles/en/071-kids-snack-routine-without-replacing-meals.json",
         "content/articles/en/089-daycare-vs-nanny-family-fit.json",
         "content/articles/en/092-preschool-mornings-less-rushed.json",
         "content/articles/en/1029-missing-friendships-and-plans-before-kids.json",
@@ -28708,19 +28699,19 @@
       ]
     },
     {
-      "ngram": "it does not need to become",
+      "ngram": "the goal is not to prove",
       "count": 10,
       "files": [
-        "content/articles/en/022-child-hits-without-aggressive-label.json",
-        "content/articles/en/045-prepare-toddler-for-new-sibling.json",
-        "content/articles/en/071-kids-snack-routine-without-replacing-meals.json",
-        "content/articles/en/072-child-throws-food-without-mealtime-battle.json",
-        "content/articles/en/089-daycare-vs-nanny-family-fit.json",
-        "content/articles/en/1003-guilt-enjoying-time-alone.json",
-        "content/articles/en/1029-missing-friendships-and-plans-before-kids.json",
-        "content/articles/en/1031-motherhood-changed-my-personality.json",
-        "content/articles/en/104-bedtime-resistance-negotiation.json",
-        "content/articles/en/133-no-nap-days-without-moving-whole-schedule.json"
+        "content/articles/en/018-baby-led-feeding-table-autonomy.json",
+        "content/articles/en/046-share-parenting-mental-load-as-a-couple.json",
+        "content/articles/en/074-morning-exit-routine-with-kids-without-yelling.json",
+        "content/articles/en/081-potty-to-toilet-gradual-transition.json",
+        "content/articles/en/095-road-trip-kids-stops-entertainment-packing.json",
+        "content/articles/en/1024-missing-spontaneity-after-motherhood.json",
+        "content/articles/en/1041-pressure-to-be-patient-mom-all-the-time.json",
+        "content/articles/en/1128-constant-reassurance-never-lasts-pregnancy.json",
+        "content/articles/en/1150-maintain-identity-during-pregnancy.json",
+        "content/articles/en/116-child-keeps-getting-out-of-bed.json"
       ]
     },
     {
@@ -28748,25 +28739,10 @@
         "content/articles/en/032-toddler-routines-structure-without-rigidity.json",
         "content/articles/en/065-respectful-weaning-connection-boundaries.json",
         "content/articles/en/070-desserts-sweets-boundaries-not-reward.json",
-        "content/articles/en/072-child-throws-food-without-mealtime-battle.json",
+        "content/articles/en/073-eating-out-with-toddlers-easier.json",
         "content/articles/en/1019-nothing-to-talk-about-except-kids.json",
         "content/articles/en/107-recognizable-sleep-cues-when-days-vary.json",
         "content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json"
-      ]
-    },
-    {
-      "ngram": "the goal is not to prove",
-      "count": 9,
-      "files": [
-        "content/articles/en/018-baby-led-feeding-table-autonomy.json",
-        "content/articles/en/046-share-parenting-mental-load-as-a-couple.json",
-        "content/articles/en/081-potty-to-toilet-gradual-transition.json",
-        "content/articles/en/095-road-trip-kids-stops-entertainment-packing.json",
-        "content/articles/en/1024-missing-spontaneity-after-motherhood.json",
-        "content/articles/en/1041-pressure-to-be-patient-mom-all-the-time.json",
-        "content/articles/en/1128-constant-reassurance-never-lasts-pregnancy.json",
-        "content/articles/en/1150-maintain-identity-during-pregnancy.json",
-        "content/articles/en/116-child-keeps-getting-out-of-bed.json"
       ]
     },
     {
@@ -28800,21 +28776,6 @@
       ]
     },
     {
-      "ngram": "you do not need to make",
-      "count": 9,
-      "files": [
-        "content/articles/en/011-night-wakings-respectful-response.json",
-        "content/articles/en/035-teach-waiting-without-demanding-patience.json",
-        "content/articles/en/072-child-throws-food-without-mealtime-battle.json",
-        "content/articles/en/099-first-birthday-family-centered.json",
-        "content/articles/en/1037-more-protective-than-expected.json",
-        "content/articles/en/1043-pressure-to-create-special-memories-for-kids.json",
-        "content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json",
-        "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json",
-        "content/articles/en/1143-keep-pregnancy-private-family-wants-tell.json"
-      ]
-    },
-    {
       "ngram": "you do not need to prove",
       "count": 9,
       "files": [
@@ -28844,6 +28805,20 @@
       ]
     },
     {
+      "ngram": "it does not need to become",
+      "count": 8,
+      "files": [
+        "content/articles/en/022-child-hits-without-aggressive-label.json",
+        "content/articles/en/045-prepare-toddler-for-new-sibling.json",
+        "content/articles/en/089-daycare-vs-nanny-family-fit.json",
+        "content/articles/en/1003-guilt-enjoying-time-alone.json",
+        "content/articles/en/1029-missing-friendships-and-plans-before-kids.json",
+        "content/articles/en/1031-motherhood-changed-my-personality.json",
+        "content/articles/en/104-bedtime-resistance-negotiation.json",
+        "content/articles/en/133-no-nap-days-without-moving-whole-schedule.json"
+      ]
+    },
+    {
       "ngram": "no tiene por qué convertirse en",
       "count": 8,
       "files": [
@@ -28855,6 +28830,20 @@
         "content/articles/es/1089-aceptar-semana-mala-sin-pensar-familia-mal.json",
         "content/articles/es/1125-miedo-comprar-cosas-bebe-demasiado-pronto.json",
         "content/articles/es/1144-familiar-anuncia-embarazo-antes-que-tu.json"
+      ]
+    },
+    {
+      "ngram": "you do not need to make",
+      "count": 8,
+      "files": [
+        "content/articles/en/011-night-wakings-respectful-response.json",
+        "content/articles/en/035-teach-waiting-without-demanding-patience.json",
+        "content/articles/en/099-first-birthday-family-centered.json",
+        "content/articles/en/1037-more-protective-than-expected.json",
+        "content/articles/en/1043-pressure-to-create-special-memories-for-kids.json",
+        "content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json",
+        "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json",
+        "content/articles/en/1143-keep-pregnancy-private-family-wants-tell.json"
       ]
     },
     {
@@ -28895,19 +28884,6 @@
         "content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json",
         "content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json",
         "content/articles/en/146-guilt-changing-sleep-routine.json"
-      ]
-    },
-    {
-      "ngram": "does not have to become a",
-      "count": 7,
-      "files": [
-        "content/articles/en/049-care-for-relationship-after-kids-without-another-chore.json",
-        "content/articles/en/071-kids-snack-routine-without-replacing-meals.json",
-        "content/articles/en/1001-mom-guilt.json",
-        "content/articles/en/1023-nostalgia-childfree-life-exhausting-season.json",
-        "content/articles/en/1058-not-wanting-kid-activities-every-weekend.json",
-        "content/articles/en/1086-end-hard-day-without-judging-motherhood.json",
-        "content/articles/en/1106-want-pregnancy-to-end-feel-guilty.json"
       ]
     },
     {
@@ -28989,6 +28965,19 @@
       ]
     },
     {
+      "ngram": "your child does not have to",
+      "count": 7,
+      "files": [
+        "content/articles/en/010-respectful-limits-without-yelling.json",
+        "content/articles/en/026-help-child-accept-no.json",
+        "content/articles/en/033-power-struggles-young-children.json",
+        "content/articles/en/075-after-school-daycare-home-routine.json",
+        "content/articles/en/083-kids-refuse-getting-dressed-reduce-battles.json",
+        "content/articles/en/1047-pressure-not-to-repeat-your-parents-mistakes.json",
+        "content/articles/en/112-bedtime-story-routine-anchor.json"
+      ]
+    },
+    {
       "ngram": "a las tres de la mañana",
       "count": 6,
       "files": [
@@ -28998,6 +28987,18 @@
         "content/articles/es/109-noches-dificiles-sin-cambiar-estrategia-cada-dia.json",
         "content/articles/es/1117-miedo-relacion-cambie-para-siempre-despues-bebe.json",
         "content/articles/es/1119-miedo-no-sentir-suficiente-amor-bebe-cuando-nazca.json"
+      ]
+    },
+    {
+      "ngram": "and you do not have to",
+      "count": 6,
+      "files": [
+        "content/articles/en/001-respectful-parenting.json",
+        "content/articles/en/037-validate-emotions-without-saying-yes.json",
+        "content/articles/en/078-potty-training-away-from-home.json",
+        "content/articles/en/1057-ways-to-connect-with-kids-you-enjoy-too.json",
+        "content/articles/en/1124-waiting-between-pregnancy-appointments.json",
+        "content/articles/en/114-fear-being-alone-at-bedtime.json"
       ]
     },
     {
@@ -29022,6 +29023,30 @@
         "content/articles/en/112-bedtime-story-routine-anchor.json",
         "content/articles/en/123-weekend-sleep-routine-without-clock-slavery.json",
         "content/articles/en/135-sleep-routines-two-children-different-ages.json"
+      ]
+    },
+    {
+      "ngram": "does not have to become a",
+      "count": 6,
+      "files": [
+        "content/articles/en/049-care-for-relationship-after-kids-without-another-chore.json",
+        "content/articles/en/1001-mom-guilt.json",
+        "content/articles/en/1023-nostalgia-childfree-life-exhausting-season.json",
+        "content/articles/en/1058-not-wanting-kid-activities-every-weekend.json",
+        "content/articles/en/1086-end-hard-day-without-judging-motherhood.json",
+        "content/articles/en/1106-want-pregnancy-to-end-feel-guilty.json"
+      ]
+    },
+    {
+      "ngram": "goal is not a child who",
+      "count": 6,
+      "files": [
+        "content/articles/en/017-cooperation-without-repeating.json",
+        "content/articles/en/025-child-wont-clean-up-cooperation.json",
+        "content/articles/en/026-help-child-accept-no.json",
+        "content/articles/en/029-independent-play-without-pressure.json",
+        "content/articles/en/076-potty-training-readiness-without-pressure.json",
+        "content/articles/en/084-small-responsibilities-without-constant-rewards.json"
       ]
     },
     {
@@ -29058,18 +29083,6 @@
         "content/articles/en/1071-always-available-to-someone-as-mom.json",
         "content/articles/en/1105-not-enjoy-pregnancy-even-wanted.json",
         "content/articles/en/1143-keep-pregnancy-private-family-wants-tell.json"
-      ]
-    },
-    {
-      "ngram": "your child does not have to",
-      "count": 6,
-      "files": [
-        "content/articles/en/010-respectful-limits-without-yelling.json",
-        "content/articles/en/026-help-child-accept-no.json",
-        "content/articles/en/033-power-struggles-young-children.json",
-        "content/articles/en/083-kids-refuse-getting-dressed-reduce-battles.json",
-        "content/articles/en/1047-pressure-not-to-repeat-your-parents-mistakes.json",
-        "content/articles/en/112-bedtime-story-routine-anchor.json"
       ]
     }
   ]

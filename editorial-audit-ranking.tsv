@@ -1,7 +1,5 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
-en	77	6	535	4	7.48	0.0	0	13	Potty training accidents: how to respond without shame or punishment	body_under_650_words,high_h2_density,many_question_paragraphs	content/articles/en/077-potty-training-accidents-without-shame-punishment.json
 es	37	6	647	5	7.73	0.045	1	22	Cómo validar emociones sin decir sí a todo	body_under_650_words,high_h2_density,repeated_no_significa_pattern	content/articles/es/037-validar-emociones-sin-decir-si-todo.json
-es	77	6	538	4	7.43	0.0	0	13	Accidentes durante el potty training: cómo responder sin vergüenza ni castigos	body_under_650_words,high_h2_density,many_question_paragraphs	content/articles/es/077-accidentes-potty-training-sin-verguenza-castigos.json
 en	13	5	780	6	7.69	0.04	1	25	Sleep Regressions: How to Get Through Them Without Changing Everything	body_under_800_words,high_h2_density,many_question_paragraphs	content/articles/en/013-sleep-regressions-calm.json
 en	21	5	574	5	8.71	0.053	1	19	Baby naps: how to build a flexible routine without watching the clock all day	body_under_650_words,high_h2_density	content/articles/en/021-baby-naps-flexible-routine.json
 en	22	5	540	5	9.26	0.167	1	18	What to do when your child hits without labeling them as aggressive	body_under_650_words,high_h2_density	content/articles/en/022-child-hits-without-aggressive-label.json
@@ -24,10 +22,6 @@ en	49	5	625	5	8.0	0.0	0	21	How to Take Care of Your Relationship After Kids With
 en	50	5	560	5	8.93	0.056	1	18	How to Set Boundaries With Grandparents and Family Without Breaking the Relationship	body_under_650_words,high_h2_density	content/articles/en/050-boundaries-with-grandparents-without-breaking-relationship.json
 en	54	5	614	5	8.14	0.0	0	16	Newborn Routine: How Structure Can Help Without Expecting Predictability	body_under_650_words,high_h2_density	content/articles/en/054-newborn-routine-structure-without-predictability.json
 en	55	5	626	5	7.99	0.0	0	16	How to Leave the House With a Baby Without Packing Half the House	body_under_650_words,high_h2_density	content/articles/en/055-leaving-house-with-baby-without-packing-everything.json
-en	76	5	554	4	7.22	0.0	0	14	Potty training without pressure: practical signs it may be a good time	body_under_650_words,high_h2_density	content/articles/en/076-potty-training-readiness-without-pressure.json
-en	78	5	562	4	7.12	0.0	0	14	Potty training away from home: how to stay calm	body_under_650_words,high_h2_density	content/articles/en/078-potty-training-away-from-home.json
-en	79	5	555	4	7.21	0.0	0	14	Potty training and daycare: how to coordinate expectations with caregivers	body_under_650_words,high_h2_density	content/articles/en/079-potty-training-daycare-coordinate-expectations.json
-en	80	5	529	4	7.56	0.0	0	14	Refusing to sit on the potty: how to avoid a power struggle	body_under_650_words,high_h2_density	content/articles/en/080-potty-refusal-avoid-power-struggle.json
 en	1022	5	586	5	8.53	0.056	1	18	Loving your kids and missing your old freedom at the same time	body_under_650_words,high_h2_density	content/articles/en/1022-love-kids-miss-freedom-before.json
 en	1023	5	616	5	8.12	0.1	1	20	Missing your pre-kids life during an exhausting season of parenting	body_under_650_words,high_h2_density	content/articles/en/1023-nostalgia-childfree-life-exhausting-season.json
 en	1024	5	592	5	8.45	0.05	1	20	Missing spontaneity after becoming a mom	body_under_650_words,high_h2_density	content/articles/en/1024-missing-spontaneity-after-motherhood.json
@@ -48,10 +42,6 @@ es	26	5	631	5	7.92	0.05	1	20	Cómo ayudar a un niño a aceptar un no sin ceder n
 es	44	5	640	5	7.81	0.095	1	21	Celos por la llegada de un nuevo bebé: cómo acompañar al hermano mayor	body_under_650_words,high_h2_density	content/articles/es/044-celos-llegada-nuevo-bebe-hermano-mayor.json
 es	54	5	633	5	7.9	0.0	0	16	Rutina con un recién nacido: qué puede aportar estructura sin esperar previsibilidad	body_under_650_words,high_h2_density	content/articles/es/054-rutina-recien-nacido-estructura-sin-previsibilidad.json
 es	55	5	604	5	8.28	0.0	0	16	Cómo salir de casa con un bebé sin llevar media casa en la bolsa	body_under_650_words,high_h2_density	content/articles/es/055-salir-casa-bebe-sin-llevar-media-casa.json
-es	76	5	526	4	7.6	0.0	0	14	Dejar el pañal sin presión: señales prácticas de que puede ser buen momento	body_under_650_words,high_h2_density	content/articles/es/076-dejar-panal-sin-presion-senales-buen-momento.json
-es	78	5	550	4	7.27	0.0	0	14	Potty training fuera de casa: cómo mantener la calma	body_under_650_words,high_h2_density	content/articles/es/078-potty-training-fuera-casa-mantener-calma.json
-es	79	5	546	4	7.33	0.0	0	14	Dejar el pañal y daycare: cómo coordinar expectativas con los cuidadores	body_under_650_words,high_h2_density	content/articles/es/079-dejar-panal-daycare-coordinar-expectativas.json
-es	80	5	541	4	7.39	0.0	0	14	Resistencia a sentarse en el orinal: cómo evitar convertirlo en una lucha de poder	body_under_650_words,high_h2_density	content/articles/es/080-resistencia-sentarse-orinal-sin-lucha-poder.json
 es	1023	5	625	5	8.0	0.0	0	19	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	body_under_650_words,high_h2_density	content/articles/es/1023-nostalgia-vida-sin-hijos-etapa-agotadora.json
 es	1025	5	593	5	8.43	0.05	1	20	Echar de menos poder salir de casa sin planificar nada desde que tienes hijos	body_under_650_words,high_h2_density	content/articles/es/1025-echar-menos-salir-casa-sin-planificar.json
 es	1026	5	609	5	8.21	0.045	1	22	Echar de menos el silencio después de tener hijos pequeños	body_under_650_words,high_h2_density	content/articles/es/1026-echar-menos-silencio-despues-hijos-pequenos.json
@@ -79,11 +69,6 @@ en	46	4	672	6	8.93	0.08	1	25	How to Share the Mental Load of Parenting as a Coup
 en	51	4	656	5	7.62	0.0	0	14	Postpartum Visitors: How to Set Boundaries That Protect Your New Family	body_under_800_words,high_h2_density	content/articles/en/051-postpartum-visitors-boundaries.json
 en	52	4	676	5	7.4	0.0	0	16	Postpartum Without Perfectionism: Simplifying the House, Visitors and Expectations	body_under_800_words,high_h2_density	content/articles/en/052-postpartum-without-perfectionism.json
 en	53	4	653	5	7.66	0.0	0	16	How to Organize the First Weeks With a Newborn Without Creating a Perfect Schedule	body_under_800_words,high_h2_density	content/articles/en/053-first-weeks-newborn-without-perfect-schedule.json
-en	71	4	575	4	6.96	0.0	0	13	Kids’ snacks: how to build a routine that doesn’t constantly replace meals	body_under_650_words,elevated_h2_density	content/articles/en/071-kids-snack-routine-without-replacing-meals.json
-en	72	4	625	4	6.4	0.0	0	14	When kids throw food: how to respond without turning the table into a battle	body_under_650_words,elevated_h2_density	content/articles/en/072-child-throws-food-without-mealtime-battle.json
-en	73	4	598	4	6.69	0.0	0	14	Eating out with toddlers: how to make restaurants easier	body_under_650_words,elevated_h2_density	content/articles/en/073-eating-out-with-toddlers-easier.json
-en	74	4	587	4	6.81	0.0	0	14	Morning exit routine: how to get out the door with kids without starting the day yelling	body_under_650_words,elevated_h2_density	content/articles/en/074-morning-exit-routine-with-kids-without-yelling.json
-en	75	4	580	4	6.9	0.0	0	14	After daycare or school: how to build a calmer coming-home routine	body_under_650_words,elevated_h2_density	content/articles/en/075-after-school-daycare-home-routine.json
 en	145	4	639	4	6.26	0.0	0	14	How to decide which bedtime battles are not worth having	body_under_650_words,elevated_h2_density	content/articles/en/145-choose-bedtime-battles-worth-having.json
 en	148	4	600	4	6.67	0.0	0	14	Why another family's sleep schedule may not work for yours	body_under_650_words,elevated_h2_density	content/articles/en/148-other-families-sleep-schedules-may-not-fit-yours.json
 en	149	4	646	4	6.19	0.0	0	15	How to use a sleep log without turning it into an obsession	body_under_650_words,elevated_h2_density	content/articles/en/149-use-sleep-log-without-obsession.json
@@ -141,11 +126,6 @@ es	50	4	702	6	8.55	0.091	1	22	Cómo poner límites a abuelos y familiares sin ro
 es	51	4	697	5	7.17	0.0	0	14	Visitas después del parto: cómo establecer límites que protejan a la nueva familia	body_under_800_words,high_h2_density	content/articles/es/051-visitas-despues-parto-limites.json
 es	52	4	676	5	7.4	0.0	0	16	Posparto sin perfeccionismo: cómo simplificar casa, visitas y expectativas	body_under_800_words,high_h2_density	content/articles/es/052-posparto-sin-perfeccionismo.json
 es	53	4	662	5	7.55	0.0	0	16	Cómo organizar las primeras semanas con un recién nacido sin intentar crear un horario perfecto	body_under_800_words,high_h2_density	content/articles/es/053-primeras-semanas-recien-nacido-sin-horario-perfecto.json
-es	71	4	637	4	6.28	0.0	0	13	Snacks para niños: cómo crear una rutina que no sustituya constantemente las comidas	body_under_650_words,elevated_h2_density	content/articles/es/071-snacks-ninos-rutina-sin-sustituir-comidas.json
-es	72	4	614	4	6.51	0.0	0	14	Niños que tiran la comida: cómo responder sin montar una batalla en la mesa	body_under_650_words,elevated_h2_density	content/articles/es/072-ninos-tiran-comida-sin-batalla-mesa.json
-es	73	4	607	4	6.59	0.0	0	14	Comer fuera con toddlers: cómo hacerlo más llevadero	body_under_650_words,elevated_h2_density	content/articles/es/073-comer-fuera-toddlers-mas-llevadero.json
-es	74	4	584	4	6.85	0.0	0	14	Rutina de salida por la mañana: cómo salir de casa con niños sin empezar el día gritando	body_under_650_words,elevated_h2_density	content/articles/es/074-rutina-salida-manana-sin-gritos.json
-es	75	4	579	4	6.91	0.0	0	14	Rutina de regreso a casa: cómo hacer más suaves las tardes después de daycare o escuela	body_under_650_words,elevated_h2_density	content/articles/es/075-rutina-regreso-casa-daycare-escuela.json
 es	145	4	619	4	6.46	0.0	0	14	Cómo decidir qué batallas no merece la pena librar a la hora de dormir	body_under_650_words,elevated_h2_density	content/articles/es/145-batallas-no-merecen-pena-hora-dormir.json
 es	148	4	606	4	6.6	0.0	0	14	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	body_under_650_words,elevated_h2_density	content/articles/es/148-horarios-sueno-otras-familias-no-tienen-funcionar.json
 es	149	4	647	4	6.18	0.0	0	15	Cómo usar un registro de sueño sin convertirlo en una obsesión	body_under_650_words,elevated_h2_density	content/articles/es/149-registro-sueno-sin-obsesion.json
@@ -204,6 +184,7 @@ en	65	3	675	4	5.93	0.0	0	15	Respectful weaning: how to make changes with connect
 en	68	3	680	4	5.88	0.0	0	17	Picky eating: how to reduce battles at the table	body_under_800_words,elevated_h2_density	content/articles/en/068-picky-eating-reduce-mealtime-battles.json
 en	69	3	681	4	5.87	0.056	1	18	How to introduce new foods without pressure or bribes	body_under_800_words,elevated_h2_density	content/articles/en/069-introduce-new-foods-without-pressure-bribes.json
 en	70	3	689	4	5.81	0.0	0	15	Desserts and sweets: how to set limits without turning them into a reward	body_under_800_words,elevated_h2_density	content/articles/en/070-desserts-sweets-boundaries-not-reward.json
+en	74	3	688	4	5.81	0.0	0	16	Morning exit routine: how to get out the door with kids without starting the day yelling	body_under_800_words,elevated_h2_density	content/articles/en/074-morning-exit-routine-with-kids-without-yelling.json
 en	89	3	801	6	7.49	0.0	0	21	Daycare vs nanny: which style of care may fit your family better	body_under_1050_words,high_h2_density	content/articles/en/089-daycare-vs-nanny-family-fit.json
 en	90	3	834	6	7.19	0.0	0	22	Preschool: what to look for beyond worksheets, letters, and academics	body_under_1050_words,high_h2_density	content/articles/en/090-preschool-what-to-look-for-beyond-academics.json
 en	96	3	797	5	6.27	0.0	0	18	Sleep while traveling: keep familiar cues without chasing the perfect routine	body_under_800_words,elevated_h2_density	content/articles/en/096-travel-sleep-familiar-cues.json
@@ -276,6 +257,8 @@ es	65	3	661	4	6.05	0.0	0	15	Destete respetuoso: cómo plantear el cambio con con
 es	66	3	667	4	6.0	0.0	0	15	Alimentación nocturna y reparto en pareja: cómo organizarse cuando el bebé se despierta	body_under_800_words,elevated_h2_density	content/articles/es/066-alimentacion-nocturna-reparto-pareja.json
 es	68	3	683	4	5.86	0.0	0	17	Picky eating: cómo reducir las batallas en la mesa	body_under_800_words,elevated_h2_density	content/articles/es/068-picky-eating-reducir-batallas-mesa.json
 es	69	3	651	4	6.14	0.059	1	17	Cómo presentar alimentos nuevos sin presión ni sobornos	body_under_800_words,elevated_h2_density	content/articles/es/069-presentar-alimentos-nuevos-sin-presion-sobornos.json
+es	74	3	671	4	5.96	0.0	0	16	Rutina de salida por la mañana: cómo salir de casa con niños sin empezar el día gritando	body_under_800_words,elevated_h2_density	content/articles/es/074-rutina-salida-manana-sin-gritos.json
+es	77	3	781	4	5.12	0.0	0	18	Accidentes durante el potty training: cómo responder sin vergüenza ni castigos	body_under_800_words,many_question_paragraphs	content/articles/es/077-accidentes-potty-training-sin-verguenza-castigos.json
 es	143	3	674	4	5.93	0.0	0	14	Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar	body_under_800_words,elevated_h2_density	content/articles/es/143-reducir-ayuda-dormir-sin-dejar-acompanar.json
 es	144	3	668	4	5.99	0.0	0	14	Cómo crear una rutina de sueño más sostenible para los adultos	body_under_800_words,elevated_h2_density	content/articles/es/144-rutina-sueno-sostenible-para-adultos.json
 es	146	3	653	4	6.13	0.0	0	15	Cómo manejar la culpa cuando quieres cambiar una rutina de sueño	body_under_800_words,elevated_h2_density	content/articles/es/146-culpa-cambiar-rutina-sueno.json
@@ -326,6 +309,11 @@ en	61	2	730	4	5.48	0.0	0	15	How to create a practical breastfeeding corner witho
 en	63	2	738	4	5.42	0.0	0	15	Breastfeeding in public: practical ways to feel more comfortable and prepared	body_under_800_words	content/articles/en/063-breastfeeding-in-public-feel-comfortable-prepared.json
 en	66	2	693	4	5.77	0.0	0	16	Night feeding and sharing the load: how couples can organize baby wake-ups	body_under_800_words	content/articles/en/066-night-feeding-share-load-partner.json
 en	67	2	715	4	5.59	0.0	0	16	How to organize family meals when you have a toddler	body_under_800_words	content/articles/en/067-organize-family-meals-with-toddler.json
+en	72	2	782	4	5.12	0.0	0	17	When kids throw food: how to respond without turning the table into a battle	body_under_800_words	content/articles/en/072-child-throws-food-without-mealtime-battle.json
+en	73	2	791	4	5.06	0.0	0	17	Eating out with toddlers: how to make restaurants easier	body_under_800_words	content/articles/en/073-eating-out-with-toddlers-easier.json
+en	75	2	773	4	5.17	0.0	0	18	After daycare or school: how to build a calmer coming-home routine	body_under_800_words	content/articles/en/075-after-school-daycare-home-routine.json
+en	77	2	803	4	4.98	0.0	0	18	Potty training accidents: how to respond without shame or punishment	body_under_1050_words,many_question_paragraphs	content/articles/en/077-potty-training-accidents-without-shame-punishment.json
+en	78	2	778	4	5.14	0.0	0	18	Potty training away from home: how to stay calm	body_under_800_words	content/articles/en/078-potty-training-away-from-home.json
 en	81	2	853	5	5.86	0.0	0	19	How to move from the potty to the toilet with a gradual transition	body_under_1050_words,elevated_h2_density	content/articles/en/081-potty-to-toilet-gradual-transition.json
 en	82	2	844	5	5.92	0.0	0	19	Bath time: how to turn a daily routine into a more cooperative moment	body_under_1050_words,elevated_h2_density	content/articles/en/082-bath-time-cooperation-routine.json
 en	83	2	858	5	5.83	0.0	0	19	Kids who refuse to get dressed: how to reduce the morning battles	body_under_1050_words,elevated_h2_density	content/articles/en/083-kids-refuse-getting-dressed-reduce-battles.json
@@ -415,6 +403,14 @@ es	61	2	793	4	5.04	0.0	0	15	Cómo crear un rincón de lactancia práctico sin co
 es	63	2	723	4	5.53	0.0	0	15	Dar el pecho en público: ideas para sentirte más cómoda y preparada	body_under_800_words	content/articles/es/063-dar-pecho-publico-sentirte-comoda-preparada.json
 es	67	2	726	4	5.51	0.0	0	16	Cómo organizar las comidas familiares cuando hay un toddler en casa	body_under_800_words	content/articles/es/067-organizar-comidas-familiares-toddler.json
 es	70	2	709	4	5.64	0.0	0	16	Postres y dulces: cómo poner límites sin convertirlos en premio	body_under_800_words	content/articles/es/070-postres-dulces-limites-sin-premio.json
+es	71	2	777	4	5.15	0.0	0	17	Snacks para niños: cómo crear una rutina que no sustituya constantemente las comidas	body_under_800_words	content/articles/es/071-snacks-ninos-rutina-sin-sustituir-comidas.json
+es	72	2	736	4	5.43	0.0	0	17	Niños que tiran la comida: cómo responder sin montar una batalla en la mesa	body_under_800_words	content/articles/es/072-ninos-tiran-comida-sin-batalla-mesa.json
+es	73	2	741	4	5.4	0.0	0	17	Comer fuera con toddlers: cómo hacerlo más llevadero	body_under_800_words	content/articles/es/073-comer-fuera-toddlers-mas-llevadero.json
+es	75	2	719	4	5.56	0.0	0	18	Rutina de regreso a casa: cómo hacer más suaves las tardes después de daycare o escuela	body_under_800_words	content/articles/es/075-rutina-regreso-casa-daycare-escuela.json
+es	76	2	781	4	5.12	0.0	0	18	Dejar el pañal sin presión: señales prácticas de que puede ser buen momento	body_under_800_words	content/articles/es/076-dejar-panal-sin-presion-senales-buen-momento.json
+es	78	2	725	4	5.52	0.0	0	18	Potty training fuera de casa: cómo mantener la calma	body_under_800_words	content/articles/es/078-potty-training-fuera-casa-mantener-calma.json
+es	79	2	751	4	5.33	0.0	0	18	Dejar el pañal y daycare: cómo coordinar expectativas con los cuidadores	body_under_800_words	content/articles/es/079-dejar-panal-daycare-coordinar-expectativas.json
+es	80	2	744	4	5.38	0.0	0	18	Resistencia a sentarse en el orinal: cómo evitar convertirlo en una lucha de poder	body_under_800_words	content/articles/es/080-resistencia-sentarse-orinal-sin-lucha-poder.json
 es	82	2	849	5	5.89	0.0	0	19	Hora del baño: cómo convertir una rutina diaria en un momento de cooperación	body_under_1050_words,elevated_h2_density	content/articles/es/082-hora-bano-cooperacion-rutina.json
 es	83	2	822	5	6.08	0.0	0	19	Niños que no quieren vestirse: cómo reducir las peleas de cada mañana	body_under_1050_words,elevated_h2_density	content/articles/es/083-ninos-no-quieren-vestirse-reducir-peleas.json
 es	84	2	838	5	5.97	0.0	0	19	Cómo enseñar pequeñas responsabilidades sin premios constantes	body_under_1050_words,elevated_h2_density	content/articles/es/084-pequenas-responsabilidades-sin-premios-constantes.json
@@ -499,6 +495,10 @@ es	1141	2	723	4	5.53	0.0	0	14	No querer hacer fotos de embarazo y sentir que deb
 es	1142	2	695	4	5.76	0.0	0	14	No querer compartir tu embarazo en redes sociales	body_under_800_words	content/articles/es/1142-no-querer-compartir-embarazo-redes-sociales.json
 es	1144	2	704	4	5.68	0.0	0	14	Qué hacer cuando un familiar anuncia tu embarazo antes que tú	body_under_800_words	content/articles/es/1144-familiar-anuncia-embarazo-antes-que-tu.json
 es	1149	2	692	4	5.78	0.0	0	14	Cuando todo gira alrededor del bebé y echas de menos que te pregunten por ti	body_under_800_words	content/articles/es/1149-todo-gira-bebe-echas-menos-pregunten-por-ti.json
+en	71	1	863	4	4.63	0.0	0	17	Kids’ snacks: how to build a routine that doesn’t constantly replace meals	body_under_1050_words	content/articles/en/071-kids-snack-routine-without-replacing-meals.json
+en	76	1	828	4	4.83	0.0	0	18	Potty training without pressure: practical signs it may be a good time	body_under_1050_words	content/articles/en/076-potty-training-readiness-without-pressure.json
+en	79	1	800	4	5.0	0.0	0	18	Potty training and daycare: how to coordinate expectations with caregivers	body_under_1050_words	content/articles/en/079-potty-training-daycare-coordinate-expectations.json
+en	80	1	804	4	4.98	0.0	0	18	Refusing to sit on the potty: how to avoid a power struggle	body_under_1050_words	content/articles/en/080-potty-refusal-avoid-power-struggle.json
 en	91	1	956	5	5.23	0.0	0	15	How to talk with teachers when you disagree with how behavior was handled	body_under_1050_words	content/articles/en/091-talk-teachers-disagree-behavior-handling.json
 en	93	1	959	5	5.21	0.0	0	17	Flying with a baby: packing, logistics, and realistic expectations	body_under_1050_words	content/articles/en/093-flying-baby-logistics-packing.json
 en	94	1	900	5	5.56	0.0	0	17	Flying with a toddler: how to prepare for the trip	body_under_1050_words	content/articles/en/094-flying-toddler-prepare-trip.json

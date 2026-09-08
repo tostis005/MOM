@@ -1,6 +1,5 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
 37	037-validate-emotions-without-saying-yes	6	6	5	647	639	5	5	0.045	0.091	Cómo validar emociones sin decir sí a todo	How to validate feelings without saying yes to everything
-77	077-potty-training-accidents-without-shame-punishment	6	6	6	538	535	4	4	0.0	0.0	Accidentes durante el potty training: cómo responder sin vergüenza ni castigos	Potty training accidents: how to respond without shame or punishment
 13	013-sleep-regressions-calm	5	3	5	836	780	6	6	0.037	0.04	Regresiones del sueño: cómo atravesarlas con calma	Sleep Regressions: How to Get Through Them Without Changing Everything
 21	021-baby-naps-flexible-routine	5	4	5	671	574	5	5	0.043	0.053	Siestas del bebé: cómo crear una rutina flexible sin vivir pendiente del reloj	Baby naps: how to build a flexible routine without watching the clock all day
 22	022-child-hits-without-aggressive-label	5	4	5	716	540	6	5	0.154	0.167	Cómo acompañar a un niño que pega sin etiquetarlo como agresivo	What to do when your child hits without labeling them as aggressive
@@ -22,10 +21,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 50	050-boundaries-with-grandparents-without-breaking-relationship	5	4	5	702	560	6	5	0.091	0.056	Cómo poner límites a abuelos y familiares sin romper la relación	How to Set Boundaries With Grandparents and Family Without Breaking the Relationship
 54	054-newborn-routine-structure-without-predictability	5	5	5	633	614	5	5	0.0	0.0	Rutina con un recién nacido: qué puede aportar estructura sin esperar previsibilidad	Newborn Routine: How Structure Can Help Without Expecting Predictability
 55	055-leaving-house-with-baby-light-bag	5	5	5	604	626	5	5	0.0	0.0	Cómo salir de casa con un bebé sin llevar media casa en la bolsa	How to Leave the House With a Baby Without Packing Half the House
-76	076-potty-training-readiness-without-pressure	5	5	5	526	554	4	4	0.0	0.0	Dejar el pañal sin presión: señales prácticas de que puede ser buen momento	Potty training without pressure: practical signs it may be a good time
-78	078-potty-training-away-from-home	5	5	5	550	562	4	4	0.0	0.0	Potty training fuera de casa: cómo mantener la calma	Potty training away from home: how to stay calm
-79	079-potty-training-daycare-coordinate-expectations	5	5	5	546	555	4	4	0.0	0.0	Dejar el pañal y daycare: cómo coordinar expectativas con los cuidadores	Potty training and daycare: how to coordinate expectations with caregivers
-80	080-potty-refusal-avoid-power-struggle	5	5	5	541	529	4	4	0.0	0.0	Resistencia a sentarse en el orinal: cómo evitar convertirlo en una lucha de poder	Refusing to sit on the potty: how to avoid a power struggle
 1022	1022-love-kids-miss-freedom-before	5	4	5	687	586	6	5	0.045	0.056	Querer a tus hijos y echar de menos la libertad de antes al mismo tiempo	Loving your kids and missing your old freedom at the same time
 1023	1023-nostalgia-childfree-life-exhausting-season	5	5	5	625	616	5	5	0.0	0.1	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	Missing your pre-kids life during an exhausting season of parenting
 1024	1024-missing-spontaneity-after-motherhood	5	4	5	653	592	5	5	0.095	0.05	Echar de menos la espontaneidad después de convertirte en madre	Missing spontaneity after becoming a mom
@@ -56,11 +51,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 51	051-postpartum-visits-boundaries	4	4	4	697	656	5	5	0.0	0.0	Visitas después del parto: cómo establecer límites que protejan a la nueva familia	Postpartum Visitors: How to Set Boundaries That Protect Your New Family
 52	052-postpartum-without-perfectionism	4	4	4	676	676	5	5	0.0	0.0	Posparto sin perfeccionismo: cómo simplificar casa, visitas y expectativas	Postpartum Without Perfectionism: Simplifying the House, Visitors and Expectations
 53	053-first-weeks-newborn-without-perfect-schedule	4	4	4	662	653	5	5	0.0	0.0	Cómo organizar las primeras semanas con un recién nacido sin intentar crear un horario perfecto	How to Organize the First Weeks With a Newborn Without Creating a Perfect Schedule
-71	071-kids-snack-routine-without-replacing-meals	4	4	4	637	575	4	4	0.0	0.0	Snacks para niños: cómo crear una rutina que no sustituya constantemente las comidas	Kids’ snacks: how to build a routine that doesn’t constantly replace meals
-72	072-child-throws-food-without-mealtime-battle	4	4	4	614	625	4	4	0.0	0.0	Niños que tiran la comida: cómo responder sin montar una batalla en la mesa	When kids throw food: how to respond without turning the table into a battle
-73	073-eating-out-with-toddlers-easier	4	4	4	607	598	4	4	0.0	0.0	Comer fuera con toddlers: cómo hacerlo más llevadero	Eating out with toddlers: how to make restaurants easier
-74	074-morning-exit-routine-with-kids-without-yelling	4	4	4	584	587	4	4	0.0	0.0	Rutina de salida por la mañana: cómo salir de casa con niños sin empezar el día gritando	Morning exit routine: how to get out the door with kids without starting the day yelling
-75	075-after-school-daycare-home-routine	4	4	4	579	580	4	4	0.0	0.0	Rutina de regreso a casa: cómo hacer más suaves las tardes después de daycare o escuela	After daycare or school: how to build a calmer coming-home routine
 145	145-choose-bedtime-battles-worth-having	4	4	4	619	639	4	4	0.0	0.0	Cómo decidir qué batallas no merece la pena librar a la hora de dormir	How to decide which bedtime battles are not worth having
 148	148-other-families-sleep-schedules-may-not-fit-yours	4	4	4	606	600	4	4	0.0	0.0	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	Why another family's sleep schedule may not work for yours
 149	149-use-sleep-log-without-obsession	4	4	4	647	646	4	4	0.0	0.0	Cómo usar un registro de sueño sin convertirlo en una obsesión	How to use a sleep log without turning it into an obsession
@@ -124,6 +114,8 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 68	068-picky-eating-reduce-battles	3	3	3	683	680	4	4	0.0	0.0	Picky eating: cómo reducir las batallas en la mesa	Picky eating: how to reduce battles at the table
 69	069-new-foods-without-pressure	3	3	3	651	681	4	4	0.059	0.056	Cómo presentar alimentos nuevos sin presión ni sobornos	How to introduce new foods without pressure or bribes
 70	070-desserts-sweets-boundaries-not-reward	3	2	3	709	689	4	4	0.0	0.0	Postres y dulces: cómo poner límites sin convertirlos en premio	Desserts and sweets: how to set limits without turning them into a reward
+74	074-morning-exit-routine-with-kids-without-yelling	3	3	3	671	688	4	4	0.0	0.0	Rutina de salida por la mañana: cómo salir de casa con niños sin empezar el día gritando	Morning exit routine: how to get out the door with kids without starting the day yelling
+77	077-potty-training-accidents-without-shame-punishment	3	3	2	781	803	4	4	0.0	0.0	Accidentes durante el potty training: cómo responder sin vergüenza ni castigos	Potty training accidents: how to respond without shame or punishment
 89	089-daycare-vs-nanny-family-fit	3	2	3	881	801	6	6	0.0	0.0	Daycare vs nanny: qué estilo de cuidado puede encajar mejor con vuestra familia	Daycare vs nanny: which style of care may fit your family better
 90	090-preschool-what-to-look-for-beyond-academics	3	2	3	869	834	6	6	0.0	0.0	Preschool: qué mirar más allá de fichas, letras y actividades académicas	Preschool: what to look for beyond worksheets, letters, and academics
 96	096-travel-sleep-familiar-cues-not-perfect-routine	3	2	3	826	797	5	5	0.0	0.0	Sueño de viaje: cómo mantener algunas señales familiares sin perseguir la rutina perfecta	Sleep while traveling: keep familiar cues without chasing the perfect routine
@@ -184,6 +176,14 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 61	061-practical-breastfeeding-corner	2	2	2	793	730	4	4	0.0	0.0	Cómo crear un rincón de lactancia práctico sin comprar accesorios innecesarios	How to create a practical breastfeeding corner without buying unnecessary gear
 63	063-breastfeeding-in-public-comfort	2	2	2	723	738	4	4	0.0	0.0	Dar el pecho en público: ideas para sentirte más cómoda y preparada	Breastfeeding in public: practical ways to feel more comfortable and prepared
 67	067-family-meals-with-toddler	2	2	2	726	715	4	4	0.0	0.0	Cómo organizar las comidas familiares cuando hay un toddler en casa	How to organize family meals when you have a toddler
+71	071-kids-snack-routine-without-replacing-meals	2	2	1	777	863	4	4	0.0	0.0	Snacks para niños: cómo crear una rutina que no sustituya constantemente las comidas	Kids’ snacks: how to build a routine that doesn’t constantly replace meals
+72	072-child-throws-food-without-mealtime-battle	2	2	2	736	782	4	4	0.0	0.0	Niños que tiran la comida: cómo responder sin montar una batalla en la mesa	When kids throw food: how to respond without turning the table into a battle
+73	073-eating-out-with-toddlers-easier	2	2	2	741	791	4	4	0.0	0.0	Comer fuera con toddlers: cómo hacerlo más llevadero	Eating out with toddlers: how to make restaurants easier
+75	075-after-school-daycare-home-routine	2	2	2	719	773	4	4	0.0	0.0	Rutina de regreso a casa: cómo hacer más suaves las tardes después de daycare o escuela	After daycare or school: how to build a calmer coming-home routine
+76	076-potty-training-readiness-without-pressure	2	2	1	781	828	4	4	0.0	0.0	Dejar el pañal sin presión: señales prácticas de que puede ser buen momento	Potty training without pressure: practical signs it may be a good time
+78	078-potty-training-away-from-home	2	2	2	725	778	4	4	0.0	0.0	Potty training fuera de casa: cómo mantener la calma	Potty training away from home: how to stay calm
+79	079-potty-training-daycare-coordinate-expectations	2	2	1	751	800	4	4	0.0	0.0	Dejar el pañal y daycare: cómo coordinar expectativas con los cuidadores	Potty training and daycare: how to coordinate expectations with caregivers
+80	080-potty-refusal-avoid-power-struggle	2	2	1	744	804	4	4	0.0	0.0	Resistencia a sentarse en el orinal: cómo evitar convertirlo en una lucha de poder	Refusing to sit on the potty: how to avoid a power struggle
 81	081-potty-to-toilet-gradual-transition	2	1	2	890	853	5	5	0.0	0.0	Cómo pasar del orinal al inodoro con una transición gradual	How to move from the potty to the toilet with a gradual transition
 82	082-bath-time-cooperation-routine	2	2	2	849	844	5	5	0.0	0.0	Hora del baño: cómo convertir una rutina diaria en un momento de cooperación	Bath time: how to turn a daily routine into a more cooperative moment
 83	083-kids-refuse-getting-dressed-reduce-battles	2	2	2	822	858	5	5	0.0	0.0	Niños que no quieren vestirse: cómo reducir las peleas de cada mañana	Kids who refuse to get dressed: how to reduce the morning battles

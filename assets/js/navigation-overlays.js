@@ -39,6 +39,12 @@
     document.body.classList.add('mom-overlay-open');
 
     window.requestAnimationFrame(function () {
+      var autofocus = overlay.querySelector('[data-overlay-autofocus]');
+      if (autofocus && typeof autofocus.focus === 'function') {
+        autofocus.focus();
+        return;
+      }
+
       var focusable = getFocusable(overlay);
       if (focusable.length) focusable[0].focus();
     });

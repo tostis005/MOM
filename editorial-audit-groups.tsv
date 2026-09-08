@@ -1,7 +1,5 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
-37	037-validate-emotions-without-saying-yes	6	6	5	647	639	5	5	0.045	0.091	Cómo validar emociones sin decir sí a todo	How to validate feelings without saying yes to everything
 13	013-sleep-regressions-calm	5	3	5	836	780	6	6	0.037	0.04	Regresiones del sueño: cómo atravesarlas con calma	Sleep Regressions: How to Get Through Them Without Changing Everything
-35	035-teach-waiting-without-demanding-patience	5	4	5	674	633	5	5	0.0	0.0	Cómo enseñar a esperar sin exigir una paciencia que todavía está aprendiendo	How to teach waiting without expecting patience your child is still learning
 42	042-teach-child-to-apologize-without-forcing	5	3	5	807	603	6	5	0.077	0.095	Cómo enseñar a pedir perdón sin forzar disculpas vacías	How to Teach a Child to Apologize Without Forcing an Empty “Sorry”
 44	044-jealousy-after-new-baby-older-sibling	5	5	5	640	616	5	5	0.095	0.13	Celos por la llegada de un nuevo bebé: cómo acompañar al hermano mayor	Jealousy After a New Baby: How to Support the Older Sibling
 45	045-prepare-toddler-for-new-sibling	5	4	5	677	614	6	5	0.13	0.091	Cómo preparar a un toddler para la llegada de un hermano	How to Prepare a Toddler for a New Sibling
@@ -28,13 +26,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1054	1054-prefer-reading-walking-over-floor-play	5	5	5	546	525	5	5	0.118	0.176	Preferir leer o pasear con tus hijos en vez de jugar en el suelo	Preferring Reading or Walking With Your Kids Instead of Playing on the Floor
 1055	1055-guilt-partner-enjoys-playing-more	5	5	5	628	641	5	5	0.0	0.0	Sentir culpa porque tu pareja disfruta más jugando con los niños que tú	Feeling Guilty Because Your Partner Enjoys Playing With the Kids More Than You Do
 17	017-cooperation-without-repeating	4	3	4	828	789	6	6	0.069	0.107	Cómo conseguir cooperación sin repetir las cosas veinte veces	How to Get More Cooperation Without Repeating Yourself Twenty Times
-32	032-toddler-routines-structure-without-rigidity	4	4	4	722	661	6	5	0.043	0.0	Rutinas para toddlers: cómo dar estructura al día sin volverlo rígido	Toddler routines: how to add structure without making the day rigid
-33	033-power-struggles-young-children	4	4	4	787	775	6	6	0.038	0.038	Cómo manejar las luchas de poder con niños pequeños	How to handle power struggles with young children
-34	034-child-seems-not-listen	4	4	4	755	674	6	5	0.08	0.087	Qué hacer cuando tu hijo parece no escuchar	What to do when your child seems not to listen
-36	036-support-child-frustration-without-fixing	4	4	4	751	715	6	6	0.0	0.08	Cómo acompañar la frustración infantil sin resolverlo todo por ellos	How to support a frustrated child without fixing everything for them
-38	038-natural-logical-consequences-not-disguised-punishment	4	3	4	802	728	6	6	0.115	0.115	Consecuencias naturales y lógicas: cuándo ayudan y cuándo se convierten en castigos disfrazados	Natural and logical consequences: when they help and when they are punishment in disguise
-39	039-stop-yelling-parent-overwhelm	4	3	4	830	788	6	6	0.038	0.038	Cómo dejar de gritar: estrategias prácticas para padres en momentos de saturación	How to stop yelling at your kids when you are overwhelmed
-40	040-what-to-do-after-yelling-at-child	4	3	4	801	791	6	6	0.0	0.038	Qué hacer después de gritarle a tu hijo	What to do after you yell at your child
 41	041-apologize-to-child-repair	4	2	4	898	729	6	6	0.125	0.167	Cómo pedir perdón a un niño de una forma que realmente repare	How to Apologize to Your Child in a Way That Actually Repairs the Relationship
 43	043-sibling-rivalry-without-being-constant-referee	4	3	4	805	707	6	6	0.107	0.045	Cómo gestionar la rivalidad entre hermanos sin convertirte en árbitro permanente	How to Handle Sibling Rivalry Without Becoming the Constant Referee
 46	046-share-parenting-mental-load-as-a-couple	4	3	4	806	672	6	6	0.036	0.08	Cómo repartir la carga mental de la crianza en pareja	How to Share the Mental Load of Parenting as a Couple
@@ -91,7 +82,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 15	015-positive-discipline-vs-respectful-parenting	3	3	2	993	944	7	6	0.0	0.033	Disciplina positiva y crianza respetuosa: similitudes, diferencias y cómo usarlas	Positive Discipline vs. Respectful Parenting: Similarities, Differences and How They Fit Together
 16	016-toddler-bedtime-routine	3	2	3	861	836	6	6	0.034	0.036	Rutina de noche para niños pequeños: pasos sencillos que favorecen la cooperación	A Toddler Bedtime Routine That Encourages Cooperation Without Becoming a Battle
 20	020-hospital-bag-practical-minimalist	3	3	3	1021	1002	7	7	0.067	0.125	Qué llevar en la bolsa del hospital: lista práctica y minimalista	What to Pack in Your Hospital Bag: A Practical, Minimalist List
-31	031-open-ended-toys-longer-play	3	2	3	867	834	6	6	0.0	0.036	Juguetes abiertos: por qué suelen durar más en el juego	Open-ended toys: why they often stay interesting longer
 56	056-baby-bag-day-to-day	3	3	3	642	641	3	3	0.0	0.0	Bolsa del bebé: qué llevar de verdad para el día a día	Baby diaper bag essentials: what you actually need for everyday outings
 57	057-dressing-newborn-without-overbuying	3	3	3	590	599	3	3	0.0	0.0	Cómo vestir a un recién nacido sin llenar el armario de ropa que apenas usará	How to dress a newborn without buying a closet full of clothes
 58	058-what-to-buy-before-baby-and-what-can-wait	3	3	3	586	587	3	3	0.067	0.067	Qué comprar antes de que nazca el bebé y qué puede esperar	What to buy before the baby arrives — and what can wait
@@ -261,6 +251,16 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 21	021-baby-naps-flexible-routine	1	1	1	811	847	4	4	0.0	0.0	Siestas del bebé: cómo crear una rutina flexible sin vivir pendiente del reloj	Baby naps: how to build a flexible routine without watching the clock all day
 29	029-independent-play-without-pressure	1	1	1	805	864	4	4	0.0	0.0	Juego independiente: cómo fomentarlo sin exigir que el niño se entretenga solo	Independent play: how to encourage it without demanding that your child entertain themselves
 30	030-montessori-at-home-useful-principles	1	1	1	859	881	4	4	0.0	0.0	Montessori en casa: qué principios son útiles aunque no tengas una casa Montessori	Montessori at home: useful principles even if your house is not a Montessori classroom
+31	031-open-ended-toys-longer-play	1	1	1	980	998	4	4	0.0	0.0	Juguetes abiertos: por qué suelen durar más en el juego	Open-ended toys: why they often stay interesting longer
+32	032-toddler-routines-structure-without-rigidity	1	1	1	957	975	4	4	0.0	0.0	Rutinas para toddlers: cómo dar estructura al día sin volverlo rígido	Toddler routines: how to add structure without making the day rigid
+33	033-power-struggles-young-children	1	1	1	907	899	4	4	0.0	0.0	Cómo manejar las luchas de poder con niños pequeños	How to handle power struggles with young children
+34	034-child-seems-not-listen	1	1	1	877	928	4	4	0.0	0.0	Qué hacer cuando tu hijo parece no escuchar	What to do when your child seems not to listen
+35	035-teach-waiting-without-demanding-patience	1	1	1	860	902	4	4	0.0	0.0	Cómo enseñar a esperar sin exigir una paciencia que todavía está aprendiendo	How to teach waiting without expecting patience your child is still learning
+36	036-support-child-frustration-without-fixing	1	1	1	878	916	4	4	0.0	0.0	Cómo acompañar la frustración infantil sin resolverlo todo por ellos	How to support a frustrated child without fixing everything for them
+37	037-validate-emotions-without-saying-yes	1	1	1	978	1049	4	4	0.0	0.0	Cómo validar emociones sin decir sí a todo	How to validate feelings without saying yes to everything
+38	038-natural-logical-consequences-not-disguised-punishment	1	1	1	984	989	4	4	0.0	0.0	Consecuencias naturales y lógicas: cuándo ayudan y cuándo se convierten en castigos disfrazados	Natural and logical consequences: when they help and when they are punishment in disguise
+39	039-stop-yelling-parent-overwhelm	1	0	1	1058	1047	4	4	0.0	0.0	Cómo dejar de gritar: estrategias prácticas para padres en momentos de saturación	How to stop yelling at your kids when you are overwhelmed
+40	040-what-to-do-after-yelling-at-child	1	1	0	1000	1059	4	4	0.0	0.0	Qué hacer después de gritarle a tu hijo	What to do after you yell at your child
 93	093-flying-baby-logistics-packing-expectations	1	1	1	914	959	5	5	0.0	0.0	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	Flying with a baby: packing, logistics, and realistic expectations
 95	095-road-trip-kids-stops-entertainment-packing	1	1	1	873	877	5	5	0.0	0.0	Road trip con niños: cómo organizar paradas, entretenimiento y equipaje	Road trips with kids: planning stops, entertainment, and packing
 98	098-restaurants-kids-timing-expectations-entertainment	1	1	1	912	874	5	5	0.0	0.0	Restaurantes con niños: cómo elegir horarios, expectativas y entretenimiento	Restaurants with kids: choosing timing, expectations, and entertainment

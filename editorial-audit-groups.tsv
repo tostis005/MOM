@@ -1,15 +1,5 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
-1121	1121-what-if-something-goes-wrong-pregnancy	10	8	10	354	347	4	4	0.0	0.0	Pensar constantemente “¿y si algo sale mal?” durante el embarazo	Constantly thinking “what if something goes wrong?” during pregnancy
-1125	1125-afraid-to-buy-baby-things-too-early	10	10	9	308	305	4	4	0.3	0.0	Miedo a comprar cosas para el bebé demasiado pronto	Feeling afraid to buy things for the baby too early
-1128	1128-constant-reassurance-never-lasts-pregnancy	10	10	9	286	293	4	4	0.3	0.1	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	Constantly seeking reassurance during pregnancy and feeling like it never lasts
 1147	1147-tired-of-everyone-asking-about-pregnancy	10	10	10	247	250	4	4	0.0	0.0	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	Getting tired of everyone constantly asking how your pregnancy is going
-1122	1122-live-with-emotional-uncertainty-pregnancy	9	9	9	305	308	4	4	0.0	0.1	Cómo convivir con la incertidumbre emocional durante el embarazo	How to live with emotional uncertainty during pregnancy
-1123	1123-reassured-after-appointment-worried-again	9	9	9	329	320	4	4	0.1	0.1	Sentir tranquilidad después de una cita del embarazo y volver a preocuparte pocas horas después	Feeling reassured after a pregnancy appointment and worried again a few hours later
-1124	1124-waiting-between-pregnancy-appointments	9	9	9	303	299	4	4	0.2	0.1	La espera entre citas del embarazo cuando tu cabeza no deja de pensar	The wait between pregnancy appointments when your mind will not stop thinking
-1126	1126-afraid-to-get-too-excited-pregnancy	9	9	9	285	298	4	4	0.0	0.0	Miedo a ilusionarte demasiado con el embarazo	Feeling afraid to get too excited about the pregnancy
-1127	1127-cannot-fully-relax-pregnancy	9	9	9	292	299	4	4	0.0	0.0	Sentir que no puedes relajarte del todo durante el embarazo	Feeling like you cannot fully relax during pregnancy
-1129	1129-compare-pregnancy-to-others-and-worry	9	9	9	288	275	4	4	0.1	0.1	Comparar tu embarazo con el de otras mujeres y empezar a preocuparte por todo	Comparing your pregnancy with other women's and starting to worry about everything
-1130	1130-reduce-pregnancy-comparison-social-media	9	9	9	287	289	4	4	0.0	0.0	Cómo reducir la comparación con otras embarazadas en redes sociales	How to reduce comparison with other pregnant women on social media
 1131	1131-body-no-longer-feels-like-yours-pregnancy	9	9	9	223	210	4	4	0.0	0.0	Sentir que tu cuerpo deja de pertenecerte durante el embarazo	Feeling like your body no longer belongs to you during pregnancy
 1132	1132-everyone-comments-on-pregnant-body	9	9	9	201	210	4	4	0.0	0.0	Cuando todo el mundo comenta tu cuerpo porque estás embarazada	When everyone comments on your body because you are pregnant
 1133	1133-respond-comments-pregnant-belly-size	9	9	9	190	210	4	4	0.0	0.0	Cómo responder a comentarios sobre el tamaño de tu barriga	How to respond to comments about the size of your pregnant belly
@@ -149,6 +139,9 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1117	1117-fear-relationship-changing-forever-after-baby	4	3	4	662	610	4	4	0.0	0.0	Miedo a que tu relación cambie para siempre después de tener un bebé	Fear that your relationship will change forever after having a baby
 1119	1119-fear-not-loving-baby-enough-after-birth	4	3	4	650	640	4	4	0.0	0.0	Miedo a no sentir suficiente amor por tu bebé cuando nazca	Fear that you won't feel enough love for your baby after birth
 1120	1120-fear-not-knowing-what-newborn-needs	4	4	4	626	645	4	4	0.0	0.0	Miedo a no saber interpretar qué necesita tu recién nacido	Fear that you won't know what your newborn needs
+1124	1124-waiting-between-pregnancy-appointments	4	4	3	649	653	4	4	0.0	0.0	La espera entre citas del embarazo cuando tu cabeza no deja de pensar	The wait between pregnancy appointments when your mind will not stop thinking
+1126	1126-afraid-to-get-too-excited-pregnancy	4	4	2	642	714	4	4	0.0	0.0	Miedo a ilusionarte demasiado con el embarazo	Feeling afraid to get too excited about the pregnancy
+1129	1129-compare-pregnancy-to-others-and-worry	4	4	4	609	606	4	4	0.0	0.0	Comparar tu embarazo con el de otras mujeres y empezar a preocuparte por todo	Comparing your pregnancy with other women's and starting to worry about everything
 11	011-night-wakings-respectful-response	3	3	3	843	801	6	6	0.1	0.038	Despertares nocturnos: cómo responder de forma respetuosa y sostenible para la familia	Night Wakings: How to Respond Respectfully Without Burning Out the Family
 12	012-toddler-activities-at-home	3	3	3	897	880	6	6	0.069	0.065	Actividades para toddlers en casa que realmente mantienen su interés	Toddler Activities at Home That Actually Hold Their Attention
 14	014-how-to-choose-daycare	3	3	3	867	872	6	6	0.036	0.071	Cómo elegir daycare o guardería: preguntas importantes antes de decidir	How to Choose a Daycare: Questions That Matter Before You Decide
@@ -209,6 +202,11 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1115	1115-fear-losing-freedom-after-baby	3	3	3	658	662	4	4	0.0	0.0	Miedo a perder tu libertad cuando nazca el bebé	Fear of losing your freedom after the baby is born
 1116	1116-fear-losing-identity-after-motherhood	3	3	3	658	657	4	4	0.0	0.0	Miedo a perder tu identidad después de convertirte en madre	Fear of losing your identity after becoming a mother
 1118	1118-fear-becoming-only-parents-not-couple	3	3	1	681	805	4	4	0.0	0.0	Miedo a dejar de ser pareja y convertiros solamente en padres	Fear that you will stop being a couple and become only parents
+1123	1123-reassured-after-appointment-worried-again	3	2	3	757	674	4	4	0.0	0.0	Sentir tranquilidad después de una cita del embarazo y volver a preocuparte pocas horas después	Feeling reassured after a pregnancy appointment and worried again a few hours later
+1125	1125-afraid-to-buy-baby-things-too-early	3	2	3	711	685	4	4	0.0	0.0	Miedo a comprar cosas para el bebé demasiado pronto	Feeling afraid to buy things for the baby too early
+1127	1127-cannot-fully-relax-pregnancy	3	3	3	651	655	4	4	0.0	0.0	Sentir que no puedes relajarte del todo durante el embarazo	Feeling like you cannot fully relax during pregnancy
+1128	1128-constant-reassurance-never-lasts-pregnancy	3	3	2	674	702	4	4	0.0	0.0	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	Constantly seeking reassurance during pregnancy and feeling like it never lasts
+1130	1130-reduce-pregnancy-comparison-social-media	3	3	2	675	736	4	4	0.0	0.0	Cómo reducir la comparación con otras embarazadas en redes sociales	How to reduce comparison with other pregnant women on social media
 3	003-tantrums-calm-limits-connection	2	2	0	1375	1209	8	7	0.089	0.081	Rabietas: cómo acompañarlas con calma, límites y conexión	Toddler Tantrums: How to Respond With Calm, Limits and Connection
 18	018-baby-led-feeding-table-autonomy	2	2	2	913	876	6	6	0.038	0.032	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure
 19	019-prepare-home-for-baby-without-overbuying	2	2	2	898	939	6	6	0.067	0.133	Cómo preparar la casa para la llegada del bebé sin comprar de más	How to Prepare Your Home for a Baby Without Buying Too Much
@@ -266,6 +264,8 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1106	1106-want-pregnancy-to-end-feel-guilty	2	2	2	709	720	4	4	0.0	0.0	Esperar que termine el embarazo y sentir culpa por no disfrutarlo	Wanting pregnancy to be over and feeling guilty for not enjoying it
 1107	1107-not-feel-connected-to-baby-during-pregnancy	2	2	2	731	699	4	4	0.0	0.0	No sentirte conectada con el bebé durante el embarazo	Not feeling connected to the baby during pregnancy
 1110	1110-feel-different-from-more-excited-pregnant-women	2	2	2	755	748	4	4	0.0	0.0	Sentirte diferente de otras embarazadas que parecen más emocionadas	Feeling different from other pregnant women who seem more excited
+1121	1121-what-if-something-goes-wrong-pregnancy	2	2	2	822	802	4	4	0.0	0.0	Pensar constantemente “¿y si algo sale mal?” durante el embarazo	Constantly thinking “what if something goes wrong?” during pregnancy
+1122	1122-live-with-emotional-uncertainty-pregnancy	2	2	2	739	736	4	4	0.0	0.0	Cómo convivir con la incertidumbre emocional durante el embarazo	How to live with emotional uncertainty during pregnancy
 1	001-respectful-parenting	1	1	0	1630	1524	8	8	0.041	0.02	Crianza respetuosa: qué significa de verdad y cómo aplicarla sin caer en extremos	Respectful Parenting: What It Really Means and How to Use It Without Going to Extremes
 4	004-potty-training-without-pressure	1	1	0	1578	1492	8	8	0.065	0.067	Potty training o dejar el pañal: guía respetuosa sin premios ni presión	Potty Training Without Pressure: A Respectful Guide Without Rewards
 93	093-flying-baby-logistics-packing-expectations	1	1	1	914	959	5	5	0.0	0.0	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	Flying with a baby: packing, logistics, and realistic expectations

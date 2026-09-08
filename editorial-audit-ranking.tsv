@@ -1,18 +1,6 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
-en	1121	10	347	4	11.53	0.0	0	10	Constantly thinking “what if something goes wrong?” during pregnancy	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json
 en	1147	10	250	4	16.0	0.0	0	7	Getting tired of everyone constantly asking how your pregnancy is going	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/en/1147-tired-of-everyone-asking-about-pregnancy.json
-es	1125	10	308	4	12.99	0.3	1	10	Miedo a comprar cosas para el bebé demasiado pronto	body_under_350_words,high_h2_density,elevated_short_paragraphs	content/articles/es/1125-miedo-comprar-cosas-bebe-demasiado-pronto.json
-es	1128	10	286	4	13.99	0.3	1	10	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	body_under_350_words,high_h2_density,elevated_short_paragraphs	content/articles/es/1128-buscar-tranquilidad-embarazo-nunca-dura.json
 es	1147	10	247	4	16.19	0.0	0	7	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/es/1147-cansarte-preguntas-como-va-embarazo.json
-en	1122	9	308	4	12.99	0.1	1	10	How to live with emotional uncertainty during pregnancy	body_under_350_words,high_h2_density	content/articles/en/1122-live-with-emotional-uncertainty-pregnancy.json
-en	1123	9	320	4	12.5	0.1	1	10	Feeling reassured after a pregnancy appointment and worried again a few hours later	body_under_350_words,high_h2_density	content/articles/en/1123-reassured-after-appointment-worried-again.json
-en	1124	9	299	4	13.38	0.1	1	10	The wait between pregnancy appointments when your mind will not stop thinking	body_under_350_words,high_h2_density	content/articles/en/1124-waiting-between-pregnancy-appointments.json
-en	1125	9	305	4	13.11	0.0	0	10	Feeling afraid to buy things for the baby too early	body_under_350_words,high_h2_density	content/articles/en/1125-afraid-to-buy-baby-things-too-early.json
-en	1126	9	298	4	13.42	0.0	0	10	Feeling afraid to get too excited about the pregnancy	body_under_350_words,high_h2_density	content/articles/en/1126-afraid-to-get-too-excited-pregnancy.json
-en	1127	9	299	4	13.38	0.0	0	10	Feeling like you cannot fully relax during pregnancy	body_under_350_words,high_h2_density	content/articles/en/1127-cannot-fully-relax-pregnancy.json
-en	1128	9	293	4	13.65	0.1	1	10	Constantly seeking reassurance during pregnancy and feeling like it never lasts	body_under_350_words,high_h2_density	content/articles/en/1128-constant-reassurance-never-lasts-pregnancy.json
-en	1129	9	275	4	14.55	0.1	1	10	Comparing your pregnancy with other women's and starting to worry about everything	body_under_350_words,high_h2_density	content/articles/en/1129-compare-pregnancy-to-others-and-worry.json
-en	1130	9	289	4	13.84	0.0	0	10	How to reduce comparison with other pregnant women on social media	body_under_350_words,high_h2_density	content/articles/en/1130-reduce-pregnancy-comparison-social-media.json
 en	1131	9	210	4	19.05	0.0	0	6	Feeling like your body no longer belongs to you during pregnancy	body_under_350_words,high_h2_density	content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json
 en	1132	9	210	4	19.05	0.0	0	5	When everyone comments on your body because you are pregnant	body_under_350_words,high_h2_density	content/articles/en/1132-everyone-comments-on-pregnant-body.json
 en	1133	9	210	4	19.05	0.0	0	5	How to respond to comments about the size of your pregnant belly	body_under_350_words,high_h2_density	content/articles/en/1133-respond-comments-pregnant-belly-size.json
@@ -32,13 +20,6 @@ en	1146	9	268	4	14.93	0.0	0	7	When your pregnancy starts to feel like public inf
 en	1148	9	272	4	14.71	0.0	0	8	How to respond when you do not want to talk about pregnancy all the time	body_under_350_words,high_h2_density	content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json
 en	1149	9	278	4	14.39	0.0	0	7	When everything is about the baby and you miss people asking about you	body_under_350_words,high_h2_density	content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json
 en	1150	9	287	4	13.94	0.0	0	7	How to maintain other parts of your identity while you are pregnant	body_under_350_words,high_h2_density	content/articles/en/1150-maintain-identity-during-pregnancy.json
-es	1122	9	305	4	13.11	0.0	0	10	Cómo convivir con la incertidumbre emocional durante el embarazo	body_under_350_words,high_h2_density	content/articles/es/1122-convivir-incertidumbre-emocional-embarazo.json
-es	1123	9	329	4	12.16	0.1	1	10	Sentir tranquilidad después de una cita del embarazo y volver a preocuparte pocas horas después	body_under_350_words,high_h2_density	content/articles/es/1123-tranquila-tras-cita-y-volver-preocuparte.json
-es	1124	9	303	4	13.2	0.2	1	10	La espera entre citas del embarazo cuando tu cabeza no deja de pensar	body_under_350_words,high_h2_density	content/articles/es/1124-espera-entre-citas-embarazo-cabeza-no-para.json
-es	1126	9	285	4	14.04	0.0	0	10	Miedo a ilusionarte demasiado con el embarazo	body_under_350_words,high_h2_density	content/articles/es/1126-miedo-ilusionarte-demasiado-embarazo.json
-es	1127	9	292	4	13.7	0.0	0	10	Sentir que no puedes relajarte del todo durante el embarazo	body_under_350_words,high_h2_density	content/articles/es/1127-no-poder-relajarte-embarazo.json
-es	1129	9	288	4	13.89	0.1	1	10	Comparar tu embarazo con el de otras mujeres y empezar a preocuparte por todo	body_under_350_words,high_h2_density	content/articles/es/1129-comparar-embarazo-otras-mujeres-preocuparte.json
-es	1130	9	287	4	13.94	0.0	0	10	Cómo reducir la comparación con otras embarazadas en redes sociales	body_under_350_words,high_h2_density	content/articles/es/1130-reducir-comparacion-embarazadas-redes-sociales.json
 es	1131	9	223	4	17.94	0.0	0	6	Sentir que tu cuerpo deja de pertenecerte durante el embarazo	body_under_350_words,high_h2_density	content/articles/es/1131-sentir-cuerpo-deja-pertenecerte-embarazo.json
 es	1132	9	201	4	19.9	0.0	0	5	Cuando todo el mundo comenta tu cuerpo porque estás embarazada	body_under_350_words,high_h2_density	content/articles/es/1132-todo-mundo-comenta-cuerpo-embarazada.json
 es	1133	9	190	4	21.05	0.0	0	5	Cómo responder a comentarios sobre el tamaño de tu barriga	body_under_350_words,high_h2_density	content/articles/es/1133-responder-comentarios-tamano-barriga.json
@@ -58,7 +39,6 @@ es	1146	9	292	4	13.7	0.0	0	7	Sentir que tu embarazo se ha convertido en informac
 es	1148	9	266	4	15.04	0.0	0	8	Cómo responder cuando no quieres hablar de tu embarazo todo el tiempo	body_under_350_words,high_h2_density	content/articles/es/1148-responder-no-quieres-hablar-embarazo-todo-tiempo.json
 es	1149	9	270	4	14.81	0.0	0	7	Cuando todo gira alrededor del bebé y echas de menos que te pregunten por ti	body_under_350_words,high_h2_density	content/articles/es/1149-todo-gira-bebe-echas-menos-pregunten-por-ti.json
 es	1150	9	280	4	14.29	0.0	0	7	Cómo mantener otras partes de tu identidad mientras estás embarazada	body_under_350_words,high_h2_density	content/articles/es/1150-mantener-identidad-mientras-estas-embarazada.json
-es	1121	8	354	4	11.3	0.0	0	10	Pensar constantemente “¿y si algo sale mal?” durante el embarazo	body_under_500_words,high_h2_density,many_question_paragraphs	content/articles/es/1121-y-si-algo-sale-mal-embarazo.json
 en	1068	7	490	4	8.16	0.0	0	14	Why an uninterrupted shower can feel like a luxury when you are a mom	body_under_500_words,high_h2_density	content/articles/en/1068-uninterrupted-shower-feels-like-luxury.json
 en	1076	7	481	4	8.32	0.0	0	14	Feeling like you have to remember everything for everyone in the family	body_under_500_words,high_h2_density	content/articles/en/1076-remember-everything-for-everyone.json
 en	1078	7	498	4	8.03	0.0	0	14	How to mentally disconnect from family responsibilities for a while	body_under_500_words,high_h2_density	content/articles/en/1078-mentally-disconnect-from-family-responsibilities.json
@@ -215,6 +195,7 @@ en	1113	4	605	4	6.61	0.0	0	14	Thinking “what have I gotten myself into?” dur
 en	1117	4	610	4	6.56	0.0	0	14	Fear that your relationship will change forever after having a baby	body_under_650_words,elevated_h2_density	content/articles/en/1117-fear-relationship-changing-forever-after-baby.json
 en	1119	4	640	4	6.25	0.0	0	15	Fear that you won't feel enough love for your baby after birth	body_under_650_words,elevated_h2_density	content/articles/en/1119-fear-not-loving-baby-enough-after-birth.json
 en	1120	4	645	4	6.2	0.0	0	15	Fear that you won't know what your newborn needs	body_under_650_words,elevated_h2_density	content/articles/en/1120-fear-not-knowing-what-newborn-needs.json
+en	1129	4	606	4	6.6	0.0	0	15	Comparing your pregnancy with other women's and starting to worry about everything	body_under_650_words,elevated_h2_density	content/articles/en/1129-compare-pregnancy-to-others-and-worry.json
 es	21	4	671	5	7.45	0.043	1	23	Siestas del bebé: cómo crear una rutina flexible sin vivir pendiente del reloj	body_under_800_words,high_h2_density	content/articles/es/021-siestas-bebe-rutina-flexible.json
 es	22	4	716	6	8.38	0.154	1	26	Cómo acompañar a un niño que pega sin etiquetarlo como agresivo	body_under_800_words,high_h2_density	content/articles/es/022-nino-pega-sin-etiquetarlo-agresivo.json
 es	23	4	652	5	7.67	0.087	1	23	Cómo acompañar a un niño que muerde sin castigos ni vergüenza	body_under_800_words,high_h2_density	content/articles/es/023-nino-muerde-sin-castigos-verguenza.json
@@ -279,6 +260,9 @@ es	1102	4	625	4	6.4	0.0	0	14	Embarazo deseado pero sin la ilusión que esperabas
 es	1104	4	644	4	6.21	0.0	0	14	Sentir culpa por quejarte del embarazo cuando querías ser madre	body_under_650_words,elevated_h2_density	content/articles/es/1104-culpa-quejarte-embarazo-querias-ser-madre.json
 es	1113	4	616	4	6.49	0.0	0	14	Pensar “¿en qué me he metido?” durante un embarazo que sí querías	body_under_650_words,elevated_h2_density	content/articles/es/1113-en-que-me-he-metido-embarazo-deseado.json
 es	1120	4	626	4	6.39	0.0	0	15	Miedo a no saber interpretar qué necesita tu recién nacido	body_under_650_words,elevated_h2_density	content/articles/es/1120-miedo-no-saber-interpretar-necesita-recien-nacido.json
+es	1124	4	649	4	6.16	0.0	0	14	La espera entre citas del embarazo cuando tu cabeza no deja de pensar	body_under_650_words,elevated_h2_density	content/articles/es/1124-espera-entre-citas-embarazo-cabeza-no-para.json
+es	1126	4	642	4	6.23	0.0	0	14	Miedo a ilusionarte demasiado con el embarazo	body_under_650_words,elevated_h2_density	content/articles/es/1126-miedo-ilusionarte-demasiado-embarazo.json
+es	1129	4	609	4	6.57	0.0	0	15	Comparar tu embarazo con el de otras mujeres y empezar a preocuparte por todo	body_under_650_words,elevated_h2_density	content/articles/es/1129-comparar-embarazo-otras-mujeres-preocuparte.json
 en	11	3	801	6	7.49	0.038	1	26	Night Wakings: How to Respond Respectfully Without Burning Out the Family	body_under_1050_words,high_h2_density	content/articles/en/011-night-wakings-respectful-response.json
 en	12	3	880	6	6.82	0.065	1	31	Toddler Activities at Home That Actually Hold Their Attention	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/en/012-toddler-activities-at-home.json
 en	14	3	872	6	6.88	0.071	1	28	How to Choose a Daycare: Questions That Matter Before You Decide	body_under_1050_words,elevated_h2_density,many_question_paragraphs	content/articles/en/014-how-to-choose-daycare.json
@@ -332,6 +316,10 @@ en	1112	3	677	4	5.91	0.0	0	14	Fear you won't know how to care for a newborn as a
 en	1114	3	658	4	6.08	0.0	0	15	Doubting whether you were ready to become a mother after getting pregnant	body_under_800_words,elevated_h2_density	content/articles/en/1114-doubt-whether-you-were-ready-after-pregnancy.json
 en	1115	3	662	4	6.04	0.0	0	14	Fear of losing your freedom after the baby is born	body_under_800_words,elevated_h2_density	content/articles/en/1115-fear-losing-freedom-after-baby.json
 en	1116	3	657	4	6.09	0.0	0	15	Fear of losing your identity after becoming a mother	body_under_800_words,elevated_h2_density	content/articles/en/1116-fear-losing-identity-after-motherhood.json
+en	1123	3	674	4	5.93	0.0	0	15	Feeling reassured after a pregnancy appointment and worried again a few hours later	body_under_800_words,elevated_h2_density	content/articles/en/1123-reassured-after-appointment-worried-again.json
+en	1124	3	653	4	6.13	0.0	0	14	The wait between pregnancy appointments when your mind will not stop thinking	body_under_800_words,elevated_h2_density	content/articles/en/1124-waiting-between-pregnancy-appointments.json
+en	1125	3	685	4	5.84	0.0	0	15	Feeling afraid to buy things for the baby too early	body_under_800_words,elevated_h2_density	content/articles/en/1125-afraid-to-buy-baby-things-too-early.json
+en	1127	3	655	4	6.11	0.0	0	15	Feeling like you cannot fully relax during pregnancy	body_under_800_words,elevated_h2_density	content/articles/en/1127-cannot-fully-relax-pregnancy.json
 es	11	3	843	6	7.12	0.1	1	30	Despertares nocturnos: cómo responder de forma respetuosa y sostenible para la familia	body_under_1050_words,high_h2_density	content/articles/es/011-despertares-nocturnos-responder-respeto.json
 es	12	3	897	6	6.69	0.069	1	29	Actividades para toddlers en casa que realmente mantienen su interés	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/012-actividades-toddlers-en-casa.json
 es	13	3	836	6	7.18	0.037	1	27	Regresiones del sueño: cómo atravesarlas con calma	body_under_1050_words,high_h2_density	content/articles/es/013-regresiones-sueno-calma.json
@@ -390,6 +378,9 @@ es	1116	3	658	4	6.08	0.0	0	15	Miedo a perder tu identidad después de convertirt
 es	1117	3	662	4	6.04	0.0	0	14	Miedo a que tu relación cambie para siempre después de tener un bebé	body_under_800_words,elevated_h2_density	content/articles/es/1117-miedo-relacion-cambie-para-siempre-despues-bebe.json
 es	1118	3	681	4	5.87	0.0	0	14	Miedo a dejar de ser pareja y convertiros solamente en padres	body_under_800_words,elevated_h2_density	content/articles/es/1118-miedo-dejar-ser-pareja-solamente-padres.json
 es	1119	3	650	4	6.15	0.0	0	15	Miedo a no sentir suficiente amor por tu bebé cuando nazca	body_under_800_words,elevated_h2_density	content/articles/es/1119-miedo-no-sentir-suficiente-amor-bebe-cuando-nazca.json
+es	1127	3	651	4	6.14	0.0	0	15	Sentir que no puedes relajarte del todo durante el embarazo	body_under_800_words,elevated_h2_density	content/articles/es/1127-no-poder-relajarte-embarazo.json
+es	1128	3	674	4	5.93	0.0	0	15	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	body_under_800_words,elevated_h2_density	content/articles/es/1128-buscar-tranquilidad-embarazo-nunca-dura.json
+es	1130	3	675	4	5.93	0.0	0	15	Cómo reducir la comparación con otras embarazadas en redes sociales	body_under_800_words,elevated_h2_density	content/articles/es/1130-reducir-comparacion-embarazadas-redes-sociales.json
 en	15	2	944	6	6.36	0.033	1	30	Positive Discipline vs. Respectful Parenting: Similarities, Differences and How They Fit Together	body_under_1050_words,elevated_h2_density	content/articles/en/015-positive-discipline-vs-respectful-parenting.json
 en	18	2	876	6	6.85	0.032	1	31	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure	body_under_1050_words,elevated_h2_density	content/articles/en/018-baby-led-feeding-table-autonomy.json
 en	19	2	939	6	6.39	0.133	1	30	How to Prepare Your Home for a Baby Without Buying Too Much	body_under_1050_words,elevated_h2_density	content/articles/en/019-prepare-home-for-baby-without-overbuying.json
@@ -451,6 +442,11 @@ en	1106	2	720	4	5.56	0.0	0	14	Wanting pregnancy to be over and feeling guilty fo
 en	1107	2	699	4	5.72	0.0	0	14	Not feeling connected to the baby during pregnancy	body_under_800_words	content/articles/en/1107-not-feel-connected-to-baby-during-pregnancy.json
 en	1110	2	748	4	5.35	0.0	0	15	Feeling different from other pregnant women who seem more excited	body_under_800_words	content/articles/en/1110-feel-different-from-more-excited-pregnant-women.json
 en	1111	2	713	4	5.61	0.0	0	14	Fear that you will not be a good mother before the baby is born	body_under_800_words	content/articles/en/1111-fear-not-being-good-mother-before-birth.json
+en	1121	2	802	4	4.99	0.0	0	15	Constantly thinking “what if something goes wrong?” during pregnancy	body_under_1050_words,many_question_paragraphs	content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json
+en	1122	2	736	4	5.43	0.0	0	15	How to live with emotional uncertainty during pregnancy	body_under_800_words	content/articles/en/1122-live-with-emotional-uncertainty-pregnancy.json
+en	1126	2	714	4	5.6	0.0	0	14	Feeling afraid to get too excited about the pregnancy	body_under_800_words	content/articles/en/1126-afraid-to-get-too-excited-pregnancy.json
+en	1128	2	702	4	5.7	0.0	0	15	Constantly seeking reassurance during pregnancy and feeling like it never lasts	body_under_800_words	content/articles/en/1128-constant-reassurance-never-lasts-pregnancy.json
+en	1130	2	736	4	5.43	0.0	0	15	How to reduce comparison with other pregnant women on social media	body_under_800_words	content/articles/en/1130-reduce-pregnancy-comparison-social-media.json
 es	3	2	1375	8	5.82	0.089	1	45	Rabietas: cómo acompañarlas con calma, límites y conexión	elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/003-rabietas-acompanar-calma-limites-conexion.json
 es	16	2	861	6	6.97	0.034	1	29	Rutina de noche para niños pequeños: pasos sencillos que favorecen la cooperación	body_under_1050_words,elevated_h2_density	content/articles/es/016-rutina-noche-ninos-pequenos.json
 es	18	2	913	6	6.57	0.038	1	26	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	body_under_1050_words,elevated_h2_density	content/articles/es/018-baby-led-feeding-autonomia-mesa.json
@@ -517,6 +513,10 @@ es	1105	2	741	4	5.4	0.0	0	14	No disfrutar del embarazo aunque estuviera muy dese
 es	1106	2	709	4	5.64	0.0	0	14	Esperar que termine el embarazo y sentir culpa por no disfrutarlo	body_under_800_words	content/articles/es/1106-esperar-termine-embarazo-culpa-no-disfrutarlo.json
 es	1107	2	731	4	5.47	0.0	0	14	No sentirte conectada con el bebé durante el embarazo	body_under_800_words	content/articles/es/1107-no-sentirte-conectada-bebe-embarazo.json
 es	1110	2	755	4	5.3	0.0	0	15	Sentirte diferente de otras embarazadas que parecen más emocionadas	body_under_800_words	content/articles/es/1110-sentirte-diferente-otras-embarazadas-mas-emocionadas.json
+es	1121	2	822	4	4.87	0.0	0	15	Pensar constantemente “¿y si algo sale mal?” durante el embarazo	body_under_1050_words,many_question_paragraphs	content/articles/es/1121-y-si-algo-sale-mal-embarazo.json
+es	1122	2	739	4	5.41	0.0	0	15	Cómo convivir con la incertidumbre emocional durante el embarazo	body_under_800_words	content/articles/es/1122-convivir-incertidumbre-emocional-embarazo.json
+es	1123	2	757	4	5.28	0.0	0	15	Sentir tranquilidad después de una cita del embarazo y volver a preocuparte pocas horas después	body_under_800_words	content/articles/es/1123-tranquila-tras-cita-y-volver-preocuparte.json
+es	1125	2	711	4	5.63	0.0	0	15	Miedo a comprar cosas para el bebé demasiado pronto	body_under_800_words	content/articles/es/1125-miedo-comprar-cosas-bebe-demasiado-pronto.json
 en	91	1	956	5	5.23	0.0	0	15	How to talk with teachers when you disagree with how behavior was handled	body_under_1050_words	content/articles/en/091-talk-teachers-disagree-behavior-handling.json
 en	93	1	959	5	5.21	0.0	0	17	Flying with a baby: packing, logistics, and realistic expectations	body_under_1050_words	content/articles/en/093-flying-baby-logistics-packing.json
 en	94	1	900	5	5.56	0.0	0	17	Flying with a toddler: how to prepare for the trip	body_under_1050_words	content/articles/en/094-flying-toddler-prepare-trip.json

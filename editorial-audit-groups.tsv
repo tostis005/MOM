@@ -6,15 +6,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1125	1125-afraid-to-buy-baby-things-too-early	10	10	9	308	305	4	4	0.3	0.0	Miedo a comprar cosas para el bebé demasiado pronto	Feeling afraid to buy things for the baby too early
 1128	1128-constant-reassurance-never-lasts-pregnancy	10	10	9	286	293	4	4	0.3	0.1	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	Constantly seeking reassurance during pregnancy and feeling like it never lasts
 1147	1147-tired-of-everyone-asking-about-pregnancy	10	10	10	247	250	4	4	0.0	0.0	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	Getting tired of everyone constantly asking how your pregnancy is going
-122	122-how-to-know-family-ready-for-sleepover	9	9	9	338	328	4	4	0.0	0.0	Dormir en casa de otros: cómo saber si la familia está preparada	Sleepovers: how to know if your family is ready
-123	123-weekend-sleep-routine-without-clock-slavery	9	9	9	335	300	4	4	0.0	0.0	Cómo mantener una rutina de sueño en fines de semana sin vivir esclavizado por el horario	How to keep a weekend sleep routine without living by the clock
-124	124-vacation-bedtime-routine-reset	9	9	9	331	301	4	4	0.1	0.1	Qué hacer cuando las vacaciones desordenan completamente la hora de dormir	What to do when vacation completely disrupts bedtime
-125	125-time-change-kids-adjust-routine	9	9	9	319	306	4	4	0.0	0.1	Cambio de hora y niños: cómo ajustar rutinas sin obsesionarse con el reloj	Time change and kids: how to adjust routines without obsessing over the clock
-126	126-adapt-sleep-routine-starting-daycare-school	9	7	9	359	333	4	4	0.0	0.0	Cómo adaptar la rutina de sueño al inicio de daycare o escuela	How to adapt a sleep routine when daycare or school starts
-127	127-daycare-naps-different-from-home	9	9	9	336	320	4	4	0.1	0.1	Cómo manejar las siestas en daycare cuando en casa son diferentes	How to handle daycare naps when they are different from naps at home
-128	128-toddler-stops-wanting-nap	9	9	9	323	331	4	4	0.2	0.2	Qué hacer cuando el toddler deja de querer siesta	What to do when your toddler stops wanting to nap
-129	129-transition-two-naps-to-one	9	9	9	315	313	4	4	0.1	0.0	Transición de dos siestas a una: cómo acompañar el cambio	Transitioning from two naps to one: how to support the change
-130	130-introduce-quiet-time-after-nap	9	9	9	313	311	4	4	0.1	0.0	Quiet time: cómo introducir un rato tranquilo cuando desaparece la siesta	Quiet time: how to introduce a calm break when the nap disappears
 131	131-nap-interfering-with-bedtime	9	9	9	314	297	4	4	0.0	0.0	Cómo saber si una siesta está interfiriendo con la hora de dormir	How to tell if a nap is interfering with bedtime
 132	132-short-naps-organize-rest-of-day	9	9	9	261	267	4	4	0.0	0.0	Siestas cortas: cómo organizar el resto del día sin entrar en modo rescate	Short naps: how to organize the rest of the day without going into rescue mode
 133	133-no-nap-days-without-moving-whole-schedule	9	9	9	221	223	4	4	0.0	0.0	Cómo manejar días sin siesta sin adelantar toda la vida familiar	How to handle no-nap days without moving your whole family schedule earlier
@@ -90,7 +81,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1148	1148-respond-when-dont-want-talk-pregnancy	9	9	9	266	272	4	4	0.0	0.0	Cómo responder cuando no quieres hablar de tu embarazo todo el tiempo	How to respond when you do not want to talk about pregnancy all the time
 1149	1149-everything-about-baby-miss-being-asked-about-you	9	9	9	270	278	4	4	0.0	0.0	Cuando todo gira alrededor del bebé y echas de menos que te pregunten por ti	When everything is about the baby and you miss people asking about you
 1150	1150-maintain-identity-during-pregnancy	9	9	9	280	287	4	4	0.0	0.0	Cómo mantener otras partes de tu identidad mientras estás embarazada	How to maintain other parts of your identity while you are pregnant
-121	121-first-sleepover-away-from-home	7	7	7	396	366	4	4	0.0	0.0	Cómo preparar a un niño para dormir fuera de casa por primera vez	How to prepare a child for sleeping away from home for the first time
 141	141-falling-asleep-with-parent-bad-habit	7	7	7	395	376	4	4	0.0	0.0	¿Dormirse acompañado es un mal hábito?	Is falling asleep with a parent nearby a bad habit?
 1065	1065-why-five-minutes-alone-matter-as-mom	7	7	5	466	513	4	4	0.0	0.0	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	Why five minutes alone can feel so important when you are a mom
 1068	1068-uninterrupted-shower-feels-like-luxury	7	7	7	495	490	4	4	0.0	0.0	Por qué una ducha sin interrupciones puede sentirse como un lujo cuando eres madre	Why an uninterrupted shower can feel like a luxury when you are a mom
@@ -267,6 +257,10 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 118	118-floor-bed-autonomy-considerations	2	2	2	770	746	4	4	0.0	0.0	Cama de suelo: qué aporta a la autonomía y qué conviene valorar	Floor beds: what they can offer for autonomy and what to consider
 119	119-siblings-sharing-room-sleep-space-expectations	2	2	2	767	768	4	4	0.0	0.0	Compartir habitación entre hermanos: cómo organizar sueño, espacio y expectativas	Siblings sharing a room: how to organize sleep, space, and expectations
 120	120-transition-shared-room-to-separate-rooms	2	2	2	766	771	4	4	0.0	0.0	Cómo pasar de una habitación compartida a habitaciones separadas con suavidad	How to move from a shared bedroom to separate rooms gently
+121	121-first-sleepover-away-from-home	2	1	2	848	901	4	4	0.0	0.0	Cómo preparar a un niño para dormir fuera de casa por primera vez	How to prepare a child for sleeping away from home for the first time
+122	122-how-to-know-family-ready-for-sleepover	2	1	2	815	817	4	4	0.0	0.0	Dormir en casa de otros: cómo saber si la familia está preparada	Sleepovers: how to know if your family is ready
+125	125-time-change-kids-adjust-routine	2	2	2	763	794	4	4	0.0	0.0	Cambio de hora y niños: cómo ajustar rutinas sin obsesionarse con el reloj	Time change and kids: how to adjust routines without obsessing over the clock
+127	127-daycare-naps-different-from-home	2	2	2	785	797	4	4	0.0	0.0	Cómo manejar las siestas en daycare cuando en casa son diferentes	How to handle daycare naps when they are different from naps at home
 1003	1003-guilt-enjoying-alone-time	2	2	2	1025	1027	7	7	0.031	0.061	Culpa por disfrutar tiempo sola después de convertirte en madre	Feeling Guilty for Enjoying Time Alone After Becoming a Mom
 1005	1005-guilt-looking-forward-to-bedtime	2	1	2	1087	936	7	6	0.0	0.1	Culpa por desear que llegue la hora de dormir de tus hijos	Feeling Guilty for Wanting Bedtime to Come Sooner
 1010	1010-guilt-relief-back-to-school-daycare	2	2	2	1031	883	7	6	0.091	0.125	Culpa por sentir alivio cuando tus hijos vuelven al colegio o daycare	Feeling Guilty for Feeling Relieved When the Kids Go Back to School or Daycare
@@ -288,6 +282,12 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 113	113-music-light-environment-sleep-cues	1	1	1	865	849	4	4	0.0	0.0	Cómo usar música, luz y ambiente como señales de descanso	How to use music, light, and the room as signals for rest
 114	114-fear-being-alone-at-bedtime	1	1	1	909	877	4	4	0.0	0.0	Cómo acompañar el miedo a quedarse solo a la hora de dormir	How to support a child who is afraid to be alone at bedtime
 115	115-lights-out-protest-without-threats-rewards	1	1	1	866	877	4	4	0.0	0.0	Cómo manejar la protesta al apagar la luz sin amenazas ni premios	How to handle lights-out protests without threats or rewards
+123	123-weekend-sleep-routine-without-clock-slavery	1	1	1	814	839	4	4	0.0	0.0	Cómo mantener una rutina de sueño en fines de semana sin vivir esclavizado por el horario	How to keep a weekend sleep routine without living by the clock
+124	124-vacation-bedtime-routine-reset	1	1	1	835	850	4	4	0.0	0.0	Qué hacer cuando las vacaciones desordenan completamente la hora de dormir	What to do when vacation completely disrupts bedtime
+126	126-adapt-sleep-routine-starting-daycare-school	1	1	1	822	844	4	4	0.0	0.0	Cómo adaptar la rutina de sueño al inicio de daycare o escuela	How to adapt a sleep routine when daycare or school starts
+128	128-toddler-stops-wanting-nap	1	1	1	802	826	4	4	0.0	0.0	Qué hacer cuando el toddler deja de querer siesta	What to do when your toddler stops wanting to nap
+129	129-transition-two-naps-to-one	1	1	1	801	858	4	4	0.0	0.0	Transición de dos siestas a una: cómo acompañar el cambio	Transitioning from two naps to one: how to support the change
+130	130-introduce-quiet-time-after-nap	1	1	1	837	853	4	4	0.0	0.0	Quiet time: cómo introducir un rato tranquilo cuando desaparece la siesta	Quiet time: how to introduce a calm break when the nap disappears
 1001	1001-mom-guilt	1	1	0	1286	1265	7	7	0.156	0.149	Mom guilt: por qué muchas madres sienten culpa incluso cuando saben que hacen lo mejor que pueden	Mom Guilt: Why Moms Feel Guilty Even When They Know They’re Doing Their Best
 1002	1002-guilt-needing-break-from-kids	1	1	1	1087	1091	7	7	0.053	0.029	Culpa por necesitar un descanso de tus hijos: por qué aparece y cómo mirarla de otra manera	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently
 1009	1009-guilt-weekend-without-kids	1	0	1	1792	1059	8	7	0.016	0.029	Culpa por querer pasar un fin de semana sin los niños	Feeling Guilty for Wanting a Weekend Away Without the Kids

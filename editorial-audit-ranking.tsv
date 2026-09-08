@@ -9,15 +9,6 @@ es	1111	10	338	4	11.83	0.0	0	10	Miedo a no ser una buena madre antes de que nazc
 es	1125	10	308	4	12.99	0.3	1	10	Miedo a comprar cosas para el bebé demasiado pronto	body_under_350_words,high_h2_density,elevated_short_paragraphs	content/articles/es/1125-miedo-comprar-cosas-bebe-demasiado-pronto.json
 es	1128	10	286	4	13.99	0.3	1	10	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	body_under_350_words,high_h2_density,elevated_short_paragraphs	content/articles/es/1128-buscar-tranquilidad-embarazo-nunca-dura.json
 es	1147	10	247	4	16.19	0.0	0	7	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/es/1147-cansarte-preguntas-como-va-embarazo.json
-en	122	9	328	4	12.2	0.0	0	10	Sleepovers: how to know if your family is ready	body_under_350_words,high_h2_density	content/articles/en/122-how-to-know-family-ready-for-sleepover.json
-en	123	9	300	4	13.33	0.0	0	10	How to keep a weekend sleep routine without living by the clock	body_under_350_words,high_h2_density	content/articles/en/123-weekend-sleep-routine-without-clock-slavery.json
-en	124	9	301	4	13.29	0.1	1	10	What to do when vacation completely disrupts bedtime	body_under_350_words,high_h2_density	content/articles/en/124-vacation-bedtime-routine-reset.json
-en	125	9	306	4	13.07	0.1	1	10	Time change and kids: how to adjust routines without obsessing over the clock	body_under_350_words,high_h2_density	content/articles/en/125-time-change-kids-adjust-routine.json
-en	126	9	333	4	12.01	0.0	0	10	How to adapt a sleep routine when daycare or school starts	body_under_350_words,high_h2_density	content/articles/en/126-adapt-sleep-routine-starting-daycare-school.json
-en	127	9	320	4	12.5	0.1	1	10	How to handle daycare naps when they are different from naps at home	body_under_350_words,high_h2_density	content/articles/en/127-daycare-naps-different-from-home.json
-en	128	9	331	4	12.08	0.2	1	10	What to do when your toddler stops wanting to nap	body_under_350_words,high_h2_density	content/articles/en/128-toddler-stops-wanting-nap.json
-en	129	9	313	4	12.78	0.0	0	10	Transitioning from two naps to one: how to support the change	body_under_350_words,high_h2_density	content/articles/en/129-transition-two-naps-to-one.json
-en	130	9	311	4	12.86	0.0	0	10	Quiet time: how to introduce a calm break when the nap disappears	body_under_350_words,high_h2_density	content/articles/en/130-introduce-quiet-time-after-nap.json
 en	131	9	297	4	13.47	0.0	0	8	How to tell if a nap is interfering with bedtime	body_under_350_words,high_h2_density	content/articles/en/131-nap-interfering-with-bedtime.json
 en	132	9	267	4	14.98	0.0	0	7	Short naps: how to organize the rest of the day without going into rescue mode	body_under_350_words,high_h2_density	content/articles/en/132-short-naps-organize-rest-of-day.json
 en	133	9	223	4	17.94	0.0	0	6	How to handle no-nap days without moving your whole family schedule earlier	body_under_350_words,high_h2_density	content/articles/en/133-no-nap-days-without-moving-whole-schedule.json
@@ -93,14 +84,6 @@ en	1146	9	268	4	14.93	0.0	0	7	When your pregnancy starts to feel like public inf
 en	1148	9	272	4	14.71	0.0	0	8	How to respond when you do not want to talk about pregnancy all the time	body_under_350_words,high_h2_density	content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json
 en	1149	9	278	4	14.39	0.0	0	7	When everything is about the baby and you miss people asking about you	body_under_350_words,high_h2_density	content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json
 en	1150	9	287	4	13.94	0.0	0	7	How to maintain other parts of your identity while you are pregnant	body_under_350_words,high_h2_density	content/articles/en/1150-maintain-identity-during-pregnancy.json
-es	122	9	338	4	11.83	0.0	0	10	Dormir en casa de otros: cómo saber si la familia está preparada	body_under_350_words,high_h2_density	content/articles/es/122-dormir-casa-otros-saber-familia-preparada.json
-es	123	9	335	4	11.94	0.0	0	10	Cómo mantener una rutina de sueño en fines de semana sin vivir esclavizado por el horario	body_under_350_words,high_h2_density	content/articles/es/123-rutina-sueno-fin-semana-sin-esclavizarse-horario.json
-es	124	9	331	4	12.08	0.1	1	10	Qué hacer cuando las vacaciones desordenan completamente la hora de dormir	body_under_350_words,high_h2_density	content/articles/es/124-vacaciones-desordenan-hora-dormir-que-hacer.json
-es	125	9	319	4	12.54	0.0	0	10	Cambio de hora y niños: cómo ajustar rutinas sin obsesionarse con el reloj	body_under_350_words,high_h2_density	content/articles/es/125-cambio-hora-ninos-ajustar-rutinas-sin-obsesion.json
-es	127	9	336	4	11.9	0.1	1	10	Cómo manejar las siestas en daycare cuando en casa son diferentes	body_under_350_words,high_h2_density	content/articles/es/127-siestas-daycare-diferentes-casa.json
-es	128	9	323	4	12.38	0.2	1	10	Qué hacer cuando el toddler deja de querer siesta	body_under_350_words,high_h2_density	content/articles/es/128-toddler-deja-querer-siesta.json
-es	129	9	315	4	12.7	0.1	1	10	Transición de dos siestas a una: cómo acompañar el cambio	body_under_350_words,high_h2_density	content/articles/es/129-transicion-dos-siestas-a-una.json
-es	130	9	313	4	12.78	0.1	1	10	Quiet time: cómo introducir un rato tranquilo cuando desaparece la siesta	body_under_350_words,high_h2_density	content/articles/es/130-quiet-time-cuando-desaparece-siesta.json
 es	131	9	314	4	12.74	0.0	0	8	Cómo saber si una siesta está interfiriendo con la hora de dormir	body_under_350_words,high_h2_density	content/articles/es/131-siesta-interfiere-hora-dormir.json
 es	132	9	261	4	15.33	0.0	0	7	Siestas cortas: cómo organizar el resto del día sin entrar en modo rescate	body_under_350_words,high_h2_density	content/articles/es/132-siestas-cortas-organizar-resto-dia.json
 es	133	9	221	4	18.1	0.0	0	6	Cómo manejar días sin siesta sin adelantar toda la vida familiar	body_under_350_words,high_h2_density	content/articles/es/133-dias-sin-siesta-sin-adelantar-toda-vida.json
@@ -170,7 +153,6 @@ es	1149	9	270	4	14.81	0.0	0	7	Cuando todo gira alrededor del bebé y echas de me
 es	1150	9	280	4	14.29	0.0	0	7	Cómo mantener otras partes de tu identidad mientras estás embarazada	body_under_350_words,high_h2_density	content/articles/es/1150-mantener-identidad-mientras-estas-embarazada.json
 en	1111	8	352	4	11.36	0.0	0	10	Fear that you will not be a good mother before the baby is born	body_under_500_words,high_h2_density,many_question_paragraphs	content/articles/en/1111-fear-not-being-good-mother-before-birth.json
 es	1121	8	354	4	11.3	0.0	0	10	Pensar constantemente “¿y si algo sale mal?” durante el embarazo	body_under_500_words,high_h2_density,many_question_paragraphs	content/articles/es/1121-y-si-algo-sale-mal-embarazo.json
-en	121	7	366	4	10.93	0.0	0	10	How to prepare a child for sleeping away from home for the first time	body_under_500_words,high_h2_density	content/articles/en/121-prepare-child-first-night-away-from-home.json
 en	141	7	376	4	10.64	0.0	0	10	Is falling asleep with a parent nearby a bad habit?	body_under_500_words,high_h2_density	content/articles/en/141-falling-asleep-with-parent-bad-habit.json
 en	1068	7	490	4	8.16	0.0	0	14	Why an uninterrupted shower can feel like a luxury when you are a mom	body_under_500_words,high_h2_density	content/articles/en/1068-uninterrupted-shower-feels-like-luxury.json
 en	1076	7	481	4	8.32	0.0	0	14	Feeling like you have to remember everything for everyone in the family	body_under_500_words,high_h2_density	content/articles/en/1076-remember-everything-for-everyone.json
@@ -184,8 +166,6 @@ en	1099	7	357	4	11.2	0.0	0	11	Impostor syndrome in motherhood: feeling like peop
 en	1100	7	373	4	10.72	0.0	0	11	How to build confidence as a mom without needing to do everything perfectly	body_under_500_words,high_h2_density	content/articles/en/1100-build-confidence-mom-without-perfection.json
 en	1101	7	394	4	10.15	0.0	0	11	Is it normal not to feel happy all the time during pregnancy?	body_under_500_words,high_h2_density	content/articles/en/1101-not-happy-all-the-time-pregnancy.json
 en	1102	7	373	4	10.72	0.0	0	11	A wanted pregnancy without the excitement you expected to feel	body_under_500_words,high_h2_density	content/articles/en/1102-wanted-pregnancy-without-expected-excitement.json
-es	121	7	396	4	10.1	0.0	0	10	Cómo preparar a un niño para dormir fuera de casa por primera vez	body_under_500_words,high_h2_density	content/articles/es/121-preparar-nino-dormir-fuera-casa-primera-vez.json
-es	126	7	359	4	11.14	0.0	0	10	Cómo adaptar la rutina de sueño al inicio de daycare o escuela	body_under_500_words,high_h2_density	content/articles/es/126-adaptar-rutina-sueno-inicio-daycare-escuela.json
 es	141	7	395	4	10.13	0.0	0	10	¿Dormirse acompañado es un mal hábito?	body_under_500_words,high_h2_density	content/articles/es/141-dormirse-acompanado-mal-habito.json
 es	1065	7	466	4	8.58	0.0	0	14	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	body_under_500_words,high_h2_density	content/articles/es/1065-cinco-minutos-sola-importantes-madre.json
 es	1068	7	495	4	8.08	0.0	0	14	Por qué una ducha sin interrupciones puede sentirse como un lujo cuando eres madre	body_under_500_words,high_h2_density	content/articles/es/1068-ducha-sin-interrupciones-lujo-madre.json
@@ -488,6 +468,10 @@ en	117	2	768	4	5.21	0.0	0	16	How to move to a child bed without turning it into 
 en	118	2	746	4	5.36	0.0	0	15	Floor beds: what they can offer for autonomy and what to consider	body_under_800_words	content/articles/en/118-floor-bed-autonomy-considerations.json
 en	119	2	768	4	5.21	0.0	0	16	Siblings sharing a room: how to organize sleep, space, and expectations	body_under_800_words	content/articles/en/119-siblings-sharing-room-sleep-space-expectations.json
 en	120	2	771	4	5.19	0.0	0	17	How to move from a shared bedroom to separate rooms gently	body_under_800_words	content/articles/en/120-transition-shared-room-to-separate-rooms.json
+en	121	2	901	4	4.44	0.0	0	14	How to prepare a child for sleeping away from home for the first time	body_under_1050_words,many_long_paragraphs	content/articles/en/121-prepare-child-first-night-away-from-home.json
+en	122	2	817	4	4.9	0.0	0	14	Sleepovers: how to know if your family is ready	body_under_1050_words,many_question_paragraphs	content/articles/en/122-how-to-know-family-ready-for-sleepover.json
+en	125	2	794	4	5.04	0.0	0	14	Time change and kids: how to adjust routines without obsessing over the clock	body_under_800_words	content/articles/en/125-time-change-kids-adjust-routine.json
+en	127	2	797	4	5.02	0.0	0	14	How to handle daycare naps when they are different from naps at home	body_under_800_words	content/articles/en/127-daycare-naps-different-from-home.json
 en	1003	2	1027	7	6.82	0.061	1	33	Feeling Guilty for Enjoying Time Alone After Becoming a Mom	body_under_1050_words,elevated_h2_density	content/articles/en/1003-guilt-enjoying-time-alone.json
 en	1004	2	938	6	6.4	0.067	1	30	Feeling Guilty for Not Missing Your Kids When You’re Away	body_under_1050_words,elevated_h2_density	content/articles/en/1004-guilt-not-missing-kids.json
 en	1005	2	936	6	6.41	0.1	1	30	Feeling Guilty for Wanting Bedtime to Come Sooner	body_under_1050_words,elevated_h2_density	content/articles/en/1005-guilt-wanting-bedtime.json
@@ -529,6 +513,8 @@ es	117	2	772	4	5.18	0.0	0	16	Cómo acompañar el paso a una cama de niño sin co
 es	118	2	770	4	5.19	0.0	0	15	Cama de suelo: qué aporta a la autonomía y qué conviene valorar	body_under_800_words	content/articles/es/118-cama-suelo-autonomia-que-valorar.json
 es	119	2	767	4	5.22	0.0	0	16	Compartir habitación entre hermanos: cómo organizar sueño, espacio y expectativas	body_under_800_words	content/articles/es/119-hermanos-compartir-habitacion-sueno-espacio.json
 es	120	2	766	4	5.22	0.0	0	17	Cómo pasar de una habitación compartida a habitaciones separadas con suavidad	body_under_800_words	content/articles/es/120-pasar-habitacion-compartida-separadas-suavidad.json
+es	125	2	763	4	5.24	0.0	0	14	Cambio de hora y niños: cómo ajustar rutinas sin obsesionarse con el reloj	body_under_800_words	content/articles/es/125-cambio-hora-ninos-ajustar-rutinas-sin-obsesion.json
+es	127	2	785	4	5.1	0.0	0	14	Cómo manejar las siestas en daycare cuando en casa son diferentes	body_under_800_words	content/articles/es/127-siestas-daycare-diferentes-casa.json
 es	1003	2	1025	7	6.83	0.031	1	32	Culpa por disfrutar tiempo sola después de convertirte en madre	body_under_1050_words,elevated_h2_density	content/articles/es/1003-culpa-disfrutar-tiempo-sola-madre.json
 es	1010	2	1031	7	6.79	0.091	1	33	Culpa por sentir alivio cuando tus hijos vuelven al colegio o daycare	body_under_1050_words,elevated_h2_density	content/articles/es/1010-culpa-alivio-vuelta-colegio-daycare.json
 es	1011	2	939	6	6.39	0.069	1	29	Matrescencia: por qué convertirte en madre puede cambiar profundamente tu identidad	body_under_1050_words,elevated_h2_density	content/articles/es/1011-matrescencia-cambio-identidad-madre.json
@@ -552,6 +538,12 @@ en	112	1	861	4	4.65	0.0	0	18	How to make a bedtime story an anchor in the nightl
 en	113	1	849	4	4.71	0.0	0	18	How to use music, light, and the room as signals for rest	body_under_1050_words	content/articles/en/113-music-light-environment-sleep-cues.json
 en	114	1	877	4	4.56	0.0	0	18	How to support a child who is afraid to be alone at bedtime	body_under_1050_words	content/articles/en/114-fear-being-alone-at-bedtime.json
 en	115	1	877	4	4.56	0.0	0	18	How to handle lights-out protests without threats or rewards	body_under_1050_words	content/articles/en/115-lights-out-protest-without-threats-rewards.json
+en	123	1	839	4	4.77	0.0	0	15	How to keep a weekend sleep routine without living by the clock	body_under_1050_words	content/articles/en/123-weekend-sleep-routine-without-clock-slavery.json
+en	124	1	850	4	4.71	0.0	0	15	What to do when vacation completely disrupts bedtime	body_under_1050_words	content/articles/en/124-vacation-bedtime-routine-reset.json
+en	126	1	844	4	4.74	0.0	0	15	How to adapt a sleep routine when daycare or school starts	body_under_1050_words	content/articles/en/126-adapt-sleep-routine-starting-daycare-school.json
+en	128	1	826	4	4.84	0.0	0	15	What to do when your toddler stops wanting to nap	body_under_1050_words	content/articles/en/128-toddler-stops-wanting-nap.json
+en	129	1	858	4	4.66	0.0	0	15	Transitioning from two naps to one: how to support the change	body_under_1050_words	content/articles/en/129-transition-two-naps-to-one.json
+en	130	1	853	4	4.69	0.0	0	15	Quiet time: how to introduce a calm break when the nap disappears	body_under_1050_words	content/articles/en/130-introduce-quiet-time-after-nap.json
 en	1002	1	1091	7	6.42	0.029	1	34	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently	elevated_h2_density	content/articles/en/1002-guilt-needing-break-from-kids.json
 en	1009	1	1059	7	6.61	0.029	1	35	Feeling Guilty for Wanting a Weekend Away Without the Kids	elevated_h2_density	content/articles/en/1009-guilt-weekend-without-kids.json
 en	1020	1	1070	7	6.54	0.057	1	35	How to Build an Adult Identity That Includes Motherhood Without Being Only About It	elevated_h2_density	content/articles/en/1020-adult-identity-includes-motherhood.json
@@ -573,6 +565,14 @@ es	112	1	863	4	4.63	0.0	0	18	Cómo introducir un cuento de buenas noches como an
 es	113	1	865	4	4.62	0.0	0	18	Cómo usar música, luz y ambiente como señales de descanso	body_under_1050_words	content/articles/es/113-musica-luz-ambiente-senales-descanso.json
 es	114	1	909	4	4.4	0.0	0	18	Cómo acompañar el miedo a quedarse solo a la hora de dormir	body_under_1050_words	content/articles/es/114-miedo-quedarse-solo-hora-dormir.json
 es	115	1	866	4	4.62	0.0	0	18	Cómo manejar la protesta al apagar la luz sin amenazas ni premios	body_under_1050_words	content/articles/es/115-protesta-apagar-luz-sin-amenazas-premios.json
+es	121	1	848	4	4.72	0.0	0	14	Cómo preparar a un niño para dormir fuera de casa por primera vez	body_under_1050_words	content/articles/es/121-preparar-nino-dormir-fuera-casa-primera-vez.json
+es	122	1	815	4	4.91	0.0	0	14	Dormir en casa de otros: cómo saber si la familia está preparada	body_under_1050_words	content/articles/es/122-dormir-casa-otros-saber-familia-preparada.json
+es	123	1	814	4	4.91	0.0	0	15	Cómo mantener una rutina de sueño en fines de semana sin vivir esclavizado por el horario	body_under_1050_words	content/articles/es/123-rutina-sueno-fin-semana-sin-esclavizarse-horario.json
+es	124	1	835	4	4.79	0.0	0	15	Qué hacer cuando las vacaciones desordenan completamente la hora de dormir	body_under_1050_words	content/articles/es/124-vacaciones-desordenan-hora-dormir-que-hacer.json
+es	126	1	822	4	4.87	0.0	0	15	Cómo adaptar la rutina de sueño al inicio de daycare o escuela	body_under_1050_words	content/articles/es/126-adaptar-rutina-sueno-inicio-daycare-escuela.json
+es	128	1	802	4	4.99	0.0	0	15	Qué hacer cuando el toddler deja de querer siesta	body_under_1050_words	content/articles/es/128-toddler-deja-querer-siesta.json
+es	129	1	801	4	4.99	0.0	0	15	Transición de dos siestas a una: cómo acompañar el cambio	body_under_1050_words	content/articles/es/129-transicion-dos-siestas-a-una.json
+es	130	1	837	4	4.78	0.0	0	15	Quiet time: cómo introducir un rato tranquilo cuando desaparece la siesta	body_under_1050_words	content/articles/es/130-quiet-time-cuando-desaparece-siesta.json
 es	1001	1	1286	7	5.44	0.156	3	45	Mom guilt: por qué muchas madres sienten culpa incluso cuando saben que hacen lo mejor que pueden	run_of_short_paragraphs	content/articles/es/1001-mom-guilt-culpa-materna.json
 es	1002	1	1087	7	6.44	0.053	1	38	Culpa por necesitar un descanso de tus hijos: por qué aparece y cómo mirarla de otra manera	elevated_h2_density	content/articles/es/1002-culpa-necesitar-descanso-hijos.json
 es	1005	1	1087	7	6.44	0.0	0	35	Culpa por desear que llegue la hora de dormir de tus hijos	elevated_h2_density	content/articles/es/1005-culpa-desear-hora-dormir-hijos.json

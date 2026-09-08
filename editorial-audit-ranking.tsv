@@ -1,16 +1,6 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
 es	37	6	647	5	7.73	0.045	1	22	Cómo validar emociones sin decir sí a todo	body_under_650_words,high_h2_density,repeated_no_significa_pattern	content/articles/es/037-validar-emociones-sin-decir-si-todo.json
 en	13	5	780	6	7.69	0.04	1	25	Sleep Regressions: How to Get Through Them Without Changing Everything	body_under_800_words,high_h2_density,many_question_paragraphs	content/articles/en/013-sleep-regressions-calm.json
-en	21	5	574	5	8.71	0.053	1	19	Baby naps: how to build a flexible routine without watching the clock all day	body_under_650_words,high_h2_density	content/articles/en/021-baby-naps-flexible-routine.json
-en	22	5	540	5	9.26	0.167	1	18	What to do when your child hits without labeling them as aggressive	body_under_650_words,high_h2_density	content/articles/en/022-child-hits-without-aggressive-label.json
-en	23	5	619	5	8.08	0.095	1	21	What to do when your child bites without punishment or shame	body_under_650_words,high_h2_density	content/articles/en/023-child-bites-without-punishment-shame.json
-en	24	5	589	5	8.49	0.053	1	19	How to handle toddler yelling without yelling back	body_under_650_words,high_h2_density	content/articles/en/024-toddler-yelling-respectful-parenting.json
-en	25	5	554	5	9.03	0.05	1	20	When kids won't clean up: how to teach cooperation without turning it into a fight	body_under_650_words,high_h2_density	content/articles/en/025-child-wont-clean-up-cooperation.json
-en	26	5	580	5	8.62	0.0	0	20	How to help a child accept no without giving in or turning it into a battle	body_under_650_words,high_h2_density	content/articles/en/026-help-child-accept-no.json
-en	27	5	616	5	8.12	0.05	1	20	Difficult transitions: how to move from one activity to the next with less conflict	body_under_650_words,high_h2_density	content/articles/en/027-difficult-transitions-fewer-conflicts.json
-en	28	5	528	5	9.47	0.0	0	17	How to turn off screens without tantrums, threats, or endless negotiating	body_under_650_words,high_h2_density	content/articles/en/028-turn-off-screens-without-tantrums.json
-en	29	5	593	5	8.43	0.0	0	20	Independent play: how to encourage it without demanding that your child entertain themselves	body_under_650_words,high_h2_density	content/articles/en/029-independent-play-without-pressure.json
-en	30	5	614	5	8.14	0.05	1	20	Montessori at home: useful principles even if your house is not a Montessori classroom	body_under_650_words,high_h2_density	content/articles/en/030-montessori-at-home-useful-principles.json
 en	35	5	633	5	7.9	0.0	0	20	How to teach waiting without expecting patience your child is still learning	body_under_650_words,high_h2_density	content/articles/en/035-teach-waiting-without-demanding-patience.json
 en	37	5	639	5	7.82	0.091	1	22	How to validate feelings without saying yes to everything	body_under_650_words,high_h2_density	content/articles/en/037-validate-emotions-without-saying-yes.json
 en	42	5	603	5	8.29	0.095	1	21	How to Teach a Child to Apologize Without Forcing an Empty “Sorry”	body_under_650_words,high_h2_density	content/articles/en/042-teach-child-to-apologize-without-forcing.json
@@ -38,7 +28,6 @@ en	1052	5	634	5	7.89	0.0	0	17	Loving Your Kids and Getting Bored Playing With Th
 en	1053	5	564	5	8.87	0.0	0	16	How to Connect With Your Kids If You Are Not a Very Playful Mom	body_under_650_words,high_h2_density	content/articles/en/1053-connect-with-kids-if-not-playful-mom.json
 en	1054	5	525	5	9.52	0.176	1	17	Preferring Reading or Walking With Your Kids Instead of Playing on the Floor	body_under_650_words,high_h2_density	content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json
 en	1055	5	641	5	7.8	0.0	0	16	Feeling Guilty Because Your Partner Enjoys Playing With the Kids More Than You Do	body_under_650_words,high_h2_density	content/articles/en/1055-guilt-partner-enjoys-playing-with-kids-more.json
-es	26	5	631	5	7.92	0.05	1	20	Cómo ayudar a un niño a aceptar un no sin ceder ni entrar en una batalla	body_under_650_words,high_h2_density	content/articles/es/026-ayudar-nino-aceptar-no.json
 es	44	5	640	5	7.81	0.095	1	21	Celos por la llegada de un nuevo bebé: cómo acompañar al hermano mayor	body_under_650_words,high_h2_density	content/articles/es/044-celos-llegada-nuevo-bebe-hermano-mayor.json
 es	54	5	633	5	7.9	0.0	0	16	Rutina con un recién nacido: qué puede aportar estructura sin esperar previsibilidad	body_under_650_words,high_h2_density	content/articles/es/054-rutina-recien-nacido-estructura-sin-previsibilidad.json
 es	55	5	604	5	8.28	0.0	0	16	Cómo salir de casa con un bebé sin llevar media casa en la bolsa	body_under_650_words,high_h2_density	content/articles/es/055-salir-casa-bebe-sin-llevar-media-casa.json
@@ -104,15 +93,6 @@ en	1119	4	640	4	6.25	0.0	0	15	Fear that you won't feel enough love for your baby
 en	1120	4	645	4	6.2	0.0	0	15	Fear that you won't know what your newborn needs	body_under_650_words,elevated_h2_density	content/articles/en/1120-fear-not-knowing-what-newborn-needs.json
 en	1129	4	606	4	6.6	0.0	0	15	Comparing your pregnancy with other women's and starting to worry about everything	body_under_650_words,elevated_h2_density	content/articles/en/1129-compare-pregnancy-to-others-and-worry.json
 en	1145	4	640	4	6.25	0.0	0	14	How to decide which pregnancy details you want to share and which you do not	body_under_650_words,elevated_h2_density	content/articles/en/1145-decide-pregnancy-details-to-share.json
-es	21	4	671	5	7.45	0.043	1	23	Siestas del bebé: cómo crear una rutina flexible sin vivir pendiente del reloj	body_under_800_words,high_h2_density	content/articles/es/021-siestas-bebe-rutina-flexible.json
-es	22	4	716	6	8.38	0.154	1	26	Cómo acompañar a un niño que pega sin etiquetarlo como agresivo	body_under_800_words,high_h2_density	content/articles/es/022-nino-pega-sin-etiquetarlo-agresivo.json
-es	23	4	652	5	7.67	0.087	1	23	Cómo acompañar a un niño que muerde sin castigos ni vergüenza	body_under_800_words,high_h2_density	content/articles/es/023-nino-muerde-sin-castigos-verguenza.json
-es	24	4	680	6	8.82	0.045	1	22	Cómo gestionar los gritos de un toddler desde la crianza respetuosa	body_under_800_words,high_h2_density	content/articles/es/024-gritos-toddler-crianza-respetuosa.json
-es	25	4	679	6	8.84	0.083	1	24	Niños que no quieren recoger: cómo enseñar colaboración sin convertirlo en una lucha	body_under_800_words,high_h2_density	content/articles/es/025-ninos-no-quieren-recoger-colaboracion.json
-es	27	4	701	6	8.56	0.042	1	24	Transiciones difíciles: cómo pasar de una actividad a otra con menos conflictos	body_under_800_words,high_h2_density	content/articles/es/027-transiciones-dificiles-menos-conflictos.json
-es	28	4	655	5	7.63	0.0	0	20	Cómo cerrar las pantallas sin rabietas ni amenazas	body_under_800_words,high_h2_density	content/articles/es/028-cerrar-pantallas-sin-rabietas-amenazas.json
-es	29	4	675	6	8.89	0.0	0	22	Juego independiente: cómo fomentarlo sin exigir que el niño se entretenga solo	body_under_800_words,high_h2_density	content/articles/es/029-juego-independiente-sin-exigir.json
-es	30	4	693	6	8.66	0.0	0	24	Montessori en casa: qué principios son útiles aunque no tengas una casa Montessori	body_under_800_words,high_h2_density	content/articles/es/030-montessori-en-casa-principios-utiles.json
 es	32	4	722	6	8.31	0.043	1	23	Rutinas para toddlers: cómo dar estructura al día sin volverlo rígido	body_under_800_words,high_h2_density	content/articles/es/032-rutinas-toddlers-estructura-sin-rigidez.json
 es	33	4	787	6	7.62	0.038	1	26	Cómo manejar las luchas de poder con niños pequeños	body_under_800_words,high_h2_density	content/articles/es/033-luchas-poder-ninos-pequenos.json
 es	34	4	755	6	7.95	0.08	1	25	Qué hacer cuando tu hijo parece no escuchar	body_under_800_words,high_h2_density	content/articles/es/034-hijo-parece-no-escuchar.json
@@ -305,6 +285,12 @@ es	1150	3	685	4	5.84	0.0	0	14	Cómo mantener otras partes de tu identidad mientr
 en	15	2	944	6	6.36	0.033	1	30	Positive Discipline vs. Respectful Parenting: Similarities, Differences and How They Fit Together	body_under_1050_words,elevated_h2_density	content/articles/en/015-positive-discipline-vs-respectful-parenting.json
 en	18	2	876	6	6.85	0.032	1	31	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure	body_under_1050_words,elevated_h2_density	content/articles/en/018-baby-led-feeding-table-autonomy.json
 en	19	2	939	6	6.39	0.133	1	30	How to Prepare Your Home for a Baby Without Buying Too Much	body_under_1050_words,elevated_h2_density	content/articles/en/019-prepare-home-for-baby-without-overbuying.json
+en	22	2	792	4	5.05	0.0	0	16	What to do when your child hits without labeling them as aggressive	body_under_800_words	content/articles/en/022-child-hits-without-aggressive-label.json
+en	23	2	770	4	5.19	0.0	0	18	What to do when your child bites without punishment or shame	body_under_800_words	content/articles/en/023-child-bites-without-punishment-shame.json
+en	24	2	790	4	5.06	0.0	0	17	How to handle toddler yelling without yelling back	body_under_800_words	content/articles/en/024-toddler-yelling-respectful-parenting.json
+en	25	2	785	4	5.1	0.0	0	16	When kids won't clean up: how to teach cooperation without turning it into a fight	body_under_800_words	content/articles/en/025-child-wont-clean-up-cooperation.json
+en	26	2	774	4	5.17	0.0	0	16	How to help a child accept no without giving in or turning it into a battle	body_under_800_words	content/articles/en/026-help-child-accept-no.json
+en	27	2	761	4	5.26	0.0	0	16	Difficult transitions: how to move from one activity to the next with less conflict	body_under_800_words	content/articles/en/027-difficult-transitions-fewer-conflicts.json
 en	61	2	730	4	5.48	0.0	0	15	How to create a practical breastfeeding corner without buying unnecessary gear	body_under_800_words	content/articles/en/061-practical-breastfeeding-corner-without-unnecessary-gear.json
 en	63	2	738	4	5.42	0.0	0	15	Breastfeeding in public: practical ways to feel more comfortable and prepared	body_under_800_words	content/articles/en/063-breastfeeding-in-public-feel-comfortable-prepared.json
 en	66	2	693	4	5.77	0.0	0	16	Night feeding and sharing the load: how couples can organize baby wake-ups	body_under_800_words	content/articles/en/066-night-feeding-share-load-partner.json
@@ -397,6 +383,13 @@ es	3	2	1375	8	5.82	0.089	1	45	Rabietas: cómo acompañarlas con calma, límites 
 es	16	2	861	6	6.97	0.034	1	29	Rutina de noche para niños pequeños: pasos sencillos que favorecen la cooperación	body_under_1050_words,elevated_h2_density	content/articles/es/016-rutina-noche-ninos-pequenos.json
 es	18	2	913	6	6.57	0.038	1	26	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	body_under_1050_words,elevated_h2_density	content/articles/es/018-baby-led-feeding-autonomia-mesa.json
 es	19	2	898	6	6.68	0.067	1	30	Cómo preparar la casa para la llegada del bebé sin comprar de más	body_under_1050_words,elevated_h2_density	content/articles/es/019-preparar-casa-llegada-bebe-sin-comprar-de-mas.json
+es	22	2	744	4	5.38	0.0	0	16	Cómo acompañar a un niño que pega sin etiquetarlo como agresivo	body_under_800_words	content/articles/es/022-nino-pega-sin-etiquetarlo-agresivo.json
+es	23	2	747	4	5.35	0.0	0	18	Cómo acompañar a un niño que muerde sin castigos ni vergüenza	body_under_800_words	content/articles/es/023-nino-muerde-sin-castigos-verguenza.json
+es	24	2	762	4	5.25	0.0	0	17	Cómo gestionar los gritos de un toddler desde la crianza respetuosa	body_under_800_words	content/articles/es/024-gritos-toddler-crianza-respetuosa.json
+es	25	2	757	4	5.28	0.0	0	16	Niños que no quieren recoger: cómo enseñar colaboración sin convertirlo en una lucha	body_under_800_words	content/articles/es/025-ninos-no-quieren-recoger-colaboracion.json
+es	26	2	732	4	5.46	0.0	0	16	Cómo ayudar a un niño a aceptar un no sin ceder ni entrar en una batalla	body_under_800_words	content/articles/es/026-ayudar-nino-aceptar-no.json
+es	27	2	735	4	5.44	0.0	0	16	Transiciones difíciles: cómo pasar de una actividad a otra con menos conflictos	body_under_800_words	content/articles/es/027-transiciones-dificiles-menos-conflictos.json
+es	28	2	738	4	5.42	0.0	0	15	Cómo cerrar las pantallas sin rabietas ni amenazas	body_under_800_words	content/articles/es/028-cerrar-pantallas-sin-rabietas-amenazas.json
 es	31	2	867	6	6.92	0.0	0	26	Juguetes abiertos: por qué suelen durar más en el juego	body_under_1050_words,elevated_h2_density	content/articles/es/031-juguetes-abiertos-juego.json
 es	41	2	898	6	6.68	0.125	1	32	Cómo pedir perdón a un niño de una forma que realmente repare	body_under_1050_words,elevated_h2_density	content/articles/es/041-pedir-perdon-a-un-nino-reparar.json
 es	61	2	793	4	5.04	0.0	0	15	Cómo crear un rincón de lactancia práctico sin comprar accesorios innecesarios	body_under_800_words	content/articles/es/061-rincon-lactancia-practico-sin-accesorios-innecesarios.json
@@ -495,6 +488,10 @@ es	1141	2	723	4	5.53	0.0	0	14	No querer hacer fotos de embarazo y sentir que deb
 es	1142	2	695	4	5.76	0.0	0	14	No querer compartir tu embarazo en redes sociales	body_under_800_words	content/articles/es/1142-no-querer-compartir-embarazo-redes-sociales.json
 es	1144	2	704	4	5.68	0.0	0	14	Qué hacer cuando un familiar anuncia tu embarazo antes que tú	body_under_800_words	content/articles/es/1144-familiar-anuncia-embarazo-antes-que-tu.json
 es	1149	2	692	4	5.78	0.0	0	14	Cuando todo gira alrededor del bebé y echas de menos que te pregunten por ti	body_under_800_words	content/articles/es/1149-todo-gira-bebe-echas-menos-pregunten-por-ti.json
+en	21	1	847	4	4.72	0.0	0	16	Baby naps: how to build a flexible routine without watching the clock all day	body_under_1050_words	content/articles/en/021-baby-naps-flexible-routine.json
+en	28	1	800	4	5.0	0.0	0	15	How to turn off screens without tantrums, threats, or endless negotiating	body_under_1050_words	content/articles/en/028-turn-off-screens-without-tantrums.json
+en	29	1	864	4	4.63	0.0	0	19	Independent play: how to encourage it without demanding that your child entertain themselves	body_under_1050_words	content/articles/en/029-independent-play-without-pressure.json
+en	30	1	881	4	4.54	0.0	0	17	Montessori at home: useful principles even if your house is not a Montessori classroom	body_under_1050_words	content/articles/en/030-montessori-at-home-useful-principles.json
 en	71	1	863	4	4.63	0.0	0	17	Kids’ snacks: how to build a routine that doesn’t constantly replace meals	body_under_1050_words	content/articles/en/071-kids-snack-routine-without-replacing-meals.json
 en	76	1	828	4	4.83	0.0	0	18	Potty training without pressure: practical signs it may be a good time	body_under_1050_words	content/articles/en/076-potty-training-readiness-without-pressure.json
 en	79	1	800	4	5.0	0.0	0	18	Potty training and daycare: how to coordinate expectations with caregivers	body_under_1050_words	content/articles/en/079-potty-training-daycare-coordinate-expectations.json
@@ -541,6 +538,9 @@ en	1118	1	805	4	4.97	0.0	0	15	Fear that you will stop being a couple and become 
 en	1131	1	862	4	4.64	0.0	0	15	Feeling like your body no longer belongs to you during pregnancy	body_under_1050_words	content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json
 es	1	1	1630	8	4.91	0.041	1	49	Crianza respetuosa: qué significa de verdad y cómo aplicarla sin caer en extremos	repeated_no_necesitas_pattern	content/articles/es/001-crianza-respetuosa.json
 es	4	1	1578	8	5.07	0.065	1	46	Potty training o dejar el pañal: guía respetuosa sin premios ni presión	repeated_no_significa_pattern	content/articles/es/004-potty-training-sin-premios-presion.json
+es	21	1	811	4	4.93	0.0	0	16	Siestas del bebé: cómo crear una rutina flexible sin vivir pendiente del reloj	body_under_1050_words	content/articles/es/021-siestas-bebe-rutina-flexible.json
+es	29	1	805	4	4.97	0.0	0	19	Juego independiente: cómo fomentarlo sin exigir que el niño se entretenga solo	body_under_1050_words	content/articles/es/029-juego-independiente-sin-exigir.json
+es	30	1	859	4	4.66	0.0	0	17	Montessori en casa: qué principios son útiles aunque no tengas una casa Montessori	body_under_1050_words	content/articles/es/030-montessori-en-casa-principios-utiles.json
 es	81	1	890	5	5.62	0.0	0	19	Cómo pasar del orinal al inodoro con una transición gradual	body_under_1050_words	content/articles/es/081-transicion-orinal-inodoro-gradual.json
 es	92	1	911	5	5.49	0.0	0	17	Cómo organizar mañanas de preschool sin prisas constantes	body_under_1050_words	content/articles/es/092-mananas-preschool-sin-prisas.json
 es	93	1	914	5	5.47	0.0	0	17	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	body_under_1050_words	content/articles/es/093-viajar-avion-bebe-organizacion-equipaje.json

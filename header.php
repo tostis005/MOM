@@ -14,6 +14,27 @@ $nav_items        = array(
 	array( 'hub' => 'audience', 'label' => mom_t( 'Para quién', 'For whom' ) ),
 	array( 'hub' => 'latest', 'label' => mom_t( 'Últimos artículos', 'Latest articles' ) ),
 );
+
+/* Keep overlay assets fresh after theme updates instead of relying on the static theme version. */
+$overlay_css_file = get_template_directory() . '/assets/css/navigation-overlays.css';
+$overlay_js_file  = get_template_directory() . '/assets/js/navigation-overlays.js';
+wp_dequeue_style( 'mom-navigation-overlays' );
+wp_deregister_style( 'mom-navigation-overlays' );
+wp_enqueue_style(
+	'mom-navigation-overlays',
+	get_template_directory_uri() . '/assets/css/navigation-overlays.css',
+	array( 'mom-style' ),
+	file_exists( $overlay_css_file ) ? (string) filemtime( $overlay_css_file ) : wp_get_theme()->get( 'Version' )
+);
+wp_dequeue_script( 'mom-navigation-overlays' );
+wp_deregister_script( 'mom-navigation-overlays' );
+wp_enqueue_script(
+	'mom-navigation-overlays',
+	get_template_directory_uri() . '/assets/js/navigation-overlays.js',
+	array(),
+	file_exists( $overlay_js_file ) ? (string) filemtime( $overlay_js_file ) : wp_get_theme()->get( 'Version' ),
+	true
+);
 ?><!doctype html>
 <html <?php language_attributes(); ?>>
 <head>

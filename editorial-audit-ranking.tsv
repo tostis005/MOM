@@ -5,9 +5,6 @@ es	1111	10	338	4	11.83	0.0	0	10	Miedo a no ser una buena madre antes de que nazc
 es	1125	10	308	4	12.99	0.3	1	10	Miedo a comprar cosas para el bebé demasiado pronto	body_under_350_words,high_h2_density,elevated_short_paragraphs	content/articles/es/1125-miedo-comprar-cosas-bebe-demasiado-pronto.json
 es	1128	10	286	4	13.99	0.3	1	10	Buscar continuamente tranquilidad durante el embarazo y sentir que nunca dura suficiente	body_under_350_words,high_h2_density,elevated_short_paragraphs	content/articles/es/1128-buscar-tranquilidad-embarazo-nunca-dura.json
 es	1147	10	247	4	16.19	0.0	0	7	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/es/1147-cansarte-preguntas-como-va-embarazo.json
-en	1095	9	347	4	11.53	0.0	0	11	Comparing yourself with moms who seem to enjoy parenting more	body_under_350_words,high_h2_density	content/articles/en/1095-other-moms-seem-to-enjoy-parenting-more.json
-en	1096	9	335	4	11.94	0.0	0	11	Why other people’s motherhood looks easier from the outside	body_under_350_words,high_h2_density	content/articles/en/1096-other-motherhood-looks-easier-from-outside.json
-en	1097	9	349	4	11.46	0.091	1	11	How to stop using other families as a measure of whether you’re doing it right	body_under_350_words,high_h2_density	content/articles/en/1097-stop-using-other-families-as-measure.json
 en	1103	9	330	4	12.12	0.0	0	11	Loving the baby and feeling afraid at the same time during pregnancy	body_under_350_words,high_h2_density	content/articles/en/1103-love-baby-and-feel-afraid-pregnancy.json
 en	1104	9	349	4	11.46	0.0	0	11	Feeling guilty for complaining about pregnancy when you wanted to be a mother	body_under_350_words,high_h2_density	content/articles/en/1104-guilt-complaining-about-wanted-pregnancy.json
 en	1105	9	348	4	11.49	0.091	1	11	Not enjoying pregnancy even though it was deeply wanted	body_under_350_words,high_h2_density	content/articles/en/1105-not-enjoy-pregnancy-even-wanted.json
@@ -53,9 +50,6 @@ en	1146	9	268	4	14.93	0.0	0	7	When your pregnancy starts to feel like public inf
 en	1148	9	272	4	14.71	0.0	0	8	How to respond when you do not want to talk about pregnancy all the time	body_under_350_words,high_h2_density	content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json
 en	1149	9	278	4	14.39	0.0	0	7	When everything is about the baby and you miss people asking about you	body_under_350_words,high_h2_density	content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json
 en	1150	9	287	4	13.94	0.0	0	7	How to maintain other parts of your identity while you are pregnant	body_under_350_words,high_h2_density	content/articles/en/1150-maintain-identity-during-pregnancy.json
-es	1097	9	329	4	12.16	0.091	1	11	Cómo dejar de usar a otras familias como medida de si lo estás haciendo bien	body_under_350_words,high_h2_density	content/articles/es/1097-dejar-usar-otras-familias-medida-hacerlo-bien.json
-es	1098	9	335	4	11.94	0.0	0	11	Sentir que todos los demás padres saben lo que hacen menos tú	body_under_350_words,high_h2_density	content/articles/es/1098-todos-padres-saben-que-hacen-menos-tu.json
-es	1099	9	347	4	11.53	0.0	0	11	Síndrome de impostora en la maternidad: sentir que algún día descubrirán que no sabes lo que haces	body_under_350_words,high_h2_density	content/articles/es/1099-sindrome-impostora-maternidad-no-sabes-que-haces.json
 es	1106	9	340	4	11.76	0.0	0	11	Esperar que termine el embarazo y sentir culpa por no disfrutarlo	body_under_350_words,high_h2_density	content/articles/es/1106-esperar-termine-embarazo-culpa-no-disfrutarlo.json
 es	1108	9	320	4	12.5	0.182	1	11	No sentir amor instantáneo por el bebé antes de que nazca	body_under_350_words,high_h2_density	content/articles/es/1108-no-sentir-amor-instantaneo-bebe-antes-nazca.json
 es	1109	9	349	4	11.46	0.091	1	11	No tener ganas de hablarle a la barriga durante el embarazo	body_under_350_words,high_h2_density	content/articles/es/1109-no-tener-ganas-hablar-barriga-embarazo.json
@@ -100,13 +94,6 @@ es	1121	8	354	4	11.3	0.0	0	10	Pensar constantemente “¿y si algo sale mal?” 
 en	1068	7	490	4	8.16	0.0	0	14	Why an uninterrupted shower can feel like a luxury when you are a mom	body_under_500_words,high_h2_density	content/articles/en/1068-uninterrupted-shower-feels-like-luxury.json
 en	1076	7	481	4	8.32	0.0	0	14	Feeling like you have to remember everything for everyone in the family	body_under_500_words,high_h2_density	content/articles/en/1076-remember-everything-for-everyone.json
 en	1078	7	498	4	8.03	0.0	0	14	How to mentally disconnect from family responsibilities for a while	body_under_500_words,high_h2_density	content/articles/en/1078-mentally-disconnect-from-family-responsibilities.json
-en	1091	7	413	4	9.69	0.0	0	11	Feeling like other moms handle everything better than you	body_under_500_words,high_h2_density	content/articles/en/1091-other-moms-seem-to-handle-everything-better.json
-en	1092	7	362	4	11.05	0.0	0	11	How to stop comparing yourself with moms who seem more organized	body_under_500_words,high_h2_density	content/articles/en/1092-stop-comparing-more-organized-moms.json
-en	1093	7	362	4	11.05	0.0	0	11	Comparing yourself with moms who cook, work, play, and keep a perfect home	body_under_500_words,high_h2_density	content/articles/en/1093-comparing-supermom-does-everything.json
-en	1094	7	362	4	11.05	0.0	0	11	Feeling less patient than other moms	body_under_500_words,high_h2_density	content/articles/en/1094-feel-less-patient-than-other-moms.json
-en	1098	7	359	4	11.14	0.0	0	11	Feeling like every other parent knows what they’re doing except you	body_under_500_words,high_h2_density	content/articles/en/1098-everyone-knows-parenting-except-you.json
-en	1099	7	357	4	11.2	0.0	0	11	Impostor syndrome in motherhood: feeling like people will discover you don’t know what you’re doing	body_under_500_words,high_h2_density	content/articles/en/1099-impostor-feeling-in-motherhood.json
-en	1100	7	373	4	10.72	0.0	0	11	How to build confidence as a mom without needing to do everything perfectly	body_under_500_words,high_h2_density	content/articles/en/1100-build-confidence-mom-without-perfection.json
 en	1101	7	394	4	10.15	0.0	0	11	Is it normal not to feel happy all the time during pregnancy?	body_under_500_words,high_h2_density	content/articles/en/1101-not-happy-all-the-time-pregnancy.json
 en	1102	7	373	4	10.72	0.0	0	11	A wanted pregnancy without the excitement you expected to feel	body_under_500_words,high_h2_density	content/articles/en/1102-wanted-pregnancy-without-expected-excitement.json
 es	1065	7	466	4	8.58	0.0	0	14	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	body_under_500_words,high_h2_density	content/articles/es/1065-cinco-minutos-sola-importantes-madre.json
@@ -115,13 +102,6 @@ es	1073	7	491	4	8.15	0.0	0	14	Cansarte de escuchar “mamá” todo el día y se
 es	1075	7	474	4	8.44	0.0	0	13	Cómo recuperar espacio mental cuando toda tu familia depende de ti para pequeñas decisiones	body_under_500_words,high_h2_density	content/articles/es/1075-recuperar-espacio-mental-pequenas-decisiones-familiares.json
 es	1077	7	494	4	8.1	0.0	0	14	Cuando descansar parece imposible porque siempre recuerdas una tarea pendiente	body_under_500_words,high_h2_density	content/articles/es/1077-descansar-imposible-tarea-pendiente.json
 es	1078	7	478	4	8.37	0.0	0	14	Cómo desconectar mentalmente de las responsabilidades familiares durante un rato	body_under_500_words,high_h2_density	content/articles/es/1078-desconectar-mentalmente-responsabilidades-familiares.json
-es	1091	7	432	4	9.26	0.0	0	11	Sentir que otras madres parecen llevarlo todo mejor que tú	body_under_500_words,high_h2_density	content/articles/es/1091-otras-madres-parecen-llevarlo-mejor.json
-es	1092	7	366	4	10.93	0.0	0	11	Cómo dejar de compararte con madres que parecen más organizadas	body_under_500_words,high_h2_density	content/articles/es/1092-dejar-compararte-madres-mas-organizadas.json
-es	1093	7	356	4	11.24	0.0	0	11	Compararte con madres que cocinan, trabajan, juegan y mantienen la casa perfecta	body_under_500_words,high_h2_density	content/articles/es/1093-compararte-madres-cocinan-trabajan-juegan-casa-perfecta.json
-es	1094	7	379	4	10.55	0.0	0	11	Sentir que eres menos paciente que otras madres	body_under_500_words,high_h2_density	content/articles/es/1094-sentir-menos-paciente-otras-madres.json
-es	1095	7	360	4	11.11	0.0	0	11	Compararte con madres que parecen disfrutar más de la crianza	body_under_500_words,high_h2_density	content/articles/es/1095-compararte-madres-disfrutan-mas-crianza.json
-es	1096	7	350	4	11.43	0.0	0	11	Por qué la maternidad de otras personas parece más fácil desde fuera	body_under_500_words,high_h2_density	content/articles/es/1096-maternidad-otras-parece-mas-facil-desde-fuera.json
-es	1100	7	365	4	10.96	0.0	0	11	Cómo construir confianza en ti misma como madre sin necesitar hacerlo todo perfecto	body_under_500_words,high_h2_density	content/articles/es/1100-construir-confianza-madre-sin-perfeccion.json
 es	1101	7	390	4	10.26	0.0	0	11	¿Es normal no sentirse feliz todo el tiempo durante el embarazo?	body_under_500_words,high_h2_density	content/articles/es/1101-no-sentirse-feliz-todo-tiempo-embarazo.json
 es	1102	7	385	4	10.39	0.0	0	11	Embarazo deseado pero sin la ilusión que esperabas sentir	body_under_500_words,high_h2_density	content/articles/es/1102-embarazo-deseado-sin-ilusion-esperada.json
 es	1103	7	362	4	11.05	0.0	0	11	Querer al bebé y tener miedo al mismo tiempo durante el embarazo	body_under_500_words,high_h2_density	content/articles/es/1103-querer-bebe-tener-miedo-embarazo.json
@@ -327,6 +307,8 @@ es	1085	4	627	4	6.38	0.0	0	14	Por qué recuerdas tus errores de crianza y olvida
 es	1087	4	617	4	6.48	0.0	0	14	Prometerte cada noche que mañana serás una madre más paciente	body_under_650_words,elevated_h2_density	content/articles/es/1087-prometertelo-cada-noche-mas-paciente.json
 es	1088	4	595	4	6.72	0.0	0	14	Sentir que necesitas empezar de cero cada mañana con tus hijos	body_under_650_words,elevated_h2_density	content/articles/es/1088-necesitar-empezar-cero-cada-manana-hijos.json
 es	1089	4	611	4	6.55	0.0	0	14	Cómo aceptar una semana mala sin pensar que vuestra familia está mal	body_under_650_words,elevated_h2_density	content/articles/es/1089-aceptar-semana-mala-sin-pensar-familia-mal.json
+es	1096	4	649	4	6.16	0.0	0	15	Por qué la maternidad de otras personas parece más fácil desde fuera	body_under_650_words,elevated_h2_density	content/articles/es/1096-maternidad-otras-parece-mas-facil-desde-fuera.json
+es	1098	4	636	4	6.29	0.0	0	15	Sentir que todos los demás padres saben lo que hacen menos tú	body_under_650_words,elevated_h2_density	content/articles/es/1098-todos-padres-saben-que-hacen-menos-tu.json
 en	11	3	801	6	7.49	0.038	1	26	Night Wakings: How to Respond Respectfully Without Burning Out the Family	body_under_1050_words,high_h2_density	content/articles/en/011-night-wakings-respectful-response.json
 en	12	3	880	6	6.82	0.065	1	31	Toddler Activities at Home That Actually Hold Their Attention	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/en/012-toddler-activities-at-home.json
 en	14	3	872	6	6.88	0.071	1	28	How to Choose a Daycare: Questions That Matter Before You Decide	body_under_1050_words,elevated_h2_density,many_question_paragraphs	content/articles/en/014-how-to-choose-daycare.json
@@ -369,6 +351,10 @@ en	1081	3	673	4	5.94	0.0	0	14	Maternal perfectionism: why it never feels like yo
 en	1082	3	653	4	6.13	0.0	0	14	How to stop measuring your motherhood by how much you get done	body_under_800_words,elevated_h2_density	content/articles/en/1082-stop-measuring-motherhood-by-output.json
 en	1083	3	684	4	5.85	0.0	0	14	Feeling like any small mistake proves you are a bad mom	body_under_800_words,elevated_h2_density	content/articles/en/1083-small-mistake-means-bad-mom.json
 en	1090	3	663	4	6.03	0.0	0	14	Good enough motherhood: what it means to stop chasing perfection	body_under_800_words,elevated_h2_density	content/articles/en/1090-good-enough-motherhood.json
+en	1092	3	683	4	5.86	0.0	0	15	How to stop comparing yourself with moms who seem more organized	body_under_800_words,elevated_h2_density	content/articles/en/1092-stop-comparing-more-organized-moms.json
+en	1096	3	658	4	6.08	0.0	0	15	Why other people’s motherhood looks easier from the outside	body_under_800_words,elevated_h2_density	content/articles/en/1096-other-motherhood-looks-easier-from-outside.json
+en	1098	3	658	4	6.08	0.0	0	15	Feeling like every other parent knows what they’re doing except you	body_under_800_words,elevated_h2_density	content/articles/en/1098-everyone-knows-parenting-except-you.json
+en	1099	3	680	4	5.88	0.0	0	15	Impostor syndrome in motherhood: feeling like people will discover you don’t know what you’re doing	body_under_800_words,elevated_h2_density	content/articles/en/1099-impostor-feeling-in-motherhood.json
 es	11	3	843	6	7.12	0.1	1	30	Despertares nocturnos: cómo responder de forma respetuosa y sostenible para la familia	body_under_1050_words,high_h2_density	content/articles/es/011-despertares-nocturnos-responder-respeto.json
 es	12	3	897	6	6.69	0.069	1	29	Actividades para toddlers en casa que realmente mantienen su interés	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/012-actividades-toddlers-en-casa.json
 es	13	3	836	6	7.18	0.037	1	27	Regresiones del sueño: cómo atravesarlas con calma	body_under_1050_words,high_h2_density	content/articles/es/013-regresiones-sueno-calma.json
@@ -414,6 +400,7 @@ es	1060	3	559	3	5.37	0.0	0	15	Cómo dejar de ser la animadora oficial de toda la
 es	1084	3	685	4	5.84	0.0	0	14	Pensar por la noche en todo lo que hiciste mal como madre durante el día	body_under_800_words,elevated_h2_density	content/articles/es/1084-pensar-noche-todo-hiciste-mal-madre.json
 es	1086	3	664	4	6.02	0.0	0	14	Cómo terminar un día difícil sin convertirlo en un juicio sobre tu maternidad	body_under_800_words,elevated_h2_density	content/articles/es/1086-terminar-dia-dificil-sin-juzgar-maternidad.json
 es	1090	3	656	4	6.1	0.0	0	14	Maternidad suficientemente buena: qué significa dejar de perseguir la perfección	body_under_800_words,elevated_h2_density	content/articles/es/1090-maternidad-suficientemente-buena.json
+es	1100	3	670	4	5.97	0.0	0	15	Cómo construir confianza en ti misma como madre sin necesitar hacerlo todo perfecto	body_under_800_words,elevated_h2_density	content/articles/es/1100-construir-confianza-madre-sin-perfeccion.json
 en	15	2	944	6	6.36	0.033	1	30	Positive Discipline vs. Respectful Parenting: Similarities, Differences and How They Fit Together	body_under_1050_words,elevated_h2_density	content/articles/en/015-positive-discipline-vs-respectful-parenting.json
 en	18	2	876	6	6.85	0.032	1	31	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure	body_under_1050_words,elevated_h2_density	content/articles/en/018-baby-led-feeding-table-autonomy.json
 en	19	2	939	6	6.39	0.133	1	30	How to Prepare Your Home for a Baby Without Buying Too Much	body_under_1050_words,elevated_h2_density	content/articles/en/019-prepare-home-for-baby-without-overbuying.json
@@ -465,6 +452,11 @@ en	1010	2	883	6	6.8	0.125	1	32	Feeling Guilty for Feeling Relieved When the Kids
 en	1011	2	868	6	6.91	0.129	1	31	Matrescence: Why Becoming a Mother Can Change Your Sense of Identity	body_under_1050_words,elevated_h2_density	content/articles/en/1011-matrescence-identity-change.json
 en	1047	2	851	5	5.88	0.042	1	24	The Pressure Not to Repeat Any of Your Parents’ Mistakes	body_under_1050_words,elevated_h2_density	content/articles/en/1047-pressure-not-to-repeat-your-parents-mistakes.json
 en	1084	2	706	4	5.67	0.0	0	14	Thinking at night about everything you did wrong as a mom that day	body_under_800_words	content/articles/en/1084-nightly-motherhood-rumination.json
+en	1093	2	741	4	5.4	0.0	0	15	Comparing yourself with moms who cook, work, play, and keep a perfect home	body_under_800_words	content/articles/en/1093-comparing-supermom-does-everything.json
+en	1094	2	721	4	5.55	0.0	0	15	Feeling less patient than other moms	body_under_800_words	content/articles/en/1094-feel-less-patient-than-other-moms.json
+en	1095	2	721	4	5.55	0.0	0	15	Comparing yourself with moms who seem to enjoy parenting more	body_under_800_words	content/articles/en/1095-other-moms-seem-to-enjoy-parenting-more.json
+en	1097	2	721	4	5.55	0.0	0	15	How to stop using other families as a measure of whether you’re doing it right	body_under_800_words	content/articles/en/1097-stop-using-other-families-as-measure.json
+en	1100	2	699	4	5.72	0.0	0	15	How to build confidence as a mom without needing to do everything perfectly	body_under_800_words	content/articles/en/1100-build-confidence-mom-without-perfection.json
 es	3	2	1375	8	5.82	0.089	1	45	Rabietas: cómo acompañarlas con calma, límites y conexión	elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/003-rabietas-acompanar-calma-limites-conexion.json
 es	16	2	861	6	6.97	0.034	1	29	Rutina de noche para niños pequeños: pasos sencillos que favorecen la cooperación	body_under_1050_words,elevated_h2_density	content/articles/es/016-rutina-noche-ninos-pequenos.json
 es	18	2	913	6	6.57	0.038	1	26	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	body_under_1050_words,elevated_h2_density	content/articles/es/018-baby-led-feeding-autonomia-mesa.json
@@ -521,6 +513,12 @@ es	1015	2	879	6	6.83	0.103	1	29	Echar de menos quién eras antes de tener hijos 
 es	1016	2	879	6	6.83	0.071	1	28	Cómo volver a sentirte tú misma después de convertirte en madre	body_under_1050_words,elevated_h2_density	content/articles/es/1016-volver-sentirte-tu-misma-despues-ser-madre.json
 es	1020	2	1045	7	6.7	0.108	2	37	Cómo construir una identidad adulta que incluya la maternidad pero no dependa solo de ella	body_under_1050_words,elevated_h2_density	content/articles/es/1020-identidad-adulta-incluye-maternidad.json
 es	1081	2	701	4	5.71	0.0	0	14	Perfeccionismo materno: por qué nunca sientes que haces suficiente	body_under_800_words	content/articles/es/1081-perfeccionismo-materno-nunca-suficiente.json
+es	1092	2	696	4	5.75	0.0	0	15	Cómo dejar de compararte con madres que parecen más organizadas	body_under_800_words	content/articles/es/1092-dejar-compararte-madres-mas-organizadas.json
+es	1093	2	729	4	5.49	0.0	0	15	Compararte con madres que cocinan, trabajan, juegan y mantienen la casa perfecta	body_under_800_words	content/articles/es/1093-compararte-madres-cocinan-trabajan-juegan-casa-perfecta.json
+es	1094	2	711	4	5.63	0.0	0	15	Sentir que eres menos paciente que otras madres	body_under_800_words	content/articles/es/1094-sentir-menos-paciente-otras-madres.json
+es	1095	2	753	4	5.31	0.0	0	15	Compararte con madres que parecen disfrutar más de la crianza	body_under_800_words	content/articles/es/1095-compararte-madres-disfrutan-mas-crianza.json
+es	1097	2	698	4	5.73	0.0	0	15	Cómo dejar de usar a otras familias como medida de si lo estás haciendo bien	body_under_800_words	content/articles/es/1097-dejar-usar-otras-familias-medida-hacerlo-bien.json
+es	1099	2	713	4	5.61	0.0	0	15	Síndrome de impostora en la maternidad: sentir que algún día descubrirán que no sabes lo que haces	body_under_800_words	content/articles/es/1099-sindrome-impostora-maternidad-no-sabes-que-haces.json
 en	91	1	956	5	5.23	0.0	0	15	How to talk with teachers when you disagree with how behavior was handled	body_under_1050_words	content/articles/en/091-talk-teachers-disagree-behavior-handling.json
 en	93	1	959	5	5.21	0.0	0	17	Flying with a baby: packing, logistics, and realistic expectations	body_under_1050_words	content/articles/en/093-flying-baby-logistics-packing.json
 en	94	1	900	5	5.56	0.0	0	17	Flying with a toddler: how to prepare for the trip	body_under_1050_words	content/articles/en/094-flying-toddler-prepare-trip.json
@@ -547,6 +545,7 @@ en	141	1	846	4	4.73	0.0	0	14	Is falling asleep with a parent nearby a bad habit?
 en	1002	1	1091	7	6.42	0.029	1	34	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently	elevated_h2_density	content/articles/en/1002-guilt-needing-break-from-kids.json
 en	1009	1	1059	7	6.61	0.029	1	35	Feeling Guilty for Wanting a Weekend Away Without the Kids	elevated_h2_density	content/articles/en/1009-guilt-weekend-without-kids.json
 en	1020	1	1070	7	6.54	0.057	1	35	How to Build an Adult Identity That Includes Motherhood Without Being Only About It	elevated_h2_density	content/articles/en/1020-adult-identity-includes-motherhood.json
+en	1091	1	812	4	4.93	0.0	0	15	Feeling like other moms handle everything better than you	body_under_1050_words	content/articles/en/1091-other-moms-seem-to-handle-everything-better.json
 es	1	1	1630	8	4.91	0.041	1	49	Crianza respetuosa: qué significa de verdad y cómo aplicarla sin caer en extremos	repeated_no_necesitas_pattern	content/articles/es/001-crianza-respetuosa.json
 es	4	1	1578	8	5.07	0.065	1	46	Potty training o dejar el pañal: guía respetuosa sin premios ni presión	repeated_no_significa_pattern	content/articles/es/004-potty-training-sin-premios-presion.json
 es	81	1	890	5	5.62	0.0	0	19	Cómo pasar del orinal al inodoro con una transición gradual	body_under_1050_words	content/articles/es/081-transicion-orinal-inodoro-gradual.json
@@ -578,6 +577,7 @@ es	1002	1	1087	7	6.44	0.053	1	38	Culpa por necesitar un descanso de tus hijos: p
 es	1005	1	1087	7	6.44	0.0	0	35	Culpa por desear que llegue la hora de dormir de tus hijos	elevated_h2_density	content/articles/es/1005-culpa-desear-hora-dormir-hijos.json
 es	1006	1	1166	7	6.0	0.026	1	38	Culpa por mirar el móvil mientras tus hijos juegan	elevated_h2_density	content/articles/es/1006-culpa-movil-mientras-hijos-juegan.json
 es	1047	1	910	5	5.49	0.0	0	24	La presión de no repetir ningún error de tus propios padres	body_under_1050_words	content/articles/es/1047-presion-no-repetir-errores-de-tus-padres.json
+es	1091	1	829	4	4.83	0.0	0	15	Sentir que otras madres parecen llevarlo todo mejor que tú	body_under_1050_words	content/articles/es/1091-otras-madres-parecen-llevarlo-mejor.json
 en	1	0	1524	8	5.25	0.02	1	49	Respectful Parenting: What It Really Means and How to Use It Without Going to Extremes		content/articles/en/001-respectful-parenting.json
 en	2	0	1380	7	5.07	0.102	1	49	Baby Bedtime Routine: How to Make Nights More Predictable Without Being Rigid		content/articles/en/002-baby-bedtime-routine.json
 en	3	0	1209	7	5.79	0.081	1	37	Toddler Tantrums: How to Respond With Calm, Limits and Connection		content/articles/en/003-toddler-tantrums-calm-limits-connection.json

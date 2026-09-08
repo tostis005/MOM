@@ -58,15 +58,35 @@ $nav_items        = array(
 			<button class="language-trigger" type="button" data-open-overlay="mom-language-overlay" aria-label="<?php echo esc_attr( mom_t( 'Cambiar idioma', 'Change language' ) ); ?>" aria-haspopup="dialog">
 				<span class="language-flag" aria-hidden="true"><?php echo esc_html( $current_flag ); ?></span>
 			</button>
-			<a class="header-search" href="<?php echo esc_url( add_query_arg( 's', '', $home_url ) ); ?>" aria-label="<?php echo esc_attr( mom_t( 'Buscar', 'Search' ) ); ?>">
+			<button class="header-search" type="button" data-open-overlay="mom-search-overlay" aria-label="<?php echo esc_attr( mom_t( 'Buscar', 'Search' ) ); ?>" aria-haspopup="dialog">
 				<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5 21 21"></path></svg>
-			</a>
+			</button>
 			<button class="menu-trigger" type="button" data-open-overlay="mom-mobile-menu" aria-label="<?php echo esc_attr( mom_t( 'Abrir menú', 'Open menu' ) ); ?>" aria-haspopup="dialog">
 				<span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
 			</button>
 		</div>
 	</div>
 </header>
+
+<div class="mom-overlay" id="mom-search-overlay" data-mom-overlay role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="mom-search-title">
+	<div class="mom-overlay-top">
+		<div class="mom-overlay-brand"><?php echo esc_html( $site_name ); ?></div>
+		<button class="mom-overlay-close" type="button" data-close-overlay aria-label="<?php echo esc_attr( mom_t( 'Cerrar buscador', 'Close search' ) ); ?>">×</button>
+	</div>
+	<div class="mom-overlay-body">
+		<div class="search-panel">
+			<header class="search-panel-header">
+				<span><?php echo esc_html( mom_t( 'Buscar', 'Search' ) ); ?></span>
+				<h2 id="mom-search-title"><?php echo esc_html( mom_t( '¿Qué te gustaría saber?', 'What would you like to know?' ) ); ?></h2>
+			</header>
+			<form class="overlay-search-form" role="search" method="get" action="<?php echo esc_url( $home_url ); ?>">
+				<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5 21 21"></path></svg>
+				<input data-overlay-autofocus type="search" name="s" autocomplete="off" placeholder="<?php echo esc_attr( mom_t( 'Escribe tu búsqueda…', 'Type your search…' ) ); ?>" aria-label="<?php echo esc_attr( mom_t( 'Buscar artículos', 'Search articles' ) ); ?>">
+				<button type="submit"><?php echo esc_html( mom_t( 'Buscar', 'Search' ) ); ?></button>
+			</form>
+		</div>
+	</div>
+</div>
 
 <div class="mom-overlay" id="mom-language-overlay" data-mom-overlay role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="mom-language-title">
 	<div class="mom-overlay-top">
@@ -82,12 +102,12 @@ $nav_items        = array(
 			<div class="language-options">
 				<a class="language-option <?php echo 'es' === $current_language ? 'is-current' : ''; ?>" href="<?php echo esc_url( mom_context_language_switch_url( 'es' ) ); ?>" hreflang="es-ES" lang="es">
 					<span class="language-option-flag" aria-hidden="true">🇪🇸</span>
-					<span class="language-option-copy"><strong>Español</strong><small>España</small></span>
+					<span class="language-option-copy"><strong>Español</strong></span>
 					<span class="language-option-status" aria-hidden="true"><?php echo 'es' === $current_language ? '✓' : '→'; ?></span>
 				</a>
 				<a class="language-option <?php echo 'en' === $current_language ? 'is-current' : ''; ?>" href="<?php echo esc_url( mom_context_language_switch_url( 'en' ) ); ?>" hreflang="en-US" lang="en">
 					<span class="language-option-flag" aria-hidden="true">🇺🇸</span>
-					<span class="language-option-copy"><strong>English</strong><small>United States</small></span>
+					<span class="language-option-copy"><strong>English</strong></span>
 					<span class="language-option-status" aria-hidden="true"><?php echo 'en' === $current_language ? '✓' : '→'; ?></span>
 				</a>
 			</div>

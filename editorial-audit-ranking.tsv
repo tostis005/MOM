@@ -1,9 +1,6 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
-en	1068	7	490	4	8.16	0.0	0	14	Why an uninterrupted shower can feel like a luxury when you are a mom	body_under_500_words,high_h2_density	content/articles/en/1068-uninterrupted-shower-feels-like-luxury.json
 en	1076	7	481	4	8.32	0.0	0	14	Feeling like you have to remember everything for everyone in the family	body_under_500_words,high_h2_density	content/articles/en/1076-remember-everything-for-everyone.json
 en	1078	7	498	4	8.03	0.0	0	14	How to mentally disconnect from family responsibilities for a while	body_under_500_words,high_h2_density	content/articles/en/1078-mentally-disconnect-from-family-responsibilities.json
-es	1065	7	466	4	8.58	0.0	0	14	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	body_under_500_words,high_h2_density	content/articles/es/1065-cinco-minutos-sola-importantes-madre.json
-es	1068	7	495	4	8.08	0.0	0	14	Por qué una ducha sin interrupciones puede sentirse como un lujo cuando eres madre	body_under_500_words,high_h2_density	content/articles/es/1068-ducha-sin-interrupciones-lujo-madre.json
 es	1073	7	491	4	8.15	0.0	0	14	Cansarte de escuchar “mamá” todo el día y sentir culpa por ello	body_under_500_words,high_h2_density	content/articles/es/1073-cansarte-escuchar-mama-todo-dia-culpa.json
 es	1075	7	474	4	8.44	0.0	0	13	Cómo recuperar espacio mental cuando toda tu familia depende de ti para pequeñas decisiones	body_under_500_words,high_h2_density	content/articles/es/1075-recuperar-espacio-mental-pequenas-decisiones-familiares.json
 es	1077	7	494	4	8.1	0.0	0	14	Cuando descansar parece imposible porque siempre recuerdas una tarea pendiente	body_under_500_words,high_h2_density	content/articles/es/1077-descansar-imposible-tarea-pendiente.json
@@ -53,13 +50,6 @@ en	1052	5	634	5	7.89	0.0	0	17	Loving Your Kids and Getting Bored Playing With Th
 en	1053	5	564	5	8.87	0.0	0	16	How to Connect With Your Kids If You Are Not a Very Playful Mom	body_under_650_words,high_h2_density	content/articles/en/1053-connect-with-kids-if-not-playful-mom.json
 en	1054	5	525	5	9.52	0.176	1	17	Preferring Reading or Walking With Your Kids Instead of Playing on the Floor	body_under_650_words,high_h2_density	content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json
 en	1055	5	641	5	7.8	0.0	0	16	Feeling Guilty Because Your Partner Enjoys Playing With the Kids More Than You Do	body_under_650_words,high_h2_density	content/articles/en/1055-guilt-partner-enjoys-playing-with-kids-more.json
-en	1063	5	559	4	7.16	0.0	0	14	Feeling relieved when no one needs you for a few minutes	body_under_650_words,high_h2_density	content/articles/en/1063-relief-when-no-one-needs-you.json
-en	1064	5	534	4	7.49	0.0	0	14	Wanting your kids to leave you alone and then missing them when they do	body_under_650_words,high_h2_density	content/articles/en/1064-want-kids-to-leave-you-alone-then-miss-them.json
-en	1065	5	513	4	7.8	0.0	0	14	Why five minutes alone can feel so important when you are a mom	body_under_650_words,high_h2_density	content/articles/en/1065-why-five-minutes-alone-matter-as-mom.json
-en	1066	5	561	4	7.13	0.0	0	14	Sitting alone in the car before going inside for a few minutes of quiet	body_under_650_words,high_h2_density	content/articles/en/1066-sitting-alone-in-car-before-going-inside.json
-en	1067	5	532	4	7.52	0.0	0	14	When running errands alone feels like rest after having kids	body_under_650_words,high_h2_density	content/articles/en/1067-running-errands-alone-feels-like-rest.json
-en	1069	5	545	4	7.34	0.0	0	14	Needing to be alone after spending all day with your kids	body_under_650_words,high_h2_density	content/articles/en/1069-need-to-be-alone-after-all-day-with-kids.json
-en	1070	5	553	4	7.23	0.0	0	14	How to ask for alone time without feeling like you are rejecting your family	body_under_650_words,high_h2_density	content/articles/en/1070-ask-for-alone-time-without-rejecting-family.json
 en	1071	5	501	4	7.98	0.0	0	14	Feeling like you are always available to someone since becoming a mom	body_under_650_words,high_h2_density	content/articles/en/1071-always-available-to-someone-as-mom.json
 en	1072	5	521	4	7.68	0.0	0	14	When your kids keep calling for you even though another adult is right there	body_under_650_words,high_h2_density	content/articles/en/1072-kids-call-mom-when-other-adult-present.json
 en	1073	5	511	4	7.83	0.0	0	14	Feeling tired of hearing “Mom” all day — and guilty about it	body_under_650_words,high_h2_density	content/articles/en/1073-tired-of-hearing-mom-all-day-guilt.json
@@ -89,12 +79,6 @@ es	1052	5	631	5	7.92	0.0	0	17	Amar a tus hijos y aburrirte jugando con ellos: po
 es	1053	5	600	5	8.33	0.0	0	16	Formas de conectar con tus hijos si no eres una madre especialmente juguetona	body_under_650_words,high_h2_density	content/articles/es/1053-conectar-hijos-si-no-eres-madre-juguetona.json
 es	1054	5	546	5	9.16	0.118	1	17	Preferir leer o pasear con tus hijos en vez de jugar en el suelo	body_under_650_words,high_h2_density	content/articles/es/1054-preferir-leer-pasear-hijos-en-vez-jugar-suelo.json
 es	1055	5	628	5	7.96	0.0	0	16	Sentir culpa porque tu pareja disfruta más jugando con los niños que tú	body_under_650_words,high_h2_density	content/articles/es/1055-culpa-pareja-disfruta-mas-jugando-ninos.json
-es	1063	5	522	4	7.66	0.0	0	14	Sentir alivio cuando por fin nadie te necesita durante unos minutos	body_under_650_words,high_h2_density	content/articles/es/1063-alivio-cuando-nadie-te-necesita-unos-minutos.json
-es	1064	5	513	4	7.8	0.0	0	14	Querer que tus hijos te dejen sola y echarlos de menos cuando se van	body_under_650_words,high_h2_density	content/articles/es/1064-querer-hijos-dejen-sola-echarlos-menos-cuando-se-van.json
-es	1066	5	541	4	7.39	0.0	0	14	Sentarte sola en el coche antes de entrar en casa para tener unos minutos de silencio	body_under_650_words,high_h2_density	content/articles/es/1066-sentarte-sola-coche-antes-entrar-casa-silencio.json
-es	1067	5	503	4	7.95	0.0	0	14	Hacer recados sola como forma de descanso después de tener hijos	body_under_650_words,high_h2_density	content/articles/es/1067-hacer-recados-sola-como-descanso-despues-hijos.json
-es	1069	5	544	4	7.35	0.0	0	14	Necesitar estar sola después de pasar todo el día con tus hijos	body_under_650_words,high_h2_density	content/articles/es/1069-necesitar-estar-sola-despues-dia-con-hijos.json
-es	1070	5	530	4	7.55	0.0	0	14	Cómo pedir tiempo a solas sin sentir que estás rechazando a tu familia	body_under_650_words,high_h2_density	content/articles/es/1070-pedir-tiempo-solas-sin-rechazar-familia.json
 es	1071	5	506	4	7.91	0.0	0	14	Sentir que siempre estás disponible para alguien desde que eres madre	body_under_650_words,high_h2_density	content/articles/es/1071-sentir-siempre-disponible-para-alguien-madre.json
 es	1072	5	514	4	7.78	0.0	0	14	Cuando tus hijos te llaman continuamente aunque haya otro adulto presente	body_under_650_words,high_h2_density	content/articles/es/1072-hijos-llaman-mama-aunque-haya-otro-adulto.json
 es	1074	5	501	4	7.98	0.0	0	14	Sentir que nadie puede resolver nada en casa sin preguntarte primero	body_under_650_words,high_h2_density	content/articles/es/1074-nadie-resuelve-nada-sin-preguntarte.json
@@ -142,8 +126,6 @@ en	1044	4	747	6	8.03	0.172	1	29	The Pressure to Be a Present Mom Who Never Looks
 en	1045	4	712	6	8.43	0.143	1	28	The Pressure to Be Fun, Organized, and Affectionate Every Day as a Mom	body_under_800_words,high_h2_density	content/articles/en/1045-pressure-to-be-fun-organized-affectionate-mom.json
 en	1046	4	730	6	8.22	0.185	1	27	The Pressure to Give Your Kids a Perfect Childhood	body_under_800_words,high_h2_density	content/articles/en/1046-pressure-to-give-kids-perfect-childhood.json
 en	1049	4	681	5	7.34	0.125	1	24	The Pressure to Keep a Beautiful, Tidy Home While Raising Kids	body_under_800_words,high_h2_density	content/articles/en/1049-pressure-to-keep-beautiful-tidy-home-with-kids.json
-en	1061	4	605	4	6.61	0.0	0	14	Is it normal to look forward to being alone at the end of the day?	body_under_650_words,elevated_h2_density	content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json
-en	1062	4	624	4	6.41	0.0	0	14	When the best part of the day is the silence after the kids go to bed	body_under_650_words,elevated_h2_density	content/articles/en/1062-best-part-day-silence-after-kids-bed.json
 en	1085	4	648	4	6.17	0.0	0	14	Why you remember your parenting mistakes and forget everything you did well	body_under_650_words,elevated_h2_density	content/articles/en/1085-remember-parenting-mistakes-forget-good.json
 en	1086	4	626	4	6.39	0.0	0	14	How to end a hard day without turning it into a judgment of your motherhood	body_under_650_words,elevated_h2_density	content/articles/en/1086-end-hard-day-without-judging-motherhood.json
 en	1087	4	622	4	6.43	0.0	0	14	Promising yourself every night that tomorrow you will be a more patient mom	body_under_650_words,elevated_h2_density	content/articles/en/1087-promise-tomorrow-more-patient-mom.json
@@ -207,8 +189,6 @@ es	1044	4	737	6	8.14	0.207	1	29	La presión de ser una madre presente sin mirar 
 es	1045	4	742	6	8.09	0.143	1	28	La presión de ser divertida, organizada y cariñosa todos los días como madre	body_under_800_words,high_h2_density	content/articles/es/1045-presion-ser-divertida-organizada-carinosa.json
 es	1046	4	743	6	8.08	0.148	1	27	La presión de ofrecer una infancia perfecta a tus hijos	body_under_800_words,high_h2_density	content/articles/es/1046-presion-ofrecer-infancia-perfecta.json
 es	1049	4	711	5	7.03	0.083	1	24	La presión de tener una casa bonita y ordenada además de criar a tus hijos	body_under_800_words,high_h2_density	content/articles/es/1049-presion-casa-bonita-ordenada-con-hijos.json
-es	1061	4	580	4	6.9	0.0	0	14	¿Es normal esperar con ganas el momento de estar sola al final del día?	body_under_650_words,elevated_h2_density	content/articles/es/1061-es-normal-esperar-momento-estar-sola-final-dia.json
-es	1062	4	591	4	6.77	0.0	0	14	Cuando lo mejor del día es el silencio después de acostar a los niños	body_under_650_words,elevated_h2_density	content/articles/es/1062-mejor-dia-silencio-despues-acostar-ninos.json
 es	1082	4	649	4	6.16	0.0	0	14	Cómo dejar de medir tu maternidad por la cantidad de cosas que haces	body_under_650_words,elevated_h2_density	content/articles/es/1082-dejar-medir-maternidad-cantidad-cosas.json
 es	1083	4	641	4	6.24	0.0	0	14	Sentir que cualquier error pequeño demuestra que eres mala madre	body_under_650_words,elevated_h2_density	content/articles/es/1083-error-pequeno-mala-madre.json
 es	1085	4	627	4	6.38	0.0	0	14	Por qué recuerdas tus errores de crianza y olvidas todo lo que hiciste bien	body_under_650_words,elevated_h2_density	content/articles/es/1085-recuerdas-errores-olvidas-lo-bueno.json
@@ -409,6 +389,8 @@ en	1008	2	865	6	6.94	0.071	1	28	Feeling Guilty for Hiring a Babysitter When You 
 en	1010	2	883	6	6.8	0.125	1	32	Feeling Guilty for Feeling Relieved When the Kids Go Back to School or Daycare	body_under_1050_words,elevated_h2_density	content/articles/en/1010-guilt-relief-school-daycare.json
 en	1011	2	868	6	6.91	0.129	1	31	Matrescence: Why Becoming a Mother Can Change Your Sense of Identity	body_under_1050_words,elevated_h2_density	content/articles/en/1011-matrescence-identity-change.json
 en	1047	2	851	5	5.88	0.042	1	24	The Pressure Not to Repeat Any of Your Parents’ Mistakes	body_under_1050_words,elevated_h2_density	content/articles/en/1047-pressure-not-to-repeat-your-parents-mistakes.json
+en	1063	2	798	4	5.01	0.0	0	19	Feeling relieved when no one needs you for a few minutes	body_under_800_words	content/articles/en/1063-relief-when-no-one-needs-you.json
+en	1068	2	794	4	5.04	0.0	0	17	Why an uninterrupted shower can feel like a luxury when you are a mom	body_under_800_words	content/articles/en/1068-uninterrupted-shower-feels-like-luxury.json
 en	1084	2	706	4	5.67	0.0	0	14	Thinking at night about everything you did wrong as a mom that day	body_under_800_words	content/articles/en/1084-nightly-motherhood-rumination.json
 en	1093	2	741	4	5.4	0.0	0	15	Comparing yourself with moms who cook, work, play, and keep a perfect home	body_under_800_words	content/articles/en/1093-comparing-supermom-does-everything.json
 en	1094	2	721	4	5.55	0.0	0	15	Feeling less patient than other moms	body_under_800_words	content/articles/en/1094-feel-less-patient-than-other-moms.json
@@ -490,6 +472,10 @@ es	1014	2	890	6	6.74	0.034	1	29	Sentir que has desaparecido detrás del papel de
 es	1015	2	879	6	6.83	0.103	1	29	Echar de menos quién eras antes de tener hijos sin querer volver atrás	body_under_1050_words,elevated_h2_density	content/articles/es/1015-echar-menos-quien-eras-antes-hijos.json
 es	1016	2	879	6	6.83	0.071	1	28	Cómo volver a sentirte tú misma después de convertirte en madre	body_under_1050_words,elevated_h2_density	content/articles/es/1016-volver-sentirte-tu-misma-despues-ser-madre.json
 es	1020	2	1045	7	6.7	0.108	2	37	Cómo construir una identidad adulta que incluya la maternidad pero no dependa solo de ella	body_under_1050_words,elevated_h2_density	content/articles/es/1020-identidad-adulta-incluye-maternidad.json
+es	1063	2	778	4	5.14	0.0	0	19	Sentir alivio cuando por fin nadie te necesita durante unos minutos	body_under_800_words	content/articles/es/1063-alivio-cuando-nadie-te-necesita-unos-minutos.json
+es	1065	2	761	4	5.26	0.0	0	15	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	body_under_800_words	content/articles/es/1065-cinco-minutos-sola-importantes-madre.json
+es	1067	2	787	4	5.08	0.0	0	16	Hacer recados sola como forma de descanso después de tener hijos	body_under_800_words	content/articles/es/1067-hacer-recados-sola-como-descanso-despues-hijos.json
+es	1068	2	788	4	5.08	0.0	0	17	Por qué una ducha sin interrupciones puede sentirse como un lujo cuando eres madre	body_under_800_words	content/articles/es/1068-ducha-sin-interrupciones-lujo-madre.json
 es	1081	2	701	4	5.71	0.0	0	14	Perfeccionismo materno: por qué nunca sientes que haces suficiente	body_under_800_words	content/articles/es/1081-perfeccionismo-materno-nunca-suficiente.json
 es	1092	2	696	4	5.75	0.0	0	15	Cómo dejar de compararte con madres que parecen más organizadas	body_under_800_words	content/articles/es/1092-dejar-compararte-madres-mas-organizadas.json
 es	1093	2	729	4	5.49	0.0	0	15	Compararte con madres que cocinan, trabajan, juegan y mantienen la casa perfecta	body_under_800_words	content/articles/es/1093-compararte-madres-cocinan-trabajan-juegan-casa-perfecta.json
@@ -541,6 +527,14 @@ en	141	1	846	4	4.73	0.0	0	14	Is falling asleep with a parent nearby a bad habit?
 en	1002	1	1091	7	6.42	0.029	1	34	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently	elevated_h2_density	content/articles/en/1002-guilt-needing-break-from-kids.json
 en	1009	1	1059	7	6.61	0.029	1	35	Feeling Guilty for Wanting a Weekend Away Without the Kids	elevated_h2_density	content/articles/en/1009-guilt-weekend-without-kids.json
 en	1020	1	1070	7	6.54	0.057	1	35	How to Build an Adult Identity That Includes Motherhood Without Being Only About It	elevated_h2_density	content/articles/en/1020-adult-identity-includes-motherhood.json
+en	1061	1	972	4	4.12	0.0	0	20	Is it normal to look forward to being alone at the end of the day?	body_under_1050_words	content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json
+en	1062	1	859	4	4.66	0.0	0	19	When the best part of the day is the silence after the kids go to bed	body_under_1050_words	content/articles/en/1062-best-part-day-silence-after-kids-bed.json
+en	1064	1	814	4	4.91	0.0	0	19	Wanting your kids to leave you alone and then missing them when they do	body_under_1050_words	content/articles/en/1064-want-kids-to-leave-you-alone-then-miss-them.json
+en	1065	1	827	4	4.84	0.0	0	18	Why five minutes alone can feel so important when you are a mom	body_under_1050_words	content/articles/en/1065-why-five-minutes-alone-matter-as-mom.json
+en	1066	1	902	4	4.43	0.0	0	17	Sitting alone in the car before going inside for a few minutes of quiet	body_under_1050_words	content/articles/en/1066-sitting-alone-in-car-before-going-inside.json
+en	1067	1	806	4	4.96	0.0	0	16	When running errands alone feels like rest after having kids	body_under_1050_words	content/articles/en/1067-running-errands-alone-feels-like-rest.json
+en	1069	1	897	4	4.46	0.0	0	19	Needing to be alone after spending all day with your kids	body_under_1050_words	content/articles/en/1069-need-to-be-alone-after-all-day-with-kids.json
+en	1070	1	913	4	4.38	0.0	0	19	How to ask for alone time without feeling like you are rejecting your family	body_under_1050_words	content/articles/en/1070-ask-for-alone-time-without-rejecting-family.json
 en	1091	1	812	4	4.93	0.0	0	15	Feeling like other moms handle everything better than you	body_under_1050_words	content/articles/en/1091-other-moms-seem-to-handle-everything-better.json
 en	1104	1	859	4	4.66	0.0	0	14	Feeling guilty for complaining about pregnancy when you wanted to be a mother	body_under_1050_words	content/articles/en/1104-guilt-complaining-about-wanted-pregnancy.json
 en	1118	1	805	4	4.97	0.0	0	15	Fear that you will stop being a couple and become only parents	body_under_1050_words	content/articles/en/1118-fear-becoming-only-parents-not-couple.json
@@ -576,6 +570,12 @@ es	1002	1	1087	7	6.44	0.053	1	38	Culpa por necesitar un descanso de tus hijos: p
 es	1005	1	1087	7	6.44	0.0	0	35	Culpa por desear que llegue la hora de dormir de tus hijos	elevated_h2_density	content/articles/es/1005-culpa-desear-hora-dormir-hijos.json
 es	1006	1	1166	7	6.0	0.026	1	38	Culpa por mirar el móvil mientras tus hijos juegan	elevated_h2_density	content/articles/es/1006-culpa-movil-mientras-hijos-juegan.json
 es	1047	1	910	5	5.49	0.0	0	24	La presión de no repetir ningún error de tus propios padres	body_under_1050_words	content/articles/es/1047-presion-no-repetir-errores-de-tus-padres.json
+es	1061	1	933	4	4.29	0.0	0	20	¿Es normal esperar con ganas el momento de estar sola al final del día?	body_under_1050_words	content/articles/es/1061-es-normal-esperar-momento-estar-sola-final-dia.json
+es	1062	1	827	4	4.84	0.0	0	19	Cuando lo mejor del día es el silencio después de acostar a los niños	body_under_1050_words	content/articles/es/1062-mejor-dia-silencio-despues-acostar-ninos.json
+es	1064	1	803	4	4.98	0.0	0	19	Querer que tus hijos te dejen sola y echarlos de menos cuando se van	body_under_1050_words	content/articles/es/1064-querer-hijos-dejen-sola-echarlos-menos-cuando-se-van.json
+es	1066	1	876	4	4.57	0.0	0	17	Sentarte sola en el coche antes de entrar en casa para tener unos minutos de silencio	body_under_1050_words	content/articles/es/1066-sentarte-sola-coche-antes-entrar-casa-silencio.json
+es	1069	1	903	4	4.43	0.0	0	19	Necesitar estar sola después de pasar todo el día con tus hijos	body_under_1050_words	content/articles/es/1069-necesitar-estar-sola-despues-dia-con-hijos.json
+es	1070	1	900	4	4.44	0.0	0	19	Cómo pedir tiempo a solas sin sentir que estás rechazando a tu familia	body_under_1050_words	content/articles/es/1070-pedir-tiempo-solas-sin-rechazar-familia.json
 es	1091	1	829	4	4.83	0.0	0	15	Sentir que otras madres parecen llevarlo todo mejor que tú	body_under_1050_words	content/articles/es/1091-otras-madres-parecen-llevarlo-mejor.json
 es	1131	1	822	4	4.87	0.0	0	15	Sentir que tu cuerpo deja de pertenecerte durante el embarazo	body_under_1050_words	content/articles/es/1131-sentir-cuerpo-deja-pertenecerte-embarazo.json
 en	1	0	1524	8	5.25	0.02	1	49	Respectful Parenting: What It Really Means and How to Use It Without Going to Extremes		content/articles/en/001-respectful-parenting.json

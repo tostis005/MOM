@@ -1,24 +1,4 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
-en	1147	10	250	4	16.0	0.0	0	7	Getting tired of everyone constantly asking how your pregnancy is going	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/en/1147-tired-of-everyone-asking-about-pregnancy.json
-es	1147	10	247	4	16.19	0.0	0	7	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	body_under_350_words,high_h2_density,many_question_paragraphs	content/articles/es/1147-cansarte-preguntas-como-va-embarazo.json
-en	1141	9	296	4	13.51	0.0	0	8	Not wanting pregnancy photos and feeling like you should want them	body_under_350_words,high_h2_density	content/articles/en/1141-not-want-pregnancy-photos.json
-en	1142	9	246	4	16.26	0.0	0	8	Not wanting to share your pregnancy on social media	body_under_350_words,high_h2_density	content/articles/en/1142-not-share-pregnancy-social-media.json
-en	1143	9	266	4	15.04	0.0	0	8	How to keep your pregnancy private when your family wants to tell everyone	body_under_350_words,high_h2_density	content/articles/en/1143-keep-pregnancy-private-family-wants-tell.json
-en	1144	9	257	4	15.56	0.0	0	7	What to do when a family member announces your pregnancy before you	body_under_350_words,high_h2_density	content/articles/en/1144-family-announces-pregnancy-before-you.json
-en	1145	9	246	4	16.26	0.0	0	7	How to decide which pregnancy details you want to share and which you do not	body_under_350_words,high_h2_density	content/articles/en/1145-decide-pregnancy-details-to-share.json
-en	1146	9	268	4	14.93	0.0	0	7	When your pregnancy starts to feel like public information	body_under_350_words,high_h2_density	content/articles/en/1146-pregnancy-feels-like-public-information.json
-en	1148	9	272	4	14.71	0.0	0	8	How to respond when you do not want to talk about pregnancy all the time	body_under_350_words,high_h2_density	content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json
-en	1149	9	278	4	14.39	0.0	0	7	When everything is about the baby and you miss people asking about you	body_under_350_words,high_h2_density	content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json
-en	1150	9	287	4	13.94	0.0	0	7	How to maintain other parts of your identity while you are pregnant	body_under_350_words,high_h2_density	content/articles/en/1150-maintain-identity-during-pregnancy.json
-es	1141	9	309	4	12.94	0.0	0	8	No querer hacer fotos de embarazo y sentir que deberías quererlas	body_under_350_words,high_h2_density	content/articles/es/1141-no-querer-fotos-embarazo-sentir-deberias.json
-es	1142	9	252	4	15.87	0.0	0	8	No querer compartir tu embarazo en redes sociales	body_under_350_words,high_h2_density	content/articles/es/1142-no-querer-compartir-embarazo-redes-sociales.json
-es	1143	9	280	4	14.29	0.0	0	8	Cómo mantener tu embarazo privado cuando tu familia quiere contarlo todo	body_under_350_words,high_h2_density	content/articles/es/1143-mantener-embarazo-privado-familia-quiere-contarlo.json
-es	1144	9	268	4	14.93	0.0	0	7	Qué hacer cuando un familiar anuncia tu embarazo antes que tú	body_under_350_words,high_h2_density	content/articles/es/1144-familiar-anuncia-embarazo-antes-que-tu.json
-es	1145	9	254	4	15.75	0.0	0	7	Cómo decidir qué detalles del embarazo quieres compartir y cuáles no	body_under_350_words,high_h2_density	content/articles/es/1145-decidir-detalles-embarazo-compartir-cuales-no.json
-es	1146	9	292	4	13.7	0.0	0	7	Sentir que tu embarazo se ha convertido en información pública	body_under_350_words,high_h2_density	content/articles/es/1146-embarazo-convertido-informacion-publica.json
-es	1148	9	266	4	15.04	0.0	0	8	Cómo responder cuando no quieres hablar de tu embarazo todo el tiempo	body_under_350_words,high_h2_density	content/articles/es/1148-responder-no-quieres-hablar-embarazo-todo-tiempo.json
-es	1149	9	270	4	14.81	0.0	0	7	Cuando todo gira alrededor del bebé y echas de menos que te pregunten por ti	body_under_350_words,high_h2_density	content/articles/es/1149-todo-gira-bebe-echas-menos-pregunten-por-ti.json
-es	1150	9	280	4	14.29	0.0	0	7	Cómo mantener otras partes de tu identidad mientras estás embarazada	body_under_350_words,high_h2_density	content/articles/es/1150-mantener-identidad-mientras-estas-embarazada.json
 en	1068	7	490	4	8.16	0.0	0	14	Why an uninterrupted shower can feel like a luxury when you are a mom	body_under_500_words,high_h2_density	content/articles/en/1068-uninterrupted-shower-feels-like-luxury.json
 en	1076	7	481	4	8.32	0.0	0	14	Feeling like you have to remember everything for everyone in the family	body_under_500_words,high_h2_density	content/articles/en/1076-remember-everything-for-everyone.json
 en	1078	7	498	4	8.03	0.0	0	14	How to mentally disconnect from family responsibilities for a while	body_under_500_words,high_h2_density	content/articles/en/1078-mentally-disconnect-from-family-responsibilities.json
@@ -176,6 +156,7 @@ en	1117	4	610	4	6.56	0.0	0	14	Fear that your relationship will change forever af
 en	1119	4	640	4	6.25	0.0	0	15	Fear that you won't feel enough love for your baby after birth	body_under_650_words,elevated_h2_density	content/articles/en/1119-fear-not-loving-baby-enough-after-birth.json
 en	1120	4	645	4	6.2	0.0	0	15	Fear that you won't know what your newborn needs	body_under_650_words,elevated_h2_density	content/articles/en/1120-fear-not-knowing-what-newborn-needs.json
 en	1129	4	606	4	6.6	0.0	0	15	Comparing your pregnancy with other women's and starting to worry about everything	body_under_650_words,elevated_h2_density	content/articles/en/1129-compare-pregnancy-to-others-and-worry.json
+en	1145	4	640	4	6.25	0.0	0	14	How to decide which pregnancy details you want to share and which you do not	body_under_650_words,elevated_h2_density	content/articles/en/1145-decide-pregnancy-details-to-share.json
 es	21	4	671	5	7.45	0.043	1	23	Siestas del bebé: cómo crear una rutina flexible sin vivir pendiente del reloj	body_under_800_words,high_h2_density	content/articles/es/021-siestas-bebe-rutina-flexible.json
 es	22	4	716	6	8.38	0.154	1	26	Cómo acompañar a un niño que pega sin etiquetarlo como agresivo	body_under_800_words,high_h2_density	content/articles/es/022-nino-pega-sin-etiquetarlo-agresivo.json
 es	23	4	652	5	7.67	0.087	1	23	Cómo acompañar a un niño que muerde sin castigos ni vergüenza	body_under_800_words,high_h2_density	content/articles/es/023-nino-muerde-sin-castigos-verguenza.json
@@ -243,6 +224,9 @@ es	1120	4	626	4	6.39	0.0	0	15	Miedo a no saber interpretar qué necesita tu reci
 es	1124	4	649	4	6.16	0.0	0	14	La espera entre citas del embarazo cuando tu cabeza no deja de pensar	body_under_650_words,elevated_h2_density	content/articles/es/1124-espera-entre-citas-embarazo-cabeza-no-para.json
 es	1126	4	642	4	6.23	0.0	0	14	Miedo a ilusionarte demasiado con el embarazo	body_under_650_words,elevated_h2_density	content/articles/es/1126-miedo-ilusionarte-demasiado-embarazo.json
 es	1129	4	609	4	6.57	0.0	0	15	Comparar tu embarazo con el de otras mujeres y empezar a preocuparte por todo	body_under_650_words,elevated_h2_density	content/articles/es/1129-comparar-embarazo-otras-mujeres-preocuparte.json
+es	1145	4	647	4	6.18	0.0	0	14	Cómo decidir qué detalles del embarazo quieres compartir y cuáles no	body_under_650_words,elevated_h2_density	content/articles/es/1145-decidir-detalles-embarazo-compartir-cuales-no.json
+es	1147	4	626	4	6.39	0.0	0	14	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	body_under_650_words,elevated_h2_density	content/articles/es/1147-cansarte-preguntas-como-va-embarazo.json
+es	1148	4	638	4	6.27	0.0	0	14	Cómo responder cuando no quieres hablar de tu embarazo todo el tiempo	body_under_650_words,elevated_h2_density	content/articles/es/1148-responder-no-quieres-hablar-embarazo-todo-tiempo.json
 en	11	3	801	6	7.49	0.038	1	26	Night Wakings: How to Respond Respectfully Without Burning Out the Family	body_under_1050_words,high_h2_density	content/articles/en/011-night-wakings-respectful-response.json
 en	12	3	880	6	6.82	0.065	1	31	Toddler Activities at Home That Actually Hold Their Attention	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/en/012-toddler-activities-at-home.json
 en	14	3	872	6	6.88	0.071	1	28	How to Choose a Daycare: Questions That Matter Before You Decide	body_under_1050_words,elevated_h2_density,many_question_paragraphs	content/articles/en/014-how-to-choose-daycare.json
@@ -302,6 +286,12 @@ en	1125	3	685	4	5.84	0.0	0	15	Feeling afraid to buy things for the baby too earl
 en	1127	3	655	4	6.11	0.0	0	15	Feeling like you cannot fully relax during pregnancy	body_under_800_words,elevated_h2_density	content/articles/en/1127-cannot-fully-relax-pregnancy.json
 en	1134	3	654	4	6.12	0.0	0	15	Not wanting other people to touch your belly during pregnancy	body_under_800_words,elevated_h2_density	content/articles/en/1134-not-want-people-touch-pregnant-belly.json
 en	1135	3	681	4	5.87	0.0	0	15	How to set boundaries when family members want to touch your pregnant belly	body_under_800_words,elevated_h2_density	content/articles/en/1135-boundaries-family-touch-pregnant-belly.json
+en	1143	3	671	4	5.96	0.0	0	14	How to keep your pregnancy private when your family wants to tell everyone	body_under_800_words,elevated_h2_density	content/articles/en/1143-keep-pregnancy-private-family-wants-tell.json
+en	1146	3	655	4	6.11	0.0	0	14	When your pregnancy starts to feel like public information	body_under_800_words,elevated_h2_density	content/articles/en/1146-pregnancy-feels-like-public-information.json
+en	1147	3	670	4	5.97	0.0	0	14	Getting tired of everyone constantly asking how your pregnancy is going	body_under_800_words,elevated_h2_density	content/articles/en/1147-tired-of-everyone-asking-about-pregnancy.json
+en	1148	3	680	4	5.88	0.0	0	14	How to respond when you do not want to talk about pregnancy all the time	body_under_800_words,elevated_h2_density	content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json
+en	1149	3	682	4	5.87	0.0	0	14	When everything is about the baby and you miss people asking about you	body_under_800_words,elevated_h2_density	content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json
+en	1150	3	688	4	5.81	0.0	0	14	How to maintain other parts of your identity while you are pregnant	body_under_800_words,elevated_h2_density	content/articles/en/1150-maintain-identity-during-pregnancy.json
 es	11	3	843	6	7.12	0.1	1	30	Despertares nocturnos: cómo responder de forma respetuosa y sostenible para la familia	body_under_1050_words,high_h2_density	content/articles/es/011-despertares-nocturnos-responder-respeto.json
 es	12	3	897	6	6.69	0.069	1	29	Actividades para toddlers en casa que realmente mantienen su interés	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/012-actividades-toddlers-en-casa.json
 es	13	3	836	6	7.18	0.037	1	27	Regresiones del sueño: cómo atravesarlas con calma	body_under_1050_words,high_h2_density	content/articles/es/013-regresiones-sueno-calma.json
@@ -366,6 +356,9 @@ es	1130	3	675	4	5.93	0.0	0	15	Cómo reducir la comparación con otras embarazada
 es	1132	3	684	4	5.85	0.0	0	15	Cuando todo el mundo comenta tu cuerpo porque estás embarazada	body_under_800_words,elevated_h2_density	content/articles/es/1132-todo-mundo-comenta-cuerpo-embarazada.json
 es	1134	3	650	4	6.15	0.0	0	15	No querer que otras personas toquen tu barriga durante el embarazo	body_under_800_words,elevated_h2_density	content/articles/es/1134-no-querer-que-toquen-barriga-embarazo.json
 es	1140	3	684	4	5.85	0.0	0	15	Sentir emociones contradictorias al mirarte al espejo durante el embarazo	body_under_800_words,elevated_h2_density	content/articles/es/1140-emociones-contradictorias-espejo-embarazo.json
+es	1143	3	676	4	5.92	0.0	0	14	Cómo mantener tu embarazo privado cuando tu familia quiere contarlo todo	body_under_800_words,elevated_h2_density	content/articles/es/1143-mantener-embarazo-privado-familia-quiere-contarlo.json
+es	1146	3	676	4	5.92	0.0	0	14	Sentir que tu embarazo se ha convertido en información pública	body_under_800_words,elevated_h2_density	content/articles/es/1146-embarazo-convertido-informacion-publica.json
+es	1150	3	685	4	5.84	0.0	0	14	Cómo mantener otras partes de tu identidad mientras estás embarazada	body_under_800_words,elevated_h2_density	content/articles/es/1150-mantener-identidad-mientras-estas-embarazada.json
 en	15	2	944	6	6.36	0.033	1	30	Positive Discipline vs. Respectful Parenting: Similarities, Differences and How They Fit Together	body_under_1050_words,elevated_h2_density	content/articles/en/015-positive-discipline-vs-respectful-parenting.json
 en	18	2	876	6	6.85	0.032	1	31	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure	body_under_1050_words,elevated_h2_density	content/articles/en/018-baby-led-feeding-table-autonomy.json
 en	19	2	939	6	6.39	0.133	1	30	How to Prepare Your Home for a Baby Without Buying Too Much	body_under_1050_words,elevated_h2_density	content/articles/en/019-prepare-home-for-baby-without-overbuying.json
@@ -439,6 +432,9 @@ en	1137	2	753	4	5.31	0.0	0	16	Feeling like you stopped being yourself and became
 en	1138	2	715	4	5.59	0.0	0	15	Missing your pre-pregnancy body without feeling ungrateful	body_under_800_words	content/articles/en/1138-missing-pre-pregnancy-body-without-guilt.json
 en	1139	2	739	4	5.41	0.0	0	15	Loving your pregnant belly some days and feeling uncomfortable with it on others	body_under_800_words	content/articles/en/1139-love-pregnant-belly-some-days-uncomfortable-others.json
 en	1140	2	692	4	5.78	0.0	0	15	Feeling conflicting emotions when you look in the mirror during pregnancy	body_under_800_words	content/articles/en/1140-conflicting-emotions-mirror-pregnancy.json
+en	1141	2	749	4	5.34	0.0	0	14	Not wanting pregnancy photos and feeling like you should want them	body_under_800_words	content/articles/en/1141-not-want-pregnancy-photos.json
+en	1142	2	705	4	5.67	0.0	0	14	Not wanting to share your pregnancy on social media	body_under_800_words	content/articles/en/1142-not-share-pregnancy-social-media.json
+en	1144	2	703	4	5.69	0.0	0	14	What to do when a family member announces your pregnancy before you	body_under_800_words	content/articles/en/1144-family-announces-pregnancy-before-you.json
 es	3	2	1375	8	5.82	0.089	1	45	Rabietas: cómo acompañarlas con calma, límites y conexión	elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/003-rabietas-acompanar-calma-limites-conexion.json
 es	16	2	861	6	6.97	0.034	1	29	Rutina de noche para niños pequeños: pasos sencillos que favorecen la cooperación	body_under_1050_words,elevated_h2_density	content/articles/es/016-rutina-noche-ninos-pequenos.json
 es	18	2	913	6	6.57	0.038	1	26	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	body_under_1050_words,elevated_h2_density	content/articles/es/018-baby-led-feeding-autonomia-mesa.json
@@ -515,6 +511,10 @@ es	1136	2	702	4	5.7	0.0	0	15	Sentirte incómoda con la atención que recibes por
 es	1137	2	772	4	5.18	0.0	0	16	Sentir que has dejado de ser tú para convertirte en “la embarazada”	body_under_800_words	content/articles/es/1137-dejar-ser-tu-convertirte-la-embarazada.json
 es	1138	2	744	4	5.38	0.0	0	15	Echar de menos tu cuerpo anterior durante el embarazo sin sentirte desagradecida	body_under_800_words	content/articles/es/1138-echar-menos-cuerpo-anterior-embarazo.json
 es	1139	2	724	4	5.52	0.0	0	15	Amar tu barriga unos días y sentirte incómoda con ella otros	body_under_800_words	content/articles/es/1139-amar-barriga-unos-dias-incomoda-otros.json
+es	1141	2	723	4	5.53	0.0	0	14	No querer hacer fotos de embarazo y sentir que deberías quererlas	body_under_800_words	content/articles/es/1141-no-querer-fotos-embarazo-sentir-deberias.json
+es	1142	2	695	4	5.76	0.0	0	14	No querer compartir tu embarazo en redes sociales	body_under_800_words	content/articles/es/1142-no-querer-compartir-embarazo-redes-sociales.json
+es	1144	2	704	4	5.68	0.0	0	14	Qué hacer cuando un familiar anuncia tu embarazo antes que tú	body_under_800_words	content/articles/es/1144-familiar-anuncia-embarazo-antes-que-tu.json
+es	1149	2	692	4	5.78	0.0	0	14	Cuando todo gira alrededor del bebé y echas de menos que te pregunten por ti	body_under_800_words	content/articles/es/1149-todo-gira-bebe-echas-menos-pregunten-por-ti.json
 en	91	1	956	5	5.23	0.0	0	15	How to talk with teachers when you disagree with how behavior was handled	body_under_1050_words	content/articles/en/091-talk-teachers-disagree-behavior-handling.json
 en	93	1	959	5	5.21	0.0	0	17	Flying with a baby: packing, logistics, and realistic expectations	body_under_1050_words	content/articles/en/093-flying-baby-logistics-packing.json
 en	94	1	900	5	5.56	0.0	0	17	Flying with a toddler: how to prepare for the trip	body_under_1050_words	content/articles/en/094-flying-toddler-prepare-trip.json

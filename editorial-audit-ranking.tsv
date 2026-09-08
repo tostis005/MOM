@@ -1,10 +1,4 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
-en	1076	7	481	4	8.32	0.0	0	14	Feeling like you have to remember everything for everyone in the family	body_under_500_words,high_h2_density	content/articles/en/1076-remember-everything-for-everyone.json
-en	1078	7	498	4	8.03	0.0	0	14	How to mentally disconnect from family responsibilities for a while	body_under_500_words,high_h2_density	content/articles/en/1078-mentally-disconnect-from-family-responsibilities.json
-es	1073	7	491	4	8.15	0.0	0	14	Cansarte de escuchar “mamá” todo el día y sentir culpa por ello	body_under_500_words,high_h2_density	content/articles/es/1073-cansarte-escuchar-mama-todo-dia-culpa.json
-es	1075	7	474	4	8.44	0.0	0	13	Cómo recuperar espacio mental cuando toda tu familia depende de ti para pequeñas decisiones	body_under_500_words,high_h2_density	content/articles/es/1075-recuperar-espacio-mental-pequenas-decisiones-familiares.json
-es	1077	7	494	4	8.1	0.0	0	14	Cuando descansar parece imposible porque siempre recuerdas una tarea pendiente	body_under_500_words,high_h2_density	content/articles/es/1077-descansar-imposible-tarea-pendiente.json
-es	1078	7	478	4	8.37	0.0	0	14	Cómo desconectar mentalmente de las responsabilidades familiares durante un rato	body_under_500_words,high_h2_density	content/articles/es/1078-desconectar-mentalmente-responsabilidades-familiares.json
 en	77	6	535	4	7.48	0.0	0	13	Potty training accidents: how to respond without shame or punishment	body_under_650_words,high_h2_density,many_question_paragraphs	content/articles/en/077-potty-training-accidents-without-shame-punishment.json
 es	37	6	647	5	7.73	0.045	1	22	Cómo validar emociones sin decir sí a todo	body_under_650_words,high_h2_density,repeated_no_significa_pattern	content/articles/es/037-validar-emociones-sin-decir-si-todo.json
 es	77	6	538	4	7.43	0.0	0	13	Accidentes durante el potty training: cómo responder sin vergüenza ni castigos	body_under_650_words,high_h2_density,many_question_paragraphs	content/articles/es/077-accidentes-potty-training-sin-verguenza-castigos.json
@@ -50,14 +44,6 @@ en	1052	5	634	5	7.89	0.0	0	17	Loving Your Kids and Getting Bored Playing With Th
 en	1053	5	564	5	8.87	0.0	0	16	How to Connect With Your Kids If You Are Not a Very Playful Mom	body_under_650_words,high_h2_density	content/articles/en/1053-connect-with-kids-if-not-playful-mom.json
 en	1054	5	525	5	9.52	0.176	1	17	Preferring Reading or Walking With Your Kids Instead of Playing on the Floor	body_under_650_words,high_h2_density	content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json
 en	1055	5	641	5	7.8	0.0	0	16	Feeling Guilty Because Your Partner Enjoys Playing With the Kids More Than You Do	body_under_650_words,high_h2_density	content/articles/en/1055-guilt-partner-enjoys-playing-with-kids-more.json
-en	1071	5	501	4	7.98	0.0	0	14	Feeling like you are always available to someone since becoming a mom	body_under_650_words,high_h2_density	content/articles/en/1071-always-available-to-someone-as-mom.json
-en	1072	5	521	4	7.68	0.0	0	14	When your kids keep calling for you even though another adult is right there	body_under_650_words,high_h2_density	content/articles/en/1072-kids-call-mom-when-other-adult-present.json
-en	1073	5	511	4	7.83	0.0	0	14	Feeling tired of hearing “Mom” all day — and guilty about it	body_under_650_words,high_h2_density	content/articles/en/1073-tired-of-hearing-mom-all-day-guilt.json
-en	1074	5	502	4	7.97	0.0	0	14	Feeling like no one in the house can solve anything without asking you first	body_under_650_words,high_h2_density	content/articles/en/1074-no-one-solves-anything-without-asking-mom.json
-en	1075	5	502	4	7.97	0.0	0	13	How to reclaim mental space when your family depends on you for every small decision	body_under_650_words,high_h2_density	content/articles/en/1075-reclaim-mental-space-from-family-small-decisions.json
-en	1077	5	523	4	7.65	0.0	0	14	When resting feels impossible because you keep remembering another task	body_under_650_words,high_h2_density	content/articles/en/1077-cant-rest-because-remembering-tasks.json
-en	1079	5	523	4	7.65	0.0	0	14	When even your free time is full of things you need to remember	body_under_650_words,high_h2_density	content/articles/en/1079-free-time-full-of-things-to-remember.json
-en	1080	5	529	4	7.56	0.071	1	14	What mental rest actually means when you are a mom	body_under_650_words,high_h2_density	content/articles/en/1080-what-mental-rest-means-for-moms.json
 es	26	5	631	5	7.92	0.05	1	20	Cómo ayudar a un niño a aceptar un no sin ceder ni entrar en una batalla	body_under_650_words,high_h2_density	content/articles/es/026-ayudar-nino-aceptar-no.json
 es	44	5	640	5	7.81	0.095	1	21	Celos por la llegada de un nuevo bebé: cómo acompañar al hermano mayor	body_under_650_words,high_h2_density	content/articles/es/044-celos-llegada-nuevo-bebe-hermano-mayor.json
 es	54	5	633	5	7.9	0.0	0	16	Rutina con un recién nacido: qué puede aportar estructura sin esperar previsibilidad	body_under_650_words,high_h2_density	content/articles/es/054-rutina-recien-nacido-estructura-sin-previsibilidad.json
@@ -79,12 +65,6 @@ es	1052	5	631	5	7.92	0.0	0	17	Amar a tus hijos y aburrirte jugando con ellos: po
 es	1053	5	600	5	8.33	0.0	0	16	Formas de conectar con tus hijos si no eres una madre especialmente juguetona	body_under_650_words,high_h2_density	content/articles/es/1053-conectar-hijos-si-no-eres-madre-juguetona.json
 es	1054	5	546	5	9.16	0.118	1	17	Preferir leer o pasear con tus hijos en vez de jugar en el suelo	body_under_650_words,high_h2_density	content/articles/es/1054-preferir-leer-pasear-hijos-en-vez-jugar-suelo.json
 es	1055	5	628	5	7.96	0.0	0	16	Sentir culpa porque tu pareja disfruta más jugando con los niños que tú	body_under_650_words,high_h2_density	content/articles/es/1055-culpa-pareja-disfruta-mas-jugando-ninos.json
-es	1071	5	506	4	7.91	0.0	0	14	Sentir que siempre estás disponible para alguien desde que eres madre	body_under_650_words,high_h2_density	content/articles/es/1071-sentir-siempre-disponible-para-alguien-madre.json
-es	1072	5	514	4	7.78	0.0	0	14	Cuando tus hijos te llaman continuamente aunque haya otro adulto presente	body_under_650_words,high_h2_density	content/articles/es/1072-hijos-llaman-mama-aunque-haya-otro-adulto.json
-es	1074	5	501	4	7.98	0.0	0	14	Sentir que nadie puede resolver nada en casa sin preguntarte primero	body_under_650_words,high_h2_density	content/articles/es/1074-nadie-resuelve-nada-sin-preguntarte.json
-es	1076	5	512	4	7.81	0.0	0	14	Sentir que tienes que recordar todo por todos dentro de la familia	body_under_650_words,high_h2_density	content/articles/es/1076-sentir-recordar-todo-por-todos-familia.json
-es	1079	5	514	4	7.78	0.071	1	14	Cuando incluso tu tiempo libre está lleno de cosas que tienes que recordar	body_under_650_words,high_h2_density	content/articles/es/1079-tiempo-libre-lleno-cosas-recordar.json
-es	1080	5	509	4	7.86	0.071	1	14	Qué significa tener descanso mental cuando eres madre	body_under_650_words,high_h2_density	content/articles/es/1080-que-significa-descanso-mental-madre.json
 en	17	4	789	6	7.6	0.107	1	28	How to Get More Cooperation Without Repeating Yourself Twenty Times	body_under_800_words,high_h2_density	content/articles/en/017-cooperation-without-repeating.json
 en	32	4	661	5	7.56	0.0	0	22	Toddler routines: how to add structure without making the day rigid	body_under_800_words,high_h2_density	content/articles/en/032-toddler-routines-structure-without-rigidity.json
 en	33	4	775	6	7.74	0.038	1	26	How to handle power struggles with young children	body_under_800_words,high_h2_density	content/articles/en/033-power-struggles-young-children.json
@@ -391,6 +371,14 @@ en	1011	2	868	6	6.91	0.129	1	31	Matrescence: Why Becoming a Mother Can Change Yo
 en	1047	2	851	5	5.88	0.042	1	24	The Pressure Not to Repeat Any of Your Parents’ Mistakes	body_under_1050_words,elevated_h2_density	content/articles/en/1047-pressure-not-to-repeat-your-parents-mistakes.json
 en	1063	2	798	4	5.01	0.0	0	19	Feeling relieved when no one needs you for a few minutes	body_under_800_words	content/articles/en/1063-relief-when-no-one-needs-you.json
 en	1068	2	794	4	5.04	0.0	0	17	Why an uninterrupted shower can feel like a luxury when you are a mom	body_under_800_words	content/articles/en/1068-uninterrupted-shower-feels-like-luxury.json
+en	1072	2	768	4	5.21	0.0	0	18	When your kids keep calling for you even though another adult is right there	body_under_800_words	content/articles/en/1072-kids-call-mom-when-other-adult-present.json
+en	1073	2	782	4	5.12	0.0	0	18	Feeling tired of hearing “Mom” all day — and guilty about it	body_under_800_words	content/articles/en/1073-tired-of-hearing-mom-all-day-guilt.json
+en	1074	2	757	4	5.28	0.0	0	18	Feeling like no one in the house can solve anything without asking you first	body_under_800_words	content/articles/en/1074-no-one-solves-anything-without-asking-mom.json
+en	1075	2	774	4	5.17	0.0	0	18	How to reclaim mental space when your family depends on you for every small decision	body_under_800_words	content/articles/en/1075-reclaim-mental-space-from-family-small-decisions.json
+en	1076	2	770	4	5.19	0.0	0	18	Feeling like you have to remember everything for everyone in the family	body_under_800_words	content/articles/en/1076-remember-everything-for-everyone.json
+en	1077	2	767	4	5.22	0.0	0	18	When resting feels impossible because you keep remembering another task	body_under_800_words	content/articles/en/1077-cant-rest-because-remembering-tasks.json
+en	1078	2	794	4	5.04	0.0	0	18	How to mentally disconnect from family responsibilities for a while	body_under_800_words	content/articles/en/1078-mentally-disconnect-from-family-responsibilities.json
+en	1079	2	732	4	5.46	0.0	0	18	When even your free time is full of things you need to remember	body_under_800_words	content/articles/en/1079-free-time-full-of-things-to-remember.json
 en	1084	2	706	4	5.67	0.0	0	14	Thinking at night about everything you did wrong as a mom that day	body_under_800_words	content/articles/en/1084-nightly-motherhood-rumination.json
 en	1093	2	741	4	5.4	0.0	0	15	Comparing yourself with moms who cook, work, play, and keep a perfect home	body_under_800_words	content/articles/en/1093-comparing-supermom-does-everything.json
 en	1094	2	721	4	5.55	0.0	0	15	Feeling less patient than other moms	body_under_800_words	content/articles/en/1094-feel-less-patient-than-other-moms.json
@@ -476,6 +464,16 @@ es	1063	2	778	4	5.14	0.0	0	19	Sentir alivio cuando por fin nadie te necesita dur
 es	1065	2	761	4	5.26	0.0	0	15	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	body_under_800_words	content/articles/es/1065-cinco-minutos-sola-importantes-madre.json
 es	1067	2	787	4	5.08	0.0	0	16	Hacer recados sola como forma de descanso después de tener hijos	body_under_800_words	content/articles/es/1067-hacer-recados-sola-como-descanso-despues-hijos.json
 es	1068	2	788	4	5.08	0.0	0	17	Por qué una ducha sin interrupciones puede sentirse como un lujo cuando eres madre	body_under_800_words	content/articles/es/1068-ducha-sin-interrupciones-lujo-madre.json
+es	1071	2	776	4	5.15	0.0	0	18	Sentir que siempre estás disponible para alguien desde que eres madre	body_under_800_words	content/articles/es/1071-sentir-siempre-disponible-para-alguien-madre.json
+es	1072	2	736	4	5.43	0.0	0	18	Cuando tus hijos te llaman continuamente aunque haya otro adulto presente	body_under_800_words	content/articles/es/1072-hijos-llaman-mama-aunque-haya-otro-adulto.json
+es	1073	2	710	4	5.63	0.056	1	18	Cansarte de escuchar “mamá” todo el día y sentir culpa por ello	body_under_800_words	content/articles/es/1073-cansarte-escuchar-mama-todo-dia-culpa.json
+es	1074	2	722	4	5.54	0.0	0	18	Sentir que nadie puede resolver nada en casa sin preguntarte primero	body_under_800_words	content/articles/es/1074-nadie-resuelve-nada-sin-preguntarte.json
+es	1075	2	742	4	5.39	0.0	0	18	Cómo recuperar espacio mental cuando toda tu familia depende de ti para pequeñas decisiones	body_under_800_words	content/articles/es/1075-recuperar-espacio-mental-pequenas-decisiones-familiares.json
+es	1076	2	752	4	5.32	0.0	0	18	Sentir que tienes que recordar todo por todos dentro de la familia	body_under_800_words	content/articles/es/1076-sentir-recordar-todo-por-todos-familia.json
+es	1077	2	726	4	5.51	0.0	0	18	Cuando descansar parece imposible porque siempre recuerdas una tarea pendiente	body_under_800_words	content/articles/es/1077-descansar-imposible-tarea-pendiente.json
+es	1078	2	748	4	5.35	0.0	0	18	Cómo desconectar mentalmente de las responsabilidades familiares durante un rato	body_under_800_words	content/articles/es/1078-desconectar-mentalmente-responsabilidades-familiares.json
+es	1079	2	709	4	5.64	0.056	1	18	Cuando incluso tu tiempo libre está lleno de cosas que tienes que recordar	body_under_800_words	content/articles/es/1079-tiempo-libre-lleno-cosas-recordar.json
+es	1080	2	785	4	5.1	0.0	0	19	Qué significa tener descanso mental cuando eres madre	body_under_800_words	content/articles/es/1080-que-significa-descanso-mental-madre.json
 es	1081	2	701	4	5.71	0.0	0	14	Perfeccionismo materno: por qué nunca sientes que haces suficiente	body_under_800_words	content/articles/es/1081-perfeccionismo-materno-nunca-suficiente.json
 es	1092	2	696	4	5.75	0.0	0	15	Cómo dejar de compararte con madres que parecen más organizadas	body_under_800_words	content/articles/es/1092-dejar-compararte-madres-mas-organizadas.json
 es	1093	2	729	4	5.49	0.0	0	15	Compararte con madres que cocinan, trabajan, juegan y mantienen la casa perfecta	body_under_800_words	content/articles/es/1093-compararte-madres-cocinan-trabajan-juegan-casa-perfecta.json
@@ -535,6 +533,8 @@ en	1066	1	902	4	4.43	0.0	0	17	Sitting alone in the car before going inside for a
 en	1067	1	806	4	4.96	0.0	0	16	When running errands alone feels like rest after having kids	body_under_1050_words	content/articles/en/1067-running-errands-alone-feels-like-rest.json
 en	1069	1	897	4	4.46	0.0	0	19	Needing to be alone after spending all day with your kids	body_under_1050_words	content/articles/en/1069-need-to-be-alone-after-all-day-with-kids.json
 en	1070	1	913	4	4.38	0.0	0	19	How to ask for alone time without feeling like you are rejecting your family	body_under_1050_words	content/articles/en/1070-ask-for-alone-time-without-rejecting-family.json
+en	1071	1	845	4	4.73	0.0	0	18	Feeling like you are always available to someone since becoming a mom	body_under_1050_words	content/articles/en/1071-always-available-to-someone-as-mom.json
+en	1080	1	827	4	4.84	0.0	0	19	What mental rest actually means when you are a mom	body_under_1050_words	content/articles/en/1080-what-mental-rest-means-for-moms.json
 en	1091	1	812	4	4.93	0.0	0	15	Feeling like other moms handle everything better than you	body_under_1050_words	content/articles/en/1091-other-moms-seem-to-handle-everything-better.json
 en	1104	1	859	4	4.66	0.0	0	14	Feeling guilty for complaining about pregnancy when you wanted to be a mother	body_under_1050_words	content/articles/en/1104-guilt-complaining-about-wanted-pregnancy.json
 en	1118	1	805	4	4.97	0.0	0	15	Fear that you will stop being a couple and become only parents	body_under_1050_words	content/articles/en/1118-fear-becoming-only-parents-not-couple.json

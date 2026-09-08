@@ -1,9 +1,4 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
-1073	1073-tired-of-hearing-mom-all-day-guilt	7	7	5	491	511	4	4	0.0	0.0	Cansarte de escuchar “mamá” todo el día y sentir culpa por ello	Feeling tired of hearing “Mom” all day — and guilty about it
-1075	1075-reclaim-mental-space-from-family-small-decisions	7	7	5	474	502	4	4	0.0	0.0	Cómo recuperar espacio mental cuando toda tu familia depende de ti para pequeñas decisiones	How to reclaim mental space when your family depends on you for every small decision
-1076	1076-remember-everything-for-everyone	7	5	7	512	481	4	4	0.0	0.0	Sentir que tienes que recordar todo por todos dentro de la familia	Feeling like you have to remember everything for everyone in the family
-1077	1077-cant-rest-because-remembering-tasks	7	7	5	494	523	4	4	0.0	0.0	Cuando descansar parece imposible porque siempre recuerdas una tarea pendiente	When resting feels impossible because you keep remembering another task
-1078	1078-mentally-disconnect-from-family-responsibilities	7	7	7	478	498	4	4	0.0	0.0	Cómo desconectar mentalmente de las responsabilidades familiares durante un rato	How to mentally disconnect from family responsibilities for a while
 37	037-validate-emotions-without-saying-yes	6	6	5	647	639	5	5	0.045	0.091	Cómo validar emociones sin decir sí a todo	How to validate feelings without saying yes to everything
 77	077-potty-training-accidents-without-shame-punishment	6	6	6	538	535	4	4	0.0	0.0	Accidentes durante el potty training: cómo responder sin vergüenza ni castigos	Potty training accidents: how to respond without shame or punishment
 13	013-sleep-regressions-calm	5	3	5	836	780	6	6	0.037	0.04	Regresiones del sueño: cómo atravesarlas con calma	Sleep Regressions: How to Get Through Them Without Changing Everything
@@ -47,11 +42,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1053	1053-connect-if-not-playful-mom	5	5	5	600	564	5	5	0.0	0.0	Formas de conectar con tus hijos si no eres una madre especialmente juguetona	How to Connect With Your Kids If You Are Not a Very Playful Mom
 1054	1054-prefer-reading-walking-over-floor-play	5	5	5	546	525	5	5	0.118	0.176	Preferir leer o pasear con tus hijos en vez de jugar en el suelo	Preferring Reading or Walking With Your Kids Instead of Playing on the Floor
 1055	1055-guilt-partner-enjoys-playing-more	5	5	5	628	641	5	5	0.0	0.0	Sentir culpa porque tu pareja disfruta más jugando con los niños que tú	Feeling Guilty Because Your Partner Enjoys Playing With the Kids More Than You Do
-1071	1071-always-available-to-someone-as-mom	5	5	5	506	501	4	4	0.0	0.0	Sentir que siempre estás disponible para alguien desde que eres madre	Feeling like you are always available to someone since becoming a mom
-1072	1072-kids-call-mom-when-other-adult-present	5	5	5	514	521	4	4	0.0	0.0	Cuando tus hijos te llaman continuamente aunque haya otro adulto presente	When your kids keep calling for you even though another adult is right there
-1074	1074-no-one-solves-anything-without-asking-mom	5	5	5	501	502	4	4	0.0	0.0	Sentir que nadie puede resolver nada en casa sin preguntarte primero	Feeling like no one in the house can solve anything without asking you first
-1079	1079-free-time-full-of-things-to-remember	5	5	5	514	523	4	4	0.071	0.0	Cuando incluso tu tiempo libre está lleno de cosas que tienes que recordar	When even your free time is full of things you need to remember
-1080	1080-what-mental-rest-means-for-moms	5	5	5	509	529	4	4	0.071	0.071	Qué significa tener descanso mental cuando eres madre	What mental rest actually means when you are a mom
 17	017-cooperation-without-repeating	4	3	4	828	789	6	6	0.069	0.107	Cómo conseguir cooperación sin repetir las cosas veinte veces	How to Get More Cooperation Without Repeating Yourself Twenty Times
 32	032-toddler-routines-structure-without-rigidity	4	4	4	722	661	6	5	0.043	0.0	Rutinas para toddlers: cómo dar estructura al día sin volverlo rígido	Toddler routines: how to add structure without making the day rigid
 33	033-power-struggles-young-children	4	4	4	787	775	6	6	0.038	0.038	Cómo manejar las luchas de poder con niños pequeños	How to handle power struggles with young children
@@ -241,6 +231,16 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1065	1065-why-five-minutes-alone-matter-as-mom	2	2	1	761	827	4	4	0.0	0.0	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	Why five minutes alone can feel so important when you are a mom
 1067	1067-running-errands-alone-feels-like-rest	2	2	1	787	806	4	4	0.0	0.0	Hacer recados sola como forma de descanso después de tener hijos	When running errands alone feels like rest after having kids
 1068	1068-uninterrupted-shower-feels-like-luxury	2	2	2	788	794	4	4	0.0	0.0	Por qué una ducha sin interrupciones puede sentirse como un lujo cuando eres madre	Why an uninterrupted shower can feel like a luxury when you are a mom
+1071	1071-always-available-to-someone-as-mom	2	2	1	776	845	4	4	0.0	0.0	Sentir que siempre estás disponible para alguien desde que eres madre	Feeling like you are always available to someone since becoming a mom
+1072	1072-kids-call-mom-when-other-adult-present	2	2	2	736	768	4	4	0.0	0.0	Cuando tus hijos te llaman continuamente aunque haya otro adulto presente	When your kids keep calling for you even though another adult is right there
+1073	1073-tired-of-hearing-mom-all-day-guilt	2	2	2	710	782	4	4	0.056	0.0	Cansarte de escuchar “mamá” todo el día y sentir culpa por ello	Feeling tired of hearing “Mom” all day — and guilty about it
+1074	1074-no-one-solves-anything-without-asking-mom	2	2	2	722	757	4	4	0.0	0.0	Sentir que nadie puede resolver nada en casa sin preguntarte primero	Feeling like no one in the house can solve anything without asking you first
+1075	1075-reclaim-mental-space-from-family-small-decisions	2	2	2	742	774	4	4	0.0	0.0	Cómo recuperar espacio mental cuando toda tu familia depende de ti para pequeñas decisiones	How to reclaim mental space when your family depends on you for every small decision
+1076	1076-remember-everything-for-everyone	2	2	2	752	770	4	4	0.0	0.0	Sentir que tienes que recordar todo por todos dentro de la familia	Feeling like you have to remember everything for everyone in the family
+1077	1077-cant-rest-because-remembering-tasks	2	2	2	726	767	4	4	0.0	0.0	Cuando descansar parece imposible porque siempre recuerdas una tarea pendiente	When resting feels impossible because you keep remembering another task
+1078	1078-mentally-disconnect-from-family-responsibilities	2	2	2	748	794	4	4	0.0	0.0	Cómo desconectar mentalmente de las responsabilidades familiares durante un rato	How to mentally disconnect from family responsibilities for a while
+1079	1079-free-time-full-of-things-to-remember	2	2	2	709	732	4	4	0.056	0.0	Cuando incluso tu tiempo libre está lleno de cosas que tienes que recordar	When even your free time is full of things you need to remember
+1080	1080-what-mental-rest-means-for-moms	2	2	1	785	827	4	4	0.0	0.0	Qué significa tener descanso mental cuando eres madre	What mental rest actually means when you are a mom
 1093	1093-composite-perfect-mom-comparison	2	2	2	729	741	4	4	0.0	0.0	Compararte con madres que cocinan, trabajan, juegan y mantienen la casa perfecta	Comparing yourself with moms who cook, work, play, and keep a perfect home
 1094	1094-feel-less-patient-than-other-moms	2	2	2	711	721	4	4	0.0	0.0	Sentir que eres menos paciente que otras madres	Feeling less patient than other moms
 1095	1095-other-moms-seem-to-enjoy-parenting-more	2	2	2	753	721	4	4	0.0	0.0	Compararte con madres que parecen disfrutar más de la crianza	Comparing yourself with moms who seem to enjoy parenting more

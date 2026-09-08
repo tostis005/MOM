@@ -4,25 +4,25 @@
     "by_language": {
       "es": {
         "count": 300,
-        "avg_words": 573.7,
-        "median_words": 544,
-        "avg_h2": 4.75,
+        "avg_words": 588.2,
+        "median_words": 579,
+        "avg_h2": 4.78,
         "avg_short_para_ratio": 0.036,
-        "risk_7_plus": 135,
-        "risk_5_6": 36,
+        "risk_7_plus": 126,
+        "risk_5_6": 35,
         "risk_3_4": 86,
-        "risk_0_2": 43
+        "risk_0_2": 53
       },
       "en": {
         "count": 300,
-        "avg_words": 550.9,
-        "median_words": 543,
-        "avg_h2": 4.66,
+        "avg_words": 565.8,
+        "median_words": 560,
+        "avg_h2": 4.69,
         "avg_short_para_ratio": 0.036,
-        "risk_7_plus": 132,
-        "risk_5_6": 59,
-        "risk_3_4": 72,
-        "risk_0_2": 37
+        "risk_7_plus": 123,
+        "risk_5_6": 58,
+        "risk_3_4": 73,
+        "risk_0_2": 46
       }
     },
     "exact_repeated_paragraphs": 0,
@@ -6573,41 +6573,41 @@
       "translation_group": "091-talk-educators-disagree-behavior",
       "language": "en",
       "title": "How to talk with teachers when you disagree with how behavior was handled",
-      "words": 553,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.23,
+      "words": 956,
+      "paragraphs": 15,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.23,
       "h2s": [
-        "Separate the facts from the meaning you are giving them",
-        "Ask for the sequence before debating the strategy",
-        "Name what you want to protect and ask about alternatives",
-        "Leave with something observable"
+        "Open with a focused question instead of a global accusation",
+        "Reconstruct the full sequence before debating the response",
+        "Separate a style difference from a safety or dignity concern",
+        "Explain what you want to protect and ask what is workable in the classroom",
+        "End with an observable agreement and a way to review it"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 47.4,
+      "avg_paragraph_words": 60.2,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.182,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.133,
+      "long_paragraphs": 2,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
+        "no_necesitas": 2,
+        "no_significa": 1,
         "a_veces": 1,
-        "puede": 3,
+        "puede": 11,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Sometimes the disagreement arrives in one sentence at pickup: “He had a consequence because he refused to clean up,” “We moved her away from the group,” or “We told him to stop crying and rejoin.” By the time you reach the parking lot, you may already be building a full story from a handful of details.",
+      "opening": "Sometimes the disagreement arrives in one sentence at pickup: “He had a consequence because he refused to clean up,” “We moved her away from the group,” or “We told him to stop crying and rejoin.” By the time you reach the parking lot, you may already be building a full story from a handful of details. If your child adds, “They made me sit alone” or “My teacher said I was bad,” the instinct to defend them can become anger before you know exactly what happened.",
       "opening_14_words": "Sometimes the disagreement arrives in one sentence at pickup He had a consequence because",
-      "intro_3_paragraphs": "Sometimes the disagreement arrives in one sentence at pickup: “He had a consequence because he refused to clean up,” “We moved her away from the group,” or “We told him to stop crying and rejoin.” By the time you reach the parking lot, you may already be building a full story from a handful of details. Advocating for your child does not require walking into the conversation with the verdict already decided. The more precisely you can name the concern, the easier it is for the school to explain, reconsider, or change what happened. Before the conversation, write down the shortest factual version you have: what staff told you, what your child said, and anything you directly observed. Then write the concern underneath it. “She sat away from the group for five minutes” is different from “They made her feel like a bad kid.” The second may be your real fear, but it is still an interpretation until you know more.",
-      "last_h2": "Leave with something observable",
-      "ending_3_paragraphs": "Before ending, summarize what you believe the plan is: “If this happens again, you’ll move him out of reach without labeling him, help him rejoin, and let me know at pickup.” If staff proposes another approach, repeat it back so everyone is working from the same understanding. For repeated concerns, set a point to check back rather than leaving with a vague “we’ll see.” If the issue involves serious safety concerns or a practice that appears inconsistent with school policy, use the center’s established escalation process. A productive family-school conversation does not require everyone to share the same philosophy. It should leave everyone clearer about what will happen for the child next time.",
-      "risk_score": 5,
+      "intro_3_paragraphs": "Sometimes the disagreement arrives in one sentence at pickup: “He had a consequence because he refused to clean up,” “We moved her away from the group,” or “We told him to stop crying and rejoin.” By the time you reach the parking lot, you may already be building a full story from a handful of details. If your child adds, “They made me sit alone” or “My teacher said I was bad,” the instinct to defend them can become anger before you know exactly what happened. Advocating for your child does not require walking into the conversation with the verdict already decided. The more precisely you can name the concern, the easier it is for the school to explain, reconsider, or change what happened. The goal is not to win a parenting-philosophy debate. It is to understand the sequence and leave with a clearer plan for next time. Before the conversation, separate three things: what you know, what you fear, and what you need clarified. “I was told she spent five minutes away from the group” is information. “I’m worried she experienced that as humiliation” is a meaningful concern, but it is still an interpretation until you know more. Keeping those categories separate helps the discussion avoid getting stuck on motives.",
+      "last_h2": "End with an observable agreement and a way to review it",
+      "ending_3_paragraphs": "Before leaving, summarize the plan in plain language: “If this happens again, you’ll stop the hitting without labeling him, help him repair, and let me know at pickup.” If the teacher describes the plan differently, repeat it until you both mean the same thing. For a repeated concern, agree on when to revisit it instead of leaving with “we’ll see.” A short check-in at the end of the week may be enough. If the problem continues, new concerns appear, or the classroom teacher cannot resolve it, use the program’s next level of support and keep a factual record of what has already been discussed. A strong family-school relationship does not require zero disagreement. It requires adults who can disagree without making the child the messenger, the battleground, or the evidence for who is right—and who can leave the conversation clearer about what care will look like next time.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -6616,41 +6616,42 @@
       "translation_group": "092-preschool-mornings-less-rushed",
       "language": "en",
       "title": "How to make preschool mornings less rushed",
-      "words": 459,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 8.71,
+      "words": 862,
+      "paragraphs": 17,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.8,
       "h2s": [
-        "Find the bottleneck that actually makes you late",
-        "Move a few decisions out of the morning",
-        "Give your preschooler a sequence they can recognize",
-        "Protect a small buffer before the true deadline"
+        "Find the bottleneck before redesigning the entire morning",
+        "Build backward from the time you need to leave",
+        "Move only the decisions that are worth moving",
+        "Give your preschooler ownership of a few recognizable pieces",
+        "Protect a buffer and know what gets dropped when the plan breaks"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 38.8,
+      "avg_paragraph_words": 48.0,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.182,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
+        "no_necesitas": 0,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 7,
+        "puede": 11,
         "importante": 0,
         "clave": 0
       },
       "opening": "At 7:42 one shoe is missing, breakfast is still on the table, you are signing a form, and the child who refused to get dressed five minutes ago suddenly has a very long story to tell you. It is not that your family has no routine. It is that the whole routine is trying to happen at once.",
       "opening_14_words": "At 7 42 one shoe is missing breakfast is still on the table you",
-      "intro_3_paragraphs": "At 7:42 one shoe is missing, breakfast is still on the table, you are signing a form, and the child who refused to get dressed five minutes ago suddenly has a very long story to tell you. It is not that your family has no routine. It is that the whole routine is trying to happen at once. A calmer morning is usually built by removing decisions from the urgent part of the day, not by asking everyone to move faster. Watch three or four ordinary mornings. Where does time disappear? Dressing may take twelve minutes because clothes are chosen under pressure. Lunch packing may collide with tooth brushing because the same adult is responsible for both. Or everyone may be ready except the person searching for keys.",
-      "last_h2": "Protect a small buffer before the true deadline",
-      "ending_3_paragraphs": "If the family must leave at 8:00 and every step is designed to finish at exactly 8:00, a spilled drink becomes a crisis. Even a modest buffer changes the emotional cost of normal delays. Do not fill the buffer with another chore. If everyone is ready, read a short book, wait by the door, or simply leave without rushing. When a morning still goes sideways, treat it as information about the system rather than proof that the routine failed. A good preschool morning is not one in which every child cheerfully completes every step. It is one that can absorb ordinary life without turning every minute into an emergency.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "At 7:42 one shoe is missing, breakfast is still on the table, you are signing a form, and the child who refused to get dressed five minutes ago suddenly has a very long story to tell you. It is not that your family has no routine. It is that the whole routine is trying to happen at once. A calmer morning is usually built by removing decisions and dependencies from the most urgent part of the day, not by asking everyone to move faster. Your household does not need to become a perfectly coordinated machine. It needs the fragile parts of getting out the door to stop depending on memory, negotiation, and improvisation all at the same time. Watch three or four ordinary mornings and notice where time actually disappears. Getting dressed may take twelve minutes, but the real problem could be choosing clothes under pressure. Lunch packing may collide with tooth brushing because the same adult is responsible for both. Or everyone may be ready except the person searching for keys.",
+      "last_h2": "Protect a buffer and know what gets dropped when the plan breaks",
+      "ending_3_paragraphs": "A realistic routine includes bad variables: a late wake-up, a wet shirt, a forgotten form, a sibling meltdown, or a parent who simply has less capacity that day. Decide ahead of time what can shrink. Breakfast can get simpler, hair can be basic, kitchen cleanup can wait, or a nonessential task can disappear. This prevents everything from carrying equal importance. Getting everyone out with the essentials and without escalating the whole house may be a better morning than completing every step on the ideal checklist. If you are ready early, resist filling the buffer with one more chore. Read a book, wait by the door, or leave calmly. A good preschool morning is not one in which every child cheerfully completes every step. It is one that can absorb ordinary life without turning every minute into an emergency.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words",
+        "elevated_h2_density"
       ]
     },
     {
@@ -6659,41 +6660,41 @@
       "translation_group": "093-flying-baby-logistics-packing-expectations",
       "language": "en",
       "title": "Flying with a baby: packing, logistics, and realistic expectations",
-      "words": 470,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 8.51,
+      "words": 959,
+      "paragraphs": 17,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.21,
       "h2s": [
-        "Pack for access, not just categories",
-        "Picture the airport transitions before you leave home",
-        "Use familiar routines as cues, not as a flight schedule",
-        "Lower the bar for what counts as a good flight"
+        "Pack by moments of use, not only by category",
+        "Think of the airport as a chain of transitions",
+        "Plan to feed, change, and soothe without depending on a perfect schedule",
+        "Make the seat work with as few loose things as possible",
+        "Leave a little recovery room after landing"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 39.6,
+      "avg_paragraph_words": 53.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.059,
+      "long_paragraphs": 1,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 9,
-        "importante": 0,
+        "puede": 11,
+        "importante": 1,
         "clave": 0
       },
       "opening": "A flight with a baby starts long before you sit down on the plane. It starts while folding a stroller with one hand, finding documents with the other, or realizing the baby has a spare outfit but the adult covered in spit-up does not.",
       "opening_14_words": "A flight with a baby starts long before you sit down on the plane",
-      "intro_3_paragraphs": "A flight with a baby starts long before you sit down on the plane. It starts while folding a stroller with one hand, finding documents with the other, or realizing the baby has a spare outfit but the adult covered in spit-up does not. Useful preparation is not predicting every possible problem. It is making the likely problems easy to solve while one of your hands is already occupied. The things you may need in transit should come out without unpacking the whole bag: diapers, wipes, a full baby outfit, a bag for dirty clothes, the feeding supplies your baby already uses, and one or two simple familiar distractions. A small diaper-change pouch can keep you from hauling the entire carry-on into a tiny airplane restroom.",
-      "last_h2": "Lower the bar for what counts as a good flight",
-      "ending_3_paragraphs": "A baby may cry. They may need to eat again, be held differently, or stay awake when you hoped to rest. That does not make the flight a failure. Your responsibility is to care for your baby reasonably in a shared space, not to guarantee silence for everyone around you. When you land, leave room before the next commitment if you can. A diaper change, food for the adults, and five minutes to reorganize bags can prevent the travel day from spilling into the rest of the schedule. Good logistics will not make flying with a baby feel exactly like flying without one. It simply removes steps between a need appearing and you being able to meet it.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "A flight with a baby starts long before you sit down on the plane. It starts while folding a stroller with one hand, finding documents with the other, or realizing the baby has a spare outfit but the adult covered in spit-up does not. Useful preparation is not predicting every possible problem. It is making the likely problems easy to solve while one of your hands is already occupied and there is very little room to improvise. The goal is not to carry a portable version of your house. It is to reduce the number of steps between “we need something” and “we have it.” Your carry-on needs to work as a quick-access system. Items you may need at any point—diapers, wipes, a complete baby outfit, a bag for wet or dirty clothes, the feeding supplies your baby normally uses, any routine medication, and one familiar comfort item—should come out without unpacking everything. A small diaper-change pouch can keep you from taking the entire bag into a tiny airplane restroom.",
+      "last_h2": "Leave a little recovery room after landing",
+      "ending_3_paragraphs": "Landing is not the end of the logistics. There may still be bags, stroller pickup, ground transportation, hungry adults, and a baby who just woke up. If you can, avoid scheduling an important activity immediately. Even a short pause to change the baby, eat something, and reorganize bags can keep the flight chaos from following you for the rest of the day. After the trip, notice what you actually used and what was hard to reach. That information is more valuable for your next flight than a generic packing list. You may discover you brought too many clothes, needed a better small pouch, or found the carrier useful only during one specific part of the airport. Good logistics will not make flying with a baby feel exactly like flying without one. They simply remove steps, searching, and unnecessary decisions between a need appearing and you being able to meet it.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -6702,41 +6703,41 @@
       "translation_group": "094-flying-toddler-prepare-trip",
       "language": "en",
       "title": "Flying with a toddler: how to prepare for the trip",
-      "words": 432,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 9.26,
+      "words": 900,
+      "paragraphs": 17,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.56,
       "h2s": [
-        "Describe the trip in a few concrete steps",
-        "Use movement before you ask for stillness",
-        "Layer entertainment instead of revealing everything at once",
-        "Expect moments when the limit cannot move"
+        "Describe the trip in scenes your child can recognize",
+        "Use movement before asking for stillness",
+        "Layer food and entertainment instead of using everything at once",
+        "Expect limits that cannot be negotiated",
+        "Treat deplaning and arrival as part of the travel day"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 36.5,
+      "avg_paragraph_words": 50.5,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 1,
+        "no_necesitas": 2,
+        "no_significa": 2,
         "a_veces": 0,
-        "puede": 5,
+        "puede": 11,
         "importante": 0,
         "clave": 0
       },
-      "opening": "A toddler can be delighted by airplanes and then be lying on the terminal floor ten minutes later because they cannot understand why a door is off limits. Air travel combines novelty with an unusual amount of waiting: lines, security, gate time, boarding, buckling in, deplaning.",
+      "opening": "A toddler can be delighted by airplanes and then be lying on the terminal floor ten minutes later because they cannot understand why a door is off limits. Air travel combines novelty with a lot of waiting: lines, security, gate time, boarding, buckling in, sitting, and deplaning. All of that happens on a day when hunger, tiredness, and routine changes are already making patience thinner.",
       "opening_14_words": "A toddler can be delighted by airplanes and then be lying on the terminal",
-      "intro_3_paragraphs": "A toddler can be delighted by airplanes and then be lying on the terminal floor ten minutes later because they cannot understand why a door is off limits. Air travel combines novelty with an unusual amount of waiting: lines, security, gate time, boarding, buckling in, deplaning. Preparing for the trip does not mean training a toddler to sit happily for hours. It means building small outlets for movement, hunger, boredom, and transition. In the days before travel, tell a simple story: “We go to the airport, the bags get checked, we wait, we get on the plane, we sit in our seats, and then we arrive somewhere else.” You do not need to explain every procedure. Familiarity with a few scenes can make them less surprising.",
-      "last_h2": "Expect moments when the limit cannot move",
-      "ending_3_paragraphs": "There will be times your toddler has to stay seated even if they object. Long explanations usually do not change that fact. “You want to get up. Right now we need to sit. We’ll move when we can,” is enough. The trip may still be messy. Your child may cry, nap at a strange time, or reject every clever activity you packed. Preparation gives you options; it does not obligate you to produce a calm child. The best plan for flying with a toddler does not remove toddlerhood from the journey. It plans around it.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "A toddler can be delighted by airplanes and then be lying on the terminal floor ten minutes later because they cannot understand why a door is off limits. Air travel combines novelty with a lot of waiting: lines, security, gate time, boarding, buckling in, sitting, and deplaning. All of that happens on a day when hunger, tiredness, and routine changes are already making patience thinner. Preparing for the trip does not mean training a toddler to sit happily for hours. It means building small outlets for movement, hunger, boredom, and transition—and knowing what you will do when none of those tools works. In the days before travel, tell a simple story: “We go to the airport, some bags get checked, we go through security, we wait, we get on the plane, and we sit in our seats.” You do not need to explain every procedure. The point is for a few moments to feel recognizable when they happen quickly.",
+      "last_h2": "Treat deplaning and arrival as part of the travel day",
+      "ending_3_paragraphs": "Many plans mentally end at landing, but a tired toddler may still need to wait, walk, find luggage, and get to the next form of transportation. Save some water, food, and one easy activity for that stretch instead of using every resource before descent. If possible, leave a little room before a formal meal, visit, or major activity after arrival. Your child may need to run, eat, cry, reconnect with you, or simply have one transition that does not immediately lead to another. A short recovery window can improve the rest of the day more than squeezing every minute out of the destination. The best plan for flying with a toddler does not remove toddlerhood from the journey. It plans around it: expect limited patience, create movement opportunities, hold back resources, and accept that a few uncomfortable moments do not make the trip a failure.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -6745,41 +6746,41 @@
       "translation_group": "095-road-trip-kids-stops-entertainment-packing",
       "language": "en",
       "title": "Road trips with kids: planning stops, entertainment, and packing",
-      "words": 415,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 9.64,
+      "words": 877,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.7,
       "h2s": [
-        "Plan stops around bodies, not just fuel",
+        "Break the drive into sections your family can actually picture",
+        "Make stops solve a body problem, not just a fuel problem",
         "Pack the car in layers of access",
-        "Rotate entertainment before it loses all its value",
-        "Do not make the arrival time a test"
+        "Rotate entertainment and save some resources for the hard part",
+        "Protect arrival from an overambitious itinerary"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 35.0,
+      "avg_paragraph_words": 46.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
+        "no_necesitas": 2,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 3,
+        "puede": 6,
         "importante": 1,
         "clave": 0
       },
       "opening": "On a map, four hours is a line. With kids, it is breakfast, an unexpected bathroom stop, a water bottle under the seat, hunger twenty minutes after a snack, and someone asking how much longer before you have cleared your own city.",
       "opening_14_words": "On a map four hours is a line With kids it is breakfast an",
-      "intro_3_paragraphs": "On a map, four hours is a line. With kids, it is breakfast, an unexpected bathroom stop, a water bottle under the seat, hunger twenty minutes after a snack, and someone asking how much longer before you have cleared your own city. A family road trip works better when you plan sections and access points rather than trying to create a car ride in which nobody ever needs anything. Instead of deciding everyone will “push through” to one distant stop, identify several reasonable places for bathrooms, food, and movement. You may not use all of them. Knowing they exist keeps an ordinary need from becoming an emergency search.",
-      "last_h2": "Do not make the arrival time a test",
-      "ending_3_paragraphs": "Traffic, an extra stop, or a child who needs more movement may shift the schedule. If arrival is tied to an important reservation or event, build margin rather than planning from the navigation app’s minimum possible travel time. If the final stretch is clearly too much for everyone, stopping is not proof that the trip is going badly. It is the plan adapting to the actual people in the car. A successful road trip with kids is not the one that covers the most miles with the fewest stops. It is the one that leaves enough family energy for the destination to still matter.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "On a map, four hours is a line. With kids, it is breakfast, an unexpected bathroom stop, a water bottle under the seat, hunger twenty minutes after a snack, and someone asking how much longer before you have cleared your own city. A family road trip works better when you plan sections, access, and margin instead of trying to create a car ride in which nobody ever needs anything. The goal is not to prove how far everyone can go without stopping. It is to arrive with enough family energy for the destination to still feel worth reaching. The navigation estimate is a reference, not a promise. Before leaving, identify several reasonable places with bathrooms, food, and room to move. You do not need to decide exactly which one you will use. Knowing the options exist keeps an ordinary need from turning into an urgent roadside search.",
+      "last_h2": "Protect arrival from an overambitious itinerary",
+      "ending_3_paragraphs": "Decide what gets simplified if the drive runs late. Dinner may become basic, one sightseeing stop may disappear, or someone may call the accommodation. A plan B prevents each delay from becoming a race to “make up time” by squeezing everyone harder inside the car. If the final stretch is clearly too much, stopping is not proof that the trip is going badly. It is the itinerary adapting to the actual people in the vehicle. A successful road trip with kids is not the one that covers the most miles with the fewest stops. It is the one that manages energy, needs, and expectations well enough that arrival does not feel like merely surviving the drive.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -6788,19 +6789,20 @@
       "translation_group": "096-travel-sleep-familiar-cues-not-perfect-routine",
       "language": "en",
       "title": "Sleep while traveling: keep familiar cues without chasing the perfect routine",
-      "words": 390,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 10.26,
+      "words": 797,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 6.27,
       "h2s": [
-        "Choose two or three cues that carry real weight",
-        "Decide which parts of the clock can bend",
-        "Make the first night simpler, not more ambitious",
-        "Return home gently"
+        "Choose the cues that actually carry the routine",
+        "Decide what part of the clock is worth protecting and what can bend",
+        "Make the first night simpler than vacation excitement suggests",
+        "When sleep gets messy, change one thing before changing five",
+        "Come home without trying to compensate for the whole trip in one day"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 32.9,
+      "avg_paragraph_words": 41.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -6809,20 +6811,20 @@
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
-        "a_veces": 2,
-        "puede": 3,
+        "a_veces": 4,
+        "puede": 4,
         "importante": 0,
         "clave": 0
       },
       "opening": "At home, bedtime may work partly because the whole environment cooperates: the same room, familiar light, the same hallway sounds. On a trip, dinner runs late, the bedroom is new, and a streetlight suddenly shines directly through an unfamiliar curtain.",
       "opening_14_words": "At home bedtime may work partly because the whole environment cooperates the same room",
-      "intro_3_paragraphs": "At home, bedtime may work partly because the whole environment cooperates: the same room, familiar light, the same hallway sounds. On a trip, dinner runs late, the bedroom is new, and a streetlight suddenly shines directly through an unfamiliar curtain. A travel routine does not need to reproduce every home condition. It needs enough recognizable signals for your child to know the day is winding down. Maybe it is pajamas, a book, a song, a particular phrase, or the order of bath-lights-bed. Those pieces are easier to transport than every exact minute of the normal schedule.",
-      "last_h2": "Return home gently",
-      "ending_3_paragraphs": "Once home, bring back the familiar order and cues. You do not have to compensate for every missed nap or dramatically shift the whole day to “undo” travel. The home environment itself provides a lot of familiar information. If sleep is unsettled for a few days, observe before piling on changes. The trip may be over before the family rhythm fully realizes it. A useful routine is not one that proves it is indestructible. It is one that can help your family recognize bedtime even when the context changes.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "At home, bedtime may work partly because the whole environment cooperates: the same room, familiar light, the same hallway sounds. On a trip, dinner runs late, the bedroom is new, and a streetlight suddenly shines directly through an unfamiliar curtain. A travel routine does not need to reproduce every home condition. It needs enough recognizable signals for your child to know the day is winding down and enough flexibility that the family does not spend the trip protecting a schedule. Maybe it is pajamas, a book, a song, a particular phrase, or the order of bath-lights-bed. Those elements travel better than an exact clock time, an identical room, or a long chain of details. Ask which things your child still recognizes when the setting changes.",
+      "last_h2": "Come home without trying to compensate for the whole trip in one day",
+      "ending_3_paragraphs": "Schedules may stay a little off for a few days. Watch the direction before piling on changes. If the home routine was sustainable before travel, it probably needs to be rediscovered rather than reinvented. Keep one lesson for next time. You may discover that the bedtime book mattered much more than the sound machine, or that protecting one specific nap helped more than keeping bedtime at the exact home hour. A useful routine does not prove that it is indestructible. It can travel too: keep a few recognizable cues, tolerate variation, and become familiar again when the context changes once more.",
+      "risk_score": 3,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_800_words",
+        "elevated_h2_density"
       ]
     },
     {
@@ -6831,41 +6833,42 @@
       "translation_group": "097-vacation-young-kids-lower-expectations",
       "language": "en",
       "title": "Vacations with young kids: lower expectations and enjoy them more",
-      "words": 395,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 10.13,
+      "words": 819,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 6.11,
       "h2s": [
-        "Choose one thing that matters each day",
-        "Protect a few basic needs, not every home habit",
-        "Plan adult breaks too",
-        "Change the scorecard for a good trip"
+        "Choose one priority each day and let the rest be optional",
+        "Protect the needs that hold your family together, not every home habit",
+        "Build margin between experiences",
+        "Plan adult breaks explicitly",
+        "Change the scorecard for whether the trip was good"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 33.5,
+      "avg_paragraph_words": 43.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
+        "no_necesitas": 2,
         "no_significa": 0,
         "a_veces": 1,
-        "puede": 4,
-        "importante": 0,
+        "puede": 8,
+        "importante": 1,
         "clave": 0
       },
       "opening": "You booked it, packed for it, and traveled across town or across the country. It is easy to arrive with a quiet expectation: after all this work, we should have an amazing time. Then one child hates the beach, somebody sleeps terribly, and by 10:30 you have already managed three meltdowns.",
       "opening_14_words": "You booked it packed for it and traveled across town or across the country",
-      "intro_3_paragraphs": "You booked it, packed for it, and traveled across town or across the country. It is easy to arrive with a quiet expectation: after all this work, we should have an amazing time. Then one child hates the beach, somebody sleeps terribly, and by 10:30 you have already managed three meltdowns. A vacation with young kids is still parenting. It simply happens in a new place with fewer automatic routines and, sometimes, a better view. A special breakfast, museum, beach, nap, walk, restaurant, and sunset can all fit on a schedule. What the schedule hides are transitions, clothes changes, unexpected hunger, and the recovery time between experiences.",
-      "last_h2": "Change the scorecard for a good trip",
-      "ending_3_paragraphs": "A young child does not know what the destination cost or that this was supposed to be the perfect weather day. They may care more about chasing birds outside the hotel than the attraction you planned for months. That does not make the effort pointless. It means memorable family moments are not always the expensive or photogenic ones. At the end of the day, notice connection, curiosity, and moments of ease rather than only completed activities. Lowering expectations is not giving up on enjoyment. It is making enough room for enjoyment to happen without first completing a perfect itinerary.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "You booked it, packed for it, and traveled across town or across the country. It is easy to arrive with a quiet expectation: after all this work, we should have an amazing time. Then one child hates the beach, somebody sleeps terribly, and by 10:30 you have already managed three meltdowns. A vacation with young kids is still parenting. It simply happens in a new place with fewer automatic routines and, sometimes, a better view. The more you expect the trip to repay the effort it took to organize, the easier it is to experience every hard moment as wasted money, time, or opportunity. A special breakfast, museum, beach, nap, walk, restaurant, and sunset may all technically fit on a schedule. What the schedule hides are transitions, clothes changes, bathroom searches, unexpected hunger, and the time a young child needs to move from one experience to the next.",
+      "last_h2": "Change the scorecard for whether the trip was good",
+      "ending_3_paragraphs": "That does not make the effort pointless. It means meaningful family moments are not always the expensive or photogenic ones. At the end of the day, notice connection, curiosity, laughter, and moments of ease instead of only completed activities. And if one day is terrible, let it be one terrible day. You do not need to compensate by packing more into the next one. A vacation is not an accumulating performance review in which every day has to justify the whole trip. Lowering expectations is not giving up on enjoyment. It is removing enough pressure that the family can respond to the real people who are there and leave space for something good to happen without completing a perfect itinerary first.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words",
+        "elevated_h2_density"
       ]
     },
     {
@@ -6874,19 +6877,20 @@
       "translation_group": "098-restaurants-kids-timing-expectations-entertainment",
       "language": "en",
       "title": "Restaurants with kids: choosing timing, expectations, and entertainment",
-      "words": 418,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 9.57,
+      "words": 874,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.72,
       "h2s": [
         "Choose the timing before you choose the menu",
         "Pick a restaurant that fits your family that day",
-        "Bring a small amount of entertainment and save it",
-        "Know your exit signal"
+        "Define what you expect before you walk in",
+        "Bring a small amount of entertainment and use it when it adds value",
+        "Share the adult work and recognize the exit signal"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 35.3,
+      "avg_paragraph_words": 45.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -6894,21 +6898,20 @@
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
+        "no_significa": 0,
         "a_veces": 1,
-        "puede": 6,
+        "puede": 16,
         "importante": 0,
         "clave": 0
       },
       "opening": "A child who eats comfortably at home can unravel in a restaurant for reasons that have little to do with food: they waited thirty minutes, the room is loud, they are tired, and they have been sitting since before the bread arrived.",
       "opening_14_words": "A child who eats comfortably at home can unravel in a restaurant for reasons",
-      "intro_3_paragraphs": "A child who eats comfortably at home can unravel in a restaurant for reasons that have little to do with food: they waited thirty minutes, the room is loud, they are tired, and they have been sitting since before the bread arrived. The most useful restaurant tool for families is often not in the activity bag. It is choosing a context that does not demand more waiting than the child can realistically manage. An amazing restaurant at an impossible hour may be a worse family experience than a simple place while everyone still has energy. Earlier reservations, avoiding peak waits, or not scheduling dinner immediately after an exhausting activity can change the entire meal.",
-      "last_h2": "Know your exit signal",
-      "ending_3_paragraphs": "Sometimes the child is finished before the adults want the meal to end. Take turns walking outside, ask for the check early, or skip the long dessert. Staying another twenty minutes on principle may cost more than accepting that capacity has run out. Children do learn how restaurants work through experience. That skill grows from experiences slightly beyond what is easy, not from repeatedly asking them to function far beyond what is possible. Success is not a child behaving like an adult for the entire meal. It is a family sharing a public space without requiring anyone to ignore their needs completely.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "A child who eats comfortably at home can unravel in a restaurant for reasons that have little to do with food: they waited thirty minutes, the room is loud, they are tired, and they have been sitting since before the bread arrived. The most useful restaurant tool for families is often not in the activity bag. It is choosing a context that does not demand more waiting, stillness, and regulation than the child can realistically manage that day. The better the setup fits your child’s actual capacity, the less you have to compensate later with threats, rewards, or nonstop entertainment. An amazing restaurant at an impossible hour may be a worse family experience than a simple place while everyone still has energy. Earlier reservations, avoiding peak waits, or not placing dinner immediately after an exhausting activity can change the entire meal.",
+      "last_h2": "Share the adult work and recognize the exit signal",
+      "ending_3_paragraphs": "It can also help to ask for the check before the situation is completely broken. Sometimes the child is done twenty minutes before the adults want the meal to end. Take turns outside, get dessert to go, or close the meal. Staying on principle does not necessarily teach more; it may make the final twenty minutes the only part everyone remembers. If one outing goes badly, ask which variable was too demanding before deciding “we can’t take our kids to restaurants.” It may have been the hour, wait, noise, duration, or a packed day beforehand. Changing one variable next time teaches you more than abandoning restaurants entirely or repeating the same setup. Success is not a child behaving like an adult for an entire meal. It is a family sharing a public space, practicing age-appropriate skills, and leaving before the experience starts demanding something the child no longer has.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -6917,41 +6920,41 @@
       "translation_group": "099-first-birthday-family-centered",
       "language": "en",
       "title": "First birthday ideas centered on your family",
-      "words": 432,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 9.26,
+      "words": 922,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.42,
       "h2s": [
-        "Start with the amount of celebration your baby can handle",
-        "Choose one or two rituals with meaning",
-        "Let food and photos support the day instead of running it",
-        "Make room for what the year meant to the adults too"
+        "Decide who the celebration is really for",
+        "Match the length, noise, and timing to your baby’s capacity",
+        "Choose one or two rituals that may matter years later",
+        "Let food, decor, and photos support the day instead of running it",
+        "Make room for what the first year meant to the adults"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 35.7,
+      "avg_paragraph_words": 48.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
+      "long_paragraphs": 1,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 2,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 13,
-        "importante": 0,
+        "puede": 16,
+        "importante": 2,
         "clave": 0
       },
-      "opening": "A first birthday can feel like a border between two versions of family life. A year ago there was a newborn; now there is a person crawling through the house, pointing at things, and perhaps trying to put a hand directly into the cake. That can bring pressure to make the celebration match the size of the milestone.",
+      "opening": "A first birthday can feel like a border between two versions of family life. A year ago there was a newborn; now there is a person moving through the house, pointing at things, and perhaps trying to put a hand directly into the cake. That can create pressure to make the celebration feel as large as the milestone, even though the baby will experience it mostly as another day with familiar people and unusual activity.",
       "opening_14_words": "A first birthday can feel like a border between two versions of family life",
-      "intro_3_paragraphs": "A first birthday can feel like a border between two versions of family life. A year ago there was a newborn; now there is a person crawling through the house, pointing at things, and perhaps trying to put a hand directly into the cake. That can bring pressure to make the celebration match the size of the milestone. Your baby does not need an elaborate production to understand they are loved, which means you can build the day around what your family wants to remember. Some one-year-olds enjoy watching a room full of people. Others become overwhelmed quickly. An hour with grandparents and close friends may be more enjoyable than a full afternoon party. Decide on people, noise, and duration before worrying about decor.",
-      "last_h2": "Make room for what the year meant to the adults too",
-      "ending_3_paragraphs": "The birthday celebrates the child, but it also marks a year of becoming parents, disrupted sleep, new skills, changed relationships, and a family reorganizing itself. A toast, a few written lines, or a quiet moment acknowledging that year can belong in the celebration. When the baby is done, the party can be done even if decorations remain and adults could keep talking. Ending with the child's capacity in mind protects the memory you are trying to create. A first birthday does not need to prove how much you love your child. It can simply pause long enough to notice the year that changed your family.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "A first birthday can feel like a border between two versions of family life. A year ago there was a newborn; now there is a person moving through the house, pointing at things, and perhaps trying to put a hand directly into the cake. That can create pressure to make the celebration feel as large as the milestone, even though the baby will experience it mostly as another day with familiar people and unusual activity. Your baby does not need an elaborate production to understand they are loved, which means you can build the day around what your family actually wants to experience and remember. That freedom lets you decide size, rhythm, and meaning before you think about decor, theme, or photos. The birthday belongs to the child, but the conscious meaning usually lives with the adults: marking a year, gathering important people, recognizing how much changed, or simply pausing long enough to notice that your family is different now. Naming the purpose helps filter the rest of the decisions.",
+      "last_h2": "Make room for what the first year meant to the adults",
+      "ending_3_paragraphs": "You might make a toast, write a private note, look through photos from the first months, or name something you learned. If the year was very hard, you do not have to turn it into a sentimental story. You can celebrate arriving here without claiming you loved every stage. And when the baby is done, the party can be done. You do not have to get one more photo, open every gift in front of everyone, or stretch the event because adults are still talking. A flexible ending protects the child and the parents who may have been carrying the logistics for hours. A first birthday does not need to prove how much you love your child. It can be a small or large pause—whatever fits your family—to look back at the year, gather the people who matter, and recognize that all of you changed with it.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -6960,19 +6963,20 @@
       "translation_group": "100-family-traditions-children-remember",
       "language": "en",
       "title": "How to create family traditions children actually remember",
-      "words": 395,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 10.13,
+      "words": 840,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.95,
       "h2s": [
-        "Start with something you could repeat in a hard year",
-        "Give children a real role",
+        "Start with something that could survive a difficult year",
+        "Give children a role that actually belongs to them",
         "Let sensory cues do some of the remembering",
-        "Let the tradition change without losing its identity"
+        "Do not fill the calendar with traditions because you are afraid memories are missing",
+        "Let the tradition change when the family changes"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 33.1,
+      "avg_paragraph_words": 44.0,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -6981,20 +6985,20 @@
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
-        "a_veces": 0,
-        "puede": 5,
+        "a_veces": 1,
+        "puede": 12,
         "importante": 0,
         "clave": 0
       },
-      "opening": "When adults think about “making memories,” it is easy to picture trips, decorations, and special events. Yet many strong family memories grow from much smaller things: hot chocolate after looking at lights, a ridiculous car song, or eating the same breakfast every birthday.",
+      "opening": "When adults think about “making memories,” it is easy to picture trips, decorations, and special events. Yet many strong family memories grow from much smaller things: hot chocolate after looking at lights, a ridiculous car song, eating the same breakfast every birthday, or a phrase someone always says before leaving the house.",
       "opening_14_words": "When adults think about making memories it is easy to picture trips decorations and",
-      "intro_3_paragraphs": "When adults think about “making memories,” it is easy to picture trips, decorations, and special events. Yet many strong family memories grow from much smaller things: hot chocolate after looking at lights, a ridiculous car song, or eating the same breakfast every birthday. A tradition becomes memorable less because of its scale and more because repetition, meaning, and participation keep meeting in the same place. If a tradition requires months of booking, two days of cooking, and coordinating twenty people, it may be wonderful and also fragile. Ask what the smallest recognizable version would be if someone were sick, tired, traveling, or the family were in a difficult season.",
-      "last_h2": "Let the tradition change without losing its identity",
-      "ending_3_paragraphs": "Families move, schedules shift, relationships change, and children grow. If the tradition only “counts” when it happens in exactly the same form, it can create pressure instead of belonging. Decide what the heart of it is and let the rest adapt. You may no longer visit the same park every winter, but you can still take a walk together to find the first holiday lights. The form changes; the shared story continues. Children do not need a childhood packed with spectacular events to build strong family memories. They need enough things to return that they can say, “In our family, this is something we do.”",
-      "risk_score": 7,
+      "intro_3_paragraphs": "When adults think about “making memories,” it is easy to picture trips, decorations, and special events. Yet many strong family memories grow from much smaller things: hot chocolate after looking at lights, a ridiculous car song, eating the same breakfast every birthday, or a phrase someone always says before leaving the house. A tradition becomes memorable less because of its scale and more because repetition, meaning, and participation keep meeting in the same place. The goal is not to manufacture a childhood packed with events. It is to create enough continuity that children can recognize a family story they belong to. If a tradition requires months of booking, two days of cooking, and coordinating twenty people, it may be wonderful and also fragile. Ask what the smallest recognizable version would be if someone were sick, tired, traveling, working, or the family were in a difficult season.",
+      "last_h2": "Let the tradition change when the family changes",
+      "ending_3_paragraphs": "Decide what the heart of it is and let the rest evolve. You may no longer visit the same park every winter, but you can still take a walk together to find the first holiday lights. A large gathering may become a video call plus the same shared recipe. The form changes; the common story can remain. It is also okay to retire a tradition that no longer represents the family. The memories do not disappear because you stop repeating it. Sometimes ending one ritual intentionally makes room for another that fits the current season better. Children do not need a childhood packed with spectacular events to build strong family memories. They need enough things to return, change with them, and let them say naturally, “In our family, this is something we do.”",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words",
+        "elevated_h2_density"
       ]
     },
     {
@@ -19655,41 +19659,42 @@
       "translation_group": "091-talk-educators-disagree-behavior",
       "language": "es",
       "title": "Cómo hablar con educadores cuando no estás de acuerdo con una forma de manejar la conducta",
-      "words": 551,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 7.26,
+      "words": 964,
+      "paragraphs": 15,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.19,
       "h2s": [
-        "Separa lo que sabes de lo que estás interpretando",
-        "Pide la secuencia completa antes de discutir la estrategia",
-        "Explica qué quieres proteger y qué alternativa propones",
-        "Cierra con un acuerdo observable, no con una sensación"
+        "Llega con una pregunta clara, no con una acusación global",
+        "Reconstruye la secuencia completa antes de discutir la estrategia",
+        "Diferencia una diferencia de estilo de un problema de seguridad o respeto",
+        "Explica qué quieres proteger y pregunta qué alternativa es viable",
+        "Cierra con un acuerdo observable y una forma de revisarlo"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 46.9,
+      "avg_paragraph_words": 60.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.182,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 4,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 1,
+        "no_necesitas": 2,
+        "no_significa": 2,
         "a_veces": 1,
-        "puede": 5,
-        "importante": 1,
+        "puede": 12,
+        "importante": 2,
         "clave": 0
       },
-      "opening": "A veces el desacuerdo llega en una frase al recoger a tu hijo: “Hoy tuvo una consecuencia porque no quiso recoger”, “le apartamos del grupo”, “le dijimos que dejara de llorar y siguiera”. Sales por la puerta y, de camino a casa, empiezas a reconstruir la escena con muy pocos datos.",
+      "opening": "A veces el desacuerdo llega en una frase al recoger a tu hijo: “Hoy tuvo una consecuencia porque no quiso recoger”, “le apartamos del grupo”, “le dijimos que dejara de llorar y siguiera”. Sales por la puerta y, de camino a casa, empiezas a reconstruir la escena con muy pocos datos. Si tu hijo añade una versión entrecortada —“me sentaron solo”, “la profe dijo que era malo”, “nadie me escuchó”— es fácil que la preocupación se convierta en enfado antes de saber exactamente qué ocurrió.",
       "opening_14_words": "A veces el desacuerdo llega en una frase al recoger a tu hijo Hoy",
-      "intro_3_paragraphs": "A veces el desacuerdo llega en una frase al recoger a tu hijo: “Hoy tuvo una consecuencia porque no quiso recoger”, “le apartamos del grupo”, “le dijimos que dejara de llorar y siguiera”. Sales por la puerta y, de camino a casa, empiezas a reconstruir la escena con muy pocos datos. Defender a tu hijo no exige entrar en la conversación con una sentencia ya escrita. Cuanto más concreto sea el problema, más posibilidades hay de que el centro educativo pueda explicarlo, revisarlo o cambiarlo. Antes de hablar, escribe la versión más breve posible de lo ocurrido: qué te contaron, qué dijo tu hijo y qué observaste después. Luego separa tus preocupaciones. “Le dejaron solo cinco minutos” es distinto de “le hicieron sentir que era malo”. Lo segundo puede ser tu temor legítimo, pero conviene no presentarlo como un hecho que no viste.",
-      "last_h2": "Cierra con un acuerdo observable, no con una sensación",
-      "ending_3_paragraphs": "Al final, intenta resumir qué va a cambiar o qué vais a observar: “Si vuelve a pasar, primero lo sacaréis de la situación sin etiquetarlo y me contaréis qué ocurrió al recogerlo”. Si el centro propone algo diferente, repetidlo con vuestras palabras para comprobar que habéis entendido lo mismo. Cuando el asunto es repetido o importante, acordar una fecha breve para revisar cómo está funcionando evita que la conversación quede en un “ya veremos”. Y si lo que aparece es un problema serio de seguridad o una práctica que vulnera claramente las normas del centro, puede ser necesario escalar la conversación por los canales establecidos. Una buena conversación familia-escuela no necesita que todos piensen igual. Necesita que el desacuerdo termine en más claridad sobre cómo se cuidará al niño la próxima vez.",
-      "risk_score": 5,
+      "intro_3_paragraphs": "A veces el desacuerdo llega en una frase al recoger a tu hijo: “Hoy tuvo una consecuencia porque no quiso recoger”, “le apartamos del grupo”, “le dijimos que dejara de llorar y siguiera”. Sales por la puerta y, de camino a casa, empiezas a reconstruir la escena con muy pocos datos. Si tu hijo añade una versión entrecortada —“me sentaron solo”, “la profe dijo que era malo”, “nadie me escuchó”— es fácil que la preocupación se convierta en enfado antes de saber exactamente qué ocurrió. Defender a tu hijo no exige entrar en la conversación con una sentencia ya escrita. Cuanto más concreto sea el problema, más posibilidades hay de que el centro educativo pueda explicarlo, revisarlo o cambiarlo. El objetivo no es demostrar quién tiene la filosofía correcta de crianza; es entender qué pasó y acordar cómo se manejará una situación parecida la próxima vez. Antes de hablar, separa tres cosas: lo que sabes, lo que te preocupa y lo que necesitas aclarar. “Me dijeron que estuvo cinco minutos fuera del grupo” es un dato. “Me preocupa que se viviera como una humillación” es una interpretación importante, pero sigue siendo una interpretación hasta conocer el contexto. Esa distinción evita que la conversación empiece discutiendo intenciones.",
+      "last_h2": "Cierra con un acuerdo observable y una forma de revisarlo",
+      "ending_3_paragraphs": "Antes de terminar, resume lo que habéis acordado con palabras sencillas: “Si vuelve a pegar, primero pararéis físicamente la situación sin etiquetarlo, después le ayudaréis a reparar y me contaréis lo ocurrido al recogerlo”. Si la otra persona formula el plan de otra manera, repetidlo hasta que ambos entendáis lo mismo. Para un tema repetido, fijar un punto de revisión evita que todo quede en un “ya veremos”. Puede ser tan simple como hablar de nuevo al final de la semana. Si no hay cambios, si aparecen nuevas preocupaciones o si el asunto supera lo que puede resolver el educador directo, utiliza los canales del centro y conserva una descripción factual de las conversaciones previas. Una relación familia-escuela sólida no necesita ausencia de desacuerdos. Necesita que los adultos puedan hablar de ellos sin convertir al niño en mensajero, rival o prueba de quién tiene razón, y que la conversación termine en más claridad sobre cómo será cuidado la próxima vez.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "high_h2_density"
+        "body_under_1050_words",
+        "many_long_paragraphs"
       ]
     },
     {
@@ -19698,41 +19703,41 @@
       "translation_group": "092-preschool-mornings-less-rushed",
       "language": "es",
       "title": "Cómo organizar mañanas de preschool sin prisas constantes",
-      "words": 480,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 8.33,
+      "words": 911,
+      "paragraphs": 17,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.49,
       "h2s": [
-        "Encuentra el cuello de botella real",
-        "Mueve decisiones fuera de la mañana",
-        "Da al niño una secuencia que pueda reconocer",
-        "Protege un margen pequeño antes de la hora límite"
+        "Encuentra el cuello de botella real antes de cambiar toda la mañana",
+        "Diseña la mañana hacia atrás desde la hora de salir",
+        "Mueve fuera de la mañana solo lo que realmente compensa",
+        "Da al niño responsabilidad sobre pocas piezas reconocibles",
+        "Protege un margen y decide qué se sacrifica cuando algo sale mal"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 41.0,
+      "avg_paragraph_words": 50.5,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.091,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 4,
-        "importante": 1,
+        "puede": 9,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "A las 7:42 alguien no encuentra un zapato, el desayuno sigue sobre la mesa, tú estás intentando firmar un papel y el niño que hace dos minutos no quería vestirse ahora necesita contarte algo larguísimo. No parece que falte una rutina. Parece que toda la rutina ha decidido ocurrir a la vez.",
+      "opening": "A las 7:42 alguien no encuentra un zapato, el desayuno sigue sobre la mesa, tú estás intentando firmar un papel y el niño que hace cinco minutos no quería vestirse ahora necesita contarte algo larguísimo. No parece que falte una rutina. Parece que toda la rutina ha decidido ocurrir a la vez.",
       "opening_14_words": "A las 7 42 alguien no encuentra un zapato el desayuno sigue sobre la",
-      "intro_3_paragraphs": "A las 7:42 alguien no encuentra un zapato, el desayuno sigue sobre la mesa, tú estás intentando firmar un papel y el niño que hace dos minutos no quería vestirse ahora necesita contarte algo larguísimo. No parece que falte una rutina. Parece que toda la rutina ha decidido ocurrir a la vez. Una mañana más tranquila no se diseña añadiendo velocidad, sino quitando decisiones y dependencias del tramo en el que ya no queda margen. Durante tres o cuatro mañanas, observa dónde se pierde el tiempo de verdad. Tal vez vestirse tarda doce minutos, pero no porque el niño sea lento: la ropa se decide cuando ya hay presión. Quizá el problema es que el adulto prepara el almuerzo mientras intenta supervisar dientes y mochila. O que todos están listos excepto quien busca sus llaves.",
-      "last_h2": "Protege un margen pequeño antes de la hora límite",
-      "ending_3_paragraphs": "Si la salida “tiene que ser” a las 8:00, organizar toda la mañana para terminar exactamente a las 8:00 convierte cualquier calcetín mojado en una emergencia. Un margen de diez minutos no elimina los imprevistos, pero cambia el tono con el que se viven. Ese margen no tiene que llenarse con otra tarea. Si estáis listos antes, podéis mirar un libro, esperar junto a la puerta o simplemente salir con calma. Y si una mañana se descarrila, la rutina no ha fracasado: ha mostrado dónde necesita más holgura. La medida de una buena rutina de preschool no es que todos ejecuten cada paso sin protestar. Es que la familia pueda llegar a la puerta sin tener que convertir cada minuto en una orden urgente.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "A las 7:42 alguien no encuentra un zapato, el desayuno sigue sobre la mesa, tú estás intentando firmar un papel y el niño que hace cinco minutos no quería vestirse ahora necesita contarte algo larguísimo. No parece que falte una rutina. Parece que toda la rutina ha decidido ocurrir a la vez. Una mañana más tranquila no se diseña añadiendo velocidad, sino quitando decisiones y dependencias del tramo en el que ya no queda margen. La familia no necesita convertirse en una máquina perfectamente coordinada; necesita que las piezas más frágiles de la salida dejen de depender de recordar, negociar e improvisar al mismo tiempo. Durante tres o cuatro días normales, observa dónde se pierde el tiempo de verdad. Tal vez vestirse tarda doce minutos, pero no porque el niño sea lento: la ropa se decide cuando ya hay presión. Quizá el adulto que prepara el almuerzo también supervisa dientes, busca la mochila y responde mensajes del colegio. O todos están listos excepto quien busca sus llaves.",
+      "last_h2": "Protege un margen y decide qué se sacrifica cuando algo sale mal",
+      "ending_3_paragraphs": "Una rutina realista incluye fallos: un niño se despierta más tarde, hay que cambiar una camiseta, aparece un formulario olvidado o alguien simplemente está de mal humor. Decide de antemano qué puede reducirse sin drama. Quizá el desayuno pasa a una versión más sencilla, el peinado se vuelve básico o una tarea doméstica espera. Ese criterio evita que todo tenga la misma prioridad. Llegar con lo esencial y sin haber gritado a toda la casa puede ser mejor que completar cada paso del plan perfecto. Si estáis listos antes, no llenes automáticamente el margen con otra tarea: podéis mirar un libro, esperar junto a la puerta o salir con calma. La medida de una buena mañana de preschool no es que todos ejecuten cada paso sin protestar. Es que la familia pueda absorber los pequeños imprevistos de una mañana normal sin convertir cada minuto en una orden urgente.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -19741,41 +19746,41 @@
       "translation_group": "093-flying-baby-logistics-packing-expectations",
       "language": "es",
       "title": "Viajar en avión con un bebé: organización, equipaje y expectativas realistas",
-      "words": 474,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 8.44,
+      "words": 914,
+      "paragraphs": 17,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.47,
       "h2s": [
-        "Organiza el equipaje por acceso, no solo por categorías",
-        "Decide de antemano cómo atravesarás el aeropuerto",
-        "Usa las rutinas del bebé como referencias, no como horario del vuelo",
-        "Reduce la definición de un vuelo “bueno”"
+        "Organiza el equipaje por momentos de uso, no solo por categorías",
+        "Piensa el aeropuerto como una cadena de transiciones",
+        "Prepárate para alimentar, cambiar y calmar sin depender del horario perfecto",
+        "Haz que el asiento funcione con la menor cantidad de cosas posible",
+        "Deja un pequeño margen de recuperación al llegar"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 39.9,
+      "avg_paragraph_words": 50.8,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 0,
+        "no_significa": 1,
         "a_veces": 0,
-        "puede": 7,
+        "puede": 11,
         "importante": 1,
         "clave": 0
       },
       "opening": "Un vuelo con bebé empieza mucho antes de sentarte en el avión. Empieza cuando intentas plegar el carrito mientras buscas documentos, cuando necesitas un pañal y está debajo de tres capas de ropa o cuando descubres que la muda del bebé sí está a mano pero la camiseta que acaba de mancharse eres tú.",
       "opening_14_words": "Un vuelo con bebé empieza mucho antes de sentarte en el avión Empieza cuando",
-      "intro_3_paragraphs": "Un vuelo con bebé empieza mucho antes de sentarte en el avión. Empieza cuando intentas plegar el carrito mientras buscas documentos, cuando necesitas un pañal y está debajo de tres capas de ropa o cuando descubres que la muda del bebé sí está a mano pero la camiseta que acaba de mancharse eres tú. La preparación útil no consiste en predecir cada problema. Consiste en que las necesidades probables sean fáciles de resolver cuando tienes una mano ocupada. Lo que necesitas durante el trayecto debería poder salir sin vaciar media bolsa: pañales, toallitas, una muda completa, bolsa para ropa sucia, alimentación habitual y un objeto sencillo para entretener. Una pequeña bolsa interior con lo necesario para un cambio evita llevar todo el equipaje al baño del avión.",
-      "last_h2": "Reduce la definición de un vuelo “bueno”",
-      "ending_3_paragraphs": "Un bebé puede llorar. Puede necesitar moverse, comer dos veces seguidas o pasar media hora despierto cuando tú pensabas descansar. Nada de eso convierte el viaje en un fracaso. Tu trabajo no es garantizar silencio para todo el avión; es atender al bebé de forma razonable dentro de un espacio compartido. Al llegar, evita programar la primera hora como si el trayecto no hubiera existido. Poder cambiar al bebé, comer algo y reorganizar bolsas antes de la siguiente actividad hace que el viaje continúe con menos arrastre. La logística buena no hace que volar con un bebé sea idéntico a volar sin él. Hace que cada pequeño problema necesite menos pasos para resolverse.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "Un vuelo con bebé empieza mucho antes de sentarte en el avión. Empieza cuando intentas plegar el carrito mientras buscas documentos, cuando necesitas un pañal y está debajo de tres capas de ropa o cuando descubres que la muda del bebé sí está a mano pero la camiseta que acaba de mancharse eres tú. La preparación útil no consiste en predecir cada problema. Consiste en que las necesidades probables sean fáciles de resolver cuando tienes una mano ocupada y poco espacio para improvisar. El objetivo no es llevar una casa portátil, sino reducir el número de pasos entre “necesitamos algo” y “lo tenemos”. La bolsa de mano debería funcionar como un sistema de acceso rápido. Lo que puedes necesitar en cualquier momento —pañales, toallitas, una muda completa, bolsa para ropa sucia, alimentación habitual, medicación si la usa y algún objeto de consuelo conocido— tiene que poder salir sin vaciar media bolsa. Una pequeña bolsa interior con lo necesario para un cambio evita llevar todo el equipaje al baño del avión.",
+      "last_h2": "Deja un pequeño margen de recuperación al llegar",
+      "ending_3_paragraphs": "El aterrizaje no significa que la logística haya terminado. Todavía quedan equipaje, carrito, transporte, hambre adulta y un bebé que quizá acaba de despertarse. Si puedes, evita encadenar inmediatamente una actividad importante. Diez o veinte minutos para cambiar al bebé, comer algo y reorganizar la bolsa pueden impedir que el caos del vuelo se arrastre durante horas. Después del viaje, toma nota mental de lo que realmente usaste y de lo que faltó. Esa información vale más para el próximo vuelo que cualquier lista genérica. Quizá descubriste que llevaste demasiada ropa, que necesitabas una bolsa interior más accesible o que el portabebés fue útil solo en una parte del aeropuerto. La buena logística no hace que volar con un bebé sea idéntico a volar sin él. Hace que cada pequeño problema necesite menos pasos, menos búsqueda y menos decisiones para resolverse.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -19784,41 +19789,42 @@
       "translation_group": "094-flying-toddler-prepare-trip",
       "language": "es",
       "title": "Viajar en avión con un toddler: cómo preparar el trayecto",
-      "words": 410,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 9.76,
+      "words": 841,
+      "paragraphs": 17,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.95,
       "h2s": [
-        "Cuéntale qué va a pasar en secuencias muy concretas",
+        "Cuéntale qué va a pasar en escenas que pueda reconocer",
         "Gasta movimiento antes de pedir quietud",
-        "Prepara entretenimiento por capas",
-        "Anticipa los puntos donde no podrás negociar"
+        "Prepara comida y entretenimiento por capas",
+        "Anticipa los límites que no podrás negociar",
+        "Piensa en el desembarque y la llegada como parte del mismo trayecto"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 34.9,
+      "avg_paragraph_words": 47.1,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 1,
+        "no_necesitas": 3,
+        "no_significa": 2,
         "a_veces": 0,
-        "puede": 5,
-        "importante": 0,
+        "puede": 13,
+        "importante": 2,
         "clave": 0
       },
-      "opening": "Un toddler puede disfrutar viendo aviones y, diez minutos después, estar tumbado en el suelo porque no entiende por qué no puede cruzar una puerta. El viaje mezcla novedad con mucha espera: cola, seguridad, puerta, embarque, cinturón, asiento, desembarque.",
+      "opening": "Un toddler puede disfrutar viendo aviones y, diez minutos después, estar tumbado en el suelo porque no entiende por qué no puede cruzar una puerta. El viaje mezcla novedad con mucha espera: cola, seguridad, puerta, embarque, cinturón, asiento, desembarque. Todo eso ocurre en un día en el que también puede haber hambre, sueño y cambios de rutina.",
       "opening_14_words": "Un toddler puede disfrutar viendo aviones y diez minutos después estar tumbado en el",
-      "intro_3_paragraphs": "Un toddler puede disfrutar viendo aviones y, diez minutos después, estar tumbado en el suelo porque no entiende por qué no puede cruzar una puerta. El viaje mezcla novedad con mucha espera: cola, seguridad, puerta, embarque, cinturón, asiento, desembarque. Preparar el trayecto no significa fabricar un niño capaz de estar quieto durante horas. Significa diseñar pequeñas salidas para el movimiento, el hambre, el aburrimiento y las transiciones. En los días previos puedes hablar de cinco o seis pasos: “Llegamos al aeropuerto, enseñamos las maletas, esperamos, subimos al avión, nos sentamos y luego llegamos a otro lugar”. No necesitas explicar todos los procedimientos. El objetivo es que algunas escenas resulten reconocibles cuando aparezcan.",
-      "last_h2": "Anticipa los puntos donde no podrás negociar",
-      "ending_3_paragraphs": "Habrá momentos en que el toddler tenga que permanecer donde corresponde aunque proteste. Cuanto menos intentes convertir ese límite en una larga explicación, mejor: “Sé que quieres levantarte. Ahora necesitamos estar sentados. Cuando podamos, nos moveremos”. Y deja espacio para que el trayecto sea imperfecto. Puede llorar, dormir a deshora o rechazar todas las actividades que preparaste. Haber llevado diez recursos no te obliga a conseguir una experiencia tranquila. El mejor plan para volar con un toddler no elimina su edad del viaje. La incorpora.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "Un toddler puede disfrutar viendo aviones y, diez minutos después, estar tumbado en el suelo porque no entiende por qué no puede cruzar una puerta. El viaje mezcla novedad con mucha espera: cola, seguridad, puerta, embarque, cinturón, asiento, desembarque. Todo eso ocurre en un día en el que también puede haber hambre, sueño y cambios de rutina. Preparar el trayecto no significa fabricar un niño capaz de estar quieto durante horas. Significa diseñar pequeñas salidas para el movimiento, el hambre, el aburrimiento y las transiciones, y saber qué harás cuando ninguna de ellas funcione. En los días previos puedes explicar cinco o seis pasos: “Llegamos al aeropuerto, dejamos algunas maletas, pasamos un control, esperamos, subimos al avión y nos sentamos”. No necesitas narrar todos los procedimientos. Lo que ayuda es que algunos momentos dejen de ser completamente nuevos.",
+      "last_h2": "Piensa en el desembarque y la llegada como parte del mismo trayecto",
+      "ending_3_paragraphs": "Muchos planes terminan mentalmente al aterrizar, pero un toddler cansado todavía tiene que esperar, caminar, recuperar equipaje y llegar al transporte. Guarda algo de comida, agua y una actividad sencilla para ese tramo en vez de consumir todos los recursos antes de aterrizar. Si puedes, deja un margen al llegar antes de una comida formal, una visita o una actividad importante. Quizá el niño necesita correr, comer, llorar un poco o simplemente sentarse contigo sin otra transición inmediata. Ese pequeño tiempo de recuperación puede mejorar más el día que intentar “aprovechar” cada minuto del destino. El mejor plan para volar con un toddler no elimina su edad del viaje. La incorpora: espera poca paciencia, crea oportunidades de movimiento, reserva recursos y acepta que algunos momentos serán incómodos sin que eso convierta el viaje en un fracaso.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words",
+        "elevated_h2_density"
       ]
     },
     {
@@ -19827,19 +19833,20 @@
       "translation_group": "095-road-trip-kids-stops-entertainment-packing",
       "language": "es",
       "title": "Road trip con niños: cómo organizar paradas, entretenimiento y equipaje",
-      "words": 410,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 9.76,
+      "words": 873,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.73,
       "h2s": [
-        "Diseña las paradas alrededor del cuerpo, no solo del combustible",
-        "Empaqueta el coche en capas de acceso",
-        "Rota entretenimiento antes de que pierda todo su valor",
-        "No conviertas la hora de llegada en un examen"
+        "Divide el trayecto en tramos que tengan sentido para vuestra familia",
+        "Haz que las paradas sirvan para algo más que repostar",
+        "Empaqueta en capas de acceso",
+        "Rota entretenimiento y conserva recursos para el final",
+        "Protege la llegada de la ambición del itinerario"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 34.1,
+      "avg_paragraph_words": 46.2,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -19849,19 +19856,18 @@
         "no_necesitas": 1,
         "no_significa": 1,
         "a_veces": 0,
-        "puede": 2,
+        "puede": 6,
         "importante": 1,
         "clave": 0
       },
       "opening": "En el mapa, cuatro horas son una línea. Con niños, son desayuno, una parada inesperada, una botella que cae debajo del asiento, hambre veinte minutos después de haber comido y alguien preguntando cuánto falta cuando todavía no habéis salido de la ciudad.",
       "opening_14_words": "En el mapa cuatro horas son una línea Con niños son desayuno una parada",
-      "intro_3_paragraphs": "En el mapa, cuatro horas son una línea. Con niños, son desayuno, una parada inesperada, una botella que cae debajo del asiento, hambre veinte minutos después de haber comido y alguien preguntando cuánto falta cuando todavía no habéis salido de la ciudad. Planificar un road trip familiar funciona mejor cuando organizas tramos y accesos, no cuando intentas convertir el coche en un lugar donde nadie necesite nada. En vez de decidir que “aguantaréis” hasta un punto lejano, identifica zonas razonables donde se pueda ir al baño, comer algo y moverse. No todas tendrán que usarse; saber que existen evita que cada necesidad se convierta en una búsqueda urgente.",
-      "last_h2": "No conviertas la hora de llegada en un examen",
-      "ending_3_paragraphs": "Un atasco, una parada extra o un niño que necesita más movimiento puede desplazar el horario. Si la llegada está conectada a una reserva o compromiso importante, deja margen en vez de planear el trayecto con el tiempo mínimo que ofrece el navegador. Y si el último tramo es claramente demasiado para todos, parar no significa que el viaje esté saliendo mal. Significa que estás ajustando el plan a las personas que realmente viajan en el coche. Un buen road trip con niños no es el que hace más kilómetros con menos paradas. Es el que llega con suficiente energía familiar para que el destino todavía importe.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "En el mapa, cuatro horas son una línea. Con niños, son desayuno, una parada inesperada, una botella que cae debajo del asiento, hambre veinte minutos después de haber comido y alguien preguntando cuánto falta cuando todavía no habéis salido de la ciudad. Planificar un road trip familiar funciona mejor cuando organizas tramos, accesos y margen que cuando intentas convertir el coche en un lugar donde nadie necesite nada. El objetivo no es demostrar cuánto puede aguantar la familia sin parar, sino llegar con suficiente energía para que el destino siga siendo parte agradable del viaje. La estimación del navegador sirve como referencia, no como promesa. Antes de salir, identifica varios puntos razonables donde haya baño, comida y espacio para moverse. No hace falta decidir exactamente cuál usaréis; saber que existen evita que una necesidad normal se transforme en búsqueda urgente al borde de la carretera.",
+      "last_h2": "Protege la llegada de la ambición del itinerario",
+      "ending_3_paragraphs": "Decide qué ocurre si vais claramente tarde. Tal vez se simplifica la cena, se cancela una parada turística o alguien avisa al alojamiento. Tener un plan B evita que cada retraso se convierta en una carrera para “recuperar” minutos a costa de más tensión dentro del coche. Y si el último tramo es demasiado para todos, parar no significa que el viaje esté saliendo mal. Significa que el plan se está ajustando a las personas reales que viajan en el coche. Un buen road trip con niños no es el que hace más kilómetros con menos paradas. Es el que gestiona energía, necesidades y expectativas de forma que llegar no se convierta simplemente en sobrevivir al trayecto.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -19870,19 +19876,20 @@
       "translation_group": "096-travel-sleep-familiar-cues-not-perfect-routine",
       "language": "es",
       "title": "Sueño de viaje: cómo mantener algunas señales familiares sin perseguir la rutina perfecta",
-      "words": 410,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 9.76,
+      "words": 826,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 6.05,
       "h2s": [
-        "Elige dos o tres señales que realmente tengan peso",
-        "Decide qué parte del horario puede doblarse",
-        "Haz la primera noche más sencilla, no más ambiciosa",
-        "Vuelve a casa con suavidad"
+        "Elige las señales que realmente sostienen la rutina",
+        "Decide qué parte del horario merece protegerse y cuál puede doblarse",
+        "Haz la primera noche más sencilla de lo que te pide el entusiasmo",
+        "Cuando el sueño se desordena, cambia una sola cosa antes de cambiar cinco",
+        "Vuelve a casa sin intentar compensar el viaje entero en un día"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 34.5,
+      "avg_paragraph_words": 42.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -19891,20 +19898,20 @@
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
-        "a_veces": 1,
-        "puede": 7,
-        "importante": 0,
+        "a_veces": 2,
+        "puede": 9,
+        "importante": 1,
         "clave": 0
       },
       "opening": "En casa, la rutina puede funcionar porque todo coopera: el mismo cuarto, la misma luz, el mismo sonido del pasillo. En un viaje, la cena se alarga, el dormitorio es nuevo y alguien descubre que la cortina deja entrar una farola justo a la altura de la almohada.",
       "opening_14_words": "En casa la rutina puede funcionar porque todo coopera el mismo cuarto la misma",
-      "intro_3_paragraphs": "En casa, la rutina puede funcionar porque todo coopera: el mismo cuarto, la misma luz, el mismo sonido del pasillo. En un viaje, la cena se alarga, el dormitorio es nuevo y alguien descubre que la cortina deja entrar una farola justo a la altura de la almohada. La rutina de viaje no necesita imitar todas las condiciones de casa. Necesita conservar suficientes pistas para que el niño reconozca que el día está terminando. Tal vez sean el pijama, un cuento, una canción, una frase concreta o el orden baño-luz baja-cama. Llevar esos elementos es más realista que intentar mantener todos los minutos exactos del horario habitual.",
-      "last_h2": "Vuelve a casa con suavidad",
-      "ending_3_paragraphs": "Al regresar, recupera las señales habituales y el orden conocido. No hace falta compensar cada siesta perdida ni adelantar drásticamente todo el día para “arreglar” el viaje. La familiaridad del hogar ya hace gran parte del trabajo. Si durante unos días el sueño está descolocado, observa antes de multiplicar cambios. El viaje terminó; el sistema familiar puede tardar un poco más en notarlo. Las vacaciones no necesitan demostrar que vuestra rutina es indestructible. Una rutina útil también sabe acompañar a la familia cuando el contexto cambia.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "En casa, la rutina puede funcionar porque todo coopera: el mismo cuarto, la misma luz, el mismo sonido del pasillo. En un viaje, la cena se alarga, el dormitorio es nuevo y alguien descubre que la cortina deja entrar una farola justo a la altura de la almohada. La rutina de viaje no necesita imitar todas las condiciones de casa. Necesita conservar suficientes pistas para que el niño reconozca que el día está terminando y suficiente flexibilidad para que la familia no pase las vacaciones defendiendo un horario. Tal vez sean el pijama, un cuento, una canción, una frase concreta o el orden baño-luz baja-cama. Esos elementos viajan mejor que una hora exacta, una habitación idéntica o una secuencia de veinte detalles. Pregúntate qué cosas reconoce tu hijo incluso cuando el contexto cambia.",
+      "last_h2": "Vuelve a casa sin intentar compensar el viaje entero en un día",
+      "ending_3_paragraphs": "Durante unos días puede haber horarios descolocados o más cansancio. Observa la tendencia antes de multiplicar cambios. Si la rutina doméstica era sostenible antes de viajar, probablemente necesita reencontrarse más que reinventarse. Y guarda una lección del viaje para el siguiente. Quizá descubriste que el cuento era la señal más importante y la máquina de sonido no tanto; o que proteger una siesta concreta ayudó más que conservar la hora de dormir exacta. Las vacaciones no necesitan demostrar que vuestra rutina es indestructible. Una rutina útil también sabe viajar: conserva algunas señales, tolera variaciones y vuelve a hacerse reconocible cuando el contexto cambia otra vez.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words",
+        "elevated_h2_density"
       ]
     },
     {
@@ -19913,41 +19920,42 @@
       "translation_group": "097-vacation-young-kids-lower-expectations",
       "language": "es",
       "title": "Vacaciones con niños pequeños: cómo bajar expectativas y disfrutarlas más",
-      "words": 414,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 9.66,
+      "words": 831,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 6.02,
       "h2s": [
-        "Elige una cosa importante por día",
-        "Protege algunas necesidades básicas, no todas las costumbres",
-        "Reparte también el tiempo adulto",
+        "Elige una prioridad por día y deja que el resto sea opcional",
+        "Protege las necesidades que sostienen a vuestra familia, no todas las costumbres",
+        "Construye margen entre actividades",
+        "Reparte el descanso adulto de forma explícita",
         "Cambia la medida de si el viaje salió bien"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 35.1,
+      "avg_paragraph_words": 43.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
+        "no_necesitas": 1,
+        "no_significa": 1,
         "a_veces": 2,
-        "puede": 4,
+        "puede": 10,
         "importante": 1,
         "clave": 0
       },
       "opening": "Has reservado, hecho maletas y cruzado media ciudad o medio país. Es fácil llegar con una expectativa silenciosa: después de todo este trabajo, deberíamos disfrutar muchísimo. Entonces el niño rechaza la playa, alguien duerme fatal y a las 10:30 ya has gestionado tres conflictos.",
       "opening_14_words": "Has reservado hecho maletas y cruzado media ciudad o medio país Es fácil llegar",
-      "intro_3_paragraphs": "Has reservado, hecho maletas y cruzado media ciudad o medio país. Es fácil llegar con una expectativa silenciosa: después de todo este trabajo, deberíamos disfrutar muchísimo. Entonces el niño rechaza la playa, alguien duerme fatal y a las 10:30 ya has gestionado tres conflictos. Las vacaciones con niños pequeños no dejan de ser crianza. La diferencia es que la crianza ocurre en un lugar nuevo, con menos automatismos y, a veces, con mejores vistas. Una agenda con desayuno especial, museo, playa, siesta, paseo, restaurante y atardecer puede parecer razonable en papel porque cada actividad cabe en una hora. Lo que no aparece son traslados, cambios de ropa, hambre inesperada y recuperación después de cada transición.",
+      "intro_3_paragraphs": "Has reservado, hecho maletas y cruzado media ciudad o medio país. Es fácil llegar con una expectativa silenciosa: después de todo este trabajo, deberíamos disfrutar muchísimo. Entonces el niño rechaza la playa, alguien duerme fatal y a las 10:30 ya has gestionado tres conflictos. Las vacaciones con niños pequeños no dejan de ser crianza. La diferencia es que la crianza ocurre en un lugar nuevo, con menos automatismos y, a veces, con mejores vistas. Cuanto más esperas que el viaje compense el esfuerzo de organizarlo, más fácil es interpretar cualquier mal rato como dinero, tiempo o oportunidad desperdiciados. Una agenda con desayuno especial, museo, playa, siesta, paseo, restaurante y atardecer puede parecer razonable en papel porque cada actividad “cabe”. Lo que el papel no muestra son traslados, cambios de ropa, hambre inesperada, búsqueda de baños, esperas y el tiempo que un niño necesita para pasar de una cosa a otra.",
       "last_h2": "Cambia la medida de si el viaje salió bien",
-      "ending_3_paragraphs": "Un niño pequeño no sabe que ese lugar costó dinero ni que era “el día perfecto para aprovechar”. Puede recordar perseguir palomas fuera del hotel más que la atracción que organizaste durante meses. Eso no hace inútil el esfuerzo. Significa que los mejores momentos no siempre coinciden con los planes más caros o fotogénicos. Al final del día, busca escenas de conexión, curiosidad o descanso, no una lista de actividades completadas. Bajar expectativas no es resignarse a pasarlo mal. Es dejar suficiente espacio para que algo agradable pueda ocurrir sin tener que cumplir primero un programa perfecto.",
-      "risk_score": 7,
+      "ending_3_paragraphs": "Eso no hace inútil el esfuerzo. Significa que los mejores momentos familiares no siempre coinciden con los planes más caros o fotogénicos. Al final del día, busca escenas de conexión, curiosidad, descanso o humor, no una lista de actividades completadas. Y si un día fue malo, déjalo ser un día malo. No necesitas compensarlo metiendo más planes al siguiente. Las vacaciones no son una evaluación acumulativa en la que cada jornada tiene que justificar el viaje entero. Bajar expectativas no es resignarse a pasarlo mal. Es quitar suficiente presión para que la familia pueda responder a las personas reales que están allí y dejar espacio para que algo agradable ocurra sin haber completado primero un programa perfecto.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words",
+        "elevated_h2_density"
       ]
     },
     {
@@ -19956,19 +19964,20 @@
       "translation_group": "098-restaurants-kids-timing-expectations-entertainment",
       "language": "es",
       "title": "Restaurantes con niños: cómo elegir horarios, expectativas y entretenimiento",
-      "words": 443,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 9.03,
+      "words": 912,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.48,
       "h2s": [
         "Elige el momento antes de elegir el menú",
-        "Busca un lugar compatible con vuestra familia ese día",
-        "Lleva entretenimiento pequeño y úsalo tarde",
-        "Decide cuál es vuestra señal de salida"
+        "Busca un restaurante compatible con vuestra familia ese día",
+        "Define qué esperas del niño antes de llegar",
+        "Lleva poco entretenimiento y úsalo cuando aporte valor",
+        "Reparte las tareas adultas y reconoce la señal de salida"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 37.5,
+      "avg_paragraph_words": 48.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -19976,21 +19985,20 @@
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
+        "no_significa": 0,
         "a_veces": 1,
-        "puede": 6,
-        "importante": 0,
+        "puede": 13,
+        "importante": 1,
         "clave": 0
       },
       "opening": "Un niño que come razonablemente bien en casa puede desmontarse en un restaurante por razones que tienen poco que ver con la comida: ha esperado media hora, está cansado, el lugar es ruidoso y lleva sentado desde antes de que aparezca el pan.",
       "opening_14_words": "Un niño que come razonablemente bien en casa puede desmontarse en un restaurante por",
-      "intro_3_paragraphs": "Un niño que come razonablemente bien en casa puede desmontarse en un restaurante por razones que tienen poco que ver con la comida: ha esperado media hora, está cansado, el lugar es ruidoso y lleva sentado desde antes de que aparezca el pan. La mejor herramienta para comer fuera con niños no suele estar en la mochila. Está en elegir un contexto que no pida más espera de la que pueden sostener. Un restaurante fantástico a una hora imposible puede ser una experiencia peor que un lugar sencillo cuando los niños todavía tienen energía. Reservar algo antes de la hora adulta habitual, evitar franjas de máxima espera o comer justo después de una actividad larga puede marcar mucha diferencia.",
-      "last_h2": "Decide cuál es vuestra señal de salida",
-      "ending_3_paragraphs": "A veces la comida ha terminado para el niño antes de que los adultos quieran que termine. Podéis turnaros para caminar fuera, pedir la cuenta antes o renunciar a la sobremesa. Seguir veinte minutos más por principio puede costar más que aceptar que la capacidad se agotó. Con el tiempo, los niños aprenden mucho viendo cómo funciona una comida fuera. Pero esa habilidad se construye en experiencias que están un poco por encima de lo fácil, no constantemente muy por encima de lo posible. El éxito no es que un niño se comporte como un adulto durante toda la comida. Es que la familia pueda compartir un espacio público sin que nadie tenga que ignorar por completo sus necesidades.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "Un niño que come razonablemente bien en casa puede desmontarse en un restaurante por razones que tienen poco que ver con la comida: ha esperado media hora, está cansado, el lugar es ruidoso y lleva sentado desde antes de que aparezca el pan. La mejor herramienta para comer fuera con niños no suele estar en la mochila. Está en elegir un contexto que no pida más espera, inmovilidad y regulación de la que pueden sostener ese día. Cuanto más ajustas el plan a la capacidad real del niño, menos necesitas compensar después con amenazas, premios o entretenimiento constante. Un restaurante fantástico a una hora imposible puede ser una experiencia peor que un lugar sencillo cuando los niños todavía tienen energía. Reservar antes de la hora adulta habitual, evitar franjas de máxima espera o no colocar la comida justo después de una actividad agotadora puede cambiar por completo la experiencia.",
+      "last_h2": "Reparte las tareas adultas y reconoce la señal de salida",
+      "ending_3_paragraphs": "También conviene pedir la cuenta antes de que la situación esté completamente rota. A veces el niño ha terminado la comida veinte minutos antes de que los adultos deseen terminar la sobremesa. Podéis turnaros para salir, pedir el postre para llevar o cerrar la comida. Permanecer por principio no enseña necesariamente más; puede convertir los últimos veinte minutos en la única parte que todos recuerden. Si una salida salió mal, pregunta qué variable fue demasiado exigente antes de concluir que “no podemos ir a restaurantes con niños”. Tal vez fue la hora, la espera, el ruido, la duración o demasiadas actividades previas. Cambiar una variable la próxima vez da más información que abandonar toda la experiencia o repetirla igual. El éxito no es que un niño se comporte como un adulto durante toda la comida. Es que la familia pueda compartir un espacio público, practicar las habilidades que corresponden a su edad y salir antes de exigir algo que ya no es razonable.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -19999,41 +20007,41 @@
       "translation_group": "099-first-birthday-family-centered",
       "language": "es",
       "title": "Primer cumpleaños: ideas de celebración centradas en la familia",
-      "words": 431,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 9.28,
+      "words": 867,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.77,
       "h2s": [
-        "Empieza por el tamaño que vuestro bebé puede sostener",
-        "Elige uno o dos rituales que tengan significado",
-        "Haz que la comida y las fotos acompañen, no dirijan",
-        "Incluye también lo que este año significó para los adultos"
+        "Decide primero para quién es realmente la celebración",
+        "Ajusta duración, ruido y horario a la capacidad del bebé",
+        "Elige uno o dos rituales que puedan importar dentro de unos años",
+        "Haz que comida, decoración y fotos sirvan a la celebración",
+        "Incluye lo que el primer año significó para los adultos"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 35.8,
+      "avg_paragraph_words": 45.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
+        "no_necesitas": 2,
         "no_significa": 0,
-        "a_veces": 0,
-        "puede": 11,
-        "importante": 0,
+        "a_veces": 1,
+        "puede": 16,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "El primer cumpleaños puede sentirse como una frontera: hace un año había un recién nacido, y ahora hay una persona que se mueve por la casa, señala cosas y quizá intenta meter la mano en su propia tarta. También puede aparecer la presión de hacer algo “a la altura” del momento.",
+      "opening": "El primer cumpleaños puede sentirse como una frontera: hace un año había un recién nacido y ahora hay una persona que se mueve por la casa, señala cosas y quizá intenta meter la mano en su propia tarta. También puede aparecer una presión extraña por hacer algo “a la altura” de un momento que, para el bebé, será sobre todo otra tarde con personas conocidas.",
       "opening_14_words": "El primer cumpleaños puede sentirse como una frontera hace un año había un recién",
-      "intro_3_paragraphs": "El primer cumpleaños puede sentirse como una frontera: hace un año había un recién nacido, y ahora hay una persona que se mueve por la casa, señala cosas y quizá intenta meter la mano en su propia tarta. También puede aparecer la presión de hacer algo “a la altura” del momento. Como el bebé no necesita una gran producción para entender que es querido, puedes diseñar la celebración alrededor de lo que la familia quiere recordar. Algunos bebés disfrutan observando mucha gente; otros se saturan rápido. Una celebración de una hora con abuelos y amigos cercanos puede ser más agradable que una fiesta de tarde entera. Piensa en número de personas, ruido y duración antes de elegir decoración.",
-      "last_h2": "Incluye también lo que este año significó para los adultos",
-      "ending_3_paragraphs": "El primer cumpleaños celebra al niño, pero marca también un año de maternidad, paternidad, noches largas, aprendizajes y cambios familiares. Puede tener sentido brindar, escribir unas líneas o simplemente nombrar entre adultos lo que habéis atravesado. Cuando el bebé se canse, la fiesta puede terminar aunque queden adornos o gente con ganas de seguir. El cierre flexible protege el recuerdo que realmente estáis creando. El primer cumpleaños no necesita demostrar cuánto queréis a vuestro hijo. Puede ser una pausa sencilla para mirar el año que acaba de pasar y reconocer que vuestra familia ya no es la misma.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "El primer cumpleaños puede sentirse como una frontera: hace un año había un recién nacido y ahora hay una persona que se mueve por la casa, señala cosas y quizá intenta meter la mano en su propia tarta. También puede aparecer una presión extraña por hacer algo “a la altura” de un momento que, para el bebé, será sobre todo otra tarde con personas conocidas. Como el bebé no necesita una gran producción para entender que es querido, puedes diseñar la celebración alrededor de lo que vuestra familia quiere vivir y recordar. Esa libertad permite elegir tamaño, ritmo y significado antes de pensar en decoración, temática o fotografías. El primer cumpleaños pertenece al niño, pero el significado consciente suele estar en los adultos: celebrar que ha pasado un año, reunir a personas importantes, reconocer lo que ha cambiado o simplemente detenerse un momento. Saber qué queréis celebrar ayuda a filtrar decisiones.",
+      "last_h2": "Incluye lo que el primer año significó para los adultos",
+      "ending_3_paragraphs": "Puede ser un brindis, una carta privada, mirar algunas fotos de los primeros meses o decir en voz alta algo que aprendiste. Si el año fue muy duro, tampoco necesitas transformarlo en un relato sentimental perfecto. Puedes celebrar haber llegado hasta aquí sin afirmar que disfrutaste cada etapa. Y cuando el bebé haya terminado, la fiesta puede terminar. No hay que conseguir la foto pendiente, abrir todos los regalos delante de todos ni alargar porque los adultos siguen conversando. El cierre flexible protege al niño y también a unos padres que quizá llevan horas sosteniendo la logística. El primer cumpleaños no necesita demostrar cuánto queréis a vuestro hijo. Puede ser una pausa sencilla o grande —según vuestra familia— para mirar el año que acaba de pasar, reunir a quienes importan y reconocer que todos habéis cambiado con él.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -20042,19 +20050,20 @@
       "translation_group": "100-family-traditions-children-remember",
       "language": "es",
       "title": "Cómo crear tradiciones familiares que los niños realmente recuerden",
-      "words": 388,
-      "paragraphs": 11,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 10.31,
+      "words": 836,
+      "paragraphs": 18,
+      "h2_count": 5,
+      "h2_density_per_1000_words": 5.98,
       "h2s": [
-        "Empieza con algo que puedas repetir incluso en un año difícil",
-        "Da a los niños un papel real",
-        "Usa señales sensoriales que vuelvan",
-        "Permite que la tradición cambie sin perder su identidad"
+        "Empieza por algo que pueda sobrevivir a un año difícil",
+        "Da a los niños un papel que sea suyo",
+        "Usa señales sensoriales que vuelvan sin necesidad de explicarlas",
+        "No llenes el calendario de tradiciones por miedo a que falten recuerdos",
+        "Permite que cambie cuando cambia la familia"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 32.4,
+      "avg_paragraph_words": 43.8,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -20063,20 +20072,20 @@
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
-        "a_veces": 0,
-        "puede": 3,
-        "importante": 0,
+        "a_veces": 1,
+        "puede": 11,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "Cuando pensamos en “crear recuerdos”, es fácil imaginar viajes, decoraciones y planes especiales. Pero muchas memorias familiares se construyen con cosas bastante pequeñas: el chocolate caliente después de ver luces, una canción absurda en el coche o desayunar lo mismo cada cumpleaños.",
+      "opening": "Cuando pensamos en “crear recuerdos”, es fácil imaginar viajes, decoraciones y planes especiales. Pero muchas memorias familiares se construyen con cosas bastante pequeñas: el chocolate caliente después de ver luces, una canción absurda en el coche, desayunar lo mismo cada cumpleaños o una frase que alguien repite antes de salir de casa.",
       "opening_14_words": "Cuando pensamos en crear recuerdos es fácil imaginar viajes decoraciones y planes especiales Pero",
-      "intro_3_paragraphs": "Cuando pensamos en “crear recuerdos”, es fácil imaginar viajes, decoraciones y planes especiales. Pero muchas memorias familiares se construyen con cosas bastante pequeñas: el chocolate caliente después de ver luces, una canción absurda en el coche o desayunar lo mismo cada cumpleaños. Una tradición se vuelve memorable menos por su tamaño que por la mezcla de repetición, significado y participación. Si una tradición exige reservar con meses de antelación, cocinar durante dos días y coordinar a veinte personas, puede ser preciosa y también muy frágil. Pregunta cuál es la versión mínima que seguiría siendo reconocible si alguien está cansado, enfermo o la familia atraviesa una temporada complicada.",
-      "last_h2": "Permite que la tradición cambie sin perder su identidad",
-      "ending_3_paragraphs": "Las familias cambian de casa, horarios, países, relaciones y edades. Si la tradición solo “cuenta” cuando se hace exactamente igual, puede terminar produciendo más presión que pertenencia. Define qué parte es el corazón y deja que el resto evolucione. Quizá ya no podéis visitar el mismo parque cada invierno, pero sí salir juntos a buscar la primera decoración navideña del barrio. La forma cambia; la historia compartida continúa. Los niños no necesitan una infancia llena de eventos espectaculares para tener recuerdos familiares fuertes. Necesitan suficientes cosas que vuelvan como para poder decir: “En nuestra familia, esto lo hacemos así”.",
-      "risk_score": 7,
+      "intro_3_paragraphs": "Cuando pensamos en “crear recuerdos”, es fácil imaginar viajes, decoraciones y planes especiales. Pero muchas memorias familiares se construyen con cosas bastante pequeñas: el chocolate caliente después de ver luces, una canción absurda en el coche, desayunar lo mismo cada cumpleaños o una frase que alguien repite antes de salir de casa. Una tradición se vuelve memorable menos por su tamaño que por la mezcla de repetición, significado y participación. Lo importante no es fabricar una infancia llena de eventos, sino dejar suficientes puntos de continuidad para que los niños puedan reconocer una historia familiar propia. Si una tradición exige reservar con meses de antelación, cocinar durante dos días y coordinar a veinte personas, puede ser preciosa y también muy frágil. Pregunta cuál sería la versión mínima que seguiría siendo reconocible si alguien está cansado, enfermo, trabajando, viajando o la familia atraviesa una temporada complicada.",
+      "last_h2": "Permite que cambie cuando cambia la familia",
+      "ending_3_paragraphs": "Define qué parte es el corazón y deja que el resto evolucione. Quizá ya no podéis visitar el mismo parque cada invierno, pero sí salir juntos a buscar las primeras luces del barrio. Tal vez una comida antes multitudinaria se convierte en una videollamada y una receta compartida. La forma cambia; la historia común puede seguir ahí. También es válido retirar una tradición que ya no representa a la familia. Los recuerdos no desaparecen porque dejéis de repetir algo. A veces cerrar una costumbre de manera consciente abre espacio para otra que encaja mejor con la etapa actual. Los niños no necesitan una infancia llena de eventos espectaculares para tener recuerdos familiares fuertes. Necesitan suficientes cosas que vuelvan, cambien con ellos y les permitan decir con naturalidad: “En nuestra familia, esto lo hacemos así”.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
+        "body_under_1050_words",
+        "elevated_h2_density"
       ]
     },
     {
@@ -28779,6 +28788,24 @@
   "repeated_openings": [],
   "common_ngrams": [
     {
+      "ngram": "does not need to become a",
+      "count": 12,
+      "files": [
+        "content/articles/en/001-respectful-parenting.json",
+        "content/articles/en/024-toddler-yelling-respectful-parenting.json",
+        "content/articles/en/045-prepare-toddler-for-new-sibling.json",
+        "content/articles/en/071-kids-snack-routine-without-replacing-meals.json",
+        "content/articles/en/089-daycare-vs-nanny-family-fit.json",
+        "content/articles/en/092-preschool-mornings-less-rushed.json",
+        "content/articles/en/1029-missing-friendships-and-plans-before-kids.json",
+        "content/articles/en/1055-guilt-partner-enjoys-playing-with-kids-more.json",
+        "content/articles/en/1058-not-wanting-kid-activities-every-weekend.json",
+        "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
+        "content/articles/en/1089-accept-bad-week-without-thinking-family-is-bad.json",
+        "content/articles/en/1095-other-moms-seem-to-enjoy-parenting-more.json"
+      ]
+    },
+    {
       "ngram": "does not have to become a",
       "count": 11,
       "files": [
@@ -28793,23 +28820,6 @@
         "content/articles/en/1086-end-hard-day-without-judging-motherhood.json",
         "content/articles/en/1125-afraid-to-buy-baby-things-too-early.json",
         "content/articles/en/141-falling-asleep-with-parent-bad-habit.json"
-      ]
-    },
-    {
-      "ngram": "does not need to become a",
-      "count": 11,
-      "files": [
-        "content/articles/en/001-respectful-parenting.json",
-        "content/articles/en/024-toddler-yelling-respectful-parenting.json",
-        "content/articles/en/045-prepare-toddler-for-new-sibling.json",
-        "content/articles/en/071-kids-snack-routine-without-replacing-meals.json",
-        "content/articles/en/089-daycare-vs-nanny-family-fit.json",
-        "content/articles/en/1029-missing-friendships-and-plans-before-kids.json",
-        "content/articles/en/1055-guilt-partner-enjoys-playing-with-kids-more.json",
-        "content/articles/en/1058-not-wanting-kid-activities-every-weekend.json",
-        "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
-        "content/articles/en/1089-accept-bad-week-without-thinking-family-is-bad.json",
-        "content/articles/en/1095-other-moms-seem-to-enjoy-parenting-more.json"
       ]
     },
     {
@@ -28830,6 +28840,22 @@
       ]
     },
     {
+      "ngram": "the goal is not to prove",
+      "count": 10,
+      "files": [
+        "content/articles/en/018-baby-led-feeding-table-autonomy.json",
+        "content/articles/en/046-share-parenting-mental-load-as-a-couple.json",
+        "content/articles/en/081-potty-to-toilet-gradual-transition.json",
+        "content/articles/en/095-road-trip-kids-stops-entertainment-packing.json",
+        "content/articles/en/101-move-from-sleeping-in-arms-to-other-support.json",
+        "content/articles/en/1024-missing-spontaneity-after-motherhood.json",
+        "content/articles/en/1041-pressure-to-be-patient-mom-all-the-time.json",
+        "content/articles/en/1150-maintain-identity-during-pregnancy.json",
+        "content/articles/en/121-prepare-child-first-night-away-from-home.json",
+        "content/articles/en/142-set-limits-adult-presence-bedtime-gradually.json"
+      ]
+    },
+    {
       "ngram": "do not have to choose between",
       "count": 9,
       "files": [
@@ -28841,21 +28867,6 @@
         "content/articles/en/110-when-sleep-routine-stops-working.json",
         "content/articles/en/1116-fear-losing-identity-after-motherhood.json",
         "content/articles/en/1144-family-announces-pregnancy-before-you.json",
-        "content/articles/en/142-set-limits-adult-presence-bedtime-gradually.json"
-      ]
-    },
-    {
-      "ngram": "the goal is not to prove",
-      "count": 9,
-      "files": [
-        "content/articles/en/018-baby-led-feeding-table-autonomy.json",
-        "content/articles/en/046-share-parenting-mental-load-as-a-couple.json",
-        "content/articles/en/081-potty-to-toilet-gradual-transition.json",
-        "content/articles/en/101-move-from-sleeping-in-arms-to-other-support.json",
-        "content/articles/en/1024-missing-spontaneity-after-motherhood.json",
-        "content/articles/en/1041-pressure-to-be-patient-mom-all-the-time.json",
-        "content/articles/en/1150-maintain-identity-during-pregnancy.json",
-        "content/articles/en/121-prepare-child-first-night-away-from-home.json",
         "content/articles/en/142-set-limits-adult-presence-bedtime-gradually.json"
       ]
     },
@@ -28885,6 +28896,20 @@
         "content/articles/en/1003-guilt-enjoying-time-alone.json",
         "content/articles/en/1029-missing-friendships-and-plans-before-kids.json",
         "content/articles/en/1031-motherhood-changed-my-personality.json"
+      ]
+    },
+    {
+      "ngram": "you do not need to make",
+      "count": 8,
+      "files": [
+        "content/articles/en/011-night-wakings-respectful-response.json",
+        "content/articles/en/035-teach-waiting-without-demanding-patience.json",
+        "content/articles/en/072-child-throws-food-without-mealtime-battle.json",
+        "content/articles/en/099-first-birthday-family-centered.json",
+        "content/articles/en/1037-more-protective-than-expected.json",
+        "content/articles/en/1043-pressure-to-create-special-memories-for-kids.json",
+        "content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json",
+        "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json"
       ]
     },
     {
@@ -28927,16 +28952,16 @@
       ]
     },
     {
-      "ngram": "you do not need to make",
+      "ngram": "you do not have to turn",
       "count": 7,
       "files": [
-        "content/articles/en/011-night-wakings-respectful-response.json",
-        "content/articles/en/035-teach-waiting-without-demanding-patience.json",
-        "content/articles/en/072-child-throws-food-without-mealtime-battle.json",
-        "content/articles/en/1037-more-protective-than-expected.json",
-        "content/articles/en/1043-pressure-to-create-special-memories-for-kids.json",
-        "content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json",
-        "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json"
+        "content/articles/en/083-kids-refuse-getting-dressed-reduce-battles.json",
+        "content/articles/en/099-first-birthday-family-centered.json",
+        "content/articles/en/1004-guilt-not-missing-kids.json",
+        "content/articles/en/1006-guilt-phone-while-kids-play.json",
+        "content/articles/en/1026-missing-silence-after-young-kids.json",
+        "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
+        "content/articles/en/1136-uncomfortable-with-pregnancy-attention.json"
       ]
     },
     {
@@ -28974,18 +28999,6 @@
         "content/articles/en/084-small-responsibilities-without-constant-rewards.json",
         "content/articles/en/115-lights-out-protest-without-threats-rewards.json",
         "content/articles/en/131-nap-interfering-with-bedtime.json"
-      ]
-    },
-    {
-      "ngram": "you do not have to turn",
-      "count": 6,
-      "files": [
-        "content/articles/en/083-kids-refuse-getting-dressed-reduce-battles.json",
-        "content/articles/en/1004-guilt-not-missing-kids.json",
-        "content/articles/en/1006-guilt-phone-while-kids-play.json",
-        "content/articles/en/1026-missing-silence-after-young-kids.json",
-        "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
-        "content/articles/en/1136-uncomfortable-with-pregnancy-attention.json"
       ]
     },
     {

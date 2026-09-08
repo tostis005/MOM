@@ -191,15 +191,6 @@ es	1149	9	270	4	14.81	0.0	0	7	Cuando todo gira alrededor del bebé y echas de me
 es	1150	9	280	4	14.29	0.0	0	7	Cómo mantener otras partes de tu identidad mientras estás embarazada	body_under_350_words,high_h2_density	content/articles/es/1150-mantener-identidad-mientras-estas-embarazada.json
 en	1111	8	352	4	11.36	0.0	0	10	Fear that you will not be a good mother before the baby is born	body_under_500_words,high_h2_density,many_question_paragraphs	content/articles/en/1111-fear-not-being-good-mother-before-birth.json
 es	1121	8	354	4	11.3	0.0	0	10	Pensar constantemente “¿y si algo sale mal?” durante el embarazo	body_under_500_words,high_h2_density,many_question_paragraphs	content/articles/es/1121-y-si-algo-sale-mal-embarazo.json
-en	92	7	459	4	8.71	0.0	0	11	How to make preschool mornings less rushed	body_under_500_words,high_h2_density	content/articles/en/092-preschool-mornings-less-rushed.json
-en	93	7	470	4	8.51	0.0	0	11	Flying with a baby: packing, logistics, and realistic expectations	body_under_500_words,high_h2_density	content/articles/en/093-flying-baby-logistics-packing.json
-en	94	7	432	4	9.26	0.0	0	11	Flying with a toddler: how to prepare for the trip	body_under_500_words,high_h2_density	content/articles/en/094-flying-toddler-prepare-trip.json
-en	95	7	415	4	9.64	0.0	0	11	Road trips with kids: planning stops, entertainment, and packing	body_under_500_words,high_h2_density	content/articles/en/095-road-trip-kids-stops-entertainment-packing.json
-en	96	7	390	4	10.26	0.0	0	11	Sleep while traveling: keep familiar cues without chasing the perfect routine	body_under_500_words,high_h2_density	content/articles/en/096-travel-sleep-familiar-cues.json
-en	97	7	395	4	10.13	0.0	0	11	Vacations with young kids: lower expectations and enjoy them more	body_under_500_words,high_h2_density	content/articles/en/097-vacation-young-kids-lower-expectations.json
-en	98	7	418	4	9.57	0.0	0	11	Restaurants with kids: choosing timing, expectations, and entertainment	body_under_500_words,high_h2_density	content/articles/en/098-restaurants-kids-timing-expectations.json
-en	99	7	432	4	9.26	0.0	0	11	First birthday ideas centered on your family	body_under_500_words,high_h2_density	content/articles/en/099-first-birthday-family-centered.json
-en	100	7	395	4	10.13	0.0	0	11	How to create family traditions children actually remember	body_under_500_words,high_h2_density	content/articles/en/100-family-traditions-children-remember.json
 en	101	7	414	4	9.66	0.0	0	11	How to move from sleeping in arms to other kinds of support without changing everything at once	body_under_500_words,high_h2_density	content/articles/en/101-move-from-sleeping-in-arms-to-other-support.json
 en	102	7	445	4	8.99	0.0	0	11	Contact naps: how to enjoy them without feeling like you are creating a problem	body_under_500_words,high_h2_density	content/articles/en/102-contact-naps-without-feeling-problem.json
 en	103	7	387	4	10.34	0.0	0	11	How to lengthen a bedtime routine that feels too short	body_under_500_words,high_h2_density	content/articles/en/103-lengthen-too-short-bedtime-routine.json
@@ -222,15 +213,6 @@ en	1099	7	357	4	11.2	0.0	0	11	Impostor syndrome in motherhood: feeling like peop
 en	1100	7	373	4	10.72	0.0	0	11	How to build confidence as a mom without needing to do everything perfectly	body_under_500_words,high_h2_density	content/articles/en/1100-build-confidence-mom-without-perfection.json
 en	1101	7	394	4	10.15	0.0	0	11	Is it normal not to feel happy all the time during pregnancy?	body_under_500_words,high_h2_density	content/articles/en/1101-not-happy-all-the-time-pregnancy.json
 en	1102	7	373	4	10.72	0.0	0	11	A wanted pregnancy without the excitement you expected to feel	body_under_500_words,high_h2_density	content/articles/en/1102-wanted-pregnancy-without-expected-excitement.json
-es	92	7	480	4	8.33	0.0	0	11	Cómo organizar mañanas de preschool sin prisas constantes	body_under_500_words,high_h2_density	content/articles/es/092-mananas-preschool-sin-prisas.json
-es	93	7	474	4	8.44	0.0	0	11	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	body_under_500_words,high_h2_density	content/articles/es/093-viajar-avion-bebe-organizacion-equipaje.json
-es	94	7	410	4	9.76	0.0	0	11	Viajar en avión con un toddler: cómo preparar el trayecto	body_under_500_words,high_h2_density	content/articles/es/094-viajar-avion-toddler-preparar-trayecto.json
-es	95	7	410	4	9.76	0.0	0	11	Road trip con niños: cómo organizar paradas, entretenimiento y equipaje	body_under_500_words,high_h2_density	content/articles/es/095-road-trip-ninos-paradas-entretenimiento-equipaje.json
-es	96	7	410	4	9.76	0.0	0	11	Sueño de viaje: cómo mantener algunas señales familiares sin perseguir la rutina perfecta	body_under_500_words,high_h2_density	content/articles/es/096-sueno-viaje-senales-familiares-sin-rutina-perfecta.json
-es	97	7	414	4	9.66	0.0	0	11	Vacaciones con niños pequeños: cómo bajar expectativas y disfrutarlas más	body_under_500_words,high_h2_density	content/articles/es/097-vacaciones-ninos-pequenos-bajar-expectativas.json
-es	98	7	443	4	9.03	0.0	0	11	Restaurantes con niños: cómo elegir horarios, expectativas y entretenimiento	body_under_500_words,high_h2_density	content/articles/es/098-restaurantes-ninos-horarios-expectativas-entretenimiento.json
-es	99	7	431	4	9.28	0.0	0	11	Primer cumpleaños: ideas de celebración centradas en la familia	body_under_500_words,high_h2_density	content/articles/es/099-primer-cumpleanos-celebracion-centrada-familia.json
-es	100	7	388	4	10.31	0.0	0	11	Cómo crear tradiciones familiares que los niños realmente recuerden	body_under_500_words,high_h2_density	content/articles/es/100-tradiciones-familiares-ninos-recuerdan.json
 es	101	7	481	4	8.32	0.0	0	11	Cómo pasar de dormir en brazos a otras formas de acompañamiento sin hacerlo de golpe	body_under_500_words,high_h2_density	content/articles/es/101-pasar-dormir-brazos-otras-formas-acompanamiento.json
 es	102	7	425	4	9.41	0.0	0	11	Siestas de contacto: cómo vivirlas sin sentir que estás creando un problema	body_under_500_words,high_h2_density	content/articles/es/102-siestas-contacto-sin-sentir-problema.json
 es	103	7	420	4	9.52	0.0	0	11	Cómo alargar una rutina de sueño demasiado corta	body_under_500_words,high_h2_density	content/articles/es/103-alargar-rutina-sueno-demasiado-corta.json
@@ -295,7 +277,6 @@ en	76	5	554	4	7.22	0.0	0	14	Potty training without pressure: practical signs it 
 en	78	5	562	4	7.12	0.0	0	14	Potty training away from home: how to stay calm	body_under_650_words,high_h2_density	content/articles/en/078-potty-training-away-from-home.json
 en	79	5	555	4	7.21	0.0	0	14	Potty training and daycare: how to coordinate expectations with caregivers	body_under_650_words,high_h2_density	content/articles/en/079-potty-training-daycare-coordinate-expectations.json
 en	80	5	529	4	7.56	0.0	0	14	Refusing to sit on the potty: how to avoid a power struggle	body_under_650_words,high_h2_density	content/articles/en/080-potty-refusal-avoid-power-struggle.json
-en	91	5	553	4	7.23	0.0	0	11	How to talk with teachers when you disagree with how behavior was handled	body_under_650_words,high_h2_density	content/articles/en/091-talk-teachers-disagree-behavior-handling.json
 en	1022	5	586	5	8.53	0.056	1	18	Loving your kids and missing your old freedom at the same time	body_under_650_words,high_h2_density	content/articles/en/1022-love-kids-miss-freedom-before.json
 en	1023	5	616	5	8.12	0.1	1	20	Missing your pre-kids life during an exhausting season of parenting	body_under_650_words,high_h2_density	content/articles/en/1023-nostalgia-childfree-life-exhausting-season.json
 en	1024	5	592	5	8.45	0.05	1	20	Missing spontaneity after becoming a mom	body_under_650_words,high_h2_density	content/articles/en/1024-missing-spontaneity-after-motherhood.json
@@ -335,7 +316,6 @@ es	76	5	526	4	7.6	0.0	0	14	Dejar el pañal sin presión: señales prácticas de 
 es	78	5	550	4	7.27	0.0	0	14	Potty training fuera de casa: cómo mantener la calma	body_under_650_words,high_h2_density	content/articles/es/078-potty-training-fuera-casa-mantener-calma.json
 es	79	5	546	4	7.33	0.0	0	14	Dejar el pañal y daycare: cómo coordinar expectativas con los cuidadores	body_under_650_words,high_h2_density	content/articles/es/079-dejar-panal-daycare-coordinar-expectativas.json
 es	80	5	541	4	7.39	0.0	0	14	Resistencia a sentarse en el orinal: cómo evitar convertirlo en una lucha de poder	body_under_650_words,high_h2_density	content/articles/es/080-resistencia-sentarse-orinal-sin-lucha-poder.json
-es	91	5	551	4	7.26	0.0	0	11	Cómo hablar con educadores cuando no estás de acuerdo con una forma de manejar la conducta	body_under_650_words,high_h2_density	content/articles/es/091-hablar-educadores-desacuerdo-manejo-conducta.json
 es	1023	5	625	5	8.0	0.0	0	19	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	body_under_650_words,high_h2_density	content/articles/es/1023-nostalgia-vida-sin-hijos-etapa-agotadora.json
 es	1025	5	593	5	8.43	0.05	1	20	Echar de menos poder salir de casa sin planificar nada desde que tienes hijos	body_under_650_words,high_h2_density	content/articles/es/1025-echar-menos-salir-casa-sin-planificar.json
 es	1026	5	609	5	8.21	0.045	1	22	Echar de menos el silencio después de tener hijos pequeños	body_under_650_words,high_h2_density	content/articles/es/1026-echar-menos-silencio-despues-hijos-pequenos.json
@@ -469,6 +449,7 @@ en	69	3	681	4	5.87	0.056	1	18	How to introduce new foods without pressure or bri
 en	70	3	689	4	5.81	0.0	0	15	Desserts and sweets: how to set limits without turning them into a reward	body_under_800_words,elevated_h2_density	content/articles/en/070-desserts-sweets-boundaries-not-reward.json
 en	89	3	801	6	7.49	0.0	0	21	Daycare vs nanny: which style of care may fit your family better	body_under_1050_words,high_h2_density	content/articles/en/089-daycare-vs-nanny-family-fit.json
 en	90	3	834	6	7.19	0.0	0	22	Preschool: what to look for beyond worksheets, letters, and academics	body_under_1050_words,high_h2_density	content/articles/en/090-preschool-what-to-look-for-beyond-academics.json
+en	96	3	797	5	6.27	0.0	0	18	Sleep while traveling: keep familiar cues without chasing the perfect routine	body_under_800_words,elevated_h2_density	content/articles/en/096-travel-sleep-familiar-cues.json
 en	1006	3	995	7	7.04	0.031	1	32	Feeling Guilty for Looking at Your Phone While Your Kids Play	body_under_1050_words,high_h2_density	content/articles/en/1006-guilt-phone-while-kids-play.json
 en	1012	3	846	6	7.09	0.08	1	25	Not Recognizing Yourself After Becoming a Mom: Why It Can Feel So Strange	body_under_1050_words,high_h2_density	content/articles/en/1012-not-recognizing-yourself-after-motherhood.json
 en	1013	3	827	6	7.26	0.04	1	25	How to Keep Your Personal Identity After Having Kids	body_under_1050_words,high_h2_density	content/articles/en/1013-maintain-personal-identity-after-kids.json
@@ -534,6 +515,9 @@ en	85	2	966	6	6.21	0.0	0	22	Household chores for kids: how to make them part of 
 en	86	2	805	5	6.21	0.0	0	19	How to choose a family routine that actually works	body_under_1050_words,elevated_h2_density	content/articles/en/086-choose-family-routine-that-actually-works.json
 en	87	2	817	5	6.12	0.0	0	19	Daycare drop-off: how to support hard separations with security and connection	body_under_1050_words,elevated_h2_density	content/articles/en/087-daycare-dropoff-difficult-separations.json
 en	88	2	880	6	6.82	0.0	0	21	How to make adjusting to a new daycare or preschool easier	body_under_1050_words,elevated_h2_density	content/articles/en/088-adjusting-to-new-daycare-preschool.json
+en	92	2	862	5	5.8	0.0	0	17	How to make preschool mornings less rushed	body_under_1050_words,elevated_h2_density	content/articles/en/092-preschool-mornings-less-rushed.json
+en	97	2	819	5	6.11	0.0	0	18	Vacations with young kids: lower expectations and enjoy them more	body_under_1050_words,elevated_h2_density	content/articles/en/097-vacation-young-kids-lower-expectations.json
+en	100	2	840	5	5.95	0.0	0	18	How to create family traditions children actually remember	body_under_1050_words,elevated_h2_density	content/articles/en/100-family-traditions-children-remember.json
 en	1003	2	1027	7	6.82	0.061	1	33	Feeling Guilty for Enjoying Time Alone After Becoming a Mom	body_under_1050_words,elevated_h2_density	content/articles/en/1003-guilt-enjoying-time-alone.json
 en	1004	2	938	6	6.4	0.067	1	30	Feeling Guilty for Not Missing Your Kids When You’re Away	body_under_1050_words,elevated_h2_density	content/articles/en/1004-guilt-not-missing-kids.json
 en	1005	2	936	6	6.41	0.1	1	30	Feeling Guilty for Wanting Bedtime to Come Sooner	body_under_1050_words,elevated_h2_density	content/articles/en/1005-guilt-wanting-bedtime.json
@@ -561,6 +545,11 @@ es	87	2	813	5	6.15	0.0	0	19	Daycare drop-off: cómo acompañar separaciones dif�
 es	88	2	910	6	6.59	0.0	0	21	Cómo facilitar la adaptación a una nueva guardería o escuela infantil	body_under_1050_words,elevated_h2_density	content/articles/es/088-adaptacion-nueva-guarderia-escuela-infantil.json
 es	89	2	881	6	6.81	0.0	0	21	Daycare vs nanny: qué estilo de cuidado puede encajar mejor con vuestra familia	body_under_1050_words,elevated_h2_density	content/articles/es/089-daycare-vs-nanny-que-encaja-familia.json
 es	90	2	869	6	6.9	0.0	0	22	Preschool: qué mirar más allá de fichas, letras y actividades académicas	body_under_1050_words,elevated_h2_density	content/articles/es/090-preschool-que-mirar-mas-alla-academico.json
+es	91	2	964	5	5.19	0.0	0	15	Cómo hablar con educadores cuando no estás de acuerdo con una forma de manejar la conducta	body_under_1050_words,many_long_paragraphs	content/articles/es/091-hablar-educadores-desacuerdo-manejo-conducta.json
+es	94	2	841	5	5.95	0.0	0	17	Viajar en avión con un toddler: cómo preparar el trayecto	body_under_1050_words,elevated_h2_density	content/articles/es/094-viajar-avion-toddler-preparar-trayecto.json
+es	96	2	826	5	6.05	0.0	0	18	Sueño de viaje: cómo mantener algunas señales familiares sin perseguir la rutina perfecta	body_under_1050_words,elevated_h2_density	content/articles/es/096-sueno-viaje-senales-familiares-sin-rutina-perfecta.json
+es	97	2	831	5	6.02	0.0	0	18	Vacaciones con niños pequeños: cómo bajar expectativas y disfrutarlas más	body_under_1050_words,elevated_h2_density	content/articles/es/097-vacaciones-ninos-pequenos-bajar-expectativas.json
+es	100	2	836	5	5.98	0.0	0	18	Cómo crear tradiciones familiares que los niños realmente recuerden	body_under_1050_words,elevated_h2_density	content/articles/es/100-tradiciones-familiares-ninos-recuerdan.json
 es	1003	2	1025	7	6.83	0.031	1	32	Culpa por disfrutar tiempo sola después de convertirte en madre	body_under_1050_words,elevated_h2_density	content/articles/es/1003-culpa-disfrutar-tiempo-sola-madre.json
 es	1010	2	1031	7	6.79	0.091	1	33	Culpa por sentir alivio cuando tus hijos vuelven al colegio o daycare	body_under_1050_words,elevated_h2_density	content/articles/es/1010-culpa-alivio-vuelta-colegio-daycare.json
 es	1011	2	939	6	6.39	0.069	1	29	Matrescencia: por qué convertirte en madre puede cambiar profundamente tu identidad	body_under_1050_words,elevated_h2_density	content/articles/es/1011-matrescencia-cambio-identidad-madre.json
@@ -569,12 +558,23 @@ es	1014	2	890	6	6.74	0.034	1	29	Sentir que has desaparecido detrás del papel de
 es	1015	2	879	6	6.83	0.103	1	29	Echar de menos quién eras antes de tener hijos sin querer volver atrás	body_under_1050_words,elevated_h2_density	content/articles/es/1015-echar-menos-quien-eras-antes-hijos.json
 es	1016	2	879	6	6.83	0.071	1	28	Cómo volver a sentirte tú misma después de convertirte en madre	body_under_1050_words,elevated_h2_density	content/articles/es/1016-volver-sentirte-tu-misma-despues-ser-madre.json
 es	1020	2	1045	7	6.7	0.108	2	37	Cómo construir una identidad adulta que incluya la maternidad pero no dependa solo de ella	body_under_1050_words,elevated_h2_density	content/articles/es/1020-identidad-adulta-incluye-maternidad.json
+en	91	1	956	5	5.23	0.0	0	15	How to talk with teachers when you disagree with how behavior was handled	body_under_1050_words	content/articles/en/091-talk-teachers-disagree-behavior-handling.json
+en	93	1	959	5	5.21	0.0	0	17	Flying with a baby: packing, logistics, and realistic expectations	body_under_1050_words	content/articles/en/093-flying-baby-logistics-packing.json
+en	94	1	900	5	5.56	0.0	0	17	Flying with a toddler: how to prepare for the trip	body_under_1050_words	content/articles/en/094-flying-toddler-prepare-trip.json
+en	95	1	877	5	5.7	0.0	0	18	Road trips with kids: planning stops, entertainment, and packing	body_under_1050_words	content/articles/en/095-road-trip-kids-stops-entertainment-packing.json
+en	98	1	874	5	5.72	0.0	0	18	Restaurants with kids: choosing timing, expectations, and entertainment	body_under_1050_words	content/articles/en/098-restaurants-kids-timing-expectations.json
+en	99	1	922	5	5.42	0.0	0	18	First birthday ideas centered on your family	body_under_1050_words	content/articles/en/099-first-birthday-family-centered.json
 en	1002	1	1091	7	6.42	0.029	1	34	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently	elevated_h2_density	content/articles/en/1002-guilt-needing-break-from-kids.json
 en	1009	1	1059	7	6.61	0.029	1	35	Feeling Guilty for Wanting a Weekend Away Without the Kids	elevated_h2_density	content/articles/en/1009-guilt-weekend-without-kids.json
 en	1020	1	1070	7	6.54	0.057	1	35	How to Build an Adult Identity That Includes Motherhood Without Being Only About It	elevated_h2_density	content/articles/en/1020-adult-identity-includes-motherhood.json
 es	1	1	1630	8	4.91	0.041	1	49	Crianza respetuosa: qué significa de verdad y cómo aplicarla sin caer en extremos	repeated_no_necesitas_pattern	content/articles/es/001-crianza-respetuosa.json
 es	4	1	1578	8	5.07	0.065	1	46	Potty training o dejar el pañal: guía respetuosa sin premios ni presión	repeated_no_significa_pattern	content/articles/es/004-potty-training-sin-premios-presion.json
 es	81	1	890	5	5.62	0.0	0	19	Cómo pasar del orinal al inodoro con una transición gradual	body_under_1050_words	content/articles/es/081-transicion-orinal-inodoro-gradual.json
+es	92	1	911	5	5.49	0.0	0	17	Cómo organizar mañanas de preschool sin prisas constantes	body_under_1050_words	content/articles/es/092-mananas-preschool-sin-prisas.json
+es	93	1	914	5	5.47	0.0	0	17	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	body_under_1050_words	content/articles/es/093-viajar-avion-bebe-organizacion-equipaje.json
+es	95	1	873	5	5.73	0.0	0	18	Road trip con niños: cómo organizar paradas, entretenimiento y equipaje	body_under_1050_words	content/articles/es/095-road-trip-ninos-paradas-entretenimiento-equipaje.json
+es	98	1	912	5	5.48	0.0	0	18	Restaurantes con niños: cómo elegir horarios, expectativas y entretenimiento	body_under_1050_words	content/articles/es/098-restaurantes-ninos-horarios-expectativas-entretenimiento.json
+es	99	1	867	5	5.77	0.0	0	18	Primer cumpleaños: ideas de celebración centradas en la familia	body_under_1050_words	content/articles/es/099-primer-cumpleanos-celebracion-centrada-familia.json
 es	1001	1	1286	7	5.44	0.156	3	45	Mom guilt: por qué muchas madres sienten culpa incluso cuando saben que hacen lo mejor que pueden	run_of_short_paragraphs	content/articles/es/1001-mom-guilt-culpa-materna.json
 es	1002	1	1087	7	6.44	0.053	1	38	Culpa por necesitar un descanso de tus hijos: por qué aparece y cómo mirarla de otra manera	elevated_h2_density	content/articles/es/1002-culpa-necesitar-descanso-hijos.json
 es	1005	1	1087	7	6.44	0.0	0	35	Culpa por desear que llegue la hora de dormir de tus hijos	elevated_h2_density	content/articles/es/1005-culpa-desear-hora-dormir-hijos.json

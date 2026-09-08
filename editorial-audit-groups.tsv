@@ -102,15 +102,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1148	1148-respond-when-dont-want-talk-pregnancy	9	9	9	266	272	4	4	0.0	0.0	Cómo responder cuando no quieres hablar de tu embarazo todo el tiempo	How to respond when you do not want to talk about pregnancy all the time
 1149	1149-everything-about-baby-miss-being-asked-about-you	9	9	9	270	278	4	4	0.0	0.0	Cuando todo gira alrededor del bebé y echas de menos que te pregunten por ti	When everything is about the baby and you miss people asking about you
 1150	1150-maintain-identity-during-pregnancy	9	9	9	280	287	4	4	0.0	0.0	Cómo mantener otras partes de tu identidad mientras estás embarazada	How to maintain other parts of your identity while you are pregnant
-92	092-preschool-mornings-less-rushed	7	7	7	480	459	4	4	0.0	0.0	Cómo organizar mañanas de preschool sin prisas constantes	How to make preschool mornings less rushed
-93	093-flying-baby-logistics-packing-expectations	7	7	7	474	470	4	4	0.0	0.0	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	Flying with a baby: packing, logistics, and realistic expectations
-94	094-flying-toddler-prepare-trip	7	7	7	410	432	4	4	0.0	0.0	Viajar en avión con un toddler: cómo preparar el trayecto	Flying with a toddler: how to prepare for the trip
-95	095-road-trip-kids-stops-entertainment-packing	7	7	7	410	415	4	4	0.0	0.0	Road trip con niños: cómo organizar paradas, entretenimiento y equipaje	Road trips with kids: planning stops, entertainment, and packing
-96	096-travel-sleep-familiar-cues-not-perfect-routine	7	7	7	410	390	4	4	0.0	0.0	Sueño de viaje: cómo mantener algunas señales familiares sin perseguir la rutina perfecta	Sleep while traveling: keep familiar cues without chasing the perfect routine
-97	097-vacation-young-kids-lower-expectations	7	7	7	414	395	4	4	0.0	0.0	Vacaciones con niños pequeños: cómo bajar expectativas y disfrutarlas más	Vacations with young kids: lower expectations and enjoy them more
-98	098-restaurants-kids-timing-expectations-entertainment	7	7	7	443	418	4	4	0.0	0.0	Restaurantes con niños: cómo elegir horarios, expectativas y entretenimiento	Restaurants with kids: choosing timing, expectations, and entertainment
-99	099-first-birthday-family-centered	7	7	7	431	432	4	4	0.0	0.0	Primer cumpleaños: ideas de celebración centradas en la familia	First birthday ideas centered on your family
-100	100-family-traditions-children-remember	7	7	7	388	395	4	4	0.0	0.0	Cómo crear tradiciones familiares que los niños realmente recuerden	How to create family traditions children actually remember
 101	101-move-from-sleeping-in-arms-to-other-support	7	7	7	481	414	4	4	0.0	0.0	Cómo pasar de dormir en brazos a otras formas de acompañamiento sin hacerlo de golpe	How to move from sleeping in arms to other kinds of support without changing everything at once
 102	102-contact-naps-without-feeling-problem	7	7	7	425	445	4	4	0.0	0.0	Siestas de contacto: cómo vivirlas sin sentir que estás creando un problema	Contact naps: how to enjoy them without feeling like you are creating a problem
 103	103-lengthen-too-short-bedtime-routine	7	7	7	420	387	4	4	0.0	0.0	Cómo alargar una rutina de sueño demasiado corta	How to lengthen a bedtime routine that feels too short
@@ -162,7 +153,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 78	078-potty-training-away-from-home	5	5	5	550	562	4	4	0.0	0.0	Potty training fuera de casa: cómo mantener la calma	Potty training away from home: how to stay calm
 79	079-potty-training-daycare-coordinate-expectations	5	5	5	546	555	4	4	0.0	0.0	Dejar el pañal y daycare: cómo coordinar expectativas con los cuidadores	Potty training and daycare: how to coordinate expectations with caregivers
 80	080-potty-refusal-avoid-power-struggle	5	5	5	541	529	4	4	0.0	0.0	Resistencia a sentarse en el orinal: cómo evitar convertirlo en una lucha de poder	Refusing to sit on the potty: how to avoid a power struggle
-91	091-talk-educators-disagree-behavior	5	5	5	551	553	4	4	0.0	0.0	Cómo hablar con educadores cuando no estás de acuerdo con una forma de manejar la conducta	How to talk with teachers when you disagree with how behavior was handled
 1022	1022-love-kids-miss-freedom-before	5	4	5	687	586	6	5	0.045	0.056	Querer a tus hijos y echar de menos la libertad de antes al mismo tiempo	Loving your kids and missing your old freedom at the same time
 1023	1023-nostalgia-childfree-life-exhausting-season	5	5	5	625	616	5	5	0.0	0.1	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	Missing your pre-kids life during an exhausting season of parenting
 1024	1024-missing-spontaneity-after-motherhood	5	4	5	653	592	5	5	0.095	0.05	Echar de menos la espontaneidad después de convertirte en madre	Missing spontaneity after becoming a mom
@@ -251,6 +241,7 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 70	070-desserts-sweets-boundaries-not-reward	3	2	3	709	689	4	4	0.0	0.0	Postres y dulces: cómo poner límites sin convertirlos en premio	Desserts and sweets: how to set limits without turning them into a reward
 89	089-daycare-vs-nanny-family-fit	3	2	3	881	801	6	6	0.0	0.0	Daycare vs nanny: qué estilo de cuidado puede encajar mejor con vuestra familia	Daycare vs nanny: which style of care may fit your family better
 90	090-preschool-what-to-look-for-beyond-academics	3	2	3	869	834	6	6	0.0	0.0	Preschool: qué mirar más allá de fichas, letras y actividades académicas	Preschool: what to look for beyond worksheets, letters, and academics
+96	096-travel-sleep-familiar-cues-not-perfect-routine	3	2	3	826	797	5	5	0.0	0.0	Sueño de viaje: cómo mantener algunas señales familiares sin perseguir la rutina perfecta	Sleep while traveling: keep familiar cues without chasing the perfect routine
 1004	1004-guilt-not-missing-kids	3	3	2	939	938	6	6	0.0	0.067	Culpa por no echar de menos a tus hijos durante unas horas	Feeling Guilty for Not Missing Your Kids When You’re Away
 1006	1006-phone-guilt-while-kids-play	3	1	3	1166	995	7	7	0.026	0.031	Culpa por mirar el móvil mientras tus hijos juegan	Feeling Guilty for Looking at Your Phone While Your Kids Play
 1007	1007-guilt-not-playing-enough	3	3	2	968	876	7	6	0.062	0.036	Culpa por no jugar tanto con tus hijos como crees que deberías	Feeling Guilty Because You Don’t Play With Your Kids as Much as You Think You Should
@@ -281,6 +272,11 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 86	086-choose-family-routine-that-actually-works	2	2	2	828	805	5	5	0.0	0.0	Cómo elegir una rutina familiar que funcione de verdad	How to choose a family routine that actually works
 87	087-daycare-dropoff-difficult-separations	2	2	2	813	817	5	5	0.0	0.0	Daycare drop-off: cómo acompañar separaciones difíciles con seguridad y conexión	Daycare drop-off: how to support hard separations with security and connection
 88	088-adjusting-to-new-daycare-preschool	2	2	2	910	880	6	6	0.0	0.0	Cómo facilitar la adaptación a una nueva guardería o escuela infantil	How to make adjusting to a new daycare or preschool easier
+91	091-talk-educators-disagree-behavior	2	2	1	964	956	5	5	0.0	0.0	Cómo hablar con educadores cuando no estás de acuerdo con una forma de manejar la conducta	How to talk with teachers when you disagree with how behavior was handled
+92	092-preschool-mornings-less-rushed	2	1	2	911	862	5	5	0.0	0.0	Cómo organizar mañanas de preschool sin prisas constantes	How to make preschool mornings less rushed
+94	094-flying-toddler-prepare-trip	2	2	1	841	900	5	5	0.0	0.0	Viajar en avión con un toddler: cómo preparar el trayecto	Flying with a toddler: how to prepare for the trip
+97	097-vacation-young-kids-lower-expectations	2	2	2	831	819	5	5	0.0	0.0	Vacaciones con niños pequeños: cómo bajar expectativas y disfrutarlas más	Vacations with young kids: lower expectations and enjoy them more
+100	100-family-traditions-children-remember	2	2	2	836	840	5	5	0.0	0.0	Cómo crear tradiciones familiares que los niños realmente recuerden	How to create family traditions children actually remember
 1003	1003-guilt-enjoying-alone-time	2	2	2	1025	1027	7	7	0.031	0.061	Culpa por disfrutar tiempo sola después de convertirte en madre	Feeling Guilty for Enjoying Time Alone After Becoming a Mom
 1005	1005-guilt-looking-forward-to-bedtime	2	1	2	1087	936	7	6	0.0	0.1	Culpa por desear que llegue la hora de dormir de tus hijos	Feeling Guilty for Wanting Bedtime to Come Sooner
 1010	1010-guilt-relief-back-to-school-daycare	2	2	2	1031	883	7	6	0.091	0.125	Culpa por sentir alivio cuando tus hijos vuelven al colegio o daycare	Feeling Guilty for Feeling Relieved When the Kids Go Back to School or Daycare
@@ -289,6 +285,10 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1047	1047-pressure-not-to-repeat-your-parents-mistakes	2	1	2	910	851	5	5	0.0	0.042	La presión de no repetir ningún error de tus propios padres	The Pressure Not to Repeat Any of Your Parents’ Mistakes
 1	001-respectful-parenting	1	1	0	1630	1524	8	8	0.041	0.02	Crianza respetuosa: qué significa de verdad y cómo aplicarla sin caer en extremos	Respectful Parenting: What It Really Means and How to Use It Without Going to Extremes
 4	004-potty-training-without-pressure	1	1	0	1578	1492	8	8	0.065	0.067	Potty training o dejar el pañal: guía respetuosa sin premios ni presión	Potty Training Without Pressure: A Respectful Guide Without Rewards
+93	093-flying-baby-logistics-packing-expectations	1	1	1	914	959	5	5	0.0	0.0	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	Flying with a baby: packing, logistics, and realistic expectations
+95	095-road-trip-kids-stops-entertainment-packing	1	1	1	873	877	5	5	0.0	0.0	Road trip con niños: cómo organizar paradas, entretenimiento y equipaje	Road trips with kids: planning stops, entertainment, and packing
+98	098-restaurants-kids-timing-expectations-entertainment	1	1	1	912	874	5	5	0.0	0.0	Restaurantes con niños: cómo elegir horarios, expectativas y entretenimiento	Restaurants with kids: choosing timing, expectations, and entertainment
+99	099-first-birthday-family-centered	1	1	1	867	922	5	5	0.0	0.0	Primer cumpleaños: ideas de celebración centradas en la familia	First birthday ideas centered on your family
 1001	1001-mom-guilt	1	1	0	1286	1265	7	7	0.156	0.149	Mom guilt: por qué muchas madres sienten culpa incluso cuando saben que hacen lo mejor que pueden	Mom Guilt: Why Moms Feel Guilty Even When They Know They’re Doing Their Best
 1002	1002-guilt-needing-break-from-kids	1	1	1	1087	1091	7	7	0.053	0.029	Culpa por necesitar un descanso de tus hijos: por qué aparece y cómo mirarla de otra manera	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently
 1009	1009-guilt-weekend-without-kids	1	0	1	1792	1059	8	7	0.016	0.029	Culpa por querer pasar un fin de semana sin los niños	Feeling Guilty for Wanting a Weekend Away Without the Kids

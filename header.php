@@ -103,12 +103,10 @@ $nav_items        = array(
 				<a class="language-option <?php echo 'es' === $current_language ? 'is-current' : ''; ?>" href="<?php echo esc_url( mom_context_language_switch_url( 'es' ) ); ?>" hreflang="es-ES" lang="es">
 					<span class="language-option-flag" aria-hidden="true">🇪🇸</span>
 					<span class="language-option-copy"><strong>Español</strong></span>
-					<span class="language-option-status" aria-hidden="true"><?php echo 'es' === $current_language ? '✓' : '→'; ?></span>
 				</a>
 				<a class="language-option <?php echo 'en' === $current_language ? 'is-current' : ''; ?>" href="<?php echo esc_url( mom_context_language_switch_url( 'en' ) ); ?>" hreflang="en-US" lang="en">
 					<span class="language-option-flag" aria-hidden="true">🇺🇸</span>
 					<span class="language-option-copy"><strong>English</strong></span>
-					<span class="language-option-status" aria-hidden="true"><?php echo 'en' === $current_language ? '✓' : '→'; ?></span>
 				</a>
 			</div>
 		</div>

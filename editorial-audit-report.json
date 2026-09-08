@@ -4,25 +4,25 @@
     "by_language": {
       "es": {
         "count": 300,
-        "avg_words": 604.8,
-        "median_words": 600,
+        "avg_words": 621.9,
+        "median_words": 631,
         "avg_h2": 4.82,
-        "avg_short_para_ratio": 0.036,
-        "risk_7_plus": 116,
+        "avg_short_para_ratio": 0.034,
+        "risk_7_plus": 106,
         "risk_5_6": 35,
         "risk_3_4": 86,
-        "risk_0_2": 63
+        "risk_0_2": 73
       },
       "en": {
         "count": 300,
-        "avg_words": 584.2,
-        "median_words": 586,
+        "avg_words": 601.3,
+        "median_words": 594,
         "avg_h2": 4.73,
-        "avg_short_para_ratio": 0.036,
-        "risk_7_plus": 113,
+        "avg_short_para_ratio": 0.034,
+        "risk_7_plus": 103,
         "risk_5_6": 58,
         "risk_3_4": 74,
-        "risk_0_2": 55
+        "risk_0_2": 65
       }
     },
     "exact_repeated_paragraphs": 0,
@@ -469,393 +469,6 @@
         "body_under_350_words",
         "high_h2_density",
         "many_question_paragraphs"
-      ]
-    },
-    {
-      "path": "content/articles/en/112-bedtime-story-routine-anchor.json",
-      "article_number": 112,
-      "translation_group": "112-bedtime-story-routine-anchor",
-      "language": "en",
-      "title": "How to make a bedtime story an anchor in the nightly routine",
-      "words": 330,
-      "paragraphs": 10,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 12.12,
-      "h2s": [
-        "Put reading after the logistics",
-        "Choose an amount you can actually sustain",
-        "Offer participation inside a clear frame",
-        "Let imperfect reading nights still count"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 30.6,
-      "short_paragraph_ratio": 0.1,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 5,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "A story can become one of the clearest signals that bedtime has entered a different phase. Reading does not automatically make a child sleepy, but it changes the pace: less movement, a familiar voice, a predictable place, and a few minutes in which everyone stops moving through household tasks.",
-      "opening_14_words": "A story can become one of the clearest signals that bedtime has entered a",
-      "intro_3_paragraphs": "A story can become one of the clearest signals that bedtime has entered a different phase. Reading does not automatically make a child sleepy, but it changes the pace: less movement, a familiar voice, a predictable place, and a few minutes in which everyone stops moving through household tasks. For a story to work as an anchor, it needs to be repeatable more than impressive. Stories are easier to experience as a closing ritual when teeth, pajamas, bathroom trips, and water are mostly finished first. If you begin reading and then repeatedly get up to complete unfinished tasks, the story becomes another stop in the middle rather than the beginning of the end.",
-      "last_h2": "Let imperfect reading nights still count",
-      "ending_3_paragraphs": "The sweet spot is meaningful choice inside a structure the adult can keep. Some children wiggle, interrupt, skip pages, or only want to look at pictures. Some nights you may not read at all. None of that means the ritual has failed. A bedtime story becomes an anchor because it returns over time, not because every reading session is calm, educational, or picture-perfect.",
-      "risk_score": 9,
-      "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/113-music-light-environment-sleep-cues.json",
-      "article_number": 113,
-      "translation_group": "113-music-light-environment-sleep-cues",
-      "language": "en",
-      "title": "How to use music, light, and the room as signals for rest",
-      "words": 333,
-      "paragraphs": 10,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 12.01,
-      "h2s": [
-        "Pick one or two changes you can repeat",
-        "Let the environment support the routine",
-        "Create a gradual drop in stimulation",
-        "Choose cues that can travel"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 30.8,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 4,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "“Sleep environment” can quickly sound like a shopping list: blackout curtains, sound machines, a certain lamp, a specific playlist. But the most useful cue is often consistency. A few things change as evening arrives, and those changes happen often enough to become recognizable.",
-      "opening_14_words": "Sleep environment can quickly sound like a shopping list blackout curtains sound machines a",
-      "intro_3_paragraphs": "“Sleep environment” can quickly sound like a shopping list: blackout curtains, sound machines, a certain lamp, a specific playlist. But the most useful cue is often consistency. A few things change as evening arrives, and those changes happen often enough to become recognizable. Light, sound, and room setup work best as transition signals, not as perfect conditions your child must have in order to sleep. You might turn off the bright overhead light, switch to a warmer lamp, lower the general volume in the house, or use the same calm playlist while pajamas go on. You do not need every possible cue.",
-      "last_h2": "Choose cues that can travel",
-      "ending_3_paragraphs": "The whole house does not need to become silent. It only needs to send a more consistent message as bedtime approaches. A short song, a familiar phrase, a small night-light, or the same order of two bedtime steps can travel more easily than an entire room setup. Portable cues are useful because they preserve recognition without requiring you to recreate home perfectly. The goal is not a flawless sleep environment. It is enough repeated information that the end of the day still feels familiar when everything else is not perfectly controlled.",
-      "risk_score": 9,
-      "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/114-fear-being-alone-at-bedtime.json",
-      "article_number": 114,
-      "translation_group": "114-fear-being-alone-at-bedtime",
-      "language": "en",
-      "title": "How to support a child who is afraid to be alone at bedtime",
-      "words": 344,
-      "paragraphs": 10,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 11.63,
-      "h2s": [
-        "Name the experience without debating it",
-        "Create a predictable separation ritual",
-        "Practice manageable amounts of distance",
-        "Notice when fear is becoming bigger than bedtime"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 32.0,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.1,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 8,
-        "importante": 1,
-        "clave": 0
-      },
-      "opening": "Bedtime combines two things that can feel hard to a child: stimulation drops and separation becomes obvious. During the day there is movement, noise, and easy access to adults. At night the room gets quiet and your child knows you are about to leave.",
-      "opening_14_words": "Bedtime combines two things that can feel hard to a child stimulation drops and",
-      "intro_3_paragraphs": "Bedtime combines two things that can feel hard to a child: stimulation drops and separation becomes obvious. During the day there is movement, noise, and easy access to adults. At night the room gets quiet and your child knows you are about to leave. Validating fear does not mean agreeing that danger is present. It means recognizing the feeling while helping your child build a tolerable way to stay in bed without you beside them. “You really don't want me to leave yet” is often more useful than “there is nothing to be scared of.” You can communicate safety without trying to convince a frightened nervous system that it is being unreasonable.",
-      "last_h2": "Notice when fear is becoming bigger than bedtime",
-      "ending_3_paragraphs": "You can adjust the pace without treating each night as a test your child passes or fails. Bedtime fears often change with developmental stages, stories, travel, stress, or unfamiliar events. If fear is intense, persistent, shows up strongly during the day, or significantly interferes with family life, it is reasonable to talk with your child's health professional. The goal is not to eliminate every fearful feeling before sleep. It is to help your child discover that fear can be present for a moment and separation can still be manageable with support.",
-      "risk_score": 9,
-      "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/115-lights-out-protest-without-threats-rewards.json",
-      "article_number": 115,
-      "translation_group": "115-lights-out-protest-without-threats-rewards",
-      "language": "en",
-      "title": "How to handle lights-out protests without threats or rewards",
-      "words": 316,
-      "paragraphs": 10,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 12.66,
-      "h2s": [
-        "Make the ending visible before it happens",
-        "Respond to the feeling without reopening the decision",
-        "Do not make prizes and threats the engine of bedtime",
-        "Expect repetition without escalation"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 28.7,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 1,
-        "puede": 5,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "The routine may go reasonably well until the final action: the light turns off. Suddenly there is yelling, “I'm not tired,” another hug, another question, or a surprisingly creative proposal for five more minutes.",
-      "opening_14_words": "The routine may go reasonably well until the final action the light turns off",
-      "intro_3_paragraphs": "The routine may go reasonably well until the final action: the light turns off. Suddenly there is yelling, “I'm not tired,” another hug, another question, or a surprisingly creative proposal for five more minutes. Protest does not automatically mean the boundary is wrong. Sometimes it means the boundary has finally become real. If your child is absorbed in a book and the room suddenly goes dark, the transition can feel abrupt. A repeated preview — “finish this book, cuddle, lights out” — tells them where the ending is before you reach it.",
-      "last_h2": "Expect repetition without escalation",
-      "ending_3_paragraphs": "A simple repeatable boundary usually requires less mental energy than inventing a new consequence every night. Some boundaries do not become easy because you explain them better. They become familiar because they are repeated. Use the same short language, the same goodnight, and resist raising your intensity to match the protest. The goal is not a child who is delighted when the light goes off. It is a child who can be unhappy about the ending and still experience it as safe, predictable, and stable.",
-      "risk_score": 9,
-      "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/116-child-keeps-getting-out-of-bed.json",
-      "article_number": 116,
-      "translation_group": "116-child-keeps-getting-out-of-bed",
-      "language": "en",
-      "title": "How to respond when your child keeps getting out of bed",
-      "words": 334,
-      "paragraphs": 10,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 11.98,
-      "h2s": [
-        "Handle predictable needs before the ending",
-        "Make the return boringly predictable",
-        "Do not judge the plan by one night",
-        "Check whether the real issue starts earlier"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 30.8,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 4,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "The first exit may have a reasonable explanation: water. The second is another hug. By the fifth, your child is basically making a social visit to the hallway. When getting up reliably reopens interaction, leaving bed can become a stable part of bedtime.",
-      "opening_14_words": "The first exit may have a reasonable explanation water The second is another hug",
-      "intro_3_paragraphs": "The first exit may have a reasonable explanation: water. The second is another hug. By the fifth, your child is basically making a social visit to the hallway. When getting up reliably reopens interaction, leaving bed can become a stable part of bedtime. The useful move is usually not a new response for every exit. It is making every exit lead to the same place: back to bed with as little novelty as possible. Bathroom, water, comfort object, room comfort, and goodnight can be addressed before lights out. This will not erase every request, but it removes some legitimate reasons to restart the routine.",
-      "last_h2": "Check whether the real issue starts earlier",
-      "ending_3_paragraphs": "Look at the direction over several days instead of deciding after each bedtime that the approach has failed. Repeated exits can be the surface of another problem: the routine ends too abruptly, your child is afraid to be alone, the timing no longer fits, or family schedules have shifted. Escorting back is not a substitute for noticing the larger pattern. The goal is not to win a contest of endurance. It is to make getting out of bed stop being the most interesting and negotiable part of the night.",
-      "risk_score": 9,
-      "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/117-transition-to-child-bed-without-big-conflict.json",
-      "article_number": 117,
-      "translation_group": "117-transition-to-child-bed-without-big-conflict",
-      "language": "en",
-      "title": "How to move to a child bed without turning it into a major conflict",
-      "words": 306,
-      "paragraphs": 10,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 13.07,
-      "h2s": [
-        "Explain what changes and what stays familiar",
-        "Prepare for new mobility",
-        "Expect some testing of the new freedom",
-        "Do not turn the bed into a maturity test"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 27.9,
-      "short_paragraph_ratio": 0.1,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 2,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "A new bed may be exciting during the day and highly experimental at night. For a young child, it is not simply a bigger place to sleep. It changes the physical boundary of bedtime because they can now get up without adult help.",
-      "opening_14_words": "A new bed may be exciting during the day and highly experimental at night",
-      "intro_3_paragraphs": "A new bed may be exciting during the day and highly experimental at night. For a young child, it is not simply a bigger place to sleep. It changes the physical boundary of bedtime because they can now get up without adult help. The more continuity you preserve around the bed change, the less your child has to learn in a single night. Talk about where the bed will be, what favorite items remain, and how bedtime will still work. You do not have to market the transition as a huge milestone if your child does not experience it that way.",
-      "last_h2": "Do not turn the bed into a maturity test",
-      "ending_3_paragraphs": "A calm, predictable return helps the novelty lose some of its power. Your child may need more closeness some nights or miss the previous setup. Avoid making the transition proof that they are “big” rather than “a baby.” The goal is not instant independence. It is for the new bed to become, through repetition, another familiar place where the day ends.",
-      "risk_score": 9,
-      "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/118-floor-bed-autonomy-considerations.json",
-      "article_number": 118,
-      "translation_group": "118-floor-bed-autonomy-considerations",
-      "language": "en",
-      "title": "Floor beds: what they can offer for autonomy and what to consider",
-      "words": 324,
-      "paragraphs": 10,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 12.35,
-      "h2s": [
-        "Define the autonomy you actually want",
-        "Evaluate the whole room, not only the mattress",
-        "Expect the routine to change too",
-        "Keep furniture choices separate from parenting identity"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 29.7,
-      "short_paragraph_ratio": 0.1,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 5,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Floor beds are often discussed through the language of independence: a child can get in and out without help, access the sleep space freely, and move around more independently. That freedom may fit some families beautifully and create new work for others.",
-      "opening_14_words": "Floor beds are often discussed through the language of independence a child can get",
-      "intro_3_paragraphs": "Floor beds are often discussed through the language of independence: a child can get in and out without help, access the sleep space freely, and move around more independently. That freedom may fit some families beautifully and create new work for others. A floor bed is not simply a lower bed. It changes where the boundary lives. When a child can get up freely, the whole room becomes part of the nighttime environment. Maybe you want your child to lie down to look at books independently, get up without calling for help, or participate more actively in bedtime. Name the concrete benefit. “More autonomy” is too broad to make the decision by itself.",
-      "last_h2": "Keep furniture choices separate from parenting identity",
-      "ending_3_paragraphs": "The bed may support independence, but it does not remove the need for bedtime cues and limits. A floor bed can work well, not work, or work only for one season. You do not have to defend it as superior, and a traditional bed does not make a family less respectful of autonomy. The useful choice is the one that combines an appropriate environment, a routine you can sustain, and an amount of freedom your family is ready to support.",
-      "risk_score": 9,
-      "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/119-siblings-sharing-room-sleep-space-expectations.json",
-      "article_number": 119,
-      "translation_group": "119-siblings-sharing-room-sleep-space-expectations",
-      "language": "en",
-      "title": "Siblings sharing a room: how to organize sleep, space, and expectations",
-      "words": 293,
-      "paragraphs": 10,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 13.65,
-      "h2s": [
-        "Choose which parts of bedtime should be shared",
-        "Create personal territory inside the shared space",
-        "Plan for the child who stays awake longer",
-        "Expect an adjustment period"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 26.6,
-      "short_paragraph_ratio": 0.1,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 3,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "A shared room may be practical, necessary, or something siblings genuinely enjoy. It also introduces new variables: one takes longer to fall asleep, another wakes earlier, one wants to talk, and the other needs quiet. The answer is rarely to force both children onto the exact same rhythm.",
-      "opening_14_words": "A shared room may be practical necessary or something siblings genuinely enjoy It also",
-      "intro_3_paragraphs": "A shared room may be practical, necessary, or something siblings genuinely enjoy. It also introduces new variables: one takes longer to fall asleep, another wakes earlier, one wants to talk, and the other needs quiet. The answer is rarely to force both children onto the exact same rhythm. Room-sharing works better when the family creates rules for living with differences instead of trying to erase them. Maybe pajamas happen together but one child reads longer. Perhaps the story is shared and the final goodnight is different. Identical routines are not required for a shared room to work.",
-      "last_h2": "Expect an adjustment period",
-      "ending_3_paragraphs": "The early riser also needs a plan for what happens while the other child is still sleeping. Early nights may include giggling, talking, wake-ups, and novelty. That does not automatically prove room-sharing cannot work. Watch whether things settle as the arrangement becomes ordinary. The goal is not a perfectly silent room with two synchronized sleepers. It is a shared space where each child can rest without differences becoming constant conflict.",
-      "risk_score": 9,
-      "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/120-transition-shared-room-to-separate-rooms.json",
-      "article_number": 120,
-      "translation_group": "120-transition-shared-room-to-separate-rooms",
-      "language": "en",
-      "title": "How to move from a shared bedroom to separate rooms gently",
-      "words": 289,
-      "paragraphs": 10,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 13.84,
-      "h2s": [
-        "Explain the reason without turning it into reward or punishment",
-        "Move familiar cues into each room",
-        "Preserve one point of sibling connection",
-        "Give the new silence time to become ordinary"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 25.9,
-      "short_paragraph_ratio": 0.2,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 4,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "From an adult perspective, separate rooms can look like a straightforward upgrade: more space, fewer mutual wake-ups, and a place that belongs to each child. But if siblings have shared for a long time, the change also removes a familiar presence at the end of the day.",
-      "opening_14_words": "From an adult perspective separate rooms can look like a straightforward upgrade more space",
-      "intro_3_paragraphs": "From an adult perspective, separate rooms can look like a straightforward upgrade: more space, fewer mutual wake-ups, and a place that belongs to each child. But if siblings have shared for a long time, the change also removes a familiar presence at the end of the day. A gentle transition makes room for both truths: separate rooms may solve practical problems and still feel like a small loss of nighttime company at first. If the change is about space, age, schedules, or different needs, say that plainly. Avoid presenting a private room as a prize for good behavior or separation as the consequence for talking too much.",
-      "last_h2": "Give the new silence time to become ordinary",
-      "ending_3_paragraphs": "That bridge can fade naturally later if no one needs it anymore. A child can enjoy a private room all afternoon and ask to sleep with a sibling at night. That is not inconsistent. Nighttime activates different habits and memories. The goal is not instant enthusiasm. It is for the new room to collect enough familiar nights that it stops feeling like a new place.",
-      "risk_score": 9,
-      "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
       ]
     },
     {
@@ -2615,6 +2228,393 @@
       "intro_3_paragraphs": "Many wanted things include difficult parts. A chosen career can have terrible days; a long-awaited trip can include an exhausting flight. Motherhood is often treated differently: if you truly wanted the outcome, you are expected to be grateful for every part of the process. Complaining about pregnancy is not the same as regretting the baby. You can dislike part of the experience without rejecting where it is leading. You can be eager to meet your child and dislike body changes, restrictions, constant attention or uncertainty. Those are different layers of the same season.",
       "last_h2": "Take serious discomfort seriously without turning it into guilt",
       "ending_3_paragraphs": "Normalizing complaints does not mean ignoring physical or emotional distress that worries you. If something feels significant or is affecting you strongly, reach out to an appropriate professional. Getting help is compatible with having wanted the pregnancy. You do not have to prove gratitude by enduring everything silently. Wanting to be a mother does not obligate you to enjoy the entire road to birth. You can value the baby and speak honestly about what pregnancy costs you.",
+      "risk_score": 9,
+      "risk_reasons": [
+        "body_under_350_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1105-not-enjoy-pregnancy-even-wanted.json",
+      "article_number": 1105,
+      "translation_group": "1105-not-enjoy-pregnancy-even-wanted",
+      "language": "en",
+      "title": "Not enjoying pregnancy even though it was deeply wanted",
+      "words": 348,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.49,
+      "h2s": [
+        "Get specific about what you do not enjoy",
+        "Do not create future nostalgia as a present obligation",
+        "Protect parts of your identity that are not about pregnancy",
+        "Accept support without making enjoyment the goal"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.5,
+      "short_paragraph_ratio": 0.091,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 3,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 2,
+        "clave": 0
+      },
+      "opening": "“Enjoy it, it goes so fast” can sound kind and still create an impossible assignment. Along with living through pregnancy, you are suddenly responsible for appreciating it properly. If you do not, it can feel as though you are wasting an experience someone else would cherish.",
+      "opening_14_words": "Enjoy it it goes so fast can sound kind and still create an impossible",
+      "intro_3_paragraphs": "“Enjoy it, it goes so fast” can sound kind and still create an impossible assignment. Along with living through pregnancy, you are suddenly responsible for appreciating it properly. If you do not, it can feel as though you are wasting an experience someone else would cherish. A pregnancy can be deeply wanted without being a life stage you enjoy. Wanting the destination does not require loving the process. Maybe you dislike body changes, public attention, uncertainty, restrictions or feeling as though your identity has been reduced to pregnancy. Maybe nothing is dramatically wrong and you simply do not find the experience pleasant.",
+      "last_h2": "Accept support without making enjoyment the goal",
+      "ending_3_paragraphs": "You do not need to reach a point where you love pregnancy in order to be doing it “well.” The goal can simply be to make the remaining time more sustainable and get help with what is difficult. If emotional distress is intense, persistent or worrying to you, a health care or mental health professional can offer support without asking you to turn the experience into a positive story. You do not need happy memories of every stage to have deeply wanted your child. Pregnancy can be important, wanted and still not be something you enjoy.",
+      "risk_score": 9,
+      "risk_reasons": [
+        "body_under_350_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1106-want-pregnancy-to-end-feel-guilty.json",
+      "article_number": 1106,
+      "translation_group": "1106-want-pregnancy-to-end-feel-guilty",
+      "language": "en",
+      "title": "Wanting pregnancy to be over and feeling guilty for not enjoying it",
+      "words": 329,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.16,
+      "h2s": [
+        "Separate impatience from rejection",
+        "Stop making every week an emotional countdown",
+        "Make the present more livable rather than trying to love it",
+        "Say the guilt out loud if it is becoming heavy"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 27.0,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 6,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Important life stages can feel long even when you know they cannot be rushed. Late in pregnancy especially, it can feel as though the previous version of life has already changed while the next one has not started yet.",
+      "opening_14_words": "Important life stages can feel long even when you know they cannot be rushed",
+      "intro_3_paragraphs": "Important life stages can feel long even when you know they cannot be rushed. Late in pregnancy especially, it can feel as though the previous version of life has already changed while the next one has not started yet. Wanting a stage to end does not mean you fail to value what it contains. Sometimes it simply means you are tired of living in transition. “I want this to be over” may refer to waiting, discomfort, uncertainty or being the focus of constant pregnancy attention. It does not automatically translate to “I don't want this baby.”",
+      "last_h2": "Say the guilt out loud if it is becoming heavy",
+      "ending_3_paragraphs": "“I want pregnancy to be over, and then I feel awful for thinking that” is often much less frightening once it can be said to someone safe. If emotional distress is intense, persistent or worrying to you, seek professional support. You do not need to wait for pregnancy to end before getting help. You can want pregnancy to be over because you are ready for the next stage, not because you want the baby any less.",
+      "risk_score": 9,
+      "risk_reasons": [
+        "body_under_350_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1107-not-feel-connected-to-baby-during-pregnancy.json",
+      "article_number": 1107,
+      "translation_group": "1107-not-feel-connected-to-baby-during-pregnancy",
+      "language": "en",
+      "title": "Not feeling connected to the baby during pregnancy",
+      "words": 344,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.63,
+      "h2s": [
+        "Recognize how abstract pregnancy can feel",
+        "Do not turn bonding rituals into tests",
+        "Do not compare your private experience with someone else's story",
+        "Get support if the disconnection is part of distress that worries you"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.1,
+      "short_paragraph_ratio": 0.091,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Pregnancy stories often describe connection as automatic: a positive test, an ultrasound, a movement, and suddenly there is a deep emotional relationship. If that moment does not happen for you, it is easy to start monitoring yourself for what is missing.",
+      "opening_14_words": "Pregnancy stories often describe connection as automatic a positive test an ultrasound a movement",
+      "intro_3_paragraphs": "Pregnancy stories often describe connection as automatic: a positive test, an ultrasound, a movement, and suddenly there is a deep emotional relationship. If that moment does not happen for you, it is easy to start monitoring yourself for what is missing. Connection is not an exam you have to pass before birth. A relationship with a child can begin in different ways and keep developing for a long time. Before birth, many of the experiences that build an everyday relationship have not happened yet: eye contact, responses, routines, learning preferences, comforting, laughing together. For some people, without that interaction the baby feels more like a future person than a current relationship.",
+      "last_h2": "Get support if the disconnection is part of distress that worries you",
+      "ending_3_paragraphs": "Not feeling prenatal connection by itself does not predict what kind of parent you will be. If the experience causes intense or persistent distress, or sits alongside other emotional changes that concern you, talk with a health care or mental health professional. You can ask for support without first proving that you should feel differently. You do not need to fall in love with an abstract idea on a schedule. You can get to know your child gradually, before or after birth, through a relationship that becomes real over time.",
+      "risk_score": 9,
+      "risk_reasons": [
+        "body_under_350_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1108-no-instant-love-before-birth.json",
+      "article_number": 1108,
+      "translation_group": "1108-no-instant-love-before-birth",
+      "language": "en",
+      "title": "Not feeling instant love for the baby before birth",
+      "words": 324,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.35,
+      "h2s": [
+        "Do not force one word onto something still forming",
+        "Remember how little you know about this person",
+        "Stop turning every milestone into a self-test",
+        "Leave room for support without pathologizing every difference"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 26.5,
+      "short_paragraph_ratio": 0.182,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.091,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 2,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 4,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Prenatal love is often told as a revelation: from the first moment, you knew you would do anything for this baby. That is real for some people. Others feel responsibility, curiosity, protectiveness, strangeness or simply an awareness that something enormous is happening.",
+      "opening_14_words": "Prenatal love is often told as a revelation from the first moment you knew",
+      "intro_3_paragraphs": "Prenatal love is often told as a revelation: from the first moment, you knew you would do anything for this baby. That is real for some people. Others feel responsibility, curiosity, protectiveness, strangeness or simply an awareness that something enormous is happening. Love does not have to arrive as an instant emotional event in order to become real. Human relationships can begin with gradual knowing. You may care what happens to the baby, make decisions with them in mind and imagine life after birth without experiencing an emotion you would label love. You do not need to change the label to meet an expectation.",
+      "last_h2": "Leave room for support without pathologizing every difference",
+      "ending_3_paragraphs": "Not feeling instant love is not, by itself, a diagnosis. At the same time, if your broader emotional state is intense, persistent or worrying to you, it deserves professional attention. Both ideas can be true: there is no mandatory prenatal emotion, and your emotional well-being still matters. You do not need to recognize love before you meet the baby for your relationship to grow. It can begin with responsibility, curiosity or feelings you do not yet know how to name.",
+      "risk_score": 9,
+      "risk_reasons": [
+        "body_under_350_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1109-not-want-to-talk-to-bump.json",
+      "article_number": 1109,
+      "translation_group": "1109-not-want-to-talk-to-bump",
+      "language": "en",
+      "title": "Not wanting to talk to your bump during pregnancy",
+      "words": 342,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.7,
+      "h2s": [
+        "Separate a suggestion from an emotional requirement",
+        "Use forms of connection that fit your personality",
+        "Set boundaries around comments that make you feel watched",
+        "Let the real relationship create its own language"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.2,
+      "short_paragraph_ratio": 0.091,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Some prenatal rituals are presented as natural milestones of motherhood: rubbing your belly, playing music, reading books out loud or talking to the baby before bed. They can be lovely when they fit the person doing them. When they do not, they can feel like performing a role in an empty room.",
+      "opening_14_words": "Some prenatal rituals are presented as natural milestones of motherhood rubbing your belly playing",
+      "intro_3_paragraphs": "Some prenatal rituals are presented as natural milestones of motherhood: rubbing your belly, playing music, reading books out loud or talking to the baby before bed. They can be lovely when they fit the person doing them. When they do not, they can feel like performing a role in an empty room. You do not need to prove connection by doing rituals that do not feel like you. Bonding is not measured by how many conversations you have with your bump. An activity can be meaningful for some people without being necessary for everyone. You can try talking to the baby, realize it feels unnatural and move on without searching for a deeper problem.",
+      "last_h2": "Let the real relationship create its own language",
+      "ending_3_paragraphs": "You may never enjoy prenatal talking and then find yourself narrating everything to your newborn. Or you may remain less verbal in the way you connect. Deep relationships do not all need the same opening ritual. If talking to your bump feels natural, enjoy it. If it does not, leave it alone. Your relationship with your child will have far more opportunities to grow than this one prenatal practice.",
+      "risk_score": 9,
+      "risk_reasons": [
+        "body_under_350_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1110-feel-different-from-more-excited-pregnant-women.json",
+      "article_number": 1110,
+      "translation_group": "1110-feel-different-from-more-excited-pregnant-women",
+      "language": "en",
+      "title": "Feeling different from other pregnant women who seem more excited",
+      "words": 342,
+      "paragraphs": 11,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 11.7,
+      "h2s": [
+        "Identify what you are actually comparing",
+        "Remember that visible excitement is not the same as love",
+        "Reduce comparisons that give you no useful information",
+        "Use language that belongs to your actual pregnancy"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 3,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Visible emotion is easy to compare: weekly photos, baby purchases, announcements and constant conversation. What you do not see are the neutral hours, private fears, exhaustion or doubts that may exist outside that frame.",
+      "opening_14_words": "Visible emotion is easy to compare weekly photos baby purchases announcements and constant conversation",
+      "intro_3_paragraphs": "Visible emotion is easy to compare: weekly photos, baby purchases, announcements and constant conversation. What you do not see are the neutral hours, private fears, exhaustion or doubts that may exist outside that frame. When you compare your entire internal experience with the most shareable part of someone else's pregnancy, yours will almost always look messier. You may not envy her pregnancy at all. You may envy how easily she shows emotion, the energy she has for preparation or the confidence with which she talks about the future.",
+      "last_h2": "Use language that belongs to your actual pregnancy",
+      "ending_3_paragraphs": "Your honest description might be: “I'm still taking it in,” “I'm happy and nervous,” “I'm not much of a ritual person,” or “most days I feel pretty normal.” A less dramatic story can be more accurate. You do not need to become the most excited pregnant person in the room to have a valid pregnancy. You are not doing pregnancy worse because someone else expresses more excitement. Your experience can be quieter, more mixed or more private and still contain desire, care and room for a relationship that is just beginning.",
+      "risk_score": 9,
+      "risk_reasons": [
+        "body_under_350_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1112-fear-not-knowing-how-to-care-for-newborn-first-time-mom.json",
+      "article_number": 1112,
+      "translation_group": "1112-fear-not-knowing-how-to-care-for-newborn-first-time-mom",
+      "language": "en",
+      "title": "Fear you won't know how to care for a newborn as a first-time mom",
+      "words": 321,
+      "paragraphs": 10,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.46,
+      "h2s": [
+        "Separate concrete skills from a global feeling of incompetence",
+        "Plan where you will learn instead of trying to know everything",
+        "Expect early awkwardness without turning it into evidence",
+        "Good care includes getting help"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 28.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 4,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "If you have never spent much time around newborns, even basic care can look like secret knowledge everyone else received automatically. You watch someone pick up a baby confidently and assume you are supposed to feel that comfortable before yours is born.",
+      "opening_14_words": "If you have never spent much time around newborns even basic care can look",
+      "intro_3_paragraphs": "If you have never spent much time around newborns, even basic care can look like secret knowledge everyone else received automatically. You watch someone pick up a baby confidently and assume you are supposed to feel that comfortable before yours is born. Not knowing yet is different from being unable to learn. A first-time mother begins, by definition, without previous experience with this particular baby. “I won't know how to care for the baby” is too large to work with. Break it into learnable tasks: changing, dressing, holding, preparing the space, asking questions, and recognizing when something needs professional input.",
+      "last_h2": "Good care includes getting help",
+      "ending_3_paragraphs": "Make room to say “I don't know” without making it a statement about your worth. Responsible caregiving is not the ability to solve every uncertainty alone. Preparation includes knowing whom to contact when you are worried and having professional channels for questions that go beyond everyday uncertainty. Your baby does not need you to arrive at birth as an expert. They need caregivers who can notice, learn, ask for help, and adjust.",
+      "risk_score": 9,
+      "risk_reasons": [
+        "body_under_350_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1113-what-have-i-gotten-into-wanted-pregnancy.json",
+      "article_number": 1113,
+      "translation_group": "1113-what-have-i-gotten-into-wanted-pregnancy",
+      "language": "en",
+      "title": "Thinking “what have I gotten myself into?” during a pregnancy you wanted",
+      "words": 331,
+      "paragraphs": 10,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 12.08,
+      "h2s": [
+        "Wanting it before does not remove the impact of it becoming real",
+        "Do not turn one thought into a confession",
+        "Ask which part feels frightening right now",
+        "Talk with someone who does not demand excitement"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 29.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.1,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 10,
+        "importante": 2,
+        "clave": 0
+      },
+      "opening": "Some choices can be deeply wanted and still feel enormous when they stop being hypothetical. “We want a baby” becomes “there is going to be an actual baby in our life.” That change in scale can produce excitement and a sudden drop in your stomach at the same time.",
+      "opening_14_words": "Some choices can be deeply wanted and still feel enormous when they stop being",
+      "intro_3_paragraphs": "Some choices can be deeply wanted and still feel enormous when they stop being hypothetical. “We want a baby” becomes “there is going to be an actual baby in our life.” That change in scale can produce excitement and a sudden drop in your stomach at the same time. Thinking “what have I gotten into?” does not automatically mean you do not want the pregnancy. It can be your mind catching up with a reality that is permanent and still hard to imagine. Before pregnancy, you were thinking about a possibility. Afterward, your mind begins scanning birth, body changes, schedules, money, work, partnership, and identity. Questions appear because the consequences are no longer abstract.",
+      "last_h2": "Talk with someone who does not demand excitement",
+      "ending_3_paragraphs": "Some can be planned for; others require accepting that you do not have all the information yet. A partner, friend, or professional who can hear ambivalence without replying “but you wanted this” can be valuable. If distress becomes intense, persistent, or interferes with daily functioning, it deserves professional attention. Wanting an important change does not obligate you to feel calm when it finally arrives. You can be glad and frightened inside the same story.",
+      "risk_score": 9,
+      "risk_reasons": [
+        "body_under_350_words",
+        "high_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/en/1114-doubt-whether-you-were-ready-after-pregnancy.json",
+      "article_number": 1114,
+      "translation_group": "1114-doubt-whether-you-were-ready-after-pregnancy",
+      "language": "en",
+      "title": "Doubting whether you were ready to become a mother after getting pregnant",
+      "words": 296,
+      "paragraphs": 10,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 13.51,
+      "h2s": [
+        "Separate readiness from having no doubts",
+        "Ask what new information has actually changed",
+        "Let preparation continue during pregnancy",
+        "Do not use present doubt to rewrite your past decision"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 26.8,
+      "short_paragraph_ratio": 0.1,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 1,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 5,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Before pregnancy, you may have looked at finances, talked with your partner, thought about work and housing, and reasonably decided: we can do this. After a positive test, the same life can suddenly feel far less prepared.",
+      "opening_14_words": "Before pregnancy you may have looked at finances talked with your partner thought about",
+      "intro_3_paragraphs": "Before pregnancy, you may have looked at finances, talked with your partner, thought about work and housing, and reasonably decided: we can do this. After a positive test, the same life can suddenly feel far less prepared. Readiness is not a permanent feeling you earn before pregnancy and keep forever. It often changes when possibility becomes concrete responsibility. If being ready means feeling no fear, having no unanswered questions, and knowing how every stage will work, almost no one could qualify. Real preparation is usually partial: some resources, some conversations, and the capacity to respond when new information appears.",
+      "last_h2": "Do not use present doubt to rewrite your past decision",
+      "ending_3_paragraphs": "Preparation also includes accepting that some things will only make sense once you are living them. Your mind may look backward and say, “If I'm scared now, maybe I was never ready.” That turns a current emotion into a complete retrospective judgment. You can have made a reasonable decision with the information you had and still need time to adjust to what that decision now means.",
       "risk_score": 9,
       "risk_reasons": [
         "body_under_350_words",
@@ -7443,19 +7443,59 @@
       "translation_group": "111-simplify-too-long-bedtime-routine",
       "language": "en",
       "title": "How to simplify a bedtime routine that has become too long",
-      "words": 366,
-      "paragraphs": 10,
+      "words": 1052,
+      "paragraphs": 20,
       "h2_count": 4,
-      "h2_density_per_1000_words": 10.93,
+      "h2_density_per_1000_words": 3.8,
       "h2s": [
-        "Separate connection from accumulation",
-        "Make the ending visible at the start",
-        "Edit one piece instead of rebuilding everything",
-        "Keep room for nights that genuinely need more"
+        "Find the anchors before you start cutting",
+        "Reduce decisions, not just activities",
+        "Edit in layers instead of demolishing the whole routine",
+        "Decide what can flex and what actually ends the routine"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 34.0,
+      "avg_paragraph_words": 51.0,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 1,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 16,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Bedtime routines rarely become enormous because a parent deliberately designs them that way. They grow by accumulation. A second story gets added after a rough day. A song helps for a while. Water starts being fetched after your child is already in bed. Then there is a hunt for the missing stuffed animal and, just when you thought the evening was over, your child suddenly needs to tell you everything that happened at school.",
+      "opening_14_words": "Bedtime routines rarely become enormous because a parent deliberately designs them that way They",
+      "intro_3_paragraphs": "Bedtime routines rarely become enormous because a parent deliberately designs them that way. They grow by accumulation. A second story gets added after a rough day. A song helps for a while. Water starts being fetched after your child is already in bed. Then there is a hunt for the missing stuffed animal and, just when you thought the evening was over, your child suddenly needs to tell you everything that happened at school. Each piece can make sense on its own. The problem begins when every useful exception quietly turns into a nightly requirement. Bedtime stops feeling like a sequence that helps everyone wind down and starts feeling like a course you have to complete before you are allowed to leave the room. Simplifying bedtime is not about removing affection to save minutes. It is about separating the parts that truly help the transition from the parts that stayed because no one ever removed them.",
+      "last_h2": "Decide what can flex and what actually ends the routine",
+      "ending_3_paragraphs": "Give the ending a recognizable form too. A phrase, turning off a lamp, putting the book away, or the final hug can signal that there are no more decisions about what happens next. Your child may still dislike that moment. Lack of protest is not the measure of success; a clear and repeatable ending is. When simplification works, something else often improves: the pieces that remain feel less rushed. A story can be enjoyed instead of endured because the adult is no longer thinking about six more steps. The cuddle can actually be a cuddle rather than the pause before the next negotiation. The best bedtime routine is not the most complete or the shortest. It is the one that keeps enough connection and predictability to close the day without requiring more energy every night than the family can realistically give.",
+      "risk_score": 0,
+      "risk_reasons": []
+    },
+    {
+      "path": "content/articles/en/112-bedtime-story-routine-anchor.json",
+      "article_number": 112,
+      "translation_group": "112-bedtime-story-routine-anchor",
+      "language": "en",
+      "title": "How to make a bedtime story an anchor in the nightly routine",
+      "words": 861,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.65,
+      "h2s": [
+        "Put reading near the end, after most of the practical tasks",
+        "Choose a reading amount that works on ordinary nights",
+        "Invite participation without turning the bookshelf into another negotiation",
+        "Keep the story from becoming either a bargaining chip or a burden"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 45.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -7464,63 +7504,19 @@
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
-        "a_veces": 0,
-        "puede": 3,
+        "a_veces": 2,
+        "puede": 16,
         "importante": 1,
         "clave": 0
       },
-      "opening": "Most bedtime routines do not become long overnight. A second book gets added because everyone enjoys it. A song helps on a hard night. A glass of water becomes standard. Then there is one more trip to find a stuffed animal and ten minutes of conversation because bedtime is suddenly when your child wants to tell you everything.",
-      "opening_14_words": "Most bedtime routines do not become long overnight A second book gets added because",
-      "intro_3_paragraphs": "Most bedtime routines do not become long overnight. A second book gets added because everyone enjoys it. A song helps on a hard night. A glass of water becomes standard. Then there is one more trip to find a stuffed animal and ten minutes of conversation because bedtime is suddenly when your child wants to tell you everything. A useful routine is not the one that contains every comforting thing. It is the one with a beginning, a sequence, and an ending your family can repeat without dreading it. Notice which parts actually matter. The story may be your strongest moment of connection, while choosing among five pajamas, searching for missing toys, and negotiating a new song are just layers that collected around it.",
-      "last_h2": "Keep room for nights that genuinely need more",
-      "ending_3_paragraphs": "Once the shorter version feels normal, you can decide whether another change is necessary. Illness, fear, travel, or a hard day may call for extra closeness. Extending bedtime on those nights does not destroy the routine. The important distinction is whether you are making a conscious exception or accidentally adding a permanent new requirement. The goal is not the fastest possible bedtime. It is a routine that stops expanding by default and starts doing its original job again: helping everyone recognize that the day is ending.",
-      "risk_score": 7,
+      "opening": "A bedtime story can look like one small piece of an evening full of practical tasks, but that is part of what makes it useful. Bathing, brushing teeth, and pajamas prepare bodies and bedrooms. Reading can mark the moment when the logistics are mostly over and the family has entered the closing part of the day.",
+      "opening_14_words": "A bedtime story can look like one small piece of an evening full of",
+      "intro_3_paragraphs": "A bedtime story can look like one small piece of an evening full of practical tasks, but that is part of what makes it useful. Bathing, brushing teeth, and pajamas prepare bodies and bedrooms. Reading can mark the moment when the logistics are mostly over and the family has entered the closing part of the day. The book does not have to make your child sleepy, and your child does not have to sit perfectly still. What makes reading recognizable is the repeated scene: you settle in a familiar place, the pace slows, attention becomes more focused, and everyone knows there are only a few steps left afterward. A bedtime story works as an anchor when it helps locate your child in the evening, not when it becomes a perfect performance you must reproduce no matter how tired everyone is.",
+      "last_h2": "Keep the story from becoming either a bargaining chip or a burden",
+      "ending_3_paragraphs": "The opposite problem is believing the story must happen no matter what. Travel, illness, late arrivals, or plain exhaustion can produce a no-book night. That does not erase the routine. Keep another familiar goodnight cue and return to reading when the family has capacity again. The ritual can also evolve. A child who once wanted picture books may later prefer a few minutes of conversation, independent reading, or taking turns reading aloud. The form can change while the function stays recognizable. A bedtime story does not have to be the most magical moment of the day. It needs to be simple enough to return often and flexible enough to keep belonging to your family as ages, books, schedules, and available energy change.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/112-bedtime-story-routine-anchor.json",
-      "article_number": 112,
-      "translation_group": "112-bedtime-story-routine-anchor",
-      "language": "en",
-      "title": "How to make a bedtime story an anchor in the nightly routine",
-      "words": 330,
-      "paragraphs": 10,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 12.12,
-      "h2s": [
-        "Put reading after the logistics",
-        "Choose an amount you can actually sustain",
-        "Offer participation inside a clear frame",
-        "Let imperfect reading nights still count"
-      ],
-      "list_items": 0,
-      "bold_spans": 2,
-      "avg_paragraph_words": 30.6,
-      "short_paragraph_ratio": 0.1,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 5,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "A story can become one of the clearest signals that bedtime has entered a different phase. Reading does not automatically make a child sleepy, but it changes the pace: less movement, a familiar voice, a predictable place, and a few minutes in which everyone stops moving through household tasks.",
-      "opening_14_words": "A story can become one of the clearest signals that bedtime has entered a",
-      "intro_3_paragraphs": "A story can become one of the clearest signals that bedtime has entered a different phase. Reading does not automatically make a child sleepy, but it changes the pace: less movement, a familiar voice, a predictable place, and a few minutes in which everyone stops moving through household tasks. For a story to work as an anchor, it needs to be repeatable more than impressive. Stories are easier to experience as a closing ritual when teeth, pajamas, bathroom trips, and water are mostly finished first. If you begin reading and then repeatedly get up to complete unfinished tasks, the story becomes another stop in the middle rather than the beginning of the end.",
-      "last_h2": "Let imperfect reading nights still count",
-      "ending_3_paragraphs": "The sweet spot is meaningful choice inside a structure the adult can keep. Some children wiggle, interrupt, skip pages, or only want to look at pictures. Some nights you may not read at all. None of that means the ritual has failed. A bedtime story becomes an anchor because it returns over time, not because every reading session is calm, educational, or picture-perfect.",
-      "risk_score": 9,
-      "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -7529,41 +7525,40 @@
       "translation_group": "113-music-light-environment-sleep-cues",
       "language": "en",
       "title": "How to use music, light, and the room as signals for rest",
-      "words": 333,
-      "paragraphs": 10,
+      "words": 849,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 12.01,
+      "h2_density_per_1000_words": 4.71,
       "h2s": [
-        "Pick one or two changes you can repeat",
-        "Let the environment support the routine",
-        "Create a gradual drop in stimulation",
-        "Choose cues that can travel"
+        "Choose a few cues that survive ordinary family life",
+        "Build a slope from active to quiet instead of flipping a switch",
+        "Keep a useful cue from becoming a fragile requirement",
+        "Make the environment reduce work rather than create more of it"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 30.8,
+      "avg_paragraph_words": 44.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
+        "no_necesitas": 3,
         "no_significa": 0,
-        "a_veces": 0,
-        "puede": 4,
-        "importante": 0,
+        "a_veces": 1,
+        "puede": 14,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "“Sleep environment” can quickly sound like a shopping list: blackout curtains, sound machines, a certain lamp, a specific playlist. But the most useful cue is often consistency. A few things change as evening arrives, and those changes happen often enough to become recognizable.",
-      "opening_14_words": "Sleep environment can quickly sound like a shopping list blackout curtains sound machines a",
-      "intro_3_paragraphs": "“Sleep environment” can quickly sound like a shopping list: blackout curtains, sound machines, a certain lamp, a specific playlist. But the most useful cue is often consistency. A few things change as evening arrives, and those changes happen often enough to become recognizable. Light, sound, and room setup work best as transition signals, not as perfect conditions your child must have in order to sleep. You might turn off the bright overhead light, switch to a warmer lamp, lower the general volume in the house, or use the same calm playlist while pajamas go on. You do not need every possible cue.",
-      "last_h2": "Choose cues that can travel",
-      "ending_3_paragraphs": "The whole house does not need to become silent. It only needs to send a more consistent message as bedtime approaches. A short song, a familiar phrase, a small night-light, or the same order of two bedtime steps can travel more easily than an entire room setup. Portable cues are useful because they preserve recognition without requiring you to recreate home perfectly. The goal is not a flawless sleep environment. It is enough repeated information that the end of the day still feels familiar when everything else is not perfectly controlled.",
-      "risk_score": 9,
+      "opening": "“Sleep environment” can turn a simple idea into a shopping list surprisingly fast: blackout curtains, a sound machine, a particular lamp, a special playlist, maybe several products marketed as calming. Some families genuinely like those tools. But the room's most useful job is more basic: helping the end of the day feel different from the middle of it.",
+      "opening_14_words": "Sleep environment can turn a simple idea into a shopping list surprisingly fast blackout",
+      "intro_3_paragraphs": "“Sleep environment” can turn a simple idea into a shopping list surprisingly fast: blackout curtains, a sound machine, a particular lamp, a special playlist, maybe several products marketed as calming. Some families genuinely like those tools. But the room's most useful job is more basic: helping the end of the day feel different from the middle of it. Children notice repeated changes even when no one explains them. If the house stays bright, loud, physically active, and full of choices until the second bedtime begins, the shift can feel abrupt. When light, sound, and activity gradually change, the routine gets more context before anyone says “time for bed.” Environmental cues are most helpful when they support a recognizable sequence, not when they become a set of perfect conditions everyone believes must be reproduced for sleep to happen.",
+      "last_h2": "Make the environment reduce work rather than create more of it",
+      "ending_3_paragraphs": "A useful cue should simplify. Maybe after teeth are brushed, the bright light simply does not come back on. Maybe the music always ends when the story starts. Maybe the door stays in a familiar position after goodnight. Small repeated details can create continuity without turning bedtime into technical production. Cues can also evolve. Music that helped at age two may become distracting later. A night-light may matter for a season and then stop mattering. A shared bedroom may require a different arrangement than a private one. Changing the cue is not the same as losing the routine. You do not need to manufacture a perfect bedroom to make bedtime recognizable. A few consistent changes in light, sound, and pace can create a useful bridge toward rest as long as they remain tools your family uses, not rules your family has to serve.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -7572,41 +7567,40 @@
       "translation_group": "114-fear-being-alone-at-bedtime",
       "language": "en",
       "title": "How to support a child who is afraid to be alone at bedtime",
-      "words": 344,
-      "paragraphs": 10,
+      "words": 877,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 11.63,
+      "h2_density_per_1000_words": 4.56,
       "h2s": [
-        "Name the experience without debating it",
-        "Create a predictable separation ritual",
-        "Practice manageable amounts of distance",
-        "Notice when fear is becoming bigger than bedtime"
+        "Respond to the feeling without putting the fear on trial",
+        "Create a goodbye that is warm and finite",
+        "If you want to reduce adult presence, make the path understandable",
+        "Look at the larger pattern, not only the final minutes"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 32.0,
+      "avg_paragraph_words": 46.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.1,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
         "a_veces": 0,
-        "puede": 8,
-        "importante": 1,
+        "puede": 18,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "Bedtime combines two things that can feel hard to a child: stimulation drops and separation becomes obvious. During the day there is movement, noise, and easy access to adults. At night the room gets quiet and your child knows you are about to leave.",
-      "opening_14_words": "Bedtime combines two things that can feel hard to a child stimulation drops and",
-      "intro_3_paragraphs": "Bedtime combines two things that can feel hard to a child: stimulation drops and separation becomes obvious. During the day there is movement, noise, and easy access to adults. At night the room gets quiet and your child knows you are about to leave. Validating fear does not mean agreeing that danger is present. It means recognizing the feeling while helping your child build a tolerable way to stay in bed without you beside them. “You really don't want me to leave yet” is often more useful than “there is nothing to be scared of.” You can communicate safety without trying to convince a frightened nervous system that it is being unreasonable.",
-      "last_h2": "Notice when fear is becoming bigger than bedtime",
-      "ending_3_paragraphs": "You can adjust the pace without treating each night as a test your child passes or fails. Bedtime fears often change with developmental stages, stories, travel, stress, or unfamiliar events. If fear is intense, persistent, shows up strongly during the day, or significantly interferes with family life, it is reasonable to talk with your child's health professional. The goal is not to eliminate every fearful feeling before sleep. It is to help your child discover that fear can be present for a moment and separation can still be manageable with support.",
-      "risk_score": 9,
+      "opening": "Bedtime removes many of the distractions that keep worries in the background during the day. The house gets quieter, the lights change, and one separation becomes very obvious: the caregiver says goodnight and leaves. A child who seems confident all afternoon can still find that specific moment hard.",
+      "opening_14_words": "Bedtime removes many of the distractions that keep worries in the background during the",
+      "intro_3_paragraphs": "Bedtime removes many of the distractions that keep worries in the background during the day. The house gets quieter, the lights change, and one separation becomes very obvious: the caregiver says goodnight and leaves. A child who seems confident all afternoon can still find that specific moment hard. Parents often get pulled toward one of two extremes. One is trying to prove the fear is unreasonable: “There's nothing there. You're fine.” The other is reorganizing the entire night so the child never has to feel uneasy. Neither approach necessarily builds a separation the family can live with. Validating bedtime fear does not mean confirming that danger is present. It means recognizing your child's experience while keeping a structure that lets them gradually discover they can move through the feeling with support.",
+      "last_h2": "Look at the larger pattern, not only the final minutes",
+      "ending_3_paragraphs": "If the main issue is a stream of requests after the routine has ended, the problem is more about how the family responds to reopened bedtime. If your child repeatedly leaves the room, you may need a consistent response to those exits. Here, the focus is narrower: supporting a child who is genuinely distressed by nighttime separation. Many bedtime fears shift with development and familiarity. If fear is intense, persists, spreads clearly into daytime, or significantly interferes with your child's or family's daily life, it is reasonable to bring the pattern to your child's health professional for individualized guidance. The goal is not to remove every fearful feeling before your child can stay in bed. It is to provide enough safety, clarity, and repetition that they discover the feeling can be present and the separation can still become manageable without fear organizing the whole night.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -7615,41 +7609,40 @@
       "translation_group": "115-lights-out-protest-without-threats-rewards",
       "language": "en",
       "title": "How to handle lights-out protests without threats or rewards",
-      "words": 316,
-      "paragraphs": 10,
+      "words": 877,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 12.66,
+      "h2_density_per_1000_words": 4.56,
       "h2s": [
-        "Make the ending visible before it happens",
-        "Respond to the feeling without reopening the decision",
-        "Do not make prizes and threats the engine of bedtime",
-        "Expect repetition without escalation"
+        "Make lights out predictable before you reach for the switch",
+        "Acknowledge the disagreement without turning it back into a decision",
+        "Do not let prizes and threats become the real bedtime ritual",
+        "Measure success by stability, not instant happiness"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 28.7,
+      "avg_paragraph_words": 46.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 0,
-        "a_veces": 1,
-        "puede": 5,
+        "a_veces": 0,
+        "puede": 10,
         "importante": 0,
         "clave": 0
       },
-      "opening": "The routine may go reasonably well until the final action: the light turns off. Suddenly there is yelling, “I'm not tired,” another hug, another question, or a surprisingly creative proposal for five more minutes.",
-      "opening_14_words": "The routine may go reasonably well until the final action the light turns off",
-      "intro_3_paragraphs": "The routine may go reasonably well until the final action: the light turns off. Suddenly there is yelling, “I'm not tired,” another hug, another question, or a surprisingly creative proposal for five more minutes. Protest does not automatically mean the boundary is wrong. Sometimes it means the boundary has finally become real. If your child is absorbed in a book and the room suddenly goes dark, the transition can feel abrupt. A repeated preview — “finish this book, cuddle, lights out” — tells them where the ending is before you reach it.",
-      "last_h2": "Expect repetition without escalation",
-      "ending_3_paragraphs": "A simple repeatable boundary usually requires less mental energy than inventing a new consequence every night. Some boundaries do not become easy because you explain them better. They become familiar because they are repeated. Use the same short language, the same goodnight, and resist raising your intensity to match the protest. The goal is not a child who is delighted when the light goes off. It is a child who can be unhappy about the ending and still experience it as safe, predictable, and stable.",
-      "risk_score": 9,
+      "opening": "Some evenings go surprisingly smoothly until the very last action. Bath is over, pajamas are on, the book ends without an argument, and your child accepts the cuddle. Then your hand moves toward the switch and suddenly there is yelling, crying, “I'm not tired,” or a determined announcement that bedtime is absolutely not happening.",
+      "opening_14_words": "Some evenings go surprisingly smoothly until the very last action Bath is over pajamas",
+      "intro_3_paragraphs": "Some evenings go surprisingly smoothly until the very last action. Bath is over, pajamas are on, the book ends without an argument, and your child accepts the cuddle. Then your hand moves toward the switch and suddenly there is yelling, crying, “I'm not tired,” or a determined announcement that bedtime is absolutely not happening. Lights out concentrates something the earlier steps still allowed everyone to avoid: the routine is actually ending. As long as another story, song, or task remains, there is still activity and adult company. Turning off the light makes the boundary visible. Protest at that moment does not automatically mean the bedtime, routine, or limit is wrong. Often it is simply a child's reaction to an ending they would rather postpone.",
+      "last_h2": "Measure success by stability, not instant happiness",
+      "ending_3_paragraphs": "Try different questions. Does the adult know what they will say and do? Does the goodbye stay shorter because the whole routine is not reopening? Can the child be angry without the adult escalating too? Does tonight's response resemble yesterday's? Real exceptions will happen. A hard day may call for more closeness, and illness can change the whole plan. Responding to an actual need does not erase the boundary. The difference is choosing an exception deliberately rather than treating every protest as proof that the ending must be renegotiated from scratch. Lights out does not have to end with a cheerful child in order to be respectful. Disappointment, anger, and a wish for more time together can all be present while the adult offers a warm, predictable, sufficiently firm ending that does not depend on threats, prizes, or another round of bargaining.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -7658,41 +7651,40 @@
       "translation_group": "116-child-keeps-getting-out-of-bed",
       "language": "en",
       "title": "How to respond when your child keeps getting out of bed",
-      "words": 334,
-      "paragraphs": 10,
+      "words": 786,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 11.98,
+      "h2_density_per_1000_words": 5.09,
       "h2s": [
-        "Handle predictable needs before the ending",
-        "Make the return boringly predictable",
-        "Do not judge the plan by one night",
-        "Check whether the real issue starts earlier"
+        "Separate real needs from opportunities to reopen bedtime",
+        "Make the return kind and uninteresting",
+        "Do not decide the approach failed after one difficult night",
+        "If the exits continue, look at what happens before the first one"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 30.8,
+      "avg_paragraph_words": 44.1,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 4,
-        "importante": 0,
+        "no_significa": 2,
+        "a_veces": 2,
+        "puede": 10,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "The first exit may have a reasonable explanation: water. The second is another hug. By the fifth, your child is basically making a social visit to the hallway. When getting up reliably reopens interaction, leaving bed can become a stable part of bedtime.",
-      "opening_14_words": "The first exit may have a reasonable explanation water The second is another hug",
-      "intro_3_paragraphs": "The first exit may have a reasonable explanation: water. The second is another hug. By the fifth, your child is basically making a social visit to the hallway. When getting up reliably reopens interaction, leaving bed can become a stable part of bedtime. The useful move is usually not a new response for every exit. It is making every exit lead to the same place: back to bed with as little novelty as possible. Bathroom, water, comfort object, room comfort, and goodnight can be addressed before lights out. This will not erase every request, but it removes some legitimate reasons to restart the routine.",
-      "last_h2": "Check whether the real issue starts earlier",
-      "ending_3_paragraphs": "Look at the direction over several days instead of deciding after each bedtime that the approach has failed. Repeated exits can be the surface of another problem: the routine ends too abruptly, your child is afraid to be alone, the timing no longer fits, or family schedules have shifted. Escorting back is not a substitute for noticing the larger pattern. The goal is not to win a contest of endurance. It is to make getting out of bed stop being the most interesting and negotiable part of the night.",
-      "risk_score": 9,
+      "opening": "Once a child can leave bed without adult help, bedtime changes in a practical way. The boundary is no longer partly contained by the sleep space itself. Your child can physically test what “goodnight” means by walking into the hallway, appearing in the living room, and seeing what happens next.",
+      "opening_14_words": "Once a child can leave bed without adult help bedtime changes in a practical",
+      "intro_3_paragraphs": "Once a child can leave bed without adult help, bedtime changes in a practical way. The boundary is no longer partly contained by the sleep space itself. Your child can physically test what “goodnight” means by walking into the hallway, appearing in the living room, and seeing what happens next. The first trip often sounds reasonable: water. The second brings another hug. The third comes with a very important question. Before long, the parent feels trapped in a nightly chase while the child learns that getting up produces conversation, attention, and sometimes an entirely new piece of bedtime. The useful response is usually not a different solution for every exit. It is making most exits lead to the same outcome: handle what genuinely needs handling, then return to bed with very little novelty.",
+      "last_h2": "If the exits continue, look at what happens before the first one",
+      "ending_3_paragraphs": "There can also be a definition problem. If “goodnight” is routinely followed by long conversations, play with a parent who comes home late, or several new choices, being in bed does not actually mark a clear ending. Review those issues outside the episode. At night, keep the return simple. During the day, when no one is exhausted, adjust the routine, room, or expectations if the larger pattern points there. When a child keeps getting out of bed, the goal is not to trap them inside a perfect rule. It is to make the route back predictable, meet real needs without restarting the night, and help getting up stop being the most interesting and negotiable part of bedtime.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -7701,41 +7693,40 @@
       "translation_group": "117-transition-to-child-bed-without-big-conflict",
       "language": "en",
       "title": "How to move to a child bed without turning it into a major conflict",
-      "words": 306,
-      "paragraphs": 10,
+      "words": 768,
+      "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 13.07,
+      "h2_density_per_1000_words": 5.21,
       "h2s": [
-        "Explain what changes and what stays familiar",
-        "Prepare for new mobility",
-        "Expect some testing of the new freedom",
-        "Do not turn the bed into a maturity test"
+        "Explain the concrete change and keep what already works",
+        "Prepare the room for a child who can now move freely",
+        "Expect exploration without treating every exit as proof the transition failed",
+        "Let the bed become normal before asking it to symbolize independence"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 27.9,
-      "short_paragraph_ratio": 0.1,
+      "avg_paragraph_words": 45.4,
+      "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.062,
+      "long_paragraphs": 1,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 2,
+        "puede": 14,
         "importante": 0,
         "clave": 0
       },
-      "opening": "A new bed may be exciting during the day and highly experimental at night. For a young child, it is not simply a bigger place to sleep. It changes the physical boundary of bedtime because they can now get up without adult help.",
-      "opening_14_words": "A new bed may be exciting during the day and highly experimental at night",
-      "intro_3_paragraphs": "A new bed may be exciting during the day and highly experimental at night. For a young child, it is not simply a bigger place to sleep. It changes the physical boundary of bedtime because they can now get up without adult help. The more continuity you preserve around the bed change, the less your child has to learn in a single night. Talk about where the bed will be, what favorite items remain, and how bedtime will still work. You do not have to market the transition as a huge milestone if your child does not experience it that way.",
-      "last_h2": "Do not turn the bed into a maturity test",
-      "ending_3_paragraphs": "A calm, predictable return helps the novelty lose some of its power. Your child may need more closeness some nights or miss the previous setup. Avoid making the transition proof that they are “big” rather than “a baby.” The goal is not instant independence. It is for the new bed to become, through repetition, another familiar place where the day ends.",
-      "risk_score": 9,
+      "opening": "From an adult perspective, moving to a child bed can look like a fairly concrete project: remove one piece of furniture, put another in its place, and carry on. For a young child, the change also removes a physical boundary. They can now get into and out of bed on their own. That new freedom can be exciting in the afternoon and much harder to manage when the day is ending.",
+      "opening_14_words": "From an adult perspective moving to a child bed can look like a fairly",
+      "intro_3_paragraphs": "From an adult perspective, moving to a child bed can look like a fairly concrete project: remove one piece of furniture, put another in its place, and carry on. For a young child, the change also removes a physical boundary. They can now get into and out of bed on their own. That new freedom can be exciting in the afternoon and much harder to manage when the day is ending. The transition does not need the additional pressure of instant independence. Your child is learning a new sleep space, a new boundary, and possibly new expectations about what happens after goodnight or after a nighttime wake-up. The more continuity you preserve around the bed change, the less the whole family has to learn on the same night.",
+      "last_h2": "Let the bed become normal before asking it to symbolize independence",
+      "ending_3_paragraphs": "If your child needs more connection for a few nights, you can offer it without declaring the transition a failure. You can also keep adult limits in view. Supporting a change does not require promising a form of bedtime presence the family cannot sustain indefinitely. Over time, the new bed begins collecting ordinary nights: stories, wake-ups, easy evenings, difficult evenings, and familiar mornings. That accumulation matters more than whether the first night looks smooth. The goal of moving to a child bed is not to prove that your child can suddenly do bedtime alone. It is to create an appropriate environment, preserve familiar cues, and support the new freedom until the bed stops being an experiment and becomes simply the place where the day ends.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -7744,41 +7735,40 @@
       "translation_group": "118-floor-bed-autonomy-considerations",
       "language": "en",
       "title": "Floor beds: what they can offer for autonomy and what to consider",
-      "words": 324,
-      "paragraphs": 10,
+      "words": 746,
+      "paragraphs": 15,
       "h2_count": 4,
-      "h2_density_per_1000_words": 12.35,
+      "h2_density_per_1000_words": 5.36,
       "h2s": [
-        "Define the autonomy you actually want",
-        "Evaluate the whole room, not only the mattress",
-        "Expect the routine to change too",
-        "Keep furniture choices separate from parenting identity"
+        "Define the independence you actually hope to support",
+        "Evaluate the whole room, not only the look of the bed",
+        "Imagine how bedtime changes before buying into the whole idea",
+        "Keep the furniture choice separate from parenting identity"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 29.7,
-      "short_paragraph_ratio": 0.1,
+      "avg_paragraph_words": 47.3,
+      "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.133,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 5,
-        "importante": 0,
+        "puede": 11,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "Floor beds are often discussed through the language of independence: a child can get in and out without help, access the sleep space freely, and move around more independently. That freedom may fit some families beautifully and create new work for others.",
-      "opening_14_words": "Floor beds are often discussed through the language of independence a child can get",
-      "intro_3_paragraphs": "Floor beds are often discussed through the language of independence: a child can get in and out without help, access the sleep space freely, and move around more independently. That freedom may fit some families beautifully and create new work for others. A floor bed is not simply a lower bed. It changes where the boundary lives. When a child can get up freely, the whole room becomes part of the nighttime environment. Maybe you want your child to lie down to look at books independently, get up without calling for help, or participate more actively in bedtime. Name the concrete benefit. “More autonomy” is too broad to make the decision by itself.",
-      "last_h2": "Keep furniture choices separate from parenting identity",
-      "ending_3_paragraphs": "The bed may support independence, but it does not remove the need for bedtime cues and limits. A floor bed can work well, not work, or work only for one season. You do not have to defend it as superior, and a traditional bed does not make a family less respectful of autonomy. The useful choice is the one that combines an appropriate environment, a routine you can sustain, and an amount of freedom your family is ready to support.",
-      "risk_score": 9,
+      "opening": "Floor beds are often discussed as if the furniture itself represents an entire approach to independence. The image is appealing: a child can get into and out of the sleep space without adult help, lie down with a book, and move around more freely. But that freedom does not happen in isolation. It changes what the family has to organize and where nighttime boundaries live.",
+      "opening_14_words": "Floor beds are often discussed as if the furniture itself represents an entire approach",
+      "intro_3_paragraphs": "Floor beds are often discussed as if the furniture itself represents an entire approach to independence. The image is appealing: a child can get into and out of the sleep space without adult help, lie down with a book, and move around more freely. But that freedom does not happen in isolation. It changes what the family has to organize and where nighttime boundaries live. A floor bed is not simply a traditional bed placed lower. Once a child can move freely, part of the boundary shifts from the furniture to the entire room. “I want to encourage autonomy” is a reasonable goal, but it is too broad to choose a sleep setup on its own. Translate it into specific moments. Do you want your child to climb into bed independently for rest? To get up without being lifted? To take a more active role in arranging a blanket or choosing a bedtime book?",
+      "last_h2": "Keep the furniture choice separate from parenting identity",
+      "ending_3_paragraphs": "Online parenting culture can turn ordinary objects into symbols of an entire method. That makes it harder to revise a choice when it stops being practical. If the setup creates too much supervision, disrupts family rest, or makes the room hard to manage, you can change it without abandoning respect for your child's independence. Likewise, a traditional bed does not prevent a child from having agency, participation, or growing access to their environment. The bed is one tool inside a particular home, not a measure of how much trust a family places in a child. The useful question is not whether a floor bed is “better.” It is whether the freedom it offers, the responsibility it shifts to the room, and the routine it requires fit your child, your space, and the amount of nighttime support your family can realistically sustain.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -7787,41 +7777,40 @@
       "translation_group": "119-siblings-sharing-room-sleep-space-expectations",
       "language": "en",
       "title": "Siblings sharing a room: how to organize sleep, space, and expectations",
-      "words": 293,
-      "paragraphs": 10,
+      "words": 768,
+      "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 13.65,
+      "h2_density_per_1000_words": 5.21,
       "h2s": [
-        "Choose which parts of bedtime should be shared",
-        "Create personal territory inside the shared space",
-        "Plan for the child who stays awake longer",
-        "Expect an adjustment period"
+        "Combine the parts that actually simplify bedtime",
+        "Create personal territory inside the shared room",
+        "Plan for the later sleeper and the earlier riser",
+        "Allow some sibling connection without leaving the whole night open"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 26.6,
-      "short_paragraph_ratio": 0.1,
+      "avg_paragraph_words": 45.9,
+      "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.125,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 0,
+        "no_significa": 2,
         "a_veces": 0,
-        "puede": 3,
+        "puede": 11,
         "importante": 0,
         "clave": 0
       },
-      "opening": "A shared room may be practical, necessary, or something siblings genuinely enjoy. It also introduces new variables: one takes longer to fall asleep, another wakes earlier, one wants to talk, and the other needs quiet. The answer is rarely to force both children onto the exact same rhythm.",
-      "opening_14_words": "A shared room may be practical necessary or something siblings genuinely enjoy It also",
-      "intro_3_paragraphs": "A shared room may be practical, necessary, or something siblings genuinely enjoy. It also introduces new variables: one takes longer to fall asleep, another wakes earlier, one wants to talk, and the other needs quiet. The answer is rarely to force both children onto the exact same rhythm. Room-sharing works better when the family creates rules for living with differences instead of trying to erase them. Maybe pajamas happen together but one child reads longer. Perhaps the story is shared and the final goodnight is different. Identical routines are not required for a shared room to work.",
-      "last_h2": "Expect an adjustment period",
-      "ending_3_paragraphs": "The early riser also needs a plan for what happens while the other child is still sleeping. Early nights may include giggling, talking, wake-ups, and novelty. That does not automatically prove room-sharing cannot work. Watch whether things settle as the arrangement becomes ordinary. The goal is not a perfectly silent room with two synchronized sleepers. It is a shared space where each child can rest without differences becoming constant conflict.",
-      "risk_score": 9,
+      "opening": "Siblings may share a bedroom because space is limited, because the family prefers it, or because the children genuinely like being together. Whatever the reason, room-sharing creates logistics that do not exist when each child sleeps alone. One takes a long time to settle, another falls asleep quickly; one wants to talk, another wants quiet; one wakes early while the other could happily sleep another hour.",
+      "opening_14_words": "Siblings may share a bedroom because space is limited because the family prefers it",
+      "intro_3_paragraphs": "Siblings may share a bedroom because space is limited, because the family prefers it, or because the children genuinely like being together. Whatever the reason, room-sharing creates logistics that do not exist when each child sleeps alone. One takes a long time to settle, another falls asleep quickly; one wants to talk, another wants quiet; one wakes early while the other could happily sleep another hour. The common mistake is trying to solve those differences by turning two children into one sleep system. Sharing square footage does not give siblings the same age, rhythm, or need for support. A shared room works better when the family creates rules for living with differences instead of expecting the differences to disappear.",
+      "last_h2": "Allow some sibling connection without leaving the whole night open",
+      "ending_3_paragraphs": "You can allow some talking and still create an ending. “You can chat quietly for a few minutes; when this light goes off, it's time to rest” is often more realistic than demanding instant silence the second both children enter the room. If conversation consistently cuts deeply into sleep or one sibling experiences the room as constant intrusion, the arrangement deserves another look. The fact that sharing can work does not mean it must be preserved at any cost. The goal is not a silent room with perfectly synchronized sleepers. It is a shared space where each sibling keeps something of their own, understands how to protect the other's rest, and can live with different schedules without turning every bedtime into a logistical conflict.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -7830,41 +7819,40 @@
       "translation_group": "120-transition-shared-room-to-separate-rooms",
       "language": "en",
       "title": "How to move from a shared bedroom to separate rooms gently",
-      "words": 289,
-      "paragraphs": 10,
+      "words": 771,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 13.84,
+      "h2_density_per_1000_words": 5.19,
       "h2s": [
-        "Explain the reason without turning it into reward or punishment",
-        "Move familiar cues into each room",
-        "Preserve one point of sibling connection",
-        "Give the new silence time to become ordinary"
+        "Explain the reason without making the sibling relationship carry the blame",
+        "Change the room without redesigning all of bedtime",
+        "Give the sibling connection a deliberate place now that it no longer happens automatically",
+        "Let the new room collect ordinary nights"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 25.9,
-      "short_paragraph_ratio": 0.2,
+      "avg_paragraph_words": 43.0,
+      "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
+      "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 4,
+        "puede": 12,
         "importante": 0,
         "clave": 0
       },
-      "opening": "From an adult perspective, separate rooms can look like a straightforward upgrade: more space, fewer mutual wake-ups, and a place that belongs to each child. But if siblings have shared for a long time, the change also removes a familiar presence at the end of the day.",
-      "opening_14_words": "From an adult perspective separate rooms can look like a straightforward upgrade more space",
-      "intro_3_paragraphs": "From an adult perspective, separate rooms can look like a straightforward upgrade: more space, fewer mutual wake-ups, and a place that belongs to each child. But if siblings have shared for a long time, the change also removes a familiar presence at the end of the day. A gentle transition makes room for both truths: separate rooms may solve practical problems and still feel like a small loss of nighttime company at first. If the change is about space, age, schedules, or different needs, say that plainly. Avoid presenting a private room as a prize for good behavior or separation as the consequence for talking too much.",
-      "last_h2": "Give the new silence time to become ordinary",
-      "ending_3_paragraphs": "That bridge can fade naturally later if no one needs it anymore. A child can enjoy a private room all afternoon and ask to sleep with a sibling at night. That is not inconsistent. Nighttime activates different habits and memories. The goal is not instant enthusiasm. It is for the new room to collect enough familiar nights that it stops feeling like a new place.",
-      "risk_score": 9,
+      "opening": "From an adult point of view, separating siblings who have shared a room can look like a straightforward practical improvement: fewer mutual wake-ups, more personal space, and different schedules that no longer interfere with each other. For children, the change also removes a familiar nighttime presence. The sibling's breathing, whispered conversations, and another bed a few feet away are suddenly gone.",
+      "opening_14_words": "From an adult point of view separating siblings who have shared a room can",
+      "intro_3_paragraphs": "From an adult point of view, separating siblings who have shared a room can look like a straightforward practical improvement: fewer mutual wake-ups, more personal space, and different schedules that no longer interfere with each other. For children, the change also removes a familiar nighttime presence. The sibling's breathing, whispered conversations, and another bed a few feet away are suddenly gone. That is why a child can spend the afternoon excitedly arranging a new room and ask to go back to the old setup that same night. They are not necessarily rejecting the decision. Daytime novelty and nighttime quiet can feel completely different. A gentle transition lets a private room be a practical gain without requiring a child to pretend they do not miss the company they used to have.",
+      "last_h2": "Let the new room collect ordinary nights",
+      "ending_3_paragraphs": "Eventually the private room stops being “the new room.” It collects wake-ups, stories, mornings, favorite objects, and its own small habits. That ordinary history is what replaces the familiarity of sleeping together. If the arrangement continues to make rest or family life substantially harder after a meaningful adjustment period, you can revisit it. A thoughtful transition does not obligate you to preserve the decision simply to prove the original plan was right. Moving siblings into separate rooms is not about cutting their connection. It is about moving some of that connection outside the fact of sleeping in the same space while each child builds enough familiarity with a personal room that the new quiet stops feeling like a loss.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -20535,42 +20523,39 @@
       "translation_group": "111-simplify-too-long-bedtime-routine",
       "language": "es",
       "title": "Cómo simplificar una rutina nocturna demasiado larga",
-      "words": 414,
-      "paragraphs": 10,
+      "words": 1124,
+      "paragraphs": 20,
       "h2_count": 4,
-      "h2_density_per_1000_words": 9.66,
+      "h2_density_per_1000_words": 3.56,
       "h2s": [
-        "Primero distingue conexión de acumulación",
-        "Haz visible el final desde el principio",
-        "Reduce un paso cada vez",
-        "Deja espacio para noches especiales sin convertirlas en la nueva norma"
+        "Busca las anclas antes de empezar a recortar",
+        "Reduce decisiones, no solo actividades",
+        "Edita por capas en lugar de hacer una demolición",
+        "Decide de antemano qué puede variar y qué marca el final"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 38.6,
+      "avg_paragraph_words": 54.5,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
+      "long_paragraphs": 3,
       "phrase_counts": {
         "no_necesitas": 1,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 5,
-        "importante": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 15,
+        "importante": 3,
         "clave": 0
       },
-      "opening": "Una rutina nocturna suele crecer por buenas razones. Añades un cuento porque os gusta, otra canción porque calma, un vaso de agua porque lo pide y cinco minutos de charla porque ese es el momento en que por fin cuenta su día. El problema aparece cuando cada añadido deja de ser una elección y se convierte en un requisito para llegar al sueño.",
-      "opening_14_words": "Una rutina nocturna suele crecer por buenas razones Añades un cuento porque os gusta",
-      "intro_3_paragraphs": "Una rutina nocturna suele crecer por buenas razones. Añades un cuento porque os gusta, otra canción porque calma, un vaso de agua porque lo pide y cinco minutos de charla porque ese es el momento en que por fin cuenta su día. El problema aparece cuando cada añadido deja de ser una elección y se convierte en un requisito para llegar al sueño. Una rutina útil no es la que contiene todo lo que podría ayudar, sino la que tiene un principio, una secuencia y un final que la familia puede repetir sin agotarse. Antes de quitar pasos, observa qué partes tienen una función real. Quizá el cuento es el momento principal de conexión, mientras que elegir tres pijamas, volver a por otro juguete y decidir una canción nueva cada noche son transiciones que se han ido pegando alrededor.",
-      "last_h2": "Deja espacio para noches especiales sin convertirlas en la nueva norma",
-      "ending_3_paragraphs": "Cuando el nuevo orden se vuelve predecible, puedes decidir si hace falta otro ajuste. La simplificación funciona mejor como edición que como demolición. Habrá noches en que un niño necesite más cercanía, esté enfermo o quiera hablar de algo importante. Alargar la rutina entonces no significa que hayas arruinado el sistema. La diferencia está entre una excepción consciente y un paso que se añade para siempre. La meta no es terminar rápido. Es que la rutina deje de crecer por inercia y vuelva a cumplir su trabajo: ayudar a toda la familia a reconocer que el día está terminando.",
-      "risk_score": 7,
-      "risk_reasons": [
-        "body_under_500_words",
-        "high_h2_density"
-      ]
+      "opening": "Las rutinas nocturnas casi nunca se vuelven larguísimas porque alguien las diseñe así. Crecen por acumulación. Un día añades un segundo cuento porque ha sido una tarde difícil. Otro día aparece una canción. Después el vaso de agua se prepara cuando el niño ya está en la cama, hay que buscar el peluche que falta y, justo cuando parecía que todo terminaba, llega una conversación importante sobre lo que pasó en el recreo. Cada pieza puede tener sentido por separado. El problema aparece cuando todas se convierten en requisitos diarios.",
+      "opening_14_words": "Las rutinas nocturnas casi nunca se vuelven larguísimas porque alguien las diseñe así Crecen",
+      "intro_3_paragraphs": "Las rutinas nocturnas casi nunca se vuelven larguísimas porque alguien las diseñe así. Crecen por acumulación. Un día añades un segundo cuento porque ha sido una tarde difícil. Otro día aparece una canción. Después el vaso de agua se prepara cuando el niño ya está en la cama, hay que buscar el peluche que falta y, justo cuando parecía que todo terminaba, llega una conversación importante sobre lo que pasó en el recreo. Cada pieza puede tener sentido por separado. El problema aparece cuando todas se convierten en requisitos diarios. Entonces acostar deja de ser una secuencia que ayuda a cerrar el día y empieza a parecer una carrera de obstáculos. El adulto intenta acelerar porque está agotado; el niño nota esa prisa y se aferra más a cada paso; lo que antes daba conexión acaba cargado de tensión. Simplificar una rutina no consiste en quitar cariño para ahorrar minutos. Consiste en distinguir qué momentos sostienen realmente la transición y cuáles se han quedado por inercia.",
+      "last_h2": "Decide de antemano qué puede variar y qué marca el final",
+      "ending_3_paragraphs": "También conviene que el cierre tenga una forma reconocible. Una frase, apagar una lámpara, colocar el libro en su sitio o dar el último abrazo puede funcionar como señal de que ya no estamos decidiendo qué viene después. El niño puede protestar ante ese final; la ausencia de protesta no es el criterio de éxito. El objetivo es que el final sea comprensible y repetible. Cuando la rutina se acorta bien, a menudo ocurre algo curioso: los momentos que quedan se sienten menos apresurados. Un cuento puede volver a ser un cuento en lugar de una tarea que el adulto quiere terminar rápido porque todavía quedan seis pasos. El abrazo deja de suceder en medio de una negociación sobre lo siguiente. La mejor rutina nocturna no es la más completa ni la más breve. Es la que conserva suficiente conexión y previsibilidad para acompañar el cierre del día sin crecer hasta exigir cada noche más energía de la que la familia tiene.",
+      "risk_score": 0,
+      "risk_reasons": []
     },
     {
       "path": "content/articles/es/112-cuento-buenas-noches-ancla-rutina.json",
@@ -20578,41 +20563,40 @@
       "translation_group": "112-bedtime-story-routine-anchor",
       "language": "es",
       "title": "Cómo introducir un cuento de buenas noches como ancla de la rutina",
-      "words": 339,
-      "paragraphs": 10,
+      "words": 863,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 11.8,
+      "h2_density_per_1000_words": 4.63,
       "h2s": [
-        "Colócalo en un punto estable de la secuencia",
-        "Empieza con una cantidad que puedas mantener",
-        "Deja que el niño participe sin ceder el marco",
-        "No conviertas el cuento en una prueba de que todo va bien"
+        "Coloca la lectura cerca del final, después de la mayor parte de la logística",
+        "Define una cantidad que puedas sostener incluso en noches normales",
+        "Deja que el niño participe sin convertir la biblioteca en una negociación",
+        "Protege el cuento de dos extremos: convertirlo en moneda de cambio o en obligación"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 30.3,
+      "avg_paragraph_words": 45.2,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 4,
-        "importante": 1,
+        "no_significa": 1,
+        "a_veces": 2,
+        "puede": 18,
+        "importante": 2,
         "clave": 0
       },
-      "opening": "Un cuento puede convertirse en una señal potente de que la noche cambia de ritmo. No porque leer produzca sueño de forma automática, sino porque ofrece algo que se repite: el mismo lugar, una voz más tranquila, menos movimiento y unos minutos en los que la atención deja de saltar de una tarea a otra.",
-      "opening_14_words": "Un cuento puede convertirse en una señal potente de que la noche cambia de",
-      "intro_3_paragraphs": "Un cuento puede convertirse en una señal potente de que la noche cambia de ritmo. No porque leer produzca sueño de forma automática, sino porque ofrece algo que se repite: el mismo lugar, una voz más tranquila, menos movimiento y unos minutos en los que la atención deja de saltar de una tarea a otra. Para funcionar como ancla, el cuento necesita ser reconocible y sostenible, no espectacular. El libro funciona mejor cuando aparece después de las tareas que suelen interrumpir: dientes, baño, pijama, preparar agua. Si empiezas a leer y después vuelves a levantarte varias veces para terminar cosas pendientes, pierde parte de su función como transición hacia el cierre.",
-      "last_h2": "No conviertas el cuento en una prueba de que todo va bien",
-      "ending_3_paragraphs": "La combinación útil es participación dentro de una estructura que el adulto puede sostener. Habrá noches en que el niño no quiera escuchar, se mueva, interrumpa o prefiera mirar imágenes. También habrá noches sin cuento. La rutina no pierde todo su valor por una excepción. El cuento se convierte en ancla porque vuelve una y otra vez, no porque cada lectura sea tranquila, educativa o perfecta.",
-      "risk_score": 9,
+      "opening": "Un cuento de buenas noches puede parecer un detalle pequeño dentro de una rutina llena de tareas, pero precisamente ahí está parte de su valor. Mientras el baño, los dientes o el pijama sirven para preparar el cuerpo y el espacio, la lectura puede marcar el momento en que la logística termina y empieza la despedida del día.",
+      "opening_14_words": "Un cuento de buenas noches puede parecer un detalle pequeño dentro de una rutina",
+      "intro_3_paragraphs": "Un cuento de buenas noches puede parecer un detalle pequeño dentro de una rutina llena de tareas, pero precisamente ahí está parte de su valor. Mientras el baño, los dientes o el pijama sirven para preparar el cuerpo y el espacio, la lectura puede marcar el momento en que la logística termina y empieza la despedida del día. No hace falta que el libro “dé sueño” ni que el niño permanezca inmóvil escuchando. Lo que vuelve útil al cuento es la repetición de una escena reconocible: sentarse en un lugar parecido, bajar el ritmo, compartir atención y saber que después quedan pocas cosas. Un cuento funciona como ancla cuando ayuda a ubicar la noche, no cuando se convierte en una actuación perfecta que el adulto tiene que reproducir pase lo que pase.",
+      "last_h2": "Protege el cuento de dos extremos: convertirlo en moneda de cambio o en obligación",
+      "ending_3_paragraphs": "El extremo contrario es sentir que debe haber cuento incluso cuando nadie puede con él. Una noche sin lectura por viaje, enfermedad o agotamiento no destruye la rutina. Puedes conservar otro cierre conocido y volver al libro al día siguiente. También habrá etapas en que el niño deje de querer escuchar. Quizá prefiere hablar, mirar un cómic o leer solo. El ancla puede evolucionar sin perder la función de crear unos minutos reconocibles entre la actividad y el final. El cuento de buenas noches no necesita ser el momento más bonito del día. Necesita ser suficientemente sencillo para volver muchas noches y suficientemente flexible para seguir perteneciendo a la familia cuando cambian las edades, los libros y la energía disponible.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -20621,41 +20605,40 @@
       "translation_group": "113-music-light-environment-sleep-cues",
       "language": "es",
       "title": "Cómo usar música, luz y ambiente como señales de descanso",
-      "words": 348,
-      "paragraphs": 10,
+      "words": 865,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 11.49,
+      "h2_density_per_1000_words": 4.62,
       "h2s": [
-        "Elige uno o dos cambios que realmente puedas repetir",
-        "Haz que el ambiente acompañe la secuencia, no que la sustituya",
-        "Reduce estímulos de forma gradual",
-        "Diseña señales que puedan viajar contigo"
+        "Elige pocas señales que encajen en la vida real",
+        "Crea una pendiente de actividad, no un interruptor",
+        "Evita convertir una ayuda en una condición frágil",
+        "Haz que el ambiente facilite la convivencia, no que la complique"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 31.7,
+      "avg_paragraph_words": 46.1,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
+        "no_necesitas": 2,
+        "no_significa": 1,
         "a_veces": 0,
-        "puede": 3,
-        "importante": 0,
+        "puede": 13,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "Cuando hablamos de “ambiente de sueño”, es fácil acabar imaginando una lista de productos: máquina de ruido, lámpara concreta, cortinas perfectas, música especial. Pero la señal más potente suele ser la coherencia. La casa cambia un poco de tono y ese cambio se repite suficientes veces como para volverse reconocible.",
-      "opening_14_words": "Cuando hablamos de ambiente de sueño es fácil acabar imaginando una lista de productos",
-      "intro_3_paragraphs": "Cuando hablamos de “ambiente de sueño”, es fácil acabar imaginando una lista de productos: máquina de ruido, lámpara concreta, cortinas perfectas, música especial. Pero la señal más potente suele ser la coherencia. La casa cambia un poco de tono y ese cambio se repite suficientes veces como para volverse reconocible. La luz, el sonido y el espacio funcionan mejor como señales de transición que como condiciones que deben ser perfectas para poder dormir. Puede ser apagar la luz principal y dejar una lámpara cálida, bajar el volumen general de la casa o poner siempre la misma lista tranquila mientras llega el pijama. No necesitas usar todas las señales posibles a la vez.",
-      "last_h2": "Diseña señales que puedan viajar contigo",
-      "ending_3_paragraphs": "No hace falta que toda la casa guarde silencio; basta con que el entorno vaya diciendo algo coherente. Si una canción breve, una frase, una luz pequeña o una secuencia de dos pasos forman parte del ambiente, puedes recrear una versión de ellas fuera de casa. Eso da continuidad sin necesitar reproducir el dormitorio entero. El objetivo no es fabricar condiciones perfectas. Es ofrecer suficientes pistas repetidas para que el final del día se sienta familiar incluso cuando no todo está bajo control.",
-      "risk_score": 9,
+      "opening": "Hablar de “ambiente de sueño” puede convertir una idea sencilla en una lista de compras. Cortinas especiales, máquina de ruido, lámpara concreta, difusores, música elegida para dormir. Algunas familias usan parte de esas cosas y les resultan prácticas, pero ninguna colección de objetos sustituye la función más básica del ambiente: ayudar a que el final del día se sienta diferente del resto.",
+      "opening_14_words": "Hablar de ambiente de sueño puede convertir una idea sencilla en una lista de",
+      "intro_3_paragraphs": "Hablar de “ambiente de sueño” puede convertir una idea sencilla en una lista de compras. Cortinas especiales, máquina de ruido, lámpara concreta, difusores, música elegida para dormir. Algunas familias usan parte de esas cosas y les resultan prácticas, pero ninguna colección de objetos sustituye la función más básica del ambiente: ayudar a que el final del día se sienta diferente del resto. Los niños reciben muchas señales sin que nadie las anuncie. Si la casa sigue con luces intensas, juego físico, televisión alta y decisiones constantes hasta el segundo anterior a acostarse, el cambio hacia la cama puede sentirse brusco. Si poco a poco bajan la luz, el volumen y el ritmo, la transición gana contexto. El ambiente es más útil cuando acompaña una secuencia reconocible que cuando se convierte en un conjunto de condiciones perfectas sin las cuales parece imposible descansar.",
+      "last_h2": "Haz que el ambiente facilite la convivencia, no que la complique",
+      "ending_3_paragraphs": "Una señal buena debería simplificar. Puede ser tan discreta como que, después de lavarse los dientes, ya no se encienda la luz grande. O que la música termine al empezar el cuento. O que la puerta quede de una manera conocida al despedirse. Esas repeticiones crean continuidad sin exigir perfección. Si una señal deja de ayudar, puede cambiar. Quizá el niño ya no necesita música, una luz que antes calmaba ahora le invita a jugar o la habitación compartida exige otra solución. La rutina no fracasa por evolucionar. No necesitas fabricar el dormitorio perfecto para que el final del día sea reconocible. Unos pocos cambios coherentes de luz, sonido y ritmo pueden hacer de puente hacia el descanso, siempre que sigan siendo herramientas de la familia y no reglas que la familia tenga que servir.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -20664,41 +20647,40 @@
       "translation_group": "114-fear-being-alone-at-bedtime",
       "language": "es",
       "title": "Cómo acompañar el miedo a quedarse solo a la hora de dormir",
-      "words": 349,
-      "paragraphs": 10,
+      "words": 909,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 11.46,
+      "h2_density_per_1000_words": 4.4,
       "h2s": [
-        "Nombra la experiencia sin entrar en un debate",
-        "Ofrece una forma predecible de separación",
-        "Practica tolerar pequeñas dosis de distancia",
-        "Observa cuándo el miedo necesita más atención"
+        "Responde a lo que siente sin convertir la noche en un juicio sobre si tiene razón",
+        "Crea una despedida que sea cariñosa y también finita",
+        "Si queréis reducir presencia, haced visible el camino",
+        "Mira el patrón completo, no solo los minutos antes de dormir"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 32.2,
-      "short_paragraph_ratio": 0.2,
+      "avg_paragraph_words": 48.1,
+      "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.1,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 1,
         "a_veces": 0,
-        "puede": 5,
+        "puede": 12,
         "importante": 2,
         "clave": 0
       },
-      "opening": "La hora de dormir reúne dos cosas que pueden ser difíciles para algunos niños: menos estímulos y una separación clara del adulto. Durante el día hay movimiento, ruido y compañía. Por la noche, de repente, la habitación queda quieta y el niño sabe que el adulto se irá.",
-      "opening_14_words": "La hora de dormir reúne dos cosas que pueden ser difíciles para algunos niños",
-      "intro_3_paragraphs": "La hora de dormir reúne dos cosas que pueden ser difíciles para algunos niños: menos estímulos y una separación clara del adulto. Durante el día hay movimiento, ruido y compañía. Por la noche, de repente, la habitación queda quieta y el niño sabe que el adulto se irá. Validar el miedo no significa confirmar que existe un peligro. Significa reconocer que la sensación es real mientras ayudas a construir una forma tolerable de quedarse. “No quieres que me vaya todavía” suele ayudar más que “no hay nada de qué tener miedo”. Puedes transmitir seguridad sin intentar convencer al niño de que su cuerpo está equivocado.",
-      "last_h2": "Observa cuándo el miedo necesita más atención",
-      "ending_3_paragraphs": "El ritmo puede ajustarse sin convertir cada noche en una prueba. Muchos miedos nocturnos cambian con etapas, historias, viajes o momentos de inseguridad. Si el miedo es muy intenso, aparece también durante el día, interfiere de forma importante con la vida familiar o viene acompañado de otros cambios preocupantes, conviene hablar con un profesional de salud infantil. La meta no es que el niño deje de sentir miedo antes de poder dormir. Es que aprenda, poco a poco, que puede sentirse inseguro por un momento y aun así atravesar la separación con apoyo.",
-      "risk_score": 9,
+      "opening": "A la hora de dormir desaparecen muchas distracciones que durante el día mantienen los miedos en segundo plano. La casa se queda más quieta, la luz cambia y llega una separación muy concreta: el adulto se despide y el niño se queda en su espacio. Para algunos niños, ese momento puede sentirse difícil aunque durante el resto del día se muestren seguros y autónomos.",
+      "opening_14_words": "A la hora de dormir desaparecen muchas distracciones que durante el día mantienen los",
+      "intro_3_paragraphs": "A la hora de dormir desaparecen muchas distracciones que durante el día mantienen los miedos en segundo plano. La casa se queda más quieta, la luz cambia y llega una separación muy concreta: el adulto se despide y el niño se queda en su espacio. Para algunos niños, ese momento puede sentirse difícil aunque durante el resto del día se muestren seguros y autónomos. Cuando dicen “no te vayas”, la reacción adulta suele oscilar entre dos extremos. Uno es intentar demostrar que el miedo no tiene lógica: “no pasa nada, estás seguro, no seas tonto”. El otro es reorganizar toda la noche para que el niño nunca tenga que sentir incomodidad. Ninguno ayuda mucho a construir una separación que la familia pueda sostener. Validar el miedo no significa confirmar que existe un peligro. Significa reconocer la experiencia del niño mientras mantienes un marco que le permita comprobar, poco a poco, que puede atravesar ese momento con apoyo.",
+      "last_h2": "Mira el patrón completo, no solo los minutos antes de dormir",
+      "ending_3_paragraphs": "Si el problema principal son las peticiones después de cerrar la rutina, la respuesta pertenece más al terreno de los límites nocturnos. Si sale de la cama repetidamente, quizá necesitéis una respuesta estable a esas salidas. En cambio, este artículo se centra en la experiencia de separación: en cómo acompañar a un niño que de verdad expresa inquietud ante quedarse solo. Muchos miedos cambian con las etapas y con la familiaridad. Pero si el miedo es muy intenso, persiste, se extiende claramente al día o interfiere de manera importante con la vida del niño o de la familia, merece la pena comentarlo con un profesional de salud infantil que pueda valorar vuestro caso. El objetivo no es conseguir que el niño deje de sentir miedo antes de poder quedarse. Es ofrecer suficiente seguridad, claridad y repetición para que descubra que puede sentir esa inquietud y, aun así, atravesar la separación sin que toda la noche tenga que organizarse alrededor de ella.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -20707,41 +20689,40 @@
       "translation_group": "115-lights-out-protest-without-threats-rewards",
       "language": "es",
       "title": "Cómo manejar la protesta al apagar la luz sin amenazas ni premios",
-      "words": 319,
-      "paragraphs": 10,
+      "words": 866,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 12.54,
+      "h2_density_per_1000_words": 4.62,
       "h2s": [
-        "Avisa del cierre antes de ejecutarlo",
-        "Responde al sentimiento sin reabrir la decisión",
-        "Evita que premio y amenaza se conviertan en el motor",
-        "Prepárate para repetir sin escalar"
+        "Haz que el apagado no llegue como una sorpresa",
+        "Reconoce el desacuerdo sin convertirlo en una nueva decisión",
+        "Evita que amenazas y premios se conviertan en el ritual real",
+        "Mide el éxito por la estabilidad del adulto, no por la ausencia inmediata de protesta"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 29.1,
+      "avg_paragraph_words": 45.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
         "a_veces": 0,
-        "puede": 5,
+        "puede": 16,
         "importante": 0,
         "clave": 0
       },
-      "opening": "La rutina puede ir razonablemente bien hasta que llega el último gesto: apagar la luz. Entonces aparecen gritos, “no tengo sueño”, otro abrazo, otra pregunta o una propuesta sorprendentemente creativa para alargar cinco minutos más.",
-      "opening_14_words": "La rutina puede ir razonablemente bien hasta que llega el último gesto apagar la",
-      "intro_3_paragraphs": "La rutina puede ir razonablemente bien hasta que llega el último gesto: apagar la luz. Entonces aparecen gritos, “no tengo sueño”, otro abrazo, otra pregunta o una propuesta sorprendentemente creativa para alargar cinco minutos más. La protesta no significa necesariamente que el límite sea incorrecto. Muchas veces significa que el límite acaba de hacerse real. Si el niño participa en un cuento y de pronto la habitación queda a oscuras, el cambio puede sentirse brusco. Una frase repetida —“terminamos este cuento, abrazo y apagamos”— hace visible el final antes de que llegue.",
-      "last_h2": "Prepárate para repetir sin escalar",
-      "ending_3_paragraphs": "Un límite claro y repetible necesita menos energía mental que inventar una consecuencia distinta cada noche. Hay límites que no se vuelven fáciles porque los expliques mejor; se vuelven familiares porque se repiten. Puedes usar la misma frase breve, ofrecer la misma despedida y evitar subir el volumen para competir con la protesta. El objetivo no es que el niño esté contento cuando se apaga la luz. Es que pueda estar descontento y descubrir que el final de la rutina sigue siendo seguro, predecible y estable.",
-      "risk_score": 9,
+      "opening": "Hay noches en que todo parece ir sorprendentemente bien hasta el último gesto. El baño ha pasado, el pijama está puesto, el cuento termina sin discusión y el niño acepta el abrazo. Pero cuando la mano del adulto va hacia el interruptor llega el “¡no!”, el llanto, el enfado o una declaración rotunda de que no piensa dormir.",
+      "opening_14_words": "Hay noches en que todo parece ir sorprendentemente bien hasta el último gesto El",
+      "intro_3_paragraphs": "Hay noches en que todo parece ir sorprendentemente bien hasta el último gesto. El baño ha pasado, el pijama está puesto, el cuento termina sin discusión y el niño acepta el abrazo. Pero cuando la mano del adulto va hacia el interruptor llega el “¡no!”, el llanto, el enfado o una declaración rotunda de que no piensa dormir. Ese momento concentra algo que los pasos anteriores todavía permitían evitar: la rutina se acaba de verdad. Mientras hay otro cuento, otra canción o una tarea pendiente, todavía hay actividad y compañía. Apagar la luz hace visible el límite. La protesta en ese punto no demuestra por sí sola que la hora, la rutina o el límite sean incorrectos. Muchas veces es simplemente la reacción a un final que el niño preferiría posponer.",
+      "last_h2": "Mide el éxito por la estabilidad del adulto, no por la ausencia inmediata de protesta",
+      "ending_3_paragraphs": "Prueba otro criterio: ¿el adulto sabe qué va a decir y hacer?, ¿la despedida dura menos porque no se reabre toda la secuencia?, ¿la intensidad se mantiene manejable aunque el niño esté enfadado?, ¿la respuesta de hoy se parece a la de ayer? Puede haber excepciones reales. Una noche difícil quizá necesite más cercanía; una enfermedad puede cambiar el plan. Responder a una necesidad no borra el límite. La diferencia está en elegir la excepción de forma consciente y no convertir cada protesta en una señal de que el final debe negociarse desde cero. Apagar la luz no tiene que terminar con un niño feliz para ser un cierre respetuoso. Puede haber enfado, decepción o ganas de seguir juntos, y aun así el adulto puede ofrecer una despedida cálida, previsible y suficientemente firme para que la noche no dependa de amenazas, premios ni nuevas negociaciones.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -20750,41 +20731,40 @@
       "translation_group": "116-child-keeps-getting-out-of-bed",
       "language": "es",
       "title": "Cómo responder cuando el niño sale de la cama una y otra vez",
-      "words": 335,
-      "paragraphs": 10,
+      "words": 789,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 11.94,
+      "h2_density_per_1000_words": 5.07,
       "h2s": [
-        "Resuelve necesidades previsibles antes del cierre",
-        "Haz la vuelta aburridamente predecible",
-        "No midas el éxito por una sola noche",
-        "Revisa si el problema está antes de acostarse"
+        "Separa las necesidades reales de las oportunidades de reabrir la noche",
+        "Haz que el regreso sea amable y poco interesante",
+        "No decidas que “no funciona” después de una noche difícil",
+        "Si las salidas continúan, mira lo que ocurre antes del primer levantarse"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 30.8,
+      "avg_paragraph_words": 43.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 4,
-        "importante": 0,
-        "clave": 1
+        "no_significa": 2,
+        "a_veces": 2,
+        "puede": 10,
+        "importante": 1,
+        "clave": 0
       },
-      "opening": "La primera salida puede parecer razonable: agua. La segunda, otro abrazo. La quinta ya es una visita social al pasillo. Cuando el niño descubre que levantarse reabre la interacción, la salida de la cama puede convertirse rápidamente en una parte estable de la rutina.",
-      "opening_14_words": "La primera salida puede parecer razonable agua La segunda otro abrazo La quinta ya",
-      "intro_3_paragraphs": "La primera salida puede parecer razonable: agua. La segunda, otro abrazo. La quinta ya es una visita social al pasillo. Cuando el niño descubre que levantarse reabre la interacción, la salida de la cama puede convertirse rápidamente en una parte estable de la rutina. La clave no suele estar en encontrar una respuesta nueva para cada salida, sino en hacer que todas conduzcan al mismo lugar: volver a la cama con la menor cantidad posible de novedad. Baño, agua, objeto de apego, temperatura y despedida pueden revisarse antes de apagar la luz. No eliminarás todas las peticiones, pero reduces las razones legítimas para reiniciar la rutina.",
-      "last_h2": "Revisa si el problema está antes de acostarse",
-      "ending_3_paragraphs": "Observa tendencias de varios días en vez de decidir cada noche que el plan “no funciona”. A veces las salidas son la superficie de otra dificultad: la rutina termina demasiado pronto, hay una transición brusca, el niño teme quedarse solo o el horario familiar ha cambiado. Si solo escoltas de vuelta sin mirar el contexto, puedes mantener una batalla que necesita otro ajuste. El objetivo no es ganar una competición de resistencia. Es hacer que salir de la cama deje de ser la parte más interesante y negociable de la noche.",
-      "risk_score": 9,
+      "opening": "Cuando un niño estrena la capacidad de salir de la cama sin ayuda, la hora de dormir cambia de naturaleza. Antes el límite podía estar contenido por la propia cuna o por necesitar al adulto para moverse. Ahora puede comprobar físicamente si “buenas noches” significa realmente que la interacción terminó: camina hasta el pasillo, aparece en el salón y observa qué ocurre.",
+      "opening_14_words": "Cuando un niño estrena la capacidad de salir de la cama sin ayuda la",
+      "intro_3_paragraphs": "Cuando un niño estrena la capacidad de salir de la cama sin ayuda, la hora de dormir cambia de naturaleza. Antes el límite podía estar contenido por la propia cuna o por necesitar al adulto para moverse. Ahora puede comprobar físicamente si “buenas noches” significa realmente que la interacción terminó: camina hasta el pasillo, aparece en el salón y observa qué ocurre. La primera salida suele parecer razonable. Necesita agua. La segunda trae un abrazo. La tercera recuerda una pregunta urgente. A partir de ahí, el adulto puede sentir que participa en una persecución mientras el niño descubre que levantarse produce conversación, atención y a veces una nueva parte de la rutina. La respuesta más útil no suele ser inventar algo diferente para cada salida, sino hacer que casi todas conduzcan al mismo desenlace: resolver lo necesario y volver a la cama con poca novedad.",
+      "last_h2": "Si las salidas continúan, mira lo que ocurre antes del primer levantarse",
+      "ending_3_paragraphs": "También puede haber un problema de definición. Si después de “buenas noches” todavía se permiten conversaciones largas, juegos con un progenitor que llega tarde o varias decisiones, el niño no tiene una señal clara de qué significa estar acostado. Revisar el contexto no significa convertir cada salida en una investigación. Hazlo fuera del episodio, cuando todos están tranquilos. Durante la noche puedes mantener una respuesta simple; durante el día puedes ajustar lo que realmente necesite ajuste. Cuando un niño sale de la cama una y otra vez, la meta no es atraparlo en una regla perfecta. Es volver predecible el camino de regreso, atender lo real sin reiniciar la noche y hacer que levantarse deje de ser la parte más estimulante y negociable de la rutina.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -20793,41 +20773,40 @@
       "translation_group": "117-transition-to-child-bed-without-big-conflict",
       "language": "es",
       "title": "Cómo acompañar el paso a una cama de niño sin convertirlo en un gran conflicto",
-      "words": 315,
-      "paragraphs": 10,
+      "words": 772,
+      "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 12.7,
+      "h2_density_per_1000_words": 5.18,
       "h2s": [
-        "Explica qué cambia y qué sigue igual",
-        "Prepara el espacio pensando en la nueva movilidad",
-        "Espera que pruebe la nueva libertad",
-        "No conviertas la cama en una prueba de madurez"
+        "Explica el cambio de forma concreta y conserva lo que ya funciona",
+        "Prepara el entorno pensando en que ahora podrá moverse",
+        "Espera exploración sin interpretar cada salida como un fracaso",
+        "Deja que la nueva cama se vuelva normal antes de pedir que simbolice independencia"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 28.5,
-      "short_paragraph_ratio": 0.1,
+      "avg_paragraph_words": 45.5,
+      "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.062,
+      "long_paragraphs": 1,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 1,
+        "no_necesitas": 0,
+        "no_significa": 0,
         "a_veces": 0,
-        "puede": 4,
-        "importante": 0,
+        "puede": 13,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "La cama nueva puede generar entusiasmo durante el día y mucha experimentación por la noche. Para un niño pequeño, no es solo “una cama más grande”: es un espacio del que ahora puede salir sin ayuda y que cambia la frontera física del descanso.",
-      "opening_14_words": "La cama nueva puede generar entusiasmo durante el día y mucha experimentación por la",
-      "intro_3_paragraphs": "La cama nueva puede generar entusiasmo durante el día y mucha experimentación por la noche. Para un niño pequeño, no es solo “una cama más grande”: es un espacio del que ahora puede salir sin ayuda y que cambia la frontera física del descanso. Cuanta más continuidad puedas conservar alrededor del cambio, menos tendrá que aprender el niño en una sola noche. Habla del cambio antes de que ocurra: dónde estará la cama, qué objetos se mantienen y cómo será la rutina. No necesitas venderlo como un gran acontecimiento si el niño no lo vive así.",
-      "last_h2": "No conviertas la cama en una prueba de madurez",
-      "ending_3_paragraphs": "Una devolución breve y predecible ayuda a que la novedad pierda intensidad. Puede haber noches en que necesite más cercanía o eche de menos el espacio anterior. Evita frases que hagan de la transición una evaluación de si es “bebé” o “mayor”. El objetivo no es demostrar independencia de golpe. Es que la nueva cama se vuelva, con repetición, otro lugar conocido donde termina el día.",
-      "risk_score": 9,
+      "opening": "Desde la mirada adulta, pasar a una cama infantil puede parecer un cambio bastante concreto: desmontar un mueble, montar otro y conservar el resto. Para un niño pequeño, sin embargo, cambia también una regla física muy importante. Ahora puede entrar y salir de la cama por sí mismo. Esa libertad nueva puede ser emocionante a las cuatro de la tarde y mucho más difícil de gestionar cuando llega la noche.",
+      "opening_14_words": "Desde la mirada adulta pasar a una cama infantil puede parecer un cambio bastante",
+      "intro_3_paragraphs": "Desde la mirada adulta, pasar a una cama infantil puede parecer un cambio bastante concreto: desmontar un mueble, montar otro y conservar el resto. Para un niño pequeño, sin embargo, cambia también una regla física muy importante. Ahora puede entrar y salir de la cama por sí mismo. Esa libertad nueva puede ser emocionante a las cuatro de la tarde y mucho más difícil de gestionar cuando llega la noche. Por eso la transición no necesita cargarse además con un discurso de independencia instantánea. El niño está aprendiendo un espacio nuevo, una frontera nueva y quizá una expectativa nueva sobre qué hace cuando se despierta o cuando el adulto se despide. Cuanta más continuidad conserves alrededor del cambio de cama, menos cosas tendrá que aprender la familia en la misma noche.",
+      "last_h2": "Deja que la nueva cama se vuelva normal antes de pedir que simbolice independencia",
+      "ending_3_paragraphs": "Si pide más cercanía durante unos días, podéis ofrecerla sin anunciar que la transición ha fracasado. También podéis mantener límites sostenibles para los adultos. Acompañar un cambio no obliga a permanecer indefinidamente en una forma de presencia que la familia no puede sostener. Con el tiempo, la cama pierde su condición de “nueva” y empieza a acumular noches normales: cuentos, despertares, mañanas, días fáciles y difíciles. Esa familiaridad suele importar más que cualquier celebración inicial. El objetivo del paso a una cama infantil no es demostrar que el niño ya puede hacerlo todo solo. Es crear un entorno adecuado, conservar suficientes señales conocidas y acompañar la libertad nueva hasta que esa cama deje de ser un experimento y se convierta simplemente en el lugar donde termina el día.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -20836,41 +20815,40 @@
       "translation_group": "118-floor-bed-autonomy-considerations",
       "language": "es",
       "title": "Cama de suelo: qué aporta a la autonomía y qué conviene valorar",
-      "words": 326,
-      "paragraphs": 10,
+      "words": 770,
+      "paragraphs": 15,
       "h2_count": 4,
-      "h2_density_per_1000_words": 12.27,
+      "h2_density_per_1000_words": 5.19,
       "h2s": [
-        "Piensa qué autonomía quieres facilitar",
-        "Valora la habitación completa, no solo el colchón",
-        "Anticipa cómo cambia la rutina",
-        "No conviertas una elección de mobiliario en una filosofía obligatoria"
+        "Define qué autonomía esperas conseguir en la práctica",
+        "Evalúa la habitación completa, no solo el aspecto de la cama",
+        "Piensa cómo cambiará la rutina antes de comprar la idea completa",
+        "Separa la elección de mobiliario de la identidad parental"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 29.8,
+      "avg_paragraph_words": 48.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.133,
+      "long_paragraphs": 1,
       "phrase_counts": {
-        "no_necesitas": 1,
+        "no_necesitas": 0,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 5,
+        "puede": 9,
         "importante": 0,
         "clave": 0
       },
-      "opening": "La idea de una cama de suelo suele asociarse con autonomía: el niño puede entrar y salir sin ayuda, ver el espacio de descanso como algo accesible y moverse con más libertad. Esa libertad puede encajar muy bien en algunas familias y añadir trabajo nuevo en otras.",
-      "opening_14_words": "La idea de una cama de suelo suele asociarse con autonomía el niño puede",
-      "intro_3_paragraphs": "La idea de una cama de suelo suele asociarse con autonomía: el niño puede entrar y salir sin ayuda, ver el espacio de descanso como algo accesible y moverse con más libertad. Esa libertad puede encajar muy bien en algunas familias y añadir trabajo nuevo en otras. Una cama de suelo no es solo una cama más baja. Cambia dónde está la frontera: si el niño puede levantarse libremente, toda la habitación pasa a formar parte del entorno nocturno. Quizá buscas que el niño pueda tumbarse solo para mirar libros, levantarse sin llamar al adulto o participar más en su rutina. Define qué beneficio concreto esperas; “más autonomía” es demasiado amplio para decidir por sí solo.",
-      "last_h2": "No conviertas una elección de mobiliario en una filosofía obligatoria",
-      "ending_3_paragraphs": "La cama puede facilitar autonomía sin eliminar la necesidad de límites y señales de cierre. Una cama de suelo puede encajar, no encajar o funcionar durante una etapa concreta. No necesitas defenderla como superior ni interpretar una cama tradicional como menos respetuosa con la autonomía. La mejor elección es la que combina un entorno adecuado, una rutina que podéis sostener y una cantidad de libertad que vuestra familia está preparada para acompañar.",
-      "risk_score": 9,
+      "opening": "Las camas de suelo suelen aparecer en conversaciones sobre autonomía como si la elección del mueble explicara por sí sola una forma de criar. La imagen resulta atractiva: el niño puede entrar y salir de su espacio de descanso sin pedir ayuda, tumbarse a mirar un libro y moverse con más libertad. Pero esa libertad no ocurre en el vacío. Cambia también qué parte del entorno necesita organizar la familia y dónde se colocan los límites nocturnos.",
+      "opening_14_words": "Las camas de suelo suelen aparecer en conversaciones sobre autonomía como si la elección",
+      "intro_3_paragraphs": "Las camas de suelo suelen aparecer en conversaciones sobre autonomía como si la elección del mueble explicara por sí sola una forma de criar. La imagen resulta atractiva: el niño puede entrar y salir de su espacio de descanso sin pedir ayuda, tumbarse a mirar un libro y moverse con más libertad. Pero esa libertad no ocurre en el vacío. Cambia también qué parte del entorno necesita organizar la familia y dónde se colocan los límites nocturnos. Una cama de suelo no es simplemente una cama tradicional situada más abajo. Cuando el niño puede moverse libremente, parte de la frontera deja de estar en el mueble y pasa a toda la habitación. “Quiero fomentar la autonomía” es una intención válida, pero demasiado amplia para decidir un sistema de descanso. Intenta traducirla a escenas concretas. ¿Quieres que el niño pueda acostarse solo para descansar? ¿Que pueda entrar y salir sin necesitar que lo levanten? ¿Que participe más activamente en preparar su espacio?",
+      "last_h2": "Separa la elección de mobiliario de la identidad parental",
+      "ending_3_paragraphs": "Las redes sociales tienden a presentar objetos cotidianos como símbolos de un estilo completo de crianza. Eso dificulta revisar una elección cuando deja de resultar práctica. Si el sistema genera sueño más fragmentado para la familia, demasiada supervisión o un espacio difícil de organizar, podéis cambiarlo sin haber renunciado a respetar la autonomía del niño. Del mismo modo, una cama tradicional no impide que un niño tenga voz, participación o acceso creciente a su entorno. El mueble es una herramienta dentro de una casa concreta, no una medida de cuánto confía la familia en él. La pregunta útil no es si una cama de suelo es “mejor”. Es si la libertad que ofrece, las exigencias que traslada a la habitación y la rutina que requiere encajan con vuestro hijo, vuestro espacio y la cantidad de acompañamiento que podéis sostener.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -20879,41 +20857,40 @@
       "translation_group": "119-siblings-sharing-room-sleep-space-expectations",
       "language": "es",
       "title": "Compartir habitación entre hermanos: cómo organizar sueño, espacio y expectativas",
-      "words": 309,
-      "paragraphs": 10,
+      "words": 767,
+      "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 12.94,
+      "h2_density_per_1000_words": 5.22,
       "h2s": [
-        "Decide qué partes de la rutina serán compartidas",
-        "Crea algo de territorio personal dentro del espacio común",
-        "Planifica el problema del que se duerme después",
-        "Acepta una fase de ajuste"
+        "Comparte las partes que simplifican y separa las que crean fricción",
+        "Crea territorio personal aunque el dormitorio sea común",
+        "Diseña un plan para quien se duerme más tarde y para quien se despierta antes",
+        "Acepta que la complicidad nocturna también forma parte del paquete"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 27.9,
+      "avg_paragraph_words": 45.2,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.062,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
+        "no_necesitas": 0,
+        "no_significa": 1,
         "a_veces": 0,
-        "puede": 4,
+        "puede": 12,
         "importante": 0,
         "clave": 0
       },
-      "opening": "La habitación compartida puede ser práctica, necesaria o una elección que a los niños les encanta. También introduce variables nuevas: uno tarda en dormirse, otro se despierta antes, uno quiere hablar y el otro necesita silencio. La solución rara vez es exigir que ambos tengan el mismo ritmo.",
-      "opening_14_words": "La habitación compartida puede ser práctica necesaria o una elección que a los niños",
-      "intro_3_paragraphs": "La habitación compartida puede ser práctica, necesaria o una elección que a los niños les encanta. También introduce variables nuevas: uno tarda en dormirse, otro se despierta antes, uno quiere hablar y el otro necesita silencio. La solución rara vez es exigir que ambos tengan el mismo ritmo. Compartir espacio funciona mejor cuando la familia diseña reglas para convivir con diferencias, no cuando intenta borrarlas. Quizá ambos se ponen el pijama juntos, pero uno lee más tiempo. Tal vez el cuento es común y después cada uno tiene una despedida distinta. No necesitas una rutina idéntica para que la habitación funcione.",
-      "last_h2": "Acepta una fase de ajuste",
-      "ending_3_paragraphs": "Del mismo modo, el que se despierta antes necesita saber qué puede hacer mientras el otro sigue descansando. Las primeras noches pueden traer risas, conversación, despertares y novedad. Eso no demuestra automáticamente que compartir habitación sea imposible. Observa si el sistema mejora a medida que deja de ser nuevo. La meta no es una habitación silenciosa con dos niños sincronizados. Es un espacio compartido donde cada uno pueda descansar sin que sus diferencias se conviertan en conflicto constante.",
-      "risk_score": 9,
+      "opening": "Compartir habitación entre hermanos puede ser una necesidad de espacio, una elección familiar o algo que los propios niños desean. También crea una logística que no existe cuando cada uno duerme solo. Uno tarda mucho en dormirse, otro cae rendido enseguida; uno quiere hablar, otro necesita silencio; uno madruga y el otro podría dormir una hora más.",
+      "opening_14_words": "Compartir habitación entre hermanos puede ser una necesidad de espacio una elección familiar o",
+      "intro_3_paragraphs": "Compartir habitación entre hermanos puede ser una necesidad de espacio, una elección familiar o algo que los propios niños desean. También crea una logística que no existe cuando cada uno duerme solo. Uno tarda mucho en dormirse, otro cae rendido enseguida; uno quiere hablar, otro necesita silencio; uno madruga y el otro podría dormir una hora más. El error más común es intentar resolver esas diferencias convirtiendo a dos niños en un único “sistema de sueño”. Compartir metros cuadrados no hace que tengan la misma edad, el mismo ritmo ni la misma necesidad de acompañamiento. Una habitación compartida funciona mejor cuando ofrece reglas para convivir con las diferencias, no cuando exige que desaparezcan.",
+      "last_h2": "Acepta que la complicidad nocturna también forma parte del paquete",
+      "ending_3_paragraphs": "Podéis permitir cierta charla y aun así tener un cierre. “Podéis hablar bajito unos minutos; cuando apaguemos esta luz, toca descansar” ofrece un marco más realista que exigir silencio absoluto desde el segundo en que entran. Si la conversación se alarga hasta perjudicar de forma sostenida el descanso o uno de los dos vive la habitación como una invasión constante, habrá que revisar el sistema. Que compartir sea posible no significa que deba mantenerse a cualquier coste. El objetivo no es una habitación perfectamente silenciosa con dos niños sincronizados. Es un espacio común en el que cada hermano conserve algo propio, entienda cómo cuidar el descanso del otro y pueda convivir con diferencias de horario sin que cada noche se convierta en un conflicto logístico.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -20922,41 +20899,40 @@
       "translation_group": "120-transition-shared-room-to-separate-rooms",
       "language": "es",
       "title": "Cómo pasar de una habitación compartida a habitaciones separadas con suavidad",
-      "words": 287,
-      "paragraphs": 10,
+      "words": 766,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 13.94,
+      "h2_density_per_1000_words": 5.22,
       "h2s": [
-        "Explica la razón sin convertirlo en premio o castigo",
-        "Lleva algunas señales conocidas a cada habitación",
-        "Mantén un pequeño punto de conexión entre hermanos",
-        "Da tiempo a que el silencio deje de sentirse extraño"
+        "Explica por qué cambia la organización sin cargar la relación entre hermanos",
+        "Cambia el espacio sin reinventar también toda la hora de dormir",
+        "Da un lugar concreto a la conexión que antes ocurría sola",
+        "Espera que la nueva habitación necesite acumular noches normales"
       ],
       "list_items": 0,
       "bold_spans": 2,
-      "avg_paragraph_words": 25.3,
-      "short_paragraph_ratio": 0.1,
+      "avg_paragraph_words": 42.5,
+      "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
+      "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 4,
+        "puede": 10,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Desde fuera, pasar a habitaciones separadas parece una mejora sencilla: más espacio, menos despertares mutuos y un lugar propio para cada niño. Pero si llevaban tiempo compartiendo, también desaparece una presencia conocida al final del día.",
-      "opening_14_words": "Desde fuera pasar a habitaciones separadas parece una mejora sencilla más espacio menos despertares",
-      "intro_3_paragraphs": "Desde fuera, pasar a habitaciones separadas parece una mejora sencilla: más espacio, menos despertares mutuos y un lugar propio para cada niño. Pero si llevaban tiempo compartiendo, también desaparece una presencia conocida al final del día. Una transición suave reconoce las dos cosas a la vez: puede ser una mejora práctica y también una pequeña separación que necesita tiempo para sentirse normal. Si el cambio ocurre por edad, espacio, horarios o necesidades diferentes, dilo de forma sencilla. Evita plantear la habitación propia como recompensa por portarse bien o la separación como consecuencia de hablar demasiado.",
-      "last_h2": "Da tiempo a que el silencio deje de sentirse extraño",
-      "ending_3_paragraphs": "Con el tiempo, ese ritual puede reducirse si deja de ser necesario. Un niño puede disfrutar su habitación durante el día y pedir volver con su hermano por la noche. No es incoherencia. El contexto nocturno activa recuerdos y hábitos distintos. El objetivo no es que celebre la separación desde la primera noche. Es que la nueva habitación acumule suficientes noches conocidas como para dejar de sentirse nueva.",
-      "risk_score": 9,
+      "opening": "Desde la mirada adulta, separar a dos hermanos que compartían habitación puede parecer una mejora puramente práctica: menos despertares mutuos, más espacio para cada uno, horarios distintos que dejan de interferirse. Para los niños, sin embargo, cambia también una presencia nocturna muy conocida. Ya no está la respiración del hermano, la charla a oscuras ni la certeza de que hay otra cama a pocos metros.",
+      "opening_14_words": "Desde la mirada adulta separar a dos hermanos que compartían habitación puede parecer una",
+      "intro_3_paragraphs": "Desde la mirada adulta, separar a dos hermanos que compartían habitación puede parecer una mejora puramente práctica: menos despertares mutuos, más espacio para cada uno, horarios distintos que dejan de interferirse. Para los niños, sin embargo, cambia también una presencia nocturna muy conocida. Ya no está la respiración del hermano, la charla a oscuras ni la certeza de que hay otra cama a pocos metros. Por eso un niño puede pasar la tarde encantado decorando su nuevo cuarto y, esa misma noche, pedir volver al anterior. No está rechazando necesariamente el cambio. La novedad diurna y el silencio nocturno se sienten de manera distinta. Una transición suave permite que la habitación propia sea una ganancia práctica sin obligar al niño a fingir que no echa de menos la compañía que tenía.",
+      "last_h2": "Espera que la nueva habitación necesite acumular noches normales",
+      "ending_3_paragraphs": "Con el tiempo, la habitación propia deja de ser “la habitación nueva”. Acumula despertares, cuentos, mañanas, objetos personales y pequeñas costumbres. Esa historia cotidiana es la que termina sustituyendo la familiaridad del espacio compartido. Si después de un periodo razonable la separación está empeorando de forma sostenida el descanso o la convivencia, siempre podéis revisar la organización. Hacer una transición con intención no obliga a mantenerla solo para demostrar que la decisión inicial era correcta. Separar habitaciones no consiste en cortar la conexión entre hermanos. Consiste en trasladar parte de esa conexión fuera del hecho de dormir en el mismo espacio, mientras cada niño construye suficiente familiaridad con su propio cuarto para que el silencio deje de sentirse como una pérdida.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_350_words",
-        "high_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -28800,7 +28776,7 @@
   "common_ngrams": [
     {
       "ngram": "does not need to become a",
-      "count": 13,
+      "count": 15,
       "files": [
         "content/articles/en/001-respectful-parenting.json",
         "content/articles/en/024-toddler-yelling-respectful-parenting.json",
@@ -28814,7 +28790,9 @@
         "content/articles/en/1058-not-wanting-kid-activities-every-weekend.json",
         "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
         "content/articles/en/1089-accept-bad-week-without-thinking-family-is-bad.json",
-        "content/articles/en/1095-other-moms-seem-to-enjoy-parenting-more.json"
+        "content/articles/en/1095-other-moms-seem-to-enjoy-parenting-more.json",
+        "content/articles/en/111-simplify-too-long-bedtime-routine.json",
+        "content/articles/en/120-transition-shared-room-to-separate-rooms.json"
       ]
     },
     {
@@ -28852,6 +28830,22 @@
       ]
     },
     {
+      "ngram": "the goal is not to prove",
+      "count": 10,
+      "files": [
+        "content/articles/en/018-baby-led-feeding-table-autonomy.json",
+        "content/articles/en/046-share-parenting-mental-load-as-a-couple.json",
+        "content/articles/en/081-potty-to-toilet-gradual-transition.json",
+        "content/articles/en/095-road-trip-kids-stops-entertainment-packing.json",
+        "content/articles/en/1024-missing-spontaneity-after-motherhood.json",
+        "content/articles/en/1041-pressure-to-be-patient-mom-all-the-time.json",
+        "content/articles/en/1150-maintain-identity-during-pregnancy.json",
+        "content/articles/en/116-child-keeps-getting-out-of-bed.json",
+        "content/articles/en/121-prepare-child-first-night-away-from-home.json",
+        "content/articles/en/142-set-limits-adult-presence-bedtime-gradually.json"
+      ]
+    },
+    {
       "ngram": "do not have to choose between",
       "count": 9,
       "files": [
@@ -28882,21 +28876,6 @@
       ]
     },
     {
-      "ngram": "the goal is not to prove",
-      "count": 9,
-      "files": [
-        "content/articles/en/018-baby-led-feeding-table-autonomy.json",
-        "content/articles/en/046-share-parenting-mental-load-as-a-couple.json",
-        "content/articles/en/081-potty-to-toilet-gradual-transition.json",
-        "content/articles/en/095-road-trip-kids-stops-entertainment-packing.json",
-        "content/articles/en/1024-missing-spontaneity-after-motherhood.json",
-        "content/articles/en/1041-pressure-to-be-patient-mom-all-the-time.json",
-        "content/articles/en/1150-maintain-identity-during-pregnancy.json",
-        "content/articles/en/121-prepare-child-first-night-away-from-home.json",
-        "content/articles/en/142-set-limits-adult-presence-bedtime-gradually.json"
-      ]
-    },
-    {
       "ngram": "at the end of the day",
       "count": 8,
       "files": [
@@ -28906,7 +28885,7 @@
         "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
         "content/articles/en/1082-stop-measuring-motherhood-by-output.json",
         "content/articles/en/1085-remember-parenting-mistakes-forget-good.json",
-        "content/articles/en/120-transition-shared-room-to-separate-rooms.json",
+        "content/articles/en/119-siblings-sharing-room-sleep-space-expectations.json",
         "content/articles/en/146-guilt-changing-sleep-routine.json"
       ]
     },
@@ -28939,16 +28918,17 @@
       ]
     },
     {
-      "ngram": "goal is not a child who",
-      "count": 7,
+      "ngram": "you do not need to manufacture",
+      "count": 8,
       "files": [
-        "content/articles/en/017-cooperation-without-repeating.json",
-        "content/articles/en/025-child-wont-clean-up-cooperation.json",
-        "content/articles/en/026-help-child-accept-no.json",
-        "content/articles/en/029-independent-play-without-pressure.json",
         "content/articles/en/084-small-responsibilities-without-constant-rewards.json",
-        "content/articles/en/115-lights-out-protest-without-threats-rewards.json",
-        "content/articles/en/131-nap-interfering-with-bedtime.json"
+        "content/articles/en/1004-guilt-not-missing-kids.json",
+        "content/articles/en/1009-guilt-weekend-without-kids.json",
+        "content/articles/en/1046-pressure-to-give-kids-perfect-childhood.json",
+        "content/articles/en/107-recognizable-sleep-cues-when-days-vary.json",
+        "content/articles/en/1105-not-enjoy-pregnancy-even-wanted.json",
+        "content/articles/en/113-music-light-environment-sleep-cues.json",
+        "content/articles/en/141-falling-asleep-with-parent-bad-habit.json"
       ]
     },
     {
@@ -28991,19 +28971,6 @@
       ]
     },
     {
-      "ngram": "you do not need to manufacture",
-      "count": 7,
-      "files": [
-        "content/articles/en/084-small-responsibilities-without-constant-rewards.json",
-        "content/articles/en/1004-guilt-not-missing-kids.json",
-        "content/articles/en/1009-guilt-weekend-without-kids.json",
-        "content/articles/en/1046-pressure-to-give-kids-perfect-childhood.json",
-        "content/articles/en/107-recognizable-sleep-cues-when-days-vary.json",
-        "content/articles/en/1105-not-enjoy-pregnancy-even-wanted.json",
-        "content/articles/en/141-falling-asleep-with-parent-bad-habit.json"
-      ]
-    },
-    {
       "ngram": "you do not need to prove",
       "count": 7,
       "files": [
@@ -29014,6 +28981,18 @@
         "content/articles/en/1083-small-mistake-means-bad-mom.json",
         "content/articles/en/1101-not-happy-all-the-time-pregnancy.json",
         "content/articles/en/1109-not-want-to-talk-to-bump.json"
+      ]
+    },
+    {
+      "ngram": "goal is not a child who",
+      "count": 6,
+      "files": [
+        "content/articles/en/017-cooperation-without-repeating.json",
+        "content/articles/en/025-child-wont-clean-up-cooperation.json",
+        "content/articles/en/026-help-child-accept-no.json",
+        "content/articles/en/029-independent-play-without-pressure.json",
+        "content/articles/en/084-small-responsibilities-without-constant-rewards.json",
+        "content/articles/en/131-nap-interfering-with-bedtime.json"
       ]
     },
     {
@@ -29029,18 +29008,6 @@
       ]
     },
     {
-      "ngram": "the goal is not a child",
-      "count": 6,
-      "files": [
-        "content/articles/en/025-child-wont-clean-up-cooperation.json",
-        "content/articles/en/026-help-child-accept-no.json",
-        "content/articles/en/029-independent-play-without-pressure.json",
-        "content/articles/en/084-small-responsibilities-without-constant-rewards.json",
-        "content/articles/en/115-lights-out-protest-without-threats-rewards.json",
-        "content/articles/en/131-nap-interfering-with-bedtime.json"
-      ]
-    },
-    {
       "ngram": "you do not need to turn",
       "count": 6,
       "files": [
@@ -29050,6 +29017,18 @@
         "content/articles/en/082-bath-time-cooperation-routine.json",
         "content/articles/en/1006-guilt-phone-while-kids-play.json",
         "content/articles/en/1085-remember-parenting-mistakes-forget-good.json"
+      ]
+    },
+    {
+      "ngram": "your child does not have to",
+      "count": 6,
+      "files": [
+        "content/articles/en/010-respectful-limits-without-yelling.json",
+        "content/articles/en/026-help-child-accept-no.json",
+        "content/articles/en/033-power-struggles-young-children.json",
+        "content/articles/en/083-kids-refuse-getting-dressed-reduce-battles.json",
+        "content/articles/en/1047-pressure-not-to-repeat-your-parents-mistakes.json",
+        "content/articles/en/112-bedtime-story-routine-anchor.json"
       ]
     }
   ]

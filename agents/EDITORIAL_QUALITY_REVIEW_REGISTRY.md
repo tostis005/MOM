@@ -29,6 +29,7 @@ Before selecting any article or range for an editorial quality/recovery pass, re
 
 | Article range | Languages | Editorial status | Evidence / traceability |
 |---|---|---|---|
+| 001–010 | EN + ES | `QUALITY_REVIEWED` | Deliberate manual editorial quality review completed on 2026-09-09. All 20 existing JSON files were read in full and judged already substantive, well differentiated and naturally localized; no article rewrite was required. |
 | 011–020 | EN + ES | `QUALITY_REVIEWED` | Historical quality review explicitly confirmed by project owner on 2026-09-09. Do not reselect from audit ranking. |
 | 021–030 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #32. |
 | 031–040 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #33. |
@@ -71,7 +72,7 @@ These entries record deliberate extra passes that were explicitly performed on r
 
 For automated or manual candidate selection, the currently reviewed article numbers are:
 
-- `011–150`, except `001–010` are **not** covered by this registry entry. The reviewed span starts at 011.
+- `001–150`.
 - `1001–1150`.
 
 This compact exclusion set is equivalent to the detailed rows above. If future work creates a gap, partial batch, or non-contiguous exception, update both this section and the detailed table rather than assuming the compact ranges remain continuous.

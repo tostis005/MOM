@@ -1,6 +1,5 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
 13	013-sleep-regressions-calm	5	3	5	836	780	6	6	0.037	0.04	Regresiones del sueño: cómo atravesarlas con calma	Sleep Regressions: How to Get Through Them Without Changing Everything
-1041	1041-pressure-to-be-patient-mom-all-the-time	5	5	5	581	509	5	5	0.053	0.059	La presión de ser una madre paciente todo el tiempo	The Pressure to Be a Patient Mom All the Time
 1051	1051-not-enjoy-playing-for-hours	5	5	5	599	589	5	5	0.0	0.0	¿Es normal no disfrutar jugando con tus hijos durante horas?	Is It Normal Not to Enjoy Playing With Your Kids for Hours?
 1052	1052-love-kids-and-get-bored-playing	5	5	5	631	634	5	5	0.0	0.0	Amar a tus hijos y aburrirte jugando con ellos: por qué ambas cosas pueden coexistir	Loving Your Kids and Getting Bored Playing With Them Can Both Be True
 1053	1053-connect-if-not-playful-mom	5	5	5	600	564	5	5	0.0	0.0	Formas de conectar con tus hijos si no eres una madre especialmente juguetona	How to Connect With Your Kids If You Are Not a Very Playful Mom
@@ -13,12 +12,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1016	1016-feel-like-yourself-again-after-motherhood	4	2	4	879	794	6	6	0.071	0.077	Cómo volver a sentirte tú misma después de convertirte en madre	How to Feel Like Yourself Again After Becoming a Mom
 1017	1017-when-life-revolves-around-kids-and-you-dont-know-what-you-like	4	4	4	787	768	6	6	0.042	0.038	Cuando toda tu vida gira alrededor de tus hijos y no sabes qué te gusta a ti	When Your Life Revolves Around Your Kids and You Don’t Know What You Like Anymore
 1018	1018-recover-personal-interests-after-parenting-years	4	3	4	807	768	6	6	0.207	0.04	Cómo recuperar intereses personales después de años centrada en la crianza	How to Get Back to Your Hobbies After Years Focused on Parenting
-1042	1042-pressure-to-enjoy-every-moment-of-motherhood	4	4	4	690	688	5	5	0.087	0.125	La presión de disfrutar cada momento de la maternidad	The Pressure to Enjoy Every Moment of Motherhood
-1043	1043-pressure-to-create-special-memories-for-kids	4	4	4	759	742	6	6	0.069	0.103	La presión de crear recuerdos especiales constantemente para tus hijos	The Pressure to Keep Creating Special Memories for Your Kids
-1044	1044-pressure-to-be-present-mom-never-on-phone	4	4	4	737	747	6	6	0.207	0.172	La presión de ser una madre presente sin mirar nunca el teléfono	The Pressure to Be a Present Mom Who Never Looks at Her Phone
-1045	1045-pressure-to-be-fun-organized-affectionate-mom	4	4	4	742	712	6	6	0.143	0.143	La presión de ser divertida, organizada y cariñosa todos los días como madre	The Pressure to Be Fun, Organized, and Affectionate Every Day as a Mom
-1046	1046-pressure-to-give-kids-perfect-childhood	4	4	4	743	730	6	6	0.148	0.185	La presión de ofrecer una infancia perfecta a tus hijos	The Pressure to Give Your Kids a Perfect Childhood
-1049	1049-pressure-to-keep-beautiful-tidy-home-with-kids	4	4	4	711	681	5	5	0.083	0.125	La presión de tener una casa bonita y ordenada además de criar a tus hijos	The Pressure to Keep a Beautiful, Tidy Home While Raising Kids
 1082	1082-stop-measuring-motherhood-by-output	4	4	3	649	653	4	4	0.0	0.0	Cómo dejar de medir tu maternidad por la cantidad de cosas que haces	How to stop measuring your motherhood by how much you get done
 1083	1083-small-mistake-means-bad-mom	4	4	3	641	684	4	4	0.0	0.0	Sentir que cualquier error pequeño demuestra que eres mala madre	Feeling like any small mistake proves you are a bad mom
 1085	1085-remember-parenting-mistakes-forget-good	4	4	4	627	648	4	4	0.0	0.0	Por qué recuerdas tus errores de crianza y olvidas todo lo que hiciste bien	Why you remember your parenting mistakes and forget everything you did well
@@ -68,8 +61,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1014	1014-feeling-invisible-behind-mom-role	3	2	3	890	857	6	6	0.034	0.033	Sentir que has desaparecido detrás del papel de mamá	Feeling Invisible Behind the Role of Mom
 1015	1015-missing-who-you-were-before-kids	3	2	3	879	827	6	6	0.103	0.133	Echar de menos quién eras antes de tener hijos sin querer volver atrás	Missing Who You Were Before Kids Without Wanting Your Old Life Back
 1019	1019-nothing-to-talk-about-except-kids	3	3	3	816	844	6	6	0.154	0.103	Sentir que ya no tienes nada de qué hablar aparte de tus hijos	When You Feel Like You Have Nothing to Talk About Except Your Kids
-1048	1048-pressure-to-apply-all-parenting-advice-correctly	3	3	3	732	767	5	5	0.077	0.077	La presión de aplicar correctamente todo lo que lees sobre crianza	The Pressure to Apply Everything You Read About Parenting Correctly
-1050	1050-stop-living-motherhood-like-an-exam	3	3	3	801	801	6	6	0.1	0.167	Cómo dejar de vivir la maternidad como un examen que tienes que aprobar	How to Stop Living Motherhood Like a Test You Have to Pass
 1056	1056-caring-feels-natural-playing-does-not	3	3	3	604	610	3	3	0.0	0.0	Cuando cuidar de tus hijos te sale natural pero jugar no tanto	When caring for your kids feels natural but playing does not
 1057	1057-find-connection-you-enjoy-too	3	3	3	549	548	3	3	0.067	0.0	Cómo encontrar formas de conexión con tus hijos que también disfrutes tú	How to find ways to connect with your kids that you enjoy too
 1058	1058-not-wanting-kids-activities-every-weekend	3	3	3	537	527	3	3	0.067	0.067	No tener ganas de hacer actividades infantiles cada fin de semana	Not wanting to do kid activities every single weekend
@@ -176,7 +167,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1011	1011-matrescence-identity-change	2	2	2	939	868	6	6	0.069	0.129	Matrescencia: por qué convertirte en madre puede cambiar profundamente tu identidad	Matrescence: Why Becoming a Mother Can Change Your Sense of Identity
 1020	1020-adult-identity-that-includes-motherhood	2	2	1	1045	1070	7	7	0.108	0.057	Cómo construir una identidad adulta que incluya la maternidad pero no dependa solo de ella	How to Build an Adult Identity That Includes Motherhood Without Being Only About It
 1023	1023-nostalgia-childfree-life-exhausting-season	2	2	2	862	918	4	4	0.0	0.0	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	Missing your pre-kids life during an exhausting season of parenting
-1047	1047-pressure-not-to-repeat-your-parents-mistakes	2	1	2	910	851	5	5	0.0	0.042	La presión de no repetir ningún error de tus propios padres	The Pressure Not to Repeat Any of Your Parents’ Mistakes
 1063	1063-relief-when-no-one-needs-you	2	2	2	778	798	4	4	0.0	0.0	Sentir alivio cuando por fin nadie te necesita durante unos minutos	Feeling relieved when no one needs you for a few minutes
 1065	1065-why-five-minutes-alone-matter-as-mom	2	2	1	761	827	4	4	0.0	0.0	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	Why five minutes alone can feel so important when you are a mom
 1067	1067-running-errands-alone-feels-like-rest	2	2	1	787	806	4	4	0.0	0.0	Hacer recados sola como forma de descanso después de tener hijos	When running errands alone feels like rest after having kids
@@ -283,6 +273,16 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1038	1038-dont-recognize-how-protective-youve-become	1	1	1	829	994	4	4	0.0	0.0	No reconocerte en lo protectora que te has vuelto después de tener un bebé	When you don't recognize how protective you've become after having a baby
 1039	1039-motherhood-emotional-vulnerability	1	1	1	860	1006	4	4	0.0	0.0	Sentir que la maternidad te ha hecho más vulnerable emocionalmente	Feeling like motherhood made you more emotionally vulnerable
 1040	1040-more-intense-emotions-after-kids	1	1	1	902	1004	4	4	0.0	0.0	Sentir emociones más intensas desde que tienes hijos: cómo entender tu nueva sensibilidad	Feeling emotions more intensely after having kids: understanding your new sensitivity
+1041	1041-pressure-to-be-patient-mom-all-the-time	1	1	1	889	950	4	4	0.0	0.0	La presión de ser una madre paciente todo el tiempo	The Pressure to Be a Patient Mom All the Time
+1042	1042-pressure-to-enjoy-every-moment-of-motherhood	1	1	1	883	898	4	4	0.0	0.0	La presión de disfrutar cada momento de la maternidad	The Pressure to Enjoy Every Moment of Motherhood
+1043	1043-pressure-to-create-special-memories-for-kids	1	1	1	869	875	4	4	0.0	0.0	La presión de crear recuerdos especiales constantemente para tus hijos	The Pressure to Keep Creating Special Memories for Your Kids
+1044	1044-pressure-to-be-present-mom-never-on-phone	1	1	1	916	948	4	4	0.0	0.0	La presión de ser una madre presente sin mirar nunca el teléfono	The Pressure to Be a Present Mom Who Never Looks at Her Phone
+1045	1045-pressure-to-be-fun-organized-affectionate-mom	1	1	1	913	930	4	4	0.0	0.0	La presión de ser divertida, organizada y cariñosa todos los días como madre	The Pressure to Be Fun, Organized, and Affectionate Every Day as a Mom
+1046	1046-pressure-to-give-kids-perfect-childhood	1	1	1	899	902	4	4	0.0	0.0	La presión de ofrecer una infancia perfecta a tus hijos	The Pressure to Give Your Kids a Perfect Childhood
+1047	1047-pressure-not-to-repeat-your-parents-mistakes	1	1	1	915	924	4	4	0.0	0.0	La presión de no repetir ningún error de tus propios padres	The Pressure Not to Repeat Any of Your Parents’ Mistakes
+1048	1048-pressure-to-apply-all-parenting-advice-correctly	1	1	1	871	883	4	4	0.0	0.0	La presión de aplicar correctamente todo lo que lees sobre crianza	The Pressure to Apply Everything You Read About Parenting Correctly
+1049	1049-pressure-to-keep-beautiful-tidy-home-with-kids	1	1	1	905	890	4	4	0.0	0.0	La presión de tener una casa bonita y ordenada además de criar a tus hijos	The Pressure to Keep a Beautiful, Tidy Home While Raising Kids
+1050	1050-stop-living-motherhood-like-an-exam	1	1	1	910	922	4	4	0.0	0.0	Cómo dejar de vivir la maternidad como un examen que tienes que aprobar	How to Stop Living Motherhood Like a Test You Have to Pass
 1061	1061-looking-forward-to-being-alone-end-of-day	1	1	1	933	972	4	4	0.0	0.0	¿Es normal esperar con ganas el momento de estar sola al final del día?	Is it normal to look forward to being alone at the end of the day?
 1062	1062-best-part-day-silence-after-kids-bed	1	1	1	827	859	4	4	0.0	0.0	Cuando lo mejor del día es el silencio después de acostar a los niños	When the best part of the day is the silence after the kids go to bed
 1064	1064-want-kids-to-leave-you-alone-then-miss-them	1	1	1	803	814	4	4	0.0	0.0	Querer que tus hijos te dejen sola y echarlos de menos cuando se van	Wanting your kids to leave you alone and then missing them when they do

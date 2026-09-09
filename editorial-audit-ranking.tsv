@@ -1,12 +1,10 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
 en	13	5	780	6	7.69	0.04	1	25	Sleep Regressions: How to Get Through Them Without Changing Everything	body_under_800_words,high_h2_density,many_question_paragraphs	content/articles/en/013-sleep-regressions-calm.json
-en	1041	5	509	5	9.82	0.059	1	17	The Pressure to Be a Patient Mom All the Time	body_under_650_words,high_h2_density	content/articles/en/1041-pressure-to-be-patient-mom-all-the-time.json
 en	1051	5	589	5	8.49	0.0	0	14	Is It Normal Not to Enjoy Playing With Your Kids for Hours?	body_under_650_words,high_h2_density	content/articles/en/1051-not-enjoy-playing-with-kids-for-hours.json
 en	1052	5	634	5	7.89	0.0	0	17	Loving Your Kids and Getting Bored Playing With Them Can Both Be True	body_under_650_words,high_h2_density	content/articles/en/1052-loving-kids-and-getting-bored-playing.json
 en	1053	5	564	5	8.87	0.0	0	16	How to Connect With Your Kids If You Are Not a Very Playful Mom	body_under_650_words,high_h2_density	content/articles/en/1053-connect-with-kids-if-not-playful-mom.json
 en	1054	5	525	5	9.52	0.176	1	17	Preferring Reading or Walking With Your Kids Instead of Playing on the Floor	body_under_650_words,high_h2_density	content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json
 en	1055	5	641	5	7.8	0.0	0	16	Feeling Guilty Because Your Partner Enjoys Playing With the Kids More Than You Do	body_under_650_words,high_h2_density	content/articles/en/1055-guilt-partner-enjoys-playing-with-kids-more.json
-es	1041	5	581	5	8.61	0.053	1	19	La presión de ser una madre paciente todo el tiempo	body_under_650_words,high_h2_density	content/articles/es/1041-presion-ser-madre-paciente-todo-el-tiempo.json
 es	1051	5	599	5	8.35	0.0	0	14	¿Es normal no disfrutar jugando con tus hijos durante horas?	body_under_650_words,high_h2_density	content/articles/es/1051-no-disfrutar-jugando-hijos-durante-horas.json
 es	1052	5	631	5	7.92	0.0	0	17	Amar a tus hijos y aburrirte jugando con ellos: por qué ambas cosas pueden coexistir	body_under_650_words,high_h2_density	content/articles/es/1052-amar-hijos-aburrirte-jugando.json
 es	1053	5	600	5	8.33	0.0	0	16	Formas de conectar con tus hijos si no eres una madre especialmente juguetona	body_under_650_words,high_h2_density	content/articles/es/1053-conectar-hijos-si-no-eres-madre-juguetona.json
@@ -19,12 +17,6 @@ en	149	4	646	4	6.19	0.0	0	15	How to use a sleep log without turning it into an o
 en	1016	4	794	6	7.56	0.077	1	26	How to Feel Like Yourself Again After Becoming a Mom	body_under_800_words,high_h2_density	content/articles/en/1016-feel-like-yourself-again-after-motherhood.json
 en	1017	4	768	6	7.81	0.038	1	26	When Your Life Revolves Around Your Kids and You Don’t Know What You Like Anymore	body_under_800_words,high_h2_density	content/articles/en/1017-life-revolves-around-kids-dont-know-what-you-like.json
 en	1018	4	768	6	7.81	0.04	1	25	How to Get Back to Your Hobbies After Years Focused on Parenting	body_under_800_words,high_h2_density	content/articles/en/1018-recover-personal-interests-after-parenting-years.json
-en	1042	4	688	5	7.27	0.125	1	24	The Pressure to Enjoy Every Moment of Motherhood	body_under_800_words,high_h2_density	content/articles/en/1042-pressure-to-enjoy-every-moment-of-motherhood.json
-en	1043	4	742	6	8.09	0.103	1	29	The Pressure to Keep Creating Special Memories for Your Kids	body_under_800_words,high_h2_density	content/articles/en/1043-pressure-to-create-special-memories-for-kids.json
-en	1044	4	747	6	8.03	0.172	1	29	The Pressure to Be a Present Mom Who Never Looks at Her Phone	body_under_800_words,high_h2_density	content/articles/en/1044-pressure-to-be-present-mom-never-on-phone.json
-en	1045	4	712	6	8.43	0.143	1	28	The Pressure to Be Fun, Organized, and Affectionate Every Day as a Mom	body_under_800_words,high_h2_density	content/articles/en/1045-pressure-to-be-fun-organized-affectionate-mom.json
-en	1046	4	730	6	8.22	0.185	1	27	The Pressure to Give Your Kids a Perfect Childhood	body_under_800_words,high_h2_density	content/articles/en/1046-pressure-to-give-kids-perfect-childhood.json
-en	1049	4	681	5	7.34	0.125	1	24	The Pressure to Keep a Beautiful, Tidy Home While Raising Kids	body_under_800_words,high_h2_density	content/articles/en/1049-pressure-to-keep-beautiful-tidy-home-with-kids.json
 en	1085	4	648	4	6.17	0.0	0	14	Why you remember your parenting mistakes and forget everything you did well	body_under_650_words,elevated_h2_density	content/articles/en/1085-remember-parenting-mistakes-forget-good.json
 en	1086	4	626	4	6.39	0.0	0	14	How to end a hard day without turning it into a judgment of your motherhood	body_under_650_words,elevated_h2_density	content/articles/en/1086-end-hard-day-without-judging-motherhood.json
 en	1087	4	622	4	6.43	0.0	0	14	Promising yourself every night that tomorrow you will be a more patient mom	body_under_650_words,elevated_h2_density	content/articles/en/1087-promise-tomorrow-more-patient-mom.json
@@ -42,12 +34,6 @@ es	145	4	619	4	6.46	0.0	0	14	Cómo decidir qué batallas no merece la pena libra
 es	148	4	606	4	6.6	0.0	0	14	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	body_under_650_words,elevated_h2_density	content/articles/es/148-horarios-sueno-otras-familias-no-tienen-funcionar.json
 es	149	4	647	4	6.18	0.0	0	15	Cómo usar un registro de sueño sin convertirlo en una obsesión	body_under_650_words,elevated_h2_density	content/articles/es/149-registro-sueno-sin-obsesion.json
 es	1017	4	787	6	7.62	0.042	1	24	Cuando toda tu vida gira alrededor de tus hijos y no sabes qué te gusta a ti	body_under_800_words,high_h2_density	content/articles/es/1017-toda-vida-gira-hijos-no-sabes-que-te-gusta.json
-es	1042	4	690	5	7.25	0.087	1	23	La presión de disfrutar cada momento de la maternidad	body_under_800_words,high_h2_density	content/articles/es/1042-presion-disfrutar-cada-momento-maternidad.json
-es	1043	4	759	6	7.91	0.069	1	29	La presión de crear recuerdos especiales constantemente para tus hijos	body_under_800_words,high_h2_density	content/articles/es/1043-presion-crear-recuerdos-especiales-hijos.json
-es	1044	4	737	6	8.14	0.207	1	29	La presión de ser una madre presente sin mirar nunca el teléfono	body_under_800_words,high_h2_density	content/articles/es/1044-presion-madre-presente-sin-mirar-movil.json
-es	1045	4	742	6	8.09	0.143	1	28	La presión de ser divertida, organizada y cariñosa todos los días como madre	body_under_800_words,high_h2_density	content/articles/es/1045-presion-ser-divertida-organizada-carinosa.json
-es	1046	4	743	6	8.08	0.148	1	27	La presión de ofrecer una infancia perfecta a tus hijos	body_under_800_words,high_h2_density	content/articles/es/1046-presion-ofrecer-infancia-perfecta.json
-es	1049	4	711	5	7.03	0.083	1	24	La presión de tener una casa bonita y ordenada además de criar a tus hijos	body_under_800_words,high_h2_density	content/articles/es/1049-presion-casa-bonita-ordenada-con-hijos.json
 es	1082	4	649	4	6.16	0.0	0	14	Cómo dejar de medir tu maternidad por la cantidad de cosas que haces	body_under_650_words,elevated_h2_density	content/articles/es/1082-dejar-medir-maternidad-cantidad-cosas.json
 es	1083	4	641	4	6.24	0.0	0	14	Sentir que cualquier error pequeño demuestra que eres mala madre	body_under_650_words,elevated_h2_density	content/articles/es/1083-error-pequeno-mala-madre.json
 es	1085	4	627	4	6.38	0.0	0	14	Por qué recuerdas tus errores de crianza y olvidas todo lo que hiciste bien	body_under_650_words,elevated_h2_density	content/articles/es/1085-recuerdas-errores-olvidas-lo-bueno.json
@@ -86,8 +72,6 @@ en	1013	3	827	6	7.26	0.04	1	25	How to Keep Your Personal Identity After Having K
 en	1014	3	857	6	7.0	0.033	1	30	Feeling Invisible Behind the Role of Mom	body_under_1050_words,high_h2_density	content/articles/en/1014-feeling-invisible-behind-mom-role.json
 en	1015	3	827	6	7.26	0.133	1	30	Missing Who You Were Before Kids Without Wanting Your Old Life Back	body_under_1050_words,high_h2_density	content/articles/en/1015-missing-who-you-were-before-kids.json
 en	1019	3	844	6	7.11	0.103	1	29	When You Feel Like You Have Nothing to Talk About Except Your Kids	body_under_1050_words,high_h2_density	content/articles/en/1019-nothing-to-talk-about-except-kids.json
-en	1048	3	767	5	6.52	0.077	1	26	The Pressure to Apply Everything You Read About Parenting Correctly	body_under_800_words,elevated_h2_density	content/articles/en/1048-pressure-to-apply-all-parenting-advice-correctly.json
-en	1050	3	801	6	7.49	0.167	2	30	How to Stop Living Motherhood Like a Test You Have to Pass	body_under_1050_words,high_h2_density	content/articles/en/1050-stop-living-motherhood-like-an-exam.json
 en	1056	3	610	3	4.92	0.0	0	15	When caring for your kids feels natural but playing does not	body_under_650_words	content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json
 en	1057	3	548	3	5.47	0.0	0	15	How to find ways to connect with your kids that you enjoy too	body_under_650_words	content/articles/en/1057-ways-to-connect-with-kids-you-enjoy-too.json
 en	1058	3	527	3	5.69	0.067	1	15	Not wanting to do kid activities every single weekend	body_under_650_words	content/articles/en/1058-not-wanting-kid-activities-every-weekend.json
@@ -140,8 +124,6 @@ es	1008	3	1006	7	6.96	0.031	1	32	Culpa por pedir una niñera aunque no tengas ni
 es	1012	3	840	6	7.14	0.074	1	27	No reconocerte después de convertirte en madre: una experiencia más común de lo que parece	body_under_1050_words,high_h2_density	content/articles/es/1012-no-reconocerte-despues-ser-madre.json
 es	1018	3	807	6	7.43	0.207	1	29	Cómo recuperar intereses personales después de años centrada en la crianza	body_under_1050_words,high_h2_density	content/articles/es/1018-recuperar-intereses-personales-despues-crianza.json
 es	1019	3	816	6	7.35	0.154	1	26	Sentir que ya no tienes nada de qué hablar aparte de tus hijos	body_under_1050_words,high_h2_density	content/articles/es/1019-nada-hablar-aparte-hijos.json
-es	1048	3	732	5	6.83	0.077	1	26	La presión de aplicar correctamente todo lo que lees sobre crianza	body_under_800_words,elevated_h2_density	content/articles/es/1048-presion-aplicar-correctamente-todo-crianza.json
-es	1050	3	801	6	7.49	0.1	2	30	Cómo dejar de vivir la maternidad como un examen que tienes que aprobar	body_under_1050_words,high_h2_density	content/articles/es/1050-dejar-vivir-maternidad-como-examen.json
 es	1056	3	604	3	4.97	0.0	0	15	Cuando cuidar de tus hijos te sale natural pero jugar no tanto	body_under_650_words	content/articles/es/1056-cuidar-hijos-natural-jugar-no-tanto.json
 es	1057	3	549	3	5.46	0.067	1	15	Cómo encontrar formas de conexión con tus hijos que también disfrutes tú	body_under_650_words	content/articles/es/1057-formas-conexion-hijos-que-disfrutes-tu.json
 es	1058	3	537	3	5.59	0.067	1	15	No tener ganas de hacer actividades infantiles cada fin de semana	body_under_650_words	content/articles/es/1058-no-ganas-actividades-infantiles-cada-fin-semana.json
@@ -238,7 +220,6 @@ en	1008	2	865	6	6.94	0.071	1	28	Feeling Guilty for Hiring a Babysitter When You 
 en	1010	2	883	6	6.8	0.125	1	32	Feeling Guilty for Feeling Relieved When the Kids Go Back to School or Daycare	body_under_1050_words,elevated_h2_density	content/articles/en/1010-guilt-relief-school-daycare.json
 en	1011	2	868	6	6.91	0.129	1	31	Matrescence: Why Becoming a Mother Can Change Your Sense of Identity	body_under_1050_words,elevated_h2_density	content/articles/en/1011-matrescence-identity-change.json
 en	1023	2	918	4	4.36	0.0	0	18	Missing your pre-kids life during an exhausting season of parenting	body_under_1050_words,many_question_paragraphs	content/articles/en/1023-nostalgia-childfree-life-exhausting-season.json
-en	1047	2	851	5	5.88	0.042	1	24	The Pressure Not to Repeat Any of Your Parents’ Mistakes	body_under_1050_words,elevated_h2_density	content/articles/en/1047-pressure-not-to-repeat-your-parents-mistakes.json
 en	1063	2	798	4	5.01	0.0	0	19	Feeling relieved when no one needs you for a few minutes	body_under_800_words	content/articles/en/1063-relief-when-no-one-needs-you.json
 en	1068	2	794	4	5.04	0.0	0	17	Why an uninterrupted shower can feel like a luxury when you are a mom	body_under_800_words	content/articles/en/1068-uninterrupted-shower-feels-like-luxury.json
 en	1072	2	768	4	5.21	0.0	0	18	When your kids keep calling for you even though another adult is right there	body_under_800_words	content/articles/en/1072-kids-call-mom-when-other-adult-present.json
@@ -471,6 +452,16 @@ en	1037	1	930	4	4.3	0.0	0	18	Why some moms become more protective than they expe
 en	1038	1	994	4	4.02	0.0	0	20	When you don't recognize how protective you've become after having a baby	body_under_1050_words	content/articles/en/1038-dont-recognize-how-protective-youve-become.json
 en	1039	1	1006	4	3.98	0.0	0	19	Feeling like motherhood made you more emotionally vulnerable	body_under_1050_words	content/articles/en/1039-motherhood-emotional-vulnerability.json
 en	1040	1	1004	4	3.98	0.0	0	19	Feeling emotions more intensely after having kids: understanding your new sensitivity	body_under_1050_words	content/articles/en/1040-more-intense-emotions-after-kids.json
+en	1041	1	950	4	4.21	0.0	0	18	The Pressure to Be a Patient Mom All the Time	body_under_1050_words	content/articles/en/1041-pressure-to-be-patient-mom-all-the-time.json
+en	1042	1	898	4	4.45	0.0	0	20	The Pressure to Enjoy Every Moment of Motherhood	body_under_1050_words	content/articles/en/1042-pressure-to-enjoy-every-moment-of-motherhood.json
+en	1043	1	875	4	4.57	0.0	0	20	The Pressure to Keep Creating Special Memories for Your Kids	body_under_1050_words	content/articles/en/1043-pressure-to-create-special-memories-for-kids.json
+en	1044	1	948	4	4.22	0.0	0	20	The Pressure to Be a Present Mom Who Never Looks at Her Phone	body_under_1050_words	content/articles/en/1044-pressure-to-be-present-mom-never-on-phone.json
+en	1045	1	930	4	4.3	0.0	0	20	The Pressure to Be Fun, Organized, and Affectionate Every Day as a Mom	body_under_1050_words	content/articles/en/1045-pressure-to-be-fun-organized-affectionate-mom.json
+en	1046	1	902	4	4.43	0.0	0	20	The Pressure to Give Your Kids a Perfect Childhood	body_under_1050_words	content/articles/en/1046-pressure-to-give-kids-perfect-childhood.json
+en	1047	1	924	4	4.33	0.0	0	20	The Pressure Not to Repeat Any of Your Parents’ Mistakes	body_under_1050_words	content/articles/en/1047-pressure-not-to-repeat-your-parents-mistakes.json
+en	1048	1	883	4	4.53	0.0	0	20	The Pressure to Apply Everything You Read About Parenting Correctly	body_under_1050_words	content/articles/en/1048-pressure-to-apply-all-parenting-advice-correctly.json
+en	1049	1	890	4	4.49	0.0	0	20	The Pressure to Keep a Beautiful, Tidy Home While Raising Kids	body_under_1050_words	content/articles/en/1049-pressure-to-keep-beautiful-tidy-home-with-kids.json
+en	1050	1	922	4	4.34	0.0	0	21	How to Stop Living Motherhood Like a Test You Have to Pass	body_under_1050_words	content/articles/en/1050-stop-living-motherhood-like-an-exam.json
 en	1061	1	972	4	4.12	0.0	0	20	Is it normal to look forward to being alone at the end of the day?	body_under_1050_words	content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json
 en	1062	1	859	4	4.66	0.0	0	19	When the best part of the day is the silence after the kids go to bed	body_under_1050_words	content/articles/en/1062-best-part-day-silence-after-kids-bed.json
 en	1064	1	814	4	4.91	0.0	0	19	Wanting your kids to leave you alone and then missing them when they do	body_under_1050_words	content/articles/en/1064-want-kids-to-leave-you-alone-then-miss-them.json
@@ -566,7 +557,16 @@ es	1037	1	842	4	4.75	0.0	0	19	Por qué algunas madres se vuelven más protectora
 es	1038	1	829	4	4.83	0.0	0	19	No reconocerte en lo protectora que te has vuelto después de tener un bebé	body_under_1050_words	content/articles/es/1038-no-reconocerte-protectora-despues-bebe.json
 es	1039	1	860	4	4.65	0.0	0	20	Sentir que la maternidad te ha hecho más vulnerable emocionalmente	body_under_1050_words	content/articles/es/1039-maternidad-vulnerabilidad-emocional.json
 es	1040	1	902	4	4.43	0.0	0	21	Sentir emociones más intensas desde que tienes hijos: cómo entender tu nueva sensibilidad	body_under_1050_words	content/articles/es/1040-emociones-intensas-desde-tener-hijos.json
-es	1047	1	910	5	5.49	0.0	0	24	La presión de no repetir ningún error de tus propios padres	body_under_1050_words	content/articles/es/1047-presion-no-repetir-errores-de-tus-padres.json
+es	1041	1	889	4	4.5	0.0	0	18	La presión de ser una madre paciente todo el tiempo	body_under_1050_words	content/articles/es/1041-presion-ser-madre-paciente-todo-el-tiempo.json
+es	1042	1	883	4	4.53	0.0	0	20	La presión de disfrutar cada momento de la maternidad	body_under_1050_words	content/articles/es/1042-presion-disfrutar-cada-momento-maternidad.json
+es	1043	1	869	4	4.6	0.0	0	20	La presión de crear recuerdos especiales constantemente para tus hijos	body_under_1050_words	content/articles/es/1043-presion-crear-recuerdos-especiales-hijos.json
+es	1044	1	916	4	4.37	0.0	0	20	La presión de ser una madre presente sin mirar nunca el teléfono	body_under_1050_words	content/articles/es/1044-presion-madre-presente-sin-mirar-movil.json
+es	1045	1	913	4	4.38	0.0	0	20	La presión de ser divertida, organizada y cariñosa todos los días como madre	body_under_1050_words	content/articles/es/1045-presion-ser-divertida-organizada-carinosa.json
+es	1046	1	899	4	4.45	0.0	0	20	La presión de ofrecer una infancia perfecta a tus hijos	body_under_1050_words	content/articles/es/1046-presion-ofrecer-infancia-perfecta.json
+es	1047	1	915	4	4.37	0.0	0	20	La presión de no repetir ningún error de tus propios padres	body_under_1050_words	content/articles/es/1047-presion-no-repetir-errores-de-tus-padres.json
+es	1048	1	871	4	4.59	0.0	0	20	La presión de aplicar correctamente todo lo que lees sobre crianza	body_under_1050_words	content/articles/es/1048-presion-aplicar-correctamente-todo-crianza.json
+es	1049	1	905	4	4.42	0.0	0	20	La presión de tener una casa bonita y ordenada además de criar a tus hijos	body_under_1050_words	content/articles/es/1049-presion-casa-bonita-ordenada-con-hijos.json
+es	1050	1	910	4	4.4	0.0	0	21	Cómo dejar de vivir la maternidad como un examen que tienes que aprobar	body_under_1050_words	content/articles/es/1050-dejar-vivir-maternidad-como-examen.json
 es	1061	1	933	4	4.29	0.0	0	20	¿Es normal esperar con ganas el momento de estar sola al final del día?	body_under_1050_words	content/articles/es/1061-es-normal-esperar-momento-estar-sola-final-dia.json
 es	1062	1	827	4	4.84	0.0	0	19	Cuando lo mejor del día es el silencio después de acostar a los niños	body_under_1050_words	content/articles/es/1062-mejor-dia-silencio-despues-acostar-ninos.json
 es	1064	1	803	4	4.98	0.0	0	19	Querer que tus hijos te dejen sola y echarlos de menos cuando se van	body_under_1050_words	content/articles/es/1064-querer-hijos-dejen-sola-echarlos-menos-cuando-se-van.json

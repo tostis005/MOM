@@ -1,14 +1,5 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
 en	13	5	780	6	7.69	0.04	1	25	Sleep Regressions: How to Get Through Them Without Changing Everything	body_under_800_words,high_h2_density,many_question_paragraphs	content/articles/en/013-sleep-regressions-calm.json
-en	1022	5	586	5	8.53	0.056	1	18	Loving your kids and missing your old freedom at the same time	body_under_650_words,high_h2_density	content/articles/en/1022-love-kids-miss-freedom-before.json
-en	1023	5	616	5	8.12	0.1	1	20	Missing your pre-kids life during an exhausting season of parenting	body_under_650_words,high_h2_density	content/articles/en/1023-nostalgia-childfree-life-exhausting-season.json
-en	1024	5	592	5	8.45	0.05	1	20	Missing spontaneity after becoming a mom	body_under_650_words,high_h2_density	content/articles/en/1024-missing-spontaneity-after-motherhood.json
-en	1025	5	590	5	8.47	0.05	1	20	Missing the days when you could leave the house without planning everything	body_under_650_words,high_h2_density	content/articles/en/1025-missing-leaving-house-without-planning.json
-en	1026	5	588	5	8.5	0.048	1	21	Missing silence after having young kids	body_under_650_words,high_h2_density	content/articles/en/1026-missing-silence-after-young-kids.json
-en	1027	5	606	5	8.25	0.053	1	19	Missing the days when you could sleep without being on duty for anyone	body_under_650_words,high_h2_density	content/articles/en/1027-missing-sleep-without-being-on-duty.json
-en	1028	5	615	5	8.13	0.053	1	19	Missing your relationship before kids	body_under_650_words,high_h2_density	content/articles/en/1028-missing-relationship-before-kids.json
-en	1029	5	591	5	8.46	0.0	0	17	Missing your old friendships and social life after becoming a mom	body_under_650_words,high_h2_density	content/articles/en/1029-missing-friendships-and-plans-before-kids.json
-en	1030	5	648	5	7.72	0.05	1	20	Grieving your old life after having a baby	body_under_650_words,high_h2_density	content/articles/en/1030-grieving-previous-life-after-baby.json
 en	1034	5	646	5	7.74	0.19	1	21	How your relationship with risk can change after having kids	body_under_650_words,high_h2_density	content/articles/en/1034-relationship-with-risk-after-kids.json
 en	1041	5	509	5	9.82	0.059	1	17	The Pressure to Be a Patient Mom All the Time	body_under_650_words,high_h2_density	content/articles/en/1041-pressure-to-be-patient-mom-all-the-time.json
 en	1051	5	589	5	8.49	0.0	0	14	Is It Normal Not to Enjoy Playing With Your Kids for Hours?	body_under_650_words,high_h2_density	content/articles/en/1051-not-enjoy-playing-with-kids-for-hours.json
@@ -16,13 +7,6 @@ en	1052	5	634	5	7.89	0.0	0	17	Loving Your Kids and Getting Bored Playing With Th
 en	1053	5	564	5	8.87	0.0	0	16	How to Connect With Your Kids If You Are Not a Very Playful Mom	body_under_650_words,high_h2_density	content/articles/en/1053-connect-with-kids-if-not-playful-mom.json
 en	1054	5	525	5	9.52	0.176	1	17	Preferring Reading or Walking With Your Kids Instead of Playing on the Floor	body_under_650_words,high_h2_density	content/articles/en/1054-prefer-reading-walking-with-kids-over-floor-play.json
 en	1055	5	641	5	7.8	0.0	0	16	Feeling Guilty Because Your Partner Enjoys Playing With the Kids More Than You Do	body_under_650_words,high_h2_density	content/articles/en/1055-guilt-partner-enjoys-playing-with-kids-more.json
-es	1023	5	625	5	8.0	0.0	0	19	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	body_under_650_words,high_h2_density	content/articles/es/1023-nostalgia-vida-sin-hijos-etapa-agotadora.json
-es	1025	5	593	5	8.43	0.05	1	20	Echar de menos poder salir de casa sin planificar nada desde que tienes hijos	body_under_650_words,high_h2_density	content/articles/es/1025-echar-menos-salir-casa-sin-planificar.json
-es	1026	5	609	5	8.21	0.045	1	22	Echar de menos el silencio después de tener hijos pequeños	body_under_650_words,high_h2_density	content/articles/es/1026-echar-menos-silencio-despues-hijos-pequenos.json
-es	1027	5	642	5	7.79	0.0	0	20	Echar de menos dormir sin estar pendiente de nadie después de ser madre	body_under_650_words,high_h2_density	content/articles/es/1027-echar-menos-dormir-sin-estar-pendiente.json
-es	1028	5	626	5	7.99	0.136	1	22	Echar de menos tu relación de pareja antes de tener hijos	body_under_650_words,high_h2_density	content/articles/es/1028-echar-menos-relacion-pareja-antes-hijos.json
-es	1029	5	584	5	8.56	0.0	0	18	Echar de menos amistades y planes de antes después de convertirte en madre	body_under_650_words,high_h2_density	content/articles/es/1029-echar-menos-amistades-planes-antes-hijos.json
-es	1030	5	643	5	7.78	0.05	1	20	Sentir duelo por tu vida anterior después de tener un bebé	body_under_650_words,high_h2_density	content/articles/es/1030-duelo-vida-anterior-despues-bebe.json
 es	1041	5	581	5	8.61	0.053	1	19	La presión de ser una madre paciente todo el tiempo	body_under_650_words,high_h2_density	content/articles/es/1041-presion-ser-madre-paciente-todo-el-tiempo.json
 es	1051	5	599	5	8.35	0.0	0	14	¿Es normal no disfrutar jugando con tus hijos durante horas?	body_under_650_words,high_h2_density	content/articles/es/1051-no-disfrutar-jugando-hijos-durante-horas.json
 es	1052	5	631	5	7.92	0.0	0	17	Amar a tus hijos y aburrirte jugando con ellos: por qué ambas cosas pueden coexistir	body_under_650_words,high_h2_density	content/articles/es/1052-amar-hijos-aburrirte-jugando.json
@@ -36,7 +20,6 @@ en	149	4	646	4	6.19	0.0	0	15	How to use a sleep log without turning it into an o
 en	1016	4	794	6	7.56	0.077	1	26	How to Feel Like Yourself Again After Becoming a Mom	body_under_800_words,high_h2_density	content/articles/en/1016-feel-like-yourself-again-after-motherhood.json
 en	1017	4	768	6	7.81	0.038	1	26	When Your Life Revolves Around Your Kids and You Don’t Know What You Like Anymore	body_under_800_words,high_h2_density	content/articles/en/1017-life-revolves-around-kids-dont-know-what-you-like.json
 en	1018	4	768	6	7.81	0.04	1	25	How to Get Back to Your Hobbies After Years Focused on Parenting	body_under_800_words,high_h2_density	content/articles/en/1018-recover-personal-interests-after-parenting-years.json
-en	1021	4	656	5	7.62	0.043	1	23	Is it normal to miss your life before kids even if you love being a mom?	body_under_800_words,high_h2_density	content/articles/en/1021-is-it-normal-to-miss-life-before-kids.json
 en	1031	4	743	6	8.08	0.042	1	24	Why does it feel like motherhood changed my personality?	body_under_800_words,high_h2_density	content/articles/en/1031-motherhood-changed-my-personality.json
 en	1032	4	692	6	8.67	0.048	1	21	Why do I feel more sensitive to anything involving children since becoming a mom?	body_under_800_words,high_h2_density	content/articles/en/1032-more-sensitive-after-motherhood.json
 en	1033	4	687	6	8.73	0.083	1	24	Why do I worry about things I never thought about before becoming a mom?	body_under_800_words,high_h2_density	content/articles/en/1033-worry-about-things-after-motherhood.json
@@ -69,9 +52,6 @@ es	145	4	619	4	6.46	0.0	0	14	Cómo decidir qué batallas no merece la pena libra
 es	148	4	606	4	6.6	0.0	0	14	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	body_under_650_words,elevated_h2_density	content/articles/es/148-horarios-sueno-otras-familias-no-tienen-funcionar.json
 es	149	4	647	4	6.18	0.0	0	15	Cómo usar un registro de sueño sin convertirlo en una obsesión	body_under_650_words,elevated_h2_density	content/articles/es/149-registro-sueno-sin-obsesion.json
 es	1017	4	787	6	7.62	0.042	1	24	Cuando toda tu vida gira alrededor de tus hijos y no sabes qué te gusta a ti	body_under_800_words,high_h2_density	content/articles/es/1017-toda-vida-gira-hijos-no-sabes-que-te-gusta.json
-es	1021	4	685	6	8.76	0.045	1	22	¿Es normal echar de menos tu vida antes de tener hijos aunque adores ser madre?	body_under_800_words,high_h2_density	content/articles/es/1021-es-normal-echar-menos-vida-antes-hijos.json
-es	1022	4	687	6	8.73	0.045	1	22	Querer a tus hijos y echar de menos la libertad de antes al mismo tiempo	body_under_800_words,high_h2_density	content/articles/es/1022-querer-hijos-echar-menos-libertad.json
-es	1024	4	653	5	7.66	0.095	1	21	Echar de menos la espontaneidad después de convertirte en madre	body_under_800_words,high_h2_density	content/articles/es/1024-echar-menos-espontaneidad-despues-ser-madre.json
 es	1031	4	790	6	7.59	0.0	0	25	¿Por qué siento que ser madre ha cambiado mi personalidad?	body_under_800_words,high_h2_density	content/articles/es/1031-maternidad-cambio-personalidad.json
 es	1032	4	732	6	8.2	0.0	0	24	Convertirte en madre y sentirte más sensible que antes ante todo lo que les pasa a los niños	body_under_800_words,high_h2_density	content/articles/es/1032-mas-sensible-desde-ser-madre.json
 es	1033	4	736	6	8.15	0.077	1	26	Sentir que desde que eres madre te preocupan cosas que antes ni pensabas	body_under_800_words,high_h2_density	content/articles/es/1033-preocupaciones-nuevas-desde-ser-madre.json
@@ -277,6 +257,7 @@ en	1007	2	876	6	6.85	0.036	1	28	Feeling Guilty Because You Don’t Play With You
 en	1008	2	865	6	6.94	0.071	1	28	Feeling Guilty for Hiring a Babysitter When You Don’t Have Anywhere You Have to Be	body_under_1050_words,elevated_h2_density	content/articles/en/1008-guilt-hiring-babysitter-no-plans.json
 en	1010	2	883	6	6.8	0.125	1	32	Feeling Guilty for Feeling Relieved When the Kids Go Back to School or Daycare	body_under_1050_words,elevated_h2_density	content/articles/en/1010-guilt-relief-school-daycare.json
 en	1011	2	868	6	6.91	0.129	1	31	Matrescence: Why Becoming a Mother Can Change Your Sense of Identity	body_under_1050_words,elevated_h2_density	content/articles/en/1011-matrescence-identity-change.json
+en	1023	2	918	4	4.36	0.0	0	18	Missing your pre-kids life during an exhausting season of parenting	body_under_1050_words,many_question_paragraphs	content/articles/en/1023-nostalgia-childfree-life-exhausting-season.json
 en	1047	2	851	5	5.88	0.042	1	24	The Pressure Not to Repeat Any of Your Parents’ Mistakes	body_under_1050_words,elevated_h2_density	content/articles/en/1047-pressure-not-to-repeat-your-parents-mistakes.json
 en	1063	2	798	4	5.01	0.0	0	19	Feeling relieved when no one needs you for a few minutes	body_under_800_words	content/articles/en/1063-relief-when-no-one-needs-you.json
 en	1068	2	794	4	5.04	0.0	0	17	Why an uninterrupted shower can feel like a luxury when you are a mom	body_under_800_words	content/articles/en/1068-uninterrupted-shower-feels-like-luxury.json
@@ -388,6 +369,7 @@ es	1014	2	890	6	6.74	0.034	1	29	Sentir que has desaparecido detrás del papel de
 es	1015	2	879	6	6.83	0.103	1	29	Echar de menos quién eras antes de tener hijos sin querer volver atrás	body_under_1050_words,elevated_h2_density	content/articles/es/1015-echar-menos-quien-eras-antes-hijos.json
 es	1016	2	879	6	6.83	0.071	1	28	Cómo volver a sentirte tú misma después de convertirte en madre	body_under_1050_words,elevated_h2_density	content/articles/es/1016-volver-sentirte-tu-misma-despues-ser-madre.json
 es	1020	2	1045	7	6.7	0.108	2	37	Cómo construir una identidad adulta que incluya la maternidad pero no dependa solo de ella	body_under_1050_words,elevated_h2_density	content/articles/es/1020-identidad-adulta-incluye-maternidad.json
+es	1023	2	862	4	4.64	0.0	0	18	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	body_under_1050_words,many_question_paragraphs	content/articles/es/1023-nostalgia-vida-sin-hijos-etapa-agotadora.json
 es	1063	2	778	4	5.14	0.0	0	19	Sentir alivio cuando por fin nadie te necesita durante unos minutos	body_under_800_words	content/articles/es/1063-alivio-cuando-nadie-te-necesita-unos-minutos.json
 es	1065	2	761	4	5.26	0.0	0	15	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	body_under_800_words	content/articles/es/1065-cinco-minutos-sola-importantes-madre.json
 es	1067	2	787	4	5.08	0.0	0	16	Hacer recados sola como forma de descanso después de tener hijos	body_under_800_words	content/articles/es/1067-hacer-recados-sola-como-descanso-despues-hijos.json
@@ -490,6 +472,15 @@ en	141	1	846	4	4.73	0.0	0	14	Is falling asleep with a parent nearby a bad habit?
 en	1002	1	1091	7	6.42	0.029	1	34	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently	elevated_h2_density	content/articles/en/1002-guilt-needing-break-from-kids.json
 en	1009	1	1059	7	6.61	0.029	1	35	Feeling Guilty for Wanting a Weekend Away Without the Kids	elevated_h2_density	content/articles/en/1009-guilt-weekend-without-kids.json
 en	1020	1	1070	7	6.54	0.057	1	35	How to Build an Adult Identity That Includes Motherhood Without Being Only About It	elevated_h2_density	content/articles/en/1020-adult-identity-includes-motherhood.json
+en	1021	1	1013	4	3.95	0.0	0	18	Is it normal to miss your life before kids even if you love being a mom?	body_under_1050_words	content/articles/en/1021-is-it-normal-to-miss-life-before-kids.json
+en	1022	1	943	4	4.24	0.0	0	18	Loving your kids and missing your old freedom at the same time	body_under_1050_words	content/articles/en/1022-love-kids-miss-freedom-before.json
+en	1024	1	883	4	4.53	0.0	0	17	Missing spontaneity after becoming a mom	body_under_1050_words	content/articles/en/1024-missing-spontaneity-after-motherhood.json
+en	1025	1	878	4	4.56	0.0	0	18	Missing the days when you could leave the house without planning everything	body_under_1050_words	content/articles/en/1025-missing-leaving-house-without-planning.json
+en	1026	1	909	4	4.4	0.0	0	19	Missing silence after having young kids	body_under_1050_words	content/articles/en/1026-missing-silence-after-young-kids.json
+en	1027	1	882	4	4.54	0.0	0	19	Missing the days when you could sleep without being on duty for anyone	body_under_1050_words	content/articles/en/1027-missing-sleep-without-being-on-duty.json
+en	1028	1	934	4	4.28	0.0	0	19	Missing your relationship before kids	body_under_1050_words	content/articles/en/1028-missing-relationship-before-kids.json
+en	1029	1	904	4	4.42	0.0	0	19	Missing your old friendships and social life after becoming a mom	body_under_1050_words	content/articles/en/1029-missing-friendships-and-plans-before-kids.json
+en	1030	1	947	4	4.22	0.0	0	19	Grieving your old life after having a baby	body_under_1050_words	content/articles/en/1030-grieving-previous-life-after-baby.json
 en	1061	1	972	4	4.12	0.0	0	20	Is it normal to look forward to being alone at the end of the day?	body_under_1050_words	content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json
 en	1062	1	859	4	4.66	0.0	0	19	When the best part of the day is the silence after the kids go to bed	body_under_1050_words	content/articles/en/1062-best-part-day-silence-after-kids-bed.json
 en	1064	1	814	4	4.91	0.0	0	19	Wanting your kids to leave you alone and then missing them when they do	body_under_1050_words	content/articles/en/1064-want-kids-to-leave-you-alone-then-miss-them.json
@@ -566,6 +557,15 @@ es	1001	1	1286	7	5.44	0.156	3	45	Mom guilt: por qué muchas madres sienten culpa
 es	1002	1	1087	7	6.44	0.053	1	38	Culpa por necesitar un descanso de tus hijos: por qué aparece y cómo mirarla de otra manera	elevated_h2_density	content/articles/es/1002-culpa-necesitar-descanso-hijos.json
 es	1005	1	1087	7	6.44	0.0	0	35	Culpa por desear que llegue la hora de dormir de tus hijos	elevated_h2_density	content/articles/es/1005-culpa-desear-hora-dormir-hijos.json
 es	1006	1	1166	7	6.0	0.026	1	38	Culpa por mirar el móvil mientras tus hijos juegan	elevated_h2_density	content/articles/es/1006-culpa-movil-mientras-hijos-juegan.json
+es	1021	1	914	4	4.38	0.0	0	17	¿Es normal echar de menos tu vida antes de tener hijos aunque adores ser madre?	body_under_1050_words	content/articles/es/1021-es-normal-echar-menos-vida-antes-hijos.json
+es	1022	1	850	4	4.71	0.0	0	18	Querer a tus hijos y echar de menos la libertad de antes al mismo tiempo	body_under_1050_words	content/articles/es/1022-querer-hijos-echar-menos-libertad.json
+es	1024	1	829	4	4.83	0.0	0	17	Echar de menos la espontaneidad después de convertirte en madre	body_under_1050_words	content/articles/es/1024-echar-menos-espontaneidad-despues-ser-madre.json
+es	1025	1	824	4	4.85	0.0	0	18	Echar de menos poder salir de casa sin planificar nada desde que tienes hijos	body_under_1050_words	content/articles/es/1025-echar-menos-salir-casa-sin-planificar.json
+es	1026	1	880	4	4.55	0.0	0	19	Echar de menos el silencio después de tener hijos pequeños	body_under_1050_words	content/articles/es/1026-echar-menos-silencio-despues-hijos-pequenos.json
+es	1027	1	860	4	4.65	0.0	0	19	Echar de menos dormir sin estar pendiente de nadie después de ser madre	body_under_1050_words	content/articles/es/1027-echar-menos-dormir-sin-estar-pendiente.json
+es	1028	1	859	4	4.66	0.0	0	19	Echar de menos tu relación de pareja antes de tener hijos	body_under_1050_words	content/articles/es/1028-echar-menos-relacion-pareja-antes-hijos.json
+es	1029	1	864	4	4.63	0.0	0	19	Echar de menos amistades y planes de antes después de convertirte en madre	body_under_1050_words	content/articles/es/1029-echar-menos-amistades-planes-antes-hijos.json
+es	1030	1	938	4	4.26	0.0	0	19	Sentir duelo por tu vida anterior después de tener un bebé	body_under_1050_words	content/articles/es/1030-duelo-vida-anterior-despues-bebe.json
 es	1047	1	910	5	5.49	0.0	0	24	La presión de no repetir ningún error de tus propios padres	body_under_1050_words	content/articles/es/1047-presion-no-repetir-errores-de-tus-padres.json
 es	1061	1	933	4	4.29	0.0	0	20	¿Es normal esperar con ganas el momento de estar sola al final del día?	body_under_1050_words	content/articles/es/1061-es-normal-esperar-momento-estar-sola-final-dia.json
 es	1062	1	827	4	4.84	0.0	0	19	Cuando lo mejor del día es el silencio después de acostar a los niños	body_under_1050_words	content/articles/es/1062-mejor-dia-silencio-despues-acostar-ninos.json

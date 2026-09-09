@@ -1,14 +1,5 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
 13	013-sleep-regressions-calm	5	3	5	836	780	6	6	0.037	0.04	Regresiones del sueño: cómo atravesarlas con calma	Sleep Regressions: How to Get Through Them Without Changing Everything
-1022	1022-love-kids-miss-freedom-before	5	4	5	687	586	6	5	0.045	0.056	Querer a tus hijos y echar de menos la libertad de antes al mismo tiempo	Loving your kids and missing your old freedom at the same time
-1023	1023-nostalgia-childfree-life-exhausting-season	5	5	5	625	616	5	5	0.0	0.1	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	Missing your pre-kids life during an exhausting season of parenting
-1024	1024-missing-spontaneity-after-motherhood	5	4	5	653	592	5	5	0.095	0.05	Echar de menos la espontaneidad después de convertirte en madre	Missing spontaneity after becoming a mom
-1025	1025-missing-leaving-house-without-planning	5	5	5	593	590	5	5	0.05	0.05	Echar de menos poder salir de casa sin planificar nada desde que tienes hijos	Missing the days when you could leave the house without planning everything
-1026	1026-missing-silence-after-young-kids	5	5	5	609	588	5	5	0.045	0.048	Echar de menos el silencio después de tener hijos pequeños	Missing silence after having young kids
-1027	1027-missing-sleep-without-being-on-duty	5	5	5	642	606	5	5	0.0	0.053	Echar de menos dormir sin estar pendiente de nadie después de ser madre	Missing the days when you could sleep without being on duty for anyone
-1028	1028-missing-relationship-before-kids	5	5	5	626	615	5	5	0.136	0.053	Echar de menos tu relación de pareja antes de tener hijos	Missing your relationship before kids
-1029	1029-missing-friendships-and-plans-before-kids	5	5	5	584	591	5	5	0.0	0.0	Echar de menos amistades y planes de antes después de convertirte en madre	Missing your old friendships and social life after becoming a mom
-1030	1030-grieving-previous-life-after-baby	5	5	5	643	648	5	5	0.05	0.05	Sentir duelo por tu vida anterior después de tener un bebé	Grieving your old life after having a baby
 1034	1034-relationship-with-risk-after-kids	5	4	5	724	646	6	5	0.12	0.19	Cómo cambia tu relación con el riesgo después de tener hijos	How your relationship with risk can change after having kids
 1041	1041-pressure-to-be-patient-mom-all-the-time	5	5	5	581	509	5	5	0.053	0.059	La presión de ser una madre paciente todo el tiempo	The Pressure to Be a Patient Mom All the Time
 1051	1051-not-enjoy-playing-for-hours	5	5	5	599	589	5	5	0.0	0.0	¿Es normal no disfrutar jugando con tus hijos durante horas?	Is It Normal Not to Enjoy Playing With Your Kids for Hours?
@@ -23,7 +14,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1016	1016-feel-like-yourself-again-after-motherhood	4	2	4	879	794	6	6	0.071	0.077	Cómo volver a sentirte tú misma después de convertirte en madre	How to Feel Like Yourself Again After Becoming a Mom
 1017	1017-when-life-revolves-around-kids-and-you-dont-know-what-you-like	4	4	4	787	768	6	6	0.042	0.038	Cuando toda tu vida gira alrededor de tus hijos y no sabes qué te gusta a ti	When Your Life Revolves Around Your Kids and You Don’t Know What You Like Anymore
 1018	1018-recover-personal-interests-after-parenting-years	4	3	4	807	768	6	6	0.207	0.04	Cómo recuperar intereses personales después de años centrada en la crianza	How to Get Back to Your Hobbies After Years Focused on Parenting
-1021	1021-is-it-normal-to-miss-life-before-kids	4	4	4	685	656	6	5	0.045	0.043	¿Es normal echar de menos tu vida antes de tener hijos aunque adores ser madre?	Is it normal to miss your life before kids even if you love being a mom?
 1031	1031-motherhood-changed-my-personality	4	4	4	790	743	6	6	0.0	0.042	¿Por qué siento que ser madre ha cambiado mi personalidad?	Why does it feel like motherhood changed my personality?
 1032	1032-more-sensitive-after-motherhood	4	4	4	732	692	6	6	0.0	0.048	Convertirte en madre y sentirte más sensible que antes ante todo lo que les pasa a los niños	Why do I feel more sensitive to anything involving children since becoming a mom?
 1033	1033-worry-about-things-after-motherhood	4	4	4	736	687	6	6	0.077	0.083	Sentir que desde que eres madre te preocupan cosas que antes ni pensabas	Why do I worry about things I never thought about before becoming a mom?
@@ -195,6 +185,7 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1010	1010-guilt-relief-back-to-school-daycare	2	2	2	1031	883	7	6	0.091	0.125	Culpa por sentir alivio cuando tus hijos vuelven al colegio o daycare	Feeling Guilty for Feeling Relieved When the Kids Go Back to School or Daycare
 1011	1011-matrescence-identity-change	2	2	2	939	868	6	6	0.069	0.129	Matrescencia: por qué convertirte en madre puede cambiar profundamente tu identidad	Matrescence: Why Becoming a Mother Can Change Your Sense of Identity
 1020	1020-adult-identity-that-includes-motherhood	2	2	1	1045	1070	7	7	0.108	0.057	Cómo construir una identidad adulta que incluya la maternidad pero no dependa solo de ella	How to Build an Adult Identity That Includes Motherhood Without Being Only About It
+1023	1023-nostalgia-childfree-life-exhausting-season	2	2	2	862	918	4	4	0.0	0.0	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	Missing your pre-kids life during an exhausting season of parenting
 1047	1047-pressure-not-to-repeat-your-parents-mistakes	2	1	2	910	851	5	5	0.0	0.042	La presión de no repetir ningún error de tus propios padres	The Pressure Not to Repeat Any of Your Parents’ Mistakes
 1063	1063-relief-when-no-one-needs-you	2	2	2	778	798	4	4	0.0	0.0	Sentir alivio cuando por fin nadie te necesita durante unos minutos	Feeling relieved when no one needs you for a few minutes
 1065	1065-why-five-minutes-alone-matter-as-mom	2	2	1	761	827	4	4	0.0	0.0	Por qué cinco minutos sola pueden sentirse tan importantes cuando eres madre	Why five minutes alone can feel so important when you are a mom
@@ -283,6 +274,15 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1001	1001-mom-guilt	1	1	0	1286	1265	7	7	0.156	0.149	Mom guilt: por qué muchas madres sienten culpa incluso cuando saben que hacen lo mejor que pueden	Mom Guilt: Why Moms Feel Guilty Even When They Know They’re Doing Their Best
 1002	1002-guilt-needing-break-from-kids	1	1	1	1087	1091	7	7	0.053	0.029	Culpa por necesitar un descanso de tus hijos: por qué aparece y cómo mirarla de otra manera	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently
 1009	1009-guilt-weekend-without-kids	1	0	1	1792	1059	8	7	0.016	0.029	Culpa por querer pasar un fin de semana sin los niños	Feeling Guilty for Wanting a Weekend Away Without the Kids
+1021	1021-is-it-normal-to-miss-life-before-kids	1	1	1	914	1013	4	4	0.0	0.0	¿Es normal echar de menos tu vida antes de tener hijos aunque adores ser madre?	Is it normal to miss your life before kids even if you love being a mom?
+1022	1022-love-kids-miss-freedom-before	1	1	1	850	943	4	4	0.0	0.0	Querer a tus hijos y echar de menos la libertad de antes al mismo tiempo	Loving your kids and missing your old freedom at the same time
+1024	1024-missing-spontaneity-after-motherhood	1	1	1	829	883	4	4	0.0	0.0	Echar de menos la espontaneidad después de convertirte en madre	Missing spontaneity after becoming a mom
+1025	1025-missing-leaving-house-without-planning	1	1	1	824	878	4	4	0.0	0.0	Echar de menos poder salir de casa sin planificar nada desde que tienes hijos	Missing the days when you could leave the house without planning everything
+1026	1026-missing-silence-after-young-kids	1	1	1	880	909	4	4	0.0	0.0	Echar de menos el silencio después de tener hijos pequeños	Missing silence after having young kids
+1027	1027-missing-sleep-without-being-on-duty	1	1	1	860	882	4	4	0.0	0.0	Echar de menos dormir sin estar pendiente de nadie después de ser madre	Missing the days when you could sleep without being on duty for anyone
+1028	1028-missing-relationship-before-kids	1	1	1	859	934	4	4	0.0	0.0	Echar de menos tu relación de pareja antes de tener hijos	Missing your relationship before kids
+1029	1029-missing-friendships-and-plans-before-kids	1	1	1	864	904	4	4	0.0	0.0	Echar de menos amistades y planes de antes después de convertirte en madre	Missing your old friendships and social life after becoming a mom
+1030	1030-grieving-previous-life-after-baby	1	1	1	938	947	4	4	0.0	0.0	Sentir duelo por tu vida anterior después de tener un bebé	Grieving your old life after having a baby
 1061	1061-looking-forward-to-being-alone-end-of-day	1	1	1	933	972	4	4	0.0	0.0	¿Es normal esperar con ganas el momento de estar sola al final del día?	Is it normal to look forward to being alone at the end of the day?
 1062	1062-best-part-day-silence-after-kids-bed	1	1	1	827	859	4	4	0.0	0.0	Cuando lo mejor del día es el silencio después de acostar a los niños	When the best part of the day is the silence after the kids go to bed
 1064	1064-want-kids-to-leave-you-alone-then-miss-them	1	1	1	803	814	4	4	0.0	0.0	Querer que tus hijos te dejen sola y echarlos de menos cuando se van	Wanting your kids to leave you alone and then missing them when they do

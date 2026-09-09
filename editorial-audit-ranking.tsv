@@ -1,6 +1,5 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
 en	13	5	780	6	7.69	0.04	1	25	Sleep Regressions: How to Get Through Them Without Changing Everything	body_under_800_words,high_h2_density,many_question_paragraphs	content/articles/en/013-sleep-regressions-calm.json
-en	1034	5	646	5	7.74	0.19	1	21	How your relationship with risk can change after having kids	body_under_650_words,high_h2_density	content/articles/en/1034-relationship-with-risk-after-kids.json
 en	1041	5	509	5	9.82	0.059	1	17	The Pressure to Be a Patient Mom All the Time	body_under_650_words,high_h2_density	content/articles/en/1041-pressure-to-be-patient-mom-all-the-time.json
 en	1051	5	589	5	8.49	0.0	0	14	Is It Normal Not to Enjoy Playing With Your Kids for Hours?	body_under_650_words,high_h2_density	content/articles/en/1051-not-enjoy-playing-with-kids-for-hours.json
 en	1052	5	634	5	7.89	0.0	0	17	Loving Your Kids and Getting Bored Playing With Them Can Both Be True	body_under_650_words,high_h2_density	content/articles/en/1052-loving-kids-and-getting-bored-playing.json
@@ -20,15 +19,6 @@ en	149	4	646	4	6.19	0.0	0	15	How to use a sleep log without turning it into an o
 en	1016	4	794	6	7.56	0.077	1	26	How to Feel Like Yourself Again After Becoming a Mom	body_under_800_words,high_h2_density	content/articles/en/1016-feel-like-yourself-again-after-motherhood.json
 en	1017	4	768	6	7.81	0.038	1	26	When Your Life Revolves Around Your Kids and You Don’t Know What You Like Anymore	body_under_800_words,high_h2_density	content/articles/en/1017-life-revolves-around-kids-dont-know-what-you-like.json
 en	1018	4	768	6	7.81	0.04	1	25	How to Get Back to Your Hobbies After Years Focused on Parenting	body_under_800_words,high_h2_density	content/articles/en/1018-recover-personal-interests-after-parenting-years.json
-en	1031	4	743	6	8.08	0.042	1	24	Why does it feel like motherhood changed my personality?	body_under_800_words,high_h2_density	content/articles/en/1031-motherhood-changed-my-personality.json
-en	1032	4	692	6	8.67	0.048	1	21	Why do I feel more sensitive to anything involving children since becoming a mom?	body_under_800_words,high_h2_density	content/articles/en/1032-more-sensitive-after-motherhood.json
-en	1033	4	687	6	8.73	0.083	1	24	Why do I worry about things I never thought about before becoming a mom?	body_under_800_words,high_h2_density	content/articles/en/1033-worry-about-things-after-motherhood.json
-en	1035	4	773	6	7.76	0.0	0	21	Why the world can feel more dangerous after you have a baby	body_under_800_words,high_h2_density	content/articles/en/1035-world-feels-more-dangerous-after-baby.json
-en	1036	4	721	6	8.32	0.12	1	25	Feeling like you have so much more to lose since becoming a mom	body_under_800_words,high_h2_density	content/articles/en/1036-more-to-lose-after-motherhood.json
-en	1037	4	684	6	8.77	0.0	0	24	Why some moms become more protective than they expected	body_under_800_words,high_h2_density	content/articles/en/1037-more-protective-than-expected.json
-en	1038	4	696	6	8.62	0.125	1	24	When you don't recognize how protective you've become after having a baby	body_under_800_words,high_h2_density	content/articles/en/1038-dont-recognize-how-protective-youve-become.json
-en	1039	4	735	6	8.16	0.0	0	22	Feeling like motherhood made you more emotionally vulnerable	body_under_800_words,high_h2_density	content/articles/en/1039-motherhood-emotional-vulnerability.json
-en	1040	4	743	6	8.08	0.111	1	27	Feeling emotions more intensely after having kids: understanding your new sensitivity	body_under_800_words,high_h2_density	content/articles/en/1040-more-intense-emotions-after-kids.json
 en	1042	4	688	5	7.27	0.125	1	24	The Pressure to Enjoy Every Moment of Motherhood	body_under_800_words,high_h2_density	content/articles/en/1042-pressure-to-enjoy-every-moment-of-motherhood.json
 en	1043	4	742	6	8.09	0.103	1	29	The Pressure to Keep Creating Special Memories for Your Kids	body_under_800_words,high_h2_density	content/articles/en/1043-pressure-to-create-special-memories-for-kids.json
 en	1044	4	747	6	8.03	0.172	1	29	The Pressure to Be a Present Mom Who Never Looks at Her Phone	body_under_800_words,high_h2_density	content/articles/en/1044-pressure-to-be-present-mom-never-on-phone.json
@@ -52,16 +42,6 @@ es	145	4	619	4	6.46	0.0	0	14	Cómo decidir qué batallas no merece la pena libra
 es	148	4	606	4	6.6	0.0	0	14	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	body_under_650_words,elevated_h2_density	content/articles/es/148-horarios-sueno-otras-familias-no-tienen-funcionar.json
 es	149	4	647	4	6.18	0.0	0	15	Cómo usar un registro de sueño sin convertirlo en una obsesión	body_under_650_words,elevated_h2_density	content/articles/es/149-registro-sueno-sin-obsesion.json
 es	1017	4	787	6	7.62	0.042	1	24	Cuando toda tu vida gira alrededor de tus hijos y no sabes qué te gusta a ti	body_under_800_words,high_h2_density	content/articles/es/1017-toda-vida-gira-hijos-no-sabes-que-te-gusta.json
-es	1031	4	790	6	7.59	0.0	0	25	¿Por qué siento que ser madre ha cambiado mi personalidad?	body_under_800_words,high_h2_density	content/articles/es/1031-maternidad-cambio-personalidad.json
-es	1032	4	732	6	8.2	0.0	0	24	Convertirte en madre y sentirte más sensible que antes ante todo lo que les pasa a los niños	body_under_800_words,high_h2_density	content/articles/es/1032-mas-sensible-desde-ser-madre.json
-es	1033	4	736	6	8.15	0.077	1	26	Sentir que desde que eres madre te preocupan cosas que antes ni pensabas	body_under_800_words,high_h2_density	content/articles/es/1033-preocupaciones-nuevas-desde-ser-madre.json
-es	1034	4	724	6	8.29	0.12	1	25	Cómo cambia tu relación con el riesgo después de tener hijos	body_under_800_words,high_h2_density	content/articles/es/1034-relacion-riesgo-despues-hijos.json
-es	1035	4	769	6	7.8	0.0	0	22	Por qué algunas madres sienten que el mundo parece más peligroso después de tener un bebé	body_under_800_words,high_h2_density	content/articles/es/1035-mundo-parece-mas-peligroso-despues-bebe.json
-es	1036	4	735	6	8.16	0.12	1	25	Sentir que ahora tienes mucho más que perder desde que eres madre	body_under_800_words,high_h2_density	content/articles/es/1036-sentir-mucho-mas-que-perder-madre.json
-es	1037	4	671	6	8.94	0.042	1	24	Por qué algunas madres se vuelven más protectoras de lo que imaginaban	body_under_800_words,high_h2_density	content/articles/es/1037-mas-protectora-de-lo-esperado.json
-es	1038	4	690	6	8.7	0.167	1	24	No reconocerte en lo protectora que te has vuelto después de tener un bebé	body_under_800_words,high_h2_density	content/articles/es/1038-no-reconocerte-protectora-despues-bebe.json
-es	1039	4	720	6	8.33	0.0	0	21	Sentir que la maternidad te ha hecho más vulnerable emocionalmente	body_under_800_words,high_h2_density	content/articles/es/1039-maternidad-vulnerabilidad-emocional.json
-es	1040	4	723	6	8.3	0.12	1	25	Sentir emociones más intensas desde que tienes hijos: cómo entender tu nueva sensibilidad	body_under_800_words,high_h2_density	content/articles/es/1040-emociones-intensas-desde-tener-hijos.json
 es	1042	4	690	5	7.25	0.087	1	23	La presión de disfrutar cada momento de la maternidad	body_under_800_words,high_h2_density	content/articles/es/1042-presion-disfrutar-cada-momento-maternidad.json
 es	1043	4	759	6	7.91	0.069	1	29	La presión de crear recuerdos especiales constantemente para tus hijos	body_under_800_words,high_h2_density	content/articles/es/1043-presion-crear-recuerdos-especiales-hijos.json
 es	1044	4	737	6	8.14	0.207	1	29	La presión de ser una madre presente sin mirar nunca el teléfono	body_under_800_words,high_h2_density	content/articles/es/1044-presion-madre-presente-sin-mirar-movil.json
@@ -481,6 +461,16 @@ en	1027	1	882	4	4.54	0.0	0	19	Missing the days when you could sleep without bein
 en	1028	1	934	4	4.28	0.0	0	19	Missing your relationship before kids	body_under_1050_words	content/articles/en/1028-missing-relationship-before-kids.json
 en	1029	1	904	4	4.42	0.0	0	19	Missing your old friendships and social life after becoming a mom	body_under_1050_words	content/articles/en/1029-missing-friendships-and-plans-before-kids.json
 en	1030	1	947	4	4.22	0.0	0	19	Grieving your old life after having a baby	body_under_1050_words	content/articles/en/1030-grieving-previous-life-after-baby.json
+en	1031	1	1102	4	3.63	0.0	0	18	Why does it feel like motherhood changed my personality?	many_long_paragraphs	content/articles/en/1031-motherhood-changed-my-personality.json
+en	1032	1	943	4	4.24	0.0	0	17	Why do I feel more sensitive to anything involving children since becoming a mom?	body_under_1050_words	content/articles/en/1032-more-sensitive-after-motherhood.json
+en	1033	1	935	4	4.28	0.105	1	19	Why do I worry about things I never thought about before becoming a mom?	body_under_1050_words	content/articles/en/1033-worry-about-things-after-motherhood.json
+en	1034	1	899	4	4.45	0.0	0	18	How your relationship with risk can change after having kids	body_under_1050_words	content/articles/en/1034-relationship-with-risk-after-kids.json
+en	1035	1	984	4	4.07	0.0	0	19	Why the world can feel more dangerous after you have a baby	body_under_1050_words	content/articles/en/1035-world-feels-more-dangerous-after-baby.json
+en	1036	1	946	4	4.23	0.0	0	19	Feeling like you have so much more to lose since becoming a mom	body_under_1050_words	content/articles/en/1036-more-to-lose-after-motherhood.json
+en	1037	1	930	4	4.3	0.0	0	18	Why some moms become more protective than they expected	body_under_1050_words	content/articles/en/1037-more-protective-than-expected.json
+en	1038	1	994	4	4.02	0.0	0	20	When you don't recognize how protective you've become after having a baby	body_under_1050_words	content/articles/en/1038-dont-recognize-how-protective-youve-become.json
+en	1039	1	1006	4	3.98	0.0	0	19	Feeling like motherhood made you more emotionally vulnerable	body_under_1050_words	content/articles/en/1039-motherhood-emotional-vulnerability.json
+en	1040	1	1004	4	3.98	0.0	0	19	Feeling emotions more intensely after having kids: understanding your new sensitivity	body_under_1050_words	content/articles/en/1040-more-intense-emotions-after-kids.json
 en	1061	1	972	4	4.12	0.0	0	20	Is it normal to look forward to being alone at the end of the day?	body_under_1050_words	content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json
 en	1062	1	859	4	4.66	0.0	0	19	When the best part of the day is the silence after the kids go to bed	body_under_1050_words	content/articles/en/1062-best-part-day-silence-after-kids-bed.json
 en	1064	1	814	4	4.91	0.0	0	19	Wanting your kids to leave you alone and then missing them when they do	body_under_1050_words	content/articles/en/1064-want-kids-to-leave-you-alone-then-miss-them.json
@@ -566,6 +556,16 @@ es	1027	1	860	4	4.65	0.0	0	19	Echar de menos dormir sin estar pendiente de nadie
 es	1028	1	859	4	4.66	0.0	0	19	Echar de menos tu relación de pareja antes de tener hijos	body_under_1050_words	content/articles/es/1028-echar-menos-relacion-pareja-antes-hijos.json
 es	1029	1	864	4	4.63	0.0	0	19	Echar de menos amistades y planes de antes después de convertirte en madre	body_under_1050_words	content/articles/es/1029-echar-menos-amistades-planes-antes-hijos.json
 es	1030	1	938	4	4.26	0.0	0	19	Sentir duelo por tu vida anterior después de tener un bebé	body_under_1050_words	content/articles/es/1030-duelo-vida-anterior-despues-bebe.json
+es	1031	1	961	4	4.16	0.0	0	20	¿Por qué siento que ser madre ha cambiado mi personalidad?	body_under_1050_words	content/articles/es/1031-maternidad-cambio-personalidad.json
+es	1032	1	938	4	4.26	0.0	0	19	Convertirte en madre y sentirte más sensible que antes ante todo lo que les pasa a los niños	body_under_1050_words	content/articles/es/1032-mas-sensible-desde-ser-madre.json
+es	1033	1	839	4	4.77	0.0	0	18	Sentir que desde que eres madre te preocupan cosas que antes ni pensabas	body_under_1050_words	content/articles/es/1033-preocupaciones-nuevas-desde-ser-madre.json
+es	1034	1	862	4	4.64	0.0	0	19	Cómo cambia tu relación con el riesgo después de tener hijos	body_under_1050_words	content/articles/es/1034-relacion-riesgo-despues-hijos.json
+es	1035	1	835	4	4.79	0.0	0	19	Por qué algunas madres sienten que el mundo parece más peligroso después de tener un bebé	body_under_1050_words	content/articles/es/1035-mundo-parece-mas-peligroso-despues-bebe.json
+es	1036	1	804	4	4.98	0.0	0	19	Sentir que ahora tienes mucho más que perder desde que eres madre	body_under_1050_words	content/articles/es/1036-sentir-mucho-mas-que-perder-madre.json
+es	1037	1	842	4	4.75	0.0	0	19	Por qué algunas madres se vuelven más protectoras de lo que imaginaban	body_under_1050_words	content/articles/es/1037-mas-protectora-de-lo-esperado.json
+es	1038	1	829	4	4.83	0.0	0	19	No reconocerte en lo protectora que te has vuelto después de tener un bebé	body_under_1050_words	content/articles/es/1038-no-reconocerte-protectora-despues-bebe.json
+es	1039	1	860	4	4.65	0.0	0	20	Sentir que la maternidad te ha hecho más vulnerable emocionalmente	body_under_1050_words	content/articles/es/1039-maternidad-vulnerabilidad-emocional.json
+es	1040	1	902	4	4.43	0.0	0	21	Sentir emociones más intensas desde que tienes hijos: cómo entender tu nueva sensibilidad	body_under_1050_words	content/articles/es/1040-emociones-intensas-desde-tener-hijos.json
 es	1047	1	910	5	5.49	0.0	0	24	La presión de no repetir ningún error de tus propios padres	body_under_1050_words	content/articles/es/1047-presion-no-repetir-errores-de-tus-padres.json
 es	1061	1	933	4	4.29	0.0	0	20	¿Es normal esperar con ganas el momento de estar sola al final del día?	body_under_1050_words	content/articles/es/1061-es-normal-esperar-momento-estar-sola-final-dia.json
 es	1062	1	827	4	4.84	0.0	0	19	Cuando lo mejor del día es el silencio después de acostar a los niños	body_under_1050_words	content/articles/es/1062-mejor-dia-silencio-despues-acostar-ninos.json

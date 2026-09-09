@@ -1,6 +1,5 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
 13	013-sleep-regressions-calm	5	3	5	836	780	6	6	0.037	0.04	Regresiones del sueño: cómo atravesarlas con calma	Sleep Regressions: How to Get Through Them Without Changing Everything
-1034	1034-relationship-with-risk-after-kids	5	4	5	724	646	6	5	0.12	0.19	Cómo cambia tu relación con el riesgo después de tener hijos	How your relationship with risk can change after having kids
 1041	1041-pressure-to-be-patient-mom-all-the-time	5	5	5	581	509	5	5	0.053	0.059	La presión de ser una madre paciente todo el tiempo	The Pressure to Be a Patient Mom All the Time
 1051	1051-not-enjoy-playing-for-hours	5	5	5	599	589	5	5	0.0	0.0	¿Es normal no disfrutar jugando con tus hijos durante horas?	Is It Normal Not to Enjoy Playing With Your Kids for Hours?
 1052	1052-love-kids-and-get-bored-playing	5	5	5	631	634	5	5	0.0	0.0	Amar a tus hijos y aburrirte jugando con ellos: por qué ambas cosas pueden coexistir	Loving Your Kids and Getting Bored Playing With Them Can Both Be True
@@ -14,15 +13,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1016	1016-feel-like-yourself-again-after-motherhood	4	2	4	879	794	6	6	0.071	0.077	Cómo volver a sentirte tú misma después de convertirte en madre	How to Feel Like Yourself Again After Becoming a Mom
 1017	1017-when-life-revolves-around-kids-and-you-dont-know-what-you-like	4	4	4	787	768	6	6	0.042	0.038	Cuando toda tu vida gira alrededor de tus hijos y no sabes qué te gusta a ti	When Your Life Revolves Around Your Kids and You Don’t Know What You Like Anymore
 1018	1018-recover-personal-interests-after-parenting-years	4	3	4	807	768	6	6	0.207	0.04	Cómo recuperar intereses personales después de años centrada en la crianza	How to Get Back to Your Hobbies After Years Focused on Parenting
-1031	1031-motherhood-changed-my-personality	4	4	4	790	743	6	6	0.0	0.042	¿Por qué siento que ser madre ha cambiado mi personalidad?	Why does it feel like motherhood changed my personality?
-1032	1032-more-sensitive-after-motherhood	4	4	4	732	692	6	6	0.0	0.048	Convertirte en madre y sentirte más sensible que antes ante todo lo que les pasa a los niños	Why do I feel more sensitive to anything involving children since becoming a mom?
-1033	1033-worry-about-things-after-motherhood	4	4	4	736	687	6	6	0.077	0.083	Sentir que desde que eres madre te preocupan cosas que antes ni pensabas	Why do I worry about things I never thought about before becoming a mom?
-1035	1035-world-feels-more-dangerous-after-baby	4	4	4	769	773	6	6	0.0	0.0	Por qué algunas madres sienten que el mundo parece más peligroso después de tener un bebé	Why the world can feel more dangerous after you have a baby
-1036	1036-more-to-lose-after-motherhood	4	4	4	735	721	6	6	0.12	0.12	Sentir que ahora tienes mucho más que perder desde que eres madre	Feeling like you have so much more to lose since becoming a mom
-1037	1037-more-protective-than-expected	4	4	4	671	684	6	6	0.042	0.0	Por qué algunas madres se vuelven más protectoras de lo que imaginaban	Why some moms become more protective than they expected
-1038	1038-dont-recognize-how-protective-youve-become	4	4	4	690	696	6	6	0.167	0.125	No reconocerte en lo protectora que te has vuelto después de tener un bebé	When you don't recognize how protective you've become after having a baby
-1039	1039-motherhood-emotional-vulnerability	4	4	4	720	735	6	6	0.0	0.0	Sentir que la maternidad te ha hecho más vulnerable emocionalmente	Feeling like motherhood made you more emotionally vulnerable
-1040	1040-more-intense-emotions-after-kids	4	4	4	723	743	6	6	0.12	0.111	Sentir emociones más intensas desde que tienes hijos: cómo entender tu nueva sensibilidad	Feeling emotions more intensely after having kids: understanding your new sensitivity
 1042	1042-pressure-to-enjoy-every-moment-of-motherhood	4	4	4	690	688	5	5	0.087	0.125	La presión de disfrutar cada momento de la maternidad	The Pressure to Enjoy Every Moment of Motherhood
 1043	1043-pressure-to-create-special-memories-for-kids	4	4	4	759	742	6	6	0.069	0.103	La presión de crear recuerdos especiales constantemente para tus hijos	The Pressure to Keep Creating Special Memories for Your Kids
 1044	1044-pressure-to-be-present-mom-never-on-phone	4	4	4	737	747	6	6	0.207	0.172	La presión de ser una madre presente sin mirar nunca el teléfono	The Pressure to Be a Present Mom Who Never Looks at Her Phone
@@ -283,6 +273,16 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 1028	1028-missing-relationship-before-kids	1	1	1	859	934	4	4	0.0	0.0	Echar de menos tu relación de pareja antes de tener hijos	Missing your relationship before kids
 1029	1029-missing-friendships-and-plans-before-kids	1	1	1	864	904	4	4	0.0	0.0	Echar de menos amistades y planes de antes después de convertirte en madre	Missing your old friendships and social life after becoming a mom
 1030	1030-grieving-previous-life-after-baby	1	1	1	938	947	4	4	0.0	0.0	Sentir duelo por tu vida anterior después de tener un bebé	Grieving your old life after having a baby
+1031	1031-motherhood-changed-my-personality	1	1	1	961	1102	4	4	0.0	0.0	¿Por qué siento que ser madre ha cambiado mi personalidad?	Why does it feel like motherhood changed my personality?
+1032	1032-more-sensitive-after-motherhood	1	1	1	938	943	4	4	0.0	0.0	Convertirte en madre y sentirte más sensible que antes ante todo lo que les pasa a los niños	Why do I feel more sensitive to anything involving children since becoming a mom?
+1033	1033-worry-about-things-after-motherhood	1	1	1	839	935	4	4	0.0	0.105	Sentir que desde que eres madre te preocupan cosas que antes ni pensabas	Why do I worry about things I never thought about before becoming a mom?
+1034	1034-relationship-with-risk-after-kids	1	1	1	862	899	4	4	0.0	0.0	Cómo cambia tu relación con el riesgo después de tener hijos	How your relationship with risk can change after having kids
+1035	1035-world-feels-more-dangerous-after-baby	1	1	1	835	984	4	4	0.0	0.0	Por qué algunas madres sienten que el mundo parece más peligroso después de tener un bebé	Why the world can feel more dangerous after you have a baby
+1036	1036-more-to-lose-after-motherhood	1	1	1	804	946	4	4	0.0	0.0	Sentir que ahora tienes mucho más que perder desde que eres madre	Feeling like you have so much more to lose since becoming a mom
+1037	1037-more-protective-than-expected	1	1	1	842	930	4	4	0.0	0.0	Por qué algunas madres se vuelven más protectoras de lo que imaginaban	Why some moms become more protective than they expected
+1038	1038-dont-recognize-how-protective-youve-become	1	1	1	829	994	4	4	0.0	0.0	No reconocerte en lo protectora que te has vuelto después de tener un bebé	When you don't recognize how protective you've become after having a baby
+1039	1039-motherhood-emotional-vulnerability	1	1	1	860	1006	4	4	0.0	0.0	Sentir que la maternidad te ha hecho más vulnerable emocionalmente	Feeling like motherhood made you more emotionally vulnerable
+1040	1040-more-intense-emotions-after-kids	1	1	1	902	1004	4	4	0.0	0.0	Sentir emociones más intensas desde que tienes hijos: cómo entender tu nueva sensibilidad	Feeling emotions more intensely after having kids: understanding your new sensitivity
 1061	1061-looking-forward-to-being-alone-end-of-day	1	1	1	933	972	4	4	0.0	0.0	¿Es normal esperar con ganas el momento de estar sola al final del día?	Is it normal to look forward to being alone at the end of the day?
 1062	1062-best-part-day-silence-after-kids-bed	1	1	1	827	859	4	4	0.0	0.0	Cuando lo mejor del día es el silencio después de acostar a los niños	When the best part of the day is the silence after the kids go to bed
 1064	1064-want-kids-to-leave-you-alone-then-miss-them	1	1	1	803	814	4	4	0.0	0.0	Querer que tus hijos te dejen sola y echarlos de menos cuando se van	Wanting your kids to leave you alone and then missing them when they do

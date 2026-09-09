@@ -4,162 +4,33 @@
     "by_language": {
       "es": {
         "count": 300,
-        "avg_words": 823.1,
-        "median_words": 815,
+        "avg_words": 828.6,
+        "median_words": 820,
         "avg_h2": 4.24,
         "avg_short_para_ratio": 0.004,
         "risk_7_plus": 0,
         "risk_5_6": 0,
-        "risk_3_4": 44,
-        "risk_0_2": 256
+        "risk_3_4": 36,
+        "risk_0_2": 264
       },
       "en": {
         "count": 300,
-        "avg_words": 841.5,
-        "median_words": 832,
+        "avg_words": 850.6,
+        "median_words": 841,
         "avg_h2": 4.23,
         "avg_short_para_ratio": 0.003,
         "risk_7_plus": 0,
         "risk_5_6": 0,
-        "risk_3_4": 43,
-        "risk_0_2": 257
+        "risk_3_4": 37,
+        "risk_0_2": 263
       }
     },
     "exact_repeated_paragraphs": 0,
     "repeated_h2_patterns": 0,
     "repeated_opening_patterns": 0,
-    "common_6grams_6plus_articles": 24
+    "common_6grams_6plus_articles": 25
   },
   "highest_risk": [
-    {
-      "path": "content/articles/en/145-choose-bedtime-battles-worth-having.json",
-      "article_number": 145,
-      "translation_group": "145-choose-bedtime-battles-worth-having",
-      "language": "en",
-      "title": "How to decide which bedtime battles are not worth having",
-      "words": 639,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 6.26,
-      "h2s": [
-        "Ask what each rule is actually protecting",
-        "Offer flexibility inside a frame that stays clear",
-        "Do not confuse consistency with absolute rigidity",
-        "Save your energy for the boundaries that arrive at the end"
-      ],
-      "list_items": 0,
-      "bold_spans": 1,
-      "avg_paragraph_words": 43.3,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.143,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 6,
-        "importante": 2,
-        "clave": 0
-      },
-      "opening": "Bedtime can contain dozens of small decisions: which pajamas, which cup, how many books, which stuffed animal comes to bed, who turns off the light, whether the door stays cracked, and what order everything happens in. If every detail becomes a test of authority, adults can spend all available patience before reaching the boundary that actually matters.",
-      "opening_14_words": "Bedtime can contain dozens of small decisions which pajamas which cup how many books",
-      "intro_3_paragraphs": "Bedtime can contain dozens of small decisions: which pajamas, which cup, how many books, which stuffed animal comes to bed, who turns off the light, whether the door stays cracked, and what order everything happens in. If every detail becomes a test of authority, adults can spend all available patience before reaching the boundary that actually matters. Choosing your battles is not abandoning boundaries. It is reserving firmness for what protects something important and refusing to turn low-stakes preferences into obedience tests. Some limits have a clear job. They protect safety, rest, family functioning, time, or caregiver capacity: nobody climbs on furniture in the dark, a sleeping sibling is not repeatedly awakened, bedtime has an ending, and the entire routine does not restart after lights-out.",
-      "last_h2": "Save your energy for the boundaries that arrive at the end",
-      "ending_3_paragraphs": "The hardest part of bedtime often comes when everyone is tired: finishing the final story, turning off the light, ending conversation, or leaving the room. If you have already argued for thirty minutes about pajamas, toothbrushing order, the exact sequence, and stuffed-animal placement, you have less emotional capacity left for that closing boundary. Letting go of low-stakes details may be exactly what helps you stay clear where it counts. Firmness is not measured by how many times you say no. It is measured by whether the essential boundaries are understandable, repeatable, and sustainable. A strong bedtime routine is not proof of how much the adult controls. It removes unnecessary decisions so the important ones do not disappear inside twenty smaller conflicts. Choosing what is not worth a battle can make bedtime less permissive where it matters, because it leaves more clarity and more capacity to hold the line.",
-      "risk_score": 4,
-      "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/148-other-families-sleep-schedules-may-not-fit-yours.json",
-      "article_number": 148,
-      "translation_group": "148-other-families-sleep-schedules-may-not-fit-yours",
-      "language": "en",
-      "title": "Why another family's sleep schedule may not work for yours",
-      "words": 600,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 6.67,
-      "h2s": [
-        "The clock shows only part of the system",
-        "Borrow the structure without copying the clock",
-        "Test the schedule on ordinary days, not ideal ones",
-        "Do not turn a different schedule into evidence of failure"
-      ],
-      "list_items": 0,
-      "bold_spans": 1,
-      "avg_paragraph_words": 40.4,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 12,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "It is tempting to copy the schedule another parent describes as “what finally worked”: nap at one exact time, dinner next, bath, and bed at 7:30 sharp. A precise plan can reduce uncertainty, but it can hide one essential fact: that schedule was built around a different household.",
-      "opening_14_words": "It is tempting to copy the schedule another parent describes as what finally worked",
-      "intro_3_paragraphs": "It is tempting to copy the schedule another parent describes as “what finally worked”: nap at one exact time, dinner next, bath, and bed at 7:30 sharp. A precise plan can reduce uncertainty, but it can hide one essential fact: that schedule was built around a different household. The best schedule is not the neatest one on paper. It is the one that can coexist with your actual life. Work, daycare, school, siblings, meals, transportation, and family energy all affect sleep even when they are missing from the chart. A bedtime depends on everything that happens before it. If another household eats at six because everyone is home by five, their bedtime may fit naturally. If your last caregiver gets home at seven, copying the same bedtime can turn the whole evening into a race.",
-      "last_h2": "Do not turn a different schedule into evidence of failure",
-      "ending_3_paragraphs": "If another child falls asleep earlier, naps differently, or needs a different sequence, that does not prove your family's system is wrong. Differences may reflect age, temperament, obligations, culture, season, or simply preferences that work in that home. This does not mean ignoring a real concern. If you are worried about whether your child is getting enough sleep, significant daytime sleepiness, breathing, or another health issue, bring that question to a clinician who knows your child. Comparing household schedules cannot replace that assessment. For everyday planning, the standard can be simpler: a rhythm predictable enough to guide the family and flexible enough to survive real life. Borrowing ideas from another household can be useful. Trying to live inside their clock is not automatically useful.",
-      "risk_score": 4,
-      "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/149-use-sleep-log-without-obsession.json",
-      "article_number": 149,
-      "translation_group": "149-use-sleep-log-without-obsession",
-      "language": "en",
-      "title": "How to use a sleep log without turning it into an obsession",
-      "words": 646,
-      "paragraphs": 15,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 6.19,
-      "h2s": [
-        "Start with a question, not a tracking template",
-        "Track the minimum that is useful and allow approximate times",
-        "Set a review date and a condition for stopping",
-        "Use the data for trends, not a nightly grade"
-      ],
-      "list_items": 0,
-      "bold_spans": 1,
-      "avg_paragraph_words": 40.7,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.133,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 5,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "When nights are fragmented, memory gets unreliable. You may feel as though “the baby always wakes at the same time” and discover it happens three nights out of seven, or assume a nap makes no difference until several similar afternoons end in the same kind of bedtime. A log can organize what tired memory blurs.",
-      "opening_14_words": "When nights are fragmented memory gets unreliable You may feel as though the baby",
-      "intro_3_paragraphs": "When nights are fragmented, memory gets unreliable. You may feel as though “the baby always wakes at the same time” and discover it happens three nights out of seven, or assume a nap makes no difference until several similar afternoons end in the same kind of bedtime. A log can organize what tired memory blurs. Tracking works best when it answers a specific question. It works poorly when measuring everything becomes the goal. The point is to reduce uncertainty, not create a new monitoring job. Before recording times, decide what you want to learn. Does a late nap line up with a harder bedtime? Is the bedtime routine actually getting longer, or does it only feel that way on rough nights? Are wake-ups clustering in one part of the night?",
-      "last_h2": "Use the data for trends, not a nightly grade",
-      "ending_3_paragraphs": "If each entry starts feeling like a score—“that nap failed because it was only 37 minutes”—zoom back out. Ask broader questions: are caregivers less depleted, is the routine more understandable, does one change seem helpful repeatedly rather than once? If logging makes you significantly more anxious, keeps you checking your child constantly, or makes it difficult to disengage, it is reasonable to stop even before the period you originally planned. An organizing tool that meaningfully increases vigilance is no longer serving its purpose. If you are keeping a log because of a health concern or a clinician's request, its role is different: use it to provide information for that assessment rather than trying to turn it into a home diagnosis. Outside that context, the smaller, more temporary, and more question-driven the log is, the more likely it is to be genuinely useful.",
-      "risk_score": 4,
-      "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
-      ]
-    },
     {
       "path": "content/articles/en/1101-not-happy-all-the-time-pregnancy.json",
       "article_number": 1101,
@@ -498,135 +369,6 @@
       "intro_3_paragraphs": "Once people know you are pregnant, the questions often move quickly from the headline to the details: due date, appointments, names, baby's sex, where you plan to give birth, whether you will have visitors, what your care team said, or whether they can see the latest ultrasound. It can feel as though telling one thing opened access to everything underneath it. Pregnancy information does not have to be one package. You can share different details with different people at different times without being inconsistent or secretive. Start by noticing how each category feels to you. Some details may be enjoyable small talk. Others may feel personal because they relate to your body, health, family decisions, or uncertainty. You may be happy to share a due month while keeping appointment results private, or discuss nursery plans while keeping the baby's name between you and your partner.",
       "last_h2": "Use answers that close the topic without inventing excuses",
       "ending_3_paragraphs": "You do not need a dramatic reason to keep something private. “We're not sharing that yet,” “we're keeping that part to ourselves,” “I'll let you know if I want to talk about it,” or “we haven't decided what we're sharing” can all end a question without creating a debate. If someone pushes, repeating the same boundary usually works better than producing more reasons. Explanations invite counterarguments: “But I'm family,” “I won't tell anyone,” or “I only asked because I care.” A short repeated answer keeps the decision where it belongs. Choosing what to share is not about building walls around the pregnancy. It is about keeping enough ownership that connection still feels voluntary. You can be close to people, accept support, and celebrate together without turning every private detail into shared family information.",
-      "risk_score": 4,
-      "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/es/145-batallas-no-merecen-pena-hora-dormir.json",
-      "article_number": 145,
-      "translation_group": "145-choose-bedtime-battles-worth-having",
-      "language": "es",
-      "title": "Cómo decidir qué batallas no merece la pena librar a la hora de dormir",
-      "words": 619,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 6.46,
-      "h2s": [
-        "Pregunta qué protege exactamente cada regla",
-        "Ofrece flexibilidad dentro de un marco que sí permanece claro",
-        "No confundas coherencia con rigidez absoluta",
-        "Guarda tu energía para los límites que aparecen al final"
-      ],
-      "list_items": 0,
-      "bold_spans": 1,
-      "avg_paragraph_words": 41.9,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.143,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 9,
-        "importante": 2,
-        "clave": 0
-      },
-      "opening": "La hora de dormir concentra muchas pequeñas decisiones: qué pijama, qué vaso, cuántos cuentos, qué peluche entra en la cama, quién apaga la luz, si la puerta queda entreabierta y en qué orden ocurre todo. Cuando cada detalle se convierte en una cuestión de autoridad, el adulto puede gastar toda su capacidad antes de llegar al límite que realmente necesita sostener.",
-      "opening_14_words": "La hora de dormir concentra muchas pequeñas decisiones qué pijama qué vaso cuántos cuentos",
-      "intro_3_paragraphs": "La hora de dormir concentra muchas pequeñas decisiones: qué pijama, qué vaso, cuántos cuentos, qué peluche entra en la cama, quién apaga la luz, si la puerta queda entreabierta y en qué orden ocurre todo. Cuando cada detalle se convierte en una cuestión de autoridad, el adulto puede gastar toda su capacidad antes de llegar al límite que realmente necesita sostener. Elegir tus batallas no significa abandonar los límites. Significa reservar firmeza para aquello que protege algo importante y dejar de convertir preferencias de bajo impacto en pruebas de obediencia. Algunos límites tienen una función clara. Protegen seguridad, descanso, convivencia, tiempo familiar o capacidad adulta: no se salta sobre una litera a oscuras, no se despierta al hermano, la rutina tiene un final y no se reinicia desde el baño después de apagar la luz.",
-      "last_h2": "Guarda tu energía para los límites que aparecen al final",
-      "ending_3_paragraphs": "El tramo más difícil suele llegar cuando todos están cansados: terminar el último cuento, apagar la luz, dejar de conversar o salir de la habitación. Si has discutido durante media hora por pijamas, cepillo de dientes, orden de los pasos y posición del peluche, tendrás menos margen emocional para sostener con calma ese cierre. Dejar pasar detalles sin importancia puede ser precisamente lo que te permite ser claro donde sí importa. La firmeza no se mide por cuántos “no” dices, sino por si los límites esenciales son comprensibles, consistentes y sostenibles. Una buena rutina nocturna no demuestra cuánto controla el adulto. Reduce decisiones innecesarias para que las importantes no se pierdan entre veinte conflictos pequeños. Elegir qué no merece batalla puede hacer bedtime menos permisivo en lo esencial, porque deja más claridad y más capacidad para sostenerlo.",
-      "risk_score": 4,
-      "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/es/148-horarios-sueno-otras-familias-no-tienen-funcionar.json",
-      "article_number": 148,
-      "translation_group": "148-other-families-sleep-schedules-may-not-fit-yours",
-      "language": "es",
-      "title": "Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya",
-      "words": 606,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 6.6,
-      "h2s": [
-        "El reloj solo muestra una parte del sistema",
-        "Puedes tomar prestada la estructura sin copiar el reloj",
-        "Prueba el horario en días normales, no solo en días ideales",
-        "No conviertas una diferencia de horario en un defecto"
-      ],
-      "list_items": 0,
-      "bold_spans": 1,
-      "avg_paragraph_words": 40.6,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 11,
-        "importante": 1,
-        "clave": 0
-      },
-      "opening": "Es tentador copiar el horario que otra familia describe como “lo que por fin funcionó”: siesta a una hora concreta, cena después, baño y cama exactamente a las siete y media. Un plan preciso reduce incertidumbre, pero puede ocultar un dato esencial: ese horario se construyó alrededor de otra casa.",
-      "opening_14_words": "Es tentador copiar el horario que otra familia describe como lo que por fin",
-      "intro_3_paragraphs": "Es tentador copiar el horario que otra familia describe como “lo que por fin funcionó”: siesta a una hora concreta, cena después, baño y cama exactamente a las siete y media. Un plan preciso reduce incertidumbre, pero puede ocultar un dato esencial: ese horario se construyó alrededor de otra casa. El mejor horario no es el más ordenado sobre el papel, sino el que puede convivir con vuestra vida real. Trabajo, daycare, colegio, hermanos, comidas, transporte y energía familiar forman parte del sueño aunque no aparezcan en una tabla. Una hora de acostarse depende de todo lo que ocurre antes. Si una familia cena a las seis porque alguien termina de trabajar a las cinco, su bedtime puede encajar perfectamente. Si en tu casa el último adulto llega a las siete, copiar la misma hora quizá convierta la tarde en una carrera continua.",
-      "last_h2": "No conviertas una diferencia de horario en un defecto",
-      "ending_3_paragraphs": "Que el hijo de otra familia se duerma antes, haga una siesta distinta o necesite otra secuencia no prueba que vuestro sistema esté mal. Las diferencias pueden reflejar edad, temperamento, obligaciones familiares, cultura, estación del año o simplemente preferencias que funcionan. Esto no significa ignorar una preocupación real. Si dudas de si tu hijo está durmiendo suficiente, hay somnolencia importante, problemas de respiración u otra cuestión de salud, conviene consultarla con el profesional que conoce al niño. Comparar agendas de otras casas no sustituye esa valoración. Para la organización cotidiana, el criterio puede ser más simple: un horario suficientemente predecible para orientar y suficientemente flexible para sobrevivir a la vida real. Aprender de otras familias tiene sentido; intentar vivir dentro de su reloj, no necesariamente.",
-      "risk_score": 4,
-      "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/es/149-registro-sueno-sin-obsesion.json",
-      "article_number": 149,
-      "translation_group": "149-use-sleep-log-without-obsession",
-      "language": "es",
-      "title": "Cómo usar un registro de sueño sin convertirlo en una obsesión",
-      "words": 647,
-      "paragraphs": 15,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 6.18,
-      "h2s": [
-        "Empieza con una pregunta, no con una plantilla",
-        "Registra lo mínimo suficiente y acepta la aproximación",
-        "Pon una fecha de revisión y una condición para dejarlo",
-        "Usa los datos para observar tendencias, no para puntuar cada noche"
-      ],
-      "list_items": 0,
-      "bold_spans": 1,
-      "avg_paragraph_words": 40.7,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.133,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 8,
-        "importante": 1,
-        "clave": 0
-      },
-      "opening": "Cuando las noches están fragmentadas, la memoria se vuelve poco fiable. Puedes sentir que “se despierta siempre a la misma hora” y descubrir que ocurre tres noches de siete, o pensar que una siesta no influye en nada hasta ver que varias tardes parecidas terminan de forma similar. Un registro puede ordenar esa percepción.",
-      "opening_14_words": "Cuando las noches están fragmentadas la memoria se vuelve poco fiable Puedes sentir que",
-      "intro_3_paragraphs": "Cuando las noches están fragmentadas, la memoria se vuelve poco fiable. Puedes sentir que “se despierta siempre a la misma hora” y descubrir que ocurre tres noches de siete, o pensar que una siesta no influye en nada hasta ver que varias tardes parecidas terminan de forma similar. Un registro puede ordenar esa percepción. El registro funciona mejor cuando responde una pregunta concreta. Funciona peor cuando medir todo se convierte en el objetivo. La utilidad está en reducir incertidumbre, no en crear una nueva tarea de vigilancia. Antes de anotar horarios, decide qué quieres saber. ¿Una siesta tardía coincide con una hora de dormir más difícil? ¿La rutina se está alargando de verdad o solo lo parece en las noches malas? ¿Los despertares se concentran en un tramo concreto?",
-      "last_h2": "Usa los datos para observar tendencias, no para puntuar cada noche",
-      "ending_3_paragraphs": "Si cada entrada empieza a sentirse como una nota —“hoy salió mal porque durmió 37 minutos”— prueba a alejarte del detalle. Pregunta por tendencias más amplias: ¿la familia está menos agotada?, ¿la rutina es más predecible?, ¿un ajuste parece ayudar varias veces, no solo una? Y si notas que registrar aumenta mucho tu ansiedad, te hace comprobar constantemente al niño o te impide desconectar, es razonable parar aunque todavía no hayas completado el periodo que imaginabas. Una herramienta que aumenta significativamente la vigilancia ha dejado de cumplir su función. Si el registro existe por una preocupación de salud o porque un profesional lo ha pedido, su función cambia: úsalo para aportar información a esa valoración en lugar de intentar convertirlo en un diagnóstico doméstico. Fuera de ese contexto, cuanto más pequeño, temporal y orientado a una pregunta sea el registro, más probable es que realmente te ayude.",
       "risk_score": 4,
       "risk_reasons": [
         "body_under_650_words",
@@ -1407,135 +1149,6 @@
       "intro_3_paragraphs": "Bringing a father or another caregiver into the sleep routine usually goes poorly when that person appears only because the usual bedtime parent is exhausted, sick, or away. Then the child gets a large change at exactly the moment everyone has the least flexibility. It is easier to build bedtime flexibility on ordinary nights, when another caregiver can gain experience without having to replace anyone all at once. Participation becomes real when the second caregiver owns a recognizable, repeatable part of bedtime instead of waiting for instructions about how to help. You do not need to begin with the whole evening. One concrete part is often more effective: bath, pajamas, preparing the room, reading the story, or handling the final settling period. The important part is repeating it often enough that the child's experience of this caregiver stops feeling exceptional.",
       "last_h2": "Think of participation as family capacity, not a favor",
       "ending_3_paragraphs": "When more than one person can hold the sleep routine, the household gains flexibility for work, travel, illness, rest, and changing stages. That backup does not weaken anyone's bond. It prevents the entire evening from depending on one person's permanent availability. A stable role also lets the incoming caregiver build confidence. They are not simply completing tasks; they learn the child's cues, discover what helps them settle, and develop a shared history around the end of the day. That cannot be manufactured in one emergency bedtime. The goal is not for both caregivers to do bedtime identically or for a child to stop having preferences. It is to create more than one workable bedtime relationship. When another caregiver's participation is frequent, authentic, and sustainable, they stop being the emergency substitute and become a real part of the family's sleep routine.",
-      "risk_score": 3,
-      "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/144-sustainable-bedtime-routine-for-adults.json",
-      "article_number": 144,
-      "translation_group": "144-sustainable-bedtime-routine-for-adults",
-      "language": "en",
-      "title": "How to make a child's bedtime routine more sustainable for adults",
-      "words": 677,
-      "paragraphs": 14,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 5.91,
-      "h2s": [
-        "Measure the whole workload, not only the minutes beside the bed",
-        "Remove steps that stayed through inertia and move decisions earlier",
-        "Build a version more than one caregiver can truly own",
-        "Protect a clear ending and leave room for real exceptions"
-      ],
-      "list_items": 0,
-      "bold_spans": 1,
-      "avg_paragraph_words": 45.4,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 11,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "Some bedtime routines “work” if the only question is whether the child eventually falls asleep. But a ninety-minute routine that always depends on the same parent and contains a long chain of steps nobody feels allowed to shorten can work for sleep while failing the household.",
-      "opening_14_words": "Some bedtime routines work if the only question is whether the child eventually falls",
-      "intro_3_paragraphs": "Some bedtime routines “work” if the only question is whether the child eventually falls asleep. But a ninety-minute routine that always depends on the same parent and contains a long chain of steps nobody feels allowed to shorten can work for sleep while failing the household. Adult capacity belongs in the design of bedtime too. If the system requires one person to arrive every night with unlimited patience and energy, it is not truly stable; it is simply surviving while that person can keep carrying it. The strain often begins long before lights-out. Play has to end, pajamas need finding, the exact stuffed animal disappears, bath time needs managing, a sibling interrupts, water gets requested, one more question appears, and someone has to remember what usually comes next. Counting only the time spent sitting beside the bed can hide half the work.",
-      "last_h2": "Protect a clear ending and leave room for real exceptions",
-      "ending_3_paragraphs": "A sustainable routine needs to know where it ends. That does not mean every request afterward is manipulation. It means an open-ended finish turns adult exhaustion into a negotiation without a reference point. A consistent final action—a story, cuddle, phrase, or lights-out—helps everyone know when the regular routine is complete. That boundary should still leave room for real life. Illness, intense fear, travel, or an unusually hard day may call for more support. Sustainability is not eliminating exceptions. It is making the ordinary version light enough that an exception does not push the adults past their limit. The goal is not the shortest possible bedtime. It is enough connection to help the child transition toward rest and enough simplicity that the adults do not come to dread a daily part of family life. A routine is stronger when it takes care of the people who have to keep repeating it.",
-      "risk_score": 3,
-      "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/146-guilt-changing-sleep-routine.json",
-      "article_number": 146,
-      "translation_group": "146-guilt-changing-sleep-routine",
-      "language": "en",
-      "title": "How to handle guilt when you want to change a sleep routine",
-      "words": 656,
-      "paragraphs": 15,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 6.1,
-      "h2s": [
-        "Separate the child's need from the exact way you meet it",
-        "Do not treat protest as a moral verdict on the change",
-        "Look at the cost of changing nothing too",
-        "Choose a reason you can stand behind even when the transition feels uncomfortable"
-      ],
-      "list_items": 0,
-      "bold_spans": 1,
-      "avg_paragraph_words": 40.9,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.133,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 12,
-        "importante": 0,
-        "clave": 0
-      },
-      "opening": "You can want to keep supporting your child and still know the current bedtime routine no longer fits your energy, your relationship, sibling responsibilities, or your need to recover at the end of the day. That conflict often shows up as guilt: if I change this, am I taking away something my child needs?",
-      "opening_14_words": "You can want to keep supporting your child and still know the current bedtime",
-      "intro_3_paragraphs": "You can want to keep supporting your child and still know the current bedtime routine no longer fits your energy, your relationship, sibling responsibilities, or your need to recover at the end of the day. That conflict often shows up as guilt: if I change this, am I taking away something my child needs? Changing a routine is not the same as withdrawing love. Sometimes it changes the form of care so the care itself can remain sustainable. A child may need connection, predictability, comfort, or presence without needing exactly forty minutes of rocking, one specific parent, or the same sequence forever. The underlying need can stay while the tool changes.",
-      "last_h2": "Choose a reason you can stand behind even when the transition feels uncomfortable",
-      "ending_3_paragraphs": "Then define what will remain. Maybe the story and cuddle stay. Maybe you are still nearby but sitting. Maybe another adult takes over one part without copying your style exactly. Guilt may continue to show up even when the decision is reasonable. You do not have to wait until you feel completely certain before making a change. Guilt can prompt you to check whether the transition is caring and proportionate, but it does not have to become the only voice allowed to decide. Wanting a more sustainable bedtime does not mean wanting less closeness with your child. It means recognizing that the relationship lives inside a household with bodies, work, siblings, schedules, and human limits. Caring for that reality can be part of the same care you were afraid of taking away.",
-      "risk_score": 3,
-      "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
-      ]
-    },
-    {
-      "path": "content/articles/en/150-baby-sleep-apps-help-or-add-anxiety.json",
-      "article_number": 150,
-      "translation_group": "150-baby-sleep-apps-help-or-add-anxiety",
-      "language": "en",
-      "title": "Baby sleep apps: when they help you organize and when they add anxiety",
-      "words": 682,
-      "paragraphs": 15,
-      "h2_count": 4,
-      "h2_density_per_1000_words": 5.87,
-      "h2s": [
-        "Apps help when they replace memory, messages, and repeated coordination",
-        "The app becomes heavy when predictions outrank context",
-        "Give the app one clear job and limit what it asks from you",
-        "Try less tracking and notice what you regain or lose"
-      ],
-      "list_items": 0,
-      "bold_spans": 1,
-      "avg_paragraph_words": 42.7,
-      "short_paragraph_ratio": 0.0,
-      "very_short_paragraphs": 0,
-      "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.067,
-      "long_paragraphs": 0,
-      "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 0,
-        "a_veces": 0,
-        "puede": 13,
-        "importante": 1,
-        "clave": 1
-      },
-      "opening": "Baby sleep apps promise order during a season that can feel chaotic. Seeing when the last nap ended, what happened during another caregiver's shift, or when the baby last ate can save questions and tired memory. But the same tool that organizes can also start demanding more attention than it gives back.",
-      "opening_14_words": "Baby sleep apps promise order during a season that can feel chaotic Seeing when",
-      "intro_3_paragraphs": "Baby sleep apps promise order during a season that can feel chaotic. Seeing when the last nap ended, what happened during another caregiver's shift, or when the baby last ate can save questions and tired memory. But the same tool that organizes can also start demanding more attention than it gives back. A sleep app is useful when it reduces mental load. It stops being useful when every sleep period becomes a metric you feel responsible for optimizing. The real question is not whether the technology is good or bad; it is what job the app is doing in your household. In homes with multiple caregivers, night shifts, grandparents, a nanny, or fragmented workdays, an app can act as a handoff point. The next person can see roughly when the baby slept without waking someone else to ask.",
-      "last_h2": "Try less tracking and notice what you regain or lose",
-      "ending_3_paragraphs": "Then notice the difference. Do caregivers lose information they genuinely needed? Do handoffs become harder? Then a specific feature was providing real value. Or do you watch the clock less, tolerate an unusual nap more easily, and feel more present away from the screen? That matters too. The best tool improves life when you are not using it. If an app helps the household coordinate and think less about data, it may be worth keeping. If it makes sleep occupy even more mental space, simplifying or leaving it can be a reasonable choice. If there is a health, development, breathing, or feeding concern, a sleep app should not become the family's clinical authority. It can provide notes for an appointment, but medical concerns need interpretation from a professional who can assess the baby in context.",
       "risk_score": 3,
       "risk_reasons": [
         "body_under_800_words",
@@ -2615,6 +2228,393 @@
       "risk_reasons": [
         "body_under_800_words",
         "many_question_paragraphs"
+      ]
+    },
+    {
+      "path": "content/articles/es/1100-construir-confianza-madre-sin-perfeccion.json",
+      "article_number": 1100,
+      "translation_group": "1100-build-confidence-mom-without-perfection",
+      "language": "es",
+      "title": "Cómo construir confianza en ti misma como madre sin necesitar hacerlo todo perfecto",
+      "words": 670,
+      "paragraphs": 15,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.97,
+      "h2s": [
+        "Practica cerrar decisiones antes de agotar todas las fuentes",
+        "Tolera que una buena decisión no guste a todo el mundo",
+        "Incluye el error, la reparación y el cambio de rumbo dentro de la confianza",
+        "Haz visible la evidencia cotidiana de tu capacidad"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 41.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 3,
+        "no_significa": 1,
+        "a_veces": 2,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Es fácil imaginar la confianza materna como un estado futuro. Un día sabrás responder a las rabietas, organizarás mejor la casa, dejarás de dudar de cada decisión y las opiniones de los demás ya no te moverán. Entonces, por fin, sentirás que sabes ser madre.",
+      "opening_14_words": "Es fácil imaginar la confianza materna como un estado futuro Un día sabrás responder",
+      "intro_3_paragraphs": "Es fácil imaginar la confianza materna como un estado futuro. Un día sabrás responder a las rabietas, organizarás mejor la casa, dejarás de dudar de cada decisión y las opiniones de los demás ya no te moverán. Entonces, por fin, sentirás que sabes ser madre. La confianza real suele construirse antes de la certeza. No consiste en saber que nunca te equivocarás, sino en comprobar que puedes decidir con información suficiente y seguir respondiendo si la realidad te pide ajustar. Cuando dudas, buscar más información puede sentirse responsable. A veces lo es. Pero llega un punto en que leer otra opinión no añade datos relevantes; solo retrasa el momento de elegir. La confianza necesita práctica en reconocer cuándo ya tienes suficiente para tomar una decisión razonable.",
+      "last_h2": "Haz visible la evidencia cotidiana de tu capacidad",
+      "ending_3_paragraphs": "No necesitas llevar un diario de rendimiento. Basta con prestar atención periódicamente a lo que antes te costaba y ahora manejas mejor. La confianza se vuelve más real cuando tu imagen de ti misma incluye el aprendizaje acumulado, no solo las preguntas todavía abiertas. También ayuda recordar decisiones que tomaste a pesar de la duda y que luego resultaron habitables. Quizá no fueron perfectas, pero funcionaron suficientemente bien. Esa experiencia enseña algo muy concreto: no necesitas sentir certeza para actuar con criterio. No tienes que sentirte una madre segura antes de empezar a actuar como una. Cada vez que decides, observas, mantienes una elección razonable, corriges lo que no funciona y reparas cuando hace falta, construyes evidencia de que puedes confiar en ti sin exigir perfección.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1101-no-sentirse-feliz-todo-tiempo-embarazo.json",
+      "article_number": 1101,
+      "translation_group": "1101-not-happy-all-the-time-pregnancy",
+      "language": "es",
+      "title": "¿Es normal no sentirse feliz todo el tiempo durante el embarazo?",
+      "words": 685,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.84,
+      "h2s": [
+        "Una emoción de hoy no reescribe lo que deseas para tu vida",
+        "La neutralidad también forma parte de un embarazo real",
+        "Busca conversaciones donde no tengas que corregir tu propia historia",
+        "Normalizar la variación no significa ignorar un malestar que necesita apoyo"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 45.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.071,
+      "long_paragraphs": 1,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 9,
+        "importante": 2,
+        "clave": 0
+      },
+      "opening": "Existe una imagen muy insistente del embarazo deseado: una felicidad especial que debería acompañarte desde el test positivo hasta el nacimiento. Las ecografías tendrían que emocionarte, los cambios del cuerpo parecerte significativos y las preguntas sobre el bebé llenarte de ilusión. Cuando la experiencia real incluye cansancio, irritabilidad, miedo, aburrimiento o simplemente horas en las que no piensas en el embarazo, es fácil convertir una emoción corriente en una duda sobre ti.",
+      "opening_14_words": "Existe una imagen muy insistente del embarazo deseado una felicidad especial que debería acompañarte",
+      "intro_3_paragraphs": "Existe una imagen muy insistente del embarazo deseado: una felicidad especial que debería acompañarte desde el test positivo hasta el nacimiento. Las ecografías tendrían que emocionarte, los cambios del cuerpo parecerte significativos y las preguntas sobre el bebé llenarte de ilusión. Cuando la experiencia real incluye cansancio, irritabilidad, miedo, aburrimiento o simplemente horas en las que no piensas en el embarazo, es fácil convertir una emoción corriente en una duda sobre ti. Querer un bebé y sentirse feliz todo el tiempo son cosas distintas. El embarazo es una etapa de vida completa, no un estado de ánimo obligatorio. Un martes difícil no invalida los meses o años en los que deseaste ser madre. Puedes estar profundamente contenta por el futuro y, a la vez, estar harta de una incomodidad física. Puedes agradecer que el embarazo avance bien y sentir miedo por un cambio laboral. Puedes tener un día neutral en el que el bebé apenas ocupe tus pensamientos porque estás resolviendo otras cosas.",
+      "last_h2": "Normalizar la variación no significa ignorar un malestar que necesita apoyo",
+      "ending_3_paragraphs": "Dar espacio a días malos no exige minimizar cómo te encuentras. Si el malestar es intenso, persiste, te preocupa o está interfiriendo de forma importante con dormir, trabajar, comer, relacionarte o funcionar en el día a día, merece una conversación con un profesional sanitario o de salud mental. No tienes que decidir sola si “es suficientemente serio”. Pedir ayuda tampoco contradice que el embarazo fuera deseado. Precisamente porque estás atravesando una transición importante, tu bienestar emocional merece atención sin necesidad de encajarlo en una historia de felicidad constante. No necesitas demostrar cuánto querías este embarazo mediante un estado de ánimo. Puedes vivir días felices, preocupados, aburridos, irritados y completamente normales, y seguir deseando profundamente al bebé que viene.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1103-querer-bebe-tener-miedo-embarazo.json",
+      "article_number": 1103,
+      "translation_group": "1103-love-baby-and-feel-afraid-pregnancy",
+      "language": "es",
+      "title": "Querer al bebé y tener miedo al mismo tiempo durante el embarazo",
+      "words": 655,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.11,
+      "h2s": [
+        "Convierte “tengo miedo” en miedos que puedan entenderse por separado",
+        "No utilices la gratitud para discutir con lo que sientes",
+        "Prepara lo que sí puede prepararse y deja sin resolver lo que todavía no existe",
+        "Comparte el miedo antes de convertirlo en una prueba privada"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 43.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.143,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 2,
+        "a_veces": 0,
+        "puede": 14,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Un embarazo deseado puede hacer aparecer miedos que antes eran completamente abstractos. De pronto no piensas solo en “tener un bebé”, sino en un parto real, un cuerpo que cambia, una economía familiar diferente, noches sin dormir, una relación de pareja que tendrá que reorganizarse y una responsabilidad que no puedes probar antes de vivirla. Esa mezcla puede desconcertar precisamente porque querías llegar hasta aquí.",
+      "opening_14_words": "Un embarazo deseado puede hacer aparecer miedos que antes eran completamente abstractos De pronto",
+      "intro_3_paragraphs": "Un embarazo deseado puede hacer aparecer miedos que antes eran completamente abstractos. De pronto no piensas solo en “tener un bebé”, sino en un parto real, un cuerpo que cambia, una economía familiar diferente, noches sin dormir, una relación de pareja que tendrá que reorganizarse y una responsabilidad que no puedes probar antes de vivirla. Esa mezcla puede desconcertar precisamente porque querías llegar hasta aquí. El miedo no es la emoción opuesta al amor. Muchas veces aparece a su lado porque ahora hay más cosas que importan y más futuro que no puedes controlar. Una frase global puede contener preguntas muy distintas: miedo al parto, a no saber cuidar a un recién nacido, a perder autonomía, a que cambie tu relación, a no reconocer tu cuerpo, a que el dinero no alcance o a sentirte distinta después. Cuando todas esas preocupaciones se funden, parece que te asusta “ser madre” en conjunto.",
+      "last_h2": "Comparte el miedo antes de convertirlo en una prueba privada",
+      "ending_3_paragraphs": "Decir “quiero muchísimo a este bebé y estoy asustada” con alguien que tolere ambas partes puede reducir el peso de la contradicción. Busca personas que no respondan ni con alarma ni con “no pienses en eso”, sino que te ayuden a precisar qué necesitas. Si el miedo es intenso, persiste, te preocupa o interfiere de forma importante con tu día a día, coméntalo con un profesional sanitario o de salud mental. Pedir apoyo no significa que el miedo “tenía razón”; significa que no tienes que sostener sola un malestar que ocupa demasiado. Puedes querer profundamente al bebé y temer la magnitud de lo que cambia. Las dos emociones pueden contar la misma historia: esto importa mucho y todavía estás aprendiendo cómo será vivirlo.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1108-no-sentir-amor-instantaneo-bebe-antes-nazca.json",
+      "article_number": 1108,
+      "translation_group": "1108-no-instant-love-before-birth",
+      "language": "es",
+      "title": "No sentir amor instantáneo por el bebé antes de que nazca",
+      "words": 677,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.91,
+      "h2s": [
+        "No obligues a una sola palabra a resumir todo lo que sientes",
+        "Recuerda que aún conoces muy poco a esa persona concreta",
+        "Deja de usar cada hito como un test para comprobar si “ya ha llegado”",
+        "Distingue una diferencia emocional de un malestar que sí necesita apoyo"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 45.0,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.071,
+      "long_paragraphs": 1,
+      "phrase_counts": {
+        "no_necesitas": 2,
+        "no_significa": 2,
+        "a_veces": 0,
+        "puede": 8,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "El amor prenatal suele describirse con una frase enorme: “desde que vi el positivo ya le quería con toda mi alma”. Para algunas personas esa descripción encaja de verdad. Para otras, lo que aparece es responsabilidad, curiosidad, protección, sorpresa, miedo, ternura intermitente o una sensación mucho más difícil de nombrar. El problema no es sentirlo de otra manera, sino creer que la palabra amor debería haber llegado ya con una intensidad concreta.",
+      "opening_14_words": "El amor prenatal suele describirse con una frase enorme desde que vi el positivo",
+      "intro_3_paragraphs": "El amor prenatal suele describirse con una frase enorme: “desde que vi el positivo ya le quería con toda mi alma”. Para algunas personas esa descripción encaja de verdad. Para otras, lo que aparece es responsabilidad, curiosidad, protección, sorpresa, miedo, ternura intermitente o una sensación mucho más difícil de nombrar. El problema no es sentirlo de otra manera, sino creer que la palabra amor debería haber llegado ya con una intensidad concreta. El amor no necesita aparecer como un impacto instantáneo para ser real cuando se construya. Las relaciones humanas también pueden empezar con conocimiento gradual, cuidado práctico y una persona que todavía no conoces lo suficiente como para sentir hacia ella lo que otros describen. Tal vez piensas en el bebé cuando tomas decisiones, te importa que esté bien, organizas tu vida alrededor de su llegada y aun así no reconoces dentro de ti una emoción que llamarías “amor”. Eso no significa que no haya nada. Significa que tu experiencia no cabe todavía en la etiqueta que esperabas.",
+      "last_h2": "Distingue una diferencia emocional de un malestar que sí necesita apoyo",
+      "ending_3_paragraphs": "No sentir amor instantáneo, por sí solo, no es un diagnóstico ni permite predecir tu relación futura. Normalizar esa diversidad no significa, sin embargo, ignorar cómo estás en general. Si te sientes muy angustiada, si el malestar es intenso o persistente, o si notas otros cambios emocionales que te preocupan, puedes hablarlo con un profesional sanitario o de salud mental. El objetivo de pedir apoyo no sería fabricar amor prenatal, sino darte un espacio para entender tu experiencia y cuidar tu bienestar sin someterte a una emoción obligatoria. No necesitas reconocer una gran historia de amor antes de conocer al bebé para que esa relación pueda crecer. Puede empezar con responsabilidad, curiosidad, cuidado o una emoción que todavía no sabes nombrar y volverse profundamente tuya con el tiempo.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1109-no-tener-ganas-hablar-barriga-embarazo.json",
+      "article_number": 1109,
+      "translation_group": "1109-not-want-to-talk-to-bump",
+      "language": "es",
+      "title": "No tener ganas de hablarle a la barriga durante el embarazo",
+      "words": 679,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.89,
+      "h2s": [
+        "Distingue una posibilidad de una obligación emocional",
+        "Reconoce las formas de preparación y cuidado que sí se parecen a ti",
+        "Pon límites cuando otras personas convierten tu embarazo en una actuación",
+        "Deja que la relación real encuentre su propio lenguaje"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 45.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.071,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 3,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 13,
+        "importante": 2,
+        "clave": 0
+      },
+      "opening": "Durante el embarazo aparecen muchas sugerencias pequeñas que, sin darte cuenta, pueden convertirse en deberes: ponle música, háblale, cántale, lee un cuento en voz alta, acaricia la barriga antes de dormir. Para algunas personas estos gestos salen de forma espontánea y resultan tiernos. Para otras se sienten artificiales, como interpretar una escena de maternidad que no encaja con su manera de relacionarse.",
+      "opening_14_words": "Durante el embarazo aparecen muchas sugerencias pequeñas que sin darte cuenta pueden convertirse en",
+      "intro_3_paragraphs": "Durante el embarazo aparecen muchas sugerencias pequeñas que, sin darte cuenta, pueden convertirse en deberes: ponle música, háblale, cántale, lee un cuento en voz alta, acaricia la barriga antes de dormir. Para algunas personas estos gestos salen de forma espontánea y resultan tiernos. Para otras se sienten artificiales, como interpretar una escena de maternidad que no encaja con su manera de relacionarse. No necesitas demostrar conexión realizando rituales que no se parecen a ti. Hablarle a la barriga puede ser una práctica agradable, pero no es un examen prenatal ni una medida de cuánto te importa el bebé. Que algo pueda tener sentido para algunas personas no lo convierte en requisito para todas. Puedes probar a hablarle al bebé y descubrir que te sientes rara. Puedes no tener ninguna gana de leer cuentos en voz alta a una barriga. Incluso puedes sentir cariño por la idea y, aun así, preferir vivirlo en silencio.",
+      "last_h2": "Deja que la relación real encuentre su propio lenguaje",
+      "ending_3_paragraphs": "Puede que nunca te apetezca hablarle a la barriga y, después del nacimiento, te descubras narrando cada cambio de pañal. O quizá sigas siendo una persona poco verbal y conectes más a través del contacto, de observar, de responder a necesidades o de compartir rutinas. No existe una única manera de construir intimidad. Lo importante es no usar un gesto prenatal concreto como predicción de toda la relación. El vínculo con un hijo se desarrolla durante años y contiene miles de oportunidades para conocerle, responder, disfrutar, reparar, cuidar y estar presente. Si hablarle a la barriga te nace, puedes disfrutarlo. Si no, puedes dejarlo sin culpa. La maternidad no empieza con una actuación concreta y vuestra relación tendrá muchísimo más espacio para construirse que este único ritual prenatal.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1111-miedo-no-ser-buena-madre-antes-nazca-bebe.json",
+      "article_number": 1111,
+      "translation_group": "1111-fear-not-being-good-mother-before-birth",
+      "language": "es",
+      "title": "Miedo a no ser una buena madre antes de que nazca el bebé",
+      "words": 688,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.81,
+      "h2s": [
+        "Cambia una pregunta imposible por criterios que sí puedas observar",
+        "No esperes sentir confianza antes de tener experiencia",
+        "Revisa la definición de “buena madre” que te está asustando",
+        "Usa el miedo como información, no como veredicto"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 46.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.214,
+      "long_paragraphs": 1,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 10,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Durante el embarazo puede aparecer una pregunta que parece abarcarlo todo: “¿y si no soy una buena madre?”. No se refiere a una tarea concreta, sino a tu valor futuro en una relación que todavía no ha empezado de la forma cotidiana en que empezará después del nacimiento. Por eso resulta tan difícil responderla. Intentas anticipar cómo reaccionarás a noches sin dormir, llantos, límites, dudas, decisiones y etapas que aún no conoces.",
+      "opening_14_words": "Durante el embarazo puede aparecer una pregunta que parece abarcarlo todo y si no",
+      "intro_3_paragraphs": "Durante el embarazo puede aparecer una pregunta que parece abarcarlo todo: “¿y si no soy una buena madre?”. No se refiere a una tarea concreta, sino a tu valor futuro en una relación que todavía no ha empezado de la forma cotidiana en que empezará después del nacimiento. Por eso resulta tan difícil responderla. Intentas anticipar cómo reaccionarás a noches sin dormir, llantos, límites, dudas, decisiones y etapas que aún no conoces. Temer no ser una buena madre no demuestra que vayas a hacerlo mal. Muchas veces refleja que estás intentando obtener una garantía sobre una relación que solo podrá construirse con experiencia, aprendizaje y tiempo. “¿Seré buena madre?” mezcla cientos de escenas futuras en una sola etiqueta. Una madre puede ser paciente una mañana y perder la paciencia por la tarde; saber qué hacer en un tema y pedir ayuda en otro; tomar una decisión que funciona y cambiarla después. Si tu definición exige acertar siempre, la respuesta será necesariamente insegura.",
+      "last_h2": "Usa el miedo como información, no como veredicto",
+      "ending_3_paragraphs": "A veces la preocupación señala algo concreto que merece preparación: poco apoyo, expectativas poco realistas, una conversación pendiente con tu pareja o dudas sobre cómo pedir ayuda. En esos casos, el miedo puede servir para organizar recursos. Otras veces no hay un problema nuevo; simplemente estás sintiendo el peso de una transición importante. Si el miedo es muy intenso, persiste, interfiere con tu descanso o funcionamiento, o te mantiene atrapada en escenarios catastróficos, hablarlo con un profesional de salud puede darte apoyo adaptado. Pedir ayuda no confirma que “no estés hecha para esto”; es una forma de cuidar tu bienestar antes del nacimiento. No necesitas demostrar por adelantado que mereces el papel de madre. Lo irás construyendo con una persona real, decisión a decisión, incluyendo las veces que aprendas, preguntes, cambies de rumbo y repares.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1112-miedo-no-saber-cuidar-recien-nacido-primeriza.json",
+      "article_number": 1112,
+      "translation_group": "1112-fear-not-knowing-how-to-care-for-newborn-first-time-mom",
+      "language": "es",
+      "title": "Miedo a no saber cuidar a un recién nacido cuando eres madre primeriza",
+      "words": 655,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.11,
+      "h2s": [
+        "Convierte “no sabré cuidarlo” en habilidades y preguntas concretas",
+        "Prepara una ruta para aprender en lugar de intentar memorizarlo todo",
+        "Espera cierta torpeza sin utilizarla como prueba de falta de instinto",
+        "Incluye pedir ayuda dentro de tu definición de cuidar bien"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 43.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 6,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Si apenas has estado cerca de recién nacidos, es fácil mirar los cuidados básicos como si fueran conocimientos que otras personas recibieron de manera automática. Ves a alguien coger un bebé con soltura, colocarle la ropa sin dudar o responder a un llanto y parece que tú deberías llegar al parto sabiendo hacer lo mismo. Pero estás comparando tu primera vez imaginada con la práctica acumulada de otra persona.",
+      "opening_14_words": "Si apenas has estado cerca de recién nacidos es fácil mirar los cuidados básicos",
+      "intro_3_paragraphs": "Si apenas has estado cerca de recién nacidos, es fácil mirar los cuidados básicos como si fueran conocimientos que otras personas recibieron de manera automática. Ves a alguien coger un bebé con soltura, colocarle la ropa sin dudar o responder a un llanto y parece que tú deberías llegar al parto sabiendo hacer lo mismo. Pero estás comparando tu primera vez imaginada con la práctica acumulada de otra persona. No saber todavía no significa no ser capaz. Ser madre primeriza implica precisamente empezar sin experiencia previa con ese bebé y aprender muchas cosas mientras las haces. La frase global asusta porque no tiene límites. En realidad contiene muchas tareas pequeñas: cómo sostener al bebé con comodidad, cambiarle, vestirle, organizar lo necesario para el día a día, aprender rutinas básicas, reconocer cuándo una duda puede esperar y cuándo conviene consultar. No necesitas resolverlas todas en tu cabeza antes del nacimiento.",
+      "last_h2": "Incluye pedir ayuda dentro de tu definición de cuidar bien",
+      "ending_3_paragraphs": "Una fantasía frecuente es que una madre competente resuelve cualquier duda sola. En realidad, cuidar responsablemente también significa reconocer límites y utilizar apoyo. Habrá incertidumbres cotidianas y habrá cuestiones para las que necesites orientación profesional. Puedes preguntar durante el embarazo qué canales de consulta tendrás disponibles y qué señales recomienda vuestro equipo que no se intenten interpretar en casa. Esto no es una guía clínica ni necesitas memorizar una lista exhaustiva ahora. La idea importante es más sencilla: no te corresponde convertirte en la única fuente de respuestas. Tu trabajo será observar, aprender, compartir información y consultar cuando algo te preocupe. Tu bebé no necesita que llegues al nacimiento convertida en experta. Necesita adultos dispuestos a aprender tareas concretas, conocerle poco a poco, compartir el cuidado y pedir ayuda cuando una pregunta supera lo que saben.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1114-dudar-si-estabas-preparada-despues-quedarte-embarazada.json",
+      "article_number": 1114,
+      "translation_group": "1114-doubt-whether-you-were-ready-after-pregnancy",
+      "language": "es",
+      "title": "Dudar de si estabas preparada para ser madre después de quedarte embarazada",
+      "words": 664,
+      "paragraphs": 15,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.02,
+      "h2s": [
+        "Distingue estar preparada de no tener ninguna duda",
+        "Comprueba si ha cambiado un dato real o solo la sensación de escala",
+        "Deja que la preparación continúe durante el embarazo",
+        "No uses una emoción presente para reescribir retrospectivamente toda la decisión"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 41.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 12,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Antes de quedarte embarazada quizá hiciste muchas de las cosas que asociabas con “estar preparada”: hablaste con tu pareja, revisaste cuentas, pensaste en vivienda, trabajo, apoyo y tiempos. La decisión podía sentirse razonable y firme. Después del positivo, sin que haya cambiado necesariamente ninguno de esos datos, aparece una sensación nueva: “igual no estaba preparada en absoluto”.",
+      "opening_14_words": "Antes de quedarte embarazada quizá hiciste muchas de las cosas que asociabas con estar",
+      "intro_3_paragraphs": "Antes de quedarte embarazada quizá hiciste muchas de las cosas que asociabas con “estar preparada”: hablaste con tu pareja, revisaste cuentas, pensaste en vivienda, trabajo, apoyo y tiempos. La decisión podía sentirse razonable y firme. Después del positivo, sin que haya cambiado necesariamente ninguno de esos datos, aparece una sensación nueva: “igual no estaba preparada en absoluto”. La preparación no es una certeza que consigues antes del embarazo y conservas intacta. Una posibilidad puede parecer manejable desde fuera y sentirse mucho más grande cuando ya es una responsabilidad real. Si “preparada” significa saber cómo será el parto, entender a un recién nacido, tener dinero suficiente para cualquier escenario, no discutir nunca con tu pareja y sentirte emocionalmente segura todos los días, el criterio es imposible. La preparación real suele ser incompleta.",
+      "last_h2": "No uses una emoción presente para reescribir retrospectivamente toda la decisión",
+      "ending_3_paragraphs": "Una decisión puede haber sido razonable con la información, deseos y circunstancias de aquel momento y aun así requerir adaptación cuando empieza a materializarse. No hace falta que la seguridad sea lineal para que exista compromiso. Si la duda se convierte en una angustia intensa o persistente que interfiere mucho con tu vida, puedes buscar apoyo profesional. El objetivo no sería convencerte de una respuesta concreta, sino darte espacio para explorar lo que estás sintiendo con acompañamiento adecuado. Puedes haber estado suficientemente preparada para elegir y seguir sintiéndote poco preparada para todo lo que aún no conoces. La preparación no termina con el positivo: continúa a medida que aprendes, organizas y respondes a la realidad que va llegando.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words",
+        "elevated_h2_density"
+      ]
+    },
+    {
+      "path": "content/articles/es/1115-miedo-perder-libertad-cuando-nazca-bebe.json",
+      "article_number": 1115,
+      "translation_group": "1115-fear-losing-freedom-after-baby",
+      "language": "es",
+      "title": "Miedo a perder tu libertad cuando nazca el bebé",
+      "words": 658,
+      "paragraphs": 14,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 6.08,
+      "h2s": [
+        "No te obligues a negar que habrá costes reales",
+        "Define qué libertad temes perder, porque no todas significan lo mismo",
+        "Habla de autonomía como una responsabilidad compartida, no como un favor a la madre",
+        "Deja espacio para descubrir qué echarás de menos y qué cambiará de importancia"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 43.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 2,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 11,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Antes de tener hijos, mucha libertad cotidiana pasa desapercibida porque no necesita organización: quedarte más tiempo fuera, aceptar un plan a última hora, dormir cuando puedes, pasar una tarde sin explicar dónde estás o decidir que hoy no vas a hacer nada. Durante el embarazo, esas pequeñas posibilidades se vuelven visibles justo cuando sabes que algunas cambiarán.",
+      "opening_14_words": "Antes de tener hijos mucha libertad cotidiana pasa desapercibida porque no necesita organización quedarte",
+      "intro_3_paragraphs": "Antes de tener hijos, mucha libertad cotidiana pasa desapercibida porque no necesita organización: quedarte más tiempo fuera, aceptar un plan a última hora, dormir cuando puedes, pasar una tarde sin explicar dónde estás o decidir que hoy no vas a hacer nada. Durante el embarazo, esas pequeñas posibilidades se vuelven visibles justo cuando sabes que algunas cambiarán. Sentir duelo anticipado por parte de tu libertad no significa que quieras menos al bebé. Significa que una vida nueva puede ser deseada y, al mismo tiempo, desplazar aspectos valiosos de la vida anterior. Decir “todo merecerá la pena” puede expresar amor por lo que viene, pero no elimina los cambios. Especialmente al principio, salir de casa puede requerir más coordinación, el tiempo a solas depender de relevos y muchas decisiones dejarán de ser completamente individuales. Reconocerlo no es ser negativa; te permite pensar de forma más honesta en qué necesitarás.",
+      "last_h2": "Deja espacio para descubrir qué echarás de menos y qué cambiará de importancia",
+      "ending_3_paragraphs": "Durante el embarazo solo puedes imaginar tu vida futura. Puede que eches muchísimo de menos ciertas cosas y sorprendentemente poco otras. Quizá una salida que antes parecía esencial pierda importancia durante un tiempo, mientras cinco minutos de silencio se vuelven valiosísimos. No necesitas adivinarlo todo ahora. La meta tampoco tiene que ser recuperar exactamente la misma libertad previa. Puede ser conservar una relación con tu autonomía que evolucione: seguir teniendo capacidad de elección, tiempo sin cuidar y partes de la vida que no dependan siempre de las necesidades de otra persona. Prepararte para ser madre no exige despedirte de la persona que valora su libertad. Exige reconocer que habrá nuevas responsabilidades y construir, con el tiempo y el apoyo disponible, formas reales de seguir teniendo espacio propio dentro de ellas.",
+      "risk_score": 3,
+      "risk_reasons": [
+        "body_under_800_words",
+        "elevated_h2_density"
       ]
     }
   ],
@@ -8575,10 +8575,10 @@
       "translation_group": "141-falling-asleep-with-parent-bad-habit",
       "language": "en",
       "title": "Is falling asleep with a parent nearby a bad habit?",
-      "words": 846,
-      "paragraphs": 14,
+      "words": 1116,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 4.73,
+      "h2_density_per_1000_words": 3.58,
       "h2s": [
         "Look at the real cost before calling the routine a problem",
         "Independence does not require immediate separation",
@@ -8587,29 +8587,27 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 57.9,
+      "avg_paragraph_words": 60.1,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.111,
       "long_paragraphs": 2,
       "phrase_counts": {
         "no_necesitas": 2,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 14,
+        "puede": 20,
         "importante": 0,
         "clave": 0
       },
-      "opening": "When a child needs a parent nearby to fall asleep, it is easy to hear—or start telling yourself—that you have created a “bad habit.” The label carries a lot of weight because it turns an ordinary bedtime arrangement into a prediction: if your child falls asleep with you now, perhaps they will never learn another way. But that mixes up two different questions. One is how your child falls asleep today. The more useful one is whether this way of falling asleep still works for the child and the people supporting it.",
+      "opening": "When a child needs a parent nearby to fall asleep, it is easy to hear—or start telling yourself—that you have created a “bad habit.” The label sounds more objective than it is. It turns one current way of settling into a prediction about the future: if your child falls asleep with you now, perhaps they will never manage another way. But that skips the question that actually helps a family make decisions: is this arrangement causing a problem you need to solve?",
       "opening_14_words": "When a child needs a parent nearby to fall asleep it is easy to",
-      "intro_3_paragraphs": "When a child needs a parent nearby to fall asleep, it is easy to hear—or start telling yourself—that you have created a “bad habit.” The label carries a lot of weight because it turns an ordinary bedtime arrangement into a prediction: if your child falls asleep with you now, perhaps they will never learn another way. But that mixes up two different questions. One is how your child falls asleep today. The more useful one is whether this way of falling asleep still works for the child and the people supporting it. Falling asleep with support is not automatically something that needs fixing. It can be connection, a preference of this stage, or a perfectly workable family routine as long as it remains sustainable enough and leaves the household room to function. The same bedtime scene can mean very different things in two homes. Sitting beside the bed for ten or fifteen peaceful minutes may be a welcome ending to the day. Staying for ninety minutes, being unable to move without waking your child, or becoming the only person who can ever complete bedtime can feel entirely different.",
+      "intro_3_paragraphs": "When a child needs a parent nearby to fall asleep, it is easy to hear—or start telling yourself—that you have created a “bad habit.” The label sounds more objective than it is. It turns one current way of settling into a prediction about the future: if your child falls asleep with you now, perhaps they will never manage another way. But that skips the question that actually helps a family make decisions: is this arrangement causing a problem you need to solve? Falling asleep with support is not automatically something that needs fixing. It may be connection, a preference of this stage, or simply the routine your family currently uses. The useful test is not whether it looks independent from the outside, but whether it remains sustainable enough for the child and the people supporting bedtime. The same bedtime scene can mean very different things in two homes. Sitting beside the bed for fifteen peaceful minutes may be a welcome ending to the day. Staying for ninety minutes, being unable to move without waking your child, or becoming the only person who can ever complete bedtime can feel entirely different.",
       "last_h2": "You can keep what works now and change it later",
-      "ending_3_paragraphs": "A routine does not have to be permanent to be valid today. That idea can take a lot of pressure out of bedtime. You can keep accompanying your child while it works and reassess when the stage or family needs change. You can also change only the difficult part while preserving stories, conversation, touch, or nearby presence. If you do make a change, your child's protest does not automatically prove the change is wrong, just as a calm reaction does not prove every strategy is right. What matters is that the change has a clear reason, fits your circumstances, and includes a form of responsiveness the family can sustain. So the most useful question is not, “Should my child be falling asleep alone by now?” It is, “Does this way of falling asleep still work for our family system?” If the answer is yes, you do not need to manufacture a problem. If the answer is becoming no, you can change bedtime without rewriting the past as though staying close was something you should never have done.",
-      "risk_score": 1,
-      "risk_reasons": [
-        "body_under_1050_words"
-      ]
+      "ending_3_paragraphs": "If you do make a change, your child's protest does not automatically prove the change is wrong, just as a calm reaction does not prove every strategy is right. Familiar routines matter to children, so a reasonable change can still be unwelcome. What matters is that the change has a clear reason, fits your circumstances, and includes a form of responsiveness the family can sustain. Give yourself enough time to judge the new arrangement as a pattern rather than from one dramatic night. If the change reduces the burden you meant to solve and your child is gradually understanding what to expect, it may be doing its job even if the transition is imperfect. If it creates a new problem that is worse than the old one, adjust the size of the step. The most useful question is therefore not, “Should my child be falling asleep alone by now?” It is, “Does this way of falling asleep still work for our family system?” If the answer is yes, you do not need to manufacture a problem. If the answer is becoming no, you can change bedtime without rewriting the past as though staying close was something you should never have done.",
+      "risk_score": 0,
+      "risk_reasons": []
     },
     {
       "path": "content/articles/en/142-set-limits-adult-presence-bedtime-gradually.json",
@@ -8617,10 +8615,10 @@
       "translation_group": "142-limit-adult-presence-at-bedtime-gradually",
       "language": "en",
       "title": "How to limit adult presence at bedtime without disappearing all at once",
-      "words": 734,
-      "paragraphs": 14,
+      "words": 1064,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.45,
+      "h2_density_per_1000_words": 3.76,
       "h2s": [
         "Choose one dimension to change first",
         "Make the new boundary exist before protest starts",
@@ -8629,29 +8627,27 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 50.1,
+      "avg_paragraph_words": 57.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 1,
+      "long_paragraphs": 3,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
+        "no_significa": 2,
         "a_veces": 0,
-        "puede": 14,
+        "puede": 19,
         "importante": 0,
         "clave": 0
       },
-      "opening": "There is a wide distance between staying beside a child until they are deeply asleep and walking out the moment the light goes off. When parental presence has stretched into something exhausting, that false choice can make change feel impossible: either I stay indefinitely or I disappear all at once. In reality, time, distance, and interaction can be adjusted separately.",
+      "opening": "There is a wide distance between staying beside a child until they are deeply asleep and walking out the moment the light goes off. When parental presence has stretched into something exhausting, that false choice can make change feel impossible: either I stay indefinitely or I disappear all at once. In reality, time, distance, and interaction can be adjusted separately, and a family can change one without stripping bedtime of warmth.",
       "opening_14_words": "There is a wide distance between staying beside a child until they are deeply",
-      "intro_3_paragraphs": "There is a wide distance between staying beside a child until they are deeply asleep and walking out the moment the light goes off. When parental presence has stretched into something exhausting, that false choice can make change feel impossible: either I stay indefinitely or I disappear all at once. In reality, time, distance, and interaction can be adjusted separately. Setting a limit on your presence does not require removing connection. It means defining which part of your nighttime availability will change and making that change predictable. Before moving a chair every night or watching the clock anxiously, identify what is actually draining you. Maybe being in the room is fine, but forty minutes of conversation is not. Maybe lying in the bed is physically uncomfortable, or perhaps the hard part is being unable to leave until your child is fully asleep. Each problem points to a different first step.",
+      "intro_3_paragraphs": "There is a wide distance between staying beside a child until they are deeply asleep and walking out the moment the light goes off. When parental presence has stretched into something exhausting, that false choice can make change feel impossible: either I stay indefinitely or I disappear all at once. In reality, time, distance, and interaction can be adjusted separately, and a family can change one without stripping bedtime of warmth. Setting a limit on your presence does not require removing connection. It means defining which part of your nighttime availability will change and making that change predictable. A smaller boundary that you can repeat is usually more useful than an ambitious plan that collapses after two nights. Before moving a chair every night or watching the clock anxiously, identify what is actually draining you. Maybe being in the room is fine, but forty minutes of conversation is not. Maybe lying in the bed is physically uncomfortable, or perhaps the hard part is being unable to leave until your child is fully asleep. Each problem points to a different first step.",
       "last_h2": "Adjust the size of the step, not the idea of having a boundary",
-      "ending_3_paragraphs": "There may be protest and nights when the transition feels much harder. That does not automatically mean you should return to the old arrangement, but it can show that the chosen step is too large. If moving from the bed to the doorway creates an escalation no one can sustain, a chair halfway across the room may be a better bridge. If leaving after ten minutes feels abrupt, reduce conversation before reducing time. Watch several ordinary nights rather than judging the process from one evening. Ask whether the total routine is becoming more manageable, whether your child understands what to expect, and whether you can hold the limit without reopening the entire discussion each night. The goal is not to disappear. It is for your presence to stop being an open-ended obligation and become something with a form the family can sustain. A gradual boundary works because it preserves relationship and predictability while giving the adult some space back.",
-      "risk_score": 2,
-      "risk_reasons": [
-        "body_under_800_words"
-      ]
+      "ending_3_paragraphs": "Watch several ordinary nights rather than judging the process from one evening. Ask whether the total routine is becoming more manageable, whether your child understands what to expect, whether the adult can keep the promise they made, and whether the same boundary can survive a tired Tuesday rather than only an ideal weekend. Progress may also pause. A child can become comfortable with you sitting rather than lying down and stay at that stage for a while. You do not have to keep withdrawing presence simply because the first change worked. The endpoint should come from the family's actual goal, not from an assumption that less parental presence is always better. The goal is not to disappear. It is for your presence to stop being an open-ended obligation and become something with a form the family can sustain. A gradual boundary works because it preserves relationship and predictability while giving the adult some space back.",
+      "risk_score": 0,
+      "risk_reasons": []
     },
     {
       "path": "content/articles/en/143-reduce-sleep-help-gradually-while-supporting.json",
@@ -8659,10 +8655,10 @@
       "translation_group": "143-reduce-sleep-help-gradually-while-supporting",
       "language": "en",
       "title": "How to gradually reduce sleep help without stopping support",
-      "words": 702,
-      "paragraphs": 14,
+      "words": 919,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.7,
+      "h2_density_per_1000_words": 4.35,
       "h2s": [
         "Name the support, the cost, and the practical goal",
         "Build a staircase between the current help and a lighter version",
@@ -8671,28 +8667,28 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 47.4,
+      "avg_paragraph_words": 48.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
         "a_veces": 1,
-        "puede": 10,
+        "puede": 11,
         "importante": 0,
         "clave": 0
       },
       "opening": "Sometimes staying with a child is not what needs to change. The exhausting piece is one specific form of help: walking the room for half an hour, rocking continuously, keeping a hand in exactly the same place, or repeating a bedtime sequence that keeps growing. When that is the burden, removing all closeness would be a much bigger solution than the problem requires.",
       "opening_14_words": "Sometimes staying with a child is not what needs to change The exhausting piece",
-      "intro_3_paragraphs": "Sometimes staying with a child is not what needs to change. The exhausting piece is one specific form of help: walking the room for half an hour, rocking continuously, keeping a hand in exactly the same place, or repeating a bedtime sequence that keeps growing. When that is the burden, removing all closeness would be a much bigger solution than the problem requires. Reducing sleep help can mean lowering the intensity of what you do while keeping presence, voice, and connection. The useful starting point is to identify the exact behavior you want to make lighter. “I want my child to learn to sleep” is too broad to guide a transition. “I want to stop walking for twenty minutes because my back hurts,” or “we need another caregiver to be able to finish bedtime,” gives you something specific to work with.",
+      "intro_3_paragraphs": "Sometimes staying with a child is not what needs to change. The exhausting piece is one specific form of help: walking the room for half an hour, rocking continuously, keeping a hand in exactly the same place, or repeating a bedtime sequence that keeps growing. When that is the burden, removing all closeness would be a much bigger solution than the problem requires. Reducing sleep help can mean lowering the intensity of what you do while keeping presence, voice, and connection. The useful starting point is to identify the exact behavior you want to make lighter and why changing it would improve family life. “I want my child to learn to sleep” is too broad to guide a transition. “I want to stop walking for twenty minutes because my back hurts,” “I need to be able to sit rather than bounce,” or “we need another caregiver to finish bedtime” gives you something specific to work with.",
       "last_h2": "Measure progress by the options the family gains",
-      "ending_3_paragraphs": "Success does not have to mean “my child needs nothing.” It may mean walking has become sitting, two caregivers can now complete bedtime, the routine requires less physical effort, or a difficult night no longer forces everyone to restart the whole sequence from the beginning. Watch for replacement help quietly growing until it takes up the same amount of time and energy as the old version. Thirty minutes of rocking replaced by thirty minutes of negotiation may not solve the problem you meant to solve. In that case, adjust the next step rather than calling the whole transition a failure. Reducing sleep help does not need to become a project of total independence. It can be a practical edit to bedtime: less of what exhausts the adult, enough of what keeps the child connected, and more than one workable path toward sleep. That flexibility is often a more useful goal than eliminating support altogether.",
-      "risk_score": 2,
+      "ending_3_paragraphs": "Look at the adult experience as well as the child's reaction. Are you less resentful before bedtime? Can you sustain the new form of help when you are tired? Does it leave enough capacity for siblings or for the end of your own day? Those outcomes are part of whether the transition is working. If a step is not working, identify why before abandoning the entire idea. The change may be too large, the new cue may be unclear, or the replacement support may have become open-ended. Adjusting one part is different from deciding your child is incapable of change. Reducing sleep help does not need to become a project of total independence. It can be a practical edit to bedtime: less of what exhausts the adult, enough of what keeps the child connected, and more than one workable path toward sleep. That flexibility is often a more useful goal than eliminating support altogether.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -8701,10 +8697,10 @@
       "translation_group": "144-sustainable-bedtime-routine-for-adults",
       "language": "en",
       "title": "How to make a child's bedtime routine more sustainable for adults",
-      "words": 677,
-      "paragraphs": 14,
+      "words": 963,
+      "paragraphs": 19,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.91,
+      "h2_density_per_1000_words": 4.15,
       "h2s": [
         "Measure the whole workload, not only the minutes beside the bed",
         "Remove steps that stayed through inertia and move decisions earlier",
@@ -8713,29 +8709,28 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 45.4,
+      "avg_paragraph_words": 48.5,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.053,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
-        "a_veces": 0,
-        "puede": 11,
+        "a_veces": 1,
+        "puede": 13,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Some bedtime routines “work” if the only question is whether the child eventually falls asleep. But a ninety-minute routine that always depends on the same parent and contains a long chain of steps nobody feels allowed to shorten can work for sleep while failing the household.",
+      "opening": "Some bedtime routines “work” if the only question is whether the child eventually falls asleep. But a ninety-minute process that always depends on the same parent, contains a long chain of steps nobody feels allowed to shorten, and leaves the adult depleted can work for sleep while failing the household.",
       "opening_14_words": "Some bedtime routines work if the only question is whether the child eventually falls",
-      "intro_3_paragraphs": "Some bedtime routines “work” if the only question is whether the child eventually falls asleep. But a ninety-minute routine that always depends on the same parent and contains a long chain of steps nobody feels allowed to shorten can work for sleep while failing the household. Adult capacity belongs in the design of bedtime too. If the system requires one person to arrive every night with unlimited patience and energy, it is not truly stable; it is simply surviving while that person can keep carrying it. The strain often begins long before lights-out. Play has to end, pajamas need finding, the exact stuffed animal disappears, bath time needs managing, a sibling interrupts, water gets requested, one more question appears, and someone has to remember what usually comes next. Counting only the time spent sitting beside the bed can hide half the work.",
+      "intro_3_paragraphs": "Some bedtime routines “work” if the only question is whether the child eventually falls asleep. But a ninety-minute process that always depends on the same parent, contains a long chain of steps nobody feels allowed to shorten, and leaves the adult depleted can work for sleep while failing the household. Adult capacity belongs in the design of bedtime too. If the system requires one person to arrive every night with unlimited patience, memory, and energy, it is not truly stable; it is surviving while that person can keep carrying it. The strain often begins long before lights-out. Play has to end, pajamas need finding, the exact stuffed animal disappears, bath time needs managing, a sibling interrupts, water gets requested, one more question appears, and someone has to remember what usually comes next. Counting only the time spent sitting beside the bed can hide half the work.",
       "last_h2": "Protect a clear ending and leave room for real exceptions",
-      "ending_3_paragraphs": "A sustainable routine needs to know where it ends. That does not mean every request afterward is manipulation. It means an open-ended finish turns adult exhaustion into a negotiation without a reference point. A consistent final action—a story, cuddle, phrase, or lights-out—helps everyone know when the regular routine is complete. That boundary should still leave room for real life. Illness, intense fear, travel, or an unusually hard day may call for more support. Sustainability is not eliminating exceptions. It is making the ordinary version light enough that an exception does not push the adults past their limit. The goal is not the shortest possible bedtime. It is enough connection to help the child transition toward rest and enough simplicity that the adults do not come to dread a daily part of family life. A routine is stronger when it takes care of the people who have to keep repeating it.",
-      "risk_score": 3,
+      "ending_3_paragraphs": "The boundary should leave room for real life. Illness, intense fear, travel, grief, or an unusually hard day may call for more support. Sustainability is not eliminating exceptions; it is making the ordinary version light enough that an exception does not push adults past their limit. Review the routine when it repeatedly requires resentment, rushing, physical strain, or one person's exclusive availability. Those are not signs that you need to become stricter; they are information about the design. The goal is not the shortest possible bedtime. It is enough connection to help the child transition toward rest and enough simplicity that the adults do not come to dread a daily part of family life. A routine is stronger when it takes care of the people who have to keep repeating it.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -8744,10 +8739,10 @@
       "translation_group": "145-choose-bedtime-battles-worth-having",
       "language": "en",
       "title": "How to decide which bedtime battles are not worth having",
-      "words": 639,
-      "paragraphs": 14,
+      "words": 971,
+      "paragraphs": 19,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.26,
+      "h2_density_per_1000_words": 4.12,
       "h2s": [
         "Ask what each rule is actually protecting",
         "Offer flexibility inside a frame that stays clear",
@@ -8756,29 +8751,28 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 43.3,
+      "avg_paragraph_words": 49.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.143,
+      "question_paragraph_ratio": 0.158,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
         "a_veces": 1,
-        "puede": 6,
-        "importante": 2,
+        "puede": 12,
+        "importante": 3,
         "clave": 0
       },
       "opening": "Bedtime can contain dozens of small decisions: which pajamas, which cup, how many books, which stuffed animal comes to bed, who turns off the light, whether the door stays cracked, and what order everything happens in. If every detail becomes a test of authority, adults can spend all available patience before reaching the boundary that actually matters.",
       "opening_14_words": "Bedtime can contain dozens of small decisions which pajamas which cup how many books",
-      "intro_3_paragraphs": "Bedtime can contain dozens of small decisions: which pajamas, which cup, how many books, which stuffed animal comes to bed, who turns off the light, whether the door stays cracked, and what order everything happens in. If every detail becomes a test of authority, adults can spend all available patience before reaching the boundary that actually matters. Choosing your battles is not abandoning boundaries. It is reserving firmness for what protects something important and refusing to turn low-stakes preferences into obedience tests. Some limits have a clear job. They protect safety, rest, family functioning, time, or caregiver capacity: nobody climbs on furniture in the dark, a sleeping sibling is not repeatedly awakened, bedtime has an ending, and the entire routine does not restart after lights-out.",
+      "intro_3_paragraphs": "Bedtime can contain dozens of small decisions: which pajamas, which cup, how many books, which stuffed animal comes to bed, who turns off the light, whether the door stays cracked, and what order everything happens in. If every detail becomes a test of authority, adults can spend all available patience before reaching the boundary that actually matters. Choosing your battles is not abandoning boundaries. It is reserving firmness for what protects something important and refusing to turn low-stakes preferences into obedience tests. A bedtime with fewer conflicts can be more structured, because the child can see which limits are real instead of hearing the same level of “no” about everything. Some limits have a clear job. They protect safety, rest, family functioning, time, or caregiver capacity: nobody climbs on furniture in the dark, a sleeping sibling is not repeatedly awakened, bedtime has an ending, and the entire routine does not restart after lights-out.",
       "last_h2": "Save your energy for the boundaries that arrive at the end",
-      "ending_3_paragraphs": "The hardest part of bedtime often comes when everyone is tired: finishing the final story, turning off the light, ending conversation, or leaving the room. If you have already argued for thirty minutes about pajamas, toothbrushing order, the exact sequence, and stuffed-animal placement, you have less emotional capacity left for that closing boundary. Letting go of low-stakes details may be exactly what helps you stay clear where it counts. Firmness is not measured by how many times you say no. It is measured by whether the essential boundaries are understandable, repeatable, and sustainable. A strong bedtime routine is not proof of how much the adult controls. It removes unnecessary decisions so the important ones do not disappear inside twenty smaller conflicts. Choosing what is not worth a battle can make bedtime less permissive where it matters, because it leaves more clarity and more capacity to hold the line.",
-      "risk_score": 4,
+      "ending_3_paragraphs": "If bedtime is consistently full of battles, review them afterward rather than trying to solve the philosophy of parenting at 8:15 p.m. Which conflict mattered? Which could have been a choice? Which request was actually a sign that the routine started too late or contained too many decisions? That review can simplify the next night. Letting go of low-stakes details may be exactly what helps you stay clear where it counts. Firmness is not measured by how many times you say no. It is measured by whether the essential boundaries are understandable, repeatable, and sustainable. A strong bedtime routine is not proof of how much the adult controls. It removes unnecessary decisions so the important ones do not disappear inside twenty smaller conflicts. Choosing what is not worth a battle can make bedtime less permissive where it matters, because it leaves more clarity and more capacity to hold the line.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -8787,41 +8781,40 @@
       "translation_group": "146-guilt-changing-sleep-routine",
       "language": "en",
       "title": "How to handle guilt when you want to change a sleep routine",
-      "words": 656,
-      "paragraphs": 15,
+      "words": 950,
+      "paragraphs": 19,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.1,
+      "h2_density_per_1000_words": 4.21,
       "h2s": [
         "Separate the child's need from the exact way you meet it",
         "Do not treat protest as a moral verdict on the change",
         "Look at the cost of changing nothing too",
-        "Choose a reason you can stand behind even when the transition feels uncomfortable"
+        "Choose a reason you can stand behind when the transition feels uncomfortable"
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 40.9,
+      "avg_paragraph_words": 47.8,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.133,
+      "question_paragraph_ratio": 0.105,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
-        "a_veces": 1,
-        "puede": 12,
+        "a_veces": 2,
+        "puede": 20,
         "importante": 0,
         "clave": 0
       },
       "opening": "You can want to keep supporting your child and still know the current bedtime routine no longer fits your energy, your relationship, sibling responsibilities, or your need to recover at the end of the day. That conflict often shows up as guilt: if I change this, am I taking away something my child needs?",
       "opening_14_words": "You can want to keep supporting your child and still know the current bedtime",
-      "intro_3_paragraphs": "You can want to keep supporting your child and still know the current bedtime routine no longer fits your energy, your relationship, sibling responsibilities, or your need to recover at the end of the day. That conflict often shows up as guilt: if I change this, am I taking away something my child needs? Changing a routine is not the same as withdrawing love. Sometimes it changes the form of care so the care itself can remain sustainable. A child may need connection, predictability, comfort, or presence without needing exactly forty minutes of rocking, one specific parent, or the same sequence forever. The underlying need can stay while the tool changes.",
-      "last_h2": "Choose a reason you can stand behind even when the transition feels uncomfortable",
-      "ending_3_paragraphs": "Then define what will remain. Maybe the story and cuddle stay. Maybe you are still nearby but sitting. Maybe another adult takes over one part without copying your style exactly. Guilt may continue to show up even when the decision is reasonable. You do not have to wait until you feel completely certain before making a change. Guilt can prompt you to check whether the transition is caring and proportionate, but it does not have to become the only voice allowed to decide. Wanting a more sustainable bedtime does not mean wanting less closeness with your child. It means recognizing that the relationship lives inside a household with bodies, work, siblings, schedules, and human limits. Caring for that reality can be part of the same care you were afraid of taking away.",
-      "risk_score": 3,
+      "intro_3_paragraphs": "You can want to keep supporting your child and still know the current bedtime routine no longer fits your energy, your relationship, sibling responsibilities, or your need to recover at the end of the day. That conflict often shows up as guilt: if I change this, am I taking away something my child needs? Changing a routine is not the same as withdrawing love. Sometimes it changes the form of care so the care itself can remain sustainable. Guilt can be worth listening to, but it is not proof that the old routine must continue unchanged. A child may need connection, predictability, comfort, or presence without needing exactly forty minutes of rocking, one specific parent, or the same sequence forever. The underlying need can stay while the tool changes.",
+      "last_h2": "Choose a reason you can stand behind when the transition feels uncomfortable",
+      "ending_3_paragraphs": "Write the reason down if guilt tends to rewrite the story at night. “We are changing this because the current routine leaves me physically depleted, and I will still stay connected in these three ways” is more useful than arguing with yourself about whether a good parent would ever want bedtime to be easier. Guilt may continue to show up even when the decision is reasonable. You do not have to wait until you feel completely certain before making a change. Guilt can prompt you to check whether the transition is caring and proportionate, but it does not have to become the only voice allowed to decide. Wanting a more sustainable bedtime does not mean wanting less closeness with your child. It means recognizing that the relationship lives inside a household with bodies, work, siblings, schedules, and human limits. Caring for that reality can be part of the same care you were afraid of taking away.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -8830,29 +8823,29 @@
       "translation_group": "147-talk-about-baby-sleep-without-comparison",
       "language": "en",
       "title": "How to talk about baby sleep without comparing your baby to others",
-      "words": 696,
-      "paragraphs": 15,
+      "words": 901,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.75,
+      "h2_density_per_1000_words": 4.44,
       "h2s": [
         "Replace “better or worse” with “what is happening in our house?”",
         "Do not use one number as a score",
-        "Choose the conversations that leave you more informed, not more watchful",
+        "Choose conversations that leave you more informed, not more watchful",
         "Compare your family with its own earlier reality"
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 43.9,
+      "avg_paragraph_words": 48.0,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.2,
+      "question_paragraph_ratio": 0.167,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 7,
+        "no_significa": 2,
+        "a_veces": 1,
+        "puede": 10,
         "importante": 0,
         "clave": 0
       },
@@ -8860,10 +8853,10 @@
       "opening_14_words": "Is she sleeping through the night yet Mine takes two long naps At that",
       "intro_3_paragraphs": "“Is she sleeping through the night yet?” “Mine takes two long naps.” “At that age we never had to go back into the room.” Baby sleep conversations can quietly become a ranking system even when nobody intends to compete. A detail shared as an anecdote starts sounding like evidence that your baby is ahead, behind, easy, difficult, doing well, or doing something wrong. Sleep talk is more useful when it describes one family's context instead of turning another baby into the standard. Shared experience can be supportive; treating it as a universal rule usually creates more uncertainty than clarity. Two babies the same age can differ in temperament, feeding patterns, family schedules, sleep environment, and how much support they need. Another parent's experience may give you an idea, but it cannot automatically tell you what your baby should be doing.",
       "last_h2": "Compare your family with its own earlier reality",
-      "ending_3_paragraphs": "Those questions produce information that actually belongs to your family. They do not require another child to become the benchmark for what yours should do. If the concern goes beyond comparison—such as questions about health, feeding, breathing, growth, or sleep needs—bring those to a clinician who knows your baby. Parent conversation can offer companionship, but it is not a substitute for professional assessment when there is a medical concern. Talking about sleep without comparison does not mean refusing to share. It changes the purpose of sharing: from measuring babies to understanding experiences. Once the hidden competition drops away, there is usually more room for useful information and less pressure to treat every night like a performance review.",
-      "risk_score": 2,
+      "ending_3_paragraphs": "You can also compare burden rather than performance. Maybe wake-ups have not changed much, but two adults now share them. Maybe naps are still variable, but you no longer rearrange the entire day after one short sleep. Those are meaningful improvements even if they do not produce an impressive number to report. That approach does not mean ignoring developmental or health questions. If the concern involves feeding, breathing, growth, unusual daytime sleepiness, or another health issue, bring it to a clinician who knows your baby. Parent conversation can offer companionship, but another baby's schedule cannot answer a medical question about yours. Talking about sleep without comparison does not mean refusing to share. It changes the purpose of sharing: from measuring babies to understanding experiences. Once the hidden competition drops away, there is usually more room for useful information and less pressure to treat every night like a performance review.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -8872,10 +8865,10 @@
       "translation_group": "148-other-families-sleep-schedules-may-not-fit-yours",
       "language": "en",
       "title": "Why another family's sleep schedule may not work for yours",
-      "words": 600,
-      "paragraphs": 14,
+      "words": 883,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.67,
+      "h2_density_per_1000_words": 4.53,
       "h2s": [
         "The clock shows only part of the system",
         "Borrow the structure without copying the clock",
@@ -8884,17 +8877,17 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 40.4,
+      "avg_paragraph_words": 47.2,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
         "a_veces": 1,
-        "puede": 12,
+        "puede": 14,
         "importante": 0,
         "clave": 0
       },
@@ -8902,11 +8895,10 @@
       "opening_14_words": "It is tempting to copy the schedule another parent describes as what finally worked",
       "intro_3_paragraphs": "It is tempting to copy the schedule another parent describes as “what finally worked”: nap at one exact time, dinner next, bath, and bed at 7:30 sharp. A precise plan can reduce uncertainty, but it can hide one essential fact: that schedule was built around a different household. The best schedule is not the neatest one on paper. It is the one that can coexist with your actual life. Work, daycare, school, siblings, meals, transportation, and family energy all affect sleep even when they are missing from the chart. A bedtime depends on everything that happens before it. If another household eats at six because everyone is home by five, their bedtime may fit naturally. If your last caregiver gets home at seven, copying the same bedtime can turn the whole evening into a race.",
       "last_h2": "Do not turn a different schedule into evidence of failure",
-      "ending_3_paragraphs": "If another child falls asleep earlier, naps differently, or needs a different sequence, that does not prove your family's system is wrong. Differences may reflect age, temperament, obligations, culture, season, or simply preferences that work in that home. This does not mean ignoring a real concern. If you are worried about whether your child is getting enough sleep, significant daytime sleepiness, breathing, or another health issue, bring that question to a clinician who knows your child. Comparing household schedules cannot replace that assessment. For everyday planning, the standard can be simpler: a rhythm predictable enough to guide the family and flexible enough to survive real life. Borrowing ideas from another household can be useful. Trying to live inside their clock is not automatically useful.",
-      "risk_score": 4,
+      "ending_3_paragraphs": "Social media can make schedules look cleaner than they are. A posted routine rarely shows the late pickup, the skipped nap, the holiday weekend, or the night when everyone ate cereal at eight. Comparing your ordinary Tuesday with someone else's summarized template can create a problem that did not exist before you saw the chart. This does not mean ignoring a real concern. If you are worried about whether your child is getting enough sleep, significant daytime sleepiness, breathing, or another health issue, bring that question to a clinician who knows your child. Comparing household schedules cannot replace that assessment. For everyday planning, the standard can be simpler: a rhythm predictable enough to guide the family and flexible enough to survive real life. Borrowing ideas from another household can be useful. Trying to live inside their clock is not automatically useful.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -8915,10 +8907,10 @@
       "translation_group": "149-use-sleep-log-without-obsession",
       "language": "en",
       "title": "How to use a sleep log without turning it into an obsession",
-      "words": 646,
-      "paragraphs": 15,
+      "words": 934,
+      "paragraphs": 19,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.19,
+      "h2_density_per_1000_words": 4.28,
       "h2s": [
         "Start with a question, not a tracking template",
         "Track the minimum that is useful and allow approximate times",
@@ -8927,29 +8919,28 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 40.7,
+      "avg_paragraph_words": 47.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.133,
+      "question_paragraph_ratio": 0.158,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 5,
+        "puede": 8,
         "importante": 0,
         "clave": 0
       },
       "opening": "When nights are fragmented, memory gets unreliable. You may feel as though “the baby always wakes at the same time” and discover it happens three nights out of seven, or assume a nap makes no difference until several similar afternoons end in the same kind of bedtime. A log can organize what tired memory blurs.",
       "opening_14_words": "When nights are fragmented memory gets unreliable You may feel as though the baby",
-      "intro_3_paragraphs": "When nights are fragmented, memory gets unreliable. You may feel as though “the baby always wakes at the same time” and discover it happens three nights out of seven, or assume a nap makes no difference until several similar afternoons end in the same kind of bedtime. A log can organize what tired memory blurs. Tracking works best when it answers a specific question. It works poorly when measuring everything becomes the goal. The point is to reduce uncertainty, not create a new monitoring job. Before recording times, decide what you want to learn. Does a late nap line up with a harder bedtime? Is the bedtime routine actually getting longer, or does it only feel that way on rough nights? Are wake-ups clustering in one part of the night?",
+      "intro_3_paragraphs": "When nights are fragmented, memory gets unreliable. You may feel as though “the baby always wakes at the same time” and discover it happens three nights out of seven, or assume a nap makes no difference until several similar afternoons end in the same kind of bedtime. A log can organize what tired memory blurs. Tracking works best when it answers a specific question. It works poorly when measuring everything becomes the goal. The point is to reduce uncertainty, not create a new monitoring job or turn every ordinary variation into something that needs fixing. Before recording times, decide what you want to learn. Does a late nap line up with a harder bedtime? Is the bedtime routine actually getting longer, or does it only feel that way on rough nights? Are wake-ups clustering in one part of the night?",
       "last_h2": "Use the data for trends, not a nightly grade",
-      "ending_3_paragraphs": "If each entry starts feeling like a score—“that nap failed because it was only 37 minutes”—zoom back out. Ask broader questions: are caregivers less depleted, is the routine more understandable, does one change seem helpful repeatedly rather than once? If logging makes you significantly more anxious, keeps you checking your child constantly, or makes it difficult to disengage, it is reasonable to stop even before the period you originally planned. An organizing tool that meaningfully increases vigilance is no longer serving its purpose. If you are keeping a log because of a health concern or a clinician's request, its role is different: use it to provide information for that assessment rather than trying to turn it into a home diagnosis. Outside that context, the smaller, more temporary, and more question-driven the log is, the more likely it is to be genuinely useful.",
-      "risk_score": 4,
+      "ending_3_paragraphs": "Watch what logging does to your behavior. Are you declining plans you wanted to make because the data might become “messy”? Are you more frustrated with your child because a nap did not match the pattern? Are you checking the record before noticing the child in front of you? Those are signs that the tool may be exerting too much influence. If logging makes you significantly more anxious, keeps you checking your child constantly, or makes it difficult to disengage, it is reasonable to stop even before the period you originally planned. An organizing tool that meaningfully increases vigilance is no longer serving its purpose. If you are keeping a log because of a health concern or a clinician's request, its role is different: use it to provide information for that assessment rather than trying to turn it into a home diagnosis. Outside that context, the smaller, more temporary, and more question-driven the log is, the more likely it is to be genuinely useful.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -8958,10 +8949,10 @@
       "translation_group": "150-baby-sleep-apps-help-or-add-anxiety",
       "language": "en",
       "title": "Baby sleep apps: when they help you organize and when they add anxiety",
-      "words": 682,
-      "paragraphs": 15,
+      "words": 910,
+      "paragraphs": 19,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.87,
+      "h2_density_per_1000_words": 4.4,
       "h2s": [
         "Apps help when they replace memory, messages, and repeated coordination",
         "The app becomes heavy when predictions outrank context",
@@ -8970,29 +8961,28 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 42.7,
+      "avg_paragraph_words": 45.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.067,
+      "question_paragraph_ratio": 0.053,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 13,
+        "puede": 18,
         "importante": 1,
         "clave": 1
       },
       "opening": "Baby sleep apps promise order during a season that can feel chaotic. Seeing when the last nap ended, what happened during another caregiver's shift, or when the baby last ate can save questions and tired memory. But the same tool that organizes can also start demanding more attention than it gives back.",
       "opening_14_words": "Baby sleep apps promise order during a season that can feel chaotic Seeing when",
-      "intro_3_paragraphs": "Baby sleep apps promise order during a season that can feel chaotic. Seeing when the last nap ended, what happened during another caregiver's shift, or when the baby last ate can save questions and tired memory. But the same tool that organizes can also start demanding more attention than it gives back. A sleep app is useful when it reduces mental load. It stops being useful when every sleep period becomes a metric you feel responsible for optimizing. The real question is not whether the technology is good or bad; it is what job the app is doing in your household. In homes with multiple caregivers, night shifts, grandparents, a nanny, or fragmented workdays, an app can act as a handoff point. The next person can see roughly when the baby slept without waking someone else to ask.",
+      "intro_3_paragraphs": "Baby sleep apps promise order during a season that can feel chaotic. Seeing when the last nap ended, what happened during another caregiver's shift, or when the baby last ate can save questions and tired memory. But the same tool that organizes can also start demanding more attention than it gives back. A sleep app is useful when it reduces mental load. It stops being useful when every sleep period becomes a metric you feel responsible for optimizing. The real question is not whether the technology is good or bad; it is what job the app is doing in your household and whether that job is worth the attention it requires. In homes with multiple caregivers, night shifts, grandparents, a nanny, or fragmented workdays, an app can act as a handoff point. The next person can see roughly when the baby slept without waking someone else to ask.",
       "last_h2": "Try less tracking and notice what you regain or lose",
-      "ending_3_paragraphs": "Then notice the difference. Do caregivers lose information they genuinely needed? Do handoffs become harder? Then a specific feature was providing real value. Or do you watch the clock less, tolerate an unusual nap more easily, and feel more present away from the screen? That matters too. The best tool improves life when you are not using it. If an app helps the household coordinate and think less about data, it may be worth keeping. If it makes sleep occupy even more mental space, simplifying or leaving it can be a reasonable choice. If there is a health, development, breathing, or feeding concern, a sleep app should not become the family's clinical authority. It can provide notes for an appointment, but medical concerns need interpretation from a professional who can assess the baby in context.",
-      "risk_score": 3,
+      "ending_3_paragraphs": "Pay attention to what happens when reality disagrees with the app. If you can treat the recommendation as one input and calmly follow the baby or family context instead, the tool is probably staying in its proper role. If overriding the app feels like doing something wrong, it may have acquired more authority than you intended. The best tool improves life when you are not using it. If an app helps the household coordinate and think less about data, it may be worth keeping. If it makes sleep occupy even more mental space, simplifying or leaving it can be a reasonable choice. If there is a health, development, breathing, or feeding concern, a sleep app should not become the family's clinical authority. It can provide notes for an appointment, but medical concerns need interpretation from a professional who can assess the baby in context.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -21291,10 +21281,10 @@
       "translation_group": "141-falling-asleep-with-parent-bad-habit",
       "language": "es",
       "title": "¿Dormirse acompañado es un mal hábito?",
-      "words": 768,
-      "paragraphs": 14,
+      "words": 941,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.21,
+      "h2_density_per_1000_words": 4.25,
       "h2s": [
         "Mira el coste real antes de llamar problema a la rutina",
         "Autonomía no significa ausencia inmediata del adulto",
@@ -21303,28 +21293,28 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 52.5,
+      "avg_paragraph_words": 50.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
-      "long_paragraphs": 2,
+      "question_paragraph_ratio": 0.111,
+      "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
         "no_significa": 1,
-        "a_veces": 1,
+        "a_veces": 0,
         "puede": 15,
         "importante": 1,
         "clave": 0
       },
-      "opening": "Cuando un niño necesita que un adulto se quede cerca para dormirse, es fácil escuchar —o pensar— que habéis creado un “mal hábito”. La etiqueta pesa porque parece convertir una escena cotidiana en un problema de desarrollo: si se duerme contigo, quizá nunca aprenda a hacerlo de otra manera. Pero esa conclusión mezcla dos preguntas distintas. Una es cómo se duerme hoy; otra, mucho más útil, es si esa forma de dormir sigue funcionando para el niño y para las personas que la sostienen.",
+      "opening": "Cuando un niño necesita que un adulto se quede cerca para dormirse, es fácil escuchar —o pensar— que habéis creado un “mal hábito”. La etiqueta parece describir un hecho, pero en realidad añade una predicción: si se duerme contigo ahora, quizá nunca aprenda otra manera. Ese salto deja fuera la pregunta que más ayuda a tomar decisiones: ¿esta forma de dormir está causando un problema real en vuestra familia?",
       "opening_14_words": "Cuando un niño necesita que un adulto se quede cerca para dormirse es fácil",
-      "intro_3_paragraphs": "Cuando un niño necesita que un adulto se quede cerca para dormirse, es fácil escuchar —o pensar— que habéis creado un “mal hábito”. La etiqueta pesa porque parece convertir una escena cotidiana en un problema de desarrollo: si se duerme contigo, quizá nunca aprenda a hacerlo de otra manera. Pero esa conclusión mezcla dos preguntas distintas. Una es cómo se duerme hoy; otra, mucho más útil, es si esa forma de dormir sigue funcionando para el niño y para las personas que la sostienen. Dormirse acompañado no es automáticamente algo que haya que corregir. Puede ser una forma de conexión, una preferencia de esta etapa o una rutina perfectamente válida mientras resulte suficientemente sostenible y permita a la familia vivir con ella. La misma escena puede significar cosas muy distintas en dos casas. Sentarte diez o quince minutos al lado de la cama mientras tu hijo se relaja puede ser un cierre agradable del día. Quedarte una hora y media, no poder levantarte sin despertarle o ser la única persona capaz de completar bedtime puede sentirse completamente diferente.",
+      "intro_3_paragraphs": "Cuando un niño necesita que un adulto se quede cerca para dormirse, es fácil escuchar —o pensar— que habéis creado un “mal hábito”. La etiqueta parece describir un hecho, pero en realidad añade una predicción: si se duerme contigo ahora, quizá nunca aprenda otra manera. Ese salto deja fuera la pregunta que más ayuda a tomar decisiones: ¿esta forma de dormir está causando un problema real en vuestra familia? Dormirse acompañado no es automáticamente algo que haya que corregir. Puede ser conexión, una preferencia de esta etapa o simplemente la rutina que usáis ahora. Lo importante no es cuánto se parece desde fuera a una idea de independencia, sino si sigue siendo suficientemente sostenible para el niño y para quienes sostienen la noche. La misma escena puede significar cosas muy distintas en dos casas. Sentarte quince minutos al lado de la cama mientras tu hijo se relaja puede ser un cierre agradable del día. Quedarte una hora y media, no poder levantarte sin despertarle o ser la única persona capaz de completar la rutina puede sentirse completamente diferente.",
       "last_h2": "Puedes mantenerlo hoy y cambiarlo más adelante",
-      "ending_3_paragraphs": "Una rutina no tiene que ser para siempre para ser válida ahora. A veces saber esto reduce mucha presión: puedes seguir acompañando mientras os funcione y revisar cuando cambie la etapa o cambien vuestras necesidades. También puedes modificar solo la parte problemática, conservando cuento, conversación, contacto o presencia. Si decides hacer cambios, la protesta del niño no convierte automáticamente el cambio en incorrecto, igual que su tranquilidad no demuestra que toda estrategia sea adecuada. Lo importante es que el plan tenga una razón clara, sea apropiado para vuestra situación y conserve una forma de respuesta que podáis sostener. La pregunta más útil, por tanto, no es “¿debería dormirse solo ya?”. Es: “¿esta manera de dormirse sigue funcionando para nuestro sistema familiar?”. Si la respuesta es sí, no hace falta crear un problema donde no lo hay. Si la respuesta empieza a ser no, podéis cambiar la rutina sin reescribir el pasado como si acompañar hubiera sido un error.",
-      "risk_score": 2,
+      "ending_3_paragraphs": "Si hacéis un cambio, la protesta del niño no demuestra automáticamente que sea incorrecto, igual que una reacción tranquila no convierte cualquier método en adecuado. Lo conocido importa, por lo que una transición razonable puede seguir siendo poco deseada. Importa que tenga una razón clara, sea proporcionada y conserve una respuesta que la familia pueda sostener. Valora el patrón durante varias noches normales. Si el cambio reduce el desgaste que queríais resolver y el niño va entendiendo qué esperar, puede estar funcionando aunque no sea perfecto. Si crea un problema mayor que el anterior, ajustad el tamaño del paso. La pregunta útil no es “¿debería dormirse solo ya?”, sino “¿esta manera de dormirse sigue funcionando para nuestro sistema familiar?”. Si la respuesta es sí, no hay que fabricar un problema. Si empieza a ser no, podéis cambiar la rutina sin reescribir el pasado como si acompañar hubiera sido un error.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -21333,40 +21323,40 @@
       "translation_group": "142-limit-adult-presence-at-bedtime-gradually",
       "language": "es",
       "title": "Cómo poner límites a la presencia del adulto durante el sueño sin desaparecer de golpe",
-      "words": 712,
-      "paragraphs": 14,
+      "words": 860,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.62,
+      "h2_density_per_1000_words": 4.65,
       "h2s": [
         "Elige una sola dimensión para empezar",
         "Haz que el nuevo límite exista antes de la protesta",
         "Mantén conexión sin convertirla en presencia ilimitada",
-        "Ajusta el tamaño del paso, no la existencia del límite"
+        "Ajusta el tamaño del paso, no la idea de tener un límite"
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 48.5,
+      "avg_paragraph_words": 45.8,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 1,
+      "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 2,
         "a_veces": 0,
-        "puede": 10,
+        "puede": 12,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Hay una distancia enorme entre quedarse junto a un niño hasta que duerme profundamente y salir de la habitación nada más apagar la luz. Cuando la presencia adulta se ha alargado hasta resultar agotadora, esa falsa elección puede bloquear cualquier cambio: o sigo aquí indefinidamente o le dejo solo de golpe. En realidad, el tiempo, la distancia y la interacción pueden ajustarse por separado.",
+      "opening": "Hay una distancia enorme entre quedarse junto a un niño hasta que duerme profundamente y salir de la habitación nada más apagar la luz. Cuando la presencia adulta se ha alargado hasta resultar agotadora, esa falsa elección puede bloquear cualquier cambio: o sigo aquí indefinidamente o desaparezco de golpe. En realidad, tiempo, distancia e interacción pueden ajustarse por separado.",
       "opening_14_words": "Hay una distancia enorme entre quedarse junto a un niño hasta que duerme profundamente",
-      "intro_3_paragraphs": "Hay una distancia enorme entre quedarse junto a un niño hasta que duerme profundamente y salir de la habitación nada más apagar la luz. Cuando la presencia adulta se ha alargado hasta resultar agotadora, esa falsa elección puede bloquear cualquier cambio: o sigo aquí indefinidamente o le dejo solo de golpe. En realidad, el tiempo, la distancia y la interacción pueden ajustarse por separado. Poner un límite a tu presencia no obliga a retirar la conexión. Significa definir qué parte de tu disponibilidad nocturna cambia y hacer que ese cambio sea reconocible. Antes de mover la silla cada noche o mirar el reloj con ansiedad, identifica qué pesa. Quizá no te molesta estar en la habitación, sino tener que conversar durante cuarenta minutos. Quizá el problema es permanecer tumbado en la cama, o no poder salir hasta confirmar que el niño duerme profundamente. Cada situación pide un primer paso distinto.",
-      "last_h2": "Ajusta el tamaño del paso, no la existencia del límite",
-      "ending_3_paragraphs": "Habrá protesta y noches en las que el cambio parezca más difícil. Eso no significa necesariamente que debas volver a la versión anterior, pero sí puede mostrar que el escalón elegido es demasiado grande. Si pasar de la cama a la puerta genera una escalada imposible de sostener, quizá el paso intermedio sea sentarte a mitad de la habitación. Si salir después de diez minutos es demasiado abrupto, puedes empezar reduciendo conversación antes de reducir tiempo. Observa el proceso durante varias noches normales en lugar de juzgarlo por una sola. Pregúntate si la duración total se vuelve más manejable, si el niño entiende mejor qué esperar y si tú puedes mantener el límite sin entrar cada noche en una batalla nueva. La meta no es desaparecer. Es que tu presencia deje de ser una obligación abierta sin final y pase a tener una forma que la familia pueda sostener. Un límite gradual funciona precisamente porque conserva relación y previsibilidad mientras devuelve al adulto algo de espacio.",
-      "risk_score": 2,
+      "intro_3_paragraphs": "Hay una distancia enorme entre quedarse junto a un niño hasta que duerme profundamente y salir de la habitación nada más apagar la luz. Cuando la presencia adulta se ha alargado hasta resultar agotadora, esa falsa elección puede bloquear cualquier cambio: o sigo aquí indefinidamente o desaparezco de golpe. En realidad, tiempo, distancia e interacción pueden ajustarse por separado. Poner un límite a tu presencia no obliga a retirar la conexión. Significa decidir qué parte de tu disponibilidad nocturna cambia y hacer que ese cambio sea reconocible. Un paso pequeño que puedas repetir suele ser más útil que un plan ambicioso imposible de sostener. Antes de mover la silla cada noche o mirar el reloj con ansiedad, identifica qué pesa. Quizá no te molesta estar en la habitación, sino conversar durante cuarenta minutos. Quizá el problema sea permanecer tumbado, o no poder salir hasta confirmar que el niño duerme profundamente. Cada situación pide un primer paso distinto.",
+      "last_h2": "Ajusta el tamaño del paso, no la idea de tener un límite",
+      "ending_3_paragraphs": "Observa varias noches normales. Pregúntate si la duración total se vuelve más manejable, si el niño entiende mejor qué esperar y si tú puedes cumplir lo que anuncias incluso un martes cansado, no solo una noche ideal. También puedes detenerte en un punto que ya funcione. Si sentarte en vez de tumbarte resuelve el problema familiar, no tienes que seguir alejándote porque un método sugiera que el destino siempre debe ser salir de la habitación. La meta no es desaparecer. Es que tu presencia deje de ser una obligación abierta sin final y pase a tener una forma que la familia pueda sostener. Un límite gradual funciona precisamente porque conserva relación y previsibilidad mientras devuelve al adulto algo de espacio.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -21375,10 +21365,10 @@
       "translation_group": "143-reduce-sleep-help-gradually-while-supporting",
       "language": "es",
       "title": "Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar",
-      "words": 674,
-      "paragraphs": 14,
+      "words": 774,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.93,
+      "h2_density_per_1000_words": 5.17,
       "h2s": [
         "Nombra la ayuda, el coste y el objetivo concreto",
         "Construye una escalera entre la ayuda actual y una versión más ligera",
@@ -21387,29 +21377,28 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 45.2,
+      "avg_paragraph_words": 40.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
-        "no_significa": 0,
+        "no_significa": 1,
         "a_veces": 2,
-        "puede": 9,
+        "puede": 11,
         "importante": 0,
         "clave": 1
       },
-      "opening": "A veces acompañar al niño no es el problema. Lo que se ha vuelto difícil es una ayuda concreta: caminar durante media hora, mecer sin parar, mantener una mano en la misma posición, dar vueltas por la habitación o repetir una secuencia que cada semana añade otro paso. Cuando ese es el desgaste, retirar toda la cercanía sería una solución mucho más grande que el problema.",
+      "opening": "A veces acompañar al niño no es el problema. Lo que se ha vuelto difícil es una ayuda concreta: caminar durante media hora, mecer sin parar, mantener una mano en la misma posición o repetir una secuencia que cada semana añade otro paso. Cuando ese es el desgaste, retirar toda la cercanía sería una solución mucho más grande que el problema.",
       "opening_14_words": "A veces acompañar al niño no es el problema Lo que se ha vuelto",
-      "intro_3_paragraphs": "A veces acompañar al niño no es el problema. Lo que se ha vuelto difícil es una ayuda concreta: caminar durante media hora, mecer sin parar, mantener una mano en la misma posición, dar vueltas por la habitación o repetir una secuencia que cada semana añade otro paso. Cuando ese es el desgaste, retirar toda la cercanía sería una solución mucho más grande que el problema. Reducir ayuda puede significar cambiar la intensidad de lo que haces mientras mantienes presencia, voz y conexión. La clave es saber exactamente qué conducta quieres hacer más ligera. “Quiero que aprenda a dormir” es demasiado amplio para orientar una transición. En cambio, “quiero dejar de caminar veinte minutos porque me duele la espalda” o “necesitamos que bedtime pueda hacerlo también otra persona” permite diseñar un cambio observable.",
+      "intro_3_paragraphs": "A veces acompañar al niño no es el problema. Lo que se ha vuelto difícil es una ayuda concreta: caminar durante media hora, mecer sin parar, mantener una mano en la misma posición o repetir una secuencia que cada semana añade otro paso. Cuando ese es el desgaste, retirar toda la cercanía sería una solución mucho más grande que el problema. Reducir ayuda puede significar bajar la intensidad de lo que haces mientras mantienes presencia, voz y conexión. La clave es identificar qué conducta quieres hacer más ligera y qué ganaría la familia con ese cambio. “Quiero que aprenda a dormir” es demasiado amplio para orientar una transición. “Quiero dejar de caminar veinte minutos porque me duele la espalda”, “necesito poder sentarme en vez de botar” o “queremos que otro cuidador pueda terminar bedtime” permite diseñar algo observable.",
       "last_h2": "Mide el progreso por las opciones que gana la familia",
-      "ending_3_paragraphs": "El éxito no tiene por qué ser “ya no necesita nada”. Puede ser que caminar se haya convertido en sentarse, que haya dos cuidadores capaces de completar bedtime, que la rutina requiera menos esfuerzo físico o que una noche más difícil ya no obligue a empezar toda la secuencia desde cero. Observa también si la ayuda sustituta empieza a crecer hasta ocupar el mismo espacio que la anterior. Cambiar treinta minutos de movimiento por treinta minutos de conversación quizá no resuelva el coste que querías reducir. En ese caso, revisa el siguiente escalón en lugar de considerar que la transición ha fracasado. Reducir una ayuda para dormir no necesita convertirse en un proyecto de independencia total. Puede ser simplemente una edición práctica de la rutina: menos de lo que agota, suficiente de lo que conecta y más de una manera posible de llegar al descanso. Esa flexibilidad suele ser un objetivo mucho más útil que eliminar toda ayuda.",
-      "risk_score": 3,
+      "ending_3_paragraphs": "Mira también la experiencia adulta. ¿Llegas con menos resentimiento? ¿Puedes sostener la nueva ayuda cuando estás cansada o cansado? ¿Queda capacidad para hermanos o para el final de tu propio día? Esos resultados cuentan. Si un paso no funciona, intenta identificar por qué antes de abandonar la idea completa. Puede ser demasiado grande, poco claro o haberse llenado de ayudas sustitutas. Ajustar el método no significa que el niño sea incapaz de adaptarse. Reducir una ayuda para dormir no necesita convertirse en un proyecto de independencia total. Puede ser una edición práctica: menos de lo que agota, suficiente de lo que conecta y más de una manera posible de llegar al descanso. Esa flexibilidad suele ser un objetivo más útil que eliminar toda ayuda.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -21418,10 +21407,10 @@
       "translation_group": "144-sustainable-bedtime-routine-for-adults",
       "language": "es",
       "title": "Cómo crear una rutina de sueño más sostenible para los adultos",
-      "words": 668,
-      "paragraphs": 14,
+      "words": 844,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.99,
+      "h2_density_per_1000_words": 4.74,
       "h2s": [
         "Mide la carga completa, no solo el tiempo al lado de la cama",
         "Recorta lo que se quedó por inercia y mueve decisiones fuera de la noche",
@@ -21430,29 +21419,28 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 44.4,
+      "avg_paragraph_words": 44.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 2,
-        "a_veces": 0,
-        "puede": 6,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 8,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Hay rutinas que “funcionan” si la única pregunta es si el niño termina dormido. Pero una rutina de noventa minutos, sostenida siempre por la misma persona y llena de pasos que nadie se atreve a recortar, puede funcionar para llegar al sueño y no funcionar para la familia.",
+      "opening": "Hay rutinas que “funcionan” si la única pregunta es si el niño termina dormido. Pero una secuencia de noventa minutos, sostenida siempre por la misma persona y llena de pasos que nadie se atreve a recortar, puede funcionar para llegar al sueño y no funcionar para la familia.",
       "opening_14_words": "Hay rutinas que funcionan si la única pregunta es si el niño termina dormido",
-      "intro_3_paragraphs": "Hay rutinas que “funcionan” si la única pregunta es si el niño termina dormido. Pero una rutina de noventa minutos, sostenida siempre por la misma persona y llena de pasos que nadie se atreve a recortar, puede funcionar para llegar al sueño y no funcionar para la familia. La capacidad adulta también forma parte de una buena rutina nocturna. Si el sistema depende de que alguien llegue cada noche con paciencia ilimitada, no es realmente estable: solo está aguantando mientras esa persona puede. El desgaste suele empezar mucho antes de apagar la luz. Hay que cerrar el juego, preparar pijamas, localizar el peluche exacto, gestionar el baño, responder preguntas, coordinar a un hermano, llenar agua, volver a entrar por una última petición y recordar qué parte tocaba hacer hoy. Si solo cuentas los minutos sentado junto a la cama, puedes estar ignorando la mitad del trabajo.",
+      "intro_3_paragraphs": "Hay rutinas que “funcionan” si la única pregunta es si el niño termina dormido. Pero una secuencia de noventa minutos, sostenida siempre por la misma persona y llena de pasos que nadie se atreve a recortar, puede funcionar para llegar al sueño y no funcionar para la familia. La capacidad adulta también forma parte de una buena rutina nocturna. Si el sistema depende de que alguien llegue cada noche con paciencia, memoria y energía ilimitadas, no es realmente estable: está aguantando mientras esa persona puede cargar con todo. El desgaste suele empezar mucho antes de apagar la luz. Hay que cerrar el juego, preparar pijamas, localizar el peluche exacto, gestionar el baño, responder preguntas, coordinar a un hermano, llenar agua y recordar qué parte tocaba hacer. Si solo cuentas los minutos junto a la cama, puedes estar ignorando la mitad del trabajo.",
       "last_h2": "Protege un cierre claro y deja margen para las excepciones",
-      "ending_3_paragraphs": "Una rutina sostenible necesita saber dónde termina. No porque toda petición posterior sea manipulación, sino porque un final abierto convierte el cansancio del adulto en una negociación sin referencia. Una última acción reconocible —cuento, abrazo, frase, apagar la luz— ayuda a distinguir la rutina habitual de lo que ocurre después. Eso no significa ignorar una necesidad real ni tratar todas las noches como si fueran iguales. Enfermedad, miedo intenso, viaje o un día especialmente difícil pueden justificar más presencia. La sostenibilidad no se construye eliminando excepciones, sino haciendo que la versión normal sea lo bastante ligera como para que una excepción no desborde a la familia. El objetivo tampoco es producir la rutina más corta posible. Es una rutina con suficiente conexión para ayudar al niño a transitar hacia el descanso y suficiente simplicidad para que los adultos no lleguen a odiar una parte diaria de la vida familiar. Cuando el sistema cuida también a quienes lo sostienen, suele ser más fácil mantenerlo con calma.",
-      "risk_score": 3,
+      "ending_3_paragraphs": "Ese cierre resulta más fácil si las necesidades previsibles ya están cubiertas: agua preparada, baño hecho, peluche localizado. Seguirán apareciendo peticiones, pero el adulto no tendrá que decidir cada vez desde cero si la rutina realmente terminó. El límite debe dejar sitio a la vida real. Enfermedad, miedo intenso, viaje, duelo o un día especialmente difícil pueden justificar más apoyo. La sostenibilidad no consiste en eliminar excepciones; consiste en hacer la versión habitual suficientemente ligera para que una excepción no desborde a todos. El objetivo tampoco es la rutina más corta posible. Es suficiente conexión para ayudar al niño a pasar al descanso y suficiente simplicidad para que los adultos no lleguen a temer cada noche. Cuando el sistema cuida también a quienes lo sostienen, suele ser más fácil repetirlo con calma.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -21461,41 +21449,40 @@
       "translation_group": "145-choose-bedtime-battles-worth-having",
       "language": "es",
       "title": "Cómo decidir qué batallas no merece la pena librar a la hora de dormir",
-      "words": 619,
-      "paragraphs": 14,
+      "words": 866,
+      "paragraphs": 19,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.46,
+      "h2_density_per_1000_words": 4.62,
       "h2s": [
         "Pregunta qué protege exactamente cada regla",
         "Ofrece flexibilidad dentro de un marco que sí permanece claro",
         "No confundas coherencia con rigidez absoluta",
-        "Guarda tu energía para los límites que aparecen al final"
+        "Guarda tu energía para los límites que llegan al final"
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 41.9,
+      "avg_paragraph_words": 43.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.143,
+      "question_paragraph_ratio": 0.158,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
         "a_veces": 1,
-        "puede": 9,
-        "importante": 2,
+        "puede": 12,
+        "importante": 4,
         "clave": 0
       },
       "opening": "La hora de dormir concentra muchas pequeñas decisiones: qué pijama, qué vaso, cuántos cuentos, qué peluche entra en la cama, quién apaga la luz, si la puerta queda entreabierta y en qué orden ocurre todo. Cuando cada detalle se convierte en una cuestión de autoridad, el adulto puede gastar toda su capacidad antes de llegar al límite que realmente necesita sostener.",
       "opening_14_words": "La hora de dormir concentra muchas pequeñas decisiones qué pijama qué vaso cuántos cuentos",
-      "intro_3_paragraphs": "La hora de dormir concentra muchas pequeñas decisiones: qué pijama, qué vaso, cuántos cuentos, qué peluche entra en la cama, quién apaga la luz, si la puerta queda entreabierta y en qué orden ocurre todo. Cuando cada detalle se convierte en una cuestión de autoridad, el adulto puede gastar toda su capacidad antes de llegar al límite que realmente necesita sostener. Elegir tus batallas no significa abandonar los límites. Significa reservar firmeza para aquello que protege algo importante y dejar de convertir preferencias de bajo impacto en pruebas de obediencia. Algunos límites tienen una función clara. Protegen seguridad, descanso, convivencia, tiempo familiar o capacidad adulta: no se salta sobre una litera a oscuras, no se despierta al hermano, la rutina tiene un final y no se reinicia desde el baño después de apagar la luz.",
-      "last_h2": "Guarda tu energía para los límites que aparecen al final",
-      "ending_3_paragraphs": "El tramo más difícil suele llegar cuando todos están cansados: terminar el último cuento, apagar la luz, dejar de conversar o salir de la habitación. Si has discutido durante media hora por pijamas, cepillo de dientes, orden de los pasos y posición del peluche, tendrás menos margen emocional para sostener con calma ese cierre. Dejar pasar detalles sin importancia puede ser precisamente lo que te permite ser claro donde sí importa. La firmeza no se mide por cuántos “no” dices, sino por si los límites esenciales son comprensibles, consistentes y sostenibles. Una buena rutina nocturna no demuestra cuánto controla el adulto. Reduce decisiones innecesarias para que las importantes no se pierdan entre veinte conflictos pequeños. Elegir qué no merece batalla puede hacer bedtime menos permisivo en lo esencial, porque deja más claridad y más capacidad para sostenerlo.",
-      "risk_score": 4,
+      "intro_3_paragraphs": "La hora de dormir concentra muchas pequeñas decisiones: qué pijama, qué vaso, cuántos cuentos, qué peluche entra en la cama, quién apaga la luz, si la puerta queda entreabierta y en qué orden ocurre todo. Cuando cada detalle se convierte en una cuestión de autoridad, el adulto puede gastar toda su capacidad antes de llegar al límite que realmente necesita sostener. Elegir tus batallas no significa abandonar los límites. Significa reservar firmeza para aquello que protege algo importante y dejar de convertir preferencias de bajo impacto en pruebas de obediencia. Una rutina con menos “no” puede ser más clara si el niño distingue mejor qué límites son de verdad. Algunos límites tienen una función clara. Protegen seguridad, descanso, convivencia, tiempo familiar o capacidad adulta: no se salta sobre muebles a oscuras, no se despierta repetidamente al hermano, la rutina tiene un final y no se reinicia desde el baño después de apagar la luz.",
+      "last_h2": "Guarda tu energía para los límites que llegan al final",
+      "ending_3_paragraphs": "Si bedtime está lleno de batallas, revísalas después, no en mitad de la noche. ¿Cuál protegía algo importante? ¿Cuál podía haberse convertido en elección? ¿Cuál era en realidad una señal de que empezasteis demasiado tarde o había demasiadas decisiones? Esa revisión puede simplificar el día siguiente. Dejar pasar detalles de poco impacto puede ser justamente lo que te permite ser claro donde sí importa. La firmeza no se mide por cuántos “no” dices, sino por si los límites esenciales son comprensibles, repetibles y sostenibles. Una buena rutina nocturna no demuestra cuánto controla el adulto. Reduce decisiones innecesarias para que las importantes no se pierdan entre veinte conflictos pequeños. Elegir qué no merece batalla puede hacer la noche más firme en lo esencial y mucho menos agotadora en todo lo demás.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -21504,41 +21491,40 @@
       "translation_group": "146-guilt-changing-sleep-routine",
       "language": "es",
       "title": "Cómo manejar la culpa cuando quieres cambiar una rutina de sueño",
-      "words": 653,
-      "paragraphs": 15,
+      "words": 836,
+      "paragraphs": 19,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.13,
+      "h2_density_per_1000_words": 4.78,
       "h2s": [
         "Separa la necesidad del niño de la forma concreta de cubrirla",
         "No uses la protesta como veredicto moral sobre el cambio",
         "Mira también el coste de no cambiar nada",
-        "Elige una razón que puedas defender incluso cuando aparezca incomodidad"
+        "Elige una razón que puedas defender cuando aparezca incomodidad"
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 40.9,
+      "avg_paragraph_words": 42.0,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.133,
+      "question_paragraph_ratio": 0.105,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
-        "no_significa": 2,
+        "no_significa": 3,
         "a_veces": 1,
-        "puede": 11,
-        "importante": 0,
+        "puede": 17,
+        "importante": 1,
         "clave": 0
       },
       "opening": "Puedes querer seguir acompañando a tu hijo y, al mismo tiempo, sentir que la rutina actual ya no cabe en tu energía, en el reparto con tu pareja, en el cuidado de hermanos o en el tiempo que necesitas para recuperarte al final del día. Esa tensión suele aparecer como culpa: si cambio esto, ¿estaré quitándole algo que necesita?",
       "opening_14_words": "Puedes querer seguir acompañando a tu hijo y al mismo tiempo sentir que la",
-      "intro_3_paragraphs": "Puedes querer seguir acompañando a tu hijo y, al mismo tiempo, sentir que la rutina actual ya no cabe en tu energía, en el reparto con tu pareja, en el cuidado de hermanos o en el tiempo que necesitas para recuperarte al final del día. Esa tensión suele aparecer como culpa: si cambio esto, ¿estaré quitándole algo que necesita? Modificar una rutina no equivale a retirar amor. A veces significa cambiar la forma del cuidado para que ese cuidado pueda seguir existiendo sin agotar a quien lo sostiene. Un niño puede necesitar conexión, previsibilidad, consuelo o presencia sin necesitar exactamente cuarenta minutos en brazos, una única persona o una secuencia idéntica para siempre. La necesidad puede mantenerse mientras cambia la herramienta.",
-      "last_h2": "Elige una razón que puedas defender incluso cuando aparezca incomodidad",
-      "ending_3_paragraphs": "Después define qué no quieres perder durante el cambio. Quizá mantengas el cuento y el abrazo. Quizá sigas presente, pero sentado. Quizá otro adulto asuma una parte sin imitar exactamente tu estilo. La culpa puede seguir apareciendo incluso cuando la decisión es razonable. No necesitas esperar a sentirte cien por cien segura o seguro para actuar. Puedes usar la culpa como una señal para revisar si el cambio conserva cuidado y proporcionalidad, pero no como la única voz con derecho a decidir. Querer una rutina más sostenible no significa querer menos cercanía con tu hijo. Significa reconocer que el vínculo también vive dentro de una familia con cuerpos, horarios, otros hijos, trabajo y límites humanos. Cuidar esa realidad puede formar parte del mismo cuidado que te daba miedo retirar.",
-      "risk_score": 3,
+      "intro_3_paragraphs": "Puedes querer seguir acompañando a tu hijo y, al mismo tiempo, sentir que la rutina actual ya no cabe en tu energía, en el reparto con tu pareja, en el cuidado de hermanos o en el tiempo que necesitas para recuperarte al final del día. Esa tensión suele aparecer como culpa: si cambio esto, ¿estaré quitándole algo que necesita? Modificar una rutina no equivale a retirar amor. A veces significa cambiar la forma del cuidado para que ese cuidado pueda seguir existiendo sin agotar a quien lo sostiene. La culpa puede aportar información, pero no demuestra que todo deba quedarse como está. Un niño puede necesitar conexión, previsibilidad, consuelo o presencia sin necesitar exactamente cuarenta minutos en brazos, una única persona o una secuencia idéntica para siempre. La necesidad puede mantenerse mientras cambia la herramienta.",
+      "last_h2": "Elige una razón que puedas defender cuando aparezca incomodidad",
+      "ending_3_paragraphs": "Si la culpa tiende a reescribir la historia por la noche, anota la razón: “cambiamos esto porque la rutina actual me deja agotada y mantendremos estas formas de conexión”. Es más útil que discutir contigo sobre si una buena madre o un buen padre debería querer que bedtime fuese más fácil. La culpa puede seguir apareciendo aunque la decisión sea razonable. No necesitas sentirte cien por cien segura o seguro antes de actuar. Puedes usarla para comprobar que el cambio es cuidadoso y proporcionado, pero no como la única voz que decide. Querer una rutina más sostenible no significa querer menos cercanía. Significa reconocer que el vínculo vive dentro de una familia con cuerpos, horarios, otros hijos, trabajo y límites humanos. Cuidar esa realidad también es cuidar la relación.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -21547,41 +21533,40 @@
       "translation_group": "147-talk-about-baby-sleep-without-comparison",
       "language": "es",
       "title": "Cómo hablar del sueño infantil sin comparar a tu bebé con otros",
-      "words": 676,
-      "paragraphs": 15,
+      "words": 807,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.92,
+      "h2_density_per_1000_words": 4.96,
       "h2s": [
         "Cambia “mejor o peor” por “qué está pasando en nuestra casa”",
-        "No uses una cifra aislada como prueba de éxito",
-        "Elige qué conversaciones te ayudan y cuáles te dejan vigilando más",
+        "No uses una cifra aislada como nota",
+        "Elige conversaciones que te informen, no que te dejen vigilando más",
         "Compara con vuestra propia realidad anterior"
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 42.6,
+      "avg_paragraph_words": 42.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.2,
+      "question_paragraph_ratio": 0.167,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
-        "a_veces": 0,
-        "puede": 9,
+        "a_veces": 1,
+        "puede": 14,
         "importante": 0,
         "clave": 0
       },
-      "opening": "“¿Ya duerme toda la noche?”, “el mío hace dos siestas largas”, “a esa edad nosotros ya no entrábamos en la habitación”. Las conversaciones sobre sueño infantil pueden convertirse en una tabla invisible de clasificación incluso cuando nadie pretende competir. Un dato que se comparte como anécdota acaba funcionando como una medida de si tu bebé va bien o mal.",
+      "opening": "“¿Ya duerme toda la noche?”, “el mío hace dos siestas largas”, “a esa edad nosotros ya no entrábamos en la habitación”. Las conversaciones sobre sueño infantil pueden convertirse en una tabla invisible de clasificación incluso cuando nadie pretende competir. Un dato compartido como anécdota acaba funcionando como medida de si tu bebé va bien, va tarde o debería hacer algo distinto.",
       "opening_14_words": "Ya duerme toda la noche el mío hace dos siestas largas a esa edad",
-      "intro_3_paragraphs": "“¿Ya duerme toda la noche?”, “el mío hace dos siestas largas”, “a esa edad nosotros ya no entrábamos en la habitación”. Las conversaciones sobre sueño infantil pueden convertirse en una tabla invisible de clasificación incluso cuando nadie pretende competir. Un dato que se comparte como anécdota acaba funcionando como una medida de si tu bebé va bien o mal. Hablar de sueño resulta mucho más útil cuando describes vuestro contexto en lugar de usar a otro bebé como estándar. Compartir experiencias puede ayudar; convertirlas en una norma universal suele aumentar dudas sin aportar una respuesta real. Dos bebés de la misma edad pueden tener ritmos, temperamento, alimentación, horarios familiares y formas de acompañamiento diferentes. Saber lo que hace otro puede darte una idea, pero no te dice automáticamente qué debería hacer el tuyo.",
+      "intro_3_paragraphs": "“¿Ya duerme toda la noche?”, “el mío hace dos siestas largas”, “a esa edad nosotros ya no entrábamos en la habitación”. Las conversaciones sobre sueño infantil pueden convertirse en una tabla invisible de clasificación incluso cuando nadie pretende competir. Un dato compartido como anécdota acaba funcionando como medida de si tu bebé va bien, va tarde o debería hacer algo distinto. Hablar de sueño resulta más útil cuando describe el contexto de cada familia en lugar de convertir a otro bebé en el estándar. Compartir experiencias puede acompañar; tratarlas como reglas universales suele aumentar dudas sin resolver el problema concreto. Dos bebés de la misma edad pueden tener temperamento, alimentación, horarios familiares, entorno y formas de acompañamiento muy diferentes. Saber lo que hace otro puede darte una idea, pero no te dice automáticamente qué debería hacer el tuyo.",
       "last_h2": "Compara con vuestra propia realidad anterior",
-      "ending_3_paragraphs": "Ese tipo de comparación produce información que sí pertenece a vuestro contexto. No obliga a que el bebé de otra familia se convierta en el estándar de lo que el tuyo tendría que hacer. Y si la preocupación no es solo comparación, sino que tienes dudas sobre salud, alimentación, respiración, crecimiento o necesidades de sueño, conviene hablarlas con el profesional que conoce al bebé. La conversación entre padres puede acompañar, pero no sustituye una valoración cuando existe una inquietud clínica. Hablar de sueño sin comparar no significa dejar de compartir. Significa cambiar el propósito de la conversación: de medir bebés a comprender experiencias. Cuando desaparece la competición implícita, suele quedar más espacio para información útil y menos para sentir que cada noche es un examen.",
-      "risk_score": 3,
+      "ending_3_paragraphs": "También puedes comparar carga y no solo sueño. Quizá los despertares sean parecidos, pero ahora se reparten entre dos adultos. Tal vez las siestas sigan variando, pero una corta ya no obliga a reorganizar todo el día. Esos cambios cuentan aunque no produzcan una cifra llamativa. Y si la preocupación incluye alimentación, respiración, crecimiento, somnolencia llamativa u otra cuestión de salud, conviene llevarla al profesional que conoce al bebé. La experiencia de otra familia puede acompañar, pero no responde una pregunta clínica sobre la tuya. Hablar de sueño sin comparar no significa dejar de compartir. Significa cambiar el propósito: de medir bebés a comprender experiencias. Cuando baja la competición implícita, suele quedar más espacio para información útil y menos para tratar cada noche como un examen.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -21590,10 +21575,10 @@
       "translation_group": "148-other-families-sleep-schedules-may-not-fit-yours",
       "language": "es",
       "title": "Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya",
-      "words": 606,
-      "paragraphs": 14,
+      "words": 785,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.6,
+      "h2_density_per_1000_words": 5.1,
       "h2s": [
         "El reloj solo muestra una parte del sistema",
         "Puedes tomar prestada la estructura sin copiar el reloj",
@@ -21602,29 +21587,28 @@
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 40.6,
+      "avg_paragraph_words": 41.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.071,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 1,
         "a_veces": 1,
-        "puede": 11,
+        "puede": 16,
         "importante": 1,
         "clave": 0
       },
       "opening": "Es tentador copiar el horario que otra familia describe como “lo que por fin funcionó”: siesta a una hora concreta, cena después, baño y cama exactamente a las siete y media. Un plan preciso reduce incertidumbre, pero puede ocultar un dato esencial: ese horario se construyó alrededor de otra casa.",
       "opening_14_words": "Es tentador copiar el horario que otra familia describe como lo que por fin",
-      "intro_3_paragraphs": "Es tentador copiar el horario que otra familia describe como “lo que por fin funcionó”: siesta a una hora concreta, cena después, baño y cama exactamente a las siete y media. Un plan preciso reduce incertidumbre, pero puede ocultar un dato esencial: ese horario se construyó alrededor de otra casa. El mejor horario no es el más ordenado sobre el papel, sino el que puede convivir con vuestra vida real. Trabajo, daycare, colegio, hermanos, comidas, transporte y energía familiar forman parte del sueño aunque no aparezcan en una tabla. Una hora de acostarse depende de todo lo que ocurre antes. Si una familia cena a las seis porque alguien termina de trabajar a las cinco, su bedtime puede encajar perfectamente. Si en tu casa el último adulto llega a las siete, copiar la misma hora quizá convierta la tarde en una carrera continua.",
+      "intro_3_paragraphs": "Es tentador copiar el horario que otra familia describe como “lo que por fin funcionó”: siesta a una hora concreta, cena después, baño y cama exactamente a las siete y media. Un plan preciso reduce incertidumbre, pero puede ocultar un dato esencial: ese horario se construyó alrededor de otra casa. El mejor horario no es el más ordenado sobre el papel, sino el que puede convivir con vuestra vida real. Trabajo, guardería, colegio, hermanos, comidas, desplazamientos y energía familiar forman parte del sueño aunque no aparezcan en una tabla. Una hora de acostarse depende de todo lo que ocurre antes. Si una familia cena a las seis porque todos están en casa a las cinco, su bedtime puede encajar de forma natural. Si en la tuya el último adulto llega a las siete, copiar esa hora quizá convierta la tarde en una carrera.",
       "last_h2": "No conviertas una diferencia de horario en un defecto",
-      "ending_3_paragraphs": "Que el hijo de otra familia se duerma antes, haga una siesta distinta o necesite otra secuencia no prueba que vuestro sistema esté mal. Las diferencias pueden reflejar edad, temperamento, obligaciones familiares, cultura, estación del año o simplemente preferencias que funcionan. Esto no significa ignorar una preocupación real. Si dudas de si tu hijo está durmiendo suficiente, hay somnolencia importante, problemas de respiración u otra cuestión de salud, conviene consultarla con el profesional que conoce al niño. Comparar agendas de otras casas no sustituye esa valoración. Para la organización cotidiana, el criterio puede ser más simple: un horario suficientemente predecible para orientar y suficientemente flexible para sobrevivir a la vida real. Aprender de otras familias tiene sentido; intentar vivir dentro de su reloj, no necesariamente.",
-      "risk_score": 4,
+      "ending_3_paragraphs": "Además, los horarios publicados suelen parecer más limpios que la vida real. Una tabla no enseña el día que se saltó la siesta, la recogida tardía o la cena improvisada. Comparar vuestro martes completo con el resumen ordenado de otra casa puede crear un problema que antes no existía. Esto no significa ignorar una preocupación real. Si dudas sobre cantidad de sueño, somnolencia importante, respiración u otra cuestión de salud, conviene consultarla con el profesional que conoce al niño. Comparar agendas no sustituye esa valoración. Para organizar el día a día, el criterio puede ser más sencillo: un ritmo suficientemente predecible para orientar y suficientemente flexible para sobrevivir a la vida real. Tomar ideas prestadas puede ayudar; intentar vivir dentro del reloj de otra familia, no necesariamente.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -21633,41 +21617,40 @@
       "translation_group": "149-use-sleep-log-without-obsession",
       "language": "es",
       "title": "Cómo usar un registro de sueño sin convertirlo en una obsesión",
-      "words": 647,
-      "paragraphs": 15,
+      "words": 794,
+      "paragraphs": 19,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.18,
+      "h2_density_per_1000_words": 5.04,
       "h2s": [
         "Empieza con una pregunta, no con una plantilla",
         "Registra lo mínimo suficiente y acepta la aproximación",
         "Pon una fecha de revisión y una condición para dejarlo",
-        "Usa los datos para observar tendencias, no para puntuar cada noche"
+        "Usa los datos para ver tendencias, no para puntuar cada noche"
       ],
       "list_items": 0,
       "bold_spans": 1,
-      "avg_paragraph_words": 40.7,
+      "avg_paragraph_words": 39.8,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.133,
+      "question_paragraph_ratio": 0.105,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
-        "a_veces": 0,
-        "puede": 8,
-        "importante": 1,
+        "a_veces": 1,
+        "puede": 10,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "Cuando las noches están fragmentadas, la memoria se vuelve poco fiable. Puedes sentir que “se despierta siempre a la misma hora” y descubrir que ocurre tres noches de siete, o pensar que una siesta no influye en nada hasta ver que varias tardes parecidas terminan de forma similar. Un registro puede ordenar esa percepción.",
+      "opening": "Cuando las noches están fragmentadas, la memoria se vuelve poco fiable. Puedes sentir que “se despierta siempre a la misma hora” y descubrir que ocurre tres noches de siete, o pensar que una siesta no influye hasta ver que varias tardes parecidas terminan de forma similar. Un registro puede ordenar lo que el cansancio mezcla.",
       "opening_14_words": "Cuando las noches están fragmentadas la memoria se vuelve poco fiable Puedes sentir que",
-      "intro_3_paragraphs": "Cuando las noches están fragmentadas, la memoria se vuelve poco fiable. Puedes sentir que “se despierta siempre a la misma hora” y descubrir que ocurre tres noches de siete, o pensar que una siesta no influye en nada hasta ver que varias tardes parecidas terminan de forma similar. Un registro puede ordenar esa percepción. El registro funciona mejor cuando responde una pregunta concreta. Funciona peor cuando medir todo se convierte en el objetivo. La utilidad está en reducir incertidumbre, no en crear una nueva tarea de vigilancia. Antes de anotar horarios, decide qué quieres saber. ¿Una siesta tardía coincide con una hora de dormir más difícil? ¿La rutina se está alargando de verdad o solo lo parece en las noches malas? ¿Los despertares se concentran en un tramo concreto?",
-      "last_h2": "Usa los datos para observar tendencias, no para puntuar cada noche",
-      "ending_3_paragraphs": "Si cada entrada empieza a sentirse como una nota —“hoy salió mal porque durmió 37 minutos”— prueba a alejarte del detalle. Pregunta por tendencias más amplias: ¿la familia está menos agotada?, ¿la rutina es más predecible?, ¿un ajuste parece ayudar varias veces, no solo una? Y si notas que registrar aumenta mucho tu ansiedad, te hace comprobar constantemente al niño o te impide desconectar, es razonable parar aunque todavía no hayas completado el periodo que imaginabas. Una herramienta que aumenta significativamente la vigilancia ha dejado de cumplir su función. Si el registro existe por una preocupación de salud o porque un profesional lo ha pedido, su función cambia: úsalo para aportar información a esa valoración en lugar de intentar convertirlo en un diagnóstico doméstico. Fuera de ese contexto, cuanto más pequeño, temporal y orientado a una pregunta sea el registro, más probable es que realmente te ayude.",
-      "risk_score": 4,
+      "intro_3_paragraphs": "Cuando las noches están fragmentadas, la memoria se vuelve poco fiable. Puedes sentir que “se despierta siempre a la misma hora” y descubrir que ocurre tres noches de siete, o pensar que una siesta no influye hasta ver que varias tardes parecidas terminan de forma similar. Un registro puede ordenar lo que el cansancio mezcla. El registro funciona mejor cuando responde una pregunta concreta. Funciona peor cuando medir todo se convierte en el objetivo. La utilidad está en reducir incertidumbre, no en crear una nueva tarea de vigilancia ni convertir cada variación en algo que corregir. Antes de anotar horarios, decide qué quieres saber. ¿Una siesta tardía coincide con una hora de dormir más difícil? ¿La rutina se está alargando de verdad o solo lo parece en las noches malas? ¿Los despertares se concentran en un tramo concreto?",
+      "last_h2": "Usa los datos para ver tendencias, no para puntuar cada noche",
+      "ending_3_paragraphs": "Observa también qué hace el registro con tu conducta. ¿Evitas planes porque “estropearían” los datos? ¿Te frustras más cuando una siesta no encaja? ¿Miras la tabla antes que al niño? Esas señales indican que la herramienta puede estar ocupando demasiado espacio. Si registrar aumenta mucho tu ansiedad, te hace comprobar constantemente o te impide desconectar, puedes parar aunque no hayas completado el periodo previsto. Una herramienta que aumenta significativamente la vigilancia ha dejado de cumplir su función. Si el registro existe por una preocupación de salud o porque un profesional lo ha pedido, úsalo para aportar información a esa valoración, no para construir un diagnóstico doméstico. Fuera de ese contexto, cuanto más pequeño, temporal y orientado a una pregunta sea, más probable es que realmente ayude.",
+      "risk_score": 2,
       "risk_reasons": [
-        "body_under_650_words",
-        "elevated_h2_density"
+        "body_under_800_words"
       ]
     },
     {
@@ -21676,15 +21659,15 @@
       "translation_group": "150-baby-sleep-apps-help-or-add-anxiety",
       "language": "es",
       "title": "Apps de sueño para bebés: cuándo ayudan a organizarse y cuándo añaden ansiedad",
-      "words": 667,
-      "paragraphs": 15,
+      "words": 829,
+      "paragraphs": 19,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.0,
+      "h2_density_per_1000_words": 4.83,
       "h2s": [
         "Ayudan cuando sustituyen memoria, mensajes y coordinación repetida",
         "Empieza a pesar cuando la predicción manda más que el contexto",
-        "Dale a la app un solo trabajo claro y limita lo que pide de ti",
-        "Haz una prueba con menos seguimiento y observa qué recuperas o pierdes"
+        "Dale a la app un trabajo claro y limita lo que te pide",
+        "Prueba con menos seguimiento y observa qué recuperas o pierdes"
       ],
       "list_items": 0,
       "bold_spans": 1,
@@ -21692,25 +21675,24 @@
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.067,
+      "question_paragraph_ratio": 0.053,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 2,
         "no_significa": 0,
         "a_veces": 0,
-        "puede": 13,
-        "importante": 2,
+        "puede": 15,
+        "importante": 1,
         "clave": 1
       },
       "opening": "Las apps de sueño prometen ordenar una etapa que puede sentirse caótica. Saber cuándo terminó la última siesta, qué ocurrió durante un turno nocturno o cuándo comió el bebé puede ahorrar preguntas y memoria. Pero la misma herramienta que organiza también puede empezar a pedir más atención de la que devuelve.",
       "opening_14_words": "Las apps de sueño prometen ordenar una etapa que puede sentirse caótica Saber cuándo",
-      "intro_3_paragraphs": "Las apps de sueño prometen ordenar una etapa que puede sentirse caótica. Saber cuándo terminó la última siesta, qué ocurrió durante un turno nocturno o cuándo comió el bebé puede ahorrar preguntas y memoria. Pero la misma herramienta que organiza también puede empezar a pedir más atención de la que devuelve. Una app de sueño es útil si reduce carga mental. Deja de serlo cuando cada sueño se convierte en una métrica que sientes que debes optimizar. La pregunta no es si la tecnología es buena o mala, sino qué trabajo está haciendo realmente en vuestra familia. En hogares con varios cuidadores, turnos de noche, abuelos, nanny o jornadas fragmentadas, una app puede funcionar como un punto de relevo. Quien entra sabe aproximadamente cuándo durmió el bebé sin despertar a otra persona para preguntarlo.",
-      "last_h2": "Haz una prueba con menos seguimiento y observa qué recuperas o pierdes",
-      "ending_3_paragraphs": "Después observa qué cambia. ¿Olvidáis información que de verdad necesitabais? ¿Los relevos entre cuidadores se vuelven más difíciles? Entonces alguna función estaba aportando valor. ¿O, por el contrario, miras menos el reloj, toleras mejor una siesta diferente y estás más presente fuera de la pantalla? Esa información también importa. La mejor herramienta mejora la vida cuando no estás utilizándola. Si una app consigue que la familia coordine mejor y piense menos en datos, puede ser útil. Si hace que el sueño ocupe todavía más espacio mental, puedes simplificarla o dejarla. Y si existe una preocupación de salud, desarrollo, respiración o alimentación, una app no debe convertirse en la autoridad clínica de la familia. Puede aportar notas para una consulta, pero la interpretación de una preocupación médica corresponde a un profesional que pueda valorar al bebé en contexto.",
-      "risk_score": 3,
+      "intro_3_paragraphs": "Las apps de sueño prometen ordenar una etapa que puede sentirse caótica. Saber cuándo terminó la última siesta, qué ocurrió durante un turno nocturno o cuándo comió el bebé puede ahorrar preguntas y memoria. Pero la misma herramienta que organiza también puede empezar a pedir más atención de la que devuelve. Una app de sueño es útil si reduce carga mental. Deja de serlo cuando cada sueño se convierte en una métrica que sientes que debes optimizar. La pregunta no es si la tecnología es buena o mala, sino qué trabajo hace en vuestra familia y si ese trabajo compensa la atención que exige. En hogares con varios cuidadores, turnos de noche, abuelos, nanny o jornadas fragmentadas, una app puede funcionar como punto de relevo. Quien entra sabe aproximadamente cuándo durmió el bebé sin despertar a otra persona para preguntarlo.",
+      "last_h2": "Prueba con menos seguimiento y observa qué recuperas o pierdes",
+      "ending_3_paragraphs": "Fíjate en qué ocurre cuando la realidad contradice a la app. Si puedes tratar la recomendación como un dato más y seguir con calma el contexto del bebé o la familia, la herramienta probablemente conserva su lugar. Si ignorarla se siente como hacer algo mal, quizá ha adquirido demasiada autoridad. La mejor herramienta mejora la vida cuando no la estás usando. Si una app consigue que la familia coordine mejor y piense menos en datos, puede merecer la pena. Si hace que el sueño ocupe todavía más espacio mental, simplificarla o dejarla es una opción razonable. Y si existe una preocupación de salud, desarrollo, respiración o alimentación, una app no debe convertirse en autoridad clínica. Puede aportar notas para una consulta, pero la interpretación corresponde a un profesional que pueda valorar al bebé en contexto.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -28056,25 +28038,8 @@
   "repeated_openings": [],
   "common_ngrams": [
     {
-      "ngram": "at the end of the day",
-      "count": 11,
-      "files": [
-        "content/articles/en/003-toddler-tantrums-calm-limits-connection.json",
-        "content/articles/en/025-child-wont-clean-up-cooperation.json",
-        "content/articles/en/052-postpartum-without-perfectionism.json",
-        "content/articles/en/064-return-to-work-breastfeeding-logistics.json",
-        "content/articles/en/097-vacation-young-kids-lower-expectations.json",
-        "content/articles/en/106-bedtime-endless-requests-limits-connection.json",
-        "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
-        "content/articles/en/119-siblings-sharing-room-sleep-space-expectations.json",
-        "content/articles/en/136-coordinate-sibling-bedtimes-without-double-work.json",
-        "content/articles/en/141-falling-asleep-with-parent-bad-habit.json",
-        "content/articles/en/146-guilt-changing-sleep-routine.json"
-      ]
-    },
-    {
       "ngram": "does not need to become a",
-      "count": 11,
+      "count": 12,
       "files": [
         "content/articles/en/001-respectful-parenting.json",
         "content/articles/en/089-daycare-vs-nanny-family-fit.json",
@@ -28086,7 +28051,24 @@
         "content/articles/en/1134-not-want-people-touch-pregnant-belly.json",
         "content/articles/en/120-transition-shared-room-to-separate-rooms.json",
         "content/articles/en/133-no-nap-days-without-moving-whole-schedule.json",
-        "content/articles/en/143-reduce-sleep-help-gradually-while-supporting.json"
+        "content/articles/en/143-reduce-sleep-help-gradually-while-supporting.json",
+        "content/articles/en/150-baby-sleep-apps-help-or-add-anxiety.json"
+      ]
+    },
+    {
+      "ngram": "at the end of the day",
+      "count": 10,
+      "files": [
+        "content/articles/en/003-toddler-tantrums-calm-limits-connection.json",
+        "content/articles/en/025-child-wont-clean-up-cooperation.json",
+        "content/articles/en/052-postpartum-without-perfectionism.json",
+        "content/articles/en/064-return-to-work-breastfeeding-logistics.json",
+        "content/articles/en/097-vacation-young-kids-lower-expectations.json",
+        "content/articles/en/106-bedtime-endless-requests-limits-connection.json",
+        "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
+        "content/articles/en/119-siblings-sharing-room-sleep-space-expectations.json",
+        "content/articles/en/136-coordinate-sibling-bedtimes-without-double-work.json",
+        "content/articles/en/146-guilt-changing-sleep-routine.json"
       ]
     },
     {
@@ -28347,6 +28329,18 @@
         "content/articles/en/1050-stop-living-motherhood-like-an-exam.json",
         "content/articles/en/1095-other-moms-seem-to-enjoy-parenting-more.json",
         "content/articles/en/1109-not-want-to-talk-to-bump.json"
+      ]
+    },
+    {
+      "ngram": "you do not have to keep",
+      "count": 6,
+      "files": [
+        "content/articles/en/021-baby-naps-flexible-routine.json",
+        "content/articles/en/1004-guilt-not-missing-kids.json",
+        "content/articles/en/101-move-from-sleeping-in-arms-to-other-support.json",
+        "content/articles/en/107-recognizable-sleep-cues-when-days-vary.json",
+        "content/articles/en/141-falling-asleep-with-parent-bad-habit.json",
+        "content/articles/en/142-set-limits-adult-presence-bedtime-gradually.json"
       ]
     },
     {

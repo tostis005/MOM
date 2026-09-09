@@ -1,7 +1,4 @@
 article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h2	en_h2	es_short_ratio	en_short_ratio	title_es	title_en
-145	145-choose-bedtime-battles-worth-having	4	4	4	619	639	4	4	0.0	0.0	Cómo decidir qué batallas no merece la pena librar a la hora de dormir	How to decide which bedtime battles are not worth having
-148	148-other-families-sleep-schedules-may-not-fit-yours	4	4	4	606	600	4	4	0.0	0.0	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	Why another family's sleep schedule may not work for yours
-149	149-use-sleep-log-without-obsession	4	4	4	647	646	4	4	0.0	0.0	Cómo usar un registro de sueño sin convertirlo en una obsesión	How to use a sleep log without turning it into an obsession
 1096	1096-other-motherhood-looks-easier-from-outside	4	4	3	649	658	4	4	0.0	0.0	Por qué la maternidad de otras personas parece más fácil desde fuera	Why other people’s motherhood looks easier from the outside
 1098	1098-everyone-knows-what-theyre-doing-except-you	4	4	3	636	658	4	4	0.0	0.0	Sentir que todos los demás padres saben lo que hacen menos tú	Feeling like every other parent knows what they’re doing except you
 1101	1101-not-happy-all-the-time-pregnancy	4	3	4	685	647	4	4	0.0	0.0	¿Es normal no sentirse feliz todo el tiempo durante el embarazo?	Is it normal not to feel happy all the time during pregnancy?
@@ -24,11 +21,6 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 96	096-travel-sleep-familiar-cues-not-perfect-routine	3	2	3	826	797	5	5	0.0	0.0	Sueño de viaje: cómo mantener algunas señales familiares sin perseguir la rutina perfecta	Sleep while traveling: keep familiar cues without chasing the perfect routine
 107	107-recognizable-sleep-cues-when-days-vary	3	2	3	800	786	5	5	0.0	0.0	Cómo crear señales de sueño reconocibles cuando cada día es distinto	How to create recognizable sleep cues when every day looks different
 139	139-involve-father-caregiver-sleep-routine	3	2	3	702	661	4	4	0.0	0.0	Cómo involucrar al padre o a otro cuidador en la rutina de sueño	How to involve a father or another caregiver in the sleep routine
-143	143-reduce-sleep-help-gradually-while-supporting	3	3	2	674	702	4	4	0.0	0.0	Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar	How to gradually reduce sleep help without stopping support
-144	144-sustainable-bedtime-routine-for-adults	3	3	3	668	677	4	4	0.0	0.0	Cómo crear una rutina de sueño más sostenible para los adultos	How to make a child's bedtime routine more sustainable for adults
-146	146-guilt-changing-sleep-routine	3	3	3	653	656	4	4	0.0	0.0	Cómo manejar la culpa cuando quieres cambiar una rutina de sueño	How to handle guilt when you want to change a sleep routine
-147	147-talk-about-baby-sleep-without-comparison	3	3	2	676	696	4	4	0.0	0.0	Cómo hablar del sueño infantil sin comparar a tu bebé con otros	How to talk about baby sleep without comparing your baby to others
-150	150-baby-sleep-apps-help-or-add-anxiety	3	3	3	667	682	4	4	0.0	0.0	Apps de sueño para bebés: cuándo ayudan a organizarse y cuándo añaden ansiedad	Baby sleep apps: when they help you organize and when they add anxiety
 1092	1092-stop-comparing-more-organized-moms	3	2	3	696	683	4	4	0.0	0.0	Cómo dejar de compararte con madres que parecen más organizadas	How to stop comparing yourself with moms who seem more organized
 1099	1099-impostor-feeling-in-motherhood	3	2	3	713	680	4	4	0.0	0.0	Síndrome de impostora en la maternidad: sentir que algún día descubrirán que no sabes lo que haces	Impostor syndrome in motherhood: feeling like people will discover you don’t know what you’re doing
 1100	1100-build-confidence-mom-without-perfection	3	3	2	670	699	4	4	0.0	0.0	Cómo construir confianza en ti misma como madre sin necesitar hacerlo todo perfecto	How to build confidence as a mom without needing to do everything perfectly
@@ -118,8 +110,9 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 137	137-split-bedtime-routine-two-caregivers	2	2	2	710	690	4	4	0.0	0.0	Cómo repartir la rutina nocturna entre dos cuidadores	How to split the bedtime routine between two caregivers
 138	138-child-only-accepts-one-parent-at-bedtime	2	2	2	762	777	4	4	0.0	0.0	Qué hacer cuando el niño solo acepta a un progenitor para dormir	What to do when a child only accepts one parent at bedtime
 140	140-change-sleep-associations-gradually-respectfully	2	2	2	743	780	4	4	0.0	0.0	Cómo cambiar asociaciones de sueño de forma gradual y respetuosa	How to change sleep associations gradually and respectfully
-141	141-falling-asleep-with-parent-bad-habit	2	2	1	768	846	4	4	0.0	0.0	¿Dormirse acompañado es un mal hábito?	Is falling asleep with a parent nearby a bad habit?
-142	142-limit-adult-presence-at-bedtime-gradually	2	2	2	712	734	4	4	0.0	0.0	Cómo poner límites a la presencia del adulto durante el sueño sin desaparecer de golpe	How to limit adult presence at bedtime without disappearing all at once
+143	143-reduce-sleep-help-gradually-while-supporting	2	2	1	774	919	4	4	0.0	0.0	Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar	How to gradually reduce sleep help without stopping support
+148	148-other-families-sleep-schedules-may-not-fit-yours	2	2	1	785	883	4	4	0.0	0.0	Por qué los horarios de sueño de otras familias no tienen que funcionar en la tuya	Why another family's sleep schedule may not work for yours
+149	149-use-sleep-log-without-obsession	2	2	1	794	934	4	4	0.0	0.0	Cómo usar un registro de sueño sin convertirlo en una obsesión	How to use a sleep log without turning it into an obsession
 1017	1017-when-life-revolves-around-kids-and-you-dont-know-what-you-like	2	2	2	803	858	4	4	0.0	0.0	Cuando toda tu vida gira alrededor de tus hijos y no sabes qué te gusta a ti	When Your Life Revolves Around Your Kids and You Don’t Know What You Like Anymore
 1023	1023-nostalgia-childfree-life-exhausting-season	2	2	2	862	918	4	4	0.0	0.0	Sentir nostalgia por tu vida sin hijos durante una etapa agotadora	Missing your pre-kids life during an exhausting season of parenting
 1052	1052-love-kids-and-get-bored-playing	2	2	1	773	826	4	4	0.0	0.0	Amar a tus hijos y aburrirte jugando con ellos: por qué ambas cosas pueden coexistir	Loving Your Kids and Getting Bored Playing With Them Can Both Be True
@@ -221,6 +214,13 @@ article_number	translation_group	max_risk	es_risk	en_risk	es_words	en_words	es_h
 128	128-toddler-stops-wanting-nap	1	1	1	802	826	4	4	0.0	0.0	Qué hacer cuando el toddler deja de querer siesta	What to do when your toddler stops wanting to nap
 129	129-transition-two-naps-to-one	1	1	1	801	858	4	4	0.0	0.0	Transición de dos siestas a una: cómo acompañar el cambio	Transitioning from two naps to one: how to support the change
 130	130-introduce-quiet-time-after-nap	1	1	1	837	853	4	4	0.0	0.0	Quiet time: cómo introducir un rato tranquilo cuando desaparece la siesta	Quiet time: how to introduce a calm break when the nap disappears
+141	141-falling-asleep-with-parent-bad-habit	1	1	0	941	1116	4	4	0.0	0.0	¿Dormirse acompañado es un mal hábito?	Is falling asleep with a parent nearby a bad habit?
+142	142-limit-adult-presence-at-bedtime-gradually	1	1	0	860	1064	4	4	0.0	0.0	Cómo poner límites a la presencia del adulto durante el sueño sin desaparecer de golpe	How to limit adult presence at bedtime without disappearing all at once
+144	144-sustainable-bedtime-routine-for-adults	1	1	1	844	963	4	4	0.0	0.0	Cómo crear una rutina de sueño más sostenible para los adultos	How to make a child's bedtime routine more sustainable for adults
+145	145-choose-bedtime-battles-worth-having	1	1	1	866	971	4	4	0.0	0.0	Cómo decidir qué batallas no merece la pena librar a la hora de dormir	How to decide which bedtime battles are not worth having
+146	146-guilt-changing-sleep-routine	1	1	1	836	950	4	4	0.0	0.0	Cómo manejar la culpa cuando quieres cambiar una rutina de sueño	How to handle guilt when you want to change a sleep routine
+147	147-talk-about-baby-sleep-without-comparison	1	1	1	807	901	4	4	0.0	0.0	Cómo hablar del sueño infantil sin comparar a tu bebé con otros	How to talk about baby sleep without comparing your baby to others
+150	150-baby-sleep-apps-help-or-add-anxiety	1	1	1	829	910	4	4	0.0	0.0	Apps de sueño para bebés: cuándo ayudan a organizarse y cuándo añaden ansiedad	Baby sleep apps: when they help you organize and when they add anxiety
 1001	1001-mom-guilt	1	1	1	963	968	4	4	0.0	0.0	Mom guilt: por qué muchas madres sienten culpa incluso cuando saben que hacen lo mejor que pueden	Mom Guilt: Why Moms Feel Guilty Even When They Know They’re Doing Their Best
 1002	1002-guilt-needing-break-from-kids	1	1	1	819	818	4	4	0.0	0.0	Culpa por necesitar un descanso de tus hijos: por qué aparece y cómo mirarla de otra manera	Feeling Guilty for Needing a Break From Your Kids: Why It Happens and How to See It Differently
 1003	1003-guilt-enjoying-alone-time	1	1	1	827	841	4	4	0.0	0.0	Culpa por disfrutar tiempo sola después de convertirte en madre	Feeling Guilty for Enjoying Time Alone After Becoming a Mom

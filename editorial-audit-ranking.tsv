@@ -1,6 +1,4 @@
 lang	article_number	risk	words	h2	h2_density	short_ratio	short_run	paragraphs	title	reasons	path
-en	13	5	780	6	7.69	0.04	1	25	Sleep Regressions: How to Get Through Them Without Changing Everything	body_under_800_words,high_h2_density,many_question_paragraphs	content/articles/en/013-sleep-regressions-calm.json
-en	17	4	789	6	7.6	0.107	1	28	How to Get More Cooperation Without Repeating Yourself Twenty Times	body_under_800_words,high_h2_density	content/articles/en/017-cooperation-without-repeating.json
 en	145	4	639	4	6.26	0.0	0	14	How to decide which bedtime battles are not worth having	body_under_650_words,elevated_h2_density	content/articles/en/145-choose-bedtime-battles-worth-having.json
 en	148	4	600	4	6.67	0.0	0	14	Why another family's sleep schedule may not work for yours	body_under_650_words,elevated_h2_density	content/articles/en/148-other-families-sleep-schedules-may-not-fit-yours.json
 en	149	4	646	4	6.19	0.0	0	15	How to use a sleep log without turning it into an obsession	body_under_650_words,elevated_h2_density	content/articles/en/149-use-sleep-log-without-obsession.json
@@ -38,11 +36,6 @@ es	1129	4	609	4	6.57	0.0	0	15	Comparar tu embarazo con el de otras mujeres y emp
 es	1145	4	647	4	6.18	0.0	0	14	Cómo decidir qué detalles del embarazo quieres compartir y cuáles no	body_under_650_words,elevated_h2_density	content/articles/es/1145-decidir-detalles-embarazo-compartir-cuales-no.json
 es	1147	4	626	4	6.39	0.0	0	14	Cansarte de que todo el mundo pregunte constantemente cómo va el embarazo	body_under_650_words,elevated_h2_density	content/articles/es/1147-cansarte-preguntas-como-va-embarazo.json
 es	1148	4	638	4	6.27	0.0	0	14	Cómo responder cuando no quieres hablar de tu embarazo todo el tiempo	body_under_650_words,elevated_h2_density	content/articles/es/1148-responder-no-quieres-hablar-embarazo-todo-tiempo.json
-en	11	3	801	6	7.49	0.038	1	26	Night Wakings: How to Respond Respectfully Without Burning Out the Family	body_under_1050_words,high_h2_density	content/articles/en/011-night-wakings-respectful-response.json
-en	12	3	880	6	6.82	0.065	1	31	Toddler Activities at Home That Actually Hold Their Attention	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/en/012-toddler-activities-at-home.json
-en	14	3	872	6	6.88	0.071	1	28	How to Choose a Daycare: Questions That Matter Before You Decide	body_under_1050_words,elevated_h2_density,many_question_paragraphs	content/articles/en/014-how-to-choose-daycare.json
-en	16	3	836	6	7.18	0.036	1	28	A Toddler Bedtime Routine That Encourages Cooperation Without Becoming a Battle	body_under_1050_words,high_h2_density	content/articles/en/016-toddler-bedtime-routine.json
-en	20	3	1002	7	6.99	0.125	1	32	What to Pack in Your Hospital Bag: A Practical, Minimalist List	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/en/020-hospital-bag-practical-minimalist.json
 en	74	3	688	4	5.81	0.0	0	16	Morning exit routine: how to get out the door with kids without starting the day yelling	body_under_800_words,elevated_h2_density	content/articles/en/074-morning-exit-routine-with-kids-without-yelling.json
 en	89	3	801	6	7.49	0.0	0	21	Daycare vs nanny: which style of care may fit your family better	body_under_1050_words,high_h2_density	content/articles/en/089-daycare-vs-nanny-family-fit.json
 en	90	3	834	6	7.19	0.0	0	22	Preschool: what to look for beyond worksheets, letters, and academics	body_under_1050_words,high_h2_density	content/articles/en/090-preschool-what-to-look-for-beyond-academics.json
@@ -79,13 +72,6 @@ en	1147	3	670	4	5.97	0.0	0	14	Getting tired of everyone constantly asking how yo
 en	1148	3	680	4	5.88	0.0	0	14	How to respond when you do not want to talk about pregnancy all the time	body_under_800_words,elevated_h2_density	content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json
 en	1149	3	682	4	5.87	0.0	0	14	When everything is about the baby and you miss people asking about you	body_under_800_words,elevated_h2_density	content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json
 en	1150	3	688	4	5.81	0.0	0	14	How to maintain other parts of your identity while you are pregnant	body_under_800_words,elevated_h2_density	content/articles/en/1150-maintain-identity-during-pregnancy.json
-es	11	3	843	6	7.12	0.1	1	30	Despertares nocturnos: cómo responder de forma respetuosa y sostenible para la familia	body_under_1050_words,high_h2_density	content/articles/es/011-despertares-nocturnos-responder-respeto.json
-es	12	3	897	6	6.69	0.069	1	29	Actividades para toddlers en casa que realmente mantienen su interés	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/012-actividades-toddlers-en-casa.json
-es	13	3	836	6	7.18	0.037	1	27	Regresiones del sueño: cómo atravesarlas con calma	body_under_1050_words,high_h2_density	content/articles/es/013-regresiones-sueno-calma.json
-es	14	3	867	6	6.92	0.036	1	28	Cómo elegir daycare o guardería: preguntas importantes antes de decidir	body_under_1050_words,elevated_h2_density,many_question_paragraphs	content/articles/es/014-como-elegir-daycare-guarderia.json
-es	15	3	993	7	7.05	0.0	0	33	Disciplina positiva y crianza respetuosa: similitudes, diferencias y cómo usarlas	body_under_1050_words,high_h2_density	content/articles/es/015-disciplina-positiva-vs-crianza-respetuosa.json
-es	17	3	828	6	7.25	0.069	1	29	Cómo conseguir cooperación sin repetir las cosas veinte veces	body_under_1050_words,high_h2_density	content/articles/es/017-cooperacion-sin-repetir-veinte-veces.json
-es	20	3	1021	7	6.86	0.067	1	30	Qué llevar en la bolsa del hospital: lista práctica y minimalista	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/020-bolsa-hospital-lista-practica-minimalista.json
 es	74	3	671	4	5.96	0.0	0	16	Rutina de salida por la mañana: cómo salir de casa con niños sin empezar el día gritando	body_under_800_words,elevated_h2_density	content/articles/es/074-rutina-salida-manana-sin-gritos.json
 es	77	3	781	4	5.12	0.0	0	18	Accidentes durante el potty training: cómo responder sin vergüenza ni castigos	body_under_800_words,many_question_paragraphs	content/articles/es/077-accidentes-potty-training-sin-verguenza-castigos.json
 es	143	3	674	4	5.93	0.0	0	14	Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar	body_under_800_words,elevated_h2_density	content/articles/es/143-reducir-ayuda-dormir-sin-dejar-acompanar.json
@@ -118,9 +104,7 @@ es	1140	3	684	4	5.85	0.0	0	15	Sentir emociones contradictorias al mirarte al esp
 es	1143	3	676	4	5.92	0.0	0	14	Cómo mantener tu embarazo privado cuando tu familia quiere contarlo todo	body_under_800_words,elevated_h2_density	content/articles/es/1143-mantener-embarazo-privado-familia-quiere-contarlo.json
 es	1146	3	676	4	5.92	0.0	0	14	Sentir que tu embarazo se ha convertido en información pública	body_under_800_words,elevated_h2_density	content/articles/es/1146-embarazo-convertido-informacion-publica.json
 es	1150	3	685	4	5.84	0.0	0	14	Cómo mantener otras partes de tu identidad mientras estás embarazada	body_under_800_words,elevated_h2_density	content/articles/es/1150-mantener-identidad-mientras-estas-embarazada.json
-en	15	2	944	6	6.36	0.033	1	30	Positive Discipline vs. Respectful Parenting: Similarities, Differences and How They Fit Together	body_under_1050_words,elevated_h2_density	content/articles/en/015-positive-discipline-vs-respectful-parenting.json
-en	18	2	876	6	6.85	0.032	1	31	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure	body_under_1050_words,elevated_h2_density	content/articles/en/018-baby-led-feeding-table-autonomy.json
-en	19	2	939	6	6.39	0.133	1	30	How to Prepare Your Home for a Baby Without Buying Too Much	body_under_1050_words,elevated_h2_density	content/articles/en/019-prepare-home-for-baby-without-overbuying.json
+en	14	2	826	4	4.84	0.0	0	15	How to Choose a Daycare: Questions That Matter Before You Decide	body_under_1050_words,many_question_paragraphs	content/articles/en/014-how-to-choose-daycare.json
 en	22	2	792	4	5.05	0.0	0	16	What to do when your child hits without labeling them as aggressive	body_under_800_words	content/articles/en/022-child-hits-without-aggressive-label.json
 en	23	2	770	4	5.19	0.0	0	18	What to do when your child bites without punishment or shame	body_under_800_words	content/articles/en/023-child-bites-without-punishment-shame.json
 en	24	2	790	4	5.06	0.0	0	17	How to handle toddler yelling without yelling back	body_under_800_words	content/articles/en/024-toddler-yelling-respectful-parenting.json
@@ -216,9 +200,7 @@ en	1141	2	749	4	5.34	0.0	0	14	Not wanting pregnancy photos and feeling like you 
 en	1142	2	705	4	5.67	0.0	0	14	Not wanting to share your pregnancy on social media	body_under_800_words	content/articles/en/1142-not-share-pregnancy-social-media.json
 en	1144	2	703	4	5.69	0.0	0	14	What to do when a family member announces your pregnancy before you	body_under_800_words	content/articles/en/1144-family-announces-pregnancy-before-you.json
 es	3	2	1375	8	5.82	0.089	1	45	Rabietas: cómo acompañarlas con calma, límites y conexión	elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/003-rabietas-acompanar-calma-limites-conexion.json
-es	16	2	861	6	6.97	0.034	1	29	Rutina de noche para niños pequeños: pasos sencillos que favorecen la cooperación	body_under_1050_words,elevated_h2_density	content/articles/es/016-rutina-noche-ninos-pequenos.json
-es	18	2	913	6	6.57	0.038	1	26	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	body_under_1050_words,elevated_h2_density	content/articles/es/018-baby-led-feeding-autonomia-mesa.json
-es	19	2	898	6	6.68	0.067	1	30	Cómo preparar la casa para la llegada del bebé sin comprar de más	body_under_1050_words,elevated_h2_density	content/articles/es/019-preparar-casa-llegada-bebe-sin-comprar-de-mas.json
+es	14	2	834	4	4.8	0.0	0	16	Cómo elegir daycare o guardería: preguntas importantes antes de decidir	body_under_1050_words,many_question_paragraphs	content/articles/es/014-como-elegir-daycare-guarderia.json
 es	22	2	744	4	5.38	0.0	0	16	Cómo acompañar a un niño que pega sin etiquetarlo como agresivo	body_under_800_words	content/articles/es/022-nino-pega-sin-etiquetarlo-agresivo.json
 es	23	2	747	4	5.35	0.0	0	18	Cómo acompañar a un niño que muerde sin castigos ni vergüenza	body_under_800_words	content/articles/es/023-nino-muerde-sin-castigos-verguenza.json
 es	24	2	762	4	5.25	0.0	0	17	Cómo gestionar los gritos de un toddler desde la crianza respetuosa	body_under_800_words	content/articles/es/024-gritos-toddler-crianza-respetuosa.json
@@ -327,6 +309,15 @@ es	1141	2	723	4	5.53	0.0	0	14	No querer hacer fotos de embarazo y sentir que deb
 es	1142	2	695	4	5.76	0.0	0	14	No querer compartir tu embarazo en redes sociales	body_under_800_words	content/articles/es/1142-no-querer-compartir-embarazo-redes-sociales.json
 es	1144	2	704	4	5.68	0.0	0	14	Qué hacer cuando un familiar anuncia tu embarazo antes que tú	body_under_800_words	content/articles/es/1144-familiar-anuncia-embarazo-antes-que-tu.json
 es	1149	2	692	4	5.78	0.0	0	14	Cuando todo gira alrededor del bebé y echas de menos que te pregunten por ti	body_under_800_words	content/articles/es/1149-todo-gira-bebe-echas-menos-pregunten-por-ti.json
+en	11	1	909	4	4.4	0.0	0	14	Night Wakings: How to Respond Respectfully Without Burning Out the Family	body_under_1050_words	content/articles/en/011-night-wakings-respectful-response.json
+en	12	1	851	4	4.7	0.0	0	14	Toddler Activities at Home That Actually Hold Their Attention	body_under_1050_words	content/articles/en/012-toddler-activities-at-home.json
+en	13	1	825	4	4.85	0.0	0	15	Sleep Regressions: How to Get Through Them Without Changing Everything	body_under_1050_words	content/articles/en/013-sleep-regressions-calm.json
+en	15	1	855	4	4.68	0.0	0	16	Positive Discipline vs. Respectful Parenting: Similarities, Differences and How They Fit Together	body_under_1050_words	content/articles/en/015-positive-discipline-vs-respectful-parenting.json
+en	16	1	860	4	4.65	0.0	0	16	A Toddler Bedtime Routine That Encourages Cooperation Without Becoming a Battle	body_under_1050_words	content/articles/en/016-toddler-bedtime-routine.json
+en	17	1	822	4	4.87	0.0	0	15	How to Get More Cooperation Without Repeating Yourself Twenty Times	body_under_1050_words	content/articles/en/017-cooperation-without-repeating.json
+en	18	1	838	4	4.77	0.0	0	16	Baby-Led Feeding and Mealtime Autonomy: How to Keep Food Low-Pressure	body_under_1050_words	content/articles/en/018-baby-led-feeding-table-autonomy.json
+en	19	1	833	4	4.8	0.0	0	15	How to Prepare Your Home for a Baby Without Buying Too Much	body_under_1050_words	content/articles/en/019-prepare-home-for-baby-without-overbuying.json
+en	20	1	819	4	4.88	0.0	0	16	What to Pack in Your Hospital Bag: A Practical, Minimalist List	body_under_1050_words	content/articles/en/020-hospital-bag-practical-minimalist.json
 en	21	1	847	4	4.72	0.0	0	16	Baby naps: how to build a flexible routine without watching the clock all day	body_under_1050_words	content/articles/en/021-baby-naps-flexible-routine.json
 en	28	1	800	4	5.0	0.0	0	15	How to turn off screens without tantrums, threats, or endless negotiating	body_under_1050_words	content/articles/en/028-turn-off-screens-without-tantrums.json
 en	29	1	864	4	4.63	0.0	0	19	Independent play: how to encourage it without demanding that your child entertain themselves	body_under_1050_words	content/articles/en/029-independent-play-without-pressure.json
@@ -460,6 +451,15 @@ en	1118	1	805	4	4.97	0.0	0	15	Fear that you will stop being a couple and become 
 en	1131	1	862	4	4.64	0.0	0	15	Feeling like your body no longer belongs to you during pregnancy	body_under_1050_words	content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json
 es	1	1	1630	8	4.91	0.041	1	49	Crianza respetuosa: qué significa de verdad y cómo aplicarla sin caer en extremos	repeated_no_necesitas_pattern	content/articles/es/001-crianza-respetuosa.json
 es	4	1	1578	8	5.07	0.065	1	46	Potty training o dejar el pañal: guía respetuosa sin premios ni presión	repeated_no_significa_pattern	content/articles/es/004-potty-training-sin-premios-presion.json
+es	11	1	826	4	4.84	0.0	0	14	Despertares nocturnos: cómo responder de forma respetuosa y sostenible para la familia	body_under_1050_words	content/articles/es/011-despertares-nocturnos-responder-respeto.json
+es	12	1	835	4	4.79	0.0	0	15	Actividades para toddlers en casa que realmente mantienen su interés	body_under_1050_words	content/articles/es/012-actividades-toddlers-en-casa.json
+es	13	1	825	4	4.85	0.0	0	16	Regresiones del sueño: cómo atravesarlas con calma	body_under_1050_words	content/articles/es/013-regresiones-sueno-calma.json
+es	15	1	835	4	4.79	0.0	0	16	Disciplina positiva y crianza respetuosa: similitudes, diferencias y cómo usarlas	body_under_1050_words	content/articles/es/015-disciplina-positiva-vs-crianza-respetuosa.json
+es	16	1	809	4	4.94	0.0	0	16	Rutina de noche para niños pequeños: pasos sencillos que favorecen la cooperación	body_under_1050_words	content/articles/es/016-rutina-noche-ninos-pequenos.json
+es	17	1	803	4	4.98	0.0	0	16	Cómo conseguir cooperación sin repetir las cosas veinte veces	body_under_1050_words	content/articles/es/017-cooperacion-sin-repetir-veinte-veces.json
+es	18	1	816	4	4.9	0.0	0	16	Baby-led feeding y autonomía en la mesa: cómo fomentar una relación tranquila con la comida	body_under_1050_words	content/articles/es/018-baby-led-feeding-autonomia-mesa.json
+es	19	1	807	4	4.96	0.0	0	15	Cómo preparar la casa para la llegada del bebé sin comprar de más	body_under_1050_words	content/articles/es/019-preparar-casa-llegada-bebe-sin-comprar-de-mas.json
+es	20	1	827	4	4.84	0.0	0	17	Qué llevar en la bolsa del hospital: lista práctica y minimalista	body_under_1050_words	content/articles/es/020-bolsa-hospital-lista-practica-minimalista.json
 es	21	1	811	4	4.93	0.0	0	16	Siestas del bebé: cómo crear una rutina flexible sin vivir pendiente del reloj	body_under_1050_words	content/articles/es/021-siestas-bebe-rutina-flexible.json
 es	29	1	805	4	4.97	0.0	0	19	Juego independiente: cómo fomentarlo sin exigir que el niño se entretenga solo	body_under_1050_words	content/articles/es/029-juego-independiente-sin-exigir.json
 es	30	1	859	4	4.66	0.0	0	17	Montessori en casa: qué principios son útiles aunque no tengas una casa Montessori	body_under_1050_words	content/articles/es/030-montessori-en-casa-principios-utiles.json

@@ -43,6 +43,7 @@ Before selecting any article or range for an editorial quality/recovery pass, re
 | 121–130 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #19. |
 | 131–140 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #20. |
 | 141–150 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #21. |
+| 1011–1020 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #45. |
 | 1021–1030 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #40. |
 | 1031–1040 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #41. |
 | 1041–1050 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #42. |
@@ -62,7 +63,7 @@ Before selecting any article or range for an editorial quality/recovery pass, re
 For automated or manual candidate selection, the currently reviewed article numbers are:
 
 - `011–150`, except `001–010` are **not** covered by this registry entry. The reviewed span starts at 011.
-- `1021–1150`.
+- `1011–1150`.
 
 This compact exclusion set is equivalent to the detailed rows above. If future work creates a gap, partial batch, or non-contiguous exception, update both this section and the detailed table rather than assuming the compact ranges remain continuous.
 
@@ -74,6 +75,7 @@ WordPress/import confirmation is operational deployment evidence and must not be
 
 - 061–070: `created=0 updated=20 skipped=0 failed=0`
 - 101–110: `created=0 updated=20 skipped=0 failed=0`
+- 1011–1020: `created=0 updated=20 skipped=0 failed=0`
 - 1021–1030: `created=0 updated=20 skipped=0 failed=0`
 - 1051–1060: `created=0 updated=20 skipped=0 failed=0`
 

@@ -111,12 +111,6 @@ en	12	3	880	6	6.82	0.065	1	31	Toddler Activities at Home That Actually Hold Thei
 en	14	3	872	6	6.88	0.071	1	28	How to Choose a Daycare: Questions That Matter Before You Decide	body_under_1050_words,elevated_h2_density,many_question_paragraphs	content/articles/en/014-how-to-choose-daycare.json
 en	16	3	836	6	7.18	0.036	1	28	A Toddler Bedtime Routine That Encourages Cooperation Without Becoming a Battle	body_under_1050_words,high_h2_density	content/articles/en/016-toddler-bedtime-routine.json
 en	20	3	1002	7	6.99	0.125	1	32	What to Pack in Your Hospital Bag: A Practical, Minimalist List	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/en/020-hospital-bag-practical-minimalist.json
-en	62	3	684	4	5.85	0.0	0	15	Breastfeeding and partners: practical ways to support without taking over	body_under_800_words,elevated_h2_density	content/articles/en/062-breastfeeding-partner-support-without-taking-over.json
-en	64	3	665	4	6.02	0.0	0	15	Returning to work while breastfeeding: organize the logistics without creating a second job	body_under_800_words,elevated_h2_density	content/articles/en/064-return-to-work-breastfeeding-logistics.json
-en	65	3	675	4	5.93	0.0	0	15	Respectful weaning: how to make changes with connection and clear boundaries	body_under_800_words,elevated_h2_density	content/articles/en/065-respectful-weaning-connection-boundaries.json
-en	68	3	680	4	5.88	0.0	0	17	Picky eating: how to reduce battles at the table	body_under_800_words,elevated_h2_density	content/articles/en/068-picky-eating-reduce-mealtime-battles.json
-en	69	3	681	4	5.87	0.056	1	18	How to introduce new foods without pressure or bribes	body_under_800_words,elevated_h2_density	content/articles/en/069-introduce-new-foods-without-pressure-bribes.json
-en	70	3	689	4	5.81	0.0	0	15	Desserts and sweets: how to set limits without turning them into a reward	body_under_800_words,elevated_h2_density	content/articles/en/070-desserts-sweets-boundaries-not-reward.json
 en	74	3	688	4	5.81	0.0	0	16	Morning exit routine: how to get out the door with kids without starting the day yelling	body_under_800_words,elevated_h2_density	content/articles/en/074-morning-exit-routine-with-kids-without-yelling.json
 en	89	3	801	6	7.49	0.0	0	21	Daycare vs nanny: which style of care may fit your family better	body_under_1050_words,high_h2_density	content/articles/en/089-daycare-vs-nanny-family-fit.json
 en	90	3	834	6	7.19	0.0	0	22	Preschool: what to look for beyond worksheets, letters, and academics	body_under_1050_words,high_h2_density	content/articles/en/090-preschool-what-to-look-for-beyond-academics.json
@@ -173,12 +167,6 @@ es	14	3	867	6	6.92	0.036	1	28	Cómo elegir daycare o guardería: preguntas impor
 es	15	3	993	7	7.05	0.0	0	33	Disciplina positiva y crianza respetuosa: similitudes, diferencias y cómo usarlas	body_under_1050_words,high_h2_density	content/articles/es/015-disciplina-positiva-vs-crianza-respetuosa.json
 es	17	3	828	6	7.25	0.069	1	29	Cómo conseguir cooperación sin repetir las cosas veinte veces	body_under_1050_words,high_h2_density	content/articles/es/017-cooperacion-sin-repetir-veinte-veces.json
 es	20	3	1021	7	6.86	0.067	1	30	Qué llevar en la bolsa del hospital: lista práctica y minimalista	body_under_1050_words,elevated_h2_density,repeated_no_necesitas_pattern	content/articles/es/020-bolsa-hospital-lista-practica-minimalista.json
-es	62	3	703	4	5.69	0.0	0	15	Lactancia y pareja: formas concretas de apoyar sin invadir ni dirigir	body_under_800_words,many_question_paragraphs	content/articles/es/062-lactancia-pareja-como-apoyar-sin-dirigir.json
-es	64	3	673	4	5.94	0.0	0	15	Vuelta al trabajo y lactancia: cómo organizar la logística sin convertirla en otro trabajo	body_under_800_words,elevated_h2_density	content/articles/es/064-vuelta-trabajo-lactancia-organizar-logistica.json
-es	65	3	661	4	6.05	0.0	0	15	Destete respetuoso: cómo plantear el cambio con conexión y límites	body_under_800_words,elevated_h2_density	content/articles/es/065-destete-respetuoso-conexion-limites.json
-es	66	3	667	4	6.0	0.0	0	15	Alimentación nocturna y reparto en pareja: cómo organizarse cuando el bebé se despierta	body_under_800_words,elevated_h2_density	content/articles/es/066-alimentacion-nocturna-reparto-pareja.json
-es	68	3	683	4	5.86	0.0	0	17	Picky eating: cómo reducir las batallas en la mesa	body_under_800_words,elevated_h2_density	content/articles/es/068-picky-eating-reducir-batallas-mesa.json
-es	69	3	651	4	6.14	0.059	1	17	Cómo presentar alimentos nuevos sin presión ni sobornos	body_under_800_words,elevated_h2_density	content/articles/es/069-presentar-alimentos-nuevos-sin-presion-sobornos.json
 es	74	3	671	4	5.96	0.0	0	16	Rutina de salida por la mañana: cómo salir de casa con niños sin empezar el día gritando	body_under_800_words,elevated_h2_density	content/articles/es/074-rutina-salida-manana-sin-gritos.json
 es	77	3	781	4	5.12	0.0	0	18	Accidentes durante el potty training: cómo responder sin vergüenza ni castigos	body_under_800_words,many_question_paragraphs	content/articles/es/077-accidentes-potty-training-sin-verguenza-castigos.json
 es	143	3	674	4	5.93	0.0	0	14	Cómo reducir progresivamente la ayuda para dormir sin dejar de acompañar	body_under_800_words,elevated_h2_density	content/articles/es/143-reducir-ayuda-dormir-sin-dejar-acompanar.json
@@ -241,10 +229,7 @@ en	49	2	750	4	5.33	0.0	0	20	How to Take Care of Your Relationship After Kids Wit
 en	50	2	763	4	5.24	0.05	1	20	How to Set Boundaries With Grandparents and Family Without Breaking the Relationship	body_under_800_words	content/articles/en/050-boundaries-with-grandparents-without-breaking-relationship.json
 en	51	2	918	4	4.36	0.0	0	14	Postpartum Visitors: How to Set Boundaries That Protect Your New Family	body_under_1050_words,many_long_paragraphs	content/articles/en/051-postpartum-visitors-boundaries.json
 en	59	2	779	4	5.13	0.0	0	18	Baby nursery ideas for a practical, calm space that can grow	body_under_800_words	content/articles/en/059-baby-nursery-practical-calm-space-that-grows.json
-en	61	2	730	4	5.48	0.0	0	15	How to create a practical breastfeeding corner without buying unnecessary gear	body_under_800_words	content/articles/en/061-practical-breastfeeding-corner-without-unnecessary-gear.json
-en	63	2	738	4	5.42	0.0	0	15	Breastfeeding in public: practical ways to feel more comfortable and prepared	body_under_800_words	content/articles/en/063-breastfeeding-in-public-feel-comfortable-prepared.json
-en	66	2	693	4	5.77	0.0	0	16	Night feeding and sharing the load: how couples can organize baby wake-ups	body_under_800_words	content/articles/en/066-night-feeding-share-load-partner.json
-en	67	2	715	4	5.59	0.0	0	16	How to organize family meals when you have a toddler	body_under_800_words	content/articles/en/067-organize-family-meals-with-toddler.json
+en	61	2	887	4	4.51	0.0	0	14	How to create a practical breastfeeding corner without buying unnecessary gear	body_under_1050_words,many_long_paragraphs	content/articles/en/061-practical-breastfeeding-corner-without-unnecessary-gear.json
 en	72	2	782	4	5.12	0.0	0	17	When kids throw food: how to respond without turning the table into a battle	body_under_800_words	content/articles/en/072-child-throws-food-without-mealtime-battle.json
 en	73	2	791	4	5.06	0.0	0	17	Eating out with toddlers: how to make restaurants easier	body_under_800_words	content/articles/en/073-eating-out-with-toddlers-easier.json
 en	75	2	773	4	5.17	0.0	0	18	After daycare or school: how to build a calmer coming-home routine	body_under_800_words	content/articles/en/075-after-school-daycare-home-routine.json
@@ -350,10 +335,6 @@ es	48	2	732	4	5.46	0.0	0	19	Paternidad implicada desde el principio: formas real
 es	49	2	777	4	5.15	0.0	0	20	Cómo cuidar la relación de pareja después de tener hijos sin añadir otra obligación	body_under_800_words	content/articles/es/049-cuidar-relacion-pareja-despues-hijos.json
 es	50	2	778	4	5.14	0.05	1	20	Cómo poner límites a abuelos y familiares sin romper la relación	body_under_800_words	content/articles/es/050-limites-abuelos-familiares-sin-romper-relacion.json
 es	51	2	911	4	4.39	0.0	0	14	Visitas después del parto: cómo establecer límites que protejan a la nueva familia	body_under_1050_words,many_long_paragraphs	content/articles/es/051-visitas-despues-parto-limites.json
-es	61	2	793	4	5.04	0.0	0	15	Cómo crear un rincón de lactancia práctico sin comprar accesorios innecesarios	body_under_800_words	content/articles/es/061-rincon-lactancia-practico-sin-accesorios-innecesarios.json
-es	63	2	723	4	5.53	0.0	0	15	Dar el pecho en público: ideas para sentirte más cómoda y preparada	body_under_800_words	content/articles/es/063-dar-pecho-publico-sentirte-comoda-preparada.json
-es	67	2	726	4	5.51	0.0	0	16	Cómo organizar las comidas familiares cuando hay un toddler en casa	body_under_800_words	content/articles/es/067-organizar-comidas-familiares-toddler.json
-es	70	2	709	4	5.64	0.0	0	16	Postres y dulces: cómo poner límites sin convertirlos en premio	body_under_800_words	content/articles/es/070-postres-dulces-limites-sin-premio.json
 es	71	2	777	4	5.15	0.0	0	17	Snacks para niños: cómo crear una rutina que no sustituya constantemente las comidas	body_under_800_words	content/articles/es/071-snacks-ninos-rutina-sin-sustituir-comidas.json
 es	72	2	736	4	5.43	0.0	0	17	Niños que tiran la comida: cómo responder sin montar una batalla en la mesa	body_under_800_words	content/articles/es/072-ninos-tiran-comida-sin-batalla-mesa.json
 es	73	2	741	4	5.4	0.0	0	17	Comer fuera con toddlers: cómo hacerlo más llevadero	body_under_800_words	content/articles/es/073-comer-fuera-toddlers-mas-llevadero.json
@@ -470,6 +451,15 @@ en	56	1	825	4	4.85	0.0	0	15	Baby diaper bag essentials: what you actually need f
 en	57	1	879	4	4.55	0.0	0	18	How to dress a newborn without buying a closet full of clothes	body_under_1050_words	content/articles/en/057-dress-newborn-without-buying-too-many-clothes.json
 en	58	1	808	4	4.95	0.0	0	18	What to buy before the baby arrives — and what can wait	body_under_1050_words	content/articles/en/058-what-to-buy-before-baby-arrives-what-can-wait.json
 en	60	1	868	4	4.61	0.0	0	19	Modern baby shower ideas that do not feel like the same party every time	body_under_1050_words	content/articles/en/060-modern-baby-shower-ideas-different.json
+en	62	1	849	4	4.71	0.0	0	15	Breastfeeding and partners: practical ways to support without taking over	body_under_1050_words	content/articles/en/062-breastfeeding-partner-support-without-taking-over.json
+en	63	1	844	4	4.74	0.0	0	15	Breastfeeding in public: practical ways to feel more comfortable and prepared	body_under_1050_words	content/articles/en/063-breastfeeding-in-public-feel-comfortable-prepared.json
+en	64	1	890	4	4.49	0.0	0	16	Returning to work while breastfeeding: organize the logistics without creating a second job	body_under_1050_words	content/articles/en/064-return-to-work-breastfeeding-logistics.json
+en	65	1	862	4	4.64	0.0	0	15	Respectful weaning: how to make changes with connection and clear boundaries	body_under_1050_words	content/articles/en/065-respectful-weaning-connection-boundaries.json
+en	66	1	881	4	4.54	0.0	0	16	Night feeding and sharing the load: how couples can organize baby wake-ups	body_under_1050_words	content/articles/en/066-night-feeding-share-load-partner.json
+en	67	1	834	4	4.8	0.0	0	16	How to organize family meals when you have a toddler	body_under_1050_words	content/articles/en/067-organize-family-meals-with-toddler.json
+en	68	1	838	4	4.77	0.0	0	16	Picky eating: how to reduce battles at the table	body_under_1050_words	content/articles/en/068-picky-eating-reduce-mealtime-battles.json
+en	69	1	831	4	4.81	0.0	0	18	How to introduce new foods without pressure or bribes	body_under_1050_words	content/articles/en/069-introduce-new-foods-without-pressure-bribes.json
+en	70	1	905	4	4.42	0.0	0	15	Desserts and sweets: how to set limits without turning them into a reward	body_under_1050_words	content/articles/en/070-desserts-sweets-boundaries-not-reward.json
 en	71	1	863	4	4.63	0.0	0	17	Kids’ snacks: how to build a routine that doesn’t constantly replace meals	body_under_1050_words	content/articles/en/071-kids-snack-routine-without-replacing-meals.json
 en	76	1	828	4	4.83	0.0	0	18	Potty training without pressure: practical signs it may be a good time	body_under_1050_words	content/articles/en/076-potty-training-readiness-without-pressure.json
 en	79	1	800	4	5.0	0.0	0	18	Potty training and daycare: how to coordinate expectations with caregivers	body_under_1050_words	content/articles/en/079-potty-training-daycare-coordinate-expectations.json
@@ -538,6 +528,16 @@ es	57	1	851	4	4.7	0.0	0	18	Cómo vestir a un recién nacido sin llenar el armari
 es	58	1	805	4	4.97	0.0	0	18	Qué comprar antes de que nazca el bebé y qué puede esperar	body_under_1050_words	content/articles/es/058-que-comprar-antes-nazca-bebe-que-puede-esperar.json
 es	59	1	804	4	4.98	0.0	0	18	Habitación del bebé: cómo crear un espacio práctico, calmado y duradero	body_under_1050_words	content/articles/es/059-habitacion-bebe-espacio-practico-calmado-duradero.json
 es	60	1	882	4	4.54	0.0	0	19	Baby shower: ideas actuales para celebrarlo sin que parezca siempre lo mismo	body_under_1050_words	content/articles/es/060-baby-shower-ideas-actuales-diferentes.json
+es	61	1	830	4	4.82	0.0	0	14	Cómo crear un rincón de lactancia práctico sin comprar accesorios innecesarios	body_under_1050_words	content/articles/es/061-rincon-lactancia-practico-sin-accesorios-innecesarios.json
+es	62	1	836	4	4.78	0.0	0	15	Lactancia y pareja: formas concretas de apoyar sin invadir ni dirigir	body_under_1050_words	content/articles/es/062-lactancia-pareja-como-apoyar-sin-dirigir.json
+es	63	1	801	4	4.99	0.0	0	15	Dar el pecho en público: ideas para sentirte más cómoda y preparada	body_under_1050_words	content/articles/es/063-dar-pecho-publico-sentirte-comoda-preparada.json
+es	64	1	863	4	4.63	0.0	0	16	Vuelta al trabajo y lactancia: cómo organizar la logística sin convertirla en otro trabajo	body_under_1050_words	content/articles/es/064-vuelta-trabajo-lactancia-organizar-logistica.json
+es	65	1	879	4	4.55	0.0	0	17	Destete respetuoso: cómo plantear el cambio con conexión y límites	body_under_1050_words	content/articles/es/065-destete-respetuoso-conexion-limites.json
+es	66	1	837	4	4.78	0.0	0	16	Alimentación nocturna y reparto en pareja: cómo organizarse cuando el bebé se despierta	body_under_1050_words	content/articles/es/066-alimentacion-nocturna-reparto-pareja.json
+es	67	1	842	4	4.75	0.0	0	17	Cómo organizar las comidas familiares cuando hay un toddler en casa	body_under_1050_words	content/articles/es/067-organizar-comidas-familiares-toddler.json
+es	68	1	838	4	4.77	0.0	0	17	Picky eating: cómo reducir las batallas en la mesa	body_under_1050_words	content/articles/es/068-picky-eating-reducir-batallas-mesa.json
+es	69	1	800	4	5.0	0.0	0	18	Cómo presentar alimentos nuevos sin presión ni sobornos	body_under_1050_words	content/articles/es/069-presentar-alimentos-nuevos-sin-presion-sobornos.json
+es	70	1	903	4	4.43	0.0	0	15	Postres y dulces: cómo poner límites sin convertirlos en premio	body_under_1050_words	content/articles/es/070-postres-dulces-limites-sin-premio.json
 es	81	1	890	5	5.62	0.0	0	19	Cómo pasar del orinal al inodoro con una transición gradual	body_under_1050_words	content/articles/es/081-transicion-orinal-inodoro-gradual.json
 es	92	1	911	5	5.49	0.0	0	17	Cómo organizar mañanas de preschool sin prisas constantes	body_under_1050_words	content/articles/es/092-mananas-preschool-sin-prisas.json
 es	93	1	914	5	5.47	0.0	0	17	Viajar en avión con un bebé: organización, equipaje y expectativas realistas	body_under_1050_words	content/articles/es/093-viajar-avion-bebe-organizacion-equipaje.json

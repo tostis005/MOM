@@ -4,31 +4,31 @@
     "by_language": {
       "es": {
         "count": 300,
-        "avg_words": 798.0,
-        "median_words": 755,
+        "avg_words": 802.8,
+        "median_words": 767,
         "avg_h2": 4.64,
         "avg_short_para_ratio": 0.017,
         "risk_7_plus": 0,
         "risk_5_6": 13,
-        "risk_3_4": 99,
-        "risk_0_2": 188
+        "risk_3_4": 93,
+        "risk_0_2": 194
       },
       "en": {
         "count": 300,
-        "avg_words": 795.4,
-        "median_words": 775,
+        "avg_words": 801.0,
+        "median_words": 786,
         "avg_h2": 4.6,
-        "avg_short_para_ratio": 0.019,
+        "avg_short_para_ratio": 0.018,
         "risk_7_plus": 0,
         "risk_5_6": 17,
-        "risk_3_4": 96,
-        "risk_0_2": 187
+        "risk_3_4": 90,
+        "risk_0_2": 193
       }
     },
     "exact_repeated_paragraphs": 0,
     "repeated_h2_patterns": 0,
     "repeated_opening_patterns": 0,
-    "common_6grams_6plus_articles": 27
+    "common_6grams_6plus_articles": 25
   },
   "highest_risk": [
     {
@@ -5254,40 +5254,41 @@
       "translation_group": "061-practical-breastfeeding-corner",
       "language": "en",
       "title": "How to create a practical breastfeeding corner without buying unnecessary gear",
-      "words": 730,
-      "paragraphs": 15,
+      "words": 887,
+      "paragraphs": 14,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.48,
+      "h2_density_per_1000_words": 4.51,
       "h2s": [
-        "Start with the seat you would choose anyway",
-        "Keep the nearby essentials genuinely essential",
-        "Make the setup easy for another adult to support",
-        "Let the final version emerge after the baby arrives"
+        "Choose the seat by testing the whole movement, not the photograph",
+        "Stock repeated needs, not imagined emergencies",
+        "Design the corner so support does not require instructions",
+        "Let the final version emerge from real life"
       ],
       "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 46.5,
+      "bold_spans": 2,
+      "avg_paragraph_words": 60.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.067,
-      "long_paragraphs": 1,
+      "question_paragraph_ratio": 0.143,
+      "long_paragraphs": 4,
       "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 1,
-        "puede": 6,
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 18,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Before a baby arrives, it is easy to treat every future routine as a shopping category. A feeding corner can quickly become a glider, cart, special pillow, side table, lamp, basket system, snack bin, bottle holder, and several things you have never used but have been told you might need.",
-      "opening_14_words": "Before a baby arrives it is easy to treat every future routine as a",
-      "intro_3_paragraphs": "Before a baby arrives, it is easy to treat every future routine as a shopping category. A feeding corner can quickly become a glider, cart, special pillow, side table, lamp, basket system, snack bin, bottle holder, and several things you have never used but have been told you might need. The more useful question is simpler: where will you actually sit when you are tired and already holding the baby? A practical breastfeeding or feeding corner is a comfortable landing place, not a miniature command center. Walk through the moment in your head. It is late, the baby needs feeding, and you do not want to rearrange the room first. The best spot may be your existing couch, the chair beside your bed, or a regular armchair with decent back support.",
-      "last_h2": "Let the final version emerge after the baby arrives",
-      "ending_3_paragraphs": "It is also worth designing for the near future. In a few weeks the baby may be awake more, you may feed in another room, or the corner may stop being a dedicated feeding space. Furniture and objects that remain useful after this stage keep a short season from leaving behind a pile of single-purpose gear. Set up a simple base before birth and leave room to change it. You may discover the expensive-looking solution you imagined is irrelevant, while an old side table moved six feet becomes indispensable. Being prepared does not require predicting every need. Sometimes preparation means making it easy to notice what is missing and solve that one thing. The best feeding corner is often the one you stop thinking about because it quietly works.",
+      "opening": "Before a baby arrives, it is easy to turn every future routine into a shopping category. A feeding corner can quickly become a glider, cart, special pillow, side table, lamp, baskets, snack containers and several things you have never used but have been told you might need. The result can look beautifully prepared while still missing the one thing that matters at 2 a.m.: a place where you can sit down comfortably without arranging the room first.",
+      "opening_14_words": "Before a baby arrives it is easy to turn every future routine into a",
+      "intro_3_paragraphs": "Before a baby arrives, it is easy to turn every future routine into a shopping category. A feeding corner can quickly become a glider, cart, special pillow, side table, lamp, baskets, snack containers and several things you have never used but have been told you might need. The result can look beautifully prepared while still missing the one thing that matters at 2 a.m.: a place where you can sit down comfortably without arranging the room first. A practical breastfeeding or feeding corner is less a collection of products than a small piece of household design. It should reduce repeated friction: reaching, getting up, searching, balancing a drink, finding a charger, or asking someone else to bring the same thing again. Start with where you would naturally go when you are tired and already holding the baby. That may be the chair beside your bed, one end of the couch or an ordinary armchair you already own. Sit there as if you were going to stay for a while. Can you support your back? Is there somewhere for your feet if you like that? Can you change position without moving three objects first?",
+      "last_h2": "Let the final version emerge from real life",
+      "ending_3_paragraphs": "Prepare a simple base before birth if that feels reassuring, then resist the urge to finish the entire system in advance. Newborn life may happen somewhere different from the scene you imagined. You may prefer feeding in bed for part of the night and on the couch during the day. A side table borrowed from another room may become indispensable while an expensive accessory barely gets touched. It is also worth choosing objects that still make sense when this stage changes. A comfortable chair, useful lamp and small table can remain part of the room long after feeding stops being their main purpose. That is often a better investment than designing an elaborate station around a short period you have not lived yet. Being prepared does not require predicting every inconvenience. A better form of preparation is making it easy to notice a recurring problem and solve that one problem simply. The best feeding corner is often the one you stop noticing because sitting down, reaching what you need and getting back up all become ordinary.",
       "risk_score": 2,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words",
+        "many_long_paragraphs"
       ]
     },
     {
@@ -5296,41 +5297,40 @@
       "translation_group": "062-breastfeeding-partner-support",
       "language": "en",
       "title": "Breastfeeding and partners: practical ways to support without taking over",
-      "words": 684,
+      "words": 849,
       "paragraphs": 15,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.85,
+      "h2_density_per_1000_words": 4.71,
       "h2s": [
-        "Own the work around the feed",
-        "Listen before you troubleshoot",
-        "Avoid becoming the feeding scorekeeper",
-        "Build your own relationship with the baby"
+        "Own whole responsibilities around the feed",
+        "Listen before turning discomfort into a project",
+        "Do not become a scorekeeper or spokesperson",
+        "Build your own relationship with the baby and keep renegotiating"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 44.1,
+      "avg_paragraph_words": 54.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.133,
+      "question_paragraph_ratio": 0.067,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 0,
+        "no_significa": 1,
         "a_veces": 0,
-        "puede": 9,
+        "puede": 13,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Breastfeeding can create an odd division of labor at first. One parent has a job the other cannot perform in exactly the same way, while the other wants to help and may not know what counts. That uncertainty can lead to checking out completely or, at the other extreme, becoming an enthusiastic manager of somebody else's body and feeding decisions.",
-      "opening_14_words": "Breastfeeding can create an odd division of labor at first One parent has a",
-      "intro_3_paragraphs": "Breastfeeding can create an odd division of labor at first. One parent has a job the other cannot perform in exactly the same way, while the other wants to help and may not know what counts. That uncertainty can lead to checking out completely or, at the other extreme, becoming an enthusiastic manager of somebody else's body and feeding decisions. There is a much more useful middle ground. Support means taking weight off the breastfeeding parent, not taking ownership of breastfeeding away from them. Diaper changes, laundry, meals, dishes, visitors, older children, refilling water, bringing a snack, burping or settling the baby when that fits your routine—none of these require permission every single time. They become meaningful support when one adult sees them and completes them.",
-      "last_h2": "Build your own relationship with the baby",
-      "ending_3_paragraphs": "The same applies to visitors. Instead of waiting until the breastfeeding parent is visibly exhausted before ending a visit, a partner can remember the agreed time and bring the visit to a close. Small acts like that change the experience from “I have help available” to “I am not carrying all of this alone.” The non-feeding parent has many ways to become a familiar, trusted caregiver: holding, soothing, bathing, walking, playing, changing, and taking responsibility for parts of the day. Bonding does not require both parents to perform the same task. The goal is not to become the assistant to the breastfeeding parent. It is to become a full parent who notices, owns, and completes a meaningful share of family life. That is support without taking over.",
-      "risk_score": 3,
+      "opening": "Breastfeeding can create an unusual division of labor. One parent is doing something the other cannot perform in exactly the same way, and the non-feeding parent may be unsure where their role begins. That uncertainty can produce two unhelpful extremes: stepping back because “there is nothing I can do,” or becoming a highly involved supervisor of somebody else’s body, timing and feeding choices.",
+      "opening_14_words": "Breastfeeding can create an unusual division of labor One parent is doing something the",
+      "intro_3_paragraphs": "Breastfeeding can create an unusual division of labor. One parent is doing something the other cannot perform in exactly the same way, and the non-feeding parent may be unsure where their role begins. That uncertainty can produce two unhelpful extremes: stepping back because “there is nothing I can do,” or becoming a highly involved supervisor of somebody else’s body, timing and feeding choices. Useful support sits between those extremes. It takes weight off the breastfeeding parent without taking ownership of breastfeeding away from them. The difference is less about having the right advice and more about who notices, decides and completes the rest of family life. There is a great deal of work that does not require breastfeeding: diaper changes, meals, laundry, dishes, older children, visitors, refilling water, getting the baby settled afterward and keeping track of ordinary household needs. These tasks become meaningful support when the other adult owns them rather than waiting to be assigned them one by one.",
+      "last_h2": "Build your own relationship with the baby and keep renegotiating",
+      "ending_3_paragraphs": "That independence also makes breastfeeding support stronger. If one parent can take the baby after a feed and settle them without needing step-by-step instructions, the breastfeeding parent gets a genuine handoff rather than a new management role. Check in as the weeks change. What helped in the first week may be irrelevant later. Perhaps meals were the biggest problem initially and now sleep or visitors are. The goal is not to memorize a permanent helper list; it is to share responsibility for noticing what the household needs now. The strongest version of support is not “I will help with breastfeeding.” It is “I am a full parent and partner, and I will carry a meaningful share of everything that surrounds it.” That leaves the breastfeeding parent with more room to experience feeding as their own, rather than as a task they must perform while continuing to manage everybody else.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -5339,19 +5339,19 @@
       "translation_group": "063-breastfeeding-in-public-comfort",
       "language": "en",
       "title": "Breastfeeding in public: practical ways to feel more comfortable and prepared",
-      "words": 738,
+      "words": 844,
       "paragraphs": 15,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.42,
+      "h2_density_per_1000_words": 4.74,
       "h2s": [
-        "Choose an easy first setting",
-        "Wear something you can actually manage",
-        "The right companion can make the moment feel ordinary",
-        "Confidence usually arrives after several uneventful feeds"
+        "Make the first outings easy on purpose",
+        "Test clothing and access before you need them",
+        "Use company and surroundings as practical support",
+        "Let confidence come from uneventful repetition"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 47.4,
+      "avg_paragraph_words": 54.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -5359,20 +5359,20 @@
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
-        "no_significa": 2,
+        "no_significa": 1,
         "a_veces": 0,
-        "puede": 14,
+        "puede": 13,
         "importante": 0,
         "clave": 0
       },
-      "opening": "At home, feeding may happen in a familiar chair with familiar clothes and no need to wonder who is nearby. Out in the world, the same ordinary task can suddenly include a cramped booth, a coat that will not cooperate, a hungry baby, and the feeling that you are unusually visible.",
+      "opening": "At home, feeding may happen in a familiar chair with familiar clothes and no need to think about who is nearby. Away from home, the same ordinary task can suddenly include a cramped booth, a coat that will not cooperate, a hungry baby and the feeling that you are unusually visible. The mechanics have not changed much, but the setting has.",
       "opening_14_words": "At home feeding may happen in a familiar chair with familiar clothes and no",
-      "intro_3_paragraphs": "At home, feeding may happen in a familiar chair with familiar clothes and no need to wonder who is nearby. Out in the world, the same ordinary task can suddenly include a cramped booth, a coat that will not cooperate, a hungry baby, and the feeling that you are unusually visible. It often gets easier through repetition rather than through a sudden burst of confidence. Being comfortable breastfeeding in public does not mean you must feel equally relaxed in every setting; it means finding a way to feed that does not consume the whole outing. Your first feed away from home does not need to happen in the busiest restaurant you know. A quiet coffee shop, a friend's house, a familiar park, or a short local outing gives you a chance to practice the mechanics without adding unnecessary pressure.",
-      "last_h2": "Confidence usually arrives after several uneventful feeds",
-      "ending_3_paragraphs": "After a few outings, review what actually helped. Maybe sitting with your back to the room made a difference. Maybe leaving home shortly after a feed gave you more flexibility. Or maybe the biggest shift was simply realizing you could feed the baby and continue a normal conversation. Confidence often grows through ordinary details like these. The first public feed may take all of your attention. A few outings later, it may become something that happens while the rest of the day keeps moving. You do not have to wait until you feel fearless to leave the house. Small, ordinary experiences can build the confidence you were waiting for. The practical goal is simple: feeding the baby should not become the reason your world has to stay smaller than you want it to be.",
-      "risk_score": 2,
+      "intro_3_paragraphs": "At home, feeding may happen in a familiar chair with familiar clothes and no need to think about who is nearby. Away from home, the same ordinary task can suddenly include a cramped booth, a coat that will not cooperate, a hungry baby and the feeling that you are unusually visible. The mechanics have not changed much, but the setting has. Feeling comfortable breastfeeding in public does not mean becoming fearless or equally relaxed everywhere. It means building enough practical confidence that feeding the baby does not consume the whole outing or become the reason you stay home when you would rather go out. Your first feed away from home does not need to happen in the busiest restaurant you know. A friend's house, a quiet coffee shop, a familiar park or a short local trip gives you room to practice the ordinary logistics: where to sit, what to do with the bag, how your clothes move and what your baby seems to need in a different environment.",
+      "last_h2": "Let confidence come from uneventful repetition",
+      "ending_3_paragraphs": "One difficult outing is information, not a verdict. Maybe the baby was unsettled, the chair was terrible or the outfit was awkward. Next time can be shorter, somewhere else or with different clothing. You do not have to decide after one uncomfortable feed that public breastfeeding is simply not for you. After several outings, notice what actually reduced friction. Perhaps leaving shortly after a feed gave you more flexibility. Maybe a certain seat worked better. Maybe the biggest change was realizing you could feed the baby while continuing a normal conversation and then carry on with the day. You do not need to wait until you feel completely confident before leaving the house. Confidence often arrives after a series of ordinary feeds in which nothing dramatic happens. The useful end point is not feeling invisible; it is no longer organizing your whole world around the fear that feeding might be needed while you are out.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -5381,24 +5381,24 @@
       "translation_group": "064-return-to-work-breastfeeding-logistics",
       "language": "en",
       "title": "Returning to work while breastfeeding: organize the logistics without creating a second job",
-      "words": 665,
-      "paragraphs": 15,
+      "words": 890,
+      "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.02,
+      "h2_density_per_1000_words": 4.49,
       "h2s": [
-        "Map the whole loop",
+        "Map the whole daily loop before you optimize it",
         "Share every task that does not require breastfeeding",
-        "Protect the morning from avoidable decisions",
-        "Design for change, not perfection"
+        "Protect mornings by doing less, not by doing everything perfectly",
+        "Let the system change with work, caregivers, and the baby"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 42.8,
+      "avg_paragraph_words": 53.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.133,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.188,
+      "long_paragraphs": 1,
       "phrase_counts": {
         "no_necesitas": 1,
         "no_significa": 0,
@@ -5407,15 +5407,14 @@
         "importante": 1,
         "clave": 0
       },
-      "opening": "Advice about breastfeeding and returning to work can make the transition sound like a container problem: buy the right gear, create the right schedule, and everything will click into place. In real life, much of the strain comes from the edges of the system—what must be remembered at night, what goes to child care, what comes back, and who notices what is missing.",
-      "opening_14_words": "Advice about breastfeeding and returning to work can make the transition sound like a",
-      "intro_3_paragraphs": "Advice about breastfeeding and returning to work can make the transition sound like a container problem: buy the right gear, create the right schedule, and everything will click into place. In real life, much of the strain comes from the edges of the system—what must be remembered at night, what goes to child care, what comes back, and who notices what is missing. The logistics are more sustainable when the household treats them as shared family infrastructure, not as a private project attached to the breastfeeding parent. Start the night before and follow every item through the next day. What leaves home? Where does it go? Who carries it? What comes back? What needs cleaning? What needs to be ready again? Seeing the full loop often reveals steps that can be removed or owned by somebody else.",
-      "last_h2": "Design for change, not perfection",
-      "ending_3_paragraphs": "It can also help to define a minimum version of the routine for hard days. After a terrible night or a late evening, everything does not need to be perfectly reset. Decide what absolutely has to be ready for tomorrow and what can wait. Knowing what is optional is a powerful part of a sustainable system. Returning to work is already a major transition. Feeding logistics may change as work hours, commuting, caregivers, and family preferences change. Your first system is allowed to be temporary. A good setup is not one that never breaks. It is one that can recover from an unusual day without requiring one exhausted person to rebuild the whole system. That is the kind of efficiency worth aiming for.",
-      "risk_score": 3,
+      "opening": "Returning to work while breastfeeding can look like one practical problem from the outside: make sure milk and feeding supplies get where they need to go. In daily life, the strain usually comes from the chain around that goal. Something has to be prepared, packed, carried, stored, brought home, washed, reset, and remembered again the next morning. When all of those small steps live in one person's head, the system can feel like a second job attached to the first.",
+      "opening_14_words": "Returning to work while breastfeeding can look like one practical problem from the outside",
+      "intro_3_paragraphs": "Returning to work while breastfeeding can look like one practical problem from the outside: make sure milk and feeding supplies get where they need to go. In daily life, the strain usually comes from the chain around that goal. Something has to be prepared, packed, carried, stored, brought home, washed, reset, and remembered again the next morning. When all of those small steps live in one person's head, the system can feel like a second job attached to the first. The most sustainable setup treats feeding logistics as shared family infrastructure, not as a private project belonging to the breastfeeding parent. The bodily part may be theirs, but much of the organizing work around it can be designed, owned, and completed by other people. Start the night before and follow the items through the next day. What needs to leave home? Where will it go at work or with a caregiver? Who carries it? What returns at the end of the day? What needs washing, drying, labeling, charging, or putting back in one place? Seeing the whole loop often reveals more than buying another organizer.",
+      "last_h2": "Let the system change with work, caregivers, and the baby",
+      "ending_3_paragraphs": "Returning to work is already a major transition. Commutes change, meetings move, caregivers develop their own routines, and what the baby needs from day to day does not stay fixed. Your first organization is allowed to be temporary. Pay attention to where frustration accumulates. If one parent repeatedly asks, “Where is X?” the storage system may not be shared. If the breastfeeding parent is still sending every reminder, the task may be divided while the management is not. If the bag is always overpacked, the solution may be removing things rather than adding another compartment. A good system is not one that never breaks. It is one that can absorb a late meeting, a forgotten item, or a hard evening without requiring one exhausted person to rebuild the entire routine. That kind of flexibility is what turns breastfeeding-and-work logistics from a daily project into a background system the family can actually live with.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -5424,41 +5423,40 @@
       "translation_group": "065-respectful-weaning-connection-boundaries",
       "language": "en",
       "title": "Respectful weaning: how to make changes with connection and clear boundaries",
-      "words": 675,
+      "words": 862,
       "paragraphs": 15,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.93,
+      "h2_density_per_1000_words": 4.64,
       "h2s": [
-        "Decide what you are actually trying to change",
-        "A warm boundary is still a boundary",
-        "Expect the process to bend",
-        "The breastfeeding parent belongs in the decision too"
+        "Define the change before you call it “weaning”",
+        "Use warm, repeatable boundaries instead of long explanations",
+        "Expect mixed feelings and a process that bends",
+        "The breastfeeding parent's needs belong in the decision"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 43.1,
+      "avg_paragraph_words": 55.3,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 1,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 1,
-        "a_veces": 1,
-        "puede": 11,
+        "a_veces": 0,
+        "puede": 19,
         "importante": 0,
         "clave": 0
       },
-      "opening": "“Respectful weaning” can sound like a standard you have to pass: the child must decide when it ends, nobody should be upset, and the breastfeeding parent should remain available until the transition happens on its own. That definition leaves one person's needs out of a two-person relationship.",
-      "opening_14_words": "Respectful weaning can sound like a standard you have to pass the child must",
-      "intro_3_paragraphs": "“Respectful weaning” can sound like a standard you have to pass: the child must decide when it ends, nobody should be upset, and the breastfeeding parent should remain available until the transition happens on its own. That definition leaves one person's needs out of a two-person relationship. Respectful weaning is not the absence of limits. It is making changes without treating the child's feelings about those changes as a problem to eliminate. You may not want to stop breastfeeding entirely. Maybe one feed has become difficult, you want more boundaries at certain times, or you are ready to reduce how often you offer. Naming the specific change keeps the process from feeling like an all-or-nothing leap.",
-      "last_h2": "The breastfeeding parent belongs in the decision too",
-      "ending_3_paragraphs": "Keep the language and limits simple enough to repeat when you are tired. If the plan only works when you have exceptional patience, it may be too complicated. A warm boundary you can actually hold on an ordinary day is more useful than a perfect script that collapses after three attempts. Wanting more bodily space, sleep, or simply an ending to a stage is a real need. You do not have to build a legal case for why you are allowed to change the relationship. The goal is not to make sure the child has no feelings about weaning. The goal is to let the feelings happen inside a relationship that remains safe, responsive, and connected while the pattern changes.",
-      "risk_score": 3,
+      "opening": "“Respectful weaning” can accidentally sound like a rule that the breastfeeding parent is not allowed to initiate change. The child should decide when every feed ends, nobody should become upset, and any limit risks being interpreted as a failure of connection. That definition leaves one person's needs out of a relationship that involves two people.",
+      "opening_14_words": "Respectful weaning can accidentally sound like a rule that the breastfeeding parent is not",
+      "intro_3_paragraphs": "“Respectful weaning” can accidentally sound like a rule that the breastfeeding parent is not allowed to initiate change. The child should decide when every feed ends, nobody should become upset, and any limit risks being interpreted as a failure of connection. That definition leaves one person's needs out of a relationship that involves two people. Respectful weaning does not mean the absence of boundaries. It means making changes without treating the child's feelings about those changes as something that must be prevented or silenced. A child can be disappointed, a parent can be ready for something different, and the relationship can remain warm and secure while the pattern changes. You may not want to stop breastfeeding entirely. Perhaps one particular feed has become draining, you want more bodily space at a certain time of day, or you are ready to reduce how often breastfeeding is the automatic response. Naming the specific change keeps the process from becoming an all-or-nothing decision.",
+      "last_h2": "The breastfeeding parent's needs belong in the decision",
+      "ending_3_paragraphs": "Wanting more sleep, more bodily space, fewer feeds, or simply an ending to a stage is a legitimate reason to make a change. You do not need an extraordinary justification. Breastfeeding is a relationship, and one person's body is directly involved in it. It can help to check the plan against ordinary life. Can you repeat the language when you are tired? Does the new routine work on a normal weekday, not only on a calm weekend? Does another caregiver understand what you are trying to change? A simple boundary you can actually hold is more useful than a perfect script that collapses under stress. The goal of respectful weaning is not a child who never feels disappointed. It is a transition in which the child can have feelings, the parent can have limits, and both remain connected while a familiar pattern changes. Respect belongs to both people in the relationship.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -5467,40 +5465,40 @@
       "translation_group": "066-night-feeding-sharing-partner",
       "language": "en",
       "title": "Night feeding and sharing the load: how couples can organize baby wake-ups",
-      "words": 693,
+      "words": 881,
       "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.77,
+      "h2_density_per_1000_words": 4.54,
       "h2s": [
-        "Break a wake-up into its actual jobs",
-        "Protect real blocks of sleep",
-        "Renegotiate before resentment becomes the system",
-        "Nighttime care belongs to the family"
+        "Break one wake-up into the jobs it actually contains",
+        "Protect real blocks of sleep and recovery",
+        "Plan for bad nights before you are living one",
+        "Renegotiate as the baby and the household change"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 41.8,
+      "avg_paragraph_words": 52.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.062,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
         "no_significa": 0,
-        "a_veces": 1,
-        "puede": 12,
+        "a_veces": 2,
+        "puede": 16,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Nights with a baby can turn into exhausted scorekeeping: who got up, who slept thirty minutes longer, who has work in the morning, and whose turn it was supposed to be. When one parent breastfeeds, the pattern can feel decided before the conversation even happens: you are already awake, so you might as well do the rest.",
-      "opening_14_words": "Nights with a baby can turn into exhausted scorekeeping who got up who slept",
-      "intro_3_paragraphs": "Nights with a baby can turn into exhausted scorekeeping: who got up, who slept thirty minutes longer, who has work in the morning, and whose turn it was supposed to be. When one parent breastfeeds, the pattern can feel decided before the conversation even happens: you are already awake, so you might as well do the rest. That assumption is not inevitable. Sharing nights does not require splitting every minute exactly in half. It means sleep loss and responsibility should not automatically belong to the same person every night. Someone notices the baby, gets up, prepares whatever your feeding setup requires, changes the baby when needed, feeds, resettles, puts things away, and sometimes spends additional time soothing. Several of those tasks can be shared.",
-      "last_h2": "Nighttime care belongs to the family",
-      "ending_3_paragraphs": "One practical checkpoint is whether both adults can explain the night plan without asking the other person what happens next. If one parent still holds the whole map in their head, the tasks may be divided while the management is not. If one parent feeds, that parent is not automatically the household's permanent night manager. If the other parent takes a shift, they are not performing an exceptional favor; they are parenting through a demanding stage. A workable plan means neither person has to plead for permission to sleep. It may not be perfectly symmetrical, but it should be understandable, revisable, and fair enough that both adults still feel like they are on the same team.",
-      "risk_score": 2,
+      "opening": "Nights with a baby can turn into exhausted scorekeeping very quickly: who got up, who slept thirty minutes longer, who has work in the morning, and whose turn it was supposed to be. When one parent breastfeeds, the arrangement can feel decided before anybody discusses it. If you are already awake to feed, the logic goes, you may as well do the diaper, settling, cleanup, and early morning too.",
+      "opening_14_words": "Nights with a baby can turn into exhausted scorekeeping very quickly who got up",
+      "intro_3_paragraphs": "Nights with a baby can turn into exhausted scorekeeping very quickly: who got up, who slept thirty minutes longer, who has work in the morning, and whose turn it was supposed to be. When one parent breastfeeds, the arrangement can feel decided before anybody discusses it. If you are already awake to feed, the logic goes, you may as well do the diaper, settling, cleanup, and early morning too. Sharing the overnight load does not require splitting every minute exactly in half. It means sleep loss, vigilance, and responsibility should not automatically belong to the same person night after night. A fair plan can be asymmetrical and still create meaningful recovery for both adults. A baby waking is rarely one task. Someone notices, gets up, brings or prepares what the feeding setup requires, changes the baby when needed, feeds, burps or settles, puts things away, and sometimes spends additional time helping the baby return to sleep. Several of those jobs can be separated.",
+      "last_h2": "Renegotiate as the baby and the household change",
+      "ending_3_paragraphs": "A plan that worked during parental leave may stop working after a return to work. Wake-up patterns change. Feeding changes. One adult's schedule changes. An older child starts waking early. Treat the arrangement as something expected to evolve rather than a contract that proves who is reliable. Have the conversation before frustration becomes the only signal. Ask which stretch is hardest, who is functioning poorly, what task can move, and whether either person has become the default night manager without noticing. Sometimes a small shift—who handles the first wake-up, who gets the baby after a feed, who owns the morning—changes the whole experience. If one parent feeds, that parent is not automatically responsible for the entire night. If the other takes a shift, they are not performing an exceptional favor; they are parenting through a demanding stage. A workable plan is understandable, revisable, and fair enough that neither adult has to plead for permission to sleep.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -5509,19 +5507,19 @@
       "translation_group": "067-family-meals-with-toddler",
       "language": "en",
       "title": "How to organize family meals when you have a toddler",
-      "words": 715,
+      "words": 834,
       "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.59,
+      "h2_density_per_1000_words": 4.8,
       "h2s": [
-        "Build meals from shareable components",
-        "Let the schedule fit the household",
-        "Use repetition to reduce mental load",
-        "Dinner does not have to prove anything"
+        "Build one meal from components people can combine differently",
+        "Let timing fit the people who actually live in the house",
+        "Use repetition to reduce the mental load of dinner",
+        "Share the work that happens before and after the table"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 43.2,
+      "avg_paragraph_words": 49.7,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -5531,18 +5529,18 @@
         "no_necesitas": 0,
         "no_significa": 0,
         "a_veces": 1,
-        "puede": 17,
+        "puede": 21,
         "importante": 0,
         "clave": 0
       },
-      "opening": "With a toddler, dinner can become an impressive amount of project management. One adult is late, the child is hungry early, yesterday's favorite food is suddenly unacceptable, and somebody starts wondering whether to cook an entirely different meal.",
-      "opening_14_words": "With a toddler dinner can become an impressive amount of project management One adult",
-      "intro_3_paragraphs": "With a toddler, dinner can become an impressive amount of project management. One adult is late, the child is hungry early, yesterday's favorite food is suddenly unacceptable, and somebody starts wondering whether to cook an entirely different meal. A family meal does not require everyone to eat the same amount of the same foods at exactly the same time. It needs a structure that allows the household to eat without turning one adult into a short-order cook. Think in pieces rather than perfect plated meals: a main component, a familiar starch, vegetables, bread, fruit, toppings, or sides that can be combined differently. The toddler can interact with the same family food without every item having to be mixed together.",
-      "last_h2": "Dinner does not have to prove anything",
-      "ending_3_paragraphs": "Some dinners can also be deliberately unremarkable. They do not all need to introduce a new food, create a meaningful family conversation, and accomplish an educational goal. Sometimes serving dinner, eating what you can, cleaning up, and moving on is enough. Some nights will be pasta, sandwiches, leftovers, takeout, or a meal the toddler barely touches. One dinner does not define your child's relationship with food or your competence as a parent. The more useful goal is a repeatable table: food is offered, adults do not chase bites, and the toddler can participate without becoming the center of an ongoing negotiation. That kind of ordinary dinner is sustainable.",
-      "risk_score": 2,
+      "opening": "Family dinner with a toddler can become an impressive amount of project management. One adult is late, the child is hungry before everyone else, yesterday's favorite food is suddenly unacceptable, and somebody starts wondering whether to cook a second meal just to get the evening moving. The pressure to create a “proper family dinner” can make a normal weekday much harder than it needs to be.",
+      "opening_14_words": "Family dinner with a toddler can become an impressive amount of project management One",
+      "intro_3_paragraphs": "Family dinner with a toddler can become an impressive amount of project management. One adult is late, the child is hungry before everyone else, yesterday's favorite food is suddenly unacceptable, and somebody starts wondering whether to cook a second meal just to get the evening moving. The pressure to create a “proper family dinner” can make a normal weekday much harder than it needs to be. A family meal does not require everyone to eat the same amount of the same foods at exactly the same time. It needs a structure that lets the household eat without turning one adult into a short-order cook or making the toddler's appetite the measure of whether dinner succeeded. Think in shareable pieces rather than perfectly plated meals. A main component, a familiar starch, vegetables, bread, fruit, toppings, or side dishes can be placed on the table in ways that allow different family members to assemble slightly different plates without cooking separate dinners.",
+      "last_h2": "Share the work that happens before and after the table",
+      "ending_3_paragraphs": "If planning, shopping, cooking, serving, anticipating rejection, and cleaning all belong to one adult, that person may arrive at the table already irritated. The toddler can become the visible problem when the deeper problem is that dinner has too many jobs concentrated in one place. Share menu decisions, preparation, table setup, cleanup, and the responsibility for noticing what needs restocking. Even a simple division—one person cooks, another clears and handles the next day's reset—can change the atmosphere more than another toddler-feeding technique. The useful goal is a repeatable table: food is offered, adults are not chasing bites, and the toddler can participate without becoming the center of a nightly negotiation. Dinner does not need to prove that your family eats perfectly. It needs to be sustainable enough to happen again tomorrow.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -5551,41 +5549,40 @@
       "translation_group": "068-picky-eating-reduce-battles",
       "language": "en",
       "title": "Picky eating: how to reduce battles at the table",
-      "words": 680,
-      "paragraphs": 17,
+      "words": 838,
+      "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.88,
+      "h2_density_per_1000_words": 4.77,
       "h2s": [
-        "Separate offering food from making a child eat it",
-        "Take bargaining off the table",
-        "Exposure can be very small",
-        "Measure progress by the table atmosphere too"
+        "Create a predictable structure and stop measuring every bite",
+        "Take bargaining, labels, and comparisons out of the meal",
+        "Let exposure stay low-pressure and smaller than a bite",
+        "Measure progress by the atmosphere as well as the menu"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 38.5,
+      "avg_paragraph_words": 50.0,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.062,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 0,
-        "no_significa": 2,
-        "a_veces": 0,
-        "puede": 11,
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 1,
+        "puede": 16,
         "importante": 0,
         "clave": 0
       },
-      "opening": "When a child eats a narrow range of foods, adults naturally start watching the plate. Soon the entire meal can become “just one bite,” bargaining, praise, dessert deals, and constant updates about what has or has not been eaten.",
-      "opening_14_words": "When a child eats a narrow range of foods adults naturally start watching the",
-      "intro_3_paragraphs": "When a child eats a narrow range of foods, adults naturally start watching the plate. Soon the entire meal can become “just one bite,” bargaining, praise, dessert deals, and constant updates about what has or has not been eaten. That attention can turn food refusal into a second issue: control. Reducing mealtime battles does not mean giving up on variety. It means stopping the next bite from becoming a test of cooperation. Parents can create the structure: what foods are available, when the meal happens, and the general rhythm of the table. The child interacts with that food according to appetite and comfort. This separation removes some of the pressure to produce a specific eating result.",
-      "last_h2": "Measure progress by the table atmosphere too",
-      "ending_3_paragraphs": "Lowering pressure does not mean ignoring genuine feeding concerns. It means the everyday table does not have to become the place where you try to solve every concern through insistence. If something needs a separate conversation, it can be handled outside the dinner struggle. If dinner contains less pleading, fewer tears, and less conflict, something meaningful has improved even if the accepted-food list has not suddenly doubled. A calmer relationship with food is not built by winning enough dinner battles. It grows through predictable meals, repeated low-pressure exposure, and adults who stop treating every plate like a report card.",
-      "risk_score": 3,
+      "opening": "When a toddler eats a narrow range of foods, adults naturally start watching the plate. Soon dinner can become a running commentary: “just one bite,” “you liked this yesterday,” “three more and then dessert,” “are you really finished?” The original concern about food becomes mixed with another struggle entirely—control over what happens next.",
+      "opening_14_words": "When a toddler eats a narrow range of foods adults naturally start watching the",
+      "intro_3_paragraphs": "When a toddler eats a narrow range of foods, adults naturally start watching the plate. Soon dinner can become a running commentary: “just one bite,” “you liked this yesterday,” “three more and then dessert,” “are you really finished?” The original concern about food becomes mixed with another struggle entirely—control over what happens next. Reducing battles around picky eating does not mean giving up on variety or pretending you never worry. It means taking the next bite out of the role of test, negotiation, or proof that the meal is going well. Parents can decide what foods are offered, when eating opportunities happen, and the general rhythm of the table. The child then interacts with that food according to appetite, familiarity, and comfort. This separation does not remove adult responsibility; it changes the part adults are trying to control.",
+      "last_h2": "Measure progress by the atmosphere as well as the menu",
+      "ending_3_paragraphs": "If meals contain less pleading, fewer tears, and less negotiation, something meaningful has improved even if the accepted-food list has not suddenly doubled. A calmer table gives everyone more room to notice appetite, preferences, and new experiences without every meal carrying the weight of a verdict. If eating remains extremely limited, causes persistent distress, or is creating concerns that feel bigger than ordinary family mealtime conflict, it is reasonable to discuss those concerns with a trusted pediatric or feeding professional. That conversation can happen outside the dinner table rather than turning each meal into the place where you try to solve everything. A calmer relationship with food is not built by winning enough dinner battles. It grows through predictable opportunities to eat, repeated low-pressure contact with food, and adults who stop treating every plate like a report card on the child—or on themselves.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -5594,41 +5591,40 @@
       "translation_group": "069-new-foods-without-pressure",
       "language": "en",
       "title": "How to introduce new foods without pressure or bribes",
-      "words": 681,
+      "words": 831,
       "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.87,
+      "h2_density_per_1000_words": 4.81,
       "h2s": [
-        "Pair the unfamiliar with the familiar",
-        "Let exploration count",
-        "Do not pay for the bite",
-        "Repetition works best when it is boring"
+        "Make the first exposure small and easy to ignore",
+        "Let looking, touching, smelling, and serving count",
+        "Remove rewards and keep the response to “no” boring",
+        "Build repetition into normal life instead of running a tasting program"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 36.6,
-      "short_paragraph_ratio": 0.056,
+      "avg_paragraph_words": 44.2,
+      "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
+      "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 3,
-        "no_significa": 0,
+        "no_necesitas": 1,
+        "no_significa": 1,
         "a_veces": 0,
         "puede": 14,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Adults often present a new food with a spotlight: “Look what I made,” “Try it,” “Just one bite,” “If you eat this, then…”. That attention can tell a toddler that something difficult has arrived and now everybody is waiting for a performance.",
-      "opening_14_words": "Adults often present a new food with a spotlight Look what I made Try",
-      "intro_3_paragraphs": "Adults often present a new food with a spotlight: “Look what I made,” “Try it,” “Just one bite,” “If you eat this, then…”. That attention can tell a toddler that something difficult has arrived and now everybody is waiting for a performance. New foods are easier to approach when the first goal is familiarity, not immediate acceptance. A plate made entirely of unfamiliar foods can feel like a lot. A small portion beside foods the child already recognizes lets them participate in the meal without making the new item the price of admission.",
-      "last_h2": "Repetition works best when it is boring",
-      "ending_3_paragraphs": "If relatives or caregivers use a different style, keep the message simple rather than trying to teach a full feeding philosophy: we are offering new foods without requiring a bite. That one sentence can prevent a lot of mixed pressure around the child. Some foods become familiar quickly; others sit on the edge of a child's diet for a long time. You do not need a countdown or a chart for every vegetable. A successful exposure is not necessarily a bite. It is a new food being present without pressure, bargaining, or fear. That is the environment in which genuine curiosity has a chance to develop.",
-      "risk_score": 3,
+      "opening": "Adults often introduce a new food with a spotlight: “Look what I made,” “try it,” “just one bite,” “if you eat this, then…”. The intention is usually encouraging, but the attention can tell a toddler that something difficult has arrived and everybody is now waiting for a performance.",
+      "opening_14_words": "Adults often introduce a new food with a spotlight Look what I made try",
+      "intro_3_paragraphs": "Adults often introduce a new food with a spotlight: “Look what I made,” “try it,” “just one bite,” “if you eat this, then…”. The intention is usually encouraging, but the attention can tell a toddler that something difficult has arrived and everybody is now waiting for a performance. New foods are easier to approach when the first goal is familiarity rather than immediate acceptance. A food can become more ordinary long before it becomes something the child happily eats. Pair the unfamiliar food with things the child already recognizes. A plate made entirely of new foods can feel demanding, while one small piece beside familiar foods lets the child participate in the meal without making the new item the price of admission.",
+      "last_h2": "Build repetition into normal life instead of running a tasting program",
+      "ending_3_paragraphs": "Some foods become familiar quickly; others stay on the edge of a child's diet for a long time. There is no guaranteed number of exposures and no useful countdown that turns the tenth appearance into success. It is also fine to pause and come back later. Repetition does not mean serving the same rejected food every day until somebody gives in. A food can disappear for a while and return naturally when it fits the family meal again. A successful exposure is not necessarily a swallowed bite. It is a new food being present without pressure, bargaining, fear, or a performance requirement. That ordinary repetition gives genuine curiosity a better chance to appear.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -5637,41 +5633,40 @@
       "translation_group": "070-desserts-sweets-boundaries-not-reward",
       "language": "en",
       "title": "Desserts and sweets: how to set limits without turning them into a reward",
-      "words": 689,
+      "words": 905,
       "paragraphs": 15,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.81,
+      "h2_density_per_1000_words": 4.42,
       "h2s": [
         "Separate dessert from performance at dinner",
-        "Make sweets less dramatic, not limitless",
-        "Decide the boundary before the negotiation starts",
-        "A birthday party and a Tuesday dinner can have different rules"
+        "Make sweets ordinary enough to have limits",
+        "Decide the boundary before the negotiation begins",
+        "Let celebrations and ordinary days be different"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 43.9,
+      "avg_paragraph_words": 58.5,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
+      "long_paragraphs": 2,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 2,
-        "a_veces": 0,
-        "puede": 9,
+        "a_veces": 1,
+        "puede": 11,
         "importante": 0,
         "clave": 0
       },
-      "opening": "‘If you finish dinner, you can have dessert’ sounds practical because it can produce a few extra bites right now. But it also teaches a hierarchy: dinner is the work and dessert is the payoff. The sweet food becomes more valuable partly because everyone is treating it like a prize.",
-      "opening_14_words": "If you finish dinner you can have dessert sounds practical because it can produce",
-      "intro_3_paragraphs": "‘If you finish dinner, you can have dessert’ sounds practical because it can produce a few extra bites right now. But it also teaches a hierarchy: dinner is the work and dessert is the payoff. The sweet food becomes more valuable partly because everyone is treating it like a prize. Setting limits around sweets does not require banning them or offering them without structure. You can decide when they are available without making them payment for how much your child eats. If dessert is part of tonight’s meal, it can stay part of the plan whether your child ate three bites or ten. That does not mean unlimited access. It simply means the serving is not something your child earns by clearing another food first.",
-      "last_h2": "A birthday party and a Tuesday dinner can have different rules",
-      "ending_3_paragraphs": "If your family has used dessert as leverage for a long time, the new pattern may be tested repeatedly. Children often ask again because they are checking whether the old bargain still exists. Calm consistency matters more than persuading them to agree with the philosophy. Celebrations, vacations, holidays, and ordinary school nights do not have to look exactly alike. Food is also social, pleasurable, and tied to family traditions. Flexibility in one context does not erase the structure you use most days. The goal is not to make sweets completely uninteresting. It is to stop making them the highest-value prize that controls the rest of the meal. When dessert no longer measures obedience or appetite, there is usually less reason for every bite of dinner to become part of a negotiation.",
-      "risk_score": 3,
+      "opening": "“If you finish dinner, you can have dessert” sounds practical because it may produce a few extra bites in the moment. But it also creates a hierarchy the child learns quickly: the main meal is the work, and the sweet food is the payoff. The more often dessert is used to secure eating or cooperation, the more symbolic power it can collect.",
+      "opening_14_words": "If you finish dinner you can have dessert sounds practical because it may produce",
+      "intro_3_paragraphs": "“If you finish dinner, you can have dessert” sounds practical because it may produce a few extra bites in the moment. But it also creates a hierarchy the child learns quickly: the main meal is the work, and the sweet food is the payoff. The more often dessert is used to secure eating or cooperation, the more symbolic power it can collect. Setting limits around sweets does not require banning them, serving them without structure, or pretending children will stop finding them exciting. The goal is simpler: adults decide when sweets are available and in what amount, without turning them into payment for eating other foods or behaving a certain way. If dessert is part of tonight’s plan, let it stay part of the plan whether your child ate three bites or ten. That does not mean unlimited access or that every meal needs dessert. It means the serving is not something the child earns by clearing a plate, tasting a vegetable, or meeting an adult’s estimate of how much dinner should be eaten.",
+      "last_h2": "Let celebrations and ordinary days be different",
+      "ending_3_paragraphs": "A birthday party, vacation, family celebration, and Tuesday dinner do not need to look exactly alike. Food is social and pleasurable as well as practical. A more flexible celebration does not erase the structure you use most days, just as one ordinary limit does not require turning every special occasion into a negotiation about rules. It can also help to notice what happens after a sweeter-than-usual day. You do not need to compensate by restricting the next meal or talking about having been “good” or “bad.” Returning to your normal family rhythm keeps one event from becoming a moral story about food. The aim is not to make sweets uninteresting or to eliminate requests for more. It is to stop giving them the highest-value role at the table. When dessert no longer measures obedience, appetite, or whether dinner was “good enough,” adults can keep reasonable limits without making every sweet food the prize that controls everything around it.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18161,40 +18156,40 @@
       "translation_group": "061-practical-breastfeeding-corner",
       "language": "es",
       "title": "Cómo crear un rincón de lactancia práctico sin comprar accesorios innecesarios",
-      "words": 793,
-      "paragraphs": 15,
+      "words": 830,
+      "paragraphs": 14,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.04,
+      "h2_density_per_1000_words": 4.82,
       "h2s": [
-        "Empieza por el lugar donde de verdad vas a sentarte",
-        "Lo que necesitas cerca cabe en muy poco espacio",
-        "Piensa en quien acompaña, no solo en quien alimenta",
-        "Deja que el rincón se construya después del bebé"
+        "Elige el asiento probando el movimiento completo",
+        "Guarda necesidades repetidas, no emergencias imaginadas",
+        "Organiza el espacio para que la ayuda no dependa de instrucciones",
+        "Deja que la versión definitiva aparezca con la vida real"
       ],
       "list_items": 0,
-      "bold_spans": 3,
-      "avg_paragraph_words": 50.4,
+      "bold_spans": 2,
+      "avg_paragraph_words": 56.9,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.067,
-      "long_paragraphs": 1,
+      "question_paragraph_ratio": 0.071,
+      "long_paragraphs": 3,
       "phrase_counts": {
-        "no_necesitas": 2,
-        "no_significa": 1,
+        "no_necesitas": 1,
+        "no_significa": 0,
         "a_veces": 0,
-        "puede": 8,
-        "importante": 0,
+        "puede": 17,
+        "importante": 1,
         "clave": 0
       },
-      "opening": "Cuando preparas la casa antes de que nazca el bebé, es fácil imaginar que cada necesidad futura requiere un objeto específico. El rincón de lactancia suele acabar en esa lista: sillón especial, carrito, cojines, mesa auxiliar, luz concreta, cesta, organizadores y una colección de accesorios que quizá todavía no sabes si usarás.",
-      "opening_14_words": "Cuando preparas la casa antes de que nazca el bebé es fácil imaginar que",
-      "intro_3_paragraphs": "Cuando preparas la casa antes de que nazca el bebé, es fácil imaginar que cada necesidad futura requiere un objeto específico. El rincón de lactancia suele acabar en esa lista: sillón especial, carrito, cojines, mesa auxiliar, luz concreta, cesta, organizadores y una colección de accesorios que quizá todavía no sabes si usarás. En realidad, el objetivo es mucho más sencillo. Un buen rincón de lactancia es un lugar cómodo, accesible y fácil de mantener, no una habitación dentro de la habitación. Puede estar en el sofá, junto a la cama o en una butaca que ya tienes. Antes de comprar nada, pasa mentalmente por una noche normal. Si estás cansada y tienes al bebé en brazos, ¿a qué sitio irías de forma natural? Ese lugar importa más que cualquier fotografía de inspiración. La comodidad real depende de que puedas apoyar la espalda, cambiar de postura y tener cerca lo básico.",
-      "last_h2": "Deja que el rincón se construya después del bebé",
-      "ending_3_paragraphs": "También puedes diseñar pensando en el futuro inmediato. En unas semanas quizá el bebé pase más tiempo despierto, tú cambies de habitación o el rincón deje de ser exclusivamente de lactancia. Elegir muebles y objetos que sigan teniendo utilidad evita que una etapa corta deje una colección de cosas sin función. Puedes preparar una base antes del nacimiento y completar lo demás cuando conozcas vuestra rutina. Quizá descubras que nunca usas el sillón que imaginabas y prefieres el sofá. Tal vez el objeto imprescindible sea una mesa que ya estaba en otra habitación. No necesitas demostrar que estás preparada comprando cada posible solución por adelantado. Preparar también puede significar dejar margen para observar. Un rincón práctico no es el que tiene más accesorios; es el que desaparece como problema porque lo que necesitas suele estar a mano.",
-      "risk_score": 2,
+      "opening": "Antes de que nazca el bebé es muy fácil convertir cada rutina futura en una categoría de compra. El rincón de lactancia puede acabar incluyendo sillón especial, carrito, cojines, mesa auxiliar, lámpara, cestas, recipientes para snacks y varios objetos que todavía no sabes si usarás. Puede quedar muy bonito y, aun así, fallar en lo esencial a las dos de la madrugada: que puedas sentarte con el bebé sin reorganizar la habitación primero.",
+      "opening_14_words": "Antes de que nazca el bebé es muy fácil convertir cada rutina futura en",
+      "intro_3_paragraphs": "Antes de que nazca el bebé es muy fácil convertir cada rutina futura en una categoría de compra. El rincón de lactancia puede acabar incluyendo sillón especial, carrito, cojines, mesa auxiliar, lámpara, cestas, recipientes para snacks y varios objetos que todavía no sabes si usarás. Puede quedar muy bonito y, aun así, fallar en lo esencial a las dos de la madrugada: que puedas sentarte con el bebé sin reorganizar la habitación primero. Un rincón práctico para dar el pecho o alimentar al bebé es menos una colección de productos que una pequeña decisión de organización doméstica. Su función es reducir fricciones repetidas: levantarte, buscar, estirarte demasiado, sujetar un vaso donde no cabe o pedir a otra persona lo mismo una y otra vez. Empieza por el lugar al que irías de forma natural si estás cansada y ya tienes al bebé en brazos. Puede ser una butaca junto a la cama, un extremo del sofá o una silla que ya existe en casa. Siéntate como si fueras a quedarte un rato. ¿Puedes apoyar bien la espalda? ¿Hay margen para cambiar de postura? ¿Puedes levantarte sin apartar antes varios objetos?",
+      "last_h2": "Deja que la versión definitiva aparezca con la vida real",
+      "ending_3_paragraphs": "Puedes preparar una base sencilla antes del nacimiento si te tranquiliza y dejar el resto abierto. Quizá durante parte de la noche prefieres la cama y de día el sofá. Tal vez una mesa que ya estaba en otra habitación se vuelva imprescindible mientras un accesorio que parecía fundamental apenas se utiliza. También tiene sentido elegir cosas que sigan sirviendo cuando esta etapa cambie. Una buena butaca, una lámpara útil y una mesa pequeña pueden continuar formando parte de la casa mucho después. Eso suele ser más rentable y flexible que diseñar una estación completa alrededor de una etapa corta que todavía no conoces. Estar preparada no exige anticipar cada inconveniente. También es preparación dejar margen para observar qué problema se repite y resolver solo ese problema de forma sencilla. El mejor rincón suele ser el que deja de llamar tu atención porque sentarte, alcanzar lo que necesitas y volver a levantarte resulta fácil.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18203,41 +18198,40 @@
       "translation_group": "062-breastfeeding-partner-support",
       "language": "es",
       "title": "Lactancia y pareja: formas concretas de apoyar sin invadir ni dirigir",
-      "words": 703,
+      "words": 836,
       "paragraphs": 15,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.69,
+      "h2_density_per_1000_words": 4.78,
       "h2s": [
-        "Hazte cargo de lo que sí puedes asumir",
-        "Escuchar no es lo mismo que buscar una solución inmediata",
-        "No conviertas el apoyo en una evaluación",
-        "El vínculo con el bebé no depende de compartir exactamente la misma tarea"
+        "Asume responsabilidades completas alrededor de las tomas",
+        "Escucha antes de convertir el malestar en un proyecto",
+        "No conviertas la lactancia en un marcador ni hables por ella",
+        "Construye tu propia relación con el bebé y revisad el reparto"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 44.3,
+      "avg_paragraph_words": 53.2,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.267,
-      "long_paragraphs": 1,
+      "question_paragraph_ratio": 0.067,
+      "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 2,
-        "a_veces": 2,
-        "puede": 14,
-        "importante": 2,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 12,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "Durante la lactancia puede aparecer una sensación incómoda en la pareja: una persona tiene una tarea que nadie puede hacer exactamente por ella y la otra quiere ayudar, pero no siempre sabe dónde entrar. Esa incertidumbre a veces produce dos extremos: retirarse por completo o intentar dirigir desde fuera.",
-      "opening_14_words": "Durante la lactancia puede aparecer una sensación incómoda en la pareja una persona tiene",
-      "intro_3_paragraphs": "Durante la lactancia puede aparecer una sensación incómoda en la pareja: una persona tiene una tarea que nadie puede hacer exactamente por ella y la otra quiere ayudar, pero no siempre sabe dónde entrar. Esa incertidumbre a veces produce dos extremos: retirarse por completo o intentar dirigir desde fuera. Hay una tercera opción mucho más útil. Apoyar no significa controlar la lactancia; significa reducir el peso que la rodea y estar disponible para la persona que la está viviendo. Hay muchas tareas que no requieren alimentar al bebé: cambiarlo, vestirlo, dormirlo cuando encaja, preparar comida, llenar una botella de agua, recibir una visita, poner una lavadora o hacerse cargo de otra criatura en casa. Cuando estas cosas ocurren sin que la madre tenga que pedirlas una a una, el apoyo deja de ser simbólico.",
-      "last_h2": "El vínculo con el bebé no depende de compartir exactamente la misma tarea",
-      "ending_3_paragraphs": "Lo mismo vale para las visitas. En vez de esperar a que la madre diga que está cansada para terminar una reunión, la pareja puede estar atenta al tiempo acordado y cerrar el encuentro. Son gestos pequeños, pero cambian mucho la sensación de estar acompañada. El otro progenitor puede construir una relación propia mediante contacto, paseo, baño, juego, consuelo y cuidados cotidianos. No necesita competir con la alimentación para tener un papel importante. Una pareja útil no pregunta continuamente “¿qué hago?”. Aprende a mirar qué necesita la casa y qué necesita la otra persona, y asume una parte completa. Ahí es donde el apoyo deja de sentirse como ayuda ocasional y empieza a parecer crianza compartida.",
-      "risk_score": 3,
+      "opening": "La lactancia puede crear una división del trabajo extraña. Una persona hace algo que la otra no puede realizar exactamente igual y la pareja puede no saber dónde empieza su papel. Esa incertidumbre suele producir dos extremos poco útiles: retirarse porque “yo ahí no puedo hacer nada” o convertirse en supervisor de un cuerpo, unos tiempos y unas decisiones que no son propios.",
+      "opening_14_words": "La lactancia puede crear una división del trabajo extraña Una persona hace algo que",
+      "intro_3_paragraphs": "La lactancia puede crear una división del trabajo extraña. Una persona hace algo que la otra no puede realizar exactamente igual y la pareja puede no saber dónde empieza su papel. Esa incertidumbre suele producir dos extremos poco útiles: retirarse porque “yo ahí no puedo hacer nada” o convertirse en supervisor de un cuerpo, unos tiempos y unas decisiones que no son propios. El apoyo útil está entre ambos extremos: quita peso a la madre que amamanta sin apropiarse de la lactancia. La diferencia tiene menos que ver con conocer el consejo perfecto y más con quién observa, decide y completa el resto de la vida familiar. Hay mucho trabajo que no requiere dar el pecho: cambios de pañal, comidas, lavadoras, platos, hijos mayores, visitas, rellenar agua, hacerse cargo del bebé después o mantener en marcha las necesidades ordinarias de la casa. Estas tareas alivian de verdad cuando la otra persona las hace suyas en vez de esperar que se las asignen una a una.",
+      "last_h2": "Construye tu propia relación con el bebé y revisad el reparto",
+      "ending_3_paragraphs": "Esa autonomía también mejora el apoyo. Si después de una toma otra persona puede coger al bebé y ocuparse de lo siguiente sin instrucciones paso a paso, la madre recibe un relevo real y no un nuevo puesto de coordinación. Volved a hablar conforme cambien las semanas. Lo que ayudaba al principio puede dejar de ser relevante. Quizá la comida era el gran problema la primera semana y un mes después lo son el descanso o las visitas. El objetivo no es memorizar una lista fija de “cosas para ayudar”, sino compartir la responsabilidad de observar qué necesita la familia ahora. La versión más sólida del apoyo no es “te ayudo con la lactancia”, sino “soy pareja y progenitor de pleno derecho y voy a sostener una parte significativa de todo lo que la rodea”. Así la madre puede vivir la alimentación como una experiencia propia sin tener que seguir dirigiendo a todo el mundo mientras la hace.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "many_question_paragraphs"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18246,19 +18240,19 @@
       "translation_group": "063-breastfeeding-in-public-comfort",
       "language": "es",
       "title": "Dar el pecho en público: ideas para sentirte más cómoda y preparada",
-      "words": 723,
+      "words": 801,
       "paragraphs": 15,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.53,
+      "h2_density_per_1000_words": 4.99,
       "h2s": [
-        "Empieza por un lugar que te resulte fácil",
-        "La ropa útil es la que puedes manejar con una mano",
-        "La compañía adecuada puede cambiar la primera experiencia",
-        "La confianza suele llegar después de varias veces normales"
+        "Haz que las primeras salidas sean fáciles a propósito",
+        "Prueba la ropa y el acceso antes de necesitarlos",
+        "Utiliza la compañía y el entorno como apoyo práctico",
+        "Deja que la seguridad llegue con la repetición corriente"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 45.8,
+      "avg_paragraph_words": 51.0,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -18266,20 +18260,20 @@
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 1,
-        "no_significa": 3,
+        "no_significa": 1,
         "a_veces": 0,
         "puede": 13,
-        "importante": 0,
+        "importante": 2,
         "clave": 0
       },
-      "opening": "En casa puedes tener un sillón, un cojín, una postura conocida y cero necesidad de pensar quién está mirando. Fuera, de repente, aparecen una cafetería, una chaqueta que no sube bien, una silla extraña y la sensación de estar haciendo algo cotidiano en un espacio compartido.",
-      "opening_14_words": "En casa puedes tener un sillón un cojín una postura conocida y cero necesidad",
-      "intro_3_paragraphs": "En casa puedes tener un sillón, un cojín, una postura conocida y cero necesidad de pensar quién está mirando. Fuera, de repente, aparecen una cafetería, una chaqueta que no sube bien, una silla extraña y la sensación de estar haciendo algo cotidiano en un espacio compartido. Es normal que las primeras veces requieran más atención. Sentirte cómoda dando el pecho en público no significa que tenga que darte exactamente igual dónde estás; significa encontrar una forma que te permita alimentar al bebé sin que toda tu energía se vaya a gestionar el entorno. No hace falta estrenar la lactancia fuera de casa en el sitio más concurrido de la ciudad. Una cafetería tranquila, casa de una amiga, un banco en un lugar conocido o una salida corta pueden servir para practicar la logística real: sentarte, colocar al bebé, ajustar la ropa y seguir con tu día.",
-      "last_h2": "La confianza suele llegar después de varias veces normales",
-      "ending_3_paragraphs": "Después de algunas salidas, revisa qué te ayudó realmente. Tal vez era sentarte de espaldas a la sala. Quizá era salir después de una toma para tener más margen. O simplemente descubrir que podías alimentar al bebé y seguir hablando. La confianza suele construirse con detalles muy cotidianos. Es posible que la primera toma fuera de casa ocupe toda tu atención y que la quinta sea simplemente algo que ocurre entre una conversación y otra. La familiaridad cambia la sensación. No necesitas sentirte completamente segura antes de salir; puedes construir esa seguridad en experiencias pequeñas. El objetivo no es demostrar nada a nadie. Es que alimentar al bebé fuera de casa deje de decidir por ti qué planes puedes hacer.",
-      "risk_score": 2,
+      "opening": "En casa puedes alimentar al bebé en un sillón conocido, con ropa que ya sabes manejar y sin pensar quién hay alrededor. Fuera, la misma tarea cotidiana puede incluir una silla estrecha, una chaqueta que no coopera, un bebé con hambre y la sensación de estar especialmente visible. La alimentación no ha cambiado tanto; lo que cambia es el escenario.",
+      "opening_14_words": "En casa puedes alimentar al bebé en un sillón conocido con ropa que ya",
+      "intro_3_paragraphs": "En casa puedes alimentar al bebé en un sillón conocido, con ropa que ya sabes manejar y sin pensar quién hay alrededor. Fuera, la misma tarea cotidiana puede incluir una silla estrecha, una chaqueta que no coopera, un bebé con hambre y la sensación de estar especialmente visible. La alimentación no ha cambiado tanto; lo que cambia es el escenario. Sentirte cómoda dando el pecho en público no significa dejar de tener pudor ni sentirte igual de relajada en cualquier sitio. Significa adquirir suficiente confianza práctica para que alimentar al bebé no ocupe toda la salida ni decida por ti si puedes salir de casa. La primera toma fuera no tiene que ocurrir en el restaurante más concurrido. Casa de una amiga, una cafetería tranquila, un parque conocido o una salida corta permiten practicar la logística real: dónde sentarte, qué hacer con la bolsa, cómo se mueve tu ropa y qué necesita el bebé en un entorno distinto.",
+      "last_h2": "Deja que la seguridad llegue con la repetición corriente",
+      "ending_3_paragraphs": "Una salida difícil es información, no una sentencia. Tal vez el bebé estaba inquieto, la silla era horrible o la ropa no funcionó. La siguiente vez puede ser más corta, en otro lugar o con otro conjunto. No necesitas decidir después de una toma incómoda que amamantar fuera “no es para ti”. Después de varias salidas observa qué redujo fricción de verdad. Quizá salir poco después de una toma te dio más margen. Tal vez encontraste una postura más sencilla o descubriste que el cambio más importante era poder seguir una conversación normal mientras alimentabas al bebé. No tienes que esperar a sentirte completamente segura para salir. La confianza suele aparecer después de varias experiencias ordinarias en las que no ocurre nada especial. El objetivo útil no es volverte invisible, sino dejar de organizar tu mundo alrededor del miedo a que el bebé necesite comer cuando estés fuera.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18288,41 +18282,40 @@
       "translation_group": "064-return-to-work-breastfeeding-logistics",
       "language": "es",
       "title": "Vuelta al trabajo y lactancia: cómo organizar la logística sin convertirla en otro trabajo",
-      "words": 673,
-      "paragraphs": 15,
+      "words": 863,
+      "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.94,
+      "h2_density_per_1000_words": 4.63,
       "h2s": [
-        "Dibuja el recorrido completo, no solo la jornada laboral",
-        "Reparte tareas que no requieren dar el pecho",
-        "Reduce decisiones por la mañana",
-        "Deja margen para que el plan cambie"
+        "Dibuja el circuito completo antes de intentar optimizarlo",
+        "Reparte todo lo que no exige dar el pecho",
+        "Protege las mañanas haciendo menos, no intentando hacerlo todo perfecto",
+        "Deja que el sistema cambie con el trabajo, los cuidadores y el bebé"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 42.9,
+      "avg_paragraph_words": 51.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.133,
-      "long_paragraphs": 0,
+      "question_paragraph_ratio": 0.188,
+      "long_paragraphs": 1,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 1,
         "a_veces": 0,
-        "puede": 11,
-        "importante": 2,
+        "puede": 13,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "Cuando se habla de lactancia y vuelta al trabajo, la conversación puede sonar como si todo dependiera de encontrar el recipiente adecuado y construir un horario impecable. Pero en la vida real el cansancio suele aparecer en los bordes: recordar qué llevar, qué vuelve a casa, qué necesita lavarse y quién prepara el día siguiente.",
-      "opening_14_words": "Cuando se habla de lactancia y vuelta al trabajo la conversación puede sonar como",
-      "intro_3_paragraphs": "Cuando se habla de lactancia y vuelta al trabajo, la conversación puede sonar como si todo dependiera de encontrar el recipiente adecuado y construir un horario impecable. Pero en la vida real el cansancio suele aparecer en los bordes: recordar qué llevar, qué vuelve a casa, qué necesita lavarse y quién prepara el día siguiente. La logística funciona mejor cuando se diseña como un sistema familiar, no como un proyecto personal de la madre que además tiene que volver a trabajar. Piensa desde la noche anterior hasta que todo vuelve a estar en casa. ¿Qué objetos salen? ¿Dónde se guardan? ¿Quién los transporta? ¿Qué necesita regresar? ¿Qué hay que lavar o preparar? Ver la cadena completa permite detectar qué pasos pueden desaparecer o pasar a otra persona.",
-      "last_h2": "Deja margen para que el plan cambie",
-      "ending_3_paragraphs": "También ayuda dejar una lista de “mínimos” para los días difíciles. Cuando la noche fue mala o llegáis tarde, quizá no haga falta dejar todo perfecto: basta con lo imprescindible para que el día siguiente funcione. Saber qué puede quedarse sin hacer reduce mucho la sensación de fracaso. Volver al trabajo ya es una transición grande. La logística de alimentación puede necesitar ajustes conforme cambian horarios, cuidadores, desplazamientos y necesidades familiares. No conviertas la primera organización en un contrato. Un buen sistema no es el que nunca se desordena; es el que puedes reparar sin que toda la semana dependa de una sola persona. La sostenibilidad se nota cuando un día difícil no obliga a empezar de cero.",
-      "risk_score": 3,
+      "opening": "Combinar la vuelta al trabajo con la lactancia puede parecer, desde fuera, un único problema práctico: que la leche y lo necesario para alimentar al bebé lleguen al lugar correcto. En el día a día, el cansancio suele esconderse en toda la cadena que rodea ese objetivo. Hay que preparar, guardar, transportar, traer de vuelta, lavar, secar, reponer y recordar qué falta para mañana. Si todos esos pasos viven en la cabeza de una sola persona, el sistema acaba pareciendo un segundo trabajo pegado al primero.",
+      "opening_14_words": "Combinar la vuelta al trabajo con la lactancia puede parecer desde fuera un único",
+      "intro_3_paragraphs": "Combinar la vuelta al trabajo con la lactancia puede parecer, desde fuera, un único problema práctico: que la leche y lo necesario para alimentar al bebé lleguen al lugar correcto. En el día a día, el cansancio suele esconderse en toda la cadena que rodea ese objetivo. Hay que preparar, guardar, transportar, traer de vuelta, lavar, secar, reponer y recordar qué falta para mañana. Si todos esos pasos viven en la cabeza de una sola persona, el sistema acaba pareciendo un segundo trabajo pegado al primero. La organización se sostiene mejor cuando la logística de alimentación se trata como infraestructura familiar compartida, no como un proyecto privado de la madre que amamanta. La parte corporal puede recaer en ella; buena parte de lo que ocurre alrededor puede diseñarse y asumirse entre varias personas. Empieza la noche anterior y sigue los objetos hasta el día siguiente. ¿Qué sale de casa? ¿Dónde se guarda en el trabajo o con el cuidador? ¿Quién lo transporta? ¿Qué vuelve? ¿Qué necesita lavarse, etiquetarse, cargarse o colocarse otra vez en un sitio fijo? Ver el recorrido completo suele revelar más que comprar otro organizador.",
+      "last_h2": "Deja que el sistema cambie con el trabajo, los cuidadores y el bebé",
+      "ending_3_paragraphs": "Volver al trabajo ya es una transición grande. Cambian trayectos, reuniones, horarios, cuidadores y rutinas del bebé. La primera organización no tiene por qué ser definitiva. Mira dónde se acumula la irritación. Si una persona pregunta continuamente “¿dónde está esto?”, quizá el sistema de almacenamiento no es compartido. Si la madre sigue enviando cada recordatorio, puede que las tareas estén repartidas pero la gestión no. Si la bolsa siempre va llena de cosas que nunca se usan, quizá toca quitar en vez de añadir. Un buen sistema no es el que nunca falla. Es el que absorbe una reunión que se alarga, un objeto olvidado o una tarde difícil sin obligar a una persona agotada a reconstruir toda la rutina. Esa flexibilidad es la que hace que la logística pase a segundo plano.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18331,41 +18324,40 @@
       "translation_group": "065-respectful-weaning-connection-boundaries",
       "language": "es",
       "title": "Destete respetuoso: cómo plantear el cambio con conexión y límites",
-      "words": 661,
-      "paragraphs": 15,
+      "words": 879,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.05,
+      "h2_density_per_1000_words": 4.55,
       "h2s": [
-        "Empieza por saber qué quieres cambiar",
-        "Un límite puede ser cariñoso y seguir siendo un límite",
-        "No conviertas cada retroceso en un fracaso",
-        "La madre también está dentro del destete"
+        "Define qué quieres cambiar antes de llamar a todo “destete”",
+        "Usa límites cálidos y repetibles, no explicaciones interminables",
+        "Espera sentimientos mezclados y un proceso con curvas",
+        "Las necesidades de la madre también forman parte de la decisión"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 42.1,
+      "avg_paragraph_words": 49.5,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 2,
-        "a_veces": 1,
-        "puede": 17,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 22,
         "importante": 0,
         "clave": 0
       },
-      "opening": "La palabra “respetuoso” puede crear una expectativa imposible: que el destete solo sea correcto si el niño decide dejarlo por completo, si nunca se enfada o si la madre está disponible hasta que la transición ocurra sola. Pero una relación tiene dos personas, y las necesidades de ambas cuentan.",
-      "opening_14_words": "La palabra respetuoso puede crear una expectativa imposible que el destete solo sea correcto",
-      "intro_3_paragraphs": "La palabra “respetuoso” puede crear una expectativa imposible: que el destete solo sea correcto si el niño decide dejarlo por completo, si nunca se enfada o si la madre está disponible hasta que la transición ocurra sola. Pero una relación tiene dos personas, y las necesidades de ambas cuentan. Destetar con respeto no significa evitar todos los límites; significa introducir el cambio sin convertir las emociones del niño en un problema que hay que apagar. Quizá no quieras terminar toda la lactancia. Puede que quieras retirar una toma concreta, dejar de ofrecer en ciertos momentos o empezar a poner límites cuando estás cansada. Definir el cambio real evita abordar todo como si hubiera que pasar de “sí” a “nunca” de un día para otro.",
-      "last_h2": "La madre también está dentro del destete",
-      "ending_3_paragraphs": "También es útil que las palabras y los límites sean suficientemente simples para poder repetirlos cuando estás cansada. Si el plan solo funciona cuando tienes muchísima paciencia, probablemente necesita simplificarse. Un límite que puedes sostener con calidez en un día normal vale más que uno perfecto que se derrumba al tercer intento. El deseo de tener más espacio corporal, descansar o cerrar una etapa no necesita una justificación extraordinaria. Tampoco necesitas sentirte totalmente segura de la decisión cada minuto. Puede haber alivio y nostalgia al mismo tiempo. El objetivo no es conseguir que el niño no sienta nada frente al cambio. Es que el cambio ocurra dentro de una relación donde puede sentir, protestar, recibir consuelo y descubrir nuevas formas de conexión.",
-      "risk_score": 3,
+      "opening": "La expresión “destete respetuoso” puede interpretarse como si la madre no tuviera derecho a iniciar cambios. El niño debería decidir cuándo termina cada toma, nadie debería enfadarse y cualquier límite podría parecer una ruptura del vínculo. Esa idea deja fuera las necesidades de una de las dos personas implicadas en la relación.",
+      "opening_14_words": "La expresión destete respetuoso puede interpretarse como si la madre no tuviera derecho a",
+      "intro_3_paragraphs": "La expresión “destete respetuoso” puede interpretarse como si la madre no tuviera derecho a iniciar cambios. El niño debería decidir cuándo termina cada toma, nadie debería enfadarse y cualquier límite podría parecer una ruptura del vínculo. Esa idea deja fuera las necesidades de una de las dos personas implicadas en la relación. Destetar con respeto no significa eliminar todos los límites. Significa introducir cambios sin tratar las emociones del niño como algo que deba evitarse o apagarse. El niño puede estar molesto, la madre puede necesitar otra cosa y la relación puede seguir siendo cálida mientras el patrón cambia. Quizá no quieras terminar la lactancia por completo. A lo mejor hay una toma que se ha vuelto agotadora, necesitas más espacio corporal en una franja del día o quieres dejar de ofrecer automáticamente cada vez que aparece cierta situación. Poner nombre al cambio concreto evita convertir el proceso en un “todo o nada”.",
+      "last_h2": "Las necesidades de la madre también forman parte de la decisión",
+      "ending_3_paragraphs": "Querer dormir más, recuperar espacio corporal, reducir tomas o cerrar una etapa son razones legítimas. No hace falta una justificación extraordinaria. La lactancia es una relación en la que el cuerpo de una persona está directamente implicado. Comprueba el plan en la vida cotidiana. ¿Puedes repetir las mismas palabras cuando estás cansada? ¿Funciona un martes normal y no solo un fin de semana tranquilo? ¿La otra persona que cuida entiende qué intentas cambiar? Un límite sencillo que puedes sostener vale más que un guion perfecto que se derrumba bajo estrés. La meta de un destete respetuoso no es que el niño nunca se sienta decepcionado. Es que pueda tener emociones, la madre pueda tener límites y ambos sigan conectados mientras cambia una rutina conocida. El respeto pertenece a las dos personas.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18374,41 +18366,40 @@
       "translation_group": "066-night-feeding-sharing-partner",
       "language": "es",
       "title": "Alimentación nocturna y reparto en pareja: cómo organizarse cuando el bebé se despierta",
-      "words": 667,
-      "paragraphs": 15,
+      "words": 837,
+      "paragraphs": 16,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.0,
+      "h2_density_per_1000_words": 4.78,
       "h2s": [
-        "Separad las tareas que componen un despertar",
-        "Proteged bloques de descanso, no solo turnos idénticos",
-        "Revisad el acuerdo cuando empiece a generar resentimiento",
-        "La noche pertenece a toda la familia"
+        "Divide un despertar en las tareas que contiene de verdad",
+        "Protege bloques reales de sueño y recuperación",
+        "Decidid qué pasa en una noche mala antes de vivirla",
+        "Renegocia conforme cambian el bebé y la casa"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 42.5,
+      "avg_paragraph_words": 50.1,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.062,
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
-        "a_veces": 0,
-        "puede": 9,
+        "no_significa": 0,
+        "a_veces": 2,
+        "puede": 14,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Las noches con un bebé pueden generar una contabilidad imposible: quién se levantó, quién durmió veinte minutos más, quién hizo la última toma y quién tiene que funcionar temprano. Si una persona alimenta al bebé, además puede parecer que la organización viene decidida de antemano: “como ya estás despierta…”.",
-      "opening_14_words": "Las noches con un bebé pueden generar una contabilidad imposible quién se levantó quién",
-      "intro_3_paragraphs": "Las noches con un bebé pueden generar una contabilidad imposible: quién se levantó, quién durmió veinte minutos más, quién hizo la última toma y quién tiene que funcionar temprano. Si una persona alimenta al bebé, además puede parecer que la organización viene decidida de antemano: “como ya estás despierta…”. Pero alimentar es solo una parte de un despertar. Repartir la noche no significa necesariamente dividir cada minuto al cincuenta por ciento; significa que el cansancio y la responsabilidad no tengan siempre el mismo dueño. Hay que escuchar al bebé, levantarse, preparar lo que haga falta según vuestra forma de alimentación, cambiar cuando corresponda, alimentar, volver a acomodar, recoger cosas y quizá acompañar un rato más. Algunas de esas tareas pueden hacerlas ambos adultos.",
-      "last_h2": "La noche pertenece a toda la familia",
-      "ending_3_paragraphs": "También conviene que cada persona pueda decir “esta noche no puedo más” sin abrir un juicio. Si el sistema depende de que nadie tenga jamás una mala noche, no es un sistema; es una expectativa. Si una madre alimenta al bebé, eso no la convierte automáticamente en responsable nocturna total. Y si una pareja asume una parte, no está “ayudando” de forma extraordinaria; está participando en una etapa exigente que afecta a ambos. Un reparto útil hace que ninguna persona sienta que debe pedir permiso para dormir. Puede no ser perfectamente simétrico, pero debería ser comprensible, revisable y suficientemente justo como para que los dos sigan sintiéndose equipo.",
-      "risk_score": 3,
+      "opening": "Las noches con un bebé pueden convertirse muy rápido en una contabilidad agotada: quién se levantó, quién durmió media hora más, quién trabaja mañana y de quién era supuestamente el turno. Cuando una persona da el pecho, el reparto puede parecer decidido de antemano: como ya está despierta para alimentar, también puede cambiar, volver a dormir, recoger y encargarse de la mañana.",
+      "opening_14_words": "Las noches con un bebé pueden convertirse muy rápido en una contabilidad agotada quién",
+      "intro_3_paragraphs": "Las noches con un bebé pueden convertirse muy rápido en una contabilidad agotada: quién se levantó, quién durmió media hora más, quién trabaja mañana y de quién era supuestamente el turno. Cuando una persona da el pecho, el reparto puede parecer decidido de antemano: como ya está despierta para alimentar, también puede cambiar, volver a dormir, recoger y encargarse de la mañana. Compartir la carga nocturna no exige dividir cada minuto al cincuenta por ciento. Significa que la falta de sueño, la vigilancia y la responsabilidad no recaigan siempre sobre la misma persona. Un sistema puede ser asimétrico y seguir siendo justo si ambos adultos tienen oportunidades reales de recuperarse. Que el bebé se despierte rara vez significa una sola tarea. Alguien escucha, se levanta, acerca o prepara lo necesario, cambia cuando hace falta, alimenta, ayuda a volver a dormir, guarda cosas y a veces pasa un rato extra calmando. Varias de esas partes pueden separarse.",
+      "last_h2": "Renegocia conforme cambian el bebé y la casa",
+      "ending_3_paragraphs": "Un reparto que funcionaba durante una baja puede dejar de hacerlo al volver al trabajo. Cambian los despertares, la alimentación, los horarios y las necesidades de otros hijos. Trata el acuerdo como algo que debe evolucionar, no como un contrato que demuestra quién cumple. Hablad antes de que la irritación sea la única señal. Preguntad qué franja pesa más, quién está funcionando peor, qué tarea puede moverse y si alguien se ha convertido sin darse cuenta en responsable nocturno por defecto. A veces basta cambiar quién atiende el primer despertar, quién se encarga del después o quién asume la mañana. Si una persona alimenta, eso no la convierte automáticamente en responsable de toda la noche. Si la otra asume un turno, no está haciendo un favor extraordinario: está criando durante una etapa exigente. Un reparto útil es comprensible, revisable y suficientemente justo como para que nadie tenga que pedir permiso para dormir.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18417,19 +18408,19 @@
       "translation_group": "067-family-meals-with-toddler",
       "language": "es",
       "title": "Cómo organizar las comidas familiares cuando hay un toddler en casa",
-      "words": 726,
-      "paragraphs": 16,
+      "words": 842,
+      "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.51,
+      "h2_density_per_1000_words": 4.75,
       "h2s": [
-        "Piensa en componentes, no en platos perfectos",
-        "El horario familiar puede tener margen",
-        "Reduce decisiones repetidas durante la semana",
-        "La cena no necesita demostrar que vuestra familia come bien"
+        "Construye una sola comida con componentes combinables",
+        "Adapta el horario a las personas que viven en casa",
+        "Usa repetición para reducir la carga mental de la cena",
+        "Reparte el trabajo que ocurre antes y después de sentarse"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 43.6,
+      "avg_paragraph_words": 47.4,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
@@ -18437,20 +18428,20 @@
       "long_paragraphs": 0,
       "phrase_counts": {
         "no_necesitas": 0,
-        "no_significa": 1,
+        "no_significa": 0,
         "a_veces": 1,
-        "puede": 15,
+        "puede": 12,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Con un toddler en casa, la cena puede convertirse en una pequeña operación logística: alguien llega cansado, otra persona tiene hambre antes de tiempo, el niño rechaza lo que ayer comía y de repente parece que necesitas dos menús, tres horarios y mucha diplomacia.",
-      "opening_14_words": "Con un toddler en casa la cena puede convertirse en una pequeña operación logística",
-      "intro_3_paragraphs": "Con un toddler en casa, la cena puede convertirse en una pequeña operación logística: alguien llega cansado, otra persona tiene hambre antes de tiempo, el niño rechaza lo que ayer comía y de repente parece que necesitas dos menús, tres horarios y mucha diplomacia. Organizar las comidas familiares no significa conseguir que todos coman exactamente lo mismo en la misma cantidad. Significa construir una estructura en la que la comida pueda compartirse sin que una persona cocine continuamente a demanda. Una comida puede tener varios elementos que se sirven por separado: una base, una proteína habitual en vuestra casa, verduras, pan, fruta o acompañamientos. Eso permite que cada persona monte el plato de una forma algo distinta sin preparar una cena completamente nueva.",
-      "last_h2": "La cena no necesita demostrar que vuestra familia come bien",
-      "ending_3_paragraphs": "También puedes permitir que algunas cenas sean deliberadamente aburridas. No todas necesitan enseñar un alimento nuevo, crear conversación especial y cumplir una idea educativa. A veces cenar lo previsto, recoger y seguir con la tarde es suficiente. Habrá noches de pasta sencilla, bocadillos, cosas preparadas o platos que apenas toque el niño. Una comida concreta no define la cultura alimentaria de una familia. La meta útil es una estructura que podáis repetir: comida disponible, adultos que no persiguen bocados y un niño que puede participar sin ser el centro de una negociación continua. Con el tiempo, la tranquilidad de esa estructura vale más que una cena impecable.",
-      "risk_score": 2,
+      "opening": "Las cenas con un toddler pueden convertirse en una pequeña operación de gestión: un adulto llega tarde, el niño tiene hambre antes que todos, lo que ayer le encantaba hoy no lo quiere y alguien empieza a plantearse cocinar una segunda comida para terminar cuanto antes. La presión por hacer una “cena familiar de verdad” puede complicar mucho un martes normal.",
+      "opening_14_words": "Las cenas con un toddler pueden convertirse en una pequeña operación de gestión un",
+      "intro_3_paragraphs": "Las cenas con un toddler pueden convertirse en una pequeña operación de gestión: un adulto llega tarde, el niño tiene hambre antes que todos, lo que ayer le encantaba hoy no lo quiere y alguien empieza a plantearse cocinar una segunda comida para terminar cuanto antes. La presión por hacer una “cena familiar de verdad” puede complicar mucho un martes normal. Comer en familia no exige que todos coman la misma cantidad de los mismos alimentos exactamente a la misma hora. Necesita una estructura que permita alimentarse sin convertir a una persona en cocinero a demanda ni usar el apetito del toddler como medida de si la cena ha salido bien. Piensa en piezas compartidas más que en platos cerrados. Una base, una proteína habitual, verduras, pan, fruta, toppings o acompañamientos pueden servirse de forma que cada persona monte un plato algo distinto sin cocinar dos cenas.",
+      "last_h2": "Reparte el trabajo que ocurre antes y después de sentarse",
+      "ending_3_paragraphs": "Compartid decisiones de menú, preparación, poner la mesa, recoger y darse cuenta de qué falta. Incluso una división sencilla —una persona cocina y otra recoge y deja listo lo del día siguiente— puede cambiar más el ambiente que otra estrategia sobre cómo hacer que el niño coma. Si una persona sigue teniendo que recordar al resto qué toca cenar, qué hay que descongelar y qué falta comprar, el trabajo físico puede estar repartido pero la planificación no. Hacer visible esa parte también ayuda a que la cena deje de depender de una sola cabeza. La meta útil es una mesa repetible: se ofrece comida, los adultos no persiguen bocados y el toddler puede participar sin convertirse en el centro de una negociación nocturna. La cena no tiene que demostrar que vuestra familia come perfecto. Tiene que ser suficientemente sostenible como para repetirse mañana.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18459,41 +18450,40 @@
       "translation_group": "068-picky-eating-reduce-battles",
       "language": "es",
       "title": "Picky eating: cómo reducir las batallas en la mesa",
-      "words": 683,
+      "words": 838,
       "paragraphs": 17,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.86,
+      "h2_density_per_1000_words": 4.77,
       "h2s": [
-        "Diferencia ofrecer de conseguir que coma",
-        "Retira la negociación de la mesa",
-        "La exposición puede ser mucho más pequeña de lo que parece",
-        "Mide el progreso por el ambiente, no solo por la variedad"
+        "Crea una estructura predecible y deja de medir cada bocado",
+        "Retira la negociación, las etiquetas y las comparaciones",
+        "Deja que la exposición sea pequeña y sin presión",
+        "Mide también el progreso por el ambiente de la mesa"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 38.2,
+      "avg_paragraph_words": 47.1,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
-      "question_paragraph_ratio": 0.0,
+      "question_paragraph_ratio": 0.059,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 1,
-        "no_significa": 2,
+        "no_necesitas": 0,
+        "no_significa": 1,
         "a_veces": 1,
         "puede": 12,
         "importante": 1,
         "clave": 0
       },
-      "opening": "Cuando un niño acepta pocos alimentos, los adultos empiezan a mirar el plato con una intensidad que el niño nota enseguida. Aparecen el “solo uno”, la negociación, el avión, el premio y la conversación completa girando alrededor de lo que no está comiendo.",
-      "opening_14_words": "Cuando un niño acepta pocos alimentos los adultos empiezan a mirar el plato con",
-      "intro_3_paragraphs": "Cuando un niño acepta pocos alimentos, los adultos empiezan a mirar el plato con una intensidad que el niño nota enseguida. Aparecen el “solo uno”, la negociación, el avión, el premio y la conversación completa girando alrededor de lo que no está comiendo. El problema es que una mesa cargada de presión puede hacer que comer se convierta además en una lucha de autonomía. Reducir las batallas no significa dejar de ofrecer variedad; significa dejar de hacer que la relación familiar dependa del siguiente bocado. Tu parte puede ser decidir qué se ofrece, cuándo y en qué contexto familiar. El niño participa decidiendo qué hace con esa comida dentro de sus posibilidades. Esa separación reduce la sensación de que cada plato necesita un resultado concreto.",
-      "last_h2": "Mide el progreso por el ambiente, no solo por la variedad",
-      "ending_3_paragraphs": "Reducir presión no significa ignorar preocupaciones reales sobre alimentación. Significa que la mesa cotidiana no tiene por qué convertirse en el lugar donde intentas resolverlas mediante insistencia. Si existe una preocupación que necesita otra conversación, puede abordarse fuera del conflicto de la cena. Si las cenas tienen menos llanto, menos persecución y menos discusiones, ya ha cambiado algo importante aunque el repertorio no se amplíe inmediatamente. Una relación tranquila con la mesa no se construye ganando batallas. Se construye con una estructura predecible, exposición repetida y adultos que dejan de convertir cada comida en un informe sobre cuánto ha comido el niño.",
-      "risk_score": 3,
+      "opening": "Cuando un toddler acepta pocos alimentos, es natural que los adultos empiecen a mirar el plato con lupa. En poco tiempo la cena puede convertirse en una narración constante: “solo uno”, “ayer te gustaba”, “tres más y hay postre”, “¿de verdad ya has terminado?”. La preocupación inicial por la comida se mezcla con otra lucha distinta: quién controla lo que ocurre a continuación.",
+      "opening_14_words": "Cuando un toddler acepta pocos alimentos es natural que los adultos empiecen a mirar",
+      "intro_3_paragraphs": "Cuando un toddler acepta pocos alimentos, es natural que los adultos empiecen a mirar el plato con lupa. En poco tiempo la cena puede convertirse en una narración constante: “solo uno”, “ayer te gustaba”, “tres más y hay postre”, “¿de verdad ya has terminado?”. La preocupación inicial por la comida se mezcla con otra lucha distinta: quién controla lo que ocurre a continuación. Reducir las batallas alrededor del picky eating no significa renunciar a la variedad ni fingir que nunca te preocupa. Significa dejar de utilizar el siguiente bocado como examen, negociación o prueba de que la comida está yendo bien. Los adultos pueden decidir qué se ofrece, cuándo hay oportunidades de comer y cuál es el ritmo general de la mesa. El niño interactúa con esa comida según su apetito, familiaridad y comodidad. Esta separación no elimina la responsabilidad adulta; cambia la parte que intentas controlar.",
+      "last_h2": "Mide también el progreso por el ambiente de la mesa",
+      "ending_3_paragraphs": "Si la alimentación sigue siendo extremadamente limitada, genera malestar persistente o está creando preocupaciones que van más allá del conflicto cotidiano, es razonable comentarlo con un profesional pediátrico o de alimentación de confianza. Esa conversación puede ocurrir fuera de la mesa en vez de intentar resolverlo todo insistiendo durante la cena. Separar esa preocupación del momento de comer también protege la relación. Puedes buscar información, observar patrones o pedir orientación sin convertir cada comida familiar en una intervención. El niño no necesita sentir que todas las miradas están midiendo cuánto consigue comer. Una relación más tranquila con la comida no se construye ganando suficientes batallas. Se construye con oportunidades predecibles de comer, contacto repetido y sin presión con los alimentos y adultos que dejan de tratar cada plato como un informe sobre el niño —o sobre ellos mismos.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18502,41 +18492,40 @@
       "translation_group": "069-new-foods-without-pressure",
       "language": "es",
       "title": "Cómo presentar alimentos nuevos sin presión ni sobornos",
-      "words": 651,
-      "paragraphs": 17,
+      "words": 800,
+      "paragraphs": 18,
       "h2_count": 4,
-      "h2_density_per_1000_words": 6.14,
+      "h2_density_per_1000_words": 5.0,
       "h2s": [
-        "Pon lo nuevo al lado de algo conocido",
-        "Deja espacio para interactuar sin probar",
-        "No pagues el bocado",
-        "La repetición necesita paciencia, no espectáculo"
+        "Haz que la primera exposición sea pequeña y fácil de ignorar",
+        "Deja que mirar, tocar, oler y servir también cuente",
+        "Quita los premios y haz que el “no” sea aburrido",
+        "Integra la repetición en la vida normal, no en un programa de degustación"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 36.9,
-      "short_paragraph_ratio": 0.059,
+      "avg_paragraph_words": 42.1,
+      "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
-      "consecutive_short_max": 1,
-      "question_paragraph_ratio": 0.059,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.056,
       "long_paragraphs": 0,
       "phrase_counts": {
-        "no_necesitas": 2,
-        "no_significa": 0,
+        "no_necesitas": 1,
+        "no_significa": 1,
         "a_veces": 0,
-        "puede": 17,
+        "puede": 20,
         "importante": 0,
         "clave": 0
       },
-      "opening": "Los adultos solemos presentar un alimento nuevo con mucha atención: “mira lo que he hecho”, “pruébalo”, “solo un poquito”, “si te lo comes…”. Precisamente esa atención puede anunciar al niño que ha aparecido algo difícil y que ahora se espera una actuación.",
-      "opening_14_words": "Los adultos solemos presentar un alimento nuevo con mucha atención mira lo que he",
-      "intro_3_paragraphs": "Los adultos solemos presentar un alimento nuevo con mucha atención: “mira lo que he hecho”, “pruébalo”, “solo un poquito”, “si te lo comes…”. Precisamente esa atención puede anunciar al niño que ha aparecido algo difícil y que ahora se espera una actuación. Presentar alimentos nuevos funciona mejor cuando el objetivo inmediato es la familiaridad, no conseguir una aceptación instantánea. Un plato compuesto solo por novedades puede sentirse exigente. Servir una pequeña cantidad junto a alimentos habituales permite que el niño participe en la comida sin que todo dependa de esa novedad.",
-      "last_h2": "La repetición necesita paciencia, no espectáculo",
-      "ending_3_paragraphs": "También evita preguntar inmediatamente “¿te gusta?”. El niño puede necesitar tiempo para formar una opinión y esa pregunta suele empujar a un sí o un no definitivo. Puedes dejar que la experiencia ocurra sin pedir una valoración. Algunos alimentos se aceptan pronto y otros permanecen meses en la periferia. No necesitas recordar cuántas veces lo has ofrecido ni convertir cada aparición en una evaluación. El éxito de una exposición no es que el niño se lo coma. Es que el alimento pueda aparecer en la vida familiar sin presión, negociación o miedo. Esa base hace más probable que la curiosidad tenga espacio para crecer.",
-      "risk_score": 3,
+      "opening": "Los adultos solemos presentar un alimento nuevo con un foco enorme: “mira lo que he hecho”, “pruébalo”, “solo un bocado”, “si te lo comes…”. La intención suele ser animar, pero toda esa atención puede decirle al toddler que ha aparecido algo difícil y que ahora todo el mundo espera una actuación.",
+      "opening_14_words": "Los adultos solemos presentar un alimento nuevo con un foco enorme mira lo que",
+      "intro_3_paragraphs": "Los adultos solemos presentar un alimento nuevo con un foco enorme: “mira lo que he hecho”, “pruébalo”, “solo un bocado”, “si te lo comes…”. La intención suele ser animar, pero toda esa atención puede decirle al toddler que ha aparecido algo difícil y que ahora todo el mundo espera una actuación. Los alimentos nuevos son más fáciles de abordar cuando el primer objetivo es familiaridad y no aceptación inmediata. Un alimento puede volverse corriente mucho antes de convertirse en algo que el niño coma con ganas. Sirve lo nuevo junto a cosas que el niño ya reconoce. Un plato lleno de novedades puede sentirse exigente; una pequeña pieza al lado de alimentos familiares permite participar sin que esa novedad sea el precio de entrada.",
+      "last_h2": "Integra la repetición en la vida normal, no en un programa de degustación",
+      "ending_3_paragraphs": "Algunos alimentos se vuelven familiares rápido y otros permanecen durante mucho tiempo en la periferia de la dieta. No existe una cifra garantizada de exposiciones ni una cuenta atrás útil que convierta la décima vez en éxito. También puedes hacer una pausa. Repetir no significa servir lo mismo todos los días hasta que alguien ceda. Un alimento puede desaparecer unas semanas y volver de forma natural cuando encaje otra vez en la comida familiar. Una exposición satisfactoria no tiene por qué terminar con un bocado tragado. Puede ser simplemente un alimento nuevo presente sin presión, sobornos, miedo ni obligación de actuar para los adultos. Esa repetición corriente da más espacio a que aparezca curiosidad real.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words",
-        "elevated_h2_density"
+        "body_under_1050_words"
       ]
     },
     {
@@ -18545,40 +18534,40 @@
       "translation_group": "070-desserts-sweets-boundaries-not-reward",
       "language": "es",
       "title": "Postres y dulces: cómo poner límites sin convertirlos en premio",
-      "words": 709,
-      "paragraphs": 16,
+      "words": 903,
+      "paragraphs": 15,
       "h2_count": 4,
-      "h2_density_per_1000_words": 5.64,
+      "h2_density_per_1000_words": 4.43,
       "h2s": [
         "Separa el postre del rendimiento en la cena",
-        "Habla de los dulces con menos dramatismo",
-        "Decide límites antes de estar negociando",
-        "Una fiesta y un martes no necesitan funcionar igual"
+        "Haz que los dulces sean suficientemente normales como para tener límites",
+        "Decide el límite antes de que empiece la negociación",
+        "Deja que una celebración y un martes funcionen de forma distinta"
       ],
       "list_items": 0,
       "bold_spans": 3,
-      "avg_paragraph_words": 42.4,
+      "avg_paragraph_words": 57.6,
       "short_paragraph_ratio": 0.0,
       "very_short_paragraphs": 0,
       "consecutive_short_max": 0,
       "question_paragraph_ratio": 0.0,
-      "long_paragraphs": 0,
+      "long_paragraphs": 1,
       "phrase_counts": {
-        "no_necesitas": 0,
+        "no_necesitas": 1,
         "no_significa": 1,
-        "a_veces": 0,
-        "puede": 14,
-        "importante": 1,
+        "a_veces": 2,
+        "puede": 11,
+        "importante": 0,
         "clave": 0
       },
-      "opening": "“Si terminas la cena, hay postre” parece una frase inocente porque ofrece un incentivo rápido. Pero también organiza la comida en dos categorías: lo que hay que soportar y lo que se gana después. El postre sube de valor precisamente porque se convierte en recompensa.",
-      "opening_14_words": "Si terminas la cena hay postre parece una frase inocente porque ofrece un incentivo",
-      "intro_3_paragraphs": "“Si terminas la cena, hay postre” parece una frase inocente porque ofrece un incentivo rápido. Pero también organiza la comida en dos categorías: lo que hay que soportar y lo que se gana después. El postre sube de valor precisamente porque se convierte en recompensa. Poner límites a los dulces no exige tratarlos como prohibidos ni ofrecerlos sin ninguna estructura. Puedes decidir cuándo aparecen sin usarlos para controlar cuánto come el niño. Si hoy hay postre, puede formar parte del plan familiar independientemente de si el niño comió tres bocados o diez. Eso no significa que tenga acceso ilimitado; significa que el criterio no es “te lo has ganado”.",
-      "last_h2": "Una fiesta y un martes no necesitan funcionar igual",
-      "ending_3_paragraphs": "Esta sencillez suele ser más sostenible que intentar que el niño esté de acuerdo con la norma. Un límite puede funcionar aunque proteste. El objetivo no es lograr que nunca quiera otro trozo, sino que la petición no reabra toda la negociación de la cena. Las familias pueden tener más flexibilidad en cumpleaños, vacaciones o celebraciones sin que eso destruya los límites habituales. La alimentación también incluye contexto social, placer y tradición. La meta no es conseguir que los dulces pierdan todo atractivo. Es evitar que se conviertan en el premio máximo que controla el resto de la mesa. Cuando dejan de medir obediencia, suele haber menos motivos para negociar cada cucharada alrededor de ellos.",
-      "risk_score": 2,
+      "opening": "“Si terminas la cena, hay postre” parece una frase práctica porque a veces consigue dos o tres bocados más en ese momento. Pero también construye una jerarquía que el niño aprende enseguida: la comida principal es el trabajo y lo dulce es la recompensa. Cuanto más se utiliza el postre para conseguir que coma o coopere, más poder simbólico puede acumular.",
+      "opening_14_words": "Si terminas la cena hay postre parece una frase práctica porque a veces consigue",
+      "intro_3_paragraphs": "“Si terminas la cena, hay postre” parece una frase práctica porque a veces consigue dos o tres bocados más en ese momento. Pero también construye una jerarquía que el niño aprende enseguida: la comida principal es el trabajo y lo dulce es la recompensa. Cuanto más se utiliza el postre para conseguir que coma o coopere, más poder simbólico puede acumular. Poner límites a los dulces no exige prohibirlos, servirlos sin ninguna estructura ni fingir que dejarán de resultar atractivos. La idea es más sencilla: los adultos deciden cuándo aparecen y en qué cantidad, sin convertirlos en pago por comer otros alimentos o comportarse de una forma determinada. Si hoy el postre forma parte del plan, puede seguir formando parte del plan aunque el niño haya comido tres bocados o diez. Eso no significa acceso ilimitado ni que todas las comidas necesiten postre. Significa que la porción no se gana terminando el plato, probando una verdura o alcanzando la cantidad que un adulto considera suficiente.",
+      "last_h2": "Deja que una celebración y un martes funcionen de forma distinta",
+      "ending_3_paragraphs": "Un cumpleaños, unas vacaciones, una comida familiar especial y una cena cualquiera no necesitan tener exactamente las mismas reglas. La comida también es social y placentera. Una celebración más flexible no elimina la estructura cotidiana, del mismo modo que un límite habitual no obliga a convertir cada ocasión especial en una negociación. También puede ayudar observar qué haces después de un día con más dulces de lo habitual. No necesitas compensarlo restringiendo la siguiente comida ni hablando de haber sido “buenos” o “malos”. Volver al ritmo normal de la familia evita transformar un evento puntual en una historia moral alrededor de la comida. La meta no es conseguir que los dulces dejen de interesar ni que el niño nunca pida más. Es dejar de darles el papel de premio máximo de la mesa. Cuando el postre deja de medir obediencia, apetito o si la cena fue “suficientemente buena”, resulta mucho más fácil mantener límites razonables sin convertir cada alimento dulce en la recompensa que organiza todo lo demás.",
+      "risk_score": 1,
       "risk_reasons": [
-        "body_under_800_words"
+        "body_under_1050_words"
       ]
     },
     {
@@ -28499,6 +28488,25 @@
   "repeated_openings": [],
   "common_ngrams": [
     {
+      "ngram": "at the end of the day",
+      "count": 13,
+      "files": [
+        "content/articles/en/003-toddler-tantrums-calm-limits-connection.json",
+        "content/articles/en/025-child-wont-clean-up-cooperation.json",
+        "content/articles/en/052-postpartum-without-perfectionism.json",
+        "content/articles/en/064-return-to-work-breastfeeding-logistics.json",
+        "content/articles/en/097-vacation-young-kids-lower-expectations.json",
+        "content/articles/en/106-bedtime-endless-requests-limits-connection.json",
+        "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
+        "content/articles/en/1082-stop-measuring-motherhood-by-output.json",
+        "content/articles/en/1086-end-hard-day-without-judging-motherhood.json",
+        "content/articles/en/119-siblings-sharing-room-sleep-space-expectations.json",
+        "content/articles/en/136-coordinate-sibling-bedtimes-without-double-work.json",
+        "content/articles/en/141-falling-asleep-with-parent-bad-habit.json",
+        "content/articles/en/146-guilt-changing-sleep-routine.json"
+      ]
+    },
+    {
       "ngram": "does not need to become a",
       "count": 13,
       "files": [
@@ -28518,29 +28526,12 @@
       ]
     },
     {
-      "ngram": "at the end of the day",
-      "count": 12,
-      "files": [
-        "content/articles/en/003-toddler-tantrums-calm-limits-connection.json",
-        "content/articles/en/025-child-wont-clean-up-cooperation.json",
-        "content/articles/en/052-postpartum-without-perfectionism.json",
-        "content/articles/en/097-vacation-young-kids-lower-expectations.json",
-        "content/articles/en/106-bedtime-endless-requests-limits-connection.json",
-        "content/articles/en/1061-looking-forward-to-being-alone-end-of-day.json",
-        "content/articles/en/1082-stop-measuring-motherhood-by-output.json",
-        "content/articles/en/1086-end-hard-day-without-judging-motherhood.json",
-        "content/articles/en/119-siblings-sharing-room-sleep-space-expectations.json",
-        "content/articles/en/136-coordinate-sibling-bedtimes-without-double-work.json",
-        "content/articles/en/141-falling-asleep-with-parent-bad-habit.json",
-        "content/articles/en/146-guilt-changing-sleep-routine.json"
-      ]
-    },
-    {
       "ngram": "the goal is not to prove",
-      "count": 10,
+      "count": 11,
       "files": [
         "content/articles/en/018-baby-led-feeding-table-autonomy.json",
         "content/articles/en/046-share-parenting-mental-load-as-a-couple.json",
+        "content/articles/en/066-night-feeding-share-load-partner.json",
         "content/articles/en/074-morning-exit-routine-with-kids-without-yelling.json",
         "content/articles/en/081-potty-to-toilet-gradual-transition.json",
         "content/articles/en/095-road-trip-kids-stops-entertainment-packing.json",
@@ -28565,50 +28556,6 @@
         "content/articles/en/1065-why-five-minutes-alone-matter-as-mom.json",
         "content/articles/en/110-when-sleep-routine-stops-working.json",
         "content/articles/en/1116-fear-losing-identity-after-motherhood.json"
-      ]
-    },
-    {
-      "ngram": "no tiene por qué convertirse en",
-      "count": 9,
-      "files": [
-        "content/articles/es/022-nino-pega-sin-etiquetarlo-agresivo.json",
-        "content/articles/es/068-picky-eating-reducir-batallas-mesa.json",
-        "content/articles/es/1031-maternidad-cambio-personalidad.json",
-        "content/articles/es/1036-sentir-mucho-mas-que-perder-madre.json",
-        "content/articles/es/1041-presion-ser-madre-paciente-todo-el-tiempo.json",
-        "content/articles/es/1083-error-pequeno-mala-madre.json",
-        "content/articles/es/1089-aceptar-semana-mala-sin-pensar-familia-mal.json",
-        "content/articles/es/1125-miedo-comprar-cosas-bebe-demasiado-pronto.json",
-        "content/articles/es/1144-familiar-anuncia-embarazo-antes-que-tu.json"
-      ]
-    },
-    {
-      "ngram": "you do not need to turn",
-      "count": 9,
-      "files": [
-        "content/articles/en/004-potty-training-without-pressure.json",
-        "content/articles/en/069-introduce-new-foods-without-pressure-bribes.json",
-        "content/articles/en/082-bath-time-cooperation-routine.json",
-        "content/articles/en/1006-guilt-phone-while-kids-play.json",
-        "content/articles/en/1122-live-with-emotional-uncertainty-pregnancy.json",
-        "content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json",
-        "content/articles/en/1138-missing-pre-pregnancy-body-without-guilt.json",
-        "content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json",
-        "content/articles/en/125-time-change-kids-adjust-routine.json"
-      ]
-    },
-    {
-      "ngram": "a las tres de la mañana",
-      "count": 8,
-      "files": [
-        "content/articles/es/011-despertares-nocturnos-responder-respeto.json",
-        "content/articles/es/048-paternidad-implicada-conectar-con-bebe.json",
-        "content/articles/es/053-primeras-semanas-recien-nacido-sin-horario-perfecto.json",
-        "content/articles/es/057-vestir-recien-nacido-sin-llenar-armario.json",
-        "content/articles/es/066-alimentacion-nocturna-reparto-pareja.json",
-        "content/articles/es/109-noches-dificiles-sin-cambiar-estrategia-cada-dia.json",
-        "content/articles/es/1117-miedo-relacion-cambie-para-siempre-despues-bebe.json",
-        "content/articles/es/1119-miedo-no-sentir-suficiente-amor-bebe-cuando-nazca.json"
       ]
     },
     {
@@ -28640,6 +28587,20 @@
       ]
     },
     {
+      "ngram": "no tiene por qué convertirse en",
+      "count": 8,
+      "files": [
+        "content/articles/es/022-nino-pega-sin-etiquetarlo-agresivo.json",
+        "content/articles/es/1031-maternidad-cambio-personalidad.json",
+        "content/articles/es/1036-sentir-mucho-mas-que-perder-madre.json",
+        "content/articles/es/1041-presion-ser-madre-paciente-todo-el-tiempo.json",
+        "content/articles/es/1083-error-pequeno-mala-madre.json",
+        "content/articles/es/1089-aceptar-semana-mala-sin-pensar-familia-mal.json",
+        "content/articles/es/1125-miedo-comprar-cosas-bebe-demasiado-pronto.json",
+        "content/articles/es/1144-familiar-anuncia-embarazo-antes-que-tu.json"
+      ]
+    },
+    {
       "ngram": "no voy a dejar que pegues",
       "count": 8,
       "files": [
@@ -28668,17 +28629,30 @@
       ]
     },
     {
-      "ngram": "you do not need to prove",
+      "ngram": "you do not need to turn",
       "count": 8,
       "files": [
-        "content/articles/en/013-sleep-regressions-calm.json",
-        "content/articles/en/063-breastfeeding-in-public-feel-comfortable-prepared.json",
-        "content/articles/en/1038-dont-recognize-how-protective-youve-become.json",
-        "content/articles/en/1101-not-happy-all-the-time-pregnancy.json",
-        "content/articles/en/1109-not-want-to-talk-to-bump.json",
-        "content/articles/en/1118-fear-becoming-only-parents-not-couple.json",
-        "content/articles/en/1126-afraid-to-get-too-excited-pregnancy.json",
-        "content/articles/en/1134-not-want-people-touch-pregnant-belly.json"
+        "content/articles/en/004-potty-training-without-pressure.json",
+        "content/articles/en/082-bath-time-cooperation-routine.json",
+        "content/articles/en/1006-guilt-phone-while-kids-play.json",
+        "content/articles/en/1122-live-with-emotional-uncertainty-pregnancy.json",
+        "content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json",
+        "content/articles/en/1138-missing-pre-pregnancy-body-without-guilt.json",
+        "content/articles/en/1149-everything-about-baby-miss-being-asked-about-you.json",
+        "content/articles/en/125-time-change-kids-adjust-routine.json"
+      ]
+    },
+    {
+      "ngram": "a las tres de la mañana",
+      "count": 7,
+      "files": [
+        "content/articles/es/011-despertares-nocturnos-responder-respeto.json",
+        "content/articles/es/048-paternidad-implicada-conectar-con-bebe.json",
+        "content/articles/es/053-primeras-semanas-recien-nacido-sin-horario-perfecto.json",
+        "content/articles/es/057-vestir-recien-nacido-sin-llenar-armario.json",
+        "content/articles/es/109-noches-dificiles-sin-cambiar-estrategia-cada-dia.json",
+        "content/articles/es/1117-miedo-relacion-cambie-para-siempre-despues-bebe.json",
+        "content/articles/es/1119-miedo-no-sentir-suficiente-amor-bebe-cuando-nazca.json"
       ]
     },
     {
@@ -28721,19 +28695,6 @@
       ]
     },
     {
-      "ngram": "the goal is not to make",
-      "count": 7,
-      "files": [
-        "content/articles/en/002-baby-bedtime-routine.json",
-        "content/articles/en/065-respectful-weaning-connection-boundaries.json",
-        "content/articles/en/070-desserts-sweets-boundaries-not-reward.json",
-        "content/articles/en/073-eating-out-with-toddlers-easier.json",
-        "content/articles/en/1019-nothing-to-talk-about-except-kids.json",
-        "content/articles/en/107-recognizable-sleep-cues-when-days-vary.json",
-        "content/articles/en/1148-respond-when-dont-want-talk-pregnancy.json"
-      ]
-    },
-    {
       "ngram": "you also do not need to",
       "count": 7,
       "files": [
@@ -28760,19 +28721,6 @@
       ]
     },
     {
-      "ngram": "you do not have to wait",
-      "count": 7,
-      "files": [
-        "content/articles/en/063-breastfeeding-in-public-feel-comfortable-prepared.json",
-        "content/articles/en/1002-guilt-needing-break-from-kids.json",
-        "content/articles/en/1014-feeling-invisible-behind-mom-role.json",
-        "content/articles/en/1087-promise-tomorrow-more-patient-mom.json",
-        "content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json",
-        "content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json",
-        "content/articles/en/146-guilt-changing-sleep-routine.json"
-      ]
-    },
-    {
       "ngram": "you do not need to make",
       "count": 7,
       "files": [
@@ -28786,6 +28734,19 @@
       ]
     },
     {
+      "ngram": "you do not need to prove",
+      "count": 7,
+      "files": [
+        "content/articles/en/013-sleep-regressions-calm.json",
+        "content/articles/en/1038-dont-recognize-how-protective-youve-become.json",
+        "content/articles/en/1101-not-happy-all-the-time-pregnancy.json",
+        "content/articles/en/1109-not-want-to-talk-to-bump.json",
+        "content/articles/en/1118-fear-becoming-only-parents-not-couple.json",
+        "content/articles/en/1126-afraid-to-get-too-excited-pregnancy.json",
+        "content/articles/en/1134-not-want-people-touch-pregnant-belly.json"
+      ]
+    },
+    {
       "ngram": "comentarlo con un profesional de confianza",
       "count": 6,
       "files": [
@@ -28795,18 +28756,6 @@
         "content/articles/es/1138-echar-menos-cuerpo-anterior-embarazo.json",
         "content/articles/es/1139-amar-barriga-unos-dias-incomoda-otros.json",
         "content/articles/es/1140-emociones-contradictorias-espejo-embarazo.json"
-      ]
-    },
-    {
-      "ngram": "do not have to wait until",
-      "count": 6,
-      "files": [
-        "content/articles/en/063-breastfeeding-in-public-feel-comfortable-prepared.json",
-        "content/articles/en/1002-guilt-needing-break-from-kids.json",
-        "content/articles/en/1087-promise-tomorrow-more-patient-mom.json",
-        "content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json",
-        "content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json",
-        "content/articles/en/146-guilt-changing-sleep-routine.json"
       ]
     },
     {
@@ -28867,6 +28816,18 @@
         "content/articles/en/1112-fear-not-knowing-how-to-care-for-newborn-first-time-mom.json",
         "content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json",
         "content/articles/en/1129-compare-pregnancy-to-others-and-worry.json"
+      ]
+    },
+    {
+      "ngram": "you do not have to wait",
+      "count": 6,
+      "files": [
+        "content/articles/en/1002-guilt-needing-break-from-kids.json",
+        "content/articles/en/1014-feeling-invisible-behind-mom-role.json",
+        "content/articles/en/1087-promise-tomorrow-more-patient-mom.json",
+        "content/articles/en/1121-what-if-something-goes-wrong-pregnancy.json",
+        "content/articles/en/1131-body-no-longer-feels-like-yours-pregnancy.json",
+        "content/articles/en/146-guilt-changing-sleep-routine.json"
       ]
     }
   ]

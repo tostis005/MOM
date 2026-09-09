@@ -43,6 +43,7 @@ Before selecting any article or range for an editorial quality/recovery pass, re
 | 121–130 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #19. |
 | 131–140 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #20. |
 | 141–150 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #21. |
+| 1001–1010 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #47. |
 | 1011–1020 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #45. |
 | 1021–1030 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #40. |
 | 1031–1040 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #41. |
@@ -71,7 +72,7 @@ These entries record deliberate extra passes that were explicitly performed on r
 For automated or manual candidate selection, the currently reviewed article numbers are:
 
 - `011–150`, except `001–010` are **not** covered by this registry entry. The reviewed span starts at 011.
-- `1011–1150`.
+- `1001–1150`.
 
 This compact exclusion set is equivalent to the detailed rows above. If future work creates a gap, partial batch, or non-contiguous exception, update both this section and the detailed table rather than assuming the compact ranges remain continuous.
 

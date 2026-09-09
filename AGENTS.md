@@ -39,6 +39,17 @@ Canonical shape:
 
 When migrating or reclassifying an existing article, do not rewrite `title`, `slug`, `seo`, `excerpt`, `content_html`, `faq`, `sources`, `image`, `market_context`, `translation_group`, or any other editorial field unless the task explicitly asks for editorial changes. Taxonomy-only work must remain taxonomy-only.
 
+## Editorial quality-review registry
+
+Before selecting any existing article or batch for an editorial quality/recovery pass, **MUST read** `agents/EDITORIAL_QUALITY_REVIEW_REGISTRY.md`.
+
+- Any article marked there as `QUALITY_REVIEWED` MUST be excluded from new editorial-recovery selection, even if the latest editorial audit assigns it a high risk score.
+- `editorial-audit-ranking.tsv` is only a prioritization source among articles that are **not** already marked reviewed.
+- Do not infer that an article needs another editorial rewrite solely from an automated audit score.
+- After a completed editorial-recovery batch is merged, update the registry before selecting the next batch.
+- Initial article creation, normalization, migration, taxonomy work, or publication alone do not count as an editorial quality review.
+- An already reviewed article may only receive another deliberate quality pass when that new pass is explicitly requested; record the additional pass in the registry rather than erasing the previous one.
+
 ## Validation
 
 Before committing article JSON, run:

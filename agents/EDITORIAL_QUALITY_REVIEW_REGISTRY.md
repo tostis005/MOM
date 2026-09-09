@@ -58,6 +58,14 @@ Before selecting any article or range for an editorial quality/recovery pass, re
 | 1131–1140 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #27. |
 | 1141–1150 | EN + ES | `QUALITY_REVIEWED` | Merged editorial recovery PR #28. |
 
+## Additional editorial passes on reviewed ranges
+
+These entries record deliberate extra passes that were explicitly performed on ranges already covered by `QUALITY_REVIEWED`. They do not replace or erase the original review evidence above.
+
+| Article range | Pass | Languages | Editorial status | Evidence / traceability |
+|---|---:|---|---|---|
+| 141–150 | 2 | EN + ES | `QUALITY_REVIEWED` | Deliberate second editorial pass merged in PR #50 on 2026-09-09. Only `content_html` was rewritten across the 20 existing JSON files; URLs/slugs and metadata were preserved. |
+
 ## Explicit exclusion set
 
 For automated or manual candidate selection, the currently reviewed article numbers are:
@@ -75,6 +83,7 @@ WordPress/import confirmation is operational deployment evidence and must not be
 
 - 061–070: `created=0 updated=20 skipped=0 failed=0`
 - 101–110: `created=0 updated=20 skipped=0 failed=0`
+- 141–150 pass 2 (PR #50; import run 34396853504): `created=0 updated=20 skipped=0 failed=0`
 - 1011–1020: `created=0 updated=20 skipped=0 failed=0`
 - 1021–1030: `created=0 updated=20 skipped=0 failed=0`
 - 1051–1060: `created=0 updated=20 skipped=0 failed=0`

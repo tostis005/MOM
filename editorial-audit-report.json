@@ -1,34 +1,34 @@
 {
   "summary": {
-    "total": 600,
+    "total": 620,
     "by_language": {
       "es": {
-        "count": 300,
-        "avg_words": 828.6,
-        "median_words": 820,
-        "avg_h2": 4.24,
-        "avg_short_para_ratio": 0.004,
-        "risk_7_plus": 0,
-        "risk_5_6": 0,
-        "risk_3_4": 36,
-        "risk_0_2": 264
-      },
-      "en": {
-        "count": 300,
-        "avg_words": 850.6,
-        "median_words": 841,
+        "count": 310,
+        "avg_words": 827.7,
+        "median_words": 819,
         "avg_h2": 4.23,
         "avg_short_para_ratio": 0.003,
         "risk_7_plus": 0,
         "risk_5_6": 0,
+        "risk_3_4": 36,
+        "risk_0_2": 274
+      },
+      "en": {
+        "count": 310,
+        "avg_words": 851.7,
+        "median_words": 844,
+        "avg_h2": 4.22,
+        "avg_short_para_ratio": 0.003,
+        "risk_7_plus": 0,
+        "risk_5_6": 0,
         "risk_3_4": 37,
-        "risk_0_2": 263
+        "risk_0_2": 273
       }
     },
     "exact_repeated_paragraphs": 0,
     "repeated_h2_patterns": 0,
     "repeated_opening_patterns": 0,
-    "common_6grams_6plus_articles": 25
+    "common_6grams_6plus_articles": 27
   },
   "highest_risk": [
     {
@@ -8980,6 +8980,426 @@
       "intro_3_paragraphs": "Baby sleep apps promise order during a season that can feel chaotic. Seeing when the last nap ended, what happened during another caregiver's shift, or when the baby last ate can save questions and tired memory. But the same tool that organizes can also start demanding more attention than it gives back. A sleep app is useful when it reduces mental load. It stops being useful when every sleep period becomes a metric you feel responsible for optimizing. The real question is not whether the technology is good or bad; it is what job the app is doing in your household and whether that job is worth the attention it requires. In homes with multiple caregivers, night shifts, grandparents, a nanny, or fragmented workdays, an app can act as a handoff point. The next person can see roughly when the baby slept without waking someone else to ask.",
       "last_h2": "Try less tracking and notice what you regain or lose",
       "ending_3_paragraphs": "Pay attention to what happens when reality disagrees with the app. If you can treat the recommendation as one input and calmly follow the baby or family context instead, the tool is probably staying in its proper role. If overriding the app feels like doing something wrong, it may have acquired more authority than you intended. The best tool improves life when you are not using it. If an app helps the household coordinate and think less about data, it may be worth keeping. If it makes sleep occupy even more mental space, simplifying or leaving it can be a reasonable choice. If there is a health, development, breathing, or feeding concern, a sleep app should not become the family's clinical authority. It can provide notes for an appointment, but medical concerns need interpretation from a professional who can assess the baby in context.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/151-baby-monitors-help-sleep-without-more-anxiety.json",
+      "article_number": 151,
+      "translation_group": "151-baby-monitors-help-sleep-without-more-anxiety",
+      "language": "en",
+      "title": "Do baby monitors help sleep? How to use one without creating more anxiety",
+      "words": 994,
+      "paragraphs": 17,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.02,
+      "h2s": [
+        "A monitor helps most when it replaces unnecessary checking",
+        "Consumer monitors do not prevent SIDS or make an unsafe sleep space safe",
+        "Reduce the settings that turn normal sleep into a live broadcast",
+        "Judge the monitor by what happens to your attention and sleep"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 55.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.176,
+      "long_paragraphs": 2,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 15,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "A baby monitor can solve a very ordinary problem: you want to know whether your baby needs you without standing beside the crib all evening. Used that way, it can give adults more freedom to eat dinner, talk, shower or sleep in another part of the home while still being able to respond.",
+      "opening_14_words": "A baby monitor can solve a very ordinary problem you want to know whether",
+      "intro_3_paragraphs": "A baby monitor can solve a very ordinary problem: you want to know whether your baby needs you without standing beside the crib all evening. Used that way, it can give adults more freedom to eat dinner, talk, shower or sleep in another part of the home while still being able to respond. But a monitor does not make a baby sleep better by itself. In some homes it helps the adults sleep because they stop checking the room repeatedly. In others it does the opposite: every grunt, head turn and brief wake-up becomes something to inspect. The useful question is not whether a monitor is essential, but whether it gives you actionable information and then lets you return your attention to your own life. Babies are noisy sleepers. They may sigh, move, briefly cry out or open their eyes and then settle again. If your first response to every sound is to walk into the room, the visit itself can sometimes turn a partial arousal into a full interaction. A simple audio or video monitor can create a short pause in which you work out whether your baby is resettling or actually needs help.",
+      "last_h2": "Judge the monitor by what happens to your attention and sleep",
+      "ending_3_paragraphs": "After a week, ask what the device has changed. Are you entering the room less often? Can you spend an evening downstairs without wondering whether the baby is awake? Do handoffs feel easier? Those are concrete benefits. Then look at the cost. Are you checking the camera even when the baby is quiet? Does an oxygen or sleep score determine whether you feel safe enough to sleep? Do false alerts repeatedly wake you? If the monitor keeps you mentally on duty, simplify it: mute unnecessary notifications, use audio only, move the parent unit farther from your pillow or stop using tracking features. There is no prize for using the most technology. Some families sleep better with a basic audio monitor; some like video; some need nothing beyond hearing distance. A good monitor gives you enough information to respond when needed and then becomes boring. If it makes you watch sleep instead of getting your own, it is reasonable to use less of it.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/152-white-noise-baby-sleep-safe-use.json",
+      "article_number": 152,
+      "translation_group": "152-white-noise-baby-sleep-safe-use",
+      "language": "en",
+      "title": "White noise for baby sleep: benefits, risks and how to use it safely",
+      "words": 927,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.31,
+      "h2s": [
+        "White noise can be a cue and a sound buffer, not a sleep requirement",
+        "For hearing safety, use distance and low volume rather than a rigid internet number",
+        "Continuous use is not the only option",
+        "Keep the rest of the sleep environment more important than the machine"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 48.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 16,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "White noise is popular because it can make an unpredictable home sound more predictable. A steady background sound may soften the contrast between silence and a barking dog, a sibling dropping a toy or adults moving around after bedtime. Some babies appear to settle more easily with it; others barely notice.",
+      "opening_14_words": "White noise is popular because it can make an unpredictable home sound more predictable",
+      "intro_3_paragraphs": "White noise is popular because it can make an unpredictable home sound more predictable. A steady background sound may soften the contrast between silence and a barking dog, a sibling dropping a toy or adults moving around after bedtime. Some babies appear to settle more easily with it; others barely notice. The useful part is consistency, not intensity. A sleep machine does not need to fill the room with loud sound to work as a cue. The safest practical approach is to place it well away from the baby's head, use the lowest volume that serves its purpose and avoid assuming that continuous exposure is harmless simply because the sound feels soothing to an adult. A newborn has not learned that darkness, pajamas or a particular sound means bedtime. Repetition gradually gives ordinary cues meaning. If the same low, steady noise is used during a short wind-down, it can become one of several signals that sleep is approaching.",
+      "last_h2": "Keep the rest of the sleep environment more important than the machine",
+      "ending_3_paragraphs": "Watch the baby and the household rather than the gadget. If low white noise helps everyone move around normally and the baby settles comfortably, that can be enough. If you are constantly adjusting settings, checking decibel readings or worrying that sleep will collapse without it, simplify. You do not have to choose between total silence and a loud soundscape. Ordinary homes make noise, and babies can learn to sleep through some of it. The goal of white noise is not to overpower the environment; it is to make the background a little steadier when that genuinely helps. If your baby seems unusually sensitive to sound, has a hearing concern, or you are unsure about exposure after using a machine loudly or very close to the crib, discuss it with your pediatric clinician or an audiology professional rather than relying on an app reading.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/153-baby-bedroom-environment-light-temperature-noise.json",
+      "article_number": 153,
+      "translation_group": "153-baby-bedroom-environment-light-temperature-noise",
+      "language": "en",
+      "title": "Baby bedroom environment: light, temperature, noise and a setup that supports sleep",
+      "words": 884,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.52,
+      "h2s": [
+        "Use light to mark day and night rather than trying to eliminate it completely",
+        "Think comfortable, not cold—and watch the baby rather than a single number",
+        "Use sound to soften disruption, not to make normal life disappear",
+        "Build a room you can use on ordinary nights"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 46.5,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 11,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "When sleep is difficult, the room can start to feel like a control panel. Parents buy blackout shades, thermometers, humidifiers, sound machines and night-lights, then wonder which setting is responsible for every wake-up. The environment matters, but it is only one layer of infant sleep.",
+      "opening_14_words": "When sleep is difficult the room can start to feel like a control panel",
+      "intro_3_paragraphs": "When sleep is difficult, the room can start to feel like a control panel. Parents buy blackout shades, thermometers, humidifiers, sound machines and night-lights, then wonder which setting is responsible for every wake-up. The environment matters, but it is only one layer of infant sleep. A good baby sleep space is safe, comfortable and reasonably consistent. It does not need to be perfect. The point of adjusting light, temperature and sound is to remove obvious friction and give the baby recognizable cues, not to create laboratory conditions that the family cannot reproduce anywhere else. Light is one of the strongest environmental signals for the body clock. During the day, normal daylight, feeds, conversation and household activity help create contrast with nighttime. At night, keeping lights low during feeds and diaper changes can make the interaction less stimulating and help preserve that contrast.",
+      "last_h2": "Build a room you can use on ordinary nights",
+      "ending_3_paragraphs": "Choose a small set of cues: dimmer light, a safe sleep space, comfortable clothing, perhaps a familiar sound and the same short wind-down. Then let some variation exist. Travel, daylight saving changes, illness and family life will occasionally produce a room that is brighter, warmer or noisier than usual. If sleep suddenly worsens, check the obvious environmental issues—heat, bright light, unusual noise—but also consider timing, illness, hunger, development and changes in routine. Do not keep adjusting the room when the problem may be elsewhere. A supportive bedroom makes sleep easier to enter, but it should not make family life fragile. Safe basics plus a few repeatable cues are usually more useful than trying to engineer the perfect sleep chamber.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/154-room-sharing-with-baby-sleep-setup.json",
+      "article_number": 154,
+      "translation_group": "154-room-sharing-with-baby-sleep-setup",
+      "language": "en",
+      "title": "Room sharing with a baby: sleep benefits, challenges and a practical setup",
+      "words": 922,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.34,
+      "h2s": [
+        "Start with the safe sleep space, then organize the adult room around it",
+        "Normal infant noise can wake adults who do not need to intervene",
+        "Protect nighttime simplicity instead of trying to make the shared room invisible",
+        "Room sharing is a season, and the decision to change it deserves its own plan"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 48.3,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 2,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 11,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Room sharing is one of those recommendations that sounds simple until three people are trying to sleep in the same small space. The baby grunts. One adult turns over. Someone needs a feed at 2 a.m. A phone lights up. The practical challenge is not just where to put the bassinet; it is how to make nighttime workable while keeping the baby's sleep space separate and safe.",
+      "opening_14_words": "Room sharing is one of those recommendations that sounds simple until three people are",
+      "intro_3_paragraphs": "Room sharing is one of those recommendations that sounds simple until three people are trying to sleep in the same small space. The baby grunts. One adult turns over. Someone needs a feed at 2 a.m. A phone lights up. The practical challenge is not just where to put the bassinet; it is how to make nighttime workable while keeping the baby's sleep space separate and safe. Current AAP guidance recommends room sharing without bed sharing for at least the first six months. That recommendation is about safety, not a promise that everyone will sleep longer. Room sharing can make feeds and comforting easier, but it can also mean adults notice more normal infant noise. A good setup respects both realities. The baby needs their own firm, flat sleep surface designed for infant sleep: a crib, bassinet or other approved option with a fitted sheet and no loose bedding, pillows, bumpers or soft toys. Put the baby down on their back for sleep. Room sharing means the sleep space is in the same room, not that the baby sleeps in the adult bed.",
+      "last_h2": "Room sharing is a season, and the decision to change it deserves its own plan",
+      "ending_3_paragraphs": "If you are struggling, first simplify the room rather than immediately treating the baby as the problem. Shift the bassinet a little farther from the adult bed while keeping it in the room, reduce avoidable lights, divide caregiver shifts, and distinguish noises that require action from those that do not. When you eventually consider moving the baby to a separate room, make that decision based on current safe-sleep guidance, your baby's age and circumstances, and the household's ability to maintain a safe sleep space. The transition itself is a separate issue from whether room sharing has become tiring. The best room-sharing setup is not the quietest or most aesthetic one. It is the one that keeps the baby's sleep space safe and separate while allowing the adults to live and sleep as normally as the season permits.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/155-move-baby-own-room-timing-transition.json",
+      "article_number": 155,
+      "translation_group": "155-move-baby-own-room-timing-transition",
+      "language": "en",
+      "title": "Moving baby to their own room: timing, readiness and a calmer transition plan",
+      "words": 883,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.53,
+      "h2s": [
+        "Separate the safety decision from the sleep-improvement hope",
+        "Prepare the room before you ask the baby to adapt to it",
+        "You can make the transition gradually or all at once",
+        "Evaluate the move by family sleep, not by whether the first night was perfect"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 46.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.111,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 3,
+        "puede": 9,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Parents often ask for the sign that means a baby is ready for their own room: sleeping a certain number of hours, rolling over, reaching a particular weight or seeming disturbed by adult noise. There is no single developmental milestone that decides the move.",
+      "opening_14_words": "Parents often ask for the sign that means a baby is ready for their",
+      "intro_3_paragraphs": "Parents often ask for the sign that means a baby is ready for their own room: sleeping a certain number of hours, rolling over, reaching a particular weight or seeming disturbed by adult noise. There is no single developmental milestone that decides the move. For young infants, safe-sleep guidance matters more than convenience. The American Academy of Pediatrics recommends room sharing without bed sharing for at least the first six months. After that, moving rooms is less about proving that the baby is ready and more about deciding whether the timing and setup work for your family while safe-sleep basics remain unchanged. Some parents consider a separate room because every grunt wakes them. Others hope the baby will wake less without hearing adults come to bed. Sometimes sleep does improve; sometimes nothing changes; sometimes the unfamiliar room produces a few rough nights first.",
+      "last_h2": "Evaluate the move by family sleep, not by whether the first night was perfect",
+      "ending_3_paragraphs": "If waking increases sharply after the move, troubleshoot the transition rather than repeatedly redesigning the room. Check light, temperature, unfamiliar sounds, timing and whether the baby now needs a little more reassurance. The next article in this series deals specifically with waking after a room change. You can also reverse or pause the transition. Moving back temporarily is not failure if illness, travel, a developmental disruption or family exhaustion makes the timing poor. A room change is a household arrangement, not a one-way developmental milestone. The goal is a safe place where the baby can sleep and caregivers can respond sustainably. Once current safety guidance allows the move, there is no medal for doing it early or late. Choose the timing that fits the actual baby and household rather than someone else's calendar.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/156-baby-waking-more-after-own-room.json",
+      "article_number": 156,
+      "translation_group": "156-baby-waking-more-after-own-room",
+      "language": "en",
+      "title": "Baby waking more after moving to their own room: what to check before changing everything",
+      "words": 831,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.81,
+      "h2s": [
+        "First check what is actually different in the new room",
+        "The baby may be asking for reassurance, not a completely new sleep method",
+        "Make sure the room move is not being blamed for an unrelated sleep change",
+        "Give the transition a fair trial, but keep the option to pause"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 43.4,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.056,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 10,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "You moved the crib, kept the bedtime routine, expected everyone to sleep a little better—and suddenly the baby is waking more. It is easy to interpret that as proof that the separate room was a mistake. Sometimes the timing is poor, but a few rough nights can also be a normal response to a new environment.",
+      "opening_14_words": "You moved the crib kept the bedtime routine expected everyone to sleep a little",
+      "intro_3_paragraphs": "You moved the crib, kept the bedtime routine, expected everyone to sleep a little better—and suddenly the baby is waking more. It is easy to interpret that as proof that the separate room was a mistake. Sometimes the timing is poor, but a few rough nights can also be a normal response to a new environment. When waking increases after a room change, troubleshoot the change before redesigning the baby's entire sleep routine. The useful question is what became different: the sensory environment, the distance from caregivers, the way you respond, or simply the developmental week in which the move happened. Stand in the room at the times the baby is waking. A nursery that feels calm at 7 p.m. may have headlights across the wall at midnight, heating noise at 2 a.m. or bright early-morning light. The temperature may differ from your bedroom. A door may click loudly. A monitor may cast more light than you realized.",
+      "last_h2": "Give the transition a fair trial, but keep the option to pause",
+      "ending_3_paragraphs": "Set a review point instead of deciding at 3 a.m. You might agree to reassess after several nights unless something feels unsafe or clearly unsustainable. Then ask whether waking is trending back toward baseline and whether adult sleep has improved between wakes. If the whole household is deteriorating, it is reasonable to pause and try again later. Returning temporarily to the previous arrangement does not erase progress. The decision should still respect current safe-sleep guidance for your baby's age and circumstances. The aim is not to prove that the baby can tolerate a separate room. It is to create a safe, familiar setup that the family can sustain. More waking is information to investigate, not a verdict on the transition.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/157-baby-sleep-new-sibling-regression-routine.json",
+      "article_number": 157,
+      "translation_group": "157-baby-sleep-new-sibling-regression-routine",
+      "language": "en",
+      "title": "Baby sleep after a new sibling: regression, reassurance and keeping enough routine",
+      "words": 869,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.6,
+      "h2s": [
+        "Expect the transition to show up where closeness already matters",
+        "Protect a few familiar anchors instead of trying to preserve the old day perfectly",
+        "Add reassurance where it helps, but avoid creating ten new bedtime jobs",
+        "Let sleep stabilize as family life becomes more predictable"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 45.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.056,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 10,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "The arrival of a new baby changes much more than the number of people in the house. Bedtime may suddenly happen with a different parent. The older child hears crying at night, sees adults feeding or holding the newborn, and discovers that the routines that once belonged entirely to them now have competition.",
+      "opening_14_words": "The arrival of a new baby changes much more than the number of people",
+      "intro_3_paragraphs": "The arrival of a new baby changes much more than the number of people in the house. Bedtime may suddenly happen with a different parent. The older child hears crying at night, sees adults feeding or holding the newborn, and discovers that the routines that once belonged entirely to them now have competition. It is common for sleep to become less settled during that adjustment. A child who was going down easily may ask for more help, call out after bedtime or wake earlier. That does not mean reassurance has ruined sleep. It may mean the family system has changed faster than the child can make sense of it. Bedtime is often one of the most concentrated moments of connection in a child's day. When attention is divided elsewhere, requests at bedtime can increase precisely because the rest of the household feels less predictable.",
+      "last_h2": "Let sleep stabilize as family life becomes more predictable",
+      "ending_3_paragraphs": "If you want to reduce extra bedtime help later, wait until the household has enough capacity to be consistent. Then make one change at a time. The reassurance that helped during a major transition does not have to become permanent, and it also does not need to be removed immediately. Watch for problems that are bigger than the sibling transition. Persistent snoring, breathing concerns, significant pain, illness or severe sleep disruption deserve medical discussion rather than being labeled regression. The goal after a new sibling is not to prove that the older child can sleep exactly as before. It is to make bedtime recognizable while the family changes around them. Enough routine, enough reassurance and realistic expectations usually serve this season better than perfection.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/158-baby-sleep-moving-home-routines.json",
+      "article_number": 158,
+      "translation_group": "158-baby-sleep-moving-home-routines",
+      "language": "en",
+      "title": "Baby sleep during a move: keeping routines steady through a new home",
+      "words": 819,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.88,
+      "h2s": [
+        "Decide which sleep cues are worth protecting before moving day",
+        "Treat moving day as an exception rather than a test of the routine",
+        "Make the new room familiar without trying to recreate the old one perfectly",
+        "Watch the trend over a week, not the performance of one night"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 42.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 6,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Moving house can make a familiar sleep routine feel suddenly portable and fragile. The crib is dismantled, naps happen around boxes, adults are distracted and the new bedroom sounds different at night. Even a baby who usually sleeps predictably may need more help for a while.",
+      "opening_14_words": "Moving house can make a familiar sleep routine feel suddenly portable and fragile The",
+      "intro_3_paragraphs": "Moving house can make a familiar sleep routine feel suddenly portable and fragile. The crib is dismantled, naps happen around boxes, adults are distracted and the new bedroom sounds different at night. Even a baby who usually sleeps predictably may need more help for a while. The goal during a move is not to preserve every clock time. It is to carry enough familiar cues through the disruption that sleep still has a recognizable shape. A flexible routine can survive a different address more easily than a schedule that depends on every condition staying the same. Choose the parts of the routine that are easy to transport: the same sleep sack, a short book, a feeding sequence, a song or the phrase you use before putting the baby down. These cues can stay familiar even when the room, daylight and household noise change.",
+      "last_h2": "Watch the trend over a week, not the performance of one night",
+      "ending_3_paragraphs": "If disruption continues, look for practical causes: a brighter dawn, different room temperature, a nap schedule that shifted during moving week, more caregiver absence, or bedtime becoming much later. Correct the factors that matter instead of rebuilding the entire routine. A move is also emotionally demanding for adults. Your tolerance for waking may be lower while unpacking, commuting differently and handling paperwork. Share night responsibilities where possible and protect adult sleep rather than turning the baby's adjustment into another project to optimize. Home becomes familiar through repetition. Keep safe sleep basics, carry a few cues, allow imperfect days and let the new room accumulate ordinary experiences. Sleep usually needs continuity, not an exact replica of the house you left.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/159-baby-sleep-travel-routines-naps-nights.json",
+      "article_number": 159,
+      "translation_group": "159-baby-sleep-travel-routines-naps-nights",
+      "language": "en",
+      "title": "Baby sleep while traveling: routines, naps and nights away from home",
+      "words": 831,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.81,
+      "h2s": [
+        "Plan the sleep space before you plan the perfect schedule",
+        "Choose which parts of the routine travel well",
+        "Use flexibility deliberately instead of negotiating every sleep in real time",
+        "Let the trip be different without making every difference a problem"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 43.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.056,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 14,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Travel compresses several sleep disruptions into one experience: a different bed, unfamiliar sounds, later meals, transport naps, relatives who want more time with the baby and adults who do not want the whole trip dictated by a schedule. Expecting sleep to look exactly like home can make everyone more tense.",
+      "opening_14_words": "Travel compresses several sleep disruptions into one experience a different bed unfamiliar sounds later",
+      "intro_3_paragraphs": "Travel compresses several sleep disruptions into one experience: a different bed, unfamiliar sounds, later meals, transport naps, relatives who want more time with the baby and adults who do not want the whole trip dictated by a schedule. Expecting sleep to look exactly like home can make everyone more tense. A useful travel plan protects safety and familiarity while accepting that timing may bend. The aim is not to produce perfect vacation sleep. It is to give the baby enough recognizable cues and enough opportunities to rest that the family can function while away. Before leaving, confirm where the baby will sleep. Hotels, rentals and relatives may say they have a crib, but the actual product and setup can vary. If you are bringing a portable sleep space, use one designed and approved for infant sleep and practice assembling it before the trip.",
+      "last_h2": "Let the trip be different without making every difference a problem",
+      "ending_3_paragraphs": "If time zones are involved, daylight, meals and activity can help the body clock shift, but major jet-lag strategies depend on the length and direction of travel. For a short trip, it may be simpler to keep some connection to home time; for a longer stay, gradually joining local time usually becomes more practical. Illness, heat, altitude or feeding changes can affect sleep while traveling too. If your baby seems unwell, has breathing concerns or is not feeding normally, treat that as a health issue rather than assuming travel sleep is simply messy. Successful travel sleep is not sleep that looks identical to home. It is safe sleep with enough continuity and enough flexibility that the family can participate in the trip. You can deal with the return home separately instead of trying to prevent every possible disruption while you are away.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/en/160-reset-baby-sleep-after-travel.json",
+      "article_number": 160,
+      "translation_group": "160-reset-baby-sleep-after-travel",
+      "language": "en",
+      "title": "Returning home after travel: how to reset baby sleep without panic",
+      "words": 863,
+      "paragraphs": 19,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.63,
+      "h2s": [
+        "Bring back the familiar routine first, even if the clock is messy",
+        "Use morning light, meals and activity to anchor local time",
+        "Repair sleep debt without letting recovery naps move the whole day later",
+        "Watch the direction of change instead of demanding an instant return"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 43.1,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 8,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Coming home can create a strange expectation: the baby recognizes the crib, so sleep should instantly return to normal. Instead, bedtime may drift, naps may land at odd times and a child who slept well before the trip may wake ready for the day in the middle of the night.",
+      "opening_14_words": "Coming home can create a strange expectation the baby recognizes the crib so sleep",
+      "intro_3_paragraphs": "Coming home can create a strange expectation: the baby recognizes the crib, so sleep should instantly return to normal. Instead, bedtime may drift, naps may land at odd times and a child who slept well before the trip may wake ready for the day in the middle of the night. Travel changes more than location. Sleep may have shifted later, naps may have been short or on the go, and time zones can move the body clock itself. The goal on returning home is not to force the old schedule back in one day. It is to restore the cues that help the body find local time again. On the first evening home, use the ordinary bedtime sequence: familiar pajamas, feed, book, song, lights and sleep space. The exact bedtime may not be perfect. The value is in making home feel recognizable again.",
+      "last_h2": "Watch the direction of change instead of demanding an instant return",
+      "ending_3_paragraphs": "Resume ordinary expectations gradually. If you usually put the baby down awake after a short routine, work back toward that once timing is less chaotic. If you usually respond to one night feed but travel produced several, reduce the extras only when you are confident feeding needs and illness are not driving the wakes. If significant sleep disruption persists well beyond the travel adjustment, or comes with breathing problems, pain, poor feeding or illness, consider a medical discussion rather than continuing to treat it as jet lag. Returning home is a transition, not a deadline. Familiar routines, local daylight and enough sleep usually do more than a dramatic reset plan. Give the baby's body repeated evidence of what day and night look like at home, then let consistency do the slower work.",
       "risk_score": 1,
       "risk_reasons": [
         "body_under_1050_words"
@@ -21696,6 +22116,427 @@
       ]
     },
     {
+      "path": "content/articles/es/151-monitores-bebe-sueno-sin-mas-ansiedad.json",
+      "article_number": 151,
+      "translation_group": "151-baby-monitors-help-sleep-without-more-anxiety",
+      "language": "es",
+      "title": "¿Ayudan los monitores de bebé a dormir mejor? Cómo usarlos sin añadir más ansiedad",
+      "words": 845,
+      "paragraphs": 17,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.73,
+      "h2s": [
+        "El monitor aporta valor cuando sustituye comprobaciones innecesarias",
+        "Un monitor doméstico no previene el SMSL ni vuelve segura una cuna insegura",
+        "Quita las funciones que convierten el sueño normal en una alarma constante",
+        "Evalúa el dispositivo por lo que ocurre con tu atención y tu propio sueño"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 46.9,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.235,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 11,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Un monitor de bebé resuelve un problema bastante sencillo: quieres saber si tu bebé te necesita sin pasar la tarde entrando y saliendo de la habitación. Puede darte libertad para cenar, ducharte, hablar o descansar en otra zona de la casa sabiendo que escucharás un despertar real.",
+      "opening_14_words": "Un monitor de bebé resuelve un problema bastante sencillo quieres saber si tu bebé",
+      "intro_3_paragraphs": "Un monitor de bebé resuelve un problema bastante sencillo: quieres saber si tu bebé te necesita sin pasar la tarde entrando y saliendo de la habitación. Puede darte libertad para cenar, ducharte, hablar o descansar en otra zona de la casa sabiendo que escucharás un despertar real. Pero el monitor no hace que el bebé duerma mejor por sí mismo. A algunas familias les permite dejar de comprobar la cuna cada pocos minutos; a otras les convierte el sueño en una retransmisión en directo. La pregunta útil no es si necesitas mucha tecnología, sino si el dispositivo te da información práctica y luego te permite dejar de pensar en él. Los bebés hacen bastante ruido mientras duermen. Gruñen, suspiran, se mueven, lloran un segundo o abren los ojos y vuelven a dormirse. Si cada sonido acaba en una visita, a veces el adulto convierte un pequeño cambio de ciclo en una interacción completa.",
+      "last_h2": "Evalúa el dispositivo por lo que ocurre con tu atención y tu propio sueño",
+      "ending_3_paragraphs": "Después de varios días, mira los efectos concretos. ¿Entras menos veces sin necesidad? ¿Puedes estar en el salón sin preguntarte continuamente si el bebé sigue dormido? ¿Los relevos entre cuidadores son más sencillos? Eso es utilidad real. Después mira el coste. ¿Abres la cámara aunque todo esté en silencio? ¿Una cifra de oxígeno o una puntuación decide si te atreves a dormir? ¿Las falsas alarmas te despiertan más que el bebé? En ese caso, simplifica: elimina notificaciones, usa solo audio o deja de consultar métricas. No hay ningún premio por tener el sistema más sofisticado. A una familia le basta un monitor de audio, otra agradece el vídeo y otra no necesita ninguno. Un buen monitor te avisa cuando hace falta y el resto del tiempo se vuelve aburrido. Si te obliga a vigilar el sueño en vez de aprovecharlo para descansar, usar menos tecnología puede ser la opción más útil.",
+      "risk_score": 2,
+      "risk_reasons": [
+        "body_under_1050_words",
+        "many_question_paragraphs"
+      ]
+    },
+    {
+      "path": "content/articles/es/152-ruido-blanco-sueno-bebe-uso-seguro.json",
+      "article_number": 152,
+      "translation_group": "152-white-noise-baby-sleep-safe-use",
+      "language": "es",
+      "title": "Ruido blanco para el sueño del bebé: beneficios, riesgos y cómo usarlo con prudencia",
+      "words": 839,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.77,
+      "h2s": [
+        "Puede ser una señal de sueño y amortiguar ruidos, pero no es una necesidad",
+        "Para cuidar la audición, prioriza distancia y poco volumen",
+        "No tiene que funcionar toda la noche para ser útil",
+        "El resto del entorno de sueño sigue siendo más importante"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 44.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 10,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "El ruido blanco resulta atractivo porque hace más predecible un entorno que no siempre lo es. Un sonido continuo puede suavizar el contraste entre el silencio y un perro que ladra, una puerta que se cierra o un hermano jugando cerca. A algunos bebés les ayuda a relajarse; otros duermen igual sin él.",
+      "opening_14_words": "El ruido blanco resulta atractivo porque hace más predecible un entorno que no siempre",
+      "intro_3_paragraphs": "El ruido blanco resulta atractivo porque hace más predecible un entorno que no siempre lo es. Un sonido continuo puede suavizar el contraste entre el silencio y un perro que ladra, una puerta que se cierra o un hermano jugando cerca. A algunos bebés les ayuda a relajarse; otros duermen igual sin él. Lo útil está en la constancia, no en la intensidad. Una máquina de sonido no necesita llenar la habitación para funcionar como señal. La opción más prudente es colocarla lejos de la cabeza del bebé, usar el volumen mínimo que cumpla su función y no asumir que muchas horas de exposición son inocuas solo porque a un adulto le resulte agradable. Al principio un bebé no sabe que bajar las persianas, ponerse el saco o escuchar un sonido concreto significa dormir. La repetición convierte esos elementos cotidianos en señales. Si el ruido blanco aparece dentro de una rutina breve, puede formar parte de ese patrón reconocible.",
+      "last_h2": "El resto del entorno de sueño sigue siendo más importante",
+      "ending_3_paragraphs": "Observa al bebé y a la familia, no solo al dispositivo. Si un sonido suave permite que la casa siga funcionando y el bebé descansa, puede ser suficiente. Si cada noche ajustas niveles, consultas decibelios y temes que sin la máquina todo se derrumbe, simplificar puede devolver más calma que optimizar. No tienes que elegir entre silencio absoluto y ruido constante. Los hogares suenan y los bebés pueden acostumbrarse a parte de esa vida normal. El objetivo del ruido blanco no es imponerse al entorno, sino hacerlo algo más estable cuando de verdad ayuda. Si existe una preocupación auditiva o has utilizado durante mucho tiempo una máquina muy alta y cercana, coméntalo con el pediatra o con un profesional de audiología en vez de confiar solo en una medición del móvil.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/153-ambiente-dormitorio-bebe-luz-temperatura-ruido.json",
+      "article_number": 153,
+      "translation_group": "153-baby-bedroom-environment-light-temperature-noise",
+      "language": "es",
+      "title": "Ambiente del dormitorio del bebé: luz, temperatura, ruido y un entorno que ayude a dormir",
+      "words": 795,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.03,
+      "h2s": [
+        "Usa la luz para diferenciar día y noche, no para eliminarla siempre",
+        "Busca confort y evita el sobrecalentamiento sin obsesionarte con un número",
+        "Reduce los ruidos que interrumpen sin exigir silencio absoluto",
+        "Crea una habitación que funcione en noches normales, no solo en condiciones ideales"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 41.7,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 9,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Cuando el sueño se complica, la habitación puede empezar a parecer un panel de control. Persianas opacas, termómetros, humidificadores, máquinas de sonido, luces nocturnas: cada despertar hace pensar que falta ajustar algo. El entorno importa, pero solo es una parte del sueño infantil.",
+      "opening_14_words": "Cuando el sueño se complica la habitación puede empezar a parecer un panel de",
+      "intro_3_paragraphs": "Cuando el sueño se complica, la habitación puede empezar a parecer un panel de control. Persianas opacas, termómetros, humidificadores, máquinas de sonido, luces nocturnas: cada despertar hace pensar que falta ajustar algo. El entorno importa, pero solo es una parte del sueño infantil. Un buen espacio para dormir es seguro, cómodo y razonablemente estable; no necesita ser perfecto. Ajustar luz, temperatura y sonido sirve para quitar fricción y crear señales reconocibles, no para construir unas condiciones tan exactas que resulten imposibles fuera de casa. La luz ayuda a organizar el reloj biológico. Durante el día, la claridad natural, las tomas, las conversaciones y la actividad normal crean contraste con la noche. En los despertares nocturnos, mantener una iluminación tenue permite atender al bebé sin convertir el momento en una experiencia demasiado estimulante.",
+      "last_h2": "Crea una habitación que funcione en noches normales, no solo en condiciones ideales",
+      "ending_3_paragraphs": "Escoge pocas señales: luz más baja, espacio seguro, ropa cómoda, quizá un sonido conocido y una rutina corta. Después permite variación. Viajes, enfermedad, cambios de hora y vida familiar harán que algunas noches sean más luminosas, cálidas o ruidosas. Si el sueño empeora de repente, comprueba primero calor, luz o un ruido nuevo, pero recuerda que también pueden intervenir hambre, horarios, desarrollo o enfermedad. No sigas cambiando la habitación cuando el problema quizá está en otro lugar. Un buen dormitorio facilita la entrada al sueño sin hacer que la familia dependa de la perfección. Los básicos de seguridad y unas cuantas señales repetibles suelen aportar más que una habitación diseñada al milímetro.",
+      "risk_score": 2,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/154-compartir-habitacion-bebe-sueno-organizacion.json",
+      "article_number": 154,
+      "translation_group": "154-room-sharing-with-baby-sleep-setup",
+      "language": "es",
+      "title": "Compartir habitación con un bebé: beneficios, dificultades y una organización que funcione",
+      "words": 769,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.2,
+      "h2s": [
+        "Empieza por el espacio seguro del bebé y organiza el dormitorio alrededor",
+        "Muchos sonidos del sueño infantil despiertan al adulto sin necesitar intervención",
+        "Haz la noche sencilla sin intentar que los adultos desaparezcan",
+        "Compartir habitación es una etapa, y cambiarla merece otra decisión"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 40.3,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 2,
+        "clave": 0
+      },
+      "opening": "Compartir habitación parece sencillo hasta que tres personas intentan dormir en el mismo espacio. El bebé gruñe, alguien se gira, hay una toma a las dos de la mañana y una pantalla ilumina la pared. El reto práctico no es solo dónde colocar la minicuna, sino cómo hacer que la noche funcione sin perder de vista la seguridad.",
+      "opening_14_words": "Compartir habitación parece sencillo hasta que tres personas intentan dormir en el mismo espacio",
+      "intro_3_paragraphs": "Compartir habitación parece sencillo hasta que tres personas intentan dormir en el mismo espacio. El bebé gruñe, alguien se gira, hay una toma a las dos de la mañana y una pantalla ilumina la pared. El reto práctico no es solo dónde colocar la minicuna, sino cómo hacer que la noche funcione sin perder de vista la seguridad. Las recomendaciones actuales de la AAP aconsejan compartir habitación sin compartir cama al menos durante los primeros seis meses. Es una recomendación de seguridad, no una promesa de que todos dormirán más horas. Tener al bebé cerca facilita atenderlo, pero también hace que los adultos oigan muchos sonidos normales del sueño. El bebé necesita su propia superficie firme y plana diseñada para dormir: cuna, minicuna u otra opción aprobada, con sábana ajustable y sin almohadas, protectores, peluches ni mantas sueltas. Compartir habitación significa dormir cerca, no dormir en la misma cama.",
+      "last_h2": "Compartir habitación es una etapa, y cambiarla merece otra decisión",
+      "ending_3_paragraphs": "Antes de pasar al bebé a otro cuarto solo por agotamiento, prueba pequeños cambios: alejar un poco la cuna dentro de la misma habitación, reducir luces innecesarias, repartir turnos o distinguir qué sonidos requieren respuesta. Cuando llegue el momento de plantear otra habitación, considera la edad, las recomendaciones actuales, las circunstancias del bebé y si el nuevo espacio puede mantenerse seguro. La decisión de mudarlo y la forma de hacer esa transición son cuestiones propias, no simplemente la conclusión de que compartir habitación ha sido difícil. La mejor organización no es la más silenciosa ni la más bonita. Es la que mantiene al bebé en un espacio separado y seguro y permite que los adultos descansen y vivan con la mayor normalidad posible.",
+      "risk_score": 2,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/155-pasar-bebe-propia-habitacion-cuando-como.json",
+      "article_number": 155,
+      "translation_group": "155-move-baby-own-room-timing-transition",
+      "language": "es",
+      "title": "Pasar al bebé a su propia habitación: cuándo hacerlo y cómo preparar la transición",
+      "words": 792,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.05,
+      "h2s": [
+        "Separa la cuestión de seguridad de la esperanza de que duerma más",
+        "Prepara el espacio antes de pedirle al bebé que se adapte",
+        "Puedes hacer el cambio poco a poco o de una sola vez",
+        "Valora la transición por cómo duerme la familia, no por la primera noche"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 41.3,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.111,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 7,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Muchas familias buscan la señal definitiva de que un bebé está preparado para dormir en su habitación: cierto número de horas seguidas, darse la vuelta, alcanzar un peso concreto o parecer molesto por los ruidos de los adultos. No existe un único hito que decida el cambio.",
+      "opening_14_words": "Muchas familias buscan la señal definitiva de que un bebé está preparado para dormir",
+      "intro_3_paragraphs": "Muchas familias buscan la señal definitiva de que un bebé está preparado para dormir en su habitación: cierto número de horas seguidas, darse la vuelta, alcanzar un peso concreto o parecer molesto por los ruidos de los adultos. No existe un único hito que decida el cambio. Durante los primeros meses pesan más las recomendaciones de sueño seguro. La American Academy of Pediatrics aconseja compartir habitación sin compartir cama al menos durante los primeros seis meses. Después, la decisión tiene menos que ver con demostrar que el bebé está preparado y más con elegir un momento y un entorno que funcionen para vuestra familia manteniendo los mismos principios de seguridad. Algunas familias se plantean el cambio porque cada gruñido despierta a los adultos. Otras esperan que, sin escuchar cómo entran los padres en la habitación, el bebé duerma tramos más largos. Puede ocurrir, pero no es una garantía.",
+      "last_h2": "Valora la transición por cómo duerme la familia, no por la primera noche",
+      "ending_3_paragraphs": "Si el bebé empieza a despertarse mucho más, revisa el entorno, el momento del cambio y si necesita algo más de acompañamiento antes de rediseñar toda la rutina. El artículo siguiente de esta serie se centra precisamente en esos despertares posteriores. También puedes pausar. Una enfermedad, un viaje o una semana especialmente difícil pueden hacer que el momento elegido deje de tener sentido. Volver temporalmente atrás no borra ningún progreso, siempre que la alternativa siga las recomendaciones de sueño seguro adecuadas a su edad. La meta es disponer de un lugar seguro donde el bebé pueda dormir y los cuidadores puedan responder de una forma sostenible. Cuando la seguridad permite el cambio, hacerlo antes o después no convierte a nadie en mejor familia.",
+      "risk_score": 2,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/156-bebe-se-despierta-mas-despues-cambiar-habitacion.json",
+      "article_number": 156,
+      "translation_group": "156-baby-waking-more-after-own-room",
+      "language": "es",
+      "title": "El bebé se despierta más después de cambiar de habitación: qué revisar antes de cambiarlo todo",
+      "words": 764,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.24,
+      "h2s": [
+        "Comprueba qué es realmente distinto en la nueva habitación",
+        "Puede necesitar más acompañamiento sin necesitar un método de sueño completamente distinto",
+        "No atribuyas al cuarto un cambio de sueño que quizá venía de otra parte",
+        "Dale una oportunidad real al nuevo espacio, pero conserva la opción de pausar"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 39.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.056,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 9,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Cambias la cuna de habitación, mantienes el cuento y el saco de dormir y esperas que todos descansen algo mejor. En cambio, el bebé empieza a despertarse más. A las tres de la mañana es fácil pensar que el cambio ha sido un error.",
+      "opening_14_words": "Cambias la cuna de habitación mantienes el cuento y el saco de dormir y",
+      "intro_3_paragraphs": "Cambias la cuna de habitación, mantienes el cuento y el saco de dormir y esperas que todos descansen algo mejor. En cambio, el bebé empieza a despertarse más. A las tres de la mañana es fácil pensar que el cambio ha sido un error. A veces el momento no es el adecuado, pero unas noches peores también pueden ser una respuesta normal a un espacio nuevo. Si los despertares aumentan justo después de la transición, revisa primero qué cambió antes de desmontar toda la rutina de sueño. Entra a las horas en las que suele despertarse. Una habitación tranquila a las ocho puede recibir luces de coches a medianoche, escuchar una caldera a las dos o llenarse de claridad mucho antes que vuestro dormitorio. También puede ser más cálida o fría de lo que parecía durante el día.",
+      "last_h2": "Dale una oportunidad real al nuevo espacio, pero conserva la opción de pausar",
+      "ending_3_paragraphs": "Poned una fecha de revisión en vez de tomar la decisión definitiva en mitad de un despertar. Después de varios días, observad si los despertares empiezan a acercarse a la situación anterior y si los adultos descansan mejor entre ellos. Si toda la familia empeora de forma sostenida, pausar es una opción razonable. Volver temporalmente a la organización anterior no borra nada; solo debe seguir siendo compatible con las recomendaciones actuales de sueño seguro para la edad y circunstancias del bebé. El objetivo no es demostrar que el bebé puede dormir solo en otro cuarto. Es construir un entorno seguro y familiar que la familia pueda sostener. Más despertares son información que revisar, no una sentencia sobre la decisión.",
+      "risk_score": 2,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/157-sueno-bebe-nuevo-hermano-regresion-rutina.json",
+      "article_number": 157,
+      "translation_group": "157-baby-sleep-new-sibling-regression-routine",
+      "language": "es",
+      "title": "Sueño infantil después de la llegada de un hermano: cambios, tranquilidad y rutina",
+      "words": 792,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.05,
+      "h2s": [
+        "Espera que el cambio aparezca precisamente donde la cercanía importa",
+        "Protege unas pocas señales conocidas en lugar de intentar conservar el día antiguo entero",
+        "Ofrece más consuelo si hace falta, sin crear diez nuevas tareas nocturnas",
+        "Deja que el sueño se estabilice al mismo ritmo que la nueva vida familiar"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 41.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.056,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 12,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "La llegada de un nuevo bebé cambia mucho más que el número de personas en casa. De repente puede acostar otra persona, hay llantos durante la noche, visitas, tomas largas y un adulto que antes estaba disponible y ahora pasa mucho tiempo con el recién nacido.",
+      "opening_14_words": "La llegada de un nuevo bebé cambia mucho más que el número de personas",
+      "intro_3_paragraphs": "La llegada de un nuevo bebé cambia mucho más que el número de personas en casa. De repente puede acostar otra persona, hay llantos durante la noche, visitas, tomas largas y un adulto que antes estaba disponible y ahora pasa mucho tiempo con el recién nacido. Es bastante comprensible que el sueño del hermano mayor se vuelva menos estable durante ese ajuste. Puede pedir más ayuda, llamar después de acostarse o despertarse antes. Eso no significa que consolarlo esté estropeando el sueño; puede significar que la vida familiar ha cambiado más deprisa de lo que él puede integrar. La hora de dormir concentra mucha conexión. Cuando durante el día la atención está más repartida, no es extraño que el niño pida un cuento más, quiera que lo acueste una persona concreta o vuelva a necesitar presencia para relajarse.",
+      "last_h2": "Deja que el sueño se estabilice al mismo ritmo que la nueva vida familiar",
+      "ending_3_paragraphs": "Si más adelante quieres reducir la ayuda extra que apareció, espera a tener energía suficiente para hacerlo con coherencia y cambia una cosa cada vez. La cercanía que fue útil durante una transición no tiene por qué quedarse para siempre, pero tampoco tiene que retirarse de inmediato. Observa si hay señales que apuntan a algo diferente del cambio familiar. Ronquidos persistentes, problemas respiratorios, dolor, enfermedad o una alteración muy intensa del sueño merecen consulta y no deberían etiquetarse simplemente como regresión. La meta tras la llegada de un hermano no es que el mayor duerma exactamente como antes. Es hacer que la noche siga siendo reconocible mientras la familia cambia alrededor. Unas pocas rutinas, suficiente cercanía y expectativas realistas suelen ayudar más que perseguir perfección.",
+      "risk_score": 2,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/158-sueno-bebe-mudanza-mantener-rutinas.json",
+      "article_number": 158,
+      "translation_group": "158-baby-sleep-moving-home-routines",
+      "language": "es",
+      "title": "Sueño del bebé durante una mudanza: cómo mantener la rutina al cambiar de casa",
+      "words": 761,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.26,
+      "h2s": [
+        "Decide antes del día de la mudanza qué señales merece la pena proteger",
+        "Trata el día del traslado como una excepción, no como un examen",
+        "Haz familiar la nueva habitación sin intentar clonar la anterior",
+        "Mira la tendencia de una semana, no el resultado de la primera noche"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 39.6,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 0,
+        "puede": 8,
+        "importante": 2,
+        "clave": 0
+      },
+      "opening": "Cambiar de casa puede hacer que una rutina de sueño muy estable parezca de repente frágil. La cuna está desmontada, las siestas ocurren entre cajas, los adultos están pendientes de mil cosas y la nueva habitación suena distinto por la noche.",
+      "opening_14_words": "Cambiar de casa puede hacer que una rutina de sueño muy estable parezca de",
+      "intro_3_paragraphs": "Cambiar de casa puede hacer que una rutina de sueño muy estable parezca de repente frágil. La cuna está desmontada, las siestas ocurren entre cajas, los adultos están pendientes de mil cosas y la nueva habitación suena distinto por la noche. Durante una mudanza no hace falta conservar cada hora exacta; hace falta llevar suficientes señales familiares para que el sueño siga teniendo una forma reconocible. Una rutina flexible viaja mejor de una casa a otra que un sistema que depende de que nada cambie. Elige lo que resulte fácil de trasladar: el mismo saco de dormir, un cuento corto, una canción, la frase de buenas noches o el orden habitual de baño y toma. Esos elementos pueden permanecer aunque cambien la luz, el dormitorio y los ruidos del edificio.",
+      "last_h2": "Mira la tendencia de una semana, no el resultado de la primera noche",
+      "ending_3_paragraphs": "Si la alteración continúa, busca causas concretas: un amanecer más luminoso, otra temperatura, siestas desplazadas durante el traslado, menos presencia de los cuidadores o una hora de dormir que se ha ido retrasando. Corrige lo que importa sin reconstruir toda la rutina. Recuerda también el cansancio adulto. Desembalar, hacer trámites y cambiar desplazamientos reduce la paciencia para los despertares. Repartir noches y proteger algo de descanso para los cuidadores puede ser tan importante como cualquier ajuste del cuarto. Una casa se vuelve hogar por repetición. Mantén los básicos de seguridad, lleva contigo unas pocas señales, acepta días imperfectos y deja que la nueva habitación acumule experiencias corrientes. El sueño necesita continuidad, no una copia exacta de la vivienda anterior.",
+      "risk_score": 2,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/159-sueno-bebe-viajes-rutinas-siestas-noches.json",
+      "article_number": 159,
+      "translation_group": "159-baby-sleep-travel-routines-naps-nights",
+      "language": "es",
+      "title": "Sueño del bebé durante los viajes: rutinas, siestas y noches fuera de casa",
+      "words": 795,
+      "paragraphs": 18,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 5.03,
+      "h2s": [
+        "Planifica primero dónde dormirá y después el horario ideal",
+        "Escoge qué partes de la rutina viajan bien contigo",
+        "Decide la flexibilidad antes de negociar cada siesta sobre la marcha",
+        "Permite que el viaje sea distinto sin convertir cada diferencia en un problema"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 41.8,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 1,
+        "no_significa": 1,
+        "a_veces": 0,
+        "puede": 6,
+        "importante": 0,
+        "clave": 0
+      },
+      "opening": "Viajar junta varias alteraciones del sueño en una sola experiencia: otra cama, sonidos desconocidos, comidas más tarde, siestas durante el trayecto, familiares que quieren aprovechar al bebé y adultos que tampoco quieren pasar el viaje mirando el reloj.",
+      "opening_14_words": "Viajar junta varias alteraciones del sueño en una sola experiencia otra cama sonidos desconocidos",
+      "intro_3_paragraphs": "Viajar junta varias alteraciones del sueño en una sola experiencia: otra cama, sonidos desconocidos, comidas más tarde, siestas durante el trayecto, familiares que quieren aprovechar al bebé y adultos que tampoco quieren pasar el viaje mirando el reloj. Esperar que todo funcione exactamente como en casa suele aumentar la tensión. Un buen plan de viaje protege el sueño seguro y unas pocas señales familiares mientras acepta que los horarios pueden doblarse. La meta no es conseguir unas vacaciones con sueño perfecto, sino que el bebé descanse lo suficiente para que la familia pueda disfrutar del viaje. Antes de salir, confirma el espacio de sueño. Hoteles, apartamentos y familiares pueden decir que tienen cuna, pero el estado y el tipo de producto varían. Si llevas una cuna de viaje, utiliza una opción diseñada para sueño infantil y aprende a montarla antes de llegar cansado al destino.",
+      "last_h2": "Permite que el viaje sea distinto sin convertir cada diferencia en un problema",
+      "ending_3_paragraphs": "Si cruzáis husos horarios, la luz del día, las comidas y la actividad ayudan a que el reloj interno se adapte. En viajes cortos quizá compense conservar parte del horario de origen; en estancias largas suele ser más práctico ir acercándose a la hora local. Calor, altitud, enfermedad o cambios de alimentación también pueden alterar el descanso. Si el bebé parece enfermo, respira con dificultad o no come como habitualmente, no lo atribuyas simplemente al viaje. Dormir bien durante un viaje no significa dormir igual que en casa. Significa dormir de forma segura, con suficiente continuidad y suficiente flexibilidad para que la familia pueda participar en la experiencia. El regreso a casa tendrá su propio proceso y no hace falta prevenirlo todo mientras estáis fuera.",
+      "risk_score": 2,
+      "risk_reasons": [
+        "body_under_800_words"
+      ]
+    },
+    {
+      "path": "content/articles/es/160-recuperar-sueno-bebe-despues-viaje.json",
+      "article_number": 160,
+      "translation_group": "160-reset-baby-sleep-after-travel",
+      "language": "es",
+      "title": "Volver a casa después de un viaje: cómo recuperar el sueño del bebé sin entrar en pánico",
+      "words": 850,
+      "paragraphs": 19,
+      "h2_count": 4,
+      "h2_density_per_1000_words": 4.71,
+      "h2s": [
+        "Recupera primero la rutina conocida aunque el reloj todavía esté desordenado",
+        "Usa luz de mañana, comidas y actividad para volver a la hora local",
+        "Recupera sueño perdido sin dejar que las siestas desplacen todo el día",
+        "Observa la dirección del cambio en lugar de exigir un regreso instantáneo"
+      ],
+      "list_items": 0,
+      "bold_spans": 2,
+      "avg_paragraph_words": 42.2,
+      "short_paragraph_ratio": 0.0,
+      "very_short_paragraphs": 0,
+      "consecutive_short_max": 0,
+      "question_paragraph_ratio": 0.0,
+      "long_paragraphs": 0,
+      "phrase_counts": {
+        "no_necesitas": 0,
+        "no_significa": 0,
+        "a_veces": 1,
+        "puede": 12,
+        "importante": 1,
+        "clave": 0
+      },
+      "opening": "Volver a casa crea una expectativa extraña: el bebé reconoce su cuna, así que todo debería volver a la normalidad esa misma noche. En cambio, puede acostarse más tarde, hacer siestas raras o despertarse a una hora que su cuerpo todavía interpreta como pleno día.",
+      "opening_14_words": "Volver a casa crea una expectativa extraña el bebé reconoce su cuna así que",
+      "intro_3_paragraphs": "Volver a casa crea una expectativa extraña: el bebé reconoce su cuna, así que todo debería volver a la normalidad esa misma noche. En cambio, puede acostarse más tarde, hacer siestas raras o despertarse a una hora que su cuerpo todavía interpreta como pleno día. Viajar cambia algo más que el lugar. Las siestas pueden haberse acortado, la hora de dormir se desplaza y los husos horarios mueven el propio reloj interno. Al volver, la meta no es imponer el horario antiguo en veinticuatro horas, sino volver a dar al cuerpo señales claras de cómo se organiza el día local. La primera noche, utiliza la secuencia habitual: pijama, toma, cuento, canción, luces y espacio de sueño conocido. La hora exacta quizá no sea perfecta. Lo importante es que la casa vuelva a sentirse predecible.",
+      "last_h2": "Observa la dirección del cambio en lugar de exigir un regreso instantáneo",
+      "ending_3_paragraphs": "Vuelve a las expectativas habituales de forma gradual. Si antes se dormía con una rutina breve, trabaja hacia ella cuando el horario ya esté menos caótico. Si durante el viaje aparecieron más tomas nocturnas, redúcelas solo cuando estés seguro de que no responden a hambre, enfermedad o una necesidad real. Si la alteración intensa persiste mucho más allá del periodo esperable de adaptación o aparece junto a problemas respiratorios, dolor, mala alimentación o enfermedad, conviene valorar una consulta en vez de seguir tratándolo como un problema de horario. Volver a casa también es una transición. Las rutinas conocidas, la luz local y suficiente descanso suelen hacer más que un plan de reajuste drástico. Dale al cuerpo pruebas repetidas de cómo son el día y la noche en casa y deja que la consistencia haga el resto.",
+      "risk_score": 1,
+      "risk_reasons": [
+        "body_under_1050_words"
+      ]
+    },
+    {
       "path": "content/articles/es/1001-mom-guilt-culpa-materna.json",
       "article_number": 1001,
       "translation_group": "1001-mom-guilt",
@@ -28072,6 +28913,21 @@
       ]
     },
     {
+      "ngram": "do not have to choose between",
+      "count": 9,
+      "files": [
+        "content/articles/en/037-validate-emotions-without-saying-yes.json",
+        "content/articles/en/1011-matrescence-identity-change.json",
+        "content/articles/en/1015-missing-who-you-were-before-kids.json",
+        "content/articles/en/1021-is-it-normal-to-miss-life-before-kids.json",
+        "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json",
+        "content/articles/en/1065-why-five-minutes-alone-matter-as-mom.json",
+        "content/articles/en/110-when-sleep-routine-stops-working.json",
+        "content/articles/en/1116-fear-losing-identity-after-motherhood.json",
+        "content/articles/en/152-white-noise-baby-sleep-safe-use.json"
+      ]
+    },
+    {
       "ngram": "the goal is not to prove",
       "count": 9,
       "files": [
@@ -28084,6 +28940,21 @@
         "content/articles/en/1128-constant-reassurance-never-lasts-pregnancy.json",
         "content/articles/en/1150-maintain-identity-during-pregnancy.json",
         "content/articles/en/116-child-keeps-getting-out-of-bed.json"
+      ]
+    },
+    {
+      "ngram": "you do not have to choose",
+      "count": 9,
+      "files": [
+        "content/articles/en/037-validate-emotions-without-saying-yes.json",
+        "content/articles/en/1011-matrescence-identity-change.json",
+        "content/articles/en/1015-missing-who-you-were-before-kids.json",
+        "content/articles/en/1021-is-it-normal-to-miss-life-before-kids.json",
+        "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json",
+        "content/articles/en/1065-why-five-minutes-alone-matter-as-mom.json",
+        "content/articles/en/110-when-sleep-routine-stops-working.json",
+        "content/articles/en/1116-fear-losing-identity-after-motherhood.json",
+        "content/articles/en/152-white-noise-baby-sleep-safe-use.json"
       ]
     },
     {
@@ -28102,17 +28973,17 @@
       ]
     },
     {
-      "ngram": "do not have to choose between",
+      "ngram": "a las tres de la mañana",
       "count": 8,
       "files": [
-        "content/articles/en/037-validate-emotions-without-saying-yes.json",
-        "content/articles/en/1011-matrescence-identity-change.json",
-        "content/articles/en/1015-missing-who-you-were-before-kids.json",
-        "content/articles/en/1021-is-it-normal-to-miss-life-before-kids.json",
-        "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json",
-        "content/articles/en/1065-why-five-minutes-alone-matter-as-mom.json",
-        "content/articles/en/110-when-sleep-routine-stops-working.json",
-        "content/articles/en/1116-fear-losing-identity-after-motherhood.json"
+        "content/articles/es/011-despertares-nocturnos-responder-respeto.json",
+        "content/articles/es/048-paternidad-implicada-conectar-con-bebe.json",
+        "content/articles/es/053-primeras-semanas-recien-nacido-sin-horario-perfecto.json",
+        "content/articles/es/057-vestir-recien-nacido-sin-llenar-armario.json",
+        "content/articles/es/109-noches-dificiles-sin-cambiar-estrategia-cada-dia.json",
+        "content/articles/es/1117-miedo-relacion-cambie-para-siempre-despues-bebe.json",
+        "content/articles/es/1119-miedo-no-sentir-suficiente-amor-bebe-cuando-nazca.json",
+        "content/articles/es/156-bebe-se-despierta-mas-despues-cambiar-habitacion.json"
       ]
     },
     {
@@ -28127,33 +28998,6 @@
         "content/articles/es/039-dejar-gritar-padres-saturacion.json",
         "content/articles/es/040-despues-gritarle-hijo.json",
         "content/articles/es/042-ensenar-a-pedir-perdon-sin-forzar.json"
-      ]
-    },
-    {
-      "ngram": "you do not have to choose",
-      "count": 8,
-      "files": [
-        "content/articles/en/037-validate-emotions-without-saying-yes.json",
-        "content/articles/en/1011-matrescence-identity-change.json",
-        "content/articles/en/1015-missing-who-you-were-before-kids.json",
-        "content/articles/en/1021-is-it-normal-to-miss-life-before-kids.json",
-        "content/articles/en/1056-caring-for-kids-feels-natural-playing-does-not.json",
-        "content/articles/en/1065-why-five-minutes-alone-matter-as-mom.json",
-        "content/articles/en/110-when-sleep-routine-stops-working.json",
-        "content/articles/en/1116-fear-losing-identity-after-motherhood.json"
-      ]
-    },
-    {
-      "ngram": "a las tres de la mañana",
-      "count": 7,
-      "files": [
-        "content/articles/es/011-despertares-nocturnos-responder-respeto.json",
-        "content/articles/es/048-paternidad-implicada-conectar-con-bebe.json",
-        "content/articles/es/053-primeras-semanas-recien-nacido-sin-horario-perfecto.json",
-        "content/articles/es/057-vestir-recien-nacido-sin-llenar-armario.json",
-        "content/articles/es/109-noches-dificiles-sin-cambiar-estrategia-cada-dia.json",
-        "content/articles/es/1117-miedo-relacion-cambie-para-siempre-despues-bebe.json",
-        "content/articles/es/1119-miedo-no-sentir-suficiente-amor-bebe-cuando-nazca.json"
       ]
     },
     {
@@ -28317,6 +29161,30 @@
         "content/articles/es/1028-echar-menos-relacion-pareja-antes-hijos.json",
         "content/articles/es/127-siestas-daycare-diferentes-casa.json",
         "content/articles/es/136-coordinar-hora-dormir-hermanos-sin-duplicar-trabajo.json"
+      ]
+    },
+    {
+      "ngram": "la pregunta útil no es si",
+      "count": 6,
+      "files": [
+        "content/articles/es/1041-presion-ser-madre-paciente-todo-el-tiempo.json",
+        "content/articles/es/1051-no-disfrutar-jugando-hijos-durante-horas.json",
+        "content/articles/es/1067-hacer-recados-sola-como-descanso-despues-hijos.json",
+        "content/articles/es/1117-miedo-relacion-cambie-para-siempre-despues-bebe.json",
+        "content/articles/es/118-cama-suelo-autonomia-que-valorar.json",
+        "content/articles/es/151-monitores-bebe-sueno-sin-mas-ansiedad.json"
+      ]
+    },
+    {
+      "ngram": "the useful question is not whether",
+      "count": 6,
+      "files": [
+        "content/articles/en/071-kids-snack-routine-without-replacing-meals.json",
+        "content/articles/en/1022-love-kids-miss-freedom-before.json",
+        "content/articles/en/1039-motherhood-emotional-vulnerability.json",
+        "content/articles/en/118-floor-bed-autonomy-considerations.json",
+        "content/articles/en/131-nap-interfering-with-bedtime.json",
+        "content/articles/en/151-baby-monitors-help-sleep-without-more-anxiety.json"
       ]
     },
     {

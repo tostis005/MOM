@@ -34,6 +34,11 @@ if ( file_exists( $mom_i18n_routing ) ) {
 	require_once $mom_i18n_routing;
 }
 
+$mom_sitemap = get_template_directory() . '/inc/sitemap.php';
+if ( file_exists( $mom_sitemap ) ) {
+	require_once $mom_sitemap;
+}
+
 function mom_enqueue_assets() {
 	$version = wp_get_theme()->get( 'Version' );
 	wp_enqueue_style( 'mom-style', get_stylesheet_uri(), array(), $version );

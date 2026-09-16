@@ -120,6 +120,31 @@ function mom_sitemap_discovery_url( $hub, $language ) {
 	return isset( $paths[ $language ][ $hub ] ) ? home_url( $paths[ $language ][ $hub ] ) : '';
 }
 
+function mom_sitemap_add_taxonomy_urls( &$urls, $language ) {
+	if ( ! function_exists( 'content_platform_taxonomies' ) || ! function_exists( 'mom_i18n_term_url' ) ) {
+		return;
+	}
+
+	$allowed_dimensions = array( 'topic', 'stage', 'audience', 'article_type' );
+	foreach ( content_platform_taxonomies() as $definition ) {
+		if ( empty( $definition['dimension'] ) || empty( $definition['terms'] ) || ! is_array( $definition['terms'] ) ) {
+			continue;
+		}
+
+		$dimension = (string) $definition['dimension'];
+		if ( ! in_array( $dimension, $allowed_dimensions, true ) ) {
+			continue;
+		}
+
+		foreach ( $definition['terms'] as $term ) {
+			if ( empty( $term['id'] ) ) {
+				continue;
+			}
+			mom_sitemap_add_url( $urls, mom_i18n_term_url( $dimension, (string) $term['id'], $language ) );
+		}
+	}
+}
+
 function mom_sitemap_language_urls( $language ) {
 	$language = 'en' === $language ? 'en' : 'es';
 	$urls     = array();
@@ -129,6 +154,7 @@ function mom_sitemap_language_urls( $language ) {
 	foreach ( array( 'topics', 'stages', 'audience', 'latest' ) as $hub ) {
 		mom_sitemap_add_url( $urls, mom_sitemap_discovery_url( $hub, $language ) );
 	}
+	mom_sitemap_add_taxonomy_urls( $urls, $language );
 
 	$content_ids = get_posts(
 		array(

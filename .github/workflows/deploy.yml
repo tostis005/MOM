@@ -134,13 +134,34 @@ jobs:
           HOME_URL="$("${DOCKER[@]}" exec mom-wp php -r 'require "/var/www/html/wp-load.php"; if ("/%postname%/" !== get_option("permalink_structure")) { update_option("permalink_structure", "/%postname%/"); } flush_rewrite_rules(true); echo rtrim(home_url("/"), "/");')"
           test -n "$HOME_URL"
 
-          if command -v curl >/dev/null 2>&1; then
-            for route in / /en/ /temas/sueno/ /en/topics/sleep/; do
-              code="$(curl -L --max-redirs 5 --connect-timeout 10 --max-time 30 -sS -o /dev/null -w '%{http_code}' "$HOME_URL$route")"
-              echo "ROUTE_CHECK $code $HOME_URL$route"
-              case "$code" in 2??) ;; *) exit 1 ;; esac
-            done
-          fi
-
           echo "MOM desplegado correctamente en mom-wp:$TARGET"
           REMOTE
+
+      - name: Verify public routes and sitemaps
+        shell: bash
+        env:
+          SITE_URL: https://matternal.com
+        run: |
+          set -euo pipefail
+
+          for route in / /en/ /temas/sueno/ /en/topics/sleep/ /sitemap.xml /sitemap-es.xml /sitemap-en.xml; do
+            body="$(mktemp)"
+            code="$(curl -L --retry 2 --retry-delay 2 --retry-all-errors --max-redirs 5 --connect-timeout 10 --max-time 45 -sS -o "$body" -w '%{http_code}' "$SITE_URL$route")"
+            echo "ROUTE_CHECK $code $SITE_URL$route"
+            case "$code" in 2??) ;; *) cat "$body"; rm -f "$body"; exit 1 ;; esac
+
+            case "$route" in
+              /sitemap.xml)
+                grep -q '<sitemapindex' "$body"
+                test "$(grep -c '<sitemap>' "$body")" -eq 2
+                grep -q 'sitemap-es.xml' "$body"
+                grep -q 'sitemap-en.xml' "$body"
+                ;;
+              /sitemap-es.xml|/sitemap-en.xml)
+                grep -q '<urlset' "$body"
+                grep -q '<loc>' "$body"
+                ;;
+            esac
+
+            rm -f "$body"
+          done

@@ -7,12 +7,23 @@
 $current_language = mom_is_english() ? 'en' : 'es';
 $current_flag     = 'en' === $current_language ? '🇺🇸' : '🇪🇸';
 $home_url         = mom_language_home_url();
-$site_name        = get_bloginfo( 'name' ) ? get_bloginfo( 'name' ) : 'MOM';
+$site_name        = 'Matternal';
+$brand_icon_file  = get_template_directory() . '/assets/images/matternal-favicon.svg';
+$brand_icon_url   = get_template_directory_uri() . '/assets/images/matternal-favicon.svg';
 $nav_items        = array(
 	array( 'hub' => 'topics', 'label' => mom_t( 'Temas', 'Topics' ) ),
 	array( 'hub' => 'stages', 'label' => mom_t( 'Etapas', 'Stages' ) ),
 	array( 'hub' => 'audience', 'label' => mom_t( 'Para quién', 'For whom' ) ),
 	array( 'hub' => 'latest', 'label' => mom_t( 'Últimos artículos', 'Latest articles' ) ),
+);
+
+/* Keep the public-facing site name aligned with the Matternal brand. */
+add_filter(
+	'option_blogname',
+	static function ( $value ) {
+		return 'Matternal';
+	},
+	99
 );
 
 /* Keep overlay assets fresh after theme updates instead of relying on the static theme version. */
@@ -41,10 +52,15 @@ wp_enqueue_script(
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php wp_head(); ?>
+	<link rel="icon" type="image/svg+xml" href="<?php echo esc_url( $brand_icon_url . ( file_exists( $brand_icon_file ) ? '?ver=' . filemtime( $brand_icon_file ) : '' ) ); ?>">
+	<meta name="theme-color" content="#f8f4ef">
 	<style id="mom-production-polish">
 		img{image-rendering:auto;-webkit-font-smoothing:antialiased}
 		.site-header{box-shadow:0 1px 0 rgba(74,52,46,.03)}
-		.site-brand strong::after{content:"♥";display:inline-block;margin-left:4px;color:var(--mom-rose);font:400 .34em/1 Georgia,serif;vertical-align:top;transform:translateY(-1px)}
+		.site-brand strong::after{content:none}
+		.matternal-wordmark{display:inline-flex;align-items:baseline;white-space:nowrap}
+		.matternal-wordmark__matter{color:var(--mom-rose-deep)}
+		.matternal-wordmark__nal{color:var(--mom-ink)}
 		.header-search svg{width:19px;height:19px;display:block;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}
 		@media (min-width:981px) and (max-width:1180px){
 			.header-main{grid-template-columns:minmax(170px,auto) 1fr auto;gap:18px}
@@ -63,8 +79,8 @@ wp_enqueue_script(
 <header class="site-header">
 	<div class="container header-main">
 		<a class="site-brand" href="<?php echo esc_url( $home_url ); ?>" aria-label="<?php echo esc_attr( $site_name ); ?>">
-			<strong><?php echo esc_html( $site_name ); ?></strong>
-			<small><?php echo esc_html( mom_t( 'maternidad con más sentido', 'motherhood with more meaning' ) ); ?></small>
+			<strong class="matternal-wordmark"><span class="matternal-wordmark__matter">Matter</span><span class="matternal-wordmark__nal">nal</span></strong>
+			<small><?php echo esc_html( mom_t( 'maternidad que importa', 'motherhood that matters' ) ); ?></small>
 		</a>
 
 		<nav class="primary-nav" aria-label="<?php echo esc_attr( mom_t( 'Navegación principal', 'Primary navigation' ) ); ?>">
@@ -91,7 +107,7 @@ wp_enqueue_script(
 
 <div class="mom-overlay" id="mom-search-overlay" data-mom-overlay role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="mom-search-title">
 	<div class="mom-overlay-top">
-		<div class="mom-overlay-brand"><?php echo esc_html( $site_name ); ?></div>
+		<div class="mom-overlay-brand"><span class="matternal-wordmark"><span class="matternal-wordmark__matter">Matter</span><span class="matternal-wordmark__nal">nal</span></span></div>
 		<button class="mom-overlay-close" type="button" data-close-overlay aria-label="<?php echo esc_attr( mom_t( 'Cerrar buscador', 'Close search' ) ); ?>">×</button>
 	</div>
 	<div class="mom-overlay-body">
@@ -111,7 +127,7 @@ wp_enqueue_script(
 
 <div class="mom-overlay" id="mom-language-overlay" data-mom-overlay role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="mom-language-title">
 	<div class="mom-overlay-top">
-		<div class="mom-overlay-brand"><?php echo esc_html( $site_name ); ?></div>
+		<div class="mom-overlay-brand"><span class="matternal-wordmark"><span class="matternal-wordmark__matter">Matter</span><span class="matternal-wordmark__nal">nal</span></span></div>
 		<button class="mom-overlay-close" type="button" data-close-overlay aria-label="<?php echo esc_attr( mom_t( 'Cerrar selector de idioma', 'Close language selector' ) ); ?>">×</button>
 	</div>
 	<div class="mom-overlay-body">
@@ -136,7 +152,7 @@ wp_enqueue_script(
 
 <div class="mom-overlay" id="mom-mobile-menu" data-mom-overlay role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="mom-mobile-menu-title">
 	<div class="mom-overlay-top">
-		<div class="mom-overlay-brand" id="mom-mobile-menu-title"><?php echo esc_html( $site_name ); ?></div>
+		<div class="mom-overlay-brand" id="mom-mobile-menu-title"><span class="matternal-wordmark"><span class="matternal-wordmark__matter">Matter</span><span class="matternal-wordmark__nal">nal</span></span></div>
 		<button class="mom-overlay-close" type="button" data-close-overlay aria-label="<?php echo esc_attr( mom_t( 'Cerrar menú', 'Close menu' ) ); ?>">×</button>
 	</div>
 	<div class="mom-overlay-body">

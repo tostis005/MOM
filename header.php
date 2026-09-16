@@ -59,8 +59,10 @@ wp_enqueue_script(
 		.site-header{box-shadow:0 1px 0 rgba(74,52,46,.03)}
 		.site-brand strong::after{content:none}
 		.matternal-wordmark{display:inline-flex;align-items:baseline;white-space:nowrap}
-		.matternal-wordmark__matter{color:var(--mom-rose-deep)}
-		.matternal-wordmark__nal{color:var(--mom-ink)}
+		.matternal-wordmark__matter{color:#b6536d}
+		.matternal-wordmark__nal{color:#211a18}
+		.matternal-wordmark--inverse .matternal-wordmark__matter{color:#e8a8b2}
+		.matternal-wordmark--inverse .matternal-wordmark__nal{color:#fffaf7}
 		.header-search svg{width:19px;height:19px;display:block;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}
 		@media (min-width:981px) and (max-width:1180px){
 			.header-main{grid-template-columns:minmax(170px,auto) 1fr auto;gap:18px}

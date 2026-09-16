@@ -9,7 +9,7 @@
 <footer class="site-footer">
 	<div class="container footer-main">
 		<div style="grid-column: 1 / -1;">
-			<div class="footer-brand"><span class="matternal-wordmark"><span class="matternal-wordmark__matter">Matter</span><span class="matternal-wordmark__nal">nal</span></span></div>
+			<div class="footer-brand"><span class="matternal-wordmark matternal-wordmark--inverse"><span class="matternal-wordmark__matter">Matter</span><span class="matternal-wordmark__nal">nal</span></span></div>
 			<p class="footer-copy"><?php echo esc_html( mom_t( 'Información práctica para entender mejor la crianza, la maternidad y la vida familiar sin convertir cada día en un examen.', 'Practical information to understand parenting, motherhood and family life without turning every day into a test.' ) ); ?></p>
 		</div>
 	</div>

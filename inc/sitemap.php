@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! defined( 'MOM_SITEMAP_VERSION' ) ) {
-	define( 'MOM_SITEMAP_VERSION', '2026-09-16-1' );
+	define( 'MOM_SITEMAP_VERSION', '2026-09-16-2' );
 }
 
 function mom_sitemap_register_rewrite_rules() {

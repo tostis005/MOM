@@ -385,8 +385,22 @@ function mom_i18n_hreflang_links() {
 	if ( is_admin() ) {
 		return;
 	}
-	$es = mom_language_switch_url( 'es' );
-	$en = mom_language_switch_url( 'en' );
+
+	$es = '';
+	$en = '';
+
+	if ( is_singular( 'post' ) ) {
+		$post_id          = (int) get_queried_object_id();
+		$current_language = mom_i18n_post_language( $post_id );
+		$es_id            = 'es' === $current_language ? $post_id : mom_i18n_find_translation( $post_id, 'es' );
+		$en_id            = 'en' === $current_language ? $post_id : mom_i18n_find_translation( $post_id, 'en' );
+		$es               = $es_id ? mom_i18n_post_url( $es_id ) : '';
+		$en               = $en_id ? mom_i18n_post_url( $en_id ) : '';
+	} else {
+		$es = mom_language_switch_url( 'es' );
+		$en = mom_language_switch_url( 'en' );
+	}
+
 	if ( $es ) {
 		echo '<link rel="alternate" hreflang="es-ES" href="' . esc_url( $es ) . '">' . "\n";
 		echo '<link rel="alternate" hreflang="x-default" href="' . esc_url( $es ) . '">' . "\n";

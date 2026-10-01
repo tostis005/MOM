@@ -186,6 +186,9 @@ function mom_discovery_hreflang_links() {
 	$hub   = (string) get_query_var( 'mom_hub' );
 	$pages = mom_discovery_pages();
 	if ( $hub && isset( $pages[ $hub ] ) ) {
+		if ( function_exists( 'mom_seo_discovery_hub_is_indexable' ) && ! mom_seo_discovery_hub_is_indexable( $hub ) ) {
+			return;
+		}
 		$es = mom_discovery_url( $hub, 'es' );
 		$en = mom_discovery_url( $hub, 'en' );
 		echo '<link rel="alternate" hreflang="es-ES" href="' . esc_url( $es ) . '">' . "\n";

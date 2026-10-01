@@ -88,12 +88,12 @@ while ( have_posts() ) : the_post();
 			<header class="latest-head"><div><span class="section-label"><?php echo esc_html( mom_t( 'Sigue leyendo', 'Keep reading' ) ); ?></span><h2><?php echo esc_html( mom_t( 'Más en MOM', 'More from MOM' ) ); ?></h2></div></header>
 			<div class="card-grid">
 				<?php
-				$related = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 3, 'post__not_in' => array( get_the_ID() ), 'ignore_sticky_posts' => true ) );
-				while ( $related->have_posts() ) :
-					$related->the_post();
-					mom_render_post_card( get_the_ID() );
-				endwhile;
-				wp_reset_postdata();
+				$related_ids = function_exists( 'mom_seo_related_post_ids' )
+					? mom_seo_related_post_ids( get_the_ID(), 3 )
+					: array();
+				foreach ( $related_ids as $related_id ) :
+					mom_render_post_card( $related_id );
+				endforeach;
 				?>
 			</div>
 		</div>

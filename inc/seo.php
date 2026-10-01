@@ -372,3 +372,57 @@ function mom_seo_render_structured_data() {
 	echo '<script type="application/ld+json">' . wp_json_encode( $data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ) . '</script>' . "\n";
 }
 add_action( 'wp_head', 'mom_seo_render_structured_data', 20 );
+
+
+function mom_seo_related_post_ids( $post_id, $limit = 3 ) {
+	$post_id  = (int) $post_id;
+	$limit    = max( 1, (int) $limit );
+	$language = (string) get_post_meta( $post_id, '_content_language', true );
+	$language = in_array( $language, array( 'es', 'en' ), true ) ? $language : mom_seo_language();
+	$topic_id = function_exists( 'mom_primary_topic_id' ) ? mom_primary_topic_id( $post_id ) : '';
+	$taxonomy = function_exists( 'mom_taxonomy_name' ) ? mom_taxonomy_name( 'topic' ) : '';
+	$ids      = array();
+
+	$base_args = array(
+		'post_type'           => 'post',
+		'post_status'         => 'publish',
+		'posts_per_page'      => $limit,
+		'fields'              => 'ids',
+		'no_found_rows'       => true,
+		'ignore_sticky_posts' => true,
+		'suppress_filters'    => true,
+		'post__not_in'        => array( $post_id ),
+		'meta_query'          => array(
+			array(
+				'key'   => '_content_language',
+				'value' => $language,
+			),
+		),
+		'orderby'             => 'date',
+		'order'               => 'DESC',
+	);
+
+	if ( $taxonomy && $topic_id && taxonomy_exists( $taxonomy ) ) {
+		$topic_args              = $base_args;
+		$topic_args['tax_query'] = array(
+			array(
+				'taxonomy'         => $taxonomy,
+				'field'            => 'slug',
+				'terms'            => sanitize_title( (string) $topic_id ),
+				'include_children' => true,
+			),
+		);
+		$topic_query = new WP_Query( $topic_args );
+		$ids         = array_values( array_map( 'intval', $topic_query->posts ) );
+	}
+
+	if ( count( $ids ) < $limit ) {
+		$fallback_args                   = $base_args;
+		$fallback_args['posts_per_page'] = $limit - count( $ids );
+		$fallback_args['post__not_in']   = array_merge( array( $post_id ), $ids );
+		$fallback_query                  = new WP_Query( $fallback_args );
+		$ids                             = array_merge( $ids, array_map( 'intval', $fallback_query->posts ) );
+	}
+
+	return array_slice( array_values( array_unique( $ids ) ), 0, $limit );
+}

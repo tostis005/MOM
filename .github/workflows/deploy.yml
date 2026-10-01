@@ -163,6 +163,10 @@ jobs:
               /para-quien/|/en/for-whom/)
                 grep -Eqi "name=['\"]robots['\"][^>]*noindex" "$body"
                 grep -qi '<link rel="canonical"' "$body"
+                if grep -qi 'rel="alternate" hreflang=' "$body"; then
+                  echo "ERROR: noindex route should not emit hreflang: $route"
+                  exit 1
+                fi
                 ;;
               /sitemap.xml)
                 grep -q '<sitemapindex' "$body"

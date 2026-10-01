@@ -386,6 +386,13 @@ function mom_i18n_hreflang_links() {
 		return;
 	}
 
+	if ( is_tax() && function_exists( 'mom_seo_taxonomy_term_is_indexable' ) ) {
+		$term = get_queried_object();
+		if ( $term instanceof WP_Term && ! mom_seo_taxonomy_term_is_indexable( $term ) ) {
+			return;
+		}
+	}
+
 	$es = '';
 	$en = '';
 

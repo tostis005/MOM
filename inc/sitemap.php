@@ -141,7 +141,7 @@ function mom_sitemap_add_taxonomy_urls( &$urls, $language ) {
 				continue;
 			}
 			$term_id = (string) $term['id'];
-			if ( function_exists( 'mom_seo_term_has_language_content' ) && ! mom_seo_term_has_language_content( $dimension, $term_id, $language ) ) {
+			if ( function_exists( 'mom_seo_taxonomy_term_id_is_indexable' ) && ! mom_seo_taxonomy_term_id_is_indexable( $dimension, $term_id, $language ) ) {
 				continue;
 			}
 			mom_sitemap_add_url( $urls, mom_i18n_term_url( $dimension, $term_id, $language ) );

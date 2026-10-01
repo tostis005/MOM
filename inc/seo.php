@@ -101,6 +101,106 @@ function mom_seo_post_description( $post_id ) {
 	return $excerpt ? wp_trim_words( $excerpt, 30, '' ) : '';
 }
 
+
+function mom_seo_taxonomy_context( $term ) {
+	if ( ! $term instanceof WP_Term || ! function_exists( 'mom_i18n_dimension_from_taxonomy' ) ) {
+		return array();
+	}
+
+	$dimension = mom_i18n_dimension_from_taxonomy( $term->taxonomy );
+	$term_id   = (string) get_term_meta( $term->term_id, '_content_term_id', true );
+	$term_id   = $term_id ? $term_id : (string) $term->slug;
+	$language  = mom_seo_language();
+	$label     = (string) $term->name;
+
+	if ( $dimension && function_exists( 'content_platform_term_label' ) ) {
+		$localized = content_platform_term_label( $dimension, $term_id, $language );
+		if ( $localized ) {
+			$label = $localized;
+		}
+	}
+
+	return array(
+		'dimension' => (string) $dimension,
+		'term_id'   => (string) $term_id,
+		'language'  => (string) $language,
+		'label'     => (string) $label,
+	);
+}
+
+function mom_seo_term_language_count( $dimension, $term_id, $language ) {
+	$language = 'en' === $language ? 'en' : 'es';
+	$key      = (string) $dimension . ':' . (string) $term_id . ':' . $language;
+	static $cache = array();
+
+	if ( array_key_exists( $key, $cache ) ) {
+		return $cache[ $key ];
+	}
+
+	$taxonomy = function_exists( 'mom_taxonomy_name' ) ? mom_taxonomy_name( $dimension ) : '';
+	if ( ! $taxonomy || ! taxonomy_exists( $taxonomy ) ) {
+		$cache[ $key ] = 0;
+		return 0;
+	}
+
+	$query = new WP_Query(
+		array(
+			'post_type'           => 'post',
+			'post_status'         => 'publish',
+			'posts_per_page'      => 1,
+			'fields'              => 'ids',
+			'no_found_rows'       => false,
+			'ignore_sticky_posts' => true,
+			'suppress_filters'    => true,
+			'meta_query'          => array(
+				array(
+					'key'   => '_content_language',
+					'value' => $language,
+				),
+			),
+			'tax_query'           => array(
+				array(
+					'taxonomy'         => $taxonomy,
+					'field'            => 'slug',
+					'terms'            => sanitize_title( (string) $term_id ),
+					'include_children' => true,
+				),
+			),
+		)
+	);
+
+	$cache[ $key ] = (int) $query->found_posts;
+	return $cache[ $key ];
+}
+
+function mom_seo_taxonomy_term_id_is_indexable( $dimension, $term_id, $language ) {
+	if ( ! mom_seo_taxonomy_dimension_is_indexable( $dimension ) ) {
+		return false;
+	}
+
+	return mom_seo_term_language_count( $dimension, $term_id, $language ) >= 3;
+}
+
+function mom_seo_taxonomy_term_is_indexable( $term, $language = '' ) {
+	$context = mom_seo_taxonomy_context( $term );
+	if ( empty( $context ) ) {
+		return false;
+	}
+
+	$language = in_array( $language, array( 'es', 'en' ), true ) ? $language : $context['language'];
+	return mom_seo_taxonomy_term_id_is_indexable( $context['dimension'], $context['term_id'], $language );
+}
+
+if ( ! function_exists( 'mom_term_language_count' ) ) {
+	function mom_term_language_count( $term ) {
+		$context = mom_seo_taxonomy_context( $term );
+		if ( empty( $context ) ) {
+			return 0;
+		}
+		return mom_seo_term_language_count( $context['dimension'], $context['term_id'], $context['language'] );
+	}
+}
+
 function mom_seo_document_title( $title ) {
 	if ( mom_seo_plugin_handles_metadata() ) {
 		return $title;
@@ -117,6 +217,25 @@ function mom_seo_document_title( $title ) {
 		$copy = mom_seo_hub_copy( $hub, $language );
 		if ( ! empty( $copy['title'] ) ) {
 			return $copy['title'];
+		}
+	}
+
+	if ( is_tax() ) {
+		$term = get_queried_object();
+		$context = mom_seo_taxonomy_context( $term );
+		if ( ! empty( $context['label'] ) ) {
+			if ( 'topic' === $context['dimension'] ) {
+				return sprintf(
+					'en' === $language ? '%s: practical parenting guides | Matternal' : '%s: guías prácticas de crianza | Matternal',
+					$context['label']
+				);
+			}
+			if ( 'stage' === $context['dimension'] ) {
+				return sprintf(
+					'en' === $language ? '%s: parenting guides by stage | Matternal' : '%s: guías de maternidad y crianza | Matternal',
+					$context['label']
+				);
+			}
 		}
 	}
 
@@ -149,14 +268,25 @@ function mom_seo_current_description() {
 	if ( is_tax() ) {
 		$term = get_queried_object();
 		if ( $term instanceof WP_Term ) {
+			$context     = mom_seo_taxonomy_context( $term );
 			$description = trim( wp_strip_all_tags( (string) $term->description ) );
-			if ( '' === $description && function_exists( 'mom_i18n_dimension_from_taxonomy' ) && function_exists( 'mom_topic_description' ) ) {
-				$dimension = mom_i18n_dimension_from_taxonomy( $term->taxonomy );
-				$term_id   = (string) get_term_meta( $term->term_id, '_content_term_id', true );
-				if ( 'topic' === $dimension && $term_id ) {
-					$description = mom_topic_description( $term_id );
+
+			if ( '' === $description && ! empty( $context ) && 'topic' === $context['dimension'] && function_exists( 'mom_topic_description' ) ) {
+				$description = mom_topic_description( $context['term_id'] );
+			}
+
+			if ( '' === $description && ! empty( $context['label'] ) ) {
+				if ( 'stage' === $context['dimension'] ) {
+					$description = 'en' === $language
+						? sprintf( 'Practical Matternal guides for %s: everyday routines, transitions, family decisions and realistic support for this stage.', $context['label'] )
+						: sprintf( 'Guías prácticas de Matternal para %s: rutinas, cambios, decisiones familiares y acompañamiento realista para esta etapa.', $context['label'] );
+				} elseif ( 'topic' === $context['dimension'] ) {
+					$description = 'en' === $language
+						? sprintf( 'Explore practical Matternal guides about %s, with clear context and realistic ideas for everyday family life.', $context['label'] )
+						: sprintf( 'Explora guías prácticas de Matternal sobre %s, con contexto claro e ideas realistas para el día a día familiar.', $context['label'] );
 				}
 			}
+
 			return $description;
 		}
 	}
@@ -245,15 +375,12 @@ function mom_seo_robots( $robots ) {
 		unset( $robots['index'] );
 	}
 
-	if ( is_tax() && function_exists( 'mom_i18n_dimension_from_taxonomy' ) ) {
+	if ( is_tax() ) {
 		$term = get_queried_object();
-		if ( $term instanceof WP_Term ) {
-			$dimension = mom_i18n_dimension_from_taxonomy( $term->taxonomy );
-			if ( ! mom_seo_taxonomy_dimension_is_indexable( $dimension ) ) {
-				$robots['noindex'] = true;
-				$robots['follow']  = true;
-				unset( $robots['index'] );
-			}
+		if ( $term instanceof WP_Term && ! mom_seo_taxonomy_term_is_indexable( $term ) ) {
+			$robots['noindex'] = true;
+			$robots['follow']  = true;
+			unset( $robots['index'] );
 		}
 	}
 
@@ -262,47 +389,7 @@ function mom_seo_robots( $robots ) {
 add_filter( 'wp_robots', 'mom_seo_robots', 20 );
 
 function mom_seo_term_has_language_content( $dimension, $term_id, $language ) {
-	$language = 'en' === $language ? 'en' : 'es';
-	$key      = (string) $dimension . ':' . (string) $term_id . ':' . $language;
-	static $cache = array();
-	if ( array_key_exists( $key, $cache ) ) {
-		return $cache[ $key ];
-	}
-
-	$taxonomy = function_exists( 'mom_taxonomy_name' ) ? mom_taxonomy_name( $dimension ) : '';
-	if ( ! $taxonomy || ! taxonomy_exists( $taxonomy ) ) {
-		$cache[ $key ] = false;
-		return false;
-	}
-
-	$query = new WP_Query(
-		array(
-			'post_type'              => 'post',
-			'post_status'            => 'publish',
-			'posts_per_page'         => 1,
-			'fields'                 => 'ids',
-			'no_found_rows'          => true,
-			'ignore_sticky_posts'    => true,
-			'suppress_filters'       => true,
-			'meta_query'             => array(
-				array(
-					'key'   => '_content_language',
-					'value' => $language,
-				),
-			),
-			'tax_query'              => array(
-				array(
-					'taxonomy'         => $taxonomy,
-					'field'            => 'slug',
-					'terms'            => sanitize_title( (string) $term_id ),
-					'include_children' => true,
-				),
-			),
-		)
-	);
-
-	$cache[ $key ] = ! empty( $query->posts );
-	return $cache[ $key ];
+	return mom_seo_term_language_count( $dimension, $term_id, $language ) > 0;
 }
 
 function mom_seo_render_structured_data() {

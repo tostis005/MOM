@@ -144,7 +144,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          for route in / /en/ /temas/sueno/ /en/topics/sleep/ /sitemap.xml /sitemap-es.xml /sitemap-en.xml; do
+          for route in / /en/ /temas/sueno/ /en/topics/sleep/ /para-quien/ /en/for-whom/ /sitemap.xml /sitemap-es.xml /sitemap-en.xml; do
             body="$(mktemp)"
             code="$(curl -L --retry 2 --retry-delay 2 --retry-all-errors --max-redirs 5 --connect-timeout 10 --max-time 45 -sS -o "$body" -w '%{http_code}' "$SITE_URL$route")"
             echo "ROUTE_CHECK $code $SITE_URL$route"
@@ -155,6 +155,14 @@ jobs:
                 grep -qi '<meta name="description"' "$body"
                 grep -qi '<link rel="canonical"' "$body"
                 grep -qi 'rel="alternate" hreflang=' "$body"
+                if grep -qi '<meta name="robots"[^>]*noindex' "$body"; then
+                  echo "ERROR: expected indexable route but found noindex: $route"
+                  exit 1
+                fi
+                ;;
+              /para-quien/|/en/for-whom/)
+                grep -qi '<meta name="robots"[^>]*noindex' "$body"
+                grep -qi '<link rel="canonical"' "$body"
                 ;;
               /sitemap.xml)
                 grep -q '<sitemapindex' "$body"

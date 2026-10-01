@@ -151,6 +151,11 @@ jobs:
             case "$code" in 2??) ;; *) cat "$body"; rm -f "$body"; exit 1 ;; esac
 
             case "$route" in
+              /|/en/|/temas/sueno/|/en/topics/sleep/)
+                grep -qi '<meta name="description"' "$body"
+                grep -qi '<link rel="canonical"' "$body"
+                grep -qi 'rel="alternate" hreflang=' "$body"
+                ;;
               /sitemap.xml)
                 grep -q '<sitemapindex' "$body"
                 test "$(grep -c '<sitemap>' "$body")" -eq 2

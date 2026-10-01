@@ -155,13 +155,13 @@ jobs:
                 grep -qi '<meta name="description"' "$body"
                 grep -qi '<link rel="canonical"' "$body"
                 grep -qi 'rel="alternate" hreflang=' "$body"
-                if grep -qi '<meta name="robots"[^>]*noindex' "$body"; then
+                if grep -Eqi "name=['\"]robots['\"][^>]*noindex" "$body"; then
                   echo "ERROR: expected indexable route but found noindex: $route"
                   exit 1
                 fi
                 ;;
               /para-quien/|/en/for-whom/)
-                grep -qi '<meta name="robots"[^>]*noindex' "$body"
+                grep -Eqi "name=['\"]robots['\"][^>]*noindex" "$body"
                 grep -qi '<link rel="canonical"' "$body"
                 ;;
               /sitemap.xml)

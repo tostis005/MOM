@@ -300,3 +300,8 @@ $mom_discovery_routing = get_template_directory() . '/inc/discovery-routing.php'
 if ( file_exists( $mom_discovery_routing ) ) {
 	require_once $mom_discovery_routing;
 }
+
+$mom_seo = get_template_directory() . '/inc/seo.php';
+if ( file_exists( $mom_seo ) ) {
+	require_once $mom_seo;
+}

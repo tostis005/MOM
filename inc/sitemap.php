@@ -125,7 +125,7 @@ function mom_sitemap_add_taxonomy_urls( &$urls, $language ) {
 		return;
 	}
 
-	$allowed_dimensions = array( 'topic', 'stage', 'audience', 'article_type' );
+	$allowed_dimensions = array( 'topic', 'stage' );
 	foreach ( content_platform_taxonomies() as $definition ) {
 		if ( empty( $definition['dimension'] ) || empty( $definition['terms'] ) || ! is_array( $definition['terms'] ) ) {
 			continue;
@@ -140,7 +140,11 @@ function mom_sitemap_add_taxonomy_urls( &$urls, $language ) {
 			if ( empty( $term['id'] ) ) {
 				continue;
 			}
-			mom_sitemap_add_url( $urls, mom_i18n_term_url( $dimension, (string) $term['id'], $language ) );
+			$term_id = (string) $term['id'];
+			if ( function_exists( 'mom_seo_term_has_language_content' ) && ! mom_seo_term_has_language_content( $dimension, $term_id, $language ) ) {
+				continue;
+			}
+			mom_sitemap_add_url( $urls, mom_i18n_term_url( $dimension, $term_id, $language ) );
 		}
 	}
 }
@@ -152,6 +156,9 @@ function mom_sitemap_language_urls( $language ) {
 	mom_sitemap_add_url( $urls, mom_sitemap_home_url( $language ) );
 
 	foreach ( array( 'topics', 'stages', 'audience', 'latest' ) as $hub ) {
+		if ( function_exists( 'mom_seo_discovery_hub_is_indexable' ) && ! mom_seo_discovery_hub_is_indexable( $hub ) ) {
+			continue;
+		}
 		mom_sitemap_add_url( $urls, mom_sitemap_discovery_url( $hub, $language ) );
 	}
 	mom_sitemap_add_taxonomy_urls( $urls, $language );
